@@ -1,9 +1,22 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T22:52:13.170229+08:00",
+  "generated_at": "2026-04-16T22:54:49.098136+08:00",
   "since_date": "2026-04-13",
   "top_tweets": [
+    {
+      "id": "2043742105852621052",
+      "text": "As AI agents accelerate coding, what is the future of software engineering? Some trends are clear, such as the Product Management Bottleneck, referring to the idea that we are more constrained by deciding what to build rather than the actual building. But many implications, like",
+      "author": "AndrewYNg",
+      "name": "Andrew Ng",
+      "likes": 835,
+      "retweets": 155,
+      "replies": 106,
+      "created": "Mon Apr 13 17:24:23 +0000 2026",
+      "url": "https://x.com/AndrewYNg/status/2043742105852621052",
+      "source": "Product Management",
+      "summary_zh": "隨著 AI 加速編碼效率，產品管理成為新瓶頸——我們受限的不再是技術實現，而是決定要做什麼；PM 和設計師需要重新思考在 AI 時代的角色定位。"
+    },
     {
       "id": "2044082457910358480",
       "text": "Anyone who thinks \"AI = easy mode\" honestly just sounds dumb and out of touch.\n\nFor context, I’ve been doing product design for 20+ years, including giant brands like Febreze, Swiffer, and Abercrombie with multi-continent supply chains etc. \n\nI can tell you that AI is by FAR the",
@@ -15,20 +28,7 @@
       "created": "Tue Apr 14 15:56:49 +0000 2026",
       "url": "https://x.com/thefinnmckenty/status/2044082457910358480",
       "source": "Product Design",
-      "summary_zh": "20年資深產品設計師揭示AI並非捷徑，而是加深設計複雜度的工具，尤其在涉及多地供應鏈的大型品牌專案中更是如此。"
-    },
-    {
-      "id": "2044381139717201958",
-      "text": "Holy shit...Google just quietly changed UI design forever.\n\nThey introduced design.md\nAnd it makes AI-generated apps look actually… designed.\n\nNo Figma.\nNo design system docs.\nNo CSS tweaking for hours.\n\nJust one plain text file.\n\nYou literally describe your UI in English:\n\n• https://t.co/xf15wDoW3X",
-      "author": "NainsiDwiv50980",
-      "name": "Nainsi Dwivedi",
-      "likes": 181,
-      "retweets": 27,
-      "replies": 15,
-      "created": "Wed Apr 15 11:43:41 +0000 2026",
-      "url": "https://x.com/NainsiDwiv50980/status/2044381139717201958",
-      "source": "Design System",
-      "summary_zh": "Google推出design.md工具，讓設計師用純文本描述UI即可生成設計系統，無需Figma或複雜CSS調整，重塑AI時代的設計流程。"
+      "summary_zh": "20+ 年資深產品設計師指出 AI 遠非易用模式，需要深度領域知識才能有效應用，盲目迷信 AI 會導致決策失誤。"
     },
     {
       "id": "2044401269347852592",
@@ -41,59 +41,59 @@
       "created": "Wed Apr 15 13:03:40 +0000 2026",
       "url": "https://x.com/longstoryfarms/status/2044401269347852592",
       "source": "Product Design",
-      "summary_zh": "產品設計中的零件配置是刻意的商業決策，限制使用者維修權；看似品質問題實則是修復權的設計剝奪。"
+      "summary_zh": "產品設計中的維修權問題本質是設計選擇，企業有意透過零件配置限制消費者自行維修的能力，這是商業策略而非品質問題。"
     },
     {
-      "id": "2044438095723221080",
-      "text": "Vibe coding is fast. It’s also unpredictable. Spec-driven development is the alternative: define what to build in a clear spec, then let your coding agent implement it.\n\nIn our new spec-tacular short course with @JetBrains and @JetBrains_Edu, you’ll learn how to:\n\n⚙️ Write https://t.co/YmxddH9pLI",
-      "author": "DeepLearningAI",
-      "name": "DeepLearning.AI",
-      "likes": 219,
-      "retweets": 42,
-      "replies": 6,
-      "created": "Wed Apr 15 15:30:00 +0000 2026",
-      "url": "https://x.com/DeepLearningAI/status/2044438095723221080",
+      "id": "2044472288599507108",
+      "text": "This is really accurate. \n\nAs much as we all want to drink the vibe coding kool-aid, the reality is that 90%+ of all code in a company is maintaining and migrating existing stuff that is complicated and messy. You can definitely vibe code the remaining 10% but unless there is a",
+      "author": "chamath",
+      "name": "Chamath Palihapitiya",
+      "likes": 1150,
+      "retweets": 81,
+      "replies": 110,
+      "created": "Wed Apr 15 17:45:52 +0000 2026",
+      "url": "https://x.com/chamath/status/2044472288599507108",
       "source": "Vibe Coding",
-      "summary_zh": "Spec-driven開發相比Vibe coding更具可預測性，強調在清晰規格基礎上讓AI代理實現，降低不確定性。"
+      "summary_zh": "企業 90% 以上的程式碼工作是維護和遷移既有複雜系統，而非新開發；Vibe coding 只適用於少數新功能，難以應對實務複雜性。"
     },
     {
-      "id": "2044454605703286806",
-      "text": "Introducing Design Stack.\n\nToday, we're releasing @ADPList's entire masterclass library ⭐️ 80+ videos on design, career, AI, product and more (100% free) from all our flagship conferences.\n\nWhy are we doing this?\n\nWe believe opening this full knowledge base will move our https://t.co/t8aCiP0WvH",
-      "author": "felixleezd",
-      "name": "Felix Lee",
-      "likes": 534,
-      "retweets": 34,
-      "replies": 664,
-      "created": "Wed Apr 15 16:35:36 +0000 2026",
-      "url": "https://x.com/felixleezd/status/2044454605703286806",
-      "source": "Product Design",
-      "summary_zh": "ADPList開放80+場景設計課程資料庫，涵蓋設計、產品、AI等領域知識，建立業界共享的知識基礎。"
+      "id": "2044387858409017567",
+      "text": "Vibe coding was a fun trend.\n\nNow it is a massive enterprise risk.\n\nYou cannot let 50 people build shadow IT without the guardrails of \n@superblocks",
+      "author": "KateMillerGems",
+      "name": "Kate Miller",
+      "likes": 578,
+      "retweets": 107,
+      "replies": 23,
+      "created": "Wed Apr 15 12:10:22 +0000 2026",
+      "url": "https://x.com/KateMillerGems/status/2044387858409017567",
+      "source": "Vibe Coding",
+      "summary_zh": "Vibe coding 如今成為企業風險，無管制的影子 IT 專案會削弱組織治理能力，需要建立適當的護欄和審查機制。"
     },
     {
-      "id": "2044083803149176966",
-      "text": "5 signs your SaaS design is costing you money:\n\n1. Users need a demo to understand the product\n2. Support keeps answering questions your UI should\n3. People sign up and never come back\n4. Investors ask what does this actually do?\n5. You're embarrassed to share the link\n\nIf 2+ of https://t.co/aaa3vYU6qx",
-      "author": "Tanjim38",
-      "name": "Tanjim | SaaS Product Designer",
-      "likes": 151,
-      "retweets": 7,
-      "replies": 2,
-      "created": "Tue Apr 14 16:02:10 +0000 2026",
-      "url": "https://x.com/Tanjim38/status/2044083803149176966",
-      "source": "Product Design",
-      "summary_zh": "識別SaaS設計缺陷的五大警訊：需要演示才能理解產品、支援部門疲於解釋、用戶留存低等，反映設計與商業目標的失alignment。"
+      "id": "2044442528183971915",
+      "text": "Claude Code just got it's biggest upgrade yet\n\nThe desktop app is now by far the best way to be building apps with AI, even better than the CLI\n\nIn this video I cover every single change and a few workflows for vibe coding faster than ever, even if you've never coded before: https://t.co/1V1GiKllT8",
+      "author": "AlexFinn",
+      "name": "Alex Finn",
+      "likes": 953,
+      "retweets": 53,
+      "replies": 104,
+      "created": "Wed Apr 15 15:47:37 +0000 2026",
+      "url": "https://x.com/AlexFinn/status/2044442528183971915",
+      "source": "Vibe Coding",
+      "summary_zh": "Claude Code 桌面應用成為 AI 輔助開發的最佳工具，支援無程式碼背景的使用者快速迭代，改變了人機協作的工作流程。"
     },
     {
-      "id": "2044399913258061850",
-      "text": "3 Figma plugins to build a design system 🧩 https://t.co/VHwFI5mZ86",
-      "author": "janm_uiux",
-      "name": "Jan Mraz",
-      "likes": 221,
-      "retweets": 33,
-      "replies": 2,
-      "created": "Wed Apr 15 12:58:17 +0000 2026",
-      "url": "https://x.com/janm_uiux/status/2044399913258061850",
-      "source": "Design System",
-      "summary_zh": "整理三個Figma外掛工具協助快速建立設計系統，簡化設計團隊的系統化工作流程。"
+      "id": "2044449830605582629",
+      "text": "New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.\n\nVibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb",
+      "author": "AndrewYNg",
+      "name": "Andrew Ng",
+      "likes": 2215,
+      "retweets": 330,
+      "replies": 84,
+      "created": "Wed Apr 15 16:16:38 +0000 2026",
+      "url": "https://x.com/AndrewYNg/status/2044449830605582629",
+      "source": "Vibe Coding",
+      "summary_zh": "規格驅動開發課程強調詳細需求定義的重要性，對治療 Vibe coding 常見的「輸出不符預期」問題有幫助。"
     },
     {
       "id": "2044173174561210389",
@@ -106,7 +106,20 @@
       "created": "Tue Apr 14 21:57:18 +0000 2026",
       "url": "https://x.com/foryoonchae/status/2044173174561210389",
       "source": "Product Design",
-      "summary_zh": "設計細節從草稿到最終產品的遺失案例，說明設計意圖在執行過程中流失的問題，影響品牌隱性訊息傳達。"
+      "summary_zh": "設計過程中隱藏品牌符號（如設計師名字）是細節考量，但從草稿到最終版本過程中遺漏細節會影響設計完整性與傳達效果。"
+    },
+    {
+      "id": "2043583979203469680",
+      "text": "Being a solo-founder:\n\n- 10% coding\n- 15% marketing\n- 5% operations\n- 5% management\n- 1% mental control\n- 6% UX/UI\n- 18% customer support\n- 12% sales\n- 10% debugging\n- 8% product strategy\n- 5% finance\n- 5% “wtf isn’t this working” existential crisis",
+      "author": "pmitu",
+      "name": "Paul Mit",
+      "likes": 658,
+      "retweets": 47,
+      "replies": 159,
+      "created": "Mon Apr 13 06:56:03 +0000 2026",
+      "url": "https://x.com/pmitu/status/2043583979203469680",
+      "source": "Product Management",
+      "summary_zh": "獨立創業者需要跨越十數個領域，其中產品策略、UX/UI 與客戶支援佔比最重，突顯全棧能力的必要性。"
     }
   ],
   "criteria": {
@@ -117,13 +130,13 @@
         "min_likes": 100
       },
       {
-        "label": "Design System",
-        "query": "design system figma",
+        "label": "Product Management",
+        "query": "product management",
         "min_likes": 100
       },
       {
-        "label": "AI Design",
-        "query": "AI design tool",
+        "label": "AI",
+        "query": "AI",
         "min_likes": 100
       },
       {
