@@ -162,14 +162,22 @@ def fetch_top_replies(conversation_id: str, max_results: int = 5) -> list[dict]:
                 for k in ("tweets", "data", "result", "results", "items"):
                     v = data.get(k)
                     if isinstance(v, list):
+                        actual_replies = [
+                            r for r in v
+                            if isinstance(r, dict)
+                            and (r.get("id") or r.get("tweet_id")) != conversation_id
+                            and (r.get("conversationId") == conversation_id or r.get("inReplyToStatusId") == conversation_id)
+                        ]
+                        if not actual_replies and v:
+                            print(f"  [info] conversationId filter not honored (got {len(v)} unrelated tweets for {conversation_id})")
+                            return []
                         replies = [
                             {
-                                "author": r.get("userScreenName", ""),
+                                "author": extract_author(r),
                                 "text": r.get("text") or r.get("full_text", ""),
                                 "likes": r.get("favoriteCount") or 0,
                             }
-                            for r in v
-                            if (r.get("id") or r.get("tweet_id")) != conversation_id
+                            for r in actual_replies
                         ]
                         replies.sort(key=lambda x: x["likes"], reverse=True)
                         return replies[:max_results]
@@ -177,33 +185,52 @@ def fetch_top_replies(conversation_id: str, max_results: int = 5) -> list[dict]:
         print(f"  [warn] replies for {conversation_id} failed: {e}")
     return []
 
+def extract_author(obj: dict) -> str:
+    """Try multiple known variants for an author/screen-name field."""
+    if not isinstance(obj, dict):
+        return ""
+    for key in ("userScreenName", "username", "screen_name", "screenName"):
+        v = obj.get(key)
+        if v:
+            return v
+    user = obj.get("user")
+    if isinstance(user, dict):
+        for key in ("screenName", "screen_name", "username", "userScreenName"):
+            v = user.get(key)
+            if v:
+                return v
+    return ""
+
 def enrich_with_context(tweets: list[dict]) -> None:
     """For each tweet, fetch the quoted/replied-to tweet and top replies (if available).
     Mutates tweets in place, adding a 'context' dict."""
-    debug_schema_logged = False
+    quote_schema_logged = False
+    reply_schema_logged = False
     for t in tweets:
         ctx = {"quoted_text": "", "quoted_author": "", "replied_text": "", "replied_author": "", "top_replies": []}
         detail = fetch_tweet_detail(t["id"])
-        if detail and not debug_schema_logged:
-            keys = sorted(k for k in detail.keys() if not k.startswith("_"))
-            print(f"  🔬 tweet_by_id schema sample: {keys[:20]}")
-            debug_schema_logged = True
         q = detail.get("quotedStatus") if isinstance(detail, dict) else None
         if isinstance(q, dict):
+            if not quote_schema_logged:
+                print(f"  🔬 quotedStatus keys: {sorted(q.keys())[:25]}")
+                quote_schema_logged = True
             ctx["quoted_text"] = q.get("text") or q.get("full_text", "")
-            ctx["quoted_author"] = q.get("userScreenName", "")
+            ctx["quoted_author"] = extract_author(q)
         r = detail.get("replyStatus") if isinstance(detail, dict) else None
         if isinstance(r, dict):
+            if not reply_schema_logged:
+                print(f"  🔬 replyStatus keys: {sorted(r.keys())[:25]}")
+                reply_schema_logged = True
             ctx["replied_text"] = r.get("text") or r.get("full_text", "")
-            ctx["replied_author"] = r.get("userScreenName", "")
+            ctx["replied_author"] = extract_author(r)
         conv_id = (detail or {}).get("conversationId") or t["id"]
         ctx["top_replies"] = fetch_top_replies(conv_id, max_results=5)
         t["context"] = ctx
         badges = []
         if ctx["quoted_text"]:
-            badges.append(f"↩quote @{ctx['quoted_author']}")
+            badges.append(f"↩quote @{ctx['quoted_author'] or '?'}")
         if ctx["replied_text"]:
-            badges.append(f"↩reply to @{ctx['replied_author']}")
+            badges.append(f"↩reply to @{ctx['replied_author'] or '?'}")
         if ctx["top_replies"]:
             badges.append(f"{len(ctx['top_replies'])} replies")
         if badges:
