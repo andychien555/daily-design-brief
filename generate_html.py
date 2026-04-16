@@ -59,18 +59,16 @@ def criteria_block(criteria: dict) -> str:
         f"<tr><td>{esc(k['label'])}</td><td><code>{esc(k['query'])}</code></td><td>≥ {k['min_likes']}</td></tr>"
         for k in criteria.get("keyword_pools", [])
     )
-    kol_rows = "".join(
-        f"<tr><td>{esc(g['label'])}</td><td>{esc(', '.join('@'+u for u in g['users']))}</td></tr>"
-        for g in criteria.get("kol_pools", [])
-    )
+    filter_items = "".join(f"<li>{esc(r)}</li>" for r in criteria.get("claude_filter_rules", []))
     top_n = criteria.get("top_n", 10)
-    formula = esc(criteria.get("score_formula", "likes + retweets × 2"))
+    since_days = criteria.get("since_days", 2)
+    formula = esc(criteria.get("score_formula", "likes"))
     return f"""
   <details class="criteria">
     <summary>📋 篩選標準（點開看我怎麼選的）</summary>
     <div class="criteria-body">
-      <p>每天從下列 <strong>關鍵字</strong> 與 <strong>KOL 追蹤</strong> 池合併所有候選推文，去重後依熱度分數排序，取 <strong>Top {top_n}</strong>，再由 Claude 產生中文摘要。</p>
-      <p><strong>熱度分數</strong>：<code>{formula}</code></p>
+      <p>每天從下列 <strong>4 組關鍵字</strong> 查詢 X 上最近 <strong>{since_days} 天</strong>、熱門 (Top) 排序的推文，去重後交由 Claude Haiku 4.5 做二次過濾與排序，最後輸出 <strong>Top {top_n}</strong> 並附繁體中文摘要。</p>
+      <p><strong>排序</strong>：<code>{formula}</code></p>
 
       <h4>關鍵字搜尋池</h4>
       <table>
@@ -78,13 +76,10 @@ def criteria_block(criteria: dict) -> str:
         <tbody>{kw_rows}</tbody>
       </table>
 
-      <h4>KOL 追蹤池</h4>
-      <table>
-        <thead><tr><th>分組</th><th>帳號</th></tr></thead>
-        <tbody>{kol_rows}</tbody>
-      </table>
+      <h4>Claude 過濾規則</h4>
+      <ul>{filter_items}</ul>
 
-      <p class="criteria-note">語言過濾：English、排除 replies / retweets。摘要由 Claude Haiku 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
+      <p class="criteria-note">語言：English、排除 replies / retweets。摘要由 Claude Haiku 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
     </div>
   </details>"""
 
@@ -107,13 +102,15 @@ def generate(data: dict) -> str:
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
 
     :root {{
-      --ink:     #0f0e0d;
-      --paper:   #f5f2ec;
-      --accent:  #c8460a;
-      --muted:   #8a8070;
-      --border:  #d8d0c4;
-      --card-bg: #faf8f4;
-      --hover:   #fff9f4;
+      --ink:       #ece6d9;
+      --ink-soft:  #bfb5a2;
+      --paper:     #14110e;
+      --accent:    #e85a1a;
+      --accent-ink:#14110e;
+      --muted:     #8a8070;
+      --border:    #2a2520;
+      --card-bg:   #1b1713;
+      --hover:     #241e18;
     }}
 
     html {{ font-size: 16px; }}
@@ -210,6 +207,8 @@ def generate(data: dict) -> str:
       color: #3a332c;
     }}
     .criteria-body p {{ margin-bottom: .75rem; }}
+    .criteria-body ul {{ padding-left: 1.2rem; margin-bottom: .75rem; }}
+    .criteria-body li {{ margin-bottom: .3rem; }}
     .criteria-body h4 {{
       font-family: 'DM Serif Display', serif;
       font-size: 1rem;
@@ -236,7 +235,7 @@ def generate(data: dict) -> str:
       text-transform: uppercase;
     }}
     .criteria-body code {{
-      background: rgba(200, 70, 10, 0.08);
+      background: rgba(232, 90, 26, 0.12);
       color: var(--accent);
       padding: 1px 6px;
       border-radius: 3px;
@@ -271,9 +270,10 @@ def generate(data: dict) -> str:
       top: -10px;
       left: -8px;
       background: var(--accent);
-      color: var(--paper);
+      color: var(--accent-ink);
       font-family: 'DM Serif Display', serif;
       font-size: .8rem;
+      font-weight: 600;
       line-height: 1;
       padding: .3rem .5rem;
       border-radius: 3px;
@@ -326,7 +326,7 @@ def generate(data: dict) -> str:
     .tweet-text {{
       font-size: .78rem;
       line-height: 1.6;
-      color: var(--muted);
+      color: var(--ink-soft);
       flex: 1;
       display: -webkit-box;
       -webkit-line-clamp: 5;
@@ -348,7 +348,7 @@ def generate(data: dict) -> str:
       margin-left: auto;
       font-size: .68rem;
       color: var(--muted);
-      background: rgba(138, 128, 112, 0.1);
+      background: rgba(232, 90, 26, 0.08);
       padding: 2px 7px;
       border-radius: 2px;
     }}
@@ -395,8 +395,8 @@ def generate(data: dict) -> str:
 
 <main>
   <p class="brief-intro">
-    每日從 X (Twitter) 自動精選 Product Design、UI/UX、Product Management、AI × Design 與設計師 KOL 的 Top {total} 熱門推文，
-    並用 Claude 產生中文摘要，每天早上 09:00 (UTC+8) 自動更新。
+    每日從 X (Twitter) 自動搜尋 Product Design、Design System、AI Agent、Vibe Coding 相關最近 2 天熱門推文，
+    由 Claude 過濾廣告/雜訊並產生繁體中文摘要，每天早上 09:00 (UTC+8) 自動更新。
   </p>
 
   <div class="archive-link">

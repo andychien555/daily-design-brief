@@ -39,7 +39,7 @@ def main():
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
     :root {{
-      --ink: #0f0e0d; --paper: #f5f2ec; --accent: #c8460a; --muted: #8a8070; --border: #d8d0c4;
+      --ink: #ece6d9; --paper: #14110e; --accent: #e85a1a; --muted: #8a8070; --border: #2a2520;
     }}
     body {{ font-family: 'DM Sans', sans-serif; background: var(--paper); color: var(--ink); min-height: 100vh; }}
     header {{ border-bottom: 2px solid var(--ink); padding: 2rem 0 1.25rem; text-align: center; }}

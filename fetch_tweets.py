@@ -21,57 +21,33 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 
-# Search queries for Product & Design topics
+# Search queries — product & design topics, last 2 days, Top-sorted
 SEARCH_QUERIES = [
     {
-        "label": "Product Design",
-        "query": "product design UX",
-        "min_likes": 200,
+        "label": "Product Design × AI UX",
+        "query": "product design AI UX",
+        "min_likes": 50,
     },
     {
-        "label": "UI Design",
-        "query": "UI design interface",
-        "min_likes": 200,
+        "label": "Design System × SaaS × Figma",
+        "query": "design system SaaS figma",
+        "min_likes": 50,
     },
     {
-        "label": "Product Management",
-        "query": "product management roadmap strategy",
-        "min_likes": 200,
+        "label": "AI Agent × Claude × Cursor × Design",
+        "query": "AI agent Claude cursor design",
+        "min_likes": 100,
     },
     {
-        "label": "AI + Design",
-        "query": "AI design product",
-        "min_likes": 300,
+        "label": "Vibe Coding × Prototype × Figma",
+        "query": "vibe coding prototype figma",
+        "min_likes": 50,
     },
 ]
+SINCE_DAYS = 2
 
-# KOL groups — fetch recent tweets from these accounts, rank by engagement
-KOL_GROUPS = [
-    {
-        "label": "PM 大神近期推文",
-        "users": ["cagan", "lennysan", "destraynor", "lissijean", "noah_weiss"],
-        "per_user": 10,
-        "top_n": 8,
-    },
-    {
-        "label": "設計大神近期推文",
-        "users": ["joulee", "lukew", "jnd1er", "leeloowrites"],
-        "per_user": 10,
-        "top_n": 8,
-    },
-    {
-        "label": "Andy 追蹤的設計師",
-        "users": [
-            "tomkrcha", "ivanhzhao", "ryolu_",
-            "splinetool", "stfnco", "marcelkargul",
-            "MagicPathAI", "DilumSanjaya", "mobbin",
-        ],
-        "per_user": 8,
-        "top_n": 10,
-    },
-]
 
-def search_tweets(query: str, min_likes: int, max_rows: int = 10) -> list[dict]:
+def search_tweets(query: str, min_likes: int, max_rows: int = 20, since_date: str | None = None) -> list[dict]:
     """Call 6551.io /open/twitter_search endpoint."""
     url = f"{API_BASE}/open/twitter_search"
     payload = {
@@ -83,6 +59,8 @@ def search_tweets(query: str, min_likes: int, max_rows: int = 10) -> list[dict]:
         "excludeReplies": True,
         "excludeRetweets": True,
     }
+    if since_date:
+        payload["sinceDate"] = since_date
     try:
         with httpx.Client(timeout=30) as client:
             resp = client.post(url, headers=HEADERS, json=payload)
@@ -97,38 +75,6 @@ def search_tweets(query: str, min_likes: int, max_rows: int = 10) -> list[dict]:
             return data if isinstance(data, list) else []
     except Exception as e:
         print(f"  [warn] Query '{query}' failed: {e}")
-        return []
-
-def fetch_user_tweets(username: str, max_results: int = 10) -> list[dict]:
-    """Fetch a user's recent tweets via /open/twitter_search with fromUser filter.
-
-    The /open/twitter_user_tweets endpoint requires a paid plan for most accounts;
-    search with fromUser is more permissive on the free tier.
-    """
-    url = f"{API_BASE}/open/twitter_search"
-    payload = {
-        "fromUser": username,
-        "maxResults": max_results,
-        "product": "Latest",
-        "excludeReplies": True,
-        "excludeRetweets": True,
-    }
-    try:
-        with httpx.Client(timeout=30) as client:
-            resp = client.post(url, headers=HEADERS, json=payload)
-            if resp.status_code >= 400:
-                print(f"  [warn] @{username} HTTP {resp.status_code}: {resp.text[:300]}")
-                return []
-            data = resp.json()
-            if isinstance(data, dict):
-                for key in ("tweets", "data", "result", "results", "items"):
-                    val = data.get(key)
-                    if isinstance(val, list):
-                        return val
-                return []
-            return data if isinstance(data, list) else []
-    except Exception as e:
-        print(f"  [warn] @{username} failed: {e}")
         return []
 
 def dedupe(tweets: list[dict]) -> list[dict]:
@@ -169,38 +115,56 @@ def normalize(tweet: dict, source: str = "") -> dict:
     }
 
 def score(t: dict) -> int:
-    return (t.get("likes") or 0) + (t.get("retweets") or 0) * 2
+    return t.get("likes") or 0
 
-def summarize_with_claude(tweets: list[dict]) -> list[dict]:
-    """Use Claude Haiku to add a Traditional Chinese summary to each tweet.
-    Updates tweets in-place and returns them. Silently no-ops if API key missing."""
+def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
+    """Use Claude to filter ads/memes/off-topic from candidates, pick top_n, add Chinese summaries.
+    Falls back to sorting by likes if API key or package is missing."""
+    if not candidates:
+        return []
+    fallback = sorted(candidates, key=score, reverse=True)[:top_n]
+
     if not ANTHROPIC_API_KEY:
-        print("  [info] ANTHROPIC_API_KEY not set — skipping summaries")
-        return tweets
-    if not tweets:
-        return tweets
+        print("  [info] ANTHROPIC_API_KEY not set — using likes-only fallback")
+        return fallback
 
     try:
         import anthropic
     except ImportError:
-        print("  [warn] anthropic package missing — skipping summaries")
-        return tweets
+        print("  [warn] anthropic package missing — using likes-only fallback")
+        return fallback
 
-    items = [{"id": t["id"], "author": t["author"], "text": t["text"]} for t in tweets]
+    items = [
+        {
+            "id": t["id"], "author": t["author"],
+            "likes": t["likes"], "retweets": t["retweets"], "replies": t["replies"],
+            "text": t["text"],
+        }
+        for t in candidates
+    ]
     prompt = (
-        "你是 Product & Design 內容策展編輯。請為下列每則英文推文寫 1-2 句繁體中文摘要，"
-        "讓讀者能快速判斷是否要點進去閱讀。聚焦在「這則推文的核心觀點或價值」，不要描述作者身分或互動數。"
-        "語氣平實專業，避免行銷語。\n\n"
-        "輸入是一個 JSON 陣列。請**只**輸出一個 JSON 陣列，順序與輸入相同，格式為 "
-        '[{"id": "...", "summary_zh": "..."}] — 不要任何額外說明或 markdown code block。\n\n'
-        f"推文：\n{json.dumps(items, ensure_ascii=False)}"
+        "你是 Product & Design 策展編輯。以下是候選英文推文 JSON 陣列，請從中挑出 "
+        f"**最多 {top_n} 則** 對 product designer / PM 讀者最有價值的內容，並為每則寫 1-2 句繁體中文摘要。\n\n"
+        "【過濾規則】務必排除：\n"
+        "1. 純廣告、招聘文（除非 JD 本身有洞見，例如 Ramp 那種）\n"
+        "2. 與產品設計/PM 無關（crypto 炒幣、體育 logo、政治議題等）\n"
+        "3. Meme / 搞笑但沒內容\n\n"
+        "【排序偏好】\n"
+        "- 有觀點的原創內容 > 資訊整理/轉述\n"
+        "- 過濾後依 likes 高低為主要排序\n\n"
+        "【摘要規則】\n"
+        "- 1-2 句繁體中文，聚焦核心觀點/takeaway\n"
+        "- 不要描述作者身分或互動數；語氣平實專業，避免行銷語\n\n"
+        '【輸出】只輸出 JSON 陣列（不要 markdown code block、不要其他文字），'
+        '格式：[{"id": "...", "summary_zh": "..."}]，順序即為最終排名。\n\n'
+        f"候選推文：\n{json.dumps(items, ensure_ascii=False)}"
     )
 
     try:
         client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
         resp = client.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=2000,
+            max_tokens=4000,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = resp.content[0].text.strip()
@@ -209,15 +173,23 @@ def summarize_with_claude(tweets: list[dict]) -> list[dict]:
             if raw.startswith("json"):
                 raw = raw[4:]
             raw = raw.strip()
-        summaries = json.loads(raw)
-        by_id = {s["id"]: s.get("summary_zh", "") for s in summaries}
-        for t in tweets:
-            t["summary_zh"] = by_id.get(t["id"], "")
-        filled = sum(1 for t in tweets if t["summary_zh"])
-        print(f"  ✍️  Claude summarized {filled}/{len(tweets)} tweets")
+        picks = json.loads(raw)
+        by_id = {t["id"]: t for t in candidates}
+        ordered = []
+        for p in picks[:top_n]:
+            tid = p.get("id")
+            if tid in by_id:
+                tweet = by_id[tid]
+                tweet["summary_zh"] = p.get("summary_zh", "")
+                ordered.append(tweet)
+        if not ordered:
+            print("  [warn] Claude returned no usable picks — using fallback")
+            return fallback
+        print(f"  ✨ Claude curated {len(ordered)}/{len(candidates)} candidates with summaries")
+        return ordered
     except Exception as e:
-        print(f"  [warn] Claude summarization failed: {e}")
-    return tweets
+        print(f"  [warn] Claude curation failed: {e} — using fallback")
+        return fallback
 
 def main():
     tz_taipei = timezone(timedelta(hours=8))
@@ -225,23 +197,16 @@ def main():
     date_str = now.strftime("%Y-%m-%d")
     date_display = now.strftime("%Y 年 %m 月 %d 日")
 
-    print(f"📰 Fetching tweets for {date_str} ...")
+    since_date = (now - timedelta(days=SINCE_DAYS)).strftime("%Y-%m-%d")
+    print(f"📰 Fetching tweets since {since_date} for {date_str} ...")
 
     pool = []
-
     for cfg in SEARCH_QUERIES:
         print(f"  🔍 {cfg['label']}: {cfg['query']}")
-        raw = search_tweets(cfg["query"], cfg["min_likes"])
+        raw = search_tweets(cfg["query"], cfg["min_likes"], max_rows=20, since_date=since_date)
         normalized = [normalize(t, source=cfg["label"]) for t in raw]
         print(f"     → {len(normalized)} candidates")
         pool.extend(normalized)
-
-    for group in KOL_GROUPS:
-        print(f"  👤 {group['label']}: {len(group['users'])} accounts")
-        for username in group["users"]:
-            user_tweets = fetch_user_tweets(username, max_results=group["per_user"])
-            print(f"     · @{username}: {len(user_tweets)} tweets")
-            pool.extend(normalize(t, source=group["label"]) for t in user_tweets)
 
     seen_ids = set()
     unique = []
@@ -250,27 +215,32 @@ def main():
             seen_ids.add(t["id"])
             unique.append(t)
 
-    top = sorted(unique, key=score, reverse=True)[:TOP_N]
-    print(f"  🏆 Pool: {len(pool)} → unique: {len(unique)} → top {len(top)}")
+    candidate_cap = max(TOP_N * 3, 30)
+    candidates = sorted(unique, key=score, reverse=True)[:candidate_cap]
+    print(f"  🏆 Pool: {len(pool)} → unique: {len(unique)} → Claude candidates: {len(candidates)}")
 
-    summarize_with_claude(top)
+    top = curate_with_claude(candidates, TOP_N)
 
     output = {
         "date": date_str,
         "date_display": date_display,
         "generated_at": now.isoformat(),
+        "since_date": since_date,
         "top_tweets": top,
         "criteria": {
             "keyword_pools": [
                 {"label": q["label"], "query": q["query"], "min_likes": q["min_likes"]}
                 for q in SEARCH_QUERIES
             ],
-            "kol_pools": [
-                {"label": g["label"], "users": g["users"]}
-                for g in KOL_GROUPS
-            ],
+            "since_days": SINCE_DAYS,
             "top_n": TOP_N,
-            "score_formula": "likes + retweets × 2",
+            "score_formula": "likes（主要）+ Claude 人工過濾廣告/招聘/meme/非設計",
+            "claude_filter_rules": [
+                "排除純廣告、招聘文（有洞見的 JD 除外）",
+                "排除與產品設計/PM 無關（crypto、體育、政治等）",
+                "排除 meme/搞笑但無內容",
+                "偏好有觀點的原創內容",
+            ],
         },
     }
 
