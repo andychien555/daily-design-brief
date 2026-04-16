@@ -1,9 +1,23 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T22:46:33.631176+08:00",
+  "generated_at": "2026-04-16T22:49:34.957515+08:00",
   "since_date": "2026-04-14",
-  "top_tweets": [],
+  "top_tweets": [
+    {
+      "id": "2044056772437266841",
+      "text": "Maestro ships as an MCP server.\n\nYour AI agent can inspect your app's view hierarchy, generate test YAML, run tests on real devices, and self-heal failing flows -- all from a conversational loop inside Claude, Cursor, Codex, or Copilot.\nTwo commands to get started: maestro mcp +",
+      "author": "maestro__dev",
+      "name": "Maestro",
+      "likes": 114,
+      "retweets": 14,
+      "replies": 7,
+      "created": "Tue Apr 14 14:14:45 +0000 2026",
+      "url": "https://x.com/maestro__dev/status/2044056772437266841",
+      "source": "AI Agent × Claude × Cursor × Design",
+      "summary_zh": "Maestro 作為 MCP 伺服器整合進 AI 編輯器，讓 AI 代理能直接檢查應用視圖層級、生成測試用例並自動修復失敗流程，大幅降低測試自動化的門檻。"
+    }
+  ],
   "criteria": {
     "keyword_pools": [
       {
