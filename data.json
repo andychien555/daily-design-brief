@@ -1,11 +1,82 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T21:22:50.964721+08:00",
+  "generated_at": "2026-04-16T21:24:03.067569+08:00",
   "sections": [
+    {
+      "label": "Product Design",
+      "tweets": [
+        {
+          "id": "1870188351028113416",
+          "text": "Learn UX design and product design and you will become stronger than you could ever imagine",
+          "author": "garrytan",
+          "name": "Garry Tan",
+          "likes": 4787,
+          "retweets": 379,
+          "replies": 133,
+          "created": "Fri Dec 20 19:23:43 +0000 2024",
+          "url": "https://x.com/garrytan/status/1870188351028113416"
+        },
+        {
+          "id": "1941921342451769792",
+          "text": "before:\n- UI designer\n- UX designer\n- UI/UX designer\n\nnow\n- product designer\n- design partner\n- software designer\n\ni like this change",
+          "author": "MichaelFilipiuk",
+          "name": "Michael · Design Partner",
+          "likes": 2950,
+          "retweets": 141,
+          "replies": 42,
+          "created": "Sun Jul 06 18:05:01 +0000 2025",
+          "url": "https://x.com/MichaelFilipiuk/status/1941921342451769792"
+        },
+        {
+          "id": "1973942012278935631",
+          "text": "this is a billion dollar lesson in design.\n\ni bet whoever led Comet has got an extraordinary product sense. It is such an incredible product and ux, not because it’s new—because it isn’t. User ease into it, knows how to navigate around, with some AI integration and not intrusive",
+          "author": "felixleezd",
+          "name": "Felix Lee",
+          "likes": 2610,
+          "retweets": 146,
+          "replies": 71,
+          "created": "Fri Oct 03 02:43:44 +0000 2025",
+          "url": "https://x.com/felixleezd/status/1973942012278935631"
+        },
+        {
+          "id": "1867137301098414166",
+          "text": "POV: UI/UX designer on the hunt for fresh product design inspiration. https://t.co/7iPlpW7voi",
+          "author": "UiSavior",
+          "name": "UI/UX Savior",
+          "likes": 1536,
+          "retweets": 261,
+          "replies": 35,
+          "created": "Thu Dec 12 09:19:56 +0000 2024",
+          "url": "https://x.com/UiSavior/status/1867137301098414166"
+        },
+        {
+          "id": "2004177173985497590",
+          "text": "This is my cleanest product design ever https://t.co/R4LTdkWydx",
+          "author": "HeyAnsariUX",
+          "name": "Aman Ansari",
+          "likes": 1797,
+          "retweets": 51,
+          "replies": 177,
+          "created": "Thu Dec 25 13:07:28 +0000 2025",
+          "url": "https://x.com/HeyAnsariUX/status/2004177173985497590"
+        }
+      ]
+    },
     {
       "label": "UI Design",
       "tweets": [
+        {
+          "id": "1623359864100601861",
+          "text": "Today, Generative AI takes a big step and comes to user interface design!\n\n@helnzhou and I are excited to announce @Galileo_AI : the first AI product that uses natural language to generate UI designs. It lets you design beyond imagination.\n\nEarly access: https://t.co/4KqV1csQ6c https://t.co/LtzSC1kYw3",
+          "author": "arnaudai",
+          "name": "Arnaud Benard",
+          "likes": 5994,
+          "retweets": 1298,
+          "replies": 316,
+          "created": "Wed Feb 08 16:35:26 +0000 2023",
+          "url": "https://x.com/arnaudai/status/1623359864100601861"
+        },
         {
           "id": "1635652394951254017",
           "text": "💥 16 little UI design rules that make a big impact\n\nUI design might appear to be a magical art form, but a lot of it is made up from logical rules or guidelines. \n\nWe’ll redesign an example interface using 16 of 100+ guidelines from my book - @PracticalUI\n\nA mega thread👇 https://t.co/Im6pSSfPkO",
@@ -18,48 +89,37 @@
           "url": "https://x.com/AdhamDannaway/status/1635652394951254017"
         },
         {
-          "id": "2033824157985870200",
-          "text": "Samsung lock screen interface music player design comparison, the left is One UI 8.5, the right is One UI 9.0, the right picture from SamMobile.Which design do you prefer? https://t.co/172NMpYpL1",
-          "author": "UniverseIce",
-          "name": "Ice Universe",
-          "likes": 1871,
-          "retweets": 52,
-          "replies": 107,
-          "created": "Tue Mar 17 08:34:00 +0000 2026",
-          "url": "https://x.com/UniverseIce/status/2033824157985870200"
+          "id": "1667191247969329152",
+          "text": "How to Design for Spatial UI.\n\nApple launched the groundbreaking Vision Pro and 3x Design Masterclass on designing for this new future frontier.\n\nDesigners, start learning.\n\n5 Principles of spatial design that will change your design interface (genius strategy):\n\n1. Familiarity https://t.co/3rsbf1pc5o",
+          "author": "felixleezd",
+          "name": "Felix Lee",
+          "likes": 1798,
+          "retweets": 293,
+          "replies": 31,
+          "created": "Fri Jun 09 15:25:43 +0000 2023",
+          "url": "https://x.com/felixleezd/status/1667191247969329152"
         },
         {
-          "id": "2041022407050424747",
-          "text": "Hi everyone! I made a NewJeans PITSTOP game interface, and it’s only a UI/UX design concept. I wanted to share this work here because I’ve been really missing them 😭💕 https://t.co/iztsOn6vfC",
-          "author": "_haern",
-          "name": "aren ✹",
-          "likes": 1042,
-          "retweets": 266,
-          "replies": 38,
-          "created": "Mon Apr 06 05:17:16 +0000 2026",
-          "url": "https://x.com/_haern/status/2041022407050424747"
+          "id": "1996317924127281484",
+          "text": "BREAKING: META POACHED APPLE'S TOP DESIGNER\n\nAlan Dye – Apple’s head of UI design since 2015, behind Vision Pro, Apple Watch, iPhone X – is leaving to become Chief Design Officer at $META.\n\nJony Ive once called him a \"genius for human interface design.\" Just months ago, he https://t.co/XUtIWYb9xc",
+          "author": "PPLXfinance",
+          "name": "Perplexity Finance",
+          "likes": 1540,
+          "retweets": 118,
+          "replies": 96,
+          "created": "Wed Dec 03 20:37:37 +0000 2025",
+          "url": "https://x.com/PPLXfinance/status/1996317924127281484"
         },
         {
-          "id": "1688116622907637760",
-          "text": "16 little UI design rules that make a big impact\n\nA design case study to redesign an example user interface using simple rules such as using space to group related elements and using font weights to make text less or more prominent \n\nhttps://t.co/LN2zDJwtV0 https://t.co/3y90WtXsx5",
-          "author": "101babich",
-          "name": "Nick Babich",
-          "likes": 917,
-          "retweets": 139,
-          "replies": 6,
-          "created": "Sun Aug 06 09:15:41 +0000 2023",
-          "url": "https://x.com/101babich/status/1688116622907637760"
-        },
-        {
-          "id": "1706931171869724732",
-          "text": "Learn how to use Design Principles in UI to improve your UX/UI Designs 🚀🔖\n\nWhat are Fundamental Design Principles?\nFundamental design principles are the rules that designers should follow to achieve a good result and composition in their user interface designs. Here are a few https://t.co/gyWEe2HF6o",
-          "author": "uxlinks",
-          "name": "UX Links",
-          "likes": 751,
-          "retweets": 156,
-          "replies": 9,
-          "created": "Wed Sep 27 07:17:59 +0000 2023",
-          "url": "https://x.com/uxlinks/status/1706931171869724732"
+          "id": "1623707730367086595",
+          "text": "Generative AI comes to User Interface design!\n\n@Galileo_AI is the first AI product trained on thousands of outstanding designs. It can turn a simple text description into high-fidelity editable UI designs.\n\nSignup here: https://t.co/ZeBzMkro7F https://t.co/SQAqZLZ2s3",
+          "author": "LiorOnAI",
+          "name": "Lior Alexander",
+          "likes": 827,
+          "retweets": 174,
+          "replies": 19,
+          "created": "Thu Feb 09 15:37:44 +0000 2023",
+          "url": "https://x.com/LiorOnAI/status/1623707730367086595"
         }
       ]
     },
