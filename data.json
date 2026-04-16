@@ -1,34 +1,8 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T21:46:40.667609+08:00",
+  "generated_at": "2026-04-16T21:58:55.346417+08:00",
   "top_tweets": [
-    {
-      "id": "1656935752188456960",
-      "text": "If you’re interested in learning;\n\nProduct design\nGraphic design \nWeb design\nUX design\nWebflow\nFigma, \nUI/UX\n\nHere’s a complete pack of FREE resources for your learning.\n\nhttps://t.co/CpwIb7BZuM\n\nhttps://t.co/9kyNxU8OWv\n\nhttps://t.co/9ZepGkyL5t\n\nI hope this helps? Thank me later",
-      "author": "OlamideTowobola",
-      "name": "L.A.M.Z",
-      "likes": 6551,
-      "retweets": 3151,
-      "replies": 305,
-      "created": "Fri May 12 08:14:02 +0000 2023",
-      "url": "https://x.com/OlamideTowobola/status/1656935752188456960",
-      "source": "Product Design",
-      "summary_zh": ""
-    },
-    {
-      "id": "2014028990810300498",
-      "text": "Excited to launch Pencil\nINFINITE DESIGN CANVAS for Claude Code\n\n&gt; Superfast WebGL canvas, fully editable, running parallel design agents\n&gt; Runs locally with Claude Code → turn designs into code\n&gt; Design files live in your git repo → Open json-based .pen format https://t.co/UcnjtS99eF",
-      "author": "tomkrcha",
-      "name": "Tom Krcha",
-      "likes": 8644,
-      "retweets": 932,
-      "replies": 601,
-      "created": "Wed Jan 21 17:35:04 +0000 2026",
-      "url": "https://x.com/tomkrcha/status/2014028990810300498",
-      "source": "Andy 追蹤的設計師",
-      "summary_zh": ""
-    },
     {
       "id": "1623359864100601861",
       "text": "Today, Generative AI takes a big step and comes to user interface design!\n\n@helnzhou and I are excited to announce @Galileo_AI : the first AI product that uses natural language to generate UI designs. It lets you design beyond imagination.\n\nEarly access: https://t.co/4KqV1csQ6c https://t.co/LtzSC1kYw3",
@@ -40,33 +14,20 @@
       "created": "Wed Feb 08 16:35:26 +0000 2023",
       "url": "https://x.com/arnaudai/status/1623359864100601861",
       "source": "UI Design",
-      "summary_zh": ""
+      "summary_zh": "Galileo AI 推出用自然語言生成 UI 設計的產品，標誌著生成式 AI 在介面設計領域的重要突破。"
     },
     {
-      "id": "1980316762827612270",
-      "text": "“Graphic Design” = visual communication\n“Brand Design” = identity creation\n“Visual Design” = digital interface aesthetics\n“Product Design” = UX/UI + product experience\n“Creative Design” = vague umbrella term (use ‘Art Director’ or ‘Multidisciplinary Designer’ instead)\n\n“Visual ≠",
-      "author": "zazzygfx",
-      "name": "Zazzy",
-      "likes": 5972,
-      "retweets": 786,
-      "replies": 57,
-      "created": "Mon Oct 20 16:54:43 +0000 2025",
-      "url": "https://x.com/zazzygfx/status/1980316762827612270",
-      "source": "UI Design",
-      "summary_zh": ""
-    },
-    {
-      "id": "1635652394951254017",
-      "text": "💥 16 little UI design rules that make a big impact\n\nUI design might appear to be a magical art form, but a lot of it is made up from logical rules or guidelines. \n\nWe’ll redesign an example interface using 16 of 100+ guidelines from my book - @PracticalUI\n\nA mega thread👇 https://t.co/Im6pSSfPkO",
-      "author": "AdhamDannaway",
-      "name": "Adham Dannaway",
-      "likes": 5409,
-      "retweets": 778,
-      "replies": 92,
-      "created": "Tue Mar 14 14:41:34 +0000 2023",
-      "url": "https://x.com/AdhamDannaway/status/1635652394951254017",
-      "source": "UI Design",
-      "summary_zh": ""
+      "id": "1949442556053647713",
+      "text": "This is terrifying.\n\nI gave Claude 1 mega prompt and it handled:\n\n• Product strategy\n• Backend code\n• UI/UX design\n• Landing page copy\n• Go-to-market plan\n\nAll in one go.\n\nHere’s the exact prompt I used (and what it built):",
+      "author": "ChrisLaubAI",
+      "name": "Chris Laub",
+      "likes": 5194,
+      "retweets": 373,
+      "replies": 144,
+      "created": "Sun Jul 27 12:11:38 +0000 2025",
+      "url": "https://x.com/ChrisLaubAI/status/1949442556053647713",
+      "source": "AI + Design",
+      "summary_zh": "Claude 單一提示詞能同時處理產品策略、後端開發、UI/UX 設計、行銷文案和上市計畫，展示 AI 在產品開發全流程的整合能力。"
     },
     {
       "id": "1870188351028113416",
@@ -79,7 +40,20 @@
       "created": "Fri Dec 20 19:23:43 +0000 2024",
       "url": "https://x.com/garrytan/status/1870188351028113416",
       "source": "Product Design",
-      "summary_zh": ""
+      "summary_zh": "學習 UX 設計和產品設計能大幅提升個人能力。"
+    },
+    {
+      "id": "1688451493064523776",
+      "text": "This Google drive is a goldmine of resources on: \n\n➡️ Project Manag\n➡️ Product Manag\n➡️ Software Eng\n➡️Scrum \n➡️PMP certification\n➡️SQL\n➡️UI/UX Design\n➡️ Interview Docs\n➡️ Data Analytics\n➡️ Business Analysis\n➡️Data Visualization \n➡️Big Data \n\nhttps://t.co/fbWXUUd9lb\nSAVE &amp; SHARE",
+      "author": "Cherrychristie2",
+      "name": "🇸🇪NEXTSTEPWITHCHERRY🇵🇹",
+      "likes": 2837,
+      "retweets": 1349,
+      "replies": 53,
+      "created": "Mon Aug 07 07:26:20 +0000 2023",
+      "url": "https://x.com/Cherrychristie2/status/1688451493064523776",
+      "source": "Product Design",
+      "summary_zh": "分享一份 Google Drive 資源庫，涵蓋專案管理、產品管理、軟體工程、認證考試、SQL、UI/UX 設計等多個領域的學習材料。"
     },
     {
       "id": "1783079861000532393",
@@ -92,7 +66,7 @@
       "created": "Wed Apr 24 10:25:41 +0000 2024",
       "url": "https://x.com/UnkleAyo/status/1783079861000532393",
       "source": "Product Design",
-      "summary_zh": ""
+      "summary_zh": "以幽默語氣評論產品設計和 UI/UX 從業者的職涯現狀。"
     },
     {
       "id": "1919763769070071867",
@@ -105,7 +79,7 @@
       "created": "Tue May 06 14:38:44 +0000 2025",
       "url": "https://x.com/tomkrcha/status/1919763769070071867",
       "source": "Andy 追蹤的設計師",
-      "summary_zh": ""
+      "summary_zh": "Cursor 推出設計模式，讓程式碼和設計工作在同一環境中進行，使用相同的 AI 代理以保持工作流程連貫。"
     },
     {
       "id": "2036517448112021863",
@@ -118,7 +92,7 @@
       "created": "Tue Mar 24 18:56:10 +0000 2026",
       "url": "https://x.com/splinetool/status/2036517448112021863",
       "source": "Andy 追蹤的設計師",
-      "summary_zh": ""
+      "summary_zh": "Omma 推出 AI 代理工具，可用於建立 3D、網站和應用程式。"
     },
     {
       "id": "2041919962969993578",
@@ -131,7 +105,33 @@
       "created": "Wed Apr 08 16:43:50 +0000 2026",
       "url": "https://x.com/lennysan/status/2041919962969993578",
       "source": "PM 大神近期推文",
-      "summary_zh": ""
+      "summary_zh": "Anthropic 成長主管加入 Twitter，尚未提供有實質內容的資訊。"
+    },
+    {
+      "id": "2043372810190655515",
+      "text": "Having breakfast with my husband. He notices I am wearing gold 2-inch hoop earrings.\n\nHim: “Oh how long have you been wearing those?”\n\nMe: “…every day for the past 7 years.”",
+      "author": "joulee",
+      "name": "Julie Zhuo",
+      "likes": 4048,
+      "retweets": 41,
+      "replies": 12,
+      "created": "Sun Apr 12 16:56:56 +0000 2026",
+      "url": "https://x.com/joulee/status/2043372810190655515",
+      "source": "設計大神近期推文",
+      "summary_zh": "日常生活瑣事分享，與產品或設計主題無關。"
+    },
+    {
+      "id": "1717190567090610315",
+      "text": "So, I’ve got a new challenge/hackerton I’ll be sharing this week. The winners will get N1M, N600k, &amp; N400k respectively.🔥\n\nYou can participate if you are in:\n\n- Product Design\n- Frontend Development \n- Backend Development \n- Data Science\n- Product Management\n- AI/ML\n\nInterested?",
+      "author": "DaveyHert",
+      "name": "David Herbert👨🏽‍💻🚀",
+      "likes": 2211,
+      "retweets": 875,
+      "replies": 248,
+      "created": "Wed Oct 25 14:45:09 +0000 2023",
+      "url": "https://x.com/DaveyHert/status/1717190567090610315",
+      "source": "AI + Design",
+      "summary_zh": "宣布一場黑客松競賽，開放產品設計、前後端開發、資料科學、產品管理和 AI/ML 等領域參與，獎金總額達 200 萬奈及利亞奈拉。"
     }
   ],
   "criteria": {
