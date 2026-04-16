@@ -34,8 +34,8 @@ SEARCH_QUERIES = [
         "min_likes": 100,
     },
     {
-        "label": "AI",
-        "query": "AI",
+        "label": "AI Tool",
+        "query": "AI tool",
         "min_likes": 100,
     },
     {
@@ -223,8 +223,9 @@ def enrich_with_context(tweets: list[dict]) -> None:
                 reply_schema_logged = True
             ctx["replied_text"] = r.get("text") or r.get("full_text", "")
             ctx["replied_author"] = extract_author(r)
-        conv_id = (detail or {}).get("conversationId") or t["id"]
-        ctx["top_replies"] = fetch_top_replies(conv_id, max_results=5)
+        # Note: 6551 /open/twitter_search does NOT honor conversationId filter,
+        # so we can't reliably pull real replies. Leave top_replies empty until
+        # a supported endpoint exists.
         t["context"] = ctx
         badges = []
         if ctx["quoted_text"]:
