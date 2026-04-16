@@ -1,6 +1,203 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T21:00:40.636192+08:00",
-  "sections": []
+  "generated_at": "2026-04-16T21:06:21.637518+08:00",
+  "sections": [
+    {
+      "label": "Product Design",
+      "tweets": [
+        {
+          "id": "1949442556053647713",
+          "text": "This is terrifying.\n\nI gave Claude 1 mega prompt and it handled:\n\n• Product strategy\n• Backend code\n• UI/UX design\n• Landing page copy\n• Go-to-market plan\n\nAll in one go.\n\nHere’s the exact prompt I used (and what it built):",
+          "author": "ChrisLaubAI",
+          "name": "Chris Laub",
+          "likes": 5194,
+          "retweets": 373,
+          "replies": 144,
+          "created": "Sun Jul 27 12:11:38 +0000 2025",
+          "url": "https://x.com/ChrisLaubAI/status/1949442556053647713"
+        },
+        {
+          "id": "1702977737277730908",
+          "text": "This Google Drive includes materials regarding: \n\n✅Data Analytics\n✅UI/ UX Design\n✅Big Data\n✅Data Visualisation\n✅Excel\n✅Product Management\n✅SOL\n✅Scrum Master\n✅Software Engineering\n✅Quality Assurance\n\nhttps://t.co/lNdWtCBXw4\n\nRetweet ❤️ https://t.co/53ULUIDmEe",
+          "author": "Nelsonyolemi1",
+          "name": "The Ui/Ux Guy",
+          "likes": 1297,
+          "retweets": 550,
+          "replies": 21,
+          "created": "Sat Sep 16 09:28:27 +0000 2023",
+          "url": "https://x.com/Nelsonyolemi1/status/1702977737277730908"
+        },
+        {
+          "id": "1907511502170411106",
+          "text": "It’s all starts with a great product. But what makes a product great? A tech stack that’s not limiting.\n\nBoost features:\n\n- Gasless UX\n- 1-click Social Login\n- Built-in account abstraction\n\nWe don’t need to teach users how to use crypto—we design around the friction. That’s what https://t.co/YTFNQ8xZ49",
+          "author": "boostdotgg",
+          "name": "Boost",
+          "likes": 1714,
+          "retweets": 337,
+          "replies": 515,
+          "created": "Wed Apr 02 19:12:36 +0000 2025",
+          "url": "https://x.com/boostdotgg/status/1907511502170411106"
+        },
+        {
+          "id": "1974658015161909419",
+          "text": "💡 Why we choose InterLink?\n\nNot just vibes, but real reasons 👇\n- Human-Centered Design: At the heart of InterLink are real people — not bots or fake accounts. Every aspect of our product, UI, and UX is designed to prioritize authentic human interaction.\n- Revenue-Driven Growth: https://t.co/3RPQmpmwSt",
+          "author": "inter_link",
+          "name": "InterLink Labs 👤 + 🌐",
+          "likes": 1466,
+          "retweets": 408,
+          "replies": 386,
+          "created": "Sun Oct 05 02:08:52 +0000 2025",
+          "url": "https://x.com/inter_link/status/1974658015161909419"
+        },
+        {
+          "id": "1990812876702130509",
+          "text": "FREE Google Drive link to learn :\n\n-Data Analytics\n-Business Analysis\n-Data Visualization\n-SQL\n-Big Data\n-Resume tips\n-Project Mgt\n-Product Mgt\n-Software Eng\n-UI/UX Design\n\nTo get: -\n\n1. Follow @Shipon_40AI [MUST]\n2. Like &amp; Retweet\n3. Reply \"SEND\" https://t.co/S8scO0wlqU",
+          "author": "Shipon_40AI",
+          "name": "Shahriar Shipon",
+          "likes": 1077,
+          "retweets": 397,
+          "replies": 525,
+          "created": "Tue Nov 18 16:02:31 +0000 2025",
+          "url": "https://x.com/Shipon_40AI/status/1990812876702130509"
+        }
+      ]
+    },
+    {
+      "label": "UI Design",
+      "tweets": [
+        {
+          "id": "1623359864100601861",
+          "text": "Today, Generative AI takes a big step and comes to user interface design!\n\n@helnzhou and I are excited to announce @Galileo_AI : the first AI product that uses natural language to generate UI designs. It lets you design beyond imagination.\n\nEarly access: https://t.co/4KqV1csQ6c https://t.co/LtzSC1kYw3",
+          "author": "arnaudai",
+          "name": "Arnaud Benard",
+          "likes": 5994,
+          "retweets": 1298,
+          "replies": 316,
+          "created": "Wed Feb 08 16:35:26 +0000 2023",
+          "url": "https://x.com/arnaudai/status/1623359864100601861"
+        },
+        {
+          "id": "1980316762827612270",
+          "text": "“Graphic Design” = visual communication\n“Brand Design” = identity creation\n“Visual Design” = digital interface aesthetics\n“Product Design” = UX/UI + product experience\n“Creative Design” = vague umbrella term (use ‘Art Director’ or ‘Multidisciplinary Designer’ instead)\n\n“Visual ≠",
+          "author": "zazzygfx",
+          "name": "Zazzy",
+          "likes": 5973,
+          "retweets": 786,
+          "replies": 57,
+          "created": "Mon Oct 20 16:54:43 +0000 2025",
+          "url": "https://x.com/zazzygfx/status/1980316762827612270"
+        },
+        {
+          "id": "1635652394951254017",
+          "text": "💥 16 little UI design rules that make a big impact\n\nUI design might appear to be a magical art form, but a lot of it is made up from logical rules or guidelines. \n\nWe’ll redesign an example interface using 16 of 100+ guidelines from my book - @PracticalUI\n\nA mega thread👇 https://t.co/Im6pSSfPkO",
+          "author": "AdhamDannaway",
+          "name": "Adham Dannaway",
+          "likes": 5409,
+          "retweets": 778,
+          "replies": 92,
+          "created": "Tue Mar 14 14:41:34 +0000 2023",
+          "url": "https://x.com/AdhamDannaway/status/1635652394951254017"
+        },
+        {
+          "id": "1735788899786727785",
+          "text": "[Introducing] Cute Interface Keycaps &amp; Deskmat Set - Blue ✨🩵\n\nI’ve always wanted to design a matching keycaps &amp; desk mat set. This set is inspired by the clean &amp; minimalistic aesthetics of UI designs… with some added cuteness!\n\nComing soon! \n\n🛒 https://t.co/WDngCpUclZ https://t.co/631la6W2ny",
+          "author": "MookoStudio",
+          "name": "Mooko Studio",
+          "likes": 2713,
+          "retweets": 287,
+          "replies": 30,
+          "created": "Fri Dec 15 22:28:17 +0000 2023",
+          "url": "https://x.com/MookoStudio/status/1735788899786727785"
+        },
+        {
+          "id": "1688116622907637760",
+          "text": "16 little UI design rules that make a big impact\n\nA design case study to redesign an example user interface using simple rules such as using space to group related elements and using font weights to make text less or more prominent \n\nhttps://t.co/LN2zDJwtV0 https://t.co/3y90WtXsx5",
+          "author": "101babich",
+          "name": "Nick Babich",
+          "likes": 917,
+          "retweets": 139,
+          "replies": 6,
+          "created": "Sun Aug 06 09:15:41 +0000 2023",
+          "url": "https://x.com/101babich/status/1688116622907637760"
+        }
+      ]
+    },
+    {
+      "label": "Design Systems",
+      "tweets": [
+        {
+          "id": "1306553772018081792",
+          "text": "▶️ With Variants, you’ll also get Interactive Components. \n\nAdd interactions between component variations in your design system and reuse them in your prototypes with no extra work. Coming soon! #ConfigEurope https://t.co/njblbJ1JEy",
+          "author": "figma",
+          "name": "Figma",
+          "likes": 1850,
+          "retweets": 276,
+          "replies": 47,
+          "created": "Thu Sep 17 11:21:08 +0000 2020",
+          "url": "https://x.com/figma/status/1306553772018081792"
+        },
+        {
+          "id": "1909639581558808909",
+          "text": "3 design system updates for you\n\n→ Hide &amp; show variable paints\n→ Go-to-main component shortcut\n→ Duplicate &amp; copy styles https://t.co/VCv4CTD4H3",
+          "author": "figma",
+          "name": "Figma",
+          "likes": 683,
+          "retweets": 78,
+          "replies": 77,
+          "created": "Tue Apr 08 16:08:50 +0000 2025",
+          "url": "https://x.com/figma/status/1909639581558808909"
+        },
+        {
+          "id": "1950560261078962493",
+          "text": "The component audit widget is live! \n\nIt scans your Figma library, then:\n\n– Shows components by page\n– Shows components missing variables/styles\n– Lists components without descriptions\n– Lists components without links\n– Print a summary frame for a log\n\nhttps://t.co/dCb5vjC5K2 https://t.co/7R9DtqNxLU",
+          "author": "disco_lu",
+          "name": "luis.",
+          "likes": 706,
+          "retweets": 58,
+          "replies": 30,
+          "created": "Wed Jul 30 14:13:00 +0000 2025",
+          "url": "https://x.com/disco_lu/status/1950560261078962493"
+        },
+        {
+          "id": "1732330511861686632",
+          "text": "Practical guide to creating design systems\n\nThis guide offers practical tips for product audit, design alignment, creating specs, building components in Figma and defining metrics that will help you measure system success. \n\nhttps://t.co/94Pp0yBfYZ https://t.co/2a7Ex6qXup",
+          "author": "101babich",
+          "name": "Nick Babich",
+          "likes": 546,
+          "retweets": 95,
+          "replies": 6,
+          "created": "Wed Dec 06 09:25:53 +0000 2023",
+          "url": "https://x.com/101babich/status/1732330511861686632"
+        },
+        {
+          "id": "1693531452296536542",
+          "text": "It’s been 2 amazing years having my fiancée as a partner. \n\nShe’s the component to my library, the Premium to my Figma, the design system to all my products, prototype of my life. \n\nI Love You @Toks_princess \n\nSee you at the altar and let God be the judge. 👨‍⚖️ https://t.co/9P32PD4qHM",
+          "author": "nuelwogundu",
+          "name": "The Confident Designer👨🏽‍💻",
+          "likes": 631,
+          "retweets": 46,
+          "replies": 23,
+          "created": "Mon Aug 21 07:52:17 +0000 2023",
+          "url": "https://x.com/nuelwogundu/status/1693531452296536542"
+        }
+      ]
+    },
+    {
+      "label": "Design Thinking",
+      "tweets": [
+        {
+          "id": "1693922026455552343",
+          "text": "Interswitch is Hiring!!\n\nRole: UI/UX Designer\n\nLocation: Lagos\n\nFunctional Competences;\nUser Research\nInteraction Design\nInformation Architecture\nVisual Design\nStoryboarding, Prototyping\nUsability Testing\nLean Startup &amp; Agile methodology\nDesign Thinking\nCustomer Engagement\n\nApply",
+          "author": "seyithemie",
+          "name": "HR Sis",
+          "likes": 707,
+          "retweets": 412,
+          "replies": 116,
+          "created": "Tue Aug 22 09:44:17 +0000 2023",
+          "url": "https://x.com/seyithemie/status/1693922026455552343"
+        }
+      ]
+    }
+  ]
 }
