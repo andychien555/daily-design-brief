@@ -48,20 +48,29 @@ SEARCH_QUERIES = [
 ]
 
 def search_tweets(query: str, min_likes: int, max_rows: int = 10) -> list[dict]:
-    """Call 6551.io search_twitter_advanced endpoint."""
-    url = f"{API_BASE}/v1/twitter/search/advanced"
+    """Call 6551.io /open/twitter_search endpoint."""
+    url = f"{API_BASE}/open/twitter_search"
     payload = {
-        "query": query,
-        "min_likes": min_likes,
-        "max_rows": max_rows,
+        "keywords": query,
+        "minLikes": min_likes,
+        "maxResults": max_rows,
+        "product": "Top",
         "lang": "en",
+        "excludeReplies": True,
+        "excludeRetweets": True,
     }
     try:
         with httpx.Client(timeout=30) as client:
             resp = client.post(url, headers=HEADERS, json=payload)
             resp.raise_for_status()
             data = resp.json()
-            return data.get("tweets", data) if isinstance(data, dict) else data
+            if isinstance(data, dict):
+                for key in ("tweets", "data", "result", "results", "items"):
+                    val = data.get(key)
+                    if isinstance(val, list):
+                        return val
+                return []
+            return data if isinstance(data, list) else []
     except Exception as e:
         print(f"  [warn] Query '{query}' failed: {e}")
         return []
