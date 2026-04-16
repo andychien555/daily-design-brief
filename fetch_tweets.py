@@ -21,30 +21,30 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 
-# Search queries — product & design topics, last 2 days, Top-sorted
+# Search queries — product & design topics, last 3 days, likes ≥ 100
 SEARCH_QUERIES = [
     {
-        "label": "Product Design × AI UX",
-        "query": "product design AI UX",
-        "min_likes": 50,
-    },
-    {
-        "label": "Design System × SaaS × Figma",
-        "query": "design system SaaS figma",
-        "min_likes": 50,
-    },
-    {
-        "label": "AI Agent × Claude × Cursor × Design",
-        "query": "AI agent Claude cursor design",
+        "label": "Product Design",
+        "query": "product design",
         "min_likes": 100,
     },
     {
-        "label": "Vibe Coding × Prototype × Figma",
-        "query": "vibe coding prototype figma",
-        "min_likes": 50,
+        "label": "Design System",
+        "query": "design system figma",
+        "min_likes": 100,
+    },
+    {
+        "label": "AI Design",
+        "query": "AI design tool",
+        "min_likes": 100,
+    },
+    {
+        "label": "Vibe Coding",
+        "query": "vibe coding",
+        "min_likes": 100,
     },
 ]
-SINCE_DAYS = 2
+SINCE_DAYS = 3
 
 
 def search_tweets(query: str, min_likes: int, max_rows: int = 30, since_date: str | None = None) -> list[dict]:
