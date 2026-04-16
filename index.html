@@ -10,13 +10,15 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --ink:     #0f0e0d;
-      --paper:   #f5f2ec;
-      --accent:  #c8460a;
-      --muted:   #8a8070;
-      --border:  #d8d0c4;
-      --card-bg: #faf8f4;
-      --hover:   #fff9f4;
+      --ink:       #ece6d9;
+      --ink-soft:  #bfb5a2;
+      --paper:     #14110e;
+      --accent:    #e85a1a;
+      --accent-ink:#14110e;
+      --muted:     #8a8070;
+      --border:    #2a2520;
+      --card-bg:   #1b1713;
+      --hover:     #241e18;
     }
 
     html { font-size: 16px; }
@@ -113,6 +115,8 @@
       color: #3a332c;
     }
     .criteria-body p { margin-bottom: .75rem; }
+    .criteria-body ul { padding-left: 1.2rem; margin-bottom: .75rem; }
+    .criteria-body li { margin-bottom: .3rem; }
     .criteria-body h4 {
       font-family: 'DM Serif Display', serif;
       font-size: 1rem;
@@ -139,7 +143,7 @@
       text-transform: uppercase;
     }
     .criteria-body code {
-      background: rgba(200, 70, 10, 0.08);
+      background: rgba(232, 90, 26, 0.12);
       color: var(--accent);
       padding: 1px 6px;
       border-radius: 3px;
@@ -174,9 +178,10 @@
       top: -10px;
       left: -8px;
       background: var(--accent);
-      color: var(--paper);
+      color: var(--accent-ink);
       font-family: 'DM Serif Display', serif;
       font-size: .8rem;
+      font-weight: 600;
       line-height: 1;
       padding: .3rem .5rem;
       border-radius: 3px;
@@ -229,7 +234,7 @@
     .tweet-text {
       font-size: .78rem;
       line-height: 1.6;
-      color: var(--muted);
+      color: var(--ink-soft);
       flex: 1;
       display: -webkit-box;
       -webkit-line-clamp: 5;
@@ -251,7 +256,7 @@
       margin-left: auto;
       font-size: .68rem;
       color: var(--muted);
-      background: rgba(138, 128, 112, 0.1);
+      background: rgba(232, 90, 26, 0.08);
       padding: 2px 7px;
       border-radius: 2px;
     }
@@ -292,14 +297,14 @@
 <header>
   <p class="masthead-label">Daily Brief</p>
   <h1 class="masthead-title">Product &amp; <em>Design</em></h1>
-  <p class="masthead-date">2026 年 04 月 16 日 &nbsp;·&nbsp; 10 則精選推文</p>
+  <p class="masthead-date">2026 年 04 月 16 日 &nbsp;·&nbsp; 0 則精選推文</p>
   <div class="masthead-rule"></div>
 </header>
 
 <main>
   <p class="brief-intro">
-    每日從 X (Twitter) 自動精選 Product Design、UI/UX、Product Management、AI × Design 與設計師 KOL 的 Top 10 熱門推文，
-    並用 Claude 產生中文摘要，每天早上 09:00 (UTC+8) 自動更新。
+    每日從 X (Twitter) 自動搜尋 Product Design、Design System、AI Agent、Vibe Coding 相關最近 2 天熱門推文，
+    由 Claude 過濾廣告/雜訊並產生繁體中文摘要，每天早上 09:00 (UTC+8) 自動更新。
   </p>
 
   <div class="archive-link">
@@ -310,272 +315,29 @@
   <details class="criteria">
     <summary>📋 篩選標準（點開看我怎麼選的）</summary>
     <div class="criteria-body">
-      <p>每天從下列 <strong>關鍵字</strong> 與 <strong>KOL 追蹤</strong> 池合併所有候選推文，去重後依熱度分數排序，取 <strong>Top 10</strong>，再由 Claude 產生中文摘要。</p>
-      <p><strong>熱度分數</strong>：<code>likes + retweets × 2</code></p>
+      <p>每天從下列 <strong>4 組關鍵字</strong> 查詢 X 上最近 <strong>2 天</strong>、熱門 (Top) 排序的推文，去重後交由 Claude Haiku 4.5 做二次過濾與排序，最後輸出 <strong>Top 10</strong> 並附繁體中文摘要。</p>
+      <p><strong>排序</strong>：<code>likes（主要）+ Claude 人工過濾廣告/招聘/meme/非設計</code></p>
 
       <h4>關鍵字搜尋池</h4>
       <table>
         <thead><tr><th>主題</th><th>查詢字</th><th>讚數門檻</th></tr></thead>
-        <tbody><tr><td>Product Design</td><td><code>product design UX</code></td><td>≥ 200</td></tr><tr><td>UI Design</td><td><code>UI design interface</code></td><td>≥ 200</td></tr><tr><td>Product Management</td><td><code>product management roadmap strategy</code></td><td>≥ 200</td></tr><tr><td>AI + Design</td><td><code>AI design product</code></td><td>≥ 300</td></tr></tbody>
+        <tbody><tr><td>Product Design × AI UX</td><td><code>product design AI UX</code></td><td>≥ 50</td></tr><tr><td>Design System × SaaS × Figma</td><td><code>design system SaaS figma</code></td><td>≥ 50</td></tr><tr><td>AI Agent × Claude × Cursor × Design</td><td><code>AI agent Claude cursor design</code></td><td>≥ 100</td></tr><tr><td>Vibe Coding × Prototype × Figma</td><td><code>vibe coding prototype figma</code></td><td>≥ 50</td></tr></tbody>
       </table>
 
-      <h4>KOL 追蹤池</h4>
-      <table>
-        <thead><tr><th>分組</th><th>帳號</th></tr></thead>
-        <tbody><tr><td>PM 大神近期推文</td><td>@cagan, @lennysan, @destraynor, @lissijean, @noah_weiss</td></tr><tr><td>設計大神近期推文</td><td>@joulee, @lukew, @jnd1er, @leeloowrites</td></tr><tr><td>Andy 追蹤的設計師</td><td>@tomkrcha, @ivanhzhao, @ryolu_, @splinetool, @stfnco, @marcelkargul, @MagicPathAI, @DilumSanjaya, @mobbin</td></tr></tbody>
-      </table>
+      <h4>Claude 過濾規則</h4>
+      <ul><li>排除純廣告、招聘文（有洞見的 JD 除外）</li><li>排除與產品設計/PM 無關（crypto、體育、政治等）</li><li>排除 meme/搞笑但無內容</li><li>偏好有觀點的原創內容</li></ul>
 
-      <p class="criteria-note">語言過濾：English、排除 replies / retweets。摘要由 Claude Haiku 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
+      <p class="criteria-note">語言：English、排除 replies / retweets。摘要由 Claude Haiku 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
     </div>
   </details>
 
   <div class="cards-grid">
     
-    <article class="tweet-card">
-      <div class="tweet-rank">#1</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/arnaudai" target="_blank" class="tweet-author">
-          <span class="author-name">Arnaud Benard</span>
-          <span class="author-handle">@arnaudai</span>
-        </a>
-        <a href="https://x.com/arnaudai/status/1623359864100601861" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">Galileo AI 推出用自然語言生成 UI 設計的產品，標誌著生成式 AI 在介面設計領域的重要突破。</p>
-      <p class="tweet-text">Today, Generative AI takes a big step and comes to user interface design!
-
-@helnzhou and I are excited to announce @Galileo_AI : the first AI product that uses natural language to generate UI designs. It lets you design beyond imagination.
-
-Early access: https://t.co/4KqV1csQ6c https://t.co/LtzSC1kYw3</p>
-      <div class="tweet-stats">
-        <span>♡ 6.0k</span>
-        <span>↺ 1.3k</span>
-        <span class="tweet-source">UI Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#2</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/ChrisLaubAI" target="_blank" class="tweet-author">
-          <span class="author-name">Chris Laub</span>
-          <span class="author-handle">@ChrisLaubAI</span>
-        </a>
-        <a href="https://x.com/ChrisLaubAI/status/1949442556053647713" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">Claude 單一提示詞能同時處理產品策略、後端開發、UI/UX 設計、行銷文案和上市計畫，展示 AI 在產品開發全流程的整合能力。</p>
-      <p class="tweet-text">This is terrifying.
-
-I gave Claude 1 mega prompt and it handled:
-
-• Product strategy
-• Backend code
-• UI/UX design
-• Landing page copy
-• Go-to-market plan
-
-All in one go.
-
-Here’s the exact prompt I used (and what it built):</p>
-      <div class="tweet-stats">
-        <span>♡ 5.2k</span>
-        <span>↺ 373</span>
-        <span class="tweet-source">AI + Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#3</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/garrytan" target="_blank" class="tweet-author">
-          <span class="author-name">Garry Tan</span>
-          <span class="author-handle">@garrytan</span>
-        </a>
-        <a href="https://x.com/garrytan/status/1870188351028113416" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">學習 UX 設計和產品設計能大幅提升個人能力。</p>
-      <p class="tweet-text">Learn UX design and product design and you will become stronger than you could ever imagine</p>
-      <div class="tweet-stats">
-        <span>♡ 4.8k</span>
-        <span>↺ 379</span>
-        <span class="tweet-source">Product Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#4</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/Cherrychristie2" target="_blank" class="tweet-author">
-          <span class="author-name">🇸🇪NEXTSTEPWITHCHERRY🇵🇹</span>
-          <span class="author-handle">@Cherrychristie2</span>
-        </a>
-        <a href="https://x.com/Cherrychristie2/status/1688451493064523776" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">分享一份 Google Drive 資源庫，涵蓋專案管理、產品管理、軟體工程、認證考試、SQL、UI/UX 設計等多個領域的學習材料。</p>
-      <p class="tweet-text">This Google drive is a goldmine of resources on: 
-
-➡️ Project Manag
-➡️ Product Manag
-➡️ Software Eng
-➡️Scrum 
-➡️PMP certification
-➡️SQL
-➡️UI/UX Design
-➡️ Interview Docs
-➡️ Data Analytics
-➡️ Business Analysis
-➡️Data Visualization 
-➡️Big Data 
-
-https://t.co/fbWXUUd9lb
-SAVE &amp;amp; SHARE</p>
-      <div class="tweet-stats">
-        <span>♡ 2.8k</span>
-        <span>↺ 1.3k</span>
-        <span class="tweet-source">Product Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#5</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/UnkleAyo" target="_blank" class="tweet-author">
-          <span class="author-name">👑S.A.L.A.K.O🕊</span>
-          <span class="author-handle">@UnkleAyo</span>
-        </a>
-        <a href="https://x.com/UnkleAyo/status/1783079861000532393" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">以幽默語氣評論產品設計和 UI/UX 從業者的職涯現狀。</p>
-      <p class="tweet-text">You go dey abroad, get babe for Lagos dey think say you dey serious relationship. 
-
-Make she come dey tech, all those product design, UI/UX dem - dey go all those their conference for surulere. 
-
-I have no intentions of ruining your day but boy, do I have news for you. 🤭</p>
-      <div class="tweet-stats">
-        <span>♡ 3.9k</span>
-        <span>↺ 807</span>
-        <span class="tweet-source">Product Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#6</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/tomkrcha" target="_blank" class="tweet-author">
-          <span class="author-name">Tom Krcha</span>
-          <span class="author-handle">@tomkrcha</span>
-        </a>
-        <a href="https://x.com/tomkrcha/status/1919763769070071867" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">Cursor 推出設計模式，讓程式碼和設計工作在同一環境中進行，使用相同的 AI 代理以保持工作流程連貫。</p>
-      <p class="tweet-text">Introducing Design Mode for Cursor! 🧑‍🎨🤖
-
-Vibe code and vibe design in one place, stay in the flow.
-Uses the same existing AI agent that's in your favorite coding tool, same context, intertwined. https://t.co/D3o60uqD5j</p>
-      <div class="tweet-stats">
-        <span>♡ 4.4k</span>
-        <span>↺ 331</span>
-        <span class="tweet-source">Andy 追蹤的設計師</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#7</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/splinetool" target="_blank" class="tweet-author">
-          <span class="author-name">Spline</span>
-          <span class="author-handle">@splinetool</span>
-        </a>
-        <a href="https://x.com/splinetool/status/2036517448112021863" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">Omma 推出 AI 代理工具，可用於建立 3D、網站和應用程式。</p>
-      <p class="tweet-text">Today, we're releasing Omma.
-
-Create 3D, Websites, and Apps with AI agents.
-
-Start now on https://t.co/Q6aAIWZYyJ
-Follow @omma_ai https://t.co/i8O4XYvBPo</p>
-      <div class="tweet-stats">
-        <span>♡ 4.1k</span>
-        <span>↺ 432</span>
-        <span class="tweet-source">Andy 追蹤的設計師</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#8</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/lennysan" target="_blank" class="tweet-author">
-          <span class="author-name">Lenny Rachitsky</span>
-          <span class="author-handle">@lennysan</span>
-        </a>
-        <a href="https://x.com/lennysan/status/2041919962969993578" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">Anthropic 成長主管加入 Twitter，尚未提供有實質內容的資訊。</p>
-      <p class="tweet-text">Amol (Head of Growth at @AnthropicAI) just joined Twitter. Follow for free alpha.
-
-BTW, can you believe they hit $30B ARR before they even released Mythos?</p>
-      <div class="tweet-stats">
-        <span>♡ 4.0k</span>
-        <span>↺ 83</span>
-        <span class="tweet-source">PM 大神近期推文</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#9</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/joulee" target="_blank" class="tweet-author">
-          <span class="author-name">Julie Zhuo</span>
-          <span class="author-handle">@joulee</span>
-        </a>
-        <a href="https://x.com/joulee/status/2043372810190655515" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">日常生活瑣事分享，與產品或設計主題無關。</p>
-      <p class="tweet-text">Having breakfast with my husband. He notices I am wearing gold 2-inch hoop earrings.
-
-Him: “Oh how long have you been wearing those?”
-
-Me: “…every day for the past 7 years.”</p>
-      <div class="tweet-stats">
-        <span>♡ 4.0k</span>
-        <span>↺ 41</span>
-        <span class="tweet-source">設計大神近期推文</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#10</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/DaveyHert" target="_blank" class="tweet-author">
-          <span class="author-name">David Herbert👨🏽‍💻🚀</span>
-          <span class="author-handle">@DaveyHert</span>
-        </a>
-        <a href="https://x.com/DaveyHert/status/1717190567090610315" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">宣布一場黑客松競賽，開放產品設計、前後端開發、資料科學、產品管理和 AI/ML 等領域參與，獎金總額達 200 萬奈及利亞奈拉。</p>
-      <p class="tweet-text">So, I’ve got a new challenge/hackerton I’ll be sharing this week. The winners will get N1M, N600k, &amp;amp; N400k respectively.🔥
-
-You can participate if you are in:
-
-- Product Design
-- Frontend Development 
-- Backend Development 
-- Data Science
-- Product Management
-- AI/ML
-
-Interested?</p>
-      <div class="tweet-stats">
-        <span>♡ 2.2k</span>
-        <span>↺ 875</span>
-        <span class="tweet-source">AI + Design</span>
-      </div>
-    </article>
   </div>
 </main>
 
 <footer>
-  <p>自動生成 · 資料來源 <a href="https://6551.io" target="_blank">6551.io</a> &amp; X/Twitter &nbsp;·&nbsp; 2026-04-16 21:58</p>
+  <p>自動生成 · 資料來源 <a href="https://6551.io" target="_blank">6551.io</a> &amp; X/Twitter &nbsp;·&nbsp; 2026-04-16 22:46</p>
 </footer>
 
 </body>
