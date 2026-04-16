@@ -97,14 +97,18 @@ def search_tweets(query: str, min_likes: int, max_rows: int = 10) -> list[dict]:
         return []
 
 def fetch_user_tweets(username: str, max_results: int = 10) -> list[dict]:
-    """Call 6551.io /open/twitter_user_tweets endpoint."""
-    url = f"{API_BASE}/open/twitter_user_tweets"
+    """Fetch a user's recent tweets via /open/twitter_search with fromUser filter.
+
+    The /open/twitter_user_tweets endpoint requires a paid plan for most accounts;
+    search with fromUser is more permissive on the free tier.
+    """
+    url = f"{API_BASE}/open/twitter_search"
     payload = {
-        "username": username,
+        "fromUser": username,
         "maxResults": max_results,
         "product": "Latest",
-        "includeReplies": False,
-        "includeRetweets": False,
+        "excludeReplies": True,
+        "excludeRetweets": True,
     }
     try:
         with httpx.Client(timeout=30) as client:
