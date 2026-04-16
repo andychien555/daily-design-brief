@@ -1,0 +1,70 @@
+# Product & Design 每日早報
+
+每天早上 09:00（台灣時間）自動從 X/Twitter 搜尋 Product & Design 相關熱門推文，生成靜態網站。
+
+## 架構
+
+```
+GitHub Actions (cron 每天 01:00 UTC)
+  → fetch_tweets.py    # 呼叫 6551.io API 搜尋推文
+  → generate_html.py   # 產生 index.html
+  → generate_archive.py # 產生 archive.html
+  → git push           # 推到 repo
+GitHub Pages           # 靜態網站自動更新
+```
+
+## Setup（一次性設定）
+
+### 1. Fork / 建立這個 Repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/daily-design-brief.git
+cd daily-design-brief
+```
+
+### 2. 設定 GitHub Secret
+
+在 GitHub Repo → Settings → Secrets and variables → Actions → New repository secret：
+
+| Name | Value |
+|---|---|
+| `TWITTER_TOKEN` | 你的 6551.io API Token（從 https://6551.io/mcp 取得） |
+
+### 3. 啟用 GitHub Pages
+
+Repo → Settings → Pages → Source 選 **GitHub Actions**
+
+### 4. 第一次手動觸發
+
+Actions → Daily Design Brief → Run workflow
+
+網站就會在幾分鐘後上線：`https://YOUR_USERNAME.github.io/daily-design-brief/`
+
+---
+
+## 自訂搜尋主題
+
+編輯 `fetch_tweets.py` 裡的 `SEARCH_QUERIES`：
+
+```python
+SEARCH_QUERIES = [
+    {
+        "label": "你的主題名稱",
+        "query": "搜尋關鍵字",
+        "min_likes": 200,  # 最低 likes 門檻
+    },
+    ...
+]
+```
+
+## 檔案說明
+
+| 檔案 | 說明 |
+|---|---|
+| `fetch_tweets.py` | 呼叫 API、儲存 data.json |
+| `generate_html.py` | 把 data.json 渲染成 index.html |
+| `generate_archive.py` | 更新 archive.html 歷史存檔頁 |
+| `data.json` | 當天原始資料（每日覆蓋） |
+| `archive.json` | 最近 90 天的紀錄索引 |
+| `briefs/YYYY-MM-DD.html` | 每天的快照存檔 |
+| `.github/workflows/daily.yml` | GitHub Actions 排程設定 |

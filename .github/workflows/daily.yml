@@ -1,0 +1,53 @@
+name: Daily Design Brief
+
+on:
+  # 台灣時間 09:00 = UTC 01:00
+  schedule:
+    - cron: "0 1 * * *"
+
+  # 也可以手動觸發（測試用）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install httpx
+
+      - name: Fetch tweets
+        env:
+          TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
+        run: python fetch_tweets.py
+
+      - name: Generate index.html
+        run: python generate_html.py
+
+      - name: Save daily archive copy
+        run: |
+          mkdir -p briefs
+          DATE=$(python -c "import json; d=json.load(open('data.json')); print(d['date'])")
+          cp index.html "briefs/${DATE}.html"
+          echo "Saved briefs/${DATE}.html"
+
+      - name: Generate archive page
+        run: python generate_archive.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html archive.html archive.json data.json briefs/
+          git diff --staged --quiet || git commit -m "chore: daily brief $(date +'%Y-%m-%d')"
+          git push
