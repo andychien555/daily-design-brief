@@ -115,6 +115,43 @@ def tweet_card(tweet: dict, rank: int) -> str:
     </article>"""
 
 
+def product_card(product: dict, rank: int) -> str:
+    title = esc(product.get("title", ""))
+    tagline = esc(product.get("tagline", ""))
+    summary = esc(product.get("summary_zh", ""))
+    url = product.get("url", "") or "https://www.producthunt.com/"
+    author = esc(product.get("author", ""))
+
+    tagline_html = f'<p class="ph-tagline">{tagline}</p>' if tagline else ""
+    summary_html = f'<p class="ph-summary">{summary}</p>' if summary else ""
+    author_html = f'<span class="ph-author">Hunter · {author}</span>' if author else ""
+
+    return f"""
+    <article class="ph-card">
+      <a class="ph-anchor" href="{url}" target="_blank" rel="noopener">
+        <div class="ph-rank">№ {rank:02d}</div>
+        <h3 class="ph-title">{title}</h3>
+        {tagline_html}
+        {summary_html}
+        <div class="ph-foot">
+          <span class="chip chip-ph">Product Hunt</span>
+          {author_html}
+          <span class="ph-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </article>"""
+
+
+def products_section(products: list[dict]) -> str:
+    if not products:
+        return ""
+    cards = "\n".join(product_card(p, i + 1) for i, p in enumerate(products))
+    return f"""
+<div class="grid-divider ph-divider"><span>Product Hunt · 今日新品 / New Launches</span></div>
+<div class="ph-grid">{cards}</div>
+"""
+
+
 def empty_state() -> str:
     return """
     <section class="empty">
@@ -180,7 +217,11 @@ def generate(data: dict) -> str:
         )
 
     criteria_html = criteria_block(data.get("criteria", {}))
+    top_products = data.get("top_products") or []
+    products_html = products_section(top_products)
     sources = sorted({t.get("source", "") for t in top_tweets if t.get("source")})
+    if top_products:
+        sources = sources + ["Product Hunt"]
     sources_label = " · ".join(sources) if sources else "X / Twitter"
 
     return f"""<!DOCTYPE html>
@@ -247,60 +288,30 @@ def generate(data: dict) -> str:
     .masthead {{
       max-width: var(--maxw);
       margin: 0 auto;
-      padding: 2.25rem 1.5rem 1.25rem;
-      border-bottom: 1px solid var(--ink);
-      position: relative;
-    }}
-    .masthead::after {{
-      content: '';
-      position: absolute;
-      left: 1.5rem; right: 1.5rem; bottom: -5px;
-      height: 1px;
-      background: var(--ink);
-      opacity: .35;
+      padding: 2.5rem 1.5rem 1.75rem;
+      border-bottom: 1px solid var(--rule);
     }}
     .masthead-row {{
       display: grid;
       grid-template-columns: 1fr auto 1fr;
-      align-items: end;
+      align-items: center;
       gap: 1rem;
-      margin-bottom: 1.5rem;
     }}
     .meta-left, .meta-right {{
       font-family: var(--mono);
-      font-size: .68rem;
-      letter-spacing: .08em;
+      font-size: .72rem;
+      letter-spacing: .12em;
       text-transform: uppercase;
       color: var(--ink-3);
-      line-height: 1.7;
     }}
     .meta-left {{ text-align: left; }}
     .meta-right {{ text-align: right; }}
-    .meta-key {{ color: var(--ink-2); }}
-    .meta-divider {{
-      display: inline-block;
-      width: 16px;
-      border-top: 1px solid var(--rule-2);
-      vertical-align: middle;
-      margin: 0 .35rem;
-    }}
-    .masthead-center {{
-      text-align: center;
-      padding: 0 .5rem;
-    }}
-    .issue-mark {{
-      font-family: var(--mono);
-      font-size: .68rem;
-      letter-spacing: .25em;
-      color: var(--accent);
-      margin-bottom: .35rem;
-      text-transform: uppercase;
-    }}
+    .masthead-center {{ text-align: center; }}
     .masthead-title {{
       font-family: var(--serif);
       font-weight: 500;
-      font-size: clamp(2.6rem, 7vw, 5.4rem);
-      line-height: .95;
+      font-size: clamp(2.4rem, 6.5vw, 4.8rem);
+      line-height: 1;
       letter-spacing: -.025em;
       font-variation-settings: 'opsz' 144, 'SOFT' 30;
     }}
@@ -309,14 +320,6 @@ def generate(data: dict) -> str:
       color: var(--accent);
       font-variation-settings: 'opsz' 144, 'SOFT' 80, 'WONK' 1;
       padding-right: .04em;
-    }}
-    .masthead-sub {{
-      margin-top: .5rem;
-      font-family: var(--serif);
-      font-style: italic;
-      font-size: clamp(.85rem, 1.3vw, 1rem);
-      color: var(--ink-2);
-      letter-spacing: .01em;
     }}
 
     /* ─────────────── Body / Layout ─────────────── */
@@ -667,6 +670,96 @@ def generate(data: dict) -> str:
       border-radius: 999px;
     }}
 
+    /* ─────────────── Product Hunt Section ─────────────── */
+    .ph-divider {{
+      margin-top: 3rem;
+    }}
+    .ph-divider span {{
+      color: var(--accent);
+    }}
+    .ph-grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 0;
+      border-top: 1px solid var(--rule);
+      border-left: 1px solid var(--rule);
+      margin-bottom: 3rem;
+    }}
+    .ph-card {{
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      transition: background .15s;
+    }}
+    .ph-card:hover {{ background: var(--paper-2); }}
+    .ph-anchor {{
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+      padding: 1.25rem 1.4rem 1.4rem;
+      height: 100%;
+      cursor: pointer;
+      position: relative;
+    }}
+    .ph-rank {{
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .15em;
+      color: var(--accent);
+      text-transform: uppercase;
+    }}
+    .ph-title {{
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      letter-spacing: -.01em;
+      color: var(--ink);
+      font-variation-settings: 'opsz' 72, 'SOFT' 30;
+    }}
+    .ph-tagline {{
+      font-family: var(--sans);
+      font-size: .82rem;
+      line-height: 1.55;
+      color: var(--ink-2);
+      font-style: italic;
+    }}
+    .ph-summary {{
+      font-size: .88rem;
+      line-height: 1.65;
+      color: var(--ink);
+      flex: 1;
+    }}
+    .ph-foot {{
+      display: flex;
+      gap: .75rem;
+      align-items: center;
+      font-size: .7rem;
+      color: var(--ink-3);
+      padding-top: .65rem;
+      border-top: 1px dashed var(--rule);
+      flex-wrap: wrap;
+    }}
+    .ph-author {{
+      font-family: var(--mono);
+      letter-spacing: .04em;
+    }}
+    .chip-ph {{
+      margin-left: 0;
+      background: rgba(246, 185, 74, 0.1);
+      border-color: rgba(246, 185, 74, 0.25);
+      color: var(--accent-2);
+    }}
+    .ph-arrow {{
+      margin-left: auto;
+      font-size: 1rem;
+      color: var(--ink-3);
+      transition: transform .2s, color .2s;
+    }}
+    .ph-card:hover .ph-arrow {{
+      transform: translate(2px, -2px);
+      color: var(--accent);
+    }}
+
     /* ─────────────── Empty state ─────────────── */
     .empty {{
       text-align: center;
@@ -782,23 +875,11 @@ def generate(data: dict) -> str:
 
 <header class="masthead">
   <div class="masthead-row">
-    <div class="meta-left">
-      <span class="meta-key">Issue</span> №{issue_no:03d}
-      <span class="meta-divider"></span>
-      Vol. I
-    </div>
+    <div class="meta-left">№{issue_no:03d}</div>
     <div class="masthead-center">
-      <p class="issue-mark">Daily — Product · Design · AI</p>
       <h1 class="masthead-title">Product &amp; <em>Design</em></h1>
-      <p class="masthead-sub">a daily editorial of what builders are saying.</p>
     </div>
-    <div class="meta-right">
-      {data['date']}
-      <span class="meta-divider"></span>
-      {wkd}
-      <br>
-      <span class="meta-key">Edition</span> {total:02d} 篇
-    </div>
+    <div class="meta-right">{data['date']} · {total:02d} 篇</div>
   </div>
 </header>
 
@@ -812,6 +893,8 @@ def generate(data: dict) -> str:
   {criteria_html}
 
   {body_html}
+
+  {products_html}
 </main>
 
 <footer>

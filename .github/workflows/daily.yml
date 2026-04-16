@@ -32,6 +32,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python fetch_tweets.py
 
+      - name: Fetch Product Hunt launches
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetch_producthunt.py
+
       - name: Generate index.html
         run: python generate_html.py
 
