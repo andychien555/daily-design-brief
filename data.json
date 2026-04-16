@@ -1,7 +1,7 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T22:54:49.098136+08:00",
+  "generated_at": "2026-04-16T23:12:41.019054+08:00",
   "since_date": "2026-04-13",
   "top_tweets": [
     {
@@ -15,98 +15,20 @@
       "created": "Mon Apr 13 17:24:23 +0000 2026",
       "url": "https://x.com/AndrewYNg/status/2043742105852621052",
       "source": "Product Management",
-      "summary_zh": "隨著 AI 加速編碼效率，產品管理成為新瓶頸——我們受限的不再是技術實現，而是決定要做什麼；PM 和設計師需要重新思考在 AI 時代的角色定位。"
-    },
-    {
-      "id": "2044082457910358480",
-      "text": "Anyone who thinks \"AI = easy mode\" honestly just sounds dumb and out of touch.\n\nFor context, I’ve been doing product design for 20+ years, including giant brands like Febreze, Swiffer, and Abercrombie with multi-continent supply chains etc. \n\nI can tell you that AI is by FAR the",
-      "author": "thefinnmckenty",
-      "name": "Finn McKenty",
-      "likes": 468,
-      "retweets": 37,
-      "replies": 197,
-      "created": "Tue Apr 14 15:56:49 +0000 2026",
-      "url": "https://x.com/thefinnmckenty/status/2044082457910358480",
-      "source": "Product Design",
-      "summary_zh": "20+ 年資深產品設計師指出 AI 遠非易用模式，需要深度領域知識才能有效應用，盲目迷信 AI 會導致決策失誤。"
+      "summary_zh": "隨著 AI 加速編碼能力，軟體工程的未來面臨「產品管理瓶頸」——決定要做什麼比實際構建變成更大的限制因素。"
     },
     {
       "id": "2044401269347852592",
       "text": "Farmer doesn't even realize that this is really a right to repair issue. The placement of the bearing is a design choice that takes away the right to repair. This is a conscious decision by a company to make their product unrepairable.\n\nThis is not a \"quality\" issue. It is a",
       "author": "longstoryfarms",
       "name": "Long Story Farms, LLC",
-      "likes": 598,
+      "likes": 599,
       "retweets": 39,
       "replies": 13,
       "created": "Wed Apr 15 13:03:40 +0000 2026",
       "url": "https://x.com/longstoryfarms/status/2044401269347852592",
       "source": "Product Design",
-      "summary_zh": "產品設計中的維修權問題本質是設計選擇，企業有意透過零件配置限制消費者自行維修的能力，這是商業策略而非品質問題。"
-    },
-    {
-      "id": "2044472288599507108",
-      "text": "This is really accurate. \n\nAs much as we all want to drink the vibe coding kool-aid, the reality is that 90%+ of all code in a company is maintaining and migrating existing stuff that is complicated and messy. You can definitely vibe code the remaining 10% but unless there is a",
-      "author": "chamath",
-      "name": "Chamath Palihapitiya",
-      "likes": 1150,
-      "retweets": 81,
-      "replies": 110,
-      "created": "Wed Apr 15 17:45:52 +0000 2026",
-      "url": "https://x.com/chamath/status/2044472288599507108",
-      "source": "Vibe Coding",
-      "summary_zh": "企業 90% 以上的程式碼工作是維護和遷移既有複雜系統，而非新開發；Vibe coding 只適用於少數新功能，難以應對實務複雜性。"
-    },
-    {
-      "id": "2044387858409017567",
-      "text": "Vibe coding was a fun trend.\n\nNow it is a massive enterprise risk.\n\nYou cannot let 50 people build shadow IT without the guardrails of \n@superblocks",
-      "author": "KateMillerGems",
-      "name": "Kate Miller",
-      "likes": 578,
-      "retweets": 107,
-      "replies": 23,
-      "created": "Wed Apr 15 12:10:22 +0000 2026",
-      "url": "https://x.com/KateMillerGems/status/2044387858409017567",
-      "source": "Vibe Coding",
-      "summary_zh": "Vibe coding 如今成為企業風險，無管制的影子 IT 專案會削弱組織治理能力，需要建立適當的護欄和審查機制。"
-    },
-    {
-      "id": "2044442528183971915",
-      "text": "Claude Code just got it's biggest upgrade yet\n\nThe desktop app is now by far the best way to be building apps with AI, even better than the CLI\n\nIn this video I cover every single change and a few workflows for vibe coding faster than ever, even if you've never coded before: https://t.co/1V1GiKllT8",
-      "author": "AlexFinn",
-      "name": "Alex Finn",
-      "likes": 953,
-      "retweets": 53,
-      "replies": 104,
-      "created": "Wed Apr 15 15:47:37 +0000 2026",
-      "url": "https://x.com/AlexFinn/status/2044442528183971915",
-      "source": "Vibe Coding",
-      "summary_zh": "Claude Code 桌面應用成為 AI 輔助開發的最佳工具，支援無程式碼背景的使用者快速迭代，改變了人機協作的工作流程。"
-    },
-    {
-      "id": "2044449830605582629",
-      "text": "New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.\n\nVibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb",
-      "author": "AndrewYNg",
-      "name": "Andrew Ng",
-      "likes": 2215,
-      "retweets": 330,
-      "replies": 84,
-      "created": "Wed Apr 15 16:16:38 +0000 2026",
-      "url": "https://x.com/AndrewYNg/status/2044449830605582629",
-      "source": "Vibe Coding",
-      "summary_zh": "規格驅動開發課程強調詳細需求定義的重要性，對治療 Vibe coding 常見的「輸出不符預期」問題有幫助。"
-    },
-    {
-      "id": "2044173174561210389",
-      "text": "in case you couldn't see it, here is a visual of yoonchae's korean name 정윤채 hidden in the design! \n\nwhen comparing between the draft and the final product though, it seems some of the intentional stems have disappeared, making the name extremely difficult to find 🧐😞 https://t.co/w5xQU764yq",
-      "author": "foryoonchae",
-      "name": "wingyun",
-      "likes": 1904,
-      "retweets": 118,
-      "replies": 4,
-      "created": "Tue Apr 14 21:57:18 +0000 2026",
-      "url": "https://x.com/foryoonchae/status/2044173174561210389",
-      "source": "Product Design",
-      "summary_zh": "設計過程中隱藏品牌符號（如設計師名字）是細節考量，但從草稿到最終版本過程中遺漏細節會影響設計完整性與傳達效果。"
+      "summary_zh": "設計選擇（如軸承位置）往往是廠商有意為之的決策，用來限制消費者維修權；這不是品質問題，而是有意識的商業設計。"
     },
     {
       "id": "2043583979203469680",
@@ -119,7 +41,98 @@
       "created": "Mon Apr 13 06:56:03 +0000 2026",
       "url": "https://x.com/pmitu/status/2043583979203469680",
       "source": "Product Management",
-      "summary_zh": "獨立創業者需要跨越十數個領域，其中產品策略、UX/UI 與客戶支援佔比最重，突顯全棧能力的必要性。"
+      "summary_zh": "獨立創業者的時間分配現實面：編碼、行銷、運營、客服、銷售等多頭燒，核心工作（產品策略、UX）佔比遠低於支援性工作。"
+    },
+    {
+      "id": "2044082457910358480",
+      "text": "Anyone who thinks \"AI = easy mode\" honestly just sounds dumb and out of touch.\n\nFor context, I’ve been doing product design for 20+ years, including giant brands like Febreze, Swiffer, and Abercrombie with multi-continent supply chains etc. \n\nI can tell you that AI is by FAR the",
+      "author": "thefinnmckenty",
+      "name": "Finn McKenty",
+      "likes": 468,
+      "retweets": 37,
+      "replies": 197,
+      "created": "Tue Apr 14 15:56:49 +0000 2026",
+      "url": "https://x.com/thefinnmckenty/status/2044082457910358480",
+      "source": "Product Design",
+      "summary_zh": "擁有 20+ 年產品設計經驗的專家指出，AI 並非簡單模式，反而在複雜供應鏈與多面向產品開發中帶來新挑戰。"
+    },
+    {
+      "id": "2044472288599507108",
+      "text": "This is really accurate. \n\nAs much as we all want to drink the vibe coding kool-aid, the reality is that 90%+ of all code in a company is maintaining and migrating existing stuff that is complicated and messy. You can definitely vibe code the remaining 10% but unless there is a",
+      "author": "chamath",
+      "name": "Chamath Palihapitiya",
+      "likes": 1153,
+      "retweets": 81,
+      "replies": 111,
+      "created": "Wed Apr 15 17:45:52 +0000 2026",
+      "url": "https://x.com/chamath/status/2044472288599507108",
+      "source": "Vibe Coding",
+      "summary_zh": "現實中 90%+ 的工程工作是維護和遷移既有複雜系統，而非綠地開發；AI 在此類工作的適用性有限。"
+    },
+    {
+      "id": "2044454605703286806",
+      "text": "Introducing Design Stack.\n\nToday, we're releasing @ADPList's entire masterclass library ⭐️ 80+ videos on design, career, AI, product and more (100% free) from all our flagship conferences.\n\nWhy are we doing this?\n\nWe believe opening this full knowledge base will move our https://t.co/t8aCiP0WvH",
+      "author": "felixleezd",
+      "name": "Felix Lee",
+      "likes": 539,
+      "retweets": 35,
+      "replies": 667,
+      "created": "Wed Apr 15 16:35:36 +0000 2026",
+      "url": "https://x.com/felixleezd/status/2044454605703286806",
+      "source": "Product Design",
+      "summary_zh": "ADPList 開放 80+ 設計、產品、AI 專業課程內容免費供眾，推動設計領域知識民主化。"
+    },
+    {
+      "id": "2044789721877147823",
+      "text": "🚨 BREAKING: California-based Sabi emerges from stealth with a thought-to-text wearable, a beanie that converts internal speech into real-time text using advanced electroencephalography and AI.\n\nThe device aims to enable hands-free typing at ~30 WPM, marking a major step toward",
+      "author": "IndianTechGuide",
+      "name": "Indian Tech & Infra",
+      "likes": 599,
+      "retweets": 2,
+      "replies": 6,
+      "created": "Thu Apr 16 14:47:14 +0000 2026",
+      "url": "https://x.com/IndianTechGuide/status/2044789721877147823",
+      "source": "AI",
+      "summary_zh": "新型 BCI 腦機介面設備透過腦波感測將內部語言轉化為文字，實現約 30 WPM 的免手輸入，代表人機互動新方向。"
+    },
+    {
+      "id": "2044387858409017567",
+      "text": "Vibe coding was a fun trend.\n\nNow it is a massive enterprise risk.\n\nYou cannot let 50 people build shadow IT without the guardrails of \n@superblocks",
+      "author": "KateMillerGems",
+      "name": "Kate Miller",
+      "likes": 578,
+      "retweets": 107,
+      "replies": 23,
+      "created": "Wed Apr 15 12:10:22 +0000 2026",
+      "url": "https://x.com/KateMillerGems/status/2044387858409017567",
+      "source": "Vibe Coding",
+      "summary_zh": "Vibe Coding 從趨勢轉變為企業風險，50 人無管制的影子 IT 需要專業平台的治理與把關。"
+    },
+    {
+      "id": "2044173174561210389",
+      "text": "in case you couldn't see it, here is a visual of yoonchae's korean name 정윤채 hidden in the design! \n\nwhen comparing between the draft and the final product though, it seems some of the intentional stems have disappeared, making the name extremely difficult to find 🧐😞 https://t.co/w5xQU764yq",
+      "author": "foryoonchae",
+      "name": "wingyun",
+      "likes": 1908,
+      "retweets": 118,
+      "replies": 4,
+      "created": "Tue Apr 14 21:57:18 +0000 2026",
+      "url": "https://x.com/foryoonchae/status/2044173174561210389",
+      "source": "Product Design",
+      "summary_zh": "設計師在作品中隱藏韓文名字的細節設計在最終版本中消失，反映原型與成品的落差及團隊溝通的重要性。"
+    },
+    {
+      "id": "2044449830605582629",
+      "text": "New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.\n\nVibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb",
+      "author": "AndrewYNg",
+      "name": "Andrew Ng",
+      "likes": 2225,
+      "retweets": 331,
+      "replies": 87,
+      "created": "Wed Apr 15 16:16:38 +0000 2026",
+      "url": "https://x.com/AndrewYNg/status/2044449830605582629",
+      "source": "Vibe Coding",
+      "summary_zh": "新課程教授規格驅動開發方法論，強調詳細需求說明能改善 AI 代碼品質，而非單純依賴直覺編碼。"
     }
   ],
   "criteria": {
@@ -153,6 +166,61 @@
       "排除與產品設計/PM 無關（crypto、體育、政治等）",
       "排除 meme/搞笑但無內容",
       "偏好有觀點的原創內容"
-    ]
-  }
+    ],
+    "producthunt": {
+      "source": "Product Hunt Atom feed",
+      "window_days": 2,
+      "top_n": 6
+    }
+  },
+  "top_products": [
+    {
+      "title": "Agent Card",
+      "url": "https://www.producthunt.com/products/agent-card",
+      "published": "2026-04-15T22:42:07-07:00",
+      "author": "Felipe Abello",
+      "tagline": "Prepaid virtual Visa cards for AI agents",
+      "summary_zh": "為 AI 代理提供預付虛擬 Visa 卡，使其能夠獨立進行交易與支付操作。"
+    },
+    {
+      "title": "Resend CLI 2.0",
+      "url": "https://www.producthunt.com/products/resend",
+      "published": "2026-04-15T15:14:26-07:00",
+      "author": "fmerian",
+      "tagline": "Built for humans, AI agents, and CI/CD pipelines",
+      "summary_zh": "支援人類開發者、AI 代理與 CI/CD 管道的命令行工具，用於管理電子郵件發送工作流程。"
+    },
+    {
+      "title": "Claude Code Desktop App Redesigned",
+      "url": "https://www.producthunt.com/products/claude-redesigned",
+      "published": "2026-04-14T12:22:22-07:00",
+      "author": "fmerian",
+      "tagline": "Run parallel coding agents from one desktop workspace",
+      "summary_zh": "桌面應用程式允許使用者在單一工作區並行運行多個編碼代理，加速軟體開發流程。"
+    },
+    {
+      "title": "MacSpoof",
+      "url": "https://www.producthunt.com/products/macspoof",
+      "published": "2026-04-15T17:15:19-07:00",
+      "author": "kai",
+      "tagline": "A quick and easy MAC address changer",
+      "summary_zh": "輕量級工具，可快速變更設備的 MAC 位址用於網路配置或隱私保護。"
+    },
+    {
+      "title": "deduce",
+      "url": "https://www.producthunt.com/products/deduce",
+      "published": "2026-04-15T09:56:04-07:00",
+      "author": "Ian Humes",
+      "tagline": "A daily Wordle-like puzzle for AI agents",
+      "summary_zh": "為 AI 代理設計的每日推理益智遊戲，類似 Wordle 的謎題格式。"
+    },
+    {
+      "title": "3PL Hub",
+      "url": "https://www.producthunt.com/products/3pl-hub",
+      "published": "2026-04-15T19:55:46-07:00",
+      "author": "Ryan Bennett",
+      "tagline": "Find & compare 3PL fulfillment partners",
+      "summary_zh": "平台協助企業搜尋與比較第三方物流（3PL）供應商，簡化履行合作夥伴選擇流程。"
+    }
+  ]
 }

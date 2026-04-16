@@ -62,60 +62,30 @@
     .masthead {
       max-width: var(--maxw);
       margin: 0 auto;
-      padding: 2.25rem 1.5rem 1.25rem;
-      border-bottom: 1px solid var(--ink);
-      position: relative;
-    }
-    .masthead::after {
-      content: '';
-      position: absolute;
-      left: 1.5rem; right: 1.5rem; bottom: -5px;
-      height: 1px;
-      background: var(--ink);
-      opacity: .35;
+      padding: 2.5rem 1.5rem 1.75rem;
+      border-bottom: 1px solid var(--rule);
     }
     .masthead-row {
       display: grid;
       grid-template-columns: 1fr auto 1fr;
-      align-items: end;
+      align-items: center;
       gap: 1rem;
-      margin-bottom: 1.5rem;
     }
     .meta-left, .meta-right {
       font-family: var(--mono);
-      font-size: .68rem;
-      letter-spacing: .08em;
+      font-size: .72rem;
+      letter-spacing: .12em;
       text-transform: uppercase;
       color: var(--ink-3);
-      line-height: 1.7;
     }
     .meta-left { text-align: left; }
     .meta-right { text-align: right; }
-    .meta-key { color: var(--ink-2); }
-    .meta-divider {
-      display: inline-block;
-      width: 16px;
-      border-top: 1px solid var(--rule-2);
-      vertical-align: middle;
-      margin: 0 .35rem;
-    }
-    .masthead-center {
-      text-align: center;
-      padding: 0 .5rem;
-    }
-    .issue-mark {
-      font-family: var(--mono);
-      font-size: .68rem;
-      letter-spacing: .25em;
-      color: var(--accent);
-      margin-bottom: .35rem;
-      text-transform: uppercase;
-    }
+    .masthead-center { text-align: center; }
     .masthead-title {
       font-family: var(--serif);
       font-weight: 500;
-      font-size: clamp(2.6rem, 7vw, 5.4rem);
-      line-height: .95;
+      font-size: clamp(2.4rem, 6.5vw, 4.8rem);
+      line-height: 1;
       letter-spacing: -.025em;
       font-variation-settings: 'opsz' 144, 'SOFT' 30;
     }
@@ -124,14 +94,6 @@
       color: var(--accent);
       font-variation-settings: 'opsz' 144, 'SOFT' 80, 'WONK' 1;
       padding-right: .04em;
-    }
-    .masthead-sub {
-      margin-top: .5rem;
-      font-family: var(--serif);
-      font-style: italic;
-      font-size: clamp(.85rem, 1.3vw, 1rem);
-      color: var(--ink-2);
-      letter-spacing: .01em;
     }
 
     /* ─────────────── Body / Layout ─────────────── */
@@ -482,6 +444,96 @@
       border-radius: 999px;
     }
 
+    /* ─────────────── Product Hunt Section ─────────────── */
+    .ph-divider {
+      margin-top: 3rem;
+    }
+    .ph-divider span {
+      color: var(--accent);
+    }
+    .ph-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 0;
+      border-top: 1px solid var(--rule);
+      border-left: 1px solid var(--rule);
+      margin-bottom: 3rem;
+    }
+    .ph-card {
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      transition: background .15s;
+    }
+    .ph-card:hover { background: var(--paper-2); }
+    .ph-anchor {
+      display: flex;
+      flex-direction: column;
+      gap: .55rem;
+      padding: 1.25rem 1.4rem 1.4rem;
+      height: 100%;
+      cursor: pointer;
+      position: relative;
+    }
+    .ph-rank {
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .15em;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+    .ph-title {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      letter-spacing: -.01em;
+      color: var(--ink);
+      font-variation-settings: 'opsz' 72, 'SOFT' 30;
+    }
+    .ph-tagline {
+      font-family: var(--sans);
+      font-size: .82rem;
+      line-height: 1.55;
+      color: var(--ink-2);
+      font-style: italic;
+    }
+    .ph-summary {
+      font-size: .88rem;
+      line-height: 1.65;
+      color: var(--ink);
+      flex: 1;
+    }
+    .ph-foot {
+      display: flex;
+      gap: .75rem;
+      align-items: center;
+      font-size: .7rem;
+      color: var(--ink-3);
+      padding-top: .65rem;
+      border-top: 1px dashed var(--rule);
+      flex-wrap: wrap;
+    }
+    .ph-author {
+      font-family: var(--mono);
+      letter-spacing: .04em;
+    }
+    .chip-ph {
+      margin-left: 0;
+      background: rgba(246, 185, 74, 0.1);
+      border-color: rgba(246, 185, 74, 0.25);
+      color: var(--accent-2);
+    }
+    .ph-arrow {
+      margin-left: auto;
+      font-size: 1rem;
+      color: var(--ink-3);
+      transition: transform .2s, color .2s;
+    }
+    .ph-card:hover .ph-arrow {
+      transform: translate(2px, -2px);
+      color: var(--accent);
+    }
+
     /* ─────────────── Empty state ─────────────── */
     .empty {
       text-align: center;
@@ -597,23 +649,11 @@
 
 <header class="masthead">
   <div class="masthead-row">
-    <div class="meta-left">
-      <span class="meta-key">Issue</span> №471
-      <span class="meta-divider"></span>
-      Vol. I
-    </div>
+    <div class="meta-left">№471</div>
     <div class="masthead-center">
-      <p class="issue-mark">Daily — Product · Design · AI</p>
       <h1 class="masthead-title">Product &amp; <em>Design</em></h1>
-      <p class="masthead-sub">a daily editorial of what builders are saying.</p>
     </div>
-    <div class="meta-right">
-      2026-04-16
-      <span class="meta-divider"></span>
-      星期四
-      <br>
-      <span class="meta-key">Edition</span> 09 篇
-    </div>
+    <div class="meta-right">2026-04-16 · 10 篇</div>
   </div>
 </header>
 
@@ -655,7 +695,7 @@
             <span class="author-handle">@AndrewYNg</span>
           </span>
         </div>
-        <h2 class="lead-summary">隨著 AI 加速編碼效率，產品管理成為新瓶頸——我們受限的不再是技術實現，而是決定要做什麼；PM 和設計師需要重新思考在 AI 時代的角色定位。</h2>
+        <h2 class="lead-summary">隨著 AI 加速編碼能力，軟體工程的未來面臨「產品管理瓶頸」——決定要做什麼比實際構建變成更大的限制因素。</h2>
         <p class="lead-text">As AI agents accelerate coding, what is the future of software engineering? Some trends are clear, such as the Product Management Bottleneck, referring to the idea that we are more constrained by deciding what to build rather than the actual building. But many implications, like</p>
         <div class="lead-foot">
           <span class="stat"><span class="glyph">♥</span>835</span>
@@ -669,39 +709,18 @@
 <div class="grid-divider"><span>更多 / More from the desk</span></div>
 <div class="cards-grid">
     <article class="card">
-      <a class="card-anchor" href="https://x.com/thefinnmckenty/status/2044082457910358480" target="_blank" rel="noopener">
-        <div class="card-rank">02</div>
-        <div class="card-meta">
-          <span class="author-name">Finn McKenty</span>
-          <span class="author-handle">@thefinnmckenty</span>
-        </div>
-        <p class="card-summary">20+ 年資深產品設計師指出 AI 遠非易用模式，需要深度領域知識才能有效應用，盲目迷信 AI 會導致決策失誤。</p>
-        <p class="card-text">Anyone who thinks "AI = easy mode" honestly just sounds dumb and out of touch.
-
-For context, I’ve been doing product design for 20+ years, including giant brands like Febreze, Swiffer, and Abercrombie with multi-continent supply chains etc. 
-
-I can tell you that AI is by FAR the</p>
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>468</span>
-          <span class="stat"><span class="glyph">↻</span>37</span>
-          <span class="chip">Product Design</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
       <a class="card-anchor" href="https://x.com/longstoryfarms/status/2044401269347852592" target="_blank" rel="noopener">
-        <div class="card-rank">03</div>
+        <div class="card-rank">02</div>
         <div class="card-meta">
           <span class="author-name">Long Story Farms, LLC</span>
           <span class="author-handle">@longstoryfarms</span>
         </div>
-        <p class="card-summary">產品設計中的維修權問題本質是設計選擇，企業有意透過零件配置限制消費者自行維修的能力，這是商業策略而非品質問題。</p>
+        <p class="card-summary">設計選擇（如軸承位置）往往是廠商有意為之的決策，用來限制消費者維修權；這不是品質問題，而是有意識的商業設計。</p>
         <p class="card-text">Farmer doesn't even realize that this is really a right to repair issue. The placement of the bearing is a design choice that takes away the right to repair. This is a conscious decision by a company to make their product unrepairable.
 
 This is not a "quality" issue. It is a</p>
         <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>598</span>
+          <span class="stat"><span class="glyph">♥</span>599</span>
           <span class="stat"><span class="glyph">↻</span>39</span>
           <span class="chip">Product Design</span>
         </div>
@@ -709,113 +728,13 @@ This is not a "quality" issue. It is a</p>
     </article>
 
     <article class="card">
-      <a class="card-anchor" href="https://x.com/chamath/status/2044472288599507108" target="_blank" rel="noopener">
-        <div class="card-rank">04</div>
-        <div class="card-meta">
-          <span class="author-name">Chamath Palihapitiya</span>
-          <span class="author-handle">@chamath</span>
-        </div>
-        <p class="card-summary">企業 90% 以上的程式碼工作是維護和遷移既有複雜系統，而非新開發；Vibe coding 只適用於少數新功能，難以應對實務複雜性。</p>
-        <p class="card-text">This is really accurate. 
-
-As much as we all want to drink the vibe coding kool-aid, the reality is that 90%+ of all code in a company is maintaining and migrating existing stuff that is complicated and messy. You can definitely vibe code the remaining 10% but unless there is a</p>
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>1.1k</span>
-          <span class="stat"><span class="glyph">↻</span>81</span>
-          <span class="chip">Vibe Coding</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
-      <a class="card-anchor" href="https://x.com/KateMillerGems/status/2044387858409017567" target="_blank" rel="noopener">
-        <div class="card-rank">05</div>
-        <div class="card-meta">
-          <span class="author-name">Kate Miller</span>
-          <span class="author-handle">@KateMillerGems</span>
-        </div>
-        <p class="card-summary">Vibe coding 如今成為企業風險，無管制的影子 IT 專案會削弱組織治理能力，需要建立適當的護欄和審查機制。</p>
-        <p class="card-text">Vibe coding was a fun trend.
-
-Now it is a massive enterprise risk.
-
-You cannot let 50 people build shadow IT without the guardrails of 
-@superblocks</p>
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>578</span>
-          <span class="stat"><span class="glyph">↻</span>107</span>
-          <span class="chip">Vibe Coding</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
-      <a class="card-anchor" href="https://x.com/AlexFinn/status/2044442528183971915" target="_blank" rel="noopener">
-        <div class="card-rank">06</div>
-        <div class="card-meta">
-          <span class="author-name">Alex Finn</span>
-          <span class="author-handle">@AlexFinn</span>
-        </div>
-        <p class="card-summary">Claude Code 桌面應用成為 AI 輔助開發的最佳工具，支援無程式碼背景的使用者快速迭代，改變了人機協作的工作流程。</p>
-        <p class="card-text">Claude Code just got it's biggest upgrade yet
-
-The desktop app is now by far the best way to be building apps with AI, even better than the CLI
-
-In this video I cover every single change and a few workflows for vibe coding faster than ever, even if you've never coded before: https://t.co/1V1GiKllT8</p>
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>953</span>
-          <span class="stat"><span class="glyph">↻</span>53</span>
-          <span class="chip">Vibe Coding</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
-      <a class="card-anchor" href="https://x.com/AndrewYNg/status/2044449830605582629" target="_blank" rel="noopener">
-        <div class="card-rank">07</div>
-        <div class="card-meta">
-          <span class="author-name">Andrew Ng</span>
-          <span class="author-handle">@AndrewYNg</span>
-        </div>
-        <p class="card-summary">規格驅動開發課程強調詳細需求定義的重要性，對治療 Vibe coding 常見的「輸出不符預期」問題有幫助。</p>
-        <p class="card-text">New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.
-
-Vibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb</p>
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>2.2k</span>
-          <span class="stat"><span class="glyph">↻</span>330</span>
-          <span class="chip">Vibe Coding</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
-      <a class="card-anchor" href="https://x.com/foryoonchae/status/2044173174561210389" target="_blank" rel="noopener">
-        <div class="card-rank">08</div>
-        <div class="card-meta">
-          <span class="author-name">wingyun</span>
-          <span class="author-handle">@foryoonchae</span>
-        </div>
-        <p class="card-summary">設計過程中隱藏品牌符號（如設計師名字）是細節考量，但從草稿到最終版本過程中遺漏細節會影響設計完整性與傳達效果。</p>
-        <p class="card-text">in case you couldn't see it, here is a visual of yoonchae's korean name 정윤채 hidden in the design! 
-
-when comparing between the draft and the final product though, it seems some of the intentional stems have disappeared, making the name extremely difficult to find 🧐😞 https://t.co/w5xQU764yq</p>
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>1.9k</span>
-          <span class="stat"><span class="glyph">↻</span>118</span>
-          <span class="chip">Product Design</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
       <a class="card-anchor" href="https://x.com/pmitu/status/2043583979203469680" target="_blank" rel="noopener">
-        <div class="card-rank">09</div>
+        <div class="card-rank">03</div>
         <div class="card-meta">
           <span class="author-name">Paul Mit</span>
           <span class="author-handle">@pmitu</span>
         </div>
-        <p class="card-summary">獨立創業者需要跨越十數個領域，其中產品策略、UX/UI 與客戶支援佔比最重，突顯全棧能力的必要性。</p>
+        <p class="card-summary">獨立創業者的時間分配現實面：編碼、行銷、運營、客服、銷售等多頭燒，核心工作（產品策略、UX）佔比遠低於支援性工作。</p>
         <p class="card-text">Being a solo-founder:
 
 - 10% coding
@@ -836,7 +755,237 @@ when comparing between the draft and the final product though, it seems some of 
           <span class="chip">Product Management</span>
         </div>
       </a>
+    </article>
+
+    <article class="card">
+      <a class="card-anchor" href="https://x.com/thefinnmckenty/status/2044082457910358480" target="_blank" rel="noopener">
+        <div class="card-rank">04</div>
+        <div class="card-meta">
+          <span class="author-name">Finn McKenty</span>
+          <span class="author-handle">@thefinnmckenty</span>
+        </div>
+        <p class="card-summary">擁有 20+ 年產品設計經驗的專家指出，AI 並非簡單模式，反而在複雜供應鏈與多面向產品開發中帶來新挑戰。</p>
+        <p class="card-text">Anyone who thinks "AI = easy mode" honestly just sounds dumb and out of touch.
+
+For context, I’ve been doing product design for 20+ years, including giant brands like Febreze, Swiffer, and Abercrombie with multi-continent supply chains etc. 
+
+I can tell you that AI is by FAR the</p>
+        <div class="card-foot">
+          <span class="stat"><span class="glyph">♥</span>468</span>
+          <span class="stat"><span class="glyph">↻</span>37</span>
+          <span class="chip">Product Design</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="card">
+      <a class="card-anchor" href="https://x.com/chamath/status/2044472288599507108" target="_blank" rel="noopener">
+        <div class="card-rank">05</div>
+        <div class="card-meta">
+          <span class="author-name">Chamath Palihapitiya</span>
+          <span class="author-handle">@chamath</span>
+        </div>
+        <p class="card-summary">現實中 90%+ 的工程工作是維護和遷移既有複雜系統，而非綠地開發；AI 在此類工作的適用性有限。</p>
+        <p class="card-text">This is really accurate. 
+
+As much as we all want to drink the vibe coding kool-aid, the reality is that 90%+ of all code in a company is maintaining and migrating existing stuff that is complicated and messy. You can definitely vibe code the remaining 10% but unless there is a</p>
+        <div class="card-foot">
+          <span class="stat"><span class="glyph">♥</span>1.2k</span>
+          <span class="stat"><span class="glyph">↻</span>81</span>
+          <span class="chip">Vibe Coding</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="card">
+      <a class="card-anchor" href="https://x.com/felixleezd/status/2044454605703286806" target="_blank" rel="noopener">
+        <div class="card-rank">06</div>
+        <div class="card-meta">
+          <span class="author-name">Felix Lee</span>
+          <span class="author-handle">@felixleezd</span>
+        </div>
+        <p class="card-summary">ADPList 開放 80+ 設計、產品、AI 專業課程內容免費供眾，推動設計領域知識民主化。</p>
+        <p class="card-text">Introducing Design Stack.
+
+Today, we're releasing @ADPList's entire masterclass library ⭐️ 80+ videos on design, career, AI, product and more (100% free) from all our flagship conferences.
+
+Why are we doing this?
+
+We believe opening this full knowledge base will move our https://t.co/t8aCiP0WvH</p>
+        <div class="card-foot">
+          <span class="stat"><span class="glyph">♥</span>539</span>
+          <span class="stat"><span class="glyph">↻</span>35</span>
+          <span class="chip">Product Design</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="card">
+      <a class="card-anchor" href="https://x.com/IndianTechGuide/status/2044789721877147823" target="_blank" rel="noopener">
+        <div class="card-rank">07</div>
+        <div class="card-meta">
+          <span class="author-name">Indian Tech &amp; Infra</span>
+          <span class="author-handle">@IndianTechGuide</span>
+        </div>
+        <p class="card-summary">新型 BCI 腦機介面設備透過腦波感測將內部語言轉化為文字，實現約 30 WPM 的免手輸入，代表人機互動新方向。</p>
+        <p class="card-text">🚨 BREAKING: California-based Sabi emerges from stealth with a thought-to-text wearable, a beanie that converts internal speech into real-time text using advanced electroencephalography and AI.
+
+The device aims to enable hands-free typing at ~30 WPM, marking a major step toward</p>
+        <div class="card-foot">
+          <span class="stat"><span class="glyph">♥</span>599</span>
+          <span class="stat"><span class="glyph">↻</span>2</span>
+          <span class="chip">AI</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="card">
+      <a class="card-anchor" href="https://x.com/KateMillerGems/status/2044387858409017567" target="_blank" rel="noopener">
+        <div class="card-rank">08</div>
+        <div class="card-meta">
+          <span class="author-name">Kate Miller</span>
+          <span class="author-handle">@KateMillerGems</span>
+        </div>
+        <p class="card-summary">Vibe Coding 從趨勢轉變為企業風險，50 人無管制的影子 IT 需要專業平台的治理與把關。</p>
+        <p class="card-text">Vibe coding was a fun trend.
+
+Now it is a massive enterprise risk.
+
+You cannot let 50 people build shadow IT without the guardrails of 
+@superblocks</p>
+        <div class="card-foot">
+          <span class="stat"><span class="glyph">♥</span>578</span>
+          <span class="stat"><span class="glyph">↻</span>107</span>
+          <span class="chip">Vibe Coding</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="card">
+      <a class="card-anchor" href="https://x.com/foryoonchae/status/2044173174561210389" target="_blank" rel="noopener">
+        <div class="card-rank">09</div>
+        <div class="card-meta">
+          <span class="author-name">wingyun</span>
+          <span class="author-handle">@foryoonchae</span>
+        </div>
+        <p class="card-summary">設計師在作品中隱藏韓文名字的細節設計在最終版本中消失，反映原型與成品的落差及團隊溝通的重要性。</p>
+        <p class="card-text">in case you couldn't see it, here is a visual of yoonchae's korean name 정윤채 hidden in the design! 
+
+when comparing between the draft and the final product though, it seems some of the intentional stems have disappeared, making the name extremely difficult to find 🧐😞 https://t.co/w5xQU764yq</p>
+        <div class="card-foot">
+          <span class="stat"><span class="glyph">♥</span>1.9k</span>
+          <span class="stat"><span class="glyph">↻</span>118</span>
+          <span class="chip">Product Design</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="card">
+      <a class="card-anchor" href="https://x.com/AndrewYNg/status/2044449830605582629" target="_blank" rel="noopener">
+        <div class="card-rank">10</div>
+        <div class="card-meta">
+          <span class="author-name">Andrew Ng</span>
+          <span class="author-handle">@AndrewYNg</span>
+        </div>
+        <p class="card-summary">新課程教授規格驅動開發方法論，強調詳細需求說明能改善 AI 代碼品質，而非單純依賴直覺編碼。</p>
+        <p class="card-text">New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.
+
+Vibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb</p>
+        <div class="card-foot">
+          <span class="stat"><span class="glyph">♥</span>2.2k</span>
+          <span class="stat"><span class="glyph">↻</span>331</span>
+          <span class="chip">Vibe Coding</span>
+        </div>
+      </a>
     </article></div>
+
+  
+<div class="grid-divider ph-divider"><span>Product Hunt · 今日新品 / New Launches</span></div>
+<div class="ph-grid">
+    <article class="ph-card">
+      <a class="ph-anchor" href="https://www.producthunt.com/products/agent-card" target="_blank" rel="noopener">
+        <div class="ph-rank">№ 01</div>
+        <h3 class="ph-title">Agent Card</h3>
+        <p class="ph-tagline">Prepaid virtual Visa cards for AI agents</p>
+        <p class="ph-summary">為 AI 代理提供預付虛擬 Visa 卡，使其能夠獨立進行交易與支付操作。</p>
+        <div class="ph-foot">
+          <span class="chip chip-ph">Product Hunt</span>
+          <span class="ph-author">Hunter · Felipe Abello</span>
+          <span class="ph-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="ph-card">
+      <a class="ph-anchor" href="https://www.producthunt.com/products/resend" target="_blank" rel="noopener">
+        <div class="ph-rank">№ 02</div>
+        <h3 class="ph-title">Resend CLI 2.0</h3>
+        <p class="ph-tagline">Built for humans, AI agents, and CI/CD pipelines</p>
+        <p class="ph-summary">支援人類開發者、AI 代理與 CI/CD 管道的命令行工具，用於管理電子郵件發送工作流程。</p>
+        <div class="ph-foot">
+          <span class="chip chip-ph">Product Hunt</span>
+          <span class="ph-author">Hunter · fmerian</span>
+          <span class="ph-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="ph-card">
+      <a class="ph-anchor" href="https://www.producthunt.com/products/claude-redesigned" target="_blank" rel="noopener">
+        <div class="ph-rank">№ 03</div>
+        <h3 class="ph-title">Claude Code Desktop App Redesigned</h3>
+        <p class="ph-tagline">Run parallel coding agents from one desktop workspace</p>
+        <p class="ph-summary">桌面應用程式允許使用者在單一工作區並行運行多個編碼代理，加速軟體開發流程。</p>
+        <div class="ph-foot">
+          <span class="chip chip-ph">Product Hunt</span>
+          <span class="ph-author">Hunter · fmerian</span>
+          <span class="ph-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="ph-card">
+      <a class="ph-anchor" href="https://www.producthunt.com/products/macspoof" target="_blank" rel="noopener">
+        <div class="ph-rank">№ 04</div>
+        <h3 class="ph-title">MacSpoof</h3>
+        <p class="ph-tagline">A quick and easy MAC address changer</p>
+        <p class="ph-summary">輕量級工具，可快速變更設備的 MAC 位址用於網路配置或隱私保護。</p>
+        <div class="ph-foot">
+          <span class="chip chip-ph">Product Hunt</span>
+          <span class="ph-author">Hunter · kai</span>
+          <span class="ph-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="ph-card">
+      <a class="ph-anchor" href="https://www.producthunt.com/products/deduce" target="_blank" rel="noopener">
+        <div class="ph-rank">№ 05</div>
+        <h3 class="ph-title">deduce</h3>
+        <p class="ph-tagline">A daily Wordle-like puzzle for AI agents</p>
+        <p class="ph-summary">為 AI 代理設計的每日推理益智遊戲，類似 Wordle 的謎題格式。</p>
+        <div class="ph-foot">
+          <span class="chip chip-ph">Product Hunt</span>
+          <span class="ph-author">Hunter · Ian Humes</span>
+          <span class="ph-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </article>
+
+    <article class="ph-card">
+      <a class="ph-anchor" href="https://www.producthunt.com/products/3pl-hub" target="_blank" rel="noopener">
+        <div class="ph-rank">№ 06</div>
+        <h3 class="ph-title">3PL Hub</h3>
+        <p class="ph-tagline">Find &amp; compare 3PL fulfillment partners</p>
+        <p class="ph-summary">平台協助企業搜尋與比較第三方物流（3PL）供應商，簡化履行合作夥伴選擇流程。</p>
+        <div class="ph-foot">
+          <span class="chip chip-ph">Product Hunt</span>
+          <span class="ph-author">Hunter · Ryan Bennett</span>
+          <span class="ph-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </article></div>
+
 </main>
 
 <footer>
@@ -848,8 +997,8 @@ when comparing between the draft and the final product though, it seems some of 
     Daily at <em>09:00</em> UTC+8 · Made with care.
   </div>
   <div class="colophon-right">
-    Source: Product Design · Product Management · Vibe Coding<br>
-    Updated 2026-04-16 22:54
+    Source: AI · Product Design · Product Management · Vibe Coding · Product Hunt<br>
+    Updated 2026-04-16 23:12
   </div>
 </footer>
 
