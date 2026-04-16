@@ -122,6 +122,93 @@ def normalize(tweet: dict, source: str = "") -> dict:
 def score(t: dict) -> int:
     return t.get("likes") or 0
 
+def fetch_tweet_detail(tweet_id: str) -> dict:
+    """Fetch tweet detail including quotedStatus / replyStatus context."""
+    url = f"{API_BASE}/open/twitter_tweet_by_id"
+    try:
+        with httpx.Client(timeout=30) as client:
+            resp = client.post(url, headers=HEADERS, json={"twId": tweet_id})
+            if resp.status_code >= 400:
+                return {}
+            data = resp.json()
+            if isinstance(data, dict):
+                inner = data.get("data")
+                if isinstance(inner, dict):
+                    return inner
+                return data
+    except Exception as e:
+        print(f"  [warn] tweet_by_id {tweet_id} failed: {e}")
+    return {}
+
+def fetch_top_replies(conversation_id: str, max_results: int = 5) -> list[dict]:
+    """Best-effort: find top replies to a tweet via conversationId search.
+    Returns [] if the API doesn't support this filter."""
+    if not conversation_id:
+        return []
+    url = f"{API_BASE}/open/twitter_search"
+    payload = {
+        "conversationId": conversation_id,
+        "maxResults": 20,
+        "product": "Top",
+        "lang": "en",
+    }
+    try:
+        with httpx.Client(timeout=30) as client:
+            resp = client.post(url, headers=HEADERS, json=payload)
+            if resp.status_code >= 400:
+                return []
+            data = resp.json()
+            if isinstance(data, dict):
+                for k in ("tweets", "data", "result", "results", "items"):
+                    v = data.get(k)
+                    if isinstance(v, list):
+                        replies = [
+                            {
+                                "author": r.get("userScreenName", ""),
+                                "text": r.get("text") or r.get("full_text", ""),
+                                "likes": r.get("favoriteCount") or 0,
+                            }
+                            for r in v
+                            if (r.get("id") or r.get("tweet_id")) != conversation_id
+                        ]
+                        replies.sort(key=lambda x: x["likes"], reverse=True)
+                        return replies[:max_results]
+    except Exception as e:
+        print(f"  [warn] replies for {conversation_id} failed: {e}")
+    return []
+
+def enrich_with_context(tweets: list[dict]) -> None:
+    """For each tweet, fetch the quoted/replied-to tweet and top replies (if available).
+    Mutates tweets in place, adding a 'context' dict."""
+    debug_schema_logged = False
+    for t in tweets:
+        ctx = {"quoted_text": "", "quoted_author": "", "replied_text": "", "replied_author": "", "top_replies": []}
+        detail = fetch_tweet_detail(t["id"])
+        if detail and not debug_schema_logged:
+            keys = sorted(k for k in detail.keys() if not k.startswith("_"))
+            print(f"  🔬 tweet_by_id schema sample: {keys[:20]}")
+            debug_schema_logged = True
+        q = detail.get("quotedStatus") if isinstance(detail, dict) else None
+        if isinstance(q, dict):
+            ctx["quoted_text"] = q.get("text") or q.get("full_text", "")
+            ctx["quoted_author"] = q.get("userScreenName", "")
+        r = detail.get("replyStatus") if isinstance(detail, dict) else None
+        if isinstance(r, dict):
+            ctx["replied_text"] = r.get("text") or r.get("full_text", "")
+            ctx["replied_author"] = r.get("userScreenName", "")
+        conv_id = (detail or {}).get("conversationId") or t["id"]
+        ctx["top_replies"] = fetch_top_replies(conv_id, max_results=5)
+        t["context"] = ctx
+        badges = []
+        if ctx["quoted_text"]:
+            badges.append(f"↩quote @{ctx['quoted_author']}")
+        if ctx["replied_text"]:
+            badges.append(f"↩reply to @{ctx['replied_author']}")
+        if ctx["top_replies"]:
+            badges.append(f"{len(ctx['top_replies'])} replies")
+        if badges:
+            print(f"     · {t['id']} → {', '.join(badges)}")
+
 def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
     """Use Claude to filter ads/memes/off-topic from candidates, pick top_n, add Chinese summaries.
     Falls back to sorting by likes if API key or package is missing."""
@@ -139,17 +226,32 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
         print("  [warn] anthropic package missing — using likes-only fallback")
         return fallback
 
-    items = [
-        {
+    def shape(t: dict) -> dict:
+        ctx = t.get("context") or {}
+        out = {
             "id": t["id"], "author": t["author"],
             "likes": t["likes"], "retweets": t["retweets"], "replies": t["replies"],
             "text": t["text"],
         }
-        for t in candidates
-    ]
+        if ctx.get("quoted_text"):
+            out["quoted"] = {"author": ctx["quoted_author"], "text": ctx["quoted_text"]}
+        if ctx.get("replied_text"):
+            out["replying_to"] = {"author": ctx["replied_author"], "text": ctx["replied_text"]}
+        if ctx.get("top_replies"):
+            out["top_replies"] = [
+                {"author": r["author"], "text": r["text"], "likes": r["likes"]}
+                for r in ctx["top_replies"]
+            ]
+        return out
+
+    items = [shape(t) for t in candidates]
     prompt = (
         "你是 Product & Design 策展編輯。以下是候選英文推文 JSON 陣列，請從中挑出 "
         f"**最多 {top_n} 則** 對 product designer / PM 讀者最有價值的內容，並為每則寫 1-2 句繁體中文摘要。\n\n"
+        "【推文額外欄位】\n"
+        "- `quoted`：若這則是引用推文，原文在此（務必把引用原文的觀點納入摘要）\n"
+        "- `replying_to`：若這則是回覆某則推文，被回覆的原文在此（摘要應交代脈絡）\n"
+        "- `top_replies`：熱門回覆（按讚數排序），可用來統整下方的討論觀點\n\n"
         "【過濾規則】務必排除：\n"
         "1. 純廣告、招聘文（除非 JD 本身有洞見，例如 Ramp 那種）\n"
         "2. 與產品設計/PM 無關（crypto 炒幣、體育 logo、政治議題等）\n"
@@ -159,6 +261,8 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
         "- 過濾後依 likes 高低為主要排序\n\n"
         "【摘要規則】\n"
         "- 1-2 句繁體中文，聚焦核心觀點/takeaway\n"
+        "- 若是引用/回覆，摘要要清楚交代「原 po 在說什麼」「這則怎麼回應」\n"
+        "- 若有 top_replies 且內容值得，一句話帶上「討論中 XX 觀點也被提出」這類統整\n"
         "- 不要描述作者身分或互動數；語氣平實專業，避免行銷語\n\n"
         '【輸出】只輸出 JSON 陣列（不要 markdown code block、不要其他文字），'
         '格式：[{"id": "...", "summary_zh": "..."}]，順序即為最終排名。\n\n'
@@ -223,6 +327,10 @@ def main():
     candidate_cap = max(TOP_N * 3, 30)
     candidates = sorted(unique, key=score, reverse=True)[:candidate_cap]
     print(f"  🏆 Pool: {len(pool)} → unique: {len(unique)} → Claude candidates: {len(candidates)}")
+
+    enrich_limit = min(len(candidates), 15)
+    print(f"  🧵 Enriching top {enrich_limit} candidates with quote/reply context ...")
+    enrich_with_context(candidates[:enrich_limit])
 
     top = curate_with_claude(candidates, TOP_N)
 

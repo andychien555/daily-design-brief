@@ -47,6 +47,30 @@ def weekday_zh(date_str: str) -> str:
         return ""
 
 
+def context_html(tweet: dict) -> str:
+    """Render quoted/replied-to tweet and top replies if present."""
+    ctx = tweet.get("context") or {}
+    parts = []
+    if ctx.get("quoted_text"):
+        qa = esc(ctx.get("quoted_author", ""))
+        qt = esc(ctx["quoted_text"])
+        parts.append(f'<div class="ctx-quote"><span class="ctx-label">引用 @{qa}</span><p>{qt}</p></div>')
+    if ctx.get("replied_text"):
+        ra = esc(ctx.get("replied_author", ""))
+        rt = esc(ctx["replied_text"])
+        parts.append(f'<div class="ctx-quote ctx-reply"><span class="ctx-label">回覆 @{ra}</span><p>{rt}</p></div>')
+    top_replies = ctx.get("top_replies") or []
+    if top_replies:
+        items = "".join(
+            f'<li><span class="ctx-rep-author">@{esc(r.get("author",""))}</span><span class="ctx-rep-likes">♥ {fmt_num(r.get("likes", 0))}</span><p>{esc(r.get("text",""))}</p></li>'
+            for r in top_replies[:3]
+        )
+        parts.append(
+            f'<details class="ctx-replies"><summary>💬 熱門回覆 ({len(top_replies)})</summary><ul>{items}</ul></details>'
+        )
+    return "\n".join(parts)
+
+
 def lead_card(tweet: dict) -> str:
     """Hero / lead story — first tweet, full-width."""
     text = esc(tweet["text"])
@@ -59,6 +83,7 @@ def lead_card(tweet: dict) -> str:
     retweets = fmt_num(tweet.get("retweets", 0))
     source_html = f'<span class="chip">{source}</span>' if source else ""
 
+    ctx = context_html(tweet)
     return f"""
     <article class="lead">
       <a class="lead-anchor" href="{url}" target="_blank" rel="noopener">
@@ -72,6 +97,7 @@ def lead_card(tweet: dict) -> str:
         </div>
         <h2 class="lead-summary">{summary}</h2>
         <p class="lead-text">{text}</p>
+        {ctx}
         <div class="lead-foot">
           <span class="stat"><span class="glyph">♥</span>{likes}</span>
           <span class="stat"><span class="glyph">↻</span>{retweets}</span>
@@ -96,6 +122,7 @@ def tweet_card(tweet: dict, rank: int) -> str:
     summary_html = f'<p class="card-summary">{summary}</p>' if summary else ""
     source_html = f'<span class="chip">{source}</span>' if source else ""
 
+    ctx = context_html(tweet)
     return f"""
     <article class="card">
       <a class="card-anchor" href="{url}" target="_blank" rel="noopener">
@@ -106,6 +133,7 @@ def tweet_card(tweet: dict, rank: int) -> str:
         </div>
         {summary_html}
         <p class="card-text">{text}</p>
+        {ctx}
         <div class="card-foot">
           <span class="stat"><span class="glyph">♥</span>{likes}</span>
           <span class="stat"><span class="glyph">↻</span>{retweets}</span>
@@ -321,8 +349,7 @@ def generate(data: dict) -> str:
     .masthead {{
       max-width: var(--maxw);
       margin: 0 auto;
-      padding: 2.5rem 1.5rem 1.75rem;
-      border-bottom: 1px solid var(--rule);
+      padding: 2.5rem 1.5rem 1.25rem;
     }}
     .masthead-row {{
       display: grid;
@@ -951,6 +978,78 @@ def generate(data: dict) -> str:
         text-align: center;
       }}
       .colophon-left, .colophon-right {{ text-align: center; }}
+    }}
+
+    /* ── Tweet context: quoted / replied-to / top replies ── */
+    .ctx-quote {{
+      margin: .65rem 0;
+      padding: .55rem .75rem;
+      border-left: 2px solid var(--accent);
+      background: rgba(232, 90, 26, 0.06);
+      font-size: .78rem;
+      line-height: 1.55;
+      color: var(--ink);
+    }}
+    .ctx-quote.ctx-reply {{
+      border-left-color: var(--muted);
+      background: rgba(138, 128, 112, 0.08);
+    }}
+    .ctx-label {{
+      display: block;
+      font-size: .66rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: .25rem;
+    }}
+    .ctx-quote p {{ margin: 0; }}
+
+    .ctx-replies {{
+      margin-top: .5rem;
+      font-size: .75rem;
+    }}
+    .ctx-replies > summary {{
+      cursor: pointer;
+      list-style: none;
+      color: var(--muted);
+      padding: .3rem 0;
+      user-select: none;
+    }}
+    .ctx-replies > summary::-webkit-details-marker {{ display: none; }}
+    .ctx-replies > summary::before {{
+      content: '▸';
+      display: inline-block;
+      margin-right: .35rem;
+      color: var(--accent);
+      transition: transform .15s;
+    }}
+    .ctx-replies[open] > summary::before {{ transform: rotate(90deg); }}
+    .ctx-replies ul {{
+      list-style: none;
+      padding: 0;
+      margin: .35rem 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+    }}
+    .ctx-replies li {{
+      padding: .45rem .6rem;
+      background: rgba(138, 128, 112, 0.06);
+      border-radius: 3px;
+    }}
+    .ctx-rep-author {{
+      color: var(--ink);
+      font-weight: 500;
+      margin-right: .5rem;
+    }}
+    .ctx-rep-likes {{
+      color: var(--muted);
+      font-size: .7rem;
+    }}
+    .ctx-replies li p {{
+      margin: .25rem 0 0;
+      color: var(--ink);
+      line-height: 1.5;
     }}
   </style>
 </head>
