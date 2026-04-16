@@ -12,22 +12,30 @@ def load_data() -> dict:
     with open("data.json", encoding="utf-8") as f:
         return json.load(f)
 
-def tweet_card(tweet: dict) -> str:
-    text = tweet["text"].replace("<", "&lt;").replace(">", "&gt;")
+def esc(s: str) -> str:
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+def tweet_card(tweet: dict, rank: int) -> str:
+    text = esc(tweet["text"])
+    summary = esc(tweet.get("summary_zh", ""))
     author = tweet["author"] or "unknown"
-    name = tweet["name"] or author
+    name = esc(tweet["name"] or author)
+    source = esc(tweet.get("source", ""))
     likes = tweet["likes"]
     retweets = tweet["retweets"]
     url = tweet["url"] or f"https://x.com/{author}"
 
-    # Format numbers
     def fmt(n):
         if n >= 1000:
             return f"{n/1000:.1f}k"
         return str(n)
 
+    summary_html = f'<p class="tweet-summary">{summary}</p>' if summary else ""
+    source_html = f'<span class="tweet-source">{source}</span>' if source else ""
+
     return f"""
     <article class="tweet-card">
+      <div class="tweet-rank">#{rank}</div>
       <div class="tweet-meta">
         <a href="https://x.com/{author}" target="_blank" class="tweet-author">
           <span class="author-name">{name}</span>
@@ -35,28 +43,57 @@ def tweet_card(tweet: dict) -> str:
         </a>
         <a href="{url}" target="_blank" class="tweet-link">↗</a>
       </div>
+      {summary_html}
       <p class="tweet-text">{text}</p>
       <div class="tweet-stats">
         <span>♡ {fmt(likes)}</span>
         <span>↺ {fmt(retweets)}</span>
+        {source_html}
       </div>
     </article>"""
 
-def section_block(section: dict) -> str:
-    cards = "\n".join(tweet_card(t) for t in section["tweets"])
-    label = section["label"]
+def criteria_block(criteria: dict) -> str:
+    if not criteria:
+        return ""
+    kw_rows = "".join(
+        f"<tr><td>{esc(k['label'])}</td><td><code>{esc(k['query'])}</code></td><td>≥ {k['min_likes']}</td></tr>"
+        for k in criteria.get("keyword_pools", [])
+    )
+    kol_rows = "".join(
+        f"<tr><td>{esc(g['label'])}</td><td>{esc(', '.join('@'+u for u in g['users']))}</td></tr>"
+        for g in criteria.get("kol_pools", [])
+    )
+    top_n = criteria.get("top_n", 10)
+    formula = esc(criteria.get("score_formula", "likes + retweets × 2"))
     return f"""
-  <section class="topic-section">
-    <h2 class="topic-label">{label}</h2>
-    <div class="cards-grid">
-      {cards}
+  <details class="criteria">
+    <summary>📋 篩選標準（點開看我怎麼選的）</summary>
+    <div class="criteria-body">
+      <p>每天從下列 <strong>關鍵字</strong> 與 <strong>KOL 追蹤</strong> 池合併所有候選推文，去重後依熱度分數排序，取 <strong>Top {top_n}</strong>，再由 Claude 產生中文摘要。</p>
+      <p><strong>熱度分數</strong>：<code>{formula}</code></p>
+
+      <h4>關鍵字搜尋池</h4>
+      <table>
+        <thead><tr><th>主題</th><th>查詢字</th><th>讚數門檻</th></tr></thead>
+        <tbody>{kw_rows}</tbody>
+      </table>
+
+      <h4>KOL 追蹤池</h4>
+      <table>
+        <thead><tr><th>分組</th><th>帳號</th></tr></thead>
+        <tbody>{kol_rows}</tbody>
+      </table>
+
+      <p class="criteria-note">語言過濾：English、排除 replies / retweets。摘要由 Claude Haiku 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
     </div>
-  </section>"""
+  </details>"""
 
 def generate(data: dict) -> str:
     date_display = data["date_display"]
-    sections_html = "\n".join(section_block(s) for s in data["sections"])
-    total = sum(len(s["tweets"]) for s in data["sections"])
+    top_tweets = data.get("top_tweets") or []
+    total = len(top_tweets)
+    cards_html = "\n".join(tweet_card(t, i + 1) for i, t in enumerate(top_tweets))
+    criteria_html = criteria_block(data.get("criteria", {}))
 
     return f"""<!DOCTYPE html>
 <html lang="zh-Hant">
@@ -142,34 +179,104 @@ def generate(data: dict) -> str:
       line-height: 1.6;
     }}
 
-    /* ── Section ── */
-    .topic-section {{
-      margin-bottom: 3.5rem;
+    /* ── Criteria ── */
+    .criteria {{
+      margin-bottom: 2.5rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--card-bg);
     }}
-    .topic-label {{
+    .criteria > summary {{
+      cursor: pointer;
+      padding: .85rem 1.1rem;
+      font-size: .85rem;
+      font-weight: 500;
+      list-style: none;
+      user-select: none;
+    }}
+    .criteria > summary::-webkit-details-marker {{ display: none; }}
+    .criteria > summary::before {{
+      content: '▸';
+      display: inline-block;
+      margin-right: .5rem;
+      color: var(--accent);
+      transition: transform .15s;
+    }}
+    .criteria[open] > summary::before {{ transform: rotate(90deg); }}
+    .criteria-body {{
+      padding: 0 1.1rem 1.1rem;
+      font-size: .8rem;
+      line-height: 1.6;
+      color: #3a332c;
+    }}
+    .criteria-body p {{ margin-bottom: .75rem; }}
+    .criteria-body h4 {{
       font-family: 'DM Serif Display', serif;
-      font-size: 1.4rem;
+      font-size: 1rem;
+      margin: 1.25rem 0 .5rem;
+      color: var(--ink);
+    }}
+    .criteria-body table {{
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .75rem;
+      margin-bottom: .5rem;
+    }}
+    .criteria-body th, .criteria-body td {{
+      text-align: left;
+      padding: .4rem .5rem;
       border-bottom: 1px solid var(--border);
-      padding-bottom: .4rem;
-      margin-bottom: 1.25rem;
+      vertical-align: top;
+    }}
+    .criteria-body th {{
+      color: var(--muted);
+      font-weight: 500;
+      font-size: .7rem;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }}
+    .criteria-body code {{
+      background: rgba(200, 70, 10, 0.08);
+      color: var(--accent);
+      padding: 1px 6px;
+      border-radius: 3px;
+      font-size: .72rem;
+    }}
+    .criteria-note {{
+      font-size: .72rem;
+      color: var(--muted);
+      margin-top: 1rem;
     }}
 
     /* ── Cards grid ── */
     .cards-grid {{
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 1rem;
     }}
 
     .tweet-card {{
+      position: relative;
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 4px;
       padding: 1.1rem 1.2rem;
       display: flex;
       flex-direction: column;
-      gap: .6rem;
+      gap: .55rem;
       transition: background .15s, border-color .15s, transform .15s;
+    }}
+    .tweet-rank {{
+      position: absolute;
+      top: -10px;
+      left: -8px;
+      background: var(--accent);
+      color: var(--paper);
+      font-family: 'DM Serif Display', serif;
+      font-size: .8rem;
+      line-height: 1;
+      padding: .3rem .5rem;
+      border-radius: 3px;
     }}
     .tweet-card:hover {{
       background: var(--hover);
@@ -207,25 +314,43 @@ def generate(data: dict) -> str:
     }}
     .tweet-link:hover {{ color: var(--accent); }}
 
+    .tweet-summary {{
+      font-size: .88rem;
+      line-height: 1.6;
+      color: var(--ink);
+      font-weight: 500;
+      border-left: 2px solid var(--accent);
+      padding-left: .65rem;
+    }}
+
     .tweet-text {{
-      font-size: .84rem;
-      line-height: 1.65;
-      color: #2a2520;
+      font-size: .78rem;
+      line-height: 1.6;
+      color: var(--muted);
       flex: 1;
-      /* clamp to ~6 lines */
       display: -webkit-box;
-      -webkit-line-clamp: 6;
+      -webkit-line-clamp: 5;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }}
 
     .tweet-stats {{
       display: flex;
-      gap: 1rem;
+      gap: .85rem;
+      align-items: center;
       font-size: .72rem;
       color: var(--muted);
       border-top: 1px solid var(--border);
       padding-top: .5rem;
+      flex-wrap: wrap;
+    }}
+    .tweet-source {{
+      margin-left: auto;
+      font-size: .68rem;
+      color: var(--muted);
+      background: rgba(138, 128, 112, 0.1);
+      padding: 2px 7px;
+      border-radius: 2px;
     }}
 
     /* ── Footer ── */
@@ -270,15 +395,19 @@ def generate(data: dict) -> str:
 
 <main>
   <p class="brief-intro">
-    每日從 X (Twitter) 自動精選 Product Design、UI/UX、Design Systems、Product Management 相關熱門推文，
-    每天早上 09:00 (UTC+8) 自動更新。
+    每日從 X (Twitter) 自動精選 Product Design、UI/UX、Product Management、AI × Design 與設計師 KOL 的 Top {total} 熱門推文，
+    並用 Claude 產生中文摘要，每天早上 09:00 (UTC+8) 自動更新。
   </p>
 
   <div class="archive-link">
     <a href="archive.html">📁 歷史存檔 →</a>
   </div>
 
-  {sections_html}
+  {criteria_html}
+
+  <div class="cards-grid">
+    {cards_html}
+  </div>
 </main>
 
 <footer>
@@ -304,13 +433,14 @@ def main():
         except Exception:
             archive = []
 
-    # Store a compact summary (no full tweet text to keep file small)
+    top = data.get("top_tweets") or []
+    sources = sorted({t.get("source", "") for t in top if t.get("source")})
     entry = {
         "date": data["date"],
         "date_display": data["date_display"],
         "generated_at": data["generated_at"],
-        "total": sum(len(s["tweets"]) for s in data["sections"]),
-        "sections": [{"label": s["label"], "count": len(s["tweets"])} for s in data["sections"]],
+        "total": len(top),
+        "sources": sources,
     }
 
     # Replace or prepend

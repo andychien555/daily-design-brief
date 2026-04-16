@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 fetch_tweets.py
-Fetches trending Product & Design tweets via 6551.io API
-Saves results to data.json for use by generate_html.py
+Fetches trending Product & Design tweets via 6551.io API,
+ranks by engagement, summarizes in Traditional Chinese via Claude,
+saves results to data.json.
 """
 
 import os
@@ -12,6 +13,8 @@ from datetime import datetime, timezone, timedelta
 
 TWITTER_TOKEN = os.environ["TWITTER_TOKEN"]
 API_BASE = os.environ.get("TWITTER_API_BASE", "https://ai.6551.io")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+TOP_N = 10
 
 HEADERS = {
     "Authorization": f"Bearer {TWITTER_TOKEN}",
@@ -146,7 +149,7 @@ def pick_top(tweets: list[dict], n: int = 5) -> list[dict]:
                (t.get("retweetCount") or t.get("retweet_count") or 0) * 2
     return sorted(tweets, key=score, reverse=True)[:n]
 
-def normalize(tweet: dict) -> dict:
+def normalize(tweet: dict, source: str = "") -> dict:
     """Normalize different field name conventions."""
     return {
         "id":       tweet.get("id") or tweet.get("tweet_id", ""),
@@ -161,7 +164,60 @@ def normalize(tweet: dict) -> dict:
                         f"https://x.com/{tweet.get('userScreenName', '')}/status/{tweet.get('id', '')}"
                         if tweet.get("id") else ""
                     ),
+        "source":   source,
+        "summary_zh": "",
     }
+
+def score(t: dict) -> int:
+    return (t.get("likes") or 0) + (t.get("retweets") or 0) * 2
+
+def summarize_with_claude(tweets: list[dict]) -> list[dict]:
+    """Use Claude Haiku to add a Traditional Chinese summary to each tweet.
+    Updates tweets in-place and returns them. Silently no-ops if API key missing."""
+    if not ANTHROPIC_API_KEY:
+        print("  [info] ANTHROPIC_API_KEY not set — skipping summaries")
+        return tweets
+    if not tweets:
+        return tweets
+
+    try:
+        import anthropic
+    except ImportError:
+        print("  [warn] anthropic package missing — skipping summaries")
+        return tweets
+
+    items = [{"id": t["id"], "author": t["author"], "text": t["text"]} for t in tweets]
+    prompt = (
+        "你是 Product & Design 內容策展編輯。請為下列每則英文推文寫 1-2 句繁體中文摘要，"
+        "讓讀者能快速判斷是否要點進去閱讀。聚焦在「這則推文的核心觀點或價值」，不要描述作者身分或互動數。"
+        "語氣平實專業，避免行銷語。\n\n"
+        "輸入是一個 JSON 陣列。請**只**輸出一個 JSON 陣列，順序與輸入相同，格式為 "
+        '[{"id": "...", "summary_zh": "..."}] — 不要任何額外說明或 markdown code block。\n\n'
+        f"推文：\n{json.dumps(items, ensure_ascii=False)}"
+    )
+
+    try:
+        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=2000,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = resp.content[0].text.strip()
+        if raw.startswith("```"):
+            raw = raw.split("```")[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+            raw = raw.strip()
+        summaries = json.loads(raw)
+        by_id = {s["id"]: s.get("summary_zh", "") for s in summaries}
+        for t in tweets:
+            t["summary_zh"] = by_id.get(t["id"], "")
+        filled = sum(1 for t in tweets if t["summary_zh"])
+        print(f"  ✍️  Claude summarized {filled}/{len(tweets)} tweets")
+    except Exception as e:
+        print(f"  [warn] Claude summarization failed: {e}")
+    return tweets
 
 def main():
     tz_taipei = timezone(timedelta(hours=8))
@@ -171,50 +227,57 @@ def main():
 
     print(f"📰 Fetching tweets for {date_str} ...")
 
-    sections = []
+    pool = []
+
     for cfg in SEARCH_QUERIES:
         print(f"  🔍 {cfg['label']}: {cfg['query']}")
         raw = search_tweets(cfg["query"], cfg["min_likes"])
-        top = pick_top(dedupe(raw), n=5)
-        normalized = [normalize(t) for t in top]
-        if normalized:
-            sections.append({
-                "label": cfg["label"],
-                "tweets": normalized,
-            })
-            print(f"     → {len(normalized)} tweets")
-        else:
-            print(f"     → (no results)")
+        normalized = [normalize(t, source=cfg["label"]) for t in raw]
+        print(f"     → {len(normalized)} candidates")
+        pool.extend(normalized)
 
     for group in KOL_GROUPS:
         print(f"  👤 {group['label']}: {len(group['users'])} accounts")
-        bag = []
         for username in group["users"]:
             user_tweets = fetch_user_tweets(username, max_results=group["per_user"])
             print(f"     · @{username}: {len(user_tweets)} tweets")
-            bag.extend(user_tweets)
-        top = pick_top(dedupe(bag), n=group["top_n"])
-        normalized = [normalize(t) for t in top]
-        if normalized:
-            sections.append({
-                "label": group["label"],
-                "tweets": normalized,
-            })
-            print(f"     → {len(normalized)} tweets (after dedupe + rank)")
-        else:
-            print(f"     → (no results)")
+            pool.extend(normalize(t, source=group["label"]) for t in user_tweets)
+
+    seen_ids = set()
+    unique = []
+    for t in pool:
+        if t["id"] and t["id"] not in seen_ids:
+            seen_ids.add(t["id"])
+            unique.append(t)
+
+    top = sorted(unique, key=score, reverse=True)[:TOP_N]
+    print(f"  🏆 Pool: {len(pool)} → unique: {len(unique)} → top {len(top)}")
+
+    summarize_with_claude(top)
 
     output = {
         "date": date_str,
         "date_display": date_display,
         "generated_at": now.isoformat(),
-        "sections": sections,
+        "top_tweets": top,
+        "criteria": {
+            "keyword_pools": [
+                {"label": q["label"], "query": q["query"], "min_likes": q["min_likes"]}
+                for q in SEARCH_QUERIES
+            ],
+            "kol_pools": [
+                {"label": g["label"], "users": g["users"]}
+                for g in KOL_GROUPS
+            ],
+            "top_n": TOP_N,
+            "score_formula": "likes + retweets × 2",
+        },
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ data.json saved — {sum(len(s['tweets']) for s in sections)} tweets across {len(sections)} sections")
+    print(f"✅ data.json saved — top {len(top)} tweets")
 
 if __name__ == "__main__":
     main()

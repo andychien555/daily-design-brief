@@ -18,7 +18,10 @@ def main():
     rows = ""
     for entry in archive:
         total = entry.get("total", "?")
-        labels = "、".join(s["label"] for s in entry.get("sections", []))
+        if "sources" in entry:
+            labels = "、".join(entry["sources"])
+        else:
+            labels = "、".join(s["label"] for s in entry.get("sections", []))
         rows += f"""
       <tr>
         <td><a href="briefs/{entry['date']}.html">{entry['date_display']}</a></td>

@@ -24,11 +24,12 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install httpx
+        run: pip install httpx==0.28.1 anthropic==0.92.0
 
       - name: Fetch tweets
         env:
           TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python fetch_tweets.py
 
       - name: Generate index.html
