@@ -109,7 +109,9 @@ def fetch_user_tweets(username: str, max_results: int = 10) -> list[dict]:
     try:
         with httpx.Client(timeout=30) as client:
             resp = client.post(url, headers=HEADERS, json=payload)
-            resp.raise_for_status()
+            if resp.status_code >= 400:
+                print(f"  [warn] @{username} HTTP {resp.status_code}: {resp.text[:300]}")
+                return []
             data = resp.json()
             if isinstance(data, dict):
                 for key in ("tweets", "data", "result", "results", "items"):
