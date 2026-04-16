@@ -56,6 +56,16 @@ KOL_GROUPS = [
         "per_user": 10,
         "top_n": 8,
     },
+    {
+        "label": "Andy 追蹤的設計師",
+        "users": [
+            "tomkrcha", "ivanhzhao", "ryolu_",
+            "splinetool", "stfnco", "marcelkargul",
+            "MagicPathAI", "DilumSanjaya", "mobbin",
+        ],
+        "per_user": 8,
+        "top_n": 10,
+    },
 ]
 
 def search_tweets(query: str, min_likes: int, max_rows: int = 10) -> list[dict]:
