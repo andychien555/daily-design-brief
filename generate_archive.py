@@ -281,7 +281,7 @@ def main():
   </main>
 
   <footer>
-    © Daily Brief · Auto-curated by Claude Haiku 4.5
+    © Daily Brief · Auto-curated by Claude Sonnet 4.5
   </footer>
 </body>
 </html>"""

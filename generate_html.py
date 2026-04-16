@@ -176,10 +176,14 @@ def criteria_block(criteria: dict) -> str:
     since_days = criteria.get("since_days", 2)
     formula = esc(criteria.get("score_formula", "likes"))
     return f"""
-  <details class="criteria">
-    <summary><span class="caret"></span><span class="criteria-label">編輯方針 / Editorial Method</span></summary>
+<dialog id="criteria-modal" class="criteria-modal">
+  <div class="criteria-modal-inner">
+    <div class="criteria-modal-head">
+      <h3>編輯方針 / Editorial Method</h3>
+      <form method="dialog"><button class="modal-close" aria-label="關閉">✕</button></form>
+    </div>
     <div class="criteria-body">
-      <p>每天從下列 <strong>4 組關鍵字</strong> 查詢 X 上最近 <strong>{since_days} 天</strong>、熱門 (Top) 排序的推文，去重後交由 Claude Haiku 4.5 做二次過濾與排序，最後輸出 <strong>Top {top_n}</strong> 並附繁體中文摘要。</p>
+      <p>每天從下列 <strong>4 組關鍵字</strong> 查詢 X 上最近 <strong>{since_days} 天</strong>、熱門 (Top) 排序的推文，去重後交由 Claude Sonnet 4.5 做二次過濾與排序，最後輸出 <strong>Top {top_n}</strong> 並附繁體中文摘要。</p>
       <p><strong>排序公式</strong>：<code>{formula}</code></p>
 
       <h4>關鍵字搜尋池</h4>
@@ -191,9 +195,10 @@ def criteria_block(criteria: dict) -> str:
       <h4>Claude 過濾規則</h4>
       <ul>{filter_items}</ul>
 
-      <p class="criteria-note">語言：English、排除 replies / retweets。摘要由 Claude Haiku 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
+      <p class="criteria-note">語言：English、排除 replies / retweets。摘要由 Claude Sonnet 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
     </div>
-  </details>"""
+  </div>
+</dialog>"""
 
 
 def generate(data: dict) -> str:
@@ -234,6 +239,14 @@ def generate(data: dict) -> str:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    (function() {{
+      try {{
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      }} catch (e) {{}}
+    }})();
+  </script>
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
 
@@ -249,6 +262,9 @@ def generate(data: dict) -> str:
       --accent:   #ff5722;
       --accent-2: #f6b94a;
       --sage:     #87a07a;
+      --grain-blend: screen;
+      --grain-opacity: .035;
+      --backdrop: rgba(16, 13, 10, .72);
 
       --serif: 'Fraunces', 'DM Serif Display', Georgia, serif;
       --sans:  'Inter', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
@@ -256,6 +272,23 @@ def generate(data: dict) -> str:
 
       --maxw: 1180px;
     }}
+    [data-theme="light"] {{
+      --paper:    #faf6ed;
+      --paper-2:  #f1ead8;
+      --paper-3:  #e7dec7;
+      --ink:      #1a1612;
+      --ink-2:    #403629;
+      --ink-3:    #7a6e58;
+      --rule:     #dcd3bd;
+      --rule-2:   #c6baa0;
+      --accent:   #d14412;
+      --accent-2: #a56a1d;
+      --grain-blend: multiply;
+      --grain-opacity: .04;
+      --backdrop: rgba(40, 30, 18, .45);
+    }}
+    html {{ color-scheme: dark; transition: background-color .2s; }}
+    html[data-theme="light"] {{ color-scheme: light; }}
 
     html {{ font-size: 16px; -webkit-font-smoothing: antialiased; }}
 
@@ -276,9 +309,9 @@ def generate(data: dict) -> str:
       inset: 0;
       pointer-events: none;
       z-index: 0;
-      opacity: .035;
+      opacity: var(--grain-opacity);
       background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
-      mix-blend-mode: screen;
+      mix-blend-mode: var(--grain-blend);
     }}
     body > * {{ position: relative; z-index: 1; }}
 
@@ -345,51 +378,101 @@ def generate(data: dict) -> str:
       height: 1px;
       background: var(--rule);
     }}
-    .topbar a {{
+    .topbar a,
+    .topbar .topbar-link {{
       color: var(--accent);
       transition: color .15s;
     }}
-    .topbar a:hover {{ color: var(--accent-2); }}
-
-    /* ─────────────── Criteria Drawer ─────────────── */
-    .criteria {{
-      margin: 0 0 3rem;
-      border-top: 1px solid var(--rule);
-      border-bottom: 1px solid var(--rule);
-      background: transparent;
-    }}
-    .criteria > summary {{
+    .topbar a:hover,
+    .topbar .topbar-link:hover {{ color: var(--accent-2); }}
+    .topbar .topbar-link {{
+      background: none;
+      border: none;
+      padding: 0;
+      font: inherit;
+      letter-spacing: inherit;
+      text-transform: inherit;
       cursor: pointer;
-      padding: 1rem 0;
-      list-style: none;
-      user-select: none;
+    }}
+    .theme-toggle {{
+      background: none;
+      border: 1px solid var(--rule-2);
+      color: var(--ink-3);
+      width: 28px;
+      height: 28px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: .9rem;
+      line-height: 1;
+      transition: color .15s, border-color .15s, background .15s;
+    }}
+    .theme-toggle:hover {{
+      color: var(--accent);
+      border-color: var(--accent);
+    }}
+
+    /* ─────────────── Criteria Modal ─────────────── */
+    .criteria-modal {{
+      padding: 0;
+      border: 1px solid var(--rule-2);
+      background: var(--paper-2);
+      color: var(--ink-2);
+      width: min(640px, calc(100vw - 3rem));
+      max-height: calc(100vh - 4rem);
+      border-radius: 2px;
+      box-shadow: 0 30px 60px -20px rgba(0,0,0,.6);
+    }}
+    .criteria-modal::backdrop {{
+      background: var(--backdrop);
+      backdrop-filter: blur(3px);
+    }}
+    .criteria-modal[open] {{
+      animation: modal-in .2s ease;
+    }}
+    @keyframes modal-in {{
+      from {{ opacity: 0; transform: translateY(8px); }}
+      to   {{ opacity: 1; transform: translateY(0); }}
+    }}
+    .criteria-modal-inner {{
+      padding: 1.75rem 1.9rem 1.9rem;
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+    }}
+    .criteria-modal-head {{
       display: flex;
       align-items: center;
-      gap: .65rem;
-      color: var(--ink-2);
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: .9rem;
+      border-bottom: 1px solid var(--rule);
     }}
-    .criteria > summary::-webkit-details-marker {{ display: none; }}
-    .caret {{
-      width: 10px; height: 10px;
-      border-right: 1.5px solid var(--accent);
-      border-bottom: 1.5px solid var(--accent);
-      transform: rotate(-45deg);
-      transition: transform .2s ease;
-      display: inline-block;
-    }}
-    .criteria[open] .caret {{ transform: rotate(45deg); }}
-    .criteria-label {{
+    .criteria-modal-head h3 {{
       font-family: var(--mono);
       font-size: .72rem;
       letter-spacing: .15em;
       text-transform: uppercase;
+      color: var(--ink);
+      font-weight: 500;
     }}
+    .modal-close {{
+      background: none;
+      border: none;
+      color: var(--ink-3);
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+      transition: color .15s;
+    }}
+    .modal-close:hover {{ color: var(--accent); }}
     .criteria-body {{
-      padding: 0 0 1.5rem;
       font-size: .85rem;
       line-height: 1.7;
       color: var(--ink-2);
-      max-width: 720px;
     }}
     .criteria-body p {{ margin-bottom: .9rem; }}
     .criteria-body strong {{ color: var(--ink); font-weight: 500; }}
@@ -887,20 +970,40 @@ def generate(data: dict) -> str:
   <div class="topbar">
     <span>Today's Brief</span>
     <span class="sep"></span>
+    {'<button type="button" class="topbar-link" onclick="document.getElementById(&quot;criteria-modal&quot;).showModal()">編輯方針</button>' if criteria_html else ''}
     <a href="archive.html">歷史存檔 / Archive →</a>
+    <button type="button" class="theme-toggle" aria-label="切換主題" onclick="toggleTheme()"><span class="theme-icon">☾</span></button>
   </div>
-
-  {criteria_html}
 
   {body_html}
 
   {products_html}
 </main>
 
+{criteria_html}
+<script>
+  (function() {{
+    document.querySelectorAll('dialog').forEach(function(d) {{
+      d.addEventListener('click', function(e) {{ if (e.target === d) d.close(); }});
+    }});
+    var icon = document.querySelector('.theme-icon');
+    if (icon) icon.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
+  }})();
+  function toggleTheme() {{
+    var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+    var next = cur === 'light' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = next;
+    try {{ localStorage.setItem('theme', next); }} catch (e) {{}}
+    document.querySelectorAll('.theme-icon').forEach(function(el) {{
+      el.textContent = next === 'light' ? '☀' : '☾';
+    }});
+  }}
+</script>
+
 <footer>
   <div class="colophon-left">
     Set in <strong>Fraunces</strong>, <strong>Inter</strong>, <strong>JetBrains Mono</strong>.<br>
-    Filtered &amp; summarised by Claude Haiku 4.5.
+    Filtered &amp; summarised by Claude Sonnet 4.5.
   </div>
   <div class="colophon-center">
     Daily at <em>09:00</em> UTC+8 · Made with care.
