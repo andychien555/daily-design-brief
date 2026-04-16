@@ -1,7 +1,7 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T21:24:03.067569+08:00",
+  "generated_at": "2026-04-16T21:25:22.259500+08:00",
   "sections": [
     {
       "label": "Product Design",
@@ -18,6 +18,17 @@
           "url": "https://x.com/garrytan/status/1870188351028113416"
         },
         {
+          "id": "1894583200158244981",
+          "text": "I'm working on 24 startups simultaneously\n(half a million b2b users, multimillion ARR)\n\nNo VC funding, employees, calls, office, managers...\n\nEach business is 100% async over chat:\n&gt; me: idea, design, UX &amp; marketing.\n&gt; comaker: coding, product &amp; support.\n\nWhy, how, what: https://t.co/14boTot2IE",
+          "author": "johnrushx",
+          "name": "John Rush",
+          "likes": 3596,
+          "retweets": 194,
+          "replies": 174,
+          "created": "Wed Feb 26 03:00:09 +0000 2025",
+          "url": "https://x.com/johnrushx/status/1894583200158244981"
+        },
+        {
           "id": "1941921342451769792",
           "text": "before:\n- UI designer\n- UX designer\n- UI/UX designer\n\nnow\n- product designer\n- design partner\n- software designer\n\ni like this change",
           "author": "MichaelFilipiuk",
@@ -29,6 +40,17 @@
           "url": "https://x.com/MichaelFilipiuk/status/1941921342451769792"
         },
         {
+          "id": "1789601602946392218",
+          "text": "FREE Google Drive link to learn:\n\n-Data Analytics\n-Business Analysis\n-Data Visualization\n-SQL \n-Big Data\n-Resume tips\n-Project Mgt\n-Product Mgt\n-Software Eng\n-UI/UX Design\n-Interview tips and tricks\n\nLink: https://t.co/4BTuhDTf9e\nRetweet &amp; Tag your friends..",
+          "author": "AbrahamOkah2",
+          "name": "Abraham Okah(info hub)",
+          "likes": 1815,
+          "retweets": 595,
+          "replies": 14,
+          "created": "Sun May 12 10:20:45 +0000 2024",
+          "url": "https://x.com/AbrahamOkah2/status/1789601602946392218"
+        },
+        {
           "id": "1973942012278935631",
           "text": "this is a billion dollar lesson in design.\n\ni bet whoever led Comet has got an extraordinary product sense. It is such an incredible product and ux, not because it’s new—because it isn’t. User ease into it, knows how to navigate around, with some AI integration and not intrusive",
           "author": "felixleezd",
@@ -38,28 +60,6 @@
           "replies": 71,
           "created": "Fri Oct 03 02:43:44 +0000 2025",
           "url": "https://x.com/felixleezd/status/1973942012278935631"
-        },
-        {
-          "id": "1867137301098414166",
-          "text": "POV: UI/UX designer on the hunt for fresh product design inspiration. https://t.co/7iPlpW7voi",
-          "author": "UiSavior",
-          "name": "UI/UX Savior",
-          "likes": 1536,
-          "retweets": 261,
-          "replies": 35,
-          "created": "Thu Dec 12 09:19:56 +0000 2024",
-          "url": "https://x.com/UiSavior/status/1867137301098414166"
-        },
-        {
-          "id": "2004177173985497590",
-          "text": "This is my cleanest product design ever https://t.co/R4LTdkWydx",
-          "author": "HeyAnsariUX",
-          "name": "Aman Ansari",
-          "likes": 1797,
-          "retweets": 51,
-          "replies": 177,
-          "created": "Thu Dec 25 13:07:28 +0000 2025",
-          "url": "https://x.com/HeyAnsariUX/status/2004177173985497590"
         }
       ]
     },
@@ -78,17 +78,6 @@
           "url": "https://x.com/arnaudai/status/1623359864100601861"
         },
         {
-          "id": "1635652394951254017",
-          "text": "💥 16 little UI design rules that make a big impact\n\nUI design might appear to be a magical art form, but a lot of it is made up from logical rules or guidelines. \n\nWe’ll redesign an example interface using 16 of 100+ guidelines from my book - @PracticalUI\n\nA mega thread👇 https://t.co/Im6pSSfPkO",
-          "author": "AdhamDannaway",
-          "name": "Adham Dannaway",
-          "likes": 5409,
-          "retweets": 778,
-          "replies": 92,
-          "created": "Tue Mar 14 14:41:34 +0000 2023",
-          "url": "https://x.com/AdhamDannaway/status/1635652394951254017"
-        },
-        {
           "id": "1667191247969329152",
           "text": "How to Design for Spatial UI.\n\nApple launched the groundbreaking Vision Pro and 3x Design Masterclass on designing for this new future frontier.\n\nDesigners, start learning.\n\n5 Principles of spatial design that will change your design interface (genius strategy):\n\n1. Familiarity https://t.co/3rsbf1pc5o",
           "author": "felixleezd",
@@ -100,53 +89,97 @@
           "url": "https://x.com/felixleezd/status/1667191247969329152"
         },
         {
-          "id": "1996317924127281484",
-          "text": "BREAKING: META POACHED APPLE'S TOP DESIGNER\n\nAlan Dye – Apple’s head of UI design since 2015, behind Vision Pro, Apple Watch, iPhone X – is leaving to become Chief Design Officer at $META.\n\nJony Ive once called him a \"genius for human interface design.\" Just months ago, he https://t.co/XUtIWYb9xc",
-          "author": "PPLXfinance",
-          "name": "Perplexity Finance",
-          "likes": 1540,
-          "retweets": 118,
-          "replies": 96,
-          "created": "Wed Dec 03 20:37:37 +0000 2025",
-          "url": "https://x.com/PPLXfinance/status/1996317924127281484"
+          "id": "2033824157985870200",
+          "text": "Samsung lock screen interface music player design comparison, the left is One UI 8.5, the right is One UI 9.0, the right picture from SamMobile.Which design do you prefer? https://t.co/172NMpYpL1",
+          "author": "UniverseIce",
+          "name": "Ice Universe",
+          "likes": 1871,
+          "retweets": 52,
+          "replies": 107,
+          "created": "Tue Mar 17 08:34:00 +0000 2026",
+          "url": "https://x.com/UniverseIce/status/2033824157985870200"
         },
         {
-          "id": "1623707730367086595",
-          "text": "Generative AI comes to User Interface design!\n\n@Galileo_AI is the first AI product trained on thousands of outstanding designs. It can turn a simple text description into high-fidelity editable UI designs.\n\nSignup here: https://t.co/ZeBzMkro7F https://t.co/SQAqZLZ2s3",
-          "author": "LiorOnAI",
-          "name": "Lior Alexander",
-          "likes": 827,
-          "retweets": 174,
-          "replies": 19,
-          "created": "Thu Feb 09 15:37:44 +0000 2023",
-          "url": "https://x.com/LiorOnAI/status/1623707730367086595"
+          "id": "2041022407050424747",
+          "text": "Hi everyone! I made a NewJeans PITSTOP game interface, and it’s only a UI/UX design concept. I wanted to share this work here because I’ve been really missing them 😭💕 https://t.co/iztsOn6vfC",
+          "author": "_haern",
+          "name": "aren ✹",
+          "likes": 1042,
+          "retweets": 266,
+          "replies": 38,
+          "created": "Mon Apr 06 05:17:16 +0000 2026",
+          "url": "https://x.com/_haern/status/2041022407050424747"
+        },
+        {
+          "id": "1688116622907637760",
+          "text": "16 little UI design rules that make a big impact\n\nA design case study to redesign an example user interface using simple rules such as using space to group related elements and using font weights to make text less or more prominent \n\nhttps://t.co/LN2zDJwtV0 https://t.co/3y90WtXsx5",
+          "author": "101babich",
+          "name": "Nick Babich",
+          "likes": 917,
+          "retweets": 139,
+          "replies": 6,
+          "created": "Sun Aug 06 09:15:41 +0000 2023",
+          "url": "https://x.com/101babich/status/1688116622907637760"
         }
       ]
     },
     {
-      "label": "Product Management",
+      "label": "AI + Design",
       "tweets": [
         {
-          "id": "1796210109695074794",
-          "text": "Product Management 101.\n\nToday: Product Strategy vs. Product Roadmap https://t.co/ou8cK9Xw0o",
-          "author": "KiwiDenny",
-          "name": "Denny Klisch",
-          "likes": 2841,
-          "retweets": 451,
-          "replies": 18,
-          "created": "Thu May 30 16:00:36 +0000 2024",
-          "url": "https://x.com/KiwiDenny/status/1796210109695074794"
+          "id": "1977934940294807856",
+          "text": "Your all-in-one e-comm toolkit is here. Meet the new CapCut Desktop!\nNow enjoy 40% off on Pro for first-timers.\n\n&gt; Create product visuals with AI Design, our newest design agent (yep, CapCut designs now!)\n&gt; Make AI influencers that sell\n&gt; Generate CGI ads that wow\nAll in one https://t.co/6bqtGUTZd3",
+          "author": "capcutapp",
+          "name": "CapCut",
+          "likes": 9136,
+          "retweets": 723,
+          "replies": 291,
+          "created": "Tue Oct 14 03:10:12 +0000 2025",
+          "url": "https://x.com/capcutapp/status/1977934940294807856"
         },
         {
-          "id": "1732075557200810212",
-          "text": "The #1 request I hear from healthcare CEOs about their product team is wishing they knew how to align business and market needs to company strategy and the tech roadmap - we now have a course to explain all the healthcare nuances for product management: https://t.co/uQcbYNNGTN",
-          "author": "dvasishtha",
-          "name": "Dhruv Vasishtha",
-          "likes": 30,
-          "retweets": 1,
-          "replies": 4,
-          "created": "Tue Dec 05 16:32:47 +0000 2023",
-          "url": "https://x.com/dvasishtha/status/1732075557200810212"
+          "id": "1950260314823397767",
+          "text": "A public company CEO told me AI coding has had negligible impact on his engineering teams, instead the real transformation has been on their product and design teams using Replit. \n\nI asked him how does he reconcile this with CEOs saying that 25-50% of code is generated by AI?",
+          "author": "amasad",
+          "name": "Amjad Masad",
+          "likes": 3970,
+          "retweets": 372,
+          "replies": 230,
+          "created": "Tue Jul 29 18:21:07 +0000 2025",
+          "url": "https://x.com/amasad/status/1950260314823397767"
+        },
+        {
+          "id": "1900521217586507963",
+          "text": "AI is making every product look the same. Same features. Same UI. Same smart assistant.\n\nSo if everyone has the same AI tools, what actually makes a product a $100M winning product?\n\nInsights from a 50 page ebook \"how to design products in the AI age\" we wrote at @meetLCA:",
+          "author": "gregisenberg",
+          "name": "GREG ISENBERG",
+          "likes": 2915,
+          "retweets": 269,
+          "replies": 188,
+          "created": "Fri Mar 14 12:15:42 +0000 2025",
+          "url": "https://x.com/gregisenberg/status/1900521217586507963"
+        },
+        {
+          "id": "1941902319102071292",
+          "text": "writing the code is the easy part now. the bottlenecks are:\n\n- defining the right product (insight, taste, timing)\n- distribution (narrative, audience, partnerships)\n- design that feels alive\n- data access (auth, api, privacy)\n- user motivation &amp; trust (esp. w/ ai)\n- platform",
+          "author": "signulll",
+          "name": "signüll",
+          "likes": 2831,
+          "retweets": 272,
+          "replies": 125,
+          "created": "Sun Jul 06 16:49:26 +0000 2025",
+          "url": "https://x.com/signulll/status/1941902319102071292"
+        },
+        {
+          "id": "1973942012278935631",
+          "text": "this is a billion dollar lesson in design.\n\ni bet whoever led Comet has got an extraordinary product sense. It is such an incredible product and ux, not because it’s new—because it isn’t. User ease into it, knows how to navigate around, with some AI integration and not intrusive",
+          "author": "felixleezd",
+          "name": "Felix Lee",
+          "likes": 2610,
+          "retweets": 146,
+          "replies": 71,
+          "created": "Fri Oct 03 02:43:44 +0000 2025",
+          "url": "https://x.com/felixleezd/status/1973942012278935631"
         }
       ]
     },
@@ -154,92 +187,92 @@
       "label": "PM 大神近期推文",
       "tweets": [
         {
-          "id": "2044505462511702195",
-          "text": "Announcing the winners of the https://t.co/xEPCcPiZHO hackathon.\n\nA month ago, I put out a call for readers to build something cool with my podcast transcripts + newsletter content. The winner would get a free 1 year subscription to my newsletter.\n\nWith over 80+ entries, many that absolutely blew my mind, it was way too hard to pick just one winner. So I picked ten. Congrats to the winners!\n\nIn no particular order:\n🔸 Lenny's Greatest Hits: https://t.co/TbxC8wo2Op\n🔸 Lenny's Comics: https://t.co/DTBsASg3E2\n🔸 Lenny's Roundtable: https://t.co/eDkBIWH3NL\n🔸 Lenny's Books for Kids: https://t.co/CBAY2GDYtM\n🔸 Lenny Unwrapped: https://t.co/e8VQ4ykHb0\n🔸 The Re-Entry Brief: https://t.co/NoO5CbHZU1\n🔸 Steelman advice skills: https://t.co/hcikHx9Na3\n🔸 Lenny's Crystal Ball: https://t.co/DxNpRkfOpD\n🔸 This Gets Me: https://t.co/eaaL8GzLLI\n🔸 Lenny's Dots of Wisdom: https://t.co/I8gmw2fSAK\n\nSee comments on this post for all of the entries: https://t.co/yJDmuCQfOx\n\nIf you missed the contest, it's not too late to go play with the data and build something fun: https://t.co/xEPCcPiZHO.\n\nAnd big thank you to @hbshih for inspiring this contest with his mind-blowing app https://t.co/Dyh61QvMGo.",
+          "id": "2041919962969993578",
+          "text": "Amol (Head of Growth at @AnthropicAI) just joined Twitter. Follow for free alpha.\n\nBTW, can you believe they hit $30B ARR before they even released Mythos?",
           "author": "lennysan",
           "name": "Lenny Rachitsky",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Wed Apr 15 19:57:41 +0000 2026",
-          "url": "https://x.com/lennysan/status/2044505462511702195"
+          "likes": 3977,
+          "retweets": 83,
+          "replies": 99,
+          "created": "Wed Apr 08 16:43:50 +0000 2026",
+          "url": "https://x.com/lennysan/status/2041919962969993578"
         },
         {
-          "id": "2044479129136074864",
-          "text": "This may be the only high-level overview of OpenClaw on the internet.\n\nEvery time you search “OpenClaw” on YouTube, you get the same thing: deep technical setup guides, installation walkthroughs, and in the weeds tutorials.\n\nAs someone who loves podcasts but is short on time, I’ve struggled to find an OpenClaw video/podcast that I could listen to and didn’t have to visually follow along. I just wanted something to cover the \"why\" and the \"what\" of OpenClaw.\n\nThen @lennysan released this episode with @clairevo \n\nIt is the perfect high-level overview. They stay out of the weeds and discuss: What OpenClaw is. Why it’s so powerful. How Claire is actually using 8+ agents in her daily life.\n\nIf you're curious about OpenClaw, but aren't looking for a technical configuration guide, then I highly recommend giving this a listen:\n\nhttps://t.co/m0QCi9bd7o",
+          "id": "1633127235543605248",
+          "text": "Today with @OpenAI we’re launching the \nChatGPT app for Slack 🚀\n\nIt’s a tasty combo: OpenAI’s leading language models + Slack’s conversational interface for work.  \n\n💬 Get up to speed fast  \n🔍 Instantly find answers  \n🖊️ Draft messages quickly https://t.co/pyF1dvAXKC",
+          "author": "noah_weiss",
+          "name": "Noah Desai Weiss",
+          "likes": 2256,
+          "retweets": 270,
+          "replies": 20,
+          "created": "Tue Mar 07 15:27:29 +0000 2023",
+          "url": "https://x.com/noah_weiss/status/1633127235543605248"
+        },
+        {
+          "id": "2041322800435404835",
+          "text": "Anthropic added the combined ARR of Palantir, Anduril, and Databricks—in one month.",
           "author": "lennysan",
           "name": "Lenny Rachitsky",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Wed Apr 15 18:13:03 +0000 2026",
-          "url": "https://x.com/lennysan/status/2044479129136074864"
+          "likes": 1455,
+          "retweets": 66,
+          "replies": 60,
+          "created": "Tue Apr 07 01:10:56 +0000 2026",
+          "url": "https://x.com/lennysan/status/2041322800435404835"
+        },
+        {
+          "id": "2043777033017405547",
+          "text": "My biggest takeaways from @rabois:\n\n1. The team you build is the company you build. Founders get distracted by markets, customers, and technology. If you have the right people, those problems get easier. If you have the wrong people, none of those things save you.\n\n2. Build your",
+          "author": "lennysan",
+          "name": "Lenny Rachitsky",
+          "likes": 597,
+          "retweets": 65,
+          "replies": 36,
+          "created": "Mon Apr 13 19:43:10 +0000 2026",
+          "url": "https://x.com/lennysan/status/2043777033017405547"
         },
         {
           "id": "2044445571449303376",
-          "text": "I rarely do interviews or talk about my personal life, but I made an exception for the team at @firstround. \n\nTheir writer spent hours at my house. We talked about why I started Lenny's Newsletter, what motivates me to keep building it, and a lot of things I don't usually share publicly. \n\nIt's an intimate look at what my life is actually like outside of what most people see on the podcast.\n\nCheck it out: https://t.co/eNvWu269H0",
+          "text": "I rarely do interviews or talk about my personal life, but I made an exception for the team at @firstround. \n\nTheir writer spent hours at my house. We talked about why I started Lenny's Newsletter, what motivates me to keep building it, and a lot of things I don't usually share https://t.co/Cg3xpgBraK",
           "author": "lennysan",
           "name": "Lenny Rachitsky",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
+          "likes": 622,
+          "retweets": 44,
+          "replies": 53,
           "created": "Wed Apr 15 15:59:42 +0000 2026",
           "url": "https://x.com/lennysan/status/2044445571449303376"
         },
         {
-          "id": "2044430161647652943",
-          "text": "Had such a good time at the Parents in Product meet up with @TheRialMichelle  and @lennysan last night. (Charts for Babies is so cute buy at your local bookstore!!)\n\nMet so many interesting founders, PMs, literally at the intersection of product and parenting — a teach your kid to read app, a vibe coding gaming platform for kids, a PM from @literati… and other PMs who are just also parents. \n\nUnexpected bonus: got some amazing feedback and advice on my own parenting product (ok ok it’s an Etsy shop but still I can pretend I’m a PM too)",
+          "id": "2041996800761196820",
+          "text": "Breaking: Lenny's Newsletter subscribers will be getting a free year of @Cursor_ai, @GoogleAI Pro (w/ Gemini), @NotionHQ, @Supabase, @v0, @Gumloop, and @Fin_ai\n\nThis is on top of the 25+ premium products that eligible subscribers already get free for a full year, including https://t.co/9BRlk5SohS",
           "author": "lennysan",
           "name": "Lenny Rachitsky",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Wed Apr 15 14:58:28 +0000 2026",
-          "url": "https://x.com/lennysan/status/2044430161647652943"
+          "likes": 422,
+          "retweets": 29,
+          "replies": 53,
+          "created": "Wed Apr 08 21:49:10 +0000 2026",
+          "url": "https://x.com/lennysan/status/2041996800761196820"
         },
         {
-          "id": "2044124608954282289",
-          "text": "My mission for the newsletter and podcast coming to fruition.\n\nNewsletter + Podcast + Slack + http://LennysProductPass.com + http://LennysData.com.\n\nAll the advice, community, and tools you need to build a world-class product and career.  ",
+          "id": "2041529509636440310",
+          "text": "Breaking: My wife's children's book is out today!\n\nIt's called Charts for Babies, and is available anywhere you buy books.\n\nWe thought, what better way to celebrate the big moment than to collaborate on a post together?\n\nIn today's very special newsletter, @TheRialMichelle shares https://t.co/ZffXeDpTym",
           "author": "lennysan",
           "name": "Lenny Rachitsky",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Tue Apr 14 18:44:19 +0000 2026",
-          "url": "https://x.com/lennysan/status/2044124608954282289"
+          "likes": 397,
+          "retweets": 27,
+          "replies": 42,
+          "created": "Tue Apr 07 14:52:19 +0000 2026",
+          "url": "https://x.com/lennysan/status/2041529509636440310"
         },
         {
-          "id": "2044100548073492761",
-          "text": "The word \"agent\" is the most overloaded term in AI right now.\n\nYour backlog probably has 5-10 agent ideas. But one agent idea is a 6-week automation you can build with n8n. Another is a 6-month bet requiring a dedicated ML team. Putting them on the same spreadsheet and hoping impact-vs.-effort will sort it out doesn't work.\n\nHamza Farooq and Jaya Rajwani—who teach two of the most highly rated and well-respected courses on building AI agents—spent 50+ hours putting together a guide that'll help you make sense of the different categories of \"agents,\" how to prioritize across them, and how to avoid common pitfalls—with recommended tools and many real-world examples.\n\nRead this post the next time your team is going in circles on your agent strategy: \nhttps://t.co/2DDVIZgB5g",
-          "author": "lennysan",
-          "name": "Lenny Rachitsky",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Tue Apr 14 17:08:42 +0000 2026",
-          "url": "https://x.com/lennysan/status/2044100548073492761"
-        },
-        {
-          "id": "2043858862965751854",
-          "text": "Sure, everyone loves Claude Code but if you ask non-coders: they're all obsessed with Cowork.\n\n@JJEnglert  at @tenex_labs is one of them, and he's giving us the power user's guide to getting started with @claudeai Cowork.\n\nIn this ep, JJ walks me through:\n- How to set up Claude Cowork projects (hint: it's just a folder on your computer)\n- His \"brain\" file: a doc that tells Claude who he is, how he works, and who he works with, so he never has to re-explain himself\n- 3 AI agents with different personas that review your work before you share it with real humans\n\nMy favorite take from this ep: Cowork teaches you the mental models of Claude Code without ever opening a terminal.\n\nIf you've been stuck in chat mode wondering how to actually get AI to do work for you, this is your episode.\n\nty to our amazing sponsors!\n🔀 @tines_hq  - Start building intelligent workflows today\n🖱️@cursor_ai - The best way to code with AI \n\nFull episode: https://t.co/W5vPozVwLc",
-          "author": "lennysan",
-          "name": "Lenny Rachitsky",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Tue Apr 14 01:08:20 +0000 2026",
-          "url": "https://x.com/lennysan/status/2043858862965751854"
-        },
-        {
-          "id": "2043693008802234811",
-          "text": "How to build a high growth startup:  https://open.spotify.com/episode/2Ld8DpKG2dSXlYmunQDJN8?si=8GPwX5UzTJeEWEAZCRWdtQ&t=0&pi=ZdAp15XUQgq_0  ",
-          "author": "lennysan",
-          "name": "Lenny Rachitsky",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Mon Apr 13 14:09:17 +0000 2026",
-          "url": "https://x.com/lennysan/status/2043693008802234811"
+          "id": "1711817521085776153",
+          "text": "To however many of my Twitter followers are still here: just wanted to let everyone know that I will no longer be posting or engaging on this platform.   You can find me on LinkedIn.",
+          "author": "cagan",
+          "name": "Marty Cagan",
+          "likes": 351,
+          "retweets": 9,
+          "replies": 19,
+          "created": "Tue Oct 10 18:54:35 +0000 2023",
+          "url": "https://x.com/cagan/status/1711817521085776153"
         }
       ]
     },
@@ -247,37 +280,92 @@
       "label": "設計大神近期推文",
       "tweets": [
         {
-          "id": "2013750223055487400",
-          "text": "The more agents do, the more annoying the human 'reviewer' job becomes.\n\nHumanity -- always trading one problem for another.",
+          "id": "2043372810190655515",
+          "text": "Having breakfast with my husband. He notices I am wearing gold 2-inch hoop earrings.\n\nHim: “Oh how long have you been wearing those?”\n\nMe: “…every day for the past 7 years.”",
           "author": "joulee",
           "name": "Julie Zhuo",
-          "likes": 106,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Tue Jan 20 23:07:21 +0000 2026",
-          "url": "https://x.com/joulee/status/2013750223055487400"
+          "likes": 4048,
+          "retweets": 41,
+          "replies": 12,
+          "created": "Sun Apr 12 16:56:56 +0000 2026",
+          "url": "https://x.com/joulee/status/2043372810190655515"
         },
         {
-          "id": "2028262257973514632",
-          "text": "Excellence over perfection.",
-          "author": "joulee",
-          "name": "Julie Zhuo",
-          "likes": 58,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Mon Mar 02 00:13:00 +0000 2026",
-          "url": "https://x.com/joulee/status/2028262257973514632"
+          "id": "2042292964756767151",
+          "text": "as a designer, being Eastern European in America has served me very well. https://t.co/Oa87Wvvadj",
+          "author": "LukeW",
+          "name": "Luke Wroblewski",
+          "likes": 2023,
+          "retweets": 78,
+          "replies": 39,
+          "created": "Thu Apr 09 17:26:01 +0000 2026",
+          "url": "https://x.com/LukeW/status/2042292964756767151"
         },
         {
-          "id": "2026353505234202750",
-          "text": "Been enjoying an advance copy of @bgurley’s book “Runnin’ Down a Dream” which is out today!\n\nSo much of it resonates with my own experience (being told “hey you should be a doctor / lawyer / engineer” but in all my free time I’m drawing / writing / obsessively redesigning websites… all of which ultimately wove their way into my path in a beautiful way.) \n\nI’m also reading it from the parenting lens, and find it particularly timely for this next AI generation on the big questions of how to discover a career that brings joy and growth and success. \n\nThank you Bill for this gem!",
+          "id": "1497702209810624512",
+          "text": "My New Book Is (will be) Design for a Better World: How to create a meaningful, sustainable, and humanity-centered future. For publication by MIT Press, early 2023. Excerpts posted at https://t.co/GCZCuMbvj6",
+          "author": "jnd1er",
+          "name": "Don Norman",
+          "likes": 889,
+          "retweets": 124,
+          "replies": 9,
+          "created": "Sat Feb 26 22:36:47 +0000 2022",
+          "url": "https://x.com/jnd1er/status/1497702209810624512"
+        },
+        {
+          "id": "2037628118366830756",
+          "text": "Nearly 20 years ago my now-husband and I went to a wedding, and among the many lovely touches at this wedding was a poster that said \"the wind is in fine fettle.\" Now we have children that are frequently bickering, but occasionally they play happily together. When one of us is",
           "author": "joulee",
           "name": "Julie Zhuo",
-          "likes": 22,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Tue Feb 24 17:48:18 +0000 2026",
-          "url": "https://x.com/joulee/status/2026353505234202750"
+          "likes": 271,
+          "retweets": 8,
+          "replies": 3,
+          "created": "Fri Mar 27 20:29:35 +0000 2026",
+          "url": "https://x.com/joulee/status/2037628118366830756"
+        },
+        {
+          "id": "2044442114512281976",
+          "text": "finally. the designer/developer handoff is dead. https://t.co/lHQPGGR8Qv",
+          "author": "LukeW",
+          "name": "Luke Wroblewski",
+          "likes": 226,
+          "retweets": 13,
+          "replies": 13,
+          "created": "Wed Apr 15 15:45:58 +0000 2026",
+          "url": "https://x.com/LukeW/status/2044442114512281976"
+        },
+        {
+          "id": "1153109920432177152",
+          "text": "Why Criticism Is Good for Creativity https://t.co/Wiz8aRuLL8",
+          "author": "jnd1er",
+          "name": "Don Norman",
+          "likes": 141,
+          "retweets": 50,
+          "replies": 2,
+          "created": "Mon Jul 22 01:10:03 +0000 2019",
+          "url": "https://x.com/jnd1er/status/1153109920432177152"
+        },
+        {
+          "id": "1200120802030440449",
+          "text": "Old People are Cool, Design for Them Sucks: Panel at SXSW, Austin. March 20, 2020 with Ayse Birsel, John Zapolski, and me. https://t.co/ZwGYJHhnkz",
+          "author": "jnd1er",
+          "name": "Don Norman",
+          "likes": 171,
+          "retweets": 25,
+          "replies": 6,
+          "created": "Thu Nov 28 18:34:31 +0000 2019",
+          "url": "https://x.com/jnd1er/status/1200120802030440449"
+        },
+        {
+          "id": "2032135537268834755",
+          "text": "skip the design system software.\nbuild directly from a design spec using Figma MCP and Intent. https://t.co/OZWabRIEHR",
+          "author": "LukeW",
+          "name": "Luke Wroblewski",
+          "likes": 201,
+          "retweets": 8,
+          "replies": 10,
+          "created": "Thu Mar 12 16:44:01 +0000 2026",
+          "url": "https://x.com/LukeW/status/2032135537268834755"
         }
       ]
     },
@@ -285,48 +373,114 @@
       "label": "Andy 追蹤的設計師",
       "tweets": [
         {
-          "id": "2015824852121477198",
-          "text": "on subtraction\n\nadding is easy. someone asks for a feature, you build it. user hits a bug, you patch it. flow feels blocked, you add a shortcut. new trendy idea, you add a new concept. repeat until you have 50 buttons and no one knows where to start.\n\nthe hard part isn't building anymore. it's choosing:\n- what to make – and what to leave out\n- how to make it – so it strengthens the system instead of fragmenting it  \n- what to remove – even when it works, if it doesn't belong\n\naddition is momentum. subtraction takes conviction.\n\nyou have to see the whole, not just the parts. you have to believe that fewer things, done right, will carry more weight than a hundred things scattered.\n\nmost products don't die from missing features. they die from accumulation. from losing clarity. from becoming everything and meaning nothing.\n\nthink slower, then act fast. slow down after the burst. tie it all back. so the foundation can carry what comes next.\n\nkeep focused, and simplify.",
+          "id": "1919763769070071867",
+          "text": "Introducing Design Mode for Cursor! 🧑‍🎨🤖\n\nVibe code and vibe design in one place, stay in the flow.\nUses the same existing AI agent that's in your favorite coding tool, same context, intertwined. https://t.co/D3o60uqD5j",
+          "author": "tomkrcha",
+          "name": "Tom Krcha",
+          "likes": 4373,
+          "retweets": 331,
+          "replies": 216,
+          "created": "Tue May 06 14:38:44 +0000 2025",
+          "url": "https://x.com/tomkrcha/status/1919763769070071867"
+        },
+        {
+          "id": "2038841219556724924",
+          "text": "when software had a soul\n\nthere was a moment around 2005 when using a Mac felt like touching something alive.\n\nthe dock bounced. the genie effect swooped. exposé scattered your windows like cards on a table. none of it was strictly necessary. all of it felt like someone cared –",
           "author": "ryolu_",
           "name": "Ryo Lu",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Mon Jan 26 16:31:11 +0000 2026",
-          "url": "https://x.com/ryolu_/status/2015824852121477198"
+          "likes": 2456,
+          "retweets": 346,
+          "replies": 144,
+          "created": "Tue Mar 31 04:50:01 +0000 2026",
+          "url": "https://x.com/ryolu_/status/2038841219556724924"
         },
         {
-          "id": "2012724531820183780",
-          "text": "beauty in the imperfections and slowness\n\nwe’re racing toward a life where everything is instant, optimized, compressed. asymptotically approaching zero friction.\n\nand then suddenly we start missing the old days… not because they were better, but because they were thicker.\n\nwaiting for a download bar to crawl across the screen.\nwalking home without maps.\ncalling someone and hoping they’re actually home.\nphotos that you couldn’t retake 30 times…\n\nthat slowness gave time for anticipation, for tiny rituals, for noticing.\n\nfriction gave texture.\nslowness gave thoughts to breathe.\ninefficiency gave space for surprise.\n\nwhen everything becomes fast and efficient, life flattens into “done” and “next.” you lose the in-between, and the in-between is what shapes you.\n\na slightly wrong note in a song you love. a typo in a message from someone you care about. a clunky tool that forces you to think a bit more. these are all proof of life.\n\nas tech gets smoother, weirdly the most precious things will be the ones that don’t try to be perfect.\n\nhandwritten instead of generated.\nslow instead of instant.\nlocal instead of global.\na bit janky instead of seamless.\n\nthe future luxury isn’t speed, it’s latency, silence, and things that carry the trace of a human hands.\n\nmaybe the move now is not to reject efficiency, but to frame it.\n\nuse fast tools to clear the junk, so you can protect a few sacred places in your life that are intentionally slow.\nintentionally inefficient.\nintentionally imperfect.\n\na long walk with no headphones.\ncooking something that takes 2 hours instead of 2 minutes.\nwriting with tools that don’t autocomplete your thoughts.\ninterfaces that let you linger and wander, instead of push you to the next thing.\n\nas we get closer to frictionless everything, we’ll have to design our own friction back in.\n\nnot as nostalgia, \nbut as a way to stay human in a world that forgot how to wait.",
+          "id": "2033937719685222598",
+          "text": "keep struggling\n\nwhen things come too easy, you don’t exercise the brain nor the emotions. ease can feel like progress, but it often skips the reps that actually change you.\n\ngrowth is usually a loop, not a straight line – you take passes. you try, you fail, you reframe. you come",
           "author": "ryolu_",
           "name": "Ryo Lu",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Sun Jan 18 03:11:37 +0000 2026",
-          "url": "https://x.com/ryolu_/status/2012724531820183780"
+          "likes": 2225,
+          "retweets": 269,
+          "replies": 66,
+          "created": "Tue Mar 17 16:05:15 +0000 2026",
+          "url": "https://x.com/ryolu_/status/2033937719685222598"
         },
         {
-          "id": "2024657014757216390",
-          "text": "Just had an amazing and insightful session with @DilumSanjaya about his Vibe Coding process 👾 \n\nWe will share the recording later the next week. Stay tuned! 💫  ",
-          "author": "DilumSanjaya",
-          "name": "Dilum Sanjaya",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Fri Feb 20 01:27:03 +0000 2026",
-          "url": "https://x.com/DilumSanjaya/status/2024657014757216390"
+          "id": "2041099020970631260",
+          "text": "🏆 @duolingo won Animator of the Year https://t.co/OXuavAPtE6",
+          "author": "mobbin",
+          "name": "Mobbin",
+          "likes": 2092,
+          "retweets": 91,
+          "replies": 44,
+          "created": "Mon Apr 06 10:21:43 +0000 2026",
+          "url": "https://x.com/mobbin/status/2041099020970631260"
         },
         {
-          "id": "2022111731984871542",
-          "text": "Want to learn about the state-of-the-art vibe coding?\nJoin our stream w/ @DilumSanjaya on 19 Feb! \n\nDilum will show how to vibe code 3D robots and machines (like on the video) 2/ @NanoBanana @GeminiApp @midjourney @Hunyuan3D 🤖\n\nSeats are limited, book your spot via link below ⬇️  ",
+          "id": "2033950707947286861",
+          "text": "Started bringing a smart home idea I generated with Nano Banana 2 to life\nHere's the first look\n\nCode: Gemini 3.1 Pro\n3D assets: Tripo (not affiliated)\n\nMore details ↓ https://t.co/nQZ7EguD79",
           "author": "DilumSanjaya",
           "name": "Dilum Sanjaya",
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0,
-          "created": "Fri Feb 13 00:53:00 +0000 2026",
-          "url": "https://x.com/DilumSanjaya/status/2022111731984871542"
+          "likes": 1896,
+          "retweets": 143,
+          "replies": 35,
+          "created": "Tue Mar 17 16:56:52 +0000 2026",
+          "url": "https://x.com/DilumSanjaya/status/2033950707947286861"
+        },
+        {
+          "id": "2037935238421291225",
+          "text": "Vibe Coding Robotics Part 10\n\nAdded a secondary camera focused on the gripper\nNext : generating CAD scripts to explore more advanced gripper mechanisms\nCode : Gemini 3.1 Pro\nDesign : Nano Banana https://t.co/5IkT864UDx",
+          "author": "DilumSanjaya",
+          "name": "Dilum Sanjaya",
+          "likes": 1627,
+          "retweets": 167,
+          "replies": 40,
+          "created": "Sat Mar 28 16:49:58 +0000 2026",
+          "url": "https://x.com/DilumSanjaya/status/2037935238421291225"
+        },
+        {
+          "id": "2044433115985457392",
+          "text": "Introducing Code on Canvas in @pencildev  \nAI design tool for Claude and Codex.\nDesign ❤️ Code are officially in a relationship, opening new ways to create on canvas.\n\nAsk agent to generate custom design tools inside Pencil on the fly, create interactive components, generative https://t.co/IyaDFahetO",
+          "author": "tomkrcha",
+          "name": "Tom Krcha",
+          "likes": 979,
+          "retweets": 107,
+          "replies": 73,
+          "created": "Wed Apr 15 15:10:13 +0000 2026",
+          "url": "https://x.com/tomkrcha/status/2044433115985457392"
+        },
+        {
+          "id": "1965811316574265427",
+          "text": "Played around with @threejs   to see how close I could get to the amazing Jelly Slider that @cerpow  made.\n\nhttps://t.co/rNWPoSG9Fd https://t.co/soatgVouT6",
+          "author": "DilumSanjaya",
+          "name": "Dilum Sanjaya",
+          "likes": 1048,
+          "retweets": 47,
+          "replies": 51,
+          "created": "Wed Sep 10 16:15:15 +0000 2025",
+          "url": "https://x.com/DilumSanjaya/status/1965811316574265427"
+        },
+        {
+          "id": "2042210683832643607",
+          "text": "Current mood:\n\nDuotone\n\n↓ https://t.co/xRQfI3OQxU",
+          "author": "stfnco",
+          "name": "Nick Stepuk",
+          "likes": 959,
+          "retweets": 59,
+          "replies": 17,
+          "created": "Thu Apr 09 11:59:04 +0000 2026",
+          "url": "https://x.com/stfnco/status/2042210683832643607"
+        },
+        {
+          "id": "1975953080928653591",
+          "text": "the shell:\n\nmac os is just a unix shell. windows was just an msdos shell. they're alternate interfaces wrapping the same concepts underneath.\n\nterminal romantics miss this. CLIs are powerful and direct, sure, but they're not the destination – they're the starting point. they",
+          "author": "ryolu_",
+          "name": "Ryo Lu",
+          "likes": 748,
+          "retweets": 43,
+          "replies": 123,
+          "created": "Wed Oct 08 15:55:00 +0000 2025",
+          "url": "https://x.com/ryolu_/status/1975953080928653591"
         }
       ]
     }
