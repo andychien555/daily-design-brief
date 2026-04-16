@@ -54,11 +54,13 @@ def context_html(tweet: dict) -> str:
     if ctx.get("quoted_text"):
         qa = esc(ctx.get("quoted_author", ""))
         qt = esc(ctx["quoted_text"])
-        parts.append(f'<div class="ctx-quote"><span class="ctx-label">引用 @{qa}</span><p>{qt}</p></div>')
+        label = f"引用 @{qa}" if qa else "引用原文"
+        parts.append(f'<div class="ctx-quote"><span class="ctx-label">{label}</span><p>{qt}</p></div>')
     if ctx.get("replied_text"):
         ra = esc(ctx.get("replied_author", ""))
         rt = esc(ctx["replied_text"])
-        parts.append(f'<div class="ctx-quote ctx-reply"><span class="ctx-label">回覆 @{ra}</span><p>{rt}</p></div>')
+        label = f"回覆 @{ra}" if ra else "回覆原文"
+        parts.append(f'<div class="ctx-quote ctx-reply"><span class="ctx-label">{label}</span><p>{rt}</p></div>')
     top_replies = ctx.get("top_replies") or []
     if top_replies:
         items = "".join(
