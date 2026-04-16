@@ -47,14 +47,19 @@ SEARCH_QUERIES = [
 SINCE_DAYS = 2
 
 
-def search_tweets(query: str, min_likes: int, max_rows: int = 20, since_date: str | None = None) -> list[dict]:
-    """Call 6551.io /open/twitter_search endpoint."""
+def search_tweets(query: str, min_likes: int, max_rows: int = 30, since_date: str | None = None) -> list[dict]:
+    """Call 6551.io /open/twitter_search endpoint.
+
+    Uses 'Latest' product when since_date is given so we get recent tweets
+    in the window (Top would return all-time popular, which conflicts with
+    a recent date filter and returns nothing).
+    """
     url = f"{API_BASE}/open/twitter_search"
     payload = {
         "keywords": query,
         "minLikes": min_likes,
         "maxResults": max_rows,
-        "product": "Top",
+        "product": "Latest" if since_date else "Top",
         "lang": "en",
         "excludeReplies": True,
         "excludeRetweets": True,
