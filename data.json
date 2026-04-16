@@ -1,9 +1,29 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T23:33:51.959732+08:00",
+  "generated_at": "2026-04-16T23:37:41.932785+08:00",
   "since_date": "2026-04-13",
   "top_tweets": [
+    {
+      "id": "2044472288599507108",
+      "text": "This is really accurate. \n\nAs much as we all want to drink the vibe coding kool-aid, the reality is that 90%+ of all code in a company is maintaining and migrating existing stuff that is complicated and messy. You can definitely vibe code the remaining 10% but unless there is a",
+      "author": "chamath",
+      "name": "Chamath Palihapitiya",
+      "likes": 1157,
+      "retweets": 82,
+      "replies": 111,
+      "created": "Wed Apr 15 17:45:52 +0000 2026",
+      "url": "https://x.com/chamath/status/2044472288599507108",
+      "source": "Vibe Coding",
+      "summary_zh": "原推指出企業 90% 以上的程式碼都在維護與遷移既有複雜系統，只有剩下 10% 能用 vibe coding 快速開發。此推回應認為這個觀察非常準確，提醒大家不要過度迷信 vibe coding 能解決所有問題。",
+      "context": {
+        "quoted_text": "Every time I see a tweet saying “I can vibe code this in a weekend” - I think of the slack notification system..\n\nIt takes time, persistence and effort to get the details right. \n\nSure, a lot of simple workflows will get vibe coded away. And maybe you can put this in Claude Code and get the code right in one shot. \n\nBut quality, depth and great systems will still have value and take time. You can’t vibe code lessons. \n\nNow and forever.",
+        "quoted_author": "nikunj",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
     {
       "id": "2043742105852621052",
       "text": "As AI agents accelerate coding, what is the future of software engineering? Some trends are clear, such as the Product Management Bottleneck, referring to the idea that we are more constrained by deciding what to build rather than the actual building. But many implications, like",
@@ -15,177 +35,13 @@
       "created": "Mon Apr 13 17:24:23 +0000 2026",
       "url": "https://x.com/AndrewYNg/status/2043742105852621052",
       "source": "Product Management",
-      "summary_zh": "AI 加速編碼後，軟體工程的未來趨勢之一是「產品管理瓶頸」：我們更受限於決定要做什麼，而非實際建造本身。許多衍生影響尚不明朗，值得持續關注。",
+      "summary_zh": "AI agents 加速開發後，軟體工程的未來趨勢之一是「產品管理瓶頸」（Product Management Bottleneck）：決定要做什麼的能力，將比實際開發能力更成為限制因素。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
         "replied_text": "",
         "replied_author": "",
-        "top_replies": [
-          {
-            "author": "ObaDeleke",
-            "text": "These people don block my ear🤦🏾‍♂️\n\nI no even concentrate on my crash😭",
-            "likes": 60
-          },
-          {
-            "author": "IrfanPathan",
-            "text": "This catch involving Shreyas Iyer has to he the best catch of this season.  Has to be. WOW",
-            "likes": 51
-          },
-          {
-            "author": "dalbitbangtan",
-            "text": "📸 INSTAGRAM\n\nV stories:\nWasabi bomb 💣\nThank you so much🫂\nThis was 2 years ago https://t.co/VUGGtVxJHG",
-            "likes": 46
-          },
-          {
-            "author": "LakeShowYo",
-            "text": "BREAKING: LUKA WON HIS 65-GAME APPEAL AND IS ELIGIBLE FOR SEASON AWARDS 👀 🪄 https://t.co/52U0BA0tIm",
-            "likes": 41
-          },
-          {
-            "author": "mazemoore",
-            "text": "Oh gee look, Jamie Raskin is talking about removing the President via the 25th amendment again.\n\nRaskin was a key figure in covering up Biden's decline. In fact, in June of 2024 Raskin said that Biden's age was a strength that was helping to heal the world.\n\nSuch useless people. https://t.co/LMbOrW7ndF",
-            "likes": 26
-          }
-        ]
-      }
-    },
-    {
-      "id": "2043583979203469680",
-      "text": "Being a solo-founder:\n\n- 10% coding\n- 15% marketing\n- 5% operations\n- 5% management\n- 1% mental control\n- 6% UX/UI\n- 18% customer support\n- 12% sales\n- 10% debugging\n- 8% product strategy\n- 5% finance\n- 5% “wtf isn’t this working” existential crisis",
-      "author": "pmitu",
-      "name": "Paul Mit",
-      "likes": 658,
-      "retweets": 47,
-      "replies": 159,
-      "created": "Mon Apr 13 06:56:03 +0000 2026",
-      "url": "https://x.com/pmitu/status/2043583979203469680",
-      "source": "Product Management",
-      "summary_zh": "獨立創辦人的時間分配：18% 客服、12% 銷售、10% 編碼、10% 除錯、8% 產品策略、6% UX/UI，以及 5% 用於「為什麼這東西不能動」的存在危機。真實反映一人公司的多工挑戰。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": [
-          {
-            "author": "buitengebieden",
-            "text": "Dog tired.. 😂 https://t.co/ZoBDW6fxk2",
-            "likes": 5883
-          },
-          {
-            "author": "mufaddal_vohra",
-            "text": "UNBELIEVABLE STUFF FROM CAPTAIN SHREYAS IYER. 🤯🔥🔥 https://t.co/Zk6gzsdoVj",
-            "likes": 246
-          },
-          {
-            "author": "IrfanPathan",
-            "text": "This catch involving Shreyas Iyer has to he the best catch of this season.  Has to be. WOW",
-            "likes": 55
-          },
-          {
-            "author": "dalbitbangtan",
-            "text": "📸 INSTAGRAM\n\nV stories:\nWasabi bomb 💣\nThank you so much🫂\nThis was 2 years ago https://t.co/VUGGtVxJHG",
-            "likes": 49
-          },
-          {
-            "author": "LakeShowYo",
-            "text": "BREAKING: LUKA WON HIS 65-GAME APPEAL AND IS ELIGIBLE FOR SEASON AWARDS 👀 🪄 https://t.co/52U0BA0tIm",
-            "likes": 45
-          }
-        ]
-      }
-    },
-    {
-      "id": "2044454605703286806",
-      "text": "Introducing Design Stack.\n\nToday, we're releasing @ADPList's entire masterclass library ⭐️ 80+ videos on design, career, AI, product and more (100% free) from all our flagship conferences.\n\nWhy are we doing this?\n\nWe believe opening this full knowledge base will move our https://t.co/t8aCiP0WvH",
-      "author": "felixleezd",
-      "name": "Felix Lee",
-      "likes": 544,
-      "retweets": 35,
-      "replies": 674,
-      "created": "Wed Apr 15 16:35:36 +0000 2026",
-      "url": "https://x.com/felixleezd/status/2044454605703286806",
-      "source": "Product Design",
-      "summary_zh": "ADPList 釋出完整 masterclass 資料庫，涵蓋設計、職涯、AI、產品等 80+ 支影片，完全免費開放。目的是透過開放知識庫加速社群學習與成長。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": [
-          {
-            "author": "mufaddal_vohra",
-            "text": "UNBELIEVABLE STUFF FROM CAPTAIN SHREYAS IYER. 🤯🔥🔥 https://t.co/Zk6gzsdoVj",
-            "likes": 286
-          },
-          {
-            "author": "dalbitbangtan",
-            "text": "📸 INSTAGRAM\n\nV stories:\nWasabi bomb 💣\nThank you so much🫂\nThis was 2 years ago https://t.co/VUGGtVxJHG",
-            "likes": 57
-          },
-          {
-            "author": "LakeShowYo",
-            "text": "BREAKING: LUKA WON HIS 65-GAME APPEAL AND IS ELIGIBLE FOR SEASON AWARDS 👀 🪄 https://t.co/52U0BA0tIm",
-            "likes": 53
-          },
-          {
-            "author": "asklivermore",
-            "text": "Done for the day.\n\n$6K today deserves some celebration. https://t.co/hLmFT2TysU",
-            "likes": 33
-          },
-          {
-            "author": "picbaemon",
-            "text": "RUKA WEVERSE UPDATE WITH ASA \n\nYes, HBD🐰🎂💕💕 https://t.co/iWN7gS9ofH",
-            "likes": 16
-          }
-        ]
-      }
-    },
-    {
-      "id": "2044401269347852592",
-      "text": "Farmer doesn't even realize that this is really a right to repair issue. The placement of the bearing is a design choice that takes away the right to repair. This is a conscious decision by a company to make their product unrepairable.\n\nThis is not a \"quality\" issue. It is a",
-      "author": "longstoryfarms",
-      "name": "Long Story Farms, LLC",
-      "likes": 599,
-      "retweets": 39,
-      "replies": 13,
-      "created": "Wed Apr 15 13:03:40 +0000 2026",
-      "url": "https://x.com/longstoryfarms/status/2044401269347852592",
-      "source": "Product Design",
-      "summary_zh": "引用原文提到洗衣機僅用五年軸承就壞，但軸承與滾筒一體成型無法單獨更換。本推文指出這不是品質問題，而是廠商刻意的設計選擇，剝奪使用者維修權（right to repair）。",
-      "context": {
-        "quoted_text": "The appliance guy told me five years is pretty good on a washer. Five years. \n\nI bought it in 2019 and the bearing is molded into the drum so you can't just replace the bearing. You replace the whole drum for $900 or you buy a new washer for $985. \n\nThe refrigerator from 1989 sitting in my garage has never been serviced and runs like a top. \n\nThat's your product quality report, folks.",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": [
-          {
-            "author": "UnderdogNBA",
-            "text": "Shams: NBA, NBPA rule in favor of Luka Doncic, Cade Cunningham on Extraordinary Circumstances Challenges.\n\nBoth will be eligible for awards this season.",
-            "likes": 149
-          },
-          {
-            "author": "PunjabKingsIPL",
-            "text": "And Sarpanch Saab now 🔥",
-            "likes": 20
-          },
-          {
-            "author": "Blue_Footy",
-            "text": "Moisés Caicedo’s new contract at Chelsea: improved salary and two more years until June 2033. \n\n~ @FabrizioRomano https://t.co/myoLZUkZ16",
-            "likes": 17
-          },
-          {
-            "author": "vai1kai",
-            "text": "Evening gain check 📈 drop your @ and let’s connect",
-            "likes": 15
-          },
-          {
-            "author": "MariaMari0nette",
-            "text": "i locked in on the thing i was procrastinating on :D",
-            "likes": 12
-          }
-        ]
+        "top_replies": []
       }
     },
     {
@@ -199,112 +55,120 @@
       "created": "Tue Apr 14 16:02:10 +0000 2026",
       "url": "https://x.com/Tanjim38/status/2044083803149176966",
       "source": "Product Design",
-      "summary_zh": "五個 SaaS 設計正在燒錢的徵兆：使用者需要 demo 才懂產品、客服一直回答 UI 該解決的問題、註冊後從不回訪、投資人問「這到底做什麼」、你不敢分享連結。兩個以上就該警覺。"
+      "summary_zh": "五個跡象顯示你的 SaaS 設計正在賠錢：使用者需要 demo 才能理解產品、客服一直在回答 UI 該解釋的問題、註冊後不再回訪、投資人問不懂產品是什麼、你不敢分享連結。"
     },
     {
-      "id": "2044082457910358480",
-      "text": "Anyone who thinks \"AI = easy mode\" honestly just sounds dumb and out of touch.\n\nFor context, I’ve been doing product design for 20+ years, including giant brands like Febreze, Swiffer, and Abercrombie with multi-continent supply chains etc. \n\nI can tell you that AI is by FAR the",
-      "author": "thefinnmckenty",
-      "name": "Finn McKenty",
-      "likes": 468,
-      "retweets": 37,
-      "replies": 197,
-      "created": "Tue Apr 14 15:56:49 +0000 2026",
-      "url": "https://x.com/thefinnmckenty/status/2044082457910358480",
-      "source": "Product Design",
-      "summary_zh": "作者擁有 20 年產品設計經驗（包含寶僑、Abercrombie 等大品牌），認為「AI = 簡單模式」是無知且脫節的看法。AI 實際上帶來前所未見的複雜挑戰與學習曲線。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": [
-          {
-            "author": "Y_CynthiaJKT48",
-            "text": "PINKKKKKK 🩷💓💕💖💗😌 https://t.co/lxLyt79orw",
-            "likes": 167
-          },
-          {
-            "author": "KilldozrSprmacy",
-            "text": "I’m bored af.. show me some memes",
-            "likes": 88
-          },
-          {
-            "author": "IrfanPathan",
-            "text": "This catch involving Shreyas Iyer has to he the best catch of this season.  Has to be. WOW",
-            "likes": 68
-          },
-          {
-            "author": "LakeShowYo",
-            "text": "BREAKING: LUKA WON HIS 65-GAME APPEAL AND IS ELIGIBLE FOR SEASON AWARDS 👀 🪄 https://t.co/52U0BA0tIm",
-            "likes": 59
-          },
-          {
-            "author": "dalbitbangtan",
-            "text": "📸 INSTAGRAM\n\nV stories:\nWasabi bomb 💣\nThank you so much🫂\nThis was 2 years ago https://t.co/VUGGtVxJHG",
-            "likes": 59
-          }
-        ]
-      }
-    },
-    {
-      "id": "2044336838379184179",
-      "text": "When I see people exercise overconfidence in forecast of a product or landscape I smile knowing they are wrong, from AR/VR to Crypto, to declaring flat design dead and recently claiming TUI is the future. \n\nIf you are grounded in observing how things pan out, you will never",
-      "author": "leyeConnect",
-      "name": "LEYE",
-      "likes": 147,
-      "retweets": 6,
-      "replies": 7,
-      "created": "Wed Apr 15 08:47:38 +0000 2026",
-      "url": "https://x.com/leyeConnect/status/2044336838379184179",
-      "source": "Product Design",
-      "summary_zh": "當看到有人對產品或趨勢（如 AR/VR、Crypto、扁平設計已死、TUI 是未來）過度自信地預測時，作者總是微笑，因為基於觀察事物演變的經驗，這些預測通常是錯的。"
-    },
-    {
-      "id": "2043916751365091369",
-      "text": "Vibecoding with Claude Code gets you a UI, but mastering the platform gets you a product.\n\nIt’s not just about architecture, it’s about memory management, concurrency, and how the OS actually thinks.\n\nI’ve distilled years of WWDC into a guide to building apps the way Apple",
-      "author": "davidcafor",
-      "name": "Dave",
-      "likes": 189,
-      "retweets": 13,
-      "replies": 0,
-      "created": "Tue Apr 14 04:58:22 +0000 2026",
-      "url": "https://x.com/davidcafor/status/2043916751365091369",
+      "id": "2043583979203469680",
+      "text": "Being a solo-founder:\n\n- 10% coding\n- 15% marketing\n- 5% operations\n- 5% management\n- 1% mental control\n- 6% UX/UI\n- 18% customer support\n- 12% sales\n- 10% debugging\n- 8% product strategy\n- 5% finance\n- 5% “wtf isn’t this working” existential crisis",
+      "author": "pmitu",
+      "name": "Paul Mit",
+      "likes": 658,
+      "retweets": 47,
+      "replies": 159,
+      "created": "Mon Apr 13 06:56:03 +0000 2026",
+      "url": "https://x.com/pmitu/status/2043583979203469680",
       "source": "Product Management",
-      "summary_zh": "用 Claude Code 快速生成 UI 只是表面，真正掌握平台需要深入理解記憶體管理、並行處理與作業系統思維。作者將多年 WWDC 精華整理成指南，教你以 Apple 的方式打造 App。",
+      "summary_zh": "獨立創辦人的時間分配實況：18% 客服、12% 銷售、10% coding 和 debugging、8% 產品策略、6% UX/UI、5% 運營/管理/財務，以及 5% 的「為什麼這不能動」存在危機。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
         "replied_text": "",
         "replied_author": "",
-        "top_replies": [
-          {
-            "author": "LakeShowYo",
-            "text": "BREAKING: LUKA WON HIS 65-GAME APPEAL AND IS ELIGIBLE FOR SEASON AWARDS 👀 🪄 https://t.co/52U0BA0tIm",
-            "likes": 78
-          },
-          {
-            "author": "dalbitbangtan",
-            "text": "📸 INSTAGRAM\n\nV stories:\nWasabi bomb 💣\nThank you so much🫂\nThis was 2 years ago https://t.co/VUGGtVxJHG",
-            "likes": 69
-          },
-          {
-            "author": "vai1kai",
-            "text": "Evening gain check 📈 drop your @ and let’s connect",
-            "likes": 16
-          },
-          {
-            "author": "MariaMari0nette",
-            "text": "i locked in on the thing i was procrastinating on :D",
-            "likes": 14
-          },
-          {
-            "author": "Mr_Derivatives",
-            "text": "$AMD omg!\n\n$300 on deck?!",
-            "likes": 11
-          }
-        ]
+        "top_replies": []
       }
+    },
+    {
+      "id": "2044387858409017567",
+      "text": "Vibe coding was a fun trend.\n\nNow it is a massive enterprise risk.\n\nYou cannot let 50 people build shadow IT without the guardrails of \n@superblocks",
+      "author": "KateMillerGems",
+      "name": "Kate Miller",
+      "likes": 455,
+      "retweets": 107,
+      "replies": 23,
+      "created": "Wed Apr 15 12:10:22 +0000 2026",
+      "url": "https://x.com/KateMillerGems/status/2044387858409017567",
+      "source": "Vibe Coding",
+      "summary_zh": "原推宣傳 Superblocks 2.0 能讓企業 IT 部門掌控員工 vibe coding 產生的 shadow IT 風險。此推回應指出 vibe coding 已從有趣趨勢變成重大企業風險，不能放任 50 人在沒有守護機制下建立影子系統。",
+      "context": {
+        "quoted_text": "Introducing Superblocks 2.0: AI-generated enterprise apps – finally under IT control.\n\nVibe-coded apps just became the #1 attack vector in the enterprise.\n\nBusiness teams are building on production data, while IT has zero visibility.\n\nNo reviews. No audits. No permissions. No control.\n\nAI hackers are about to get 100x better. Anthropic proved it with Mythos.\n\nSuperblocks 2.0 is the only platform to take back control:\n\n> Business teams build AI-powered apps with permissions baked in.\n> IT and Security can audit everything and lock down anything, instantly.\n> Engineering sets the standards. Every app follows them.\n\nInstacart, SoFi, and LinkedIn run Superblocks in production today.\n\nAnd larger organizations we can't yet name are too:\n\nA Fortune 500 just shut down 2,500 Replit users to standardize on Superblocks, running the platform air-gapped in their AWS environment.\n\nA 150,000-employee global services firm replaced Lovable with Superblocks to unlock AI-built apps on restricted internal systems.\n\nEvery IT leader we’ve demoed to using Replit, Lovable or v0 asked for early access.\n\nToday we open access to the world.\n\nThe genie is out of the bottle on employee vibe coding.\n\nLet it run wild, or take back control – https://t.co/8TEolq14Z5",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2044401269347852592",
+      "text": "Farmer doesn't even realize that this is really a right to repair issue. The placement of the bearing is a design choice that takes away the right to repair. This is a conscious decision by a company to make their product unrepairable.\n\nThis is not a \"quality\" issue. It is a",
+      "author": "longstoryfarms",
+      "name": "Long Story Farms, LLC",
+      "likes": 599,
+      "retweets": 39,
+      "replies": 13,
+      "created": "Wed Apr 15 13:03:40 +0000 2026",
+      "url": "https://x.com/longstoryfarms/status/2044401269347852592",
+      "source": "Product Design",
+      "summary_zh": "原推抱怨洗衣機用五年就壞，軸承與滾筒一體成型無法單獨更換。此推指出這不是品質問題，而是設計選擇刻意剝奪維修權（right to repair），是廠商有意識的決策。",
+      "context": {
+        "quoted_text": "The appliance guy told me five years is pretty good on a washer. Five years. \n\nI bought it in 2019 and the bearing is molded into the drum so you can't just replace the bearing. You replace the whole drum for $900 or you buy a new washer for $985. \n\nThe refrigerator from 1989 sitting in my garage has never been serviced and runs like a top. \n\nThat's your product quality report, folks.",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2044449830605582629",
+      "text": "New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.\n\nVibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb",
+      "author": "AndrewYNg",
+      "name": "Andrew Ng",
+      "likes": 2249,
+      "retweets": 338,
+      "replies": 87,
+      "created": "Wed Apr 15 16:16:38 +0000 2026",
+      "url": "https://x.com/AndrewYNg/status/2044449830605582629",
+      "source": "Vibe Coding",
+      "summary_zh": "Andrew Ng 與 JetBrains 合作推出新課程「Spec-Driven Development with Coding Agents」，主張 vibe coding 雖快但產出常不符預期，應改用詳細規格驅動開發來讓 AI 更精準實作。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2044454605703286806",
+      "text": "Introducing Design Stack.\n\nToday, we're releasing @ADPList's entire masterclass library ⭐️ 80+ videos on design, career, AI, product and more (100% free) from all our flagship conferences.\n\nWhy are we doing this?\n\nWe believe opening this full knowledge base will move our https://t.co/t8aCiP0WvH",
+      "author": "felixleezd",
+      "name": "Felix Lee",
+      "likes": 544,
+      "retweets": 35,
+      "replies": 675,
+      "created": "Wed Apr 15 16:35:36 +0000 2026",
+      "url": "https://x.com/felixleezd/status/2044454605703286806",
+      "source": "Product Design",
+      "summary_zh": "ADPList 釋出完整大師課程庫，提供 80+ 部設計、職涯、AI、產品相關影片，100% 免費開放。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2044438095723221080",
+      "text": "Vibe coding is fast. It’s also unpredictable. Spec-driven development is the alternative: define what to build in a clear spec, then let your coding agent implement it.\n\nIn our new spec-tacular short course with @JetBrains and @JetBrains_Edu, you’ll learn how to:\n\n⚙️ Write https://t.co/YmxddH9pLI",
+      "author": "DeepLearningAI",
+      "name": "DeepLearning.AI",
+      "likes": 228,
+      "retweets": 42,
+      "replies": 6,
+      "created": "Wed Apr 15 15:30:00 +0000 2026",
+      "url": "https://x.com/DeepLearningAI/status/2044438095723221080",
+      "source": "Vibe Coding",
+      "summary_zh": "DeepLearning.AI 與 JetBrains 推出短課程，教授 spec-driven development：先寫清楚規格再讓 coding agent 實作，取代不可預測的 vibe coding。"
     },
     {
       "id": "2044072323620176234",
@@ -317,20 +181,7 @@
       "created": "Tue Apr 14 15:16:33 +0000 2026",
       "url": "https://x.com/ayushswrites/status/2044072323620176234",
       "source": "Product Management",
-      "summary_zh": "紐約團隊徵求 2 位產品工程師與 2 位設計工程師，團隊約 40 人，打造自動化員工管理系統，2026 年處理薪資將破 10 億美元，上月支付量成長 27%，營收一年翻倍。"
-    },
-    {
-      "id": "2044618562279776670",
-      "text": "We're hiring a Product Designer at Bricx.\n\nYou'll own screens that millions of users interact with daily.\n\nThis is who we're looking for:\n\n→ Your design taste is something people notice immediately.\n→ You sweat the details without being asked.\n→ You think beyond aesthetics and https://t.co/gCDSjqmj2l",
-      "author": "siddharthvij_",
-      "name": "Siddharth Vij",
-      "likes": 147,
-      "retweets": 9,
-      "replies": 14,
-      "created": "Thu Apr 16 03:27:07 +0000 2026",
-      "url": "https://x.com/siddharthvij_/status/2044618562279776670",
-      "source": "Product Design",
-      "summary_zh": "Bricx 徵求產品設計師，負責數百萬用戶每日互動的介面。條件包含：設計品味讓人一眼注意到、主動關注細節、思考超越美學層面，並理解產品如何實際運作。"
+      "summary_zh": "Rippling 正在紐約招募 2 名 product engineer 與 2 名 design engineer，團隊約 40 人，2026 年預計處理超過 10 億美元年化薪資，營收過去 6 個月翻倍。"
     }
   ],
   "criteria": {
@@ -373,52 +224,52 @@
   },
   "top_products": [
     {
-      "title": "Fellow for iOS",
-      "url": "https://www.producthunt.com/products/fellow-app",
-      "published": "2026-04-14T14:49:10-07:00",
-      "author": "Manuela Bárcenas",
-      "tagline": "AI meeting notes for in-person meetings",
-      "summary_zh": "為實體會議提供 AI 自動記錄會議筆記的 iOS 應用程式，協助使用者捕捉面對面討論的重點內容。"
-    },
-    {
       "title": "Google Chrome Skills",
       "url": "https://www.producthunt.com/products/google-chrome-skills",
       "published": "2026-04-14T10:09:07-07:00",
       "author": "Rohan Chaubey",
       "tagline": "Turn your best AI prompts into one-click tools in Chrome",
-      "summary_zh": "讓使用者將常用的 AI 提示詞轉換為 Chrome 瀏覽器中的一鍵工具，提升重複性任務的執行效率。"
+      "summary_zh": "讓使用者將常用的 AI 提示詞轉換為 Chrome 瀏覽器中的一鍵工具，簡化重複性 AI 操作流程。"
     },
     {
-      "title": "Windsurf 2.0",
-      "url": "https://www.producthunt.com/products/windsurf",
-      "published": "2026-04-15T16:05:31-07:00",
-      "author": "Chris Messina",
-      "tagline": "Introducing the Agent Command Center and Devin in Windsurf",
-      "summary_zh": "推出 Agent Command Center 控制中心並整合 Devin，為開發者提供更強大的 AI 輔助編程環境。"
+      "title": "Innogath",
+      "url": "https://www.producthunt.com/products/innogath",
+      "published": "2026-04-15T03:56:38-07:00",
+      "author": "Eric Liew",
+      "tagline": "Turn deep research into a navigable book + graph",
+      "summary_zh": "將深度研究內容轉換為可導航的書籍格式與知識圖譜，幫助使用者更有效地組織與檢視研究資料。"
     },
     {
-      "title": "Subagents in Gemini CLI",
-      "url": "https://www.producthunt.com/products/google",
-      "published": "2026-04-15T13:06:05-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "Gemini CLI now runs specialist subagents in your terminal",
-      "summary_zh": "在 Gemini CLI 命令列工具中加入專業子代理功能，讓使用者可在終端機內執行更精細的專業任務。"
+      "title": "FunKey",
+      "url": "https://www.producthunt.com/products/funkey",
+      "published": "2026-04-15T11:33:27-07:00",
+      "author": "it0sh",
+      "tagline": "Mechanical keyboard & mouse sounds for your Mac",
+      "summary_zh": "為 Mac 使用者提供機械鍵盤與滑鼠的擬真音效，增添打字與操作時的聲音回饋體驗。"
     },
     {
-      "title": "Chinilla",
-      "url": "https://www.producthunt.com/products/chinilla",
-      "published": "2026-04-14T20:37:18-07:00",
-      "author": "alex",
-      "tagline": "Design systems, simulate them and watch where they break",
-      "summary_zh": "提供設計系統建模與模擬功能的工具，幫助設計師和開發者識別系統中的潛在問題點。"
+      "title": "OpenAI Agents SDK",
+      "url": "https://www.producthunt.com/products/openai",
+      "published": "2026-04-15T23:51:50-07:00",
+      "author": "Zac Zuo",
+      "tagline": "Build production agents with harness and sandbox",
+      "summary_zh": "提供開發工具與沙箱環境，讓開發者能夠建構可用於生產環境的 AI agents。"
     },
     {
-      "title": "Subspace",
-      "url": "https://www.producthunt.com/products/subspace-4",
-      "published": "2026-04-14T18:53:00-07:00",
-      "author": "Joe Fernandez",
-      "tagline": "All your Agents in one app and persistent context",
-      "summary_zh": "整合多個 AI Agent 於單一應用程式中，並保持持續性的上下文記憶，方便使用者統一管理不同代理。"
+      "title": "ClawTab",
+      "url": "https://www.producthunt.com/products/clawtab",
+      "published": "2026-04-15T02:34:16-07:00",
+      "author": "Tõnis Tiganik",
+      "tagline": "Desktop app to manage 20+ AI coding agents at once",
+      "summary_zh": "桌面應用程式，讓開發者能同時管理 20 個以上的 AI 程式碼編寫助手。"
+    },
+    {
+      "title": "TaskShell",
+      "url": "https://www.producthunt.com/products/taskshell",
+      "published": "2026-04-15T23:48:10-07:00",
+      "author": "Fred A.",
+      "tagline": "A terminal/IDE-inspired task manager that keeps you in flow",
+      "summary_zh": "以終端機與 IDE 介面為靈感設計的任務管理工具，協助使用者保持專注的工作流程。"
     }
   ]
 }
