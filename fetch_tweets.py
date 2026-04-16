@@ -29,8 +29,8 @@ SEARCH_QUERIES = [
         "min_likes": 100,
     },
     {
-        "label": "Design System",
-        "query": "design system figma",
+        "label": "Product Management",
+        "query": "product management",
         "min_likes": 100,
     },
     {

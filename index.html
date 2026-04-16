@@ -3,325 +3,638 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Product & Design 每日早報 · 2026-04-16</title>
+  <meta name="description" content="Product & Design 每日早報 — Issue №471 · 2026 年 04 月 16 日" />
+  <title>№471 · Product & Design 早報 · 2026-04-16</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --ink:       #ece6d9;
-      --ink-soft:  #bfb5a2;
-      --paper:     #14110e;
-      --accent:    #e85a1a;
-      --accent-ink:#14110e;
-      --muted:     #8a8070;
-      --border:    #2a2520;
-      --card-bg:   #1b1713;
-      --hover:     #241e18;
+      --paper:    #100d0a;
+      --paper-2:  #181410;
+      --paper-3:  #1f1a14;
+      --ink:      #f2ecdf;
+      --ink-2:    #cbc1ad;
+      --ink-3:    #8a7f6c;
+      --rule:     #2a231c;
+      --rule-2:   #3a3025;
+      --accent:   #ff5722;
+      --accent-2: #f6b94a;
+      --sage:     #87a07a;
+
+      --serif: 'Fraunces', 'DM Serif Display', Georgia, serif;
+      --sans:  'Inter', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+      --mono:  'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+      --maxw: 1180px;
     }
 
-    html { font-size: 16px; }
+    html { font-size: 16px; -webkit-font-smoothing: antialiased; }
 
     body {
-      font-family: 'DM Sans', sans-serif;
+      font-family: var(--sans);
+      font-feature-settings: 'ss01', 'cv11';
       background: var(--paper);
       color: var(--ink);
       min-height: 100vh;
+      line-height: 1.55;
+      position: relative;
+      overflow-x: hidden;
     }
+    /* Subtle paper grain */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: .035;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+      mix-blend-mode: screen;
+    }
+    body > * { position: relative; z-index: 1; }
 
-    /* ── Header ── */
-    header {
-      border-bottom: 2px solid var(--ink);
-      padding: 2.5rem 0 1.5rem;
-      text-align: center;
+    a { color: inherit; text-decoration: none; }
+
+    /* ─────────────── Masthead ─────────────── */
+    .masthead {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 2.25rem 1.5rem 1.25rem;
+      border-bottom: 1px solid var(--ink);
       position: relative;
     }
-    .masthead-label {
-      font-size: .7rem;
-      font-weight: 500;
-      letter-spacing: .2em;
+    .masthead::after {
+      content: '';
+      position: absolute;
+      left: 1.5rem; right: 1.5rem; bottom: -5px;
+      height: 1px;
+      background: var(--ink);
+      opacity: .35;
+    }
+    .masthead-row {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: end;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .meta-left, .meta-right {
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .08em;
       text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: .5rem;
+      color: var(--ink-3);
+      line-height: 1.7;
+    }
+    .meta-left { text-align: left; }
+    .meta-right { text-align: right; }
+    .meta-key { color: var(--ink-2); }
+    .meta-divider {
+      display: inline-block;
+      width: 16px;
+      border-top: 1px solid var(--rule-2);
+      vertical-align: middle;
+      margin: 0 .35rem;
+    }
+    .masthead-center {
+      text-align: center;
+      padding: 0 .5rem;
+    }
+    .issue-mark {
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .25em;
+      color: var(--accent);
+      margin-bottom: .35rem;
+      text-transform: uppercase;
     }
     .masthead-title {
-      font-family: 'DM Serif Display', serif;
-      font-size: clamp(2.4rem, 6vw, 4.5rem);
-      line-height: 1;
-      letter-spacing: -.02em;
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(2.6rem, 7vw, 5.4rem);
+      line-height: .95;
+      letter-spacing: -.025em;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30;
     }
     .masthead-title em {
       font-style: italic;
       color: var(--accent);
+      font-variation-settings: 'opsz' 144, 'SOFT' 80, 'WONK' 1;
+      padding-right: .04em;
     }
-    .masthead-date {
-      margin-top: .75rem;
-      font-size: .8rem;
-      letter-spacing: .1em;
-      color: var(--muted);
-    }
-    .masthead-rule {
-      width: 40px;
-      height: 2px;
-      background: var(--accent);
-      margin: 1rem auto 0;
+    .masthead-sub {
+      margin-top: .5rem;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: clamp(.85rem, 1.3vw, 1rem);
+      color: var(--ink-2);
+      letter-spacing: .01em;
     }
 
-    /* ── Layout ── */
+    /* ─────────────── Body / Layout ─────────────── */
     main {
-      max-width: 960px;
+      max-width: var(--maxw);
       margin: 0 auto;
       padding: 2.5rem 1.5rem 5rem;
     }
 
-    .brief-intro {
-      font-size: .85rem;
-      color: var(--muted);
-      border-left: 3px solid var(--accent);
-      padding-left: .75rem;
-      margin-bottom: 3rem;
-      line-height: 1.6;
+    .topbar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--ink-3);
     }
+    .topbar .sep {
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+    .topbar a {
+      color: var(--accent);
+      transition: color .15s;
+    }
+    .topbar a:hover { color: var(--accent-2); }
 
-    /* ── Criteria ── */
+    /* ─────────────── Criteria Drawer ─────────────── */
     .criteria {
-      margin-bottom: 2.5rem;
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      background: var(--card-bg);
+      margin: 0 0 3rem;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      background: transparent;
     }
     .criteria > summary {
       cursor: pointer;
-      padding: .85rem 1.1rem;
-      font-size: .85rem;
-      font-weight: 500;
+      padding: 1rem 0;
       list-style: none;
       user-select: none;
+      display: flex;
+      align-items: center;
+      gap: .65rem;
+      color: var(--ink-2);
     }
     .criteria > summary::-webkit-details-marker { display: none; }
-    .criteria > summary::before {
-      content: '▸';
+    .caret {
+      width: 10px; height: 10px;
+      border-right: 1.5px solid var(--accent);
+      border-bottom: 1.5px solid var(--accent);
+      transform: rotate(-45deg);
+      transition: transform .2s ease;
       display: inline-block;
-      margin-right: .5rem;
-      color: var(--accent);
-      transition: transform .15s;
     }
-    .criteria[open] > summary::before { transform: rotate(90deg); }
+    .criteria[open] .caret { transform: rotate(45deg); }
+    .criteria-label {
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
     .criteria-body {
-      padding: 0 1.1rem 1.1rem;
-      font-size: .8rem;
-      line-height: 1.6;
-      color: #3a332c;
+      padding: 0 0 1.5rem;
+      font-size: .85rem;
+      line-height: 1.7;
+      color: var(--ink-2);
+      max-width: 720px;
     }
-    .criteria-body p { margin-bottom: .75rem; }
-    .criteria-body ul { padding-left: 1.2rem; margin-bottom: .75rem; }
-    .criteria-body li { margin-bottom: .3rem; }
+    .criteria-body p { margin-bottom: .9rem; }
+    .criteria-body strong { color: var(--ink); font-weight: 500; }
+    .criteria-body ul { padding-left: 1.2rem; margin-bottom: .9rem; }
+    .criteria-body li { margin-bottom: .35rem; }
     .criteria-body h4 {
-      font-family: 'DM Serif Display', serif;
-      font-size: 1rem;
-      margin: 1.25rem 0 .5rem;
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 1.05rem;
+      margin: 1.4rem 0 .5rem;
       color: var(--ink);
+      font-weight: 500;
     }
     .criteria-body table {
       width: 100%;
       border-collapse: collapse;
-      font-size: .75rem;
-      margin-bottom: .5rem;
+      font-size: .8rem;
+      margin-bottom: .75rem;
     }
     .criteria-body th, .criteria-body td {
       text-align: left;
-      padding: .4rem .5rem;
-      border-bottom: 1px solid var(--border);
+      padding: .5rem .65rem;
+      border-bottom: 1px solid var(--rule);
       vertical-align: top;
     }
     .criteria-body th {
-      color: var(--muted);
+      color: var(--ink-3);
       font-weight: 500;
-      font-size: .7rem;
-      letter-spacing: .05em;
+      font-size: .68rem;
+      letter-spacing: .12em;
       text-transform: uppercase;
+      font-family: var(--mono);
     }
     .criteria-body code {
-      background: rgba(232, 90, 26, 0.12);
+      background: rgba(255, 87, 34, 0.1);
       color: var(--accent);
-      padding: 1px 6px;
-      border-radius: 3px;
-      font-size: .72rem;
+      padding: 1px 7px;
+      border-radius: 2px;
+      font-family: var(--mono);
+      font-size: .76rem;
     }
     .criteria-note {
-      font-size: .72rem;
-      color: var(--muted);
+      font-size: .76rem;
+      color: var(--ink-3);
       margin-top: 1rem;
+      padding-top: .75rem;
+      border-top: 1px dashed var(--rule);
+      font-style: italic;
     }
 
-    /* ── Cards grid ── */
+    /* ─────────────── Lead / Hero Card ─────────────── */
+    .lead {
+      margin-bottom: 3rem;
+      border-top: 2px solid var(--ink);
+      border-bottom: 1px solid var(--rule);
+      padding: 2rem 0 2.25rem;
+      position: relative;
+    }
+    .lead::before {
+      content: '';
+      position: absolute;
+      top: -2px; left: 0;
+      width: 80px; height: 4px;
+      background: var(--accent);
+    }
+    .lead-anchor {
+      display: block;
+      cursor: pointer;
+      transition: opacity .15s;
+    }
+    .lead-anchor:hover { opacity: .92; }
+    .lead-anchor:hover .lead-arrow { transform: translate(3px, -3px); color: var(--accent); }
+
+    .lead-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+    }
+    .lead-rank {
+      color: var(--accent);
+      font-weight: 500;
+    }
+    .lead-rule {
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+    .lead-author {
+      display: flex;
+      gap: .5rem;
+      align-items: baseline;
+      text-transform: none;
+      letter-spacing: 0;
+      font-family: var(--sans);
+      font-size: .82rem;
+    }
+    .lead-author .author-name { color: var(--ink); font-weight: 500; }
+    .lead-author .author-handle { color: var(--ink-3); }
+
+    .lead-summary {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(1.7rem, 3.4vw, 2.6rem);
+      line-height: 1.18;
+      letter-spacing: -.01em;
+      color: var(--ink);
+      margin-bottom: 1rem;
+      font-variation-settings: 'opsz' 96, 'SOFT' 30;
+    }
+    .lead-text {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--ink-2);
+      max-width: 70ch;
+      margin-bottom: 1.5rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .lead-foot {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      font-size: .8rem;
+      color: var(--ink-3);
+      flex-wrap: wrap;
+    }
+    .lead-arrow {
+      margin-left: auto;
+      font-size: 1.2rem;
+      color: var(--ink-3);
+      transition: transform .2s ease, color .2s;
+      display: inline-block;
+    }
+
+    /* ─────────────── Section divider ─────────────── */
+    .grid-divider {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 0 0 1.5rem;
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+    }
+    .grid-divider::before,
+    .grid-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    /* ─────────────── Cards Grid ─────────────── */
     .cards-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 0;
+      border-top: 1px solid var(--rule);
+      border-left: 1px solid var(--rule);
     }
 
-    .tweet-card {
-      position: relative;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      padding: 1.1rem 1.2rem;
+    .card {
+      border-right: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      background: transparent;
+      transition: background .15s;
+    }
+    .card:hover { background: var(--paper-2); }
+    .card-anchor {
       display: flex;
       flex-direction: column;
-      gap: .55rem;
-      transition: background .15s, border-color .15s, transform .15s;
+      gap: .65rem;
+      padding: 1.25rem 1.4rem 1.4rem;
+      height: 100%;
+      cursor: pointer;
+      position: relative;
     }
-    .tweet-rank {
+    .card-anchor::after {
+      content: '↗';
       position: absolute;
-      top: -10px;
-      left: -8px;
-      background: var(--accent);
-      color: var(--accent-ink);
-      font-family: 'DM Serif Display', serif;
-      font-size: .8rem;
-      font-weight: 600;
-      line-height: 1;
-      padding: .3rem .5rem;
-      border-radius: 3px;
+      top: 1.1rem;
+      right: 1.2rem;
+      color: var(--ink-3);
+      font-size: .95rem;
+      transition: transform .2s, color .2s;
     }
-    .tweet-card:hover {
-      background: var(--hover);
-      border-color: var(--accent);
-      transform: translateY(-2px);
+    .card:hover .card-anchor::after {
+      transform: translate(2px, -2px);
+      color: var(--accent);
     }
 
-    .tweet-meta {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: .5rem;
+    .card-rank {
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .15em;
+      color: var(--accent);
+      margin-bottom: .15rem;
     }
-    .tweet-author {
-      text-decoration: none;
-      color: inherit;
+    .card-meta {
       display: flex;
       flex-direction: column;
       gap: .1rem;
+      margin-bottom: .25rem;
     }
     .author-name {
-      font-size: .82rem;
+      font-size: .85rem;
       font-weight: 500;
+      color: var(--ink);
     }
     .author-handle {
       font-size: .72rem;
-      color: var(--muted);
+      color: var(--ink-3);
+      font-family: var(--mono);
     }
-    .tweet-link {
-      font-size: .9rem;
-      color: var(--muted);
-      text-decoration: none;
-      flex-shrink: 0;
-      transition: color .15s;
-    }
-    .tweet-link:hover { color: var(--accent); }
 
-    .tweet-summary {
-      font-size: .88rem;
-      line-height: 1.6;
+    .card-summary {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: 1.1rem;
+      line-height: 1.35;
       color: var(--ink);
-      font-weight: 500;
-      border-left: 2px solid var(--accent);
-      padding-left: .65rem;
+      letter-spacing: -.005em;
+      font-variation-settings: 'opsz' 36, 'SOFT' 30;
     }
 
-    .tweet-text {
-      font-size: .78rem;
-      line-height: 1.6;
-      color: var(--ink-soft);
+    .card-text {
+      font-size: .82rem;
+      line-height: 1.65;
+      color: var(--ink-2);
       flex: 1;
       display: -webkit-box;
-      -webkit-line-clamp: 5;
+      -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
 
-    .tweet-stats {
+    .card-foot {
       display: flex;
-      gap: .85rem;
+      gap: 1rem;
       align-items: center;
       font-size: .72rem;
-      color: var(--muted);
-      border-top: 1px solid var(--border);
-      padding-top: .5rem;
+      color: var(--ink-3);
+      padding-top: .65rem;
+      border-top: 1px dashed var(--rule);
       flex-wrap: wrap;
     }
-    .tweet-source {
-      margin-left: auto;
-      font-size: .68rem;
-      color: var(--muted);
-      background: rgba(232, 90, 26, 0.08);
-      padding: 2px 7px;
-      border-radius: 2px;
-    }
 
-    /* ── Footer ── */
-    footer {
-      text-align: center;
-      font-size: .72rem;
-      color: var(--muted);
-      padding: 2rem 1rem;
-      border-top: 1px solid var(--border);
-      letter-spacing: .05em;
+    .stat {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      font-family: var(--mono);
     }
-    footer a {
-      color: var(--muted);
-    }
-
-    /* ── Archive link ── */
-    .archive-link {
-      text-align: right;
-      font-size: .78rem;
-      color: var(--muted);
-      margin-bottom: 2rem;
-    }
-    .archive-link a {
+    .glyph {
       color: var(--accent);
-      text-decoration: none;
+      font-size: .8rem;
+    }
+    .chip {
+      margin-left: auto;
+      font-family: var(--mono);
+      font-size: .65rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--ink-2);
+      background: rgba(255, 87, 34, 0.08);
+      border: 1px solid rgba(255, 87, 34, 0.18);
+      padding: 2px 8px;
+      border-radius: 999px;
     }
 
-    @media (max-width: 480px) {
+    /* ─────────────── Empty state ─────────────── */
+    .empty {
+      text-align: center;
+      padding: 5rem 1rem 4rem;
+      border-top: 2px solid var(--ink);
+      border-bottom: 1px solid var(--rule);
+      position: relative;
+    }
+    .empty::before {
+      content: '';
+      position: absolute;
+      top: -2px; left: 50%;
+      transform: translateX(-50%);
+      width: 80px; height: 4px;
+      background: var(--accent);
+    }
+    .empty-mark {
+      font-family: var(--serif);
+      font-style: italic;
+      font-size: 4rem;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 1rem;
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .empty-title {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      line-height: 1.1;
+      color: var(--ink);
+      margin-bottom: 1rem;
+      font-variation-settings: 'opsz' 144, 'SOFT' 30;
+    }
+    .empty-title em {
+      font-style: italic;
+      color: var(--accent);
+      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+    }
+    .empty-sub {
+      color: var(--ink-2);
+      font-size: .92rem;
+      line-height: 1.7;
+      max-width: 480px;
+      margin: 0 auto 1.75rem;
+    }
+    .empty-rule {
+      width: 30px;
+      height: 1px;
+      background: var(--rule-2);
+      margin: 0 auto 1rem;
+    }
+    .empty-foot {
+      font-family: var(--serif);
+      font-style: italic;
+      color: var(--ink-3);
+      font-size: .9rem;
+    }
+
+    /* ─────────────── Footer ─────────────── */
+    footer {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      border-top: 1px solid var(--rule);
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 1.5rem;
+      align-items: end;
+      font-size: .74rem;
+      color: var(--ink-3);
+    }
+    .colophon-left { text-align: left; }
+    .colophon-center {
+      text-align: center;
+      font-family: var(--serif);
+      font-style: italic;
+      color: var(--ink-2);
+      font-size: .9rem;
+    }
+    .colophon-center em {
+      color: var(--accent);
+      font-style: italic;
+    }
+    .colophon-right {
+      text-align: right;
+      font-family: var(--mono);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .colophon-right a { color: var(--ink-2); border-bottom: 1px solid var(--rule-2); }
+    .colophon-right a:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* ─────────────── Responsive ─────────────── */
+    @media (max-width: 720px) {
+      .masthead-row {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .meta-left, .meta-right { text-align: center; }
+      .lead-meta { flex-wrap: wrap; gap: .5rem; }
+      .lead-author { width: 100%; }
       .cards-grid { grid-template-columns: 1fr; }
-      .masthead-title { font-size: 2rem; }
+      footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .colophon-left, .colophon-right { text-align: center; }
     }
   </style>
 </head>
 <body>
 
-<header>
-  <p class="masthead-label">Daily Brief</p>
-  <h1 class="masthead-title">Product &amp; <em>Design</em></h1>
-  <p class="masthead-date">2026 年 04 月 16 日 &nbsp;·&nbsp; 8 則精選推文</p>
-  <div class="masthead-rule"></div>
+<header class="masthead">
+  <div class="masthead-row">
+    <div class="meta-left">
+      <span class="meta-key">Issue</span> №471
+      <span class="meta-divider"></span>
+      Vol. I
+    </div>
+    <div class="masthead-center">
+      <p class="issue-mark">Daily — Product · Design · AI</p>
+      <h1 class="masthead-title">Product &amp; <em>Design</em></h1>
+      <p class="masthead-sub">a daily editorial of what builders are saying.</p>
+    </div>
+    <div class="meta-right">
+      2026-04-16
+      <span class="meta-divider"></span>
+      星期四
+      <br>
+      <span class="meta-key">Edition</span> 01 篇
+    </div>
+  </div>
 </header>
 
 <main>
-  <p class="brief-intro">
-    每日從 X (Twitter) 自動搜尋 Product Design、Design System、AI Agent、Vibe Coding 相關最近 2 天熱門推文，
-    由 Claude 過濾廣告/雜訊並產生繁體中文摘要，每天早上 09:00 (UTC+8) 自動更新。
-  </p>
-
-  <div class="archive-link">
-    <a href="archive.html">📁 歷史存檔 →</a>
+  <div class="topbar">
+    <span>Today's Brief</span>
+    <span class="sep"></span>
+    <a href="archive.html">歷史存檔 / Archive →</a>
   </div>
 
   
   <details class="criteria">
-    <summary>📋 篩選標準（點開看我怎麼選的）</summary>
+    <summary><span class="caret"></span><span class="criteria-label">編輯方針 / Editorial Method</span></summary>
     <div class="criteria-body">
-      <p>每天從下列 <strong>4 組關鍵字</strong> 查詢 X 上最近 <strong>3 天</strong>、熱門 (Top) 排序的推文，去重後交由 Claude Haiku 4.5 做二次過濾與排序，最後輸出 <strong>Top 10</strong> 並附繁體中文摘要。</p>
-      <p><strong>排序</strong>：<code>likes（主要）+ Claude 人工過濾廣告/招聘/meme/非設計</code></p>
+      <p>每天從下列 <strong>4 組關鍵字</strong> 查詢 X 上最近 <strong>2 天</strong>、熱門 (Top) 排序的推文，去重後交由 Claude Haiku 4.5 做二次過濾與排序，最後輸出 <strong>Top 10</strong> 並附繁體中文摘要。</p>
+      <p><strong>排序公式</strong>：<code>likes（主要）+ Claude 人工過濾廣告/招聘/meme/非設計</code></p>
 
       <h4>關鍵字搜尋池</h4>
       <table>
         <thead><tr><th>主題</th><th>查詢字</th><th>讚數門檻</th></tr></thead>
-        <tbody><tr><td>Product Design</td><td><code>product design</code></td><td>≥ 100</td></tr><tr><td>Design System</td><td><code>design system figma</code></td><td>≥ 100</td></tr><tr><td>AI Design</td><td><code>AI design tool</code></td><td>≥ 100</td></tr><tr><td>Vibe Coding</td><td><code>vibe coding</code></td><td>≥ 100</td></tr></tbody>
+        <tbody><tr><td>Product Design × AI UX</td><td><code>product design AI UX</code></td><td>≥ 50</td></tr><tr><td>Design System × SaaS × Figma</td><td><code>design system SaaS figma</code></td><td>≥ 50</td></tr><tr><td>AI Agent × Claude × Cursor × Design</td><td><code>AI agent Claude cursor design</code></td><td>≥ 100</td></tr><tr><td>Vibe Coding × Prototype × Figma</td><td><code>vibe coding prototype figma</code></td><td>≥ 50</td></tr></tbody>
       </table>
 
       <h4>Claude 過濾規則</h4>
@@ -331,195 +644,45 @@
     </div>
   </details>
 
-  <div class="cards-grid">
+  
+    <article class="lead">
+      <a class="lead-anchor" href="https://x.com/maestro__dev/status/2044056772437266841" target="_blank" rel="noopener">
+        <div class="lead-meta">
+          <span class="lead-rank">№ 01 · 頭條</span>
+          <span class="lead-rule"></span>
+          <span class="lead-author">
+            <span class="author-name">Maestro</span>
+            <span class="author-handle">@maestro__dev</span>
+          </span>
+        </div>
+        <h2 class="lead-summary">Maestro 作為 MCP 伺服器整合進 AI 編輯器，讓 AI 代理能直接檢查應用視圖層級、生成測試用例並自動修復失敗流程，大幅降低測試自動化的門檻。</h2>
+        <p class="lead-text">Maestro ships as an MCP server.
+
+Your AI agent can inspect your app's view hierarchy, generate test YAML, run tests on real devices, and self-heal failing flows -- all from a conversational loop inside Claude, Cursor, Codex, or Copilot.
+Two commands to get started: maestro mcp +</p>
+        <div class="lead-foot">
+          <span class="stat"><span class="glyph">♥</span>114</span>
+          <span class="stat"><span class="glyph">↻</span>14</span>
+          <span class="chip">AI Agent × Claude × Cursor × Design</span>
+          <span class="lead-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </article>
     
-    <article class="tweet-card">
-      <div class="tweet-rank">#1</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/thefinnmckenty" target="_blank" class="tweet-author">
-          <span class="author-name">Finn McKenty</span>
-          <span class="author-handle">@thefinnmckenty</span>
-        </a>
-        <a href="https://x.com/thefinnmckenty/status/2044082457910358480" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">20年資深產品設計師揭示AI並非捷徑，而是加深設計複雜度的工具，尤其在涉及多地供應鏈的大型品牌專案中更是如此。</p>
-      <p class="tweet-text">Anyone who thinks "AI = easy mode" honestly just sounds dumb and out of touch.
-
-For context, I’ve been doing product design for 20+ years, including giant brands like Febreze, Swiffer, and Abercrombie with multi-continent supply chains etc. 
-
-I can tell you that AI is by FAR the</p>
-      <div class="tweet-stats">
-        <span>♡ 468</span>
-        <span>↺ 37</span>
-        <span class="tweet-source">Product Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#2</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/NainsiDwiv50980" target="_blank" class="tweet-author">
-          <span class="author-name">Nainsi Dwivedi</span>
-          <span class="author-handle">@NainsiDwiv50980</span>
-        </a>
-        <a href="https://x.com/NainsiDwiv50980/status/2044381139717201958" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">Google推出design.md工具，讓設計師用純文本描述UI即可生成設計系統，無需Figma或複雜CSS調整，重塑AI時代的設計流程。</p>
-      <p class="tweet-text">Holy shit...Google just quietly changed UI design forever.
-
-They introduced design.md
-And it makes AI-generated apps look actually… designed.
-
-No Figma.
-No design system docs.
-No CSS tweaking for hours.
-
-Just one plain text file.
-
-You literally describe your UI in English:
-
-• https://t.co/xf15wDoW3X</p>
-      <div class="tweet-stats">
-        <span>♡ 181</span>
-        <span>↺ 27</span>
-        <span class="tweet-source">Design System</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#3</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/longstoryfarms" target="_blank" class="tweet-author">
-          <span class="author-name">Long Story Farms, LLC</span>
-          <span class="author-handle">@longstoryfarms</span>
-        </a>
-        <a href="https://x.com/longstoryfarms/status/2044401269347852592" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">產品設計中的零件配置是刻意的商業決策，限制使用者維修權；看似品質問題實則是修復權的設計剝奪。</p>
-      <p class="tweet-text">Farmer doesn't even realize that this is really a right to repair issue. The placement of the bearing is a design choice that takes away the right to repair. This is a conscious decision by a company to make their product unrepairable.
-
-This is not a "quality" issue. It is a</p>
-      <div class="tweet-stats">
-        <span>♡ 598</span>
-        <span>↺ 39</span>
-        <span class="tweet-source">Product Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#4</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/DeepLearningAI" target="_blank" class="tweet-author">
-          <span class="author-name">DeepLearning.AI</span>
-          <span class="author-handle">@DeepLearningAI</span>
-        </a>
-        <a href="https://x.com/DeepLearningAI/status/2044438095723221080" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">Spec-driven開發相比Vibe coding更具可預測性，強調在清晰規格基礎上讓AI代理實現，降低不確定性。</p>
-      <p class="tweet-text">Vibe coding is fast. It’s also unpredictable. Spec-driven development is the alternative: define what to build in a clear spec, then let your coding agent implement it.
-
-In our new spec-tacular short course with @JetBrains and @JetBrains_Edu, you’ll learn how to:
-
-⚙️ Write https://t.co/YmxddH9pLI</p>
-      <div class="tweet-stats">
-        <span>♡ 219</span>
-        <span>↺ 42</span>
-        <span class="tweet-source">Vibe Coding</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#5</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/felixleezd" target="_blank" class="tweet-author">
-          <span class="author-name">Felix Lee</span>
-          <span class="author-handle">@felixleezd</span>
-        </a>
-        <a href="https://x.com/felixleezd/status/2044454605703286806" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">ADPList開放80+場景設計課程資料庫，涵蓋設計、產品、AI等領域知識，建立業界共享的知識基礎。</p>
-      <p class="tweet-text">Introducing Design Stack.
-
-Today, we're releasing @ADPList's entire masterclass library ⭐️ 80+ videos on design, career, AI, product and more (100% free) from all our flagship conferences.
-
-Why are we doing this?
-
-We believe opening this full knowledge base will move our https://t.co/t8aCiP0WvH</p>
-      <div class="tweet-stats">
-        <span>♡ 534</span>
-        <span>↺ 34</span>
-        <span class="tweet-source">Product Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#6</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/Tanjim38" target="_blank" class="tweet-author">
-          <span class="author-name">Tanjim | SaaS Product Designer</span>
-          <span class="author-handle">@Tanjim38</span>
-        </a>
-        <a href="https://x.com/Tanjim38/status/2044083803149176966" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">識別SaaS設計缺陷的五大警訊：需要演示才能理解產品、支援部門疲於解釋、用戶留存低等，反映設計與商業目標的失alignment。</p>
-      <p class="tweet-text">5 signs your SaaS design is costing you money:
-
-1. Users need a demo to understand the product
-2. Support keeps answering questions your UI should
-3. People sign up and never come back
-4. Investors ask what does this actually do?
-5. You're embarrassed to share the link
-
-If 2+ of https://t.co/aaa3vYU6qx</p>
-      <div class="tweet-stats">
-        <span>♡ 151</span>
-        <span>↺ 7</span>
-        <span class="tweet-source">Product Design</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#7</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/janm_uiux" target="_blank" class="tweet-author">
-          <span class="author-name">Jan Mraz</span>
-          <span class="author-handle">@janm_uiux</span>
-        </a>
-        <a href="https://x.com/janm_uiux/status/2044399913258061850" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">整理三個Figma外掛工具協助快速建立設計系統，簡化設計團隊的系統化工作流程。</p>
-      <p class="tweet-text">3 Figma plugins to build a design system 🧩 https://t.co/VHwFI5mZ86</p>
-      <div class="tweet-stats">
-        <span>♡ 221</span>
-        <span>↺ 33</span>
-        <span class="tweet-source">Design System</span>
-      </div>
-    </article>
-
-    <article class="tweet-card">
-      <div class="tweet-rank">#8</div>
-      <div class="tweet-meta">
-        <a href="https://x.com/foryoonchae" target="_blank" class="tweet-author">
-          <span class="author-name">wingyun</span>
-          <span class="author-handle">@foryoonchae</span>
-        </a>
-        <a href="https://x.com/foryoonchae/status/2044173174561210389" target="_blank" class="tweet-link">↗</a>
-      </div>
-      <p class="tweet-summary">設計細節從草稿到最終產品的遺失案例，說明設計意圖在執行過程中流失的問題，影響品牌隱性訊息傳達。</p>
-      <p class="tweet-text">in case you couldn't see it, here is a visual of yoonchae's korean name 정윤채 hidden in the design! 
-
-when comparing between the draft and the final product though, it seems some of the intentional stems have disappeared, making the name extremely difficult to find 🧐😞 https://t.co/w5xQU764yq</p>
-      <div class="tweet-stats">
-        <span>♡ 1.9k</span>
-        <span>↺ 118</span>
-        <span class="tweet-source">Product Design</span>
-      </div>
-    </article>
-  </div>
 </main>
 
 <footer>
-  <p>自動生成 · 資料來源 <a href="https://6551.io" target="_blank">6551.io</a> &amp; X/Twitter &nbsp;·&nbsp; 2026-04-16 22:52</p>
+  <div class="colophon-left">
+    Set in <strong>Fraunces</strong>, <strong>Inter</strong>, <strong>JetBrains Mono</strong>.<br>
+    Filtered &amp; summarised by Claude Haiku 4.5.
+  </div>
+  <div class="colophon-center">
+    Daily at <em>09:00</em> UTC+8 · Made with care.
+  </div>
+  <div class="colophon-right">
+    Source: AI Agent × Claude × Cursor × Design<br>
+    Updated 2026-04-16 22:49
+  </div>
 </footer>
 
 </body>
