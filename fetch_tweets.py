@@ -31,19 +31,30 @@ SEARCH_QUERIES = [
         "min_likes": 200,
     },
     {
-        "label": "Design Systems",
-        "query": "design system Figma component",
-        "min_likes": 150,
-    },
-    {
         "label": "Product Management",
         "query": "product management roadmap strategy",
         "min_likes": 200,
     },
     {
-        "label": "Design Thinking",
-        "query": "design thinking user research insight",
-        "min_likes": 150,
+        "label": "AI + Design",
+        "query": "AI design product",
+        "min_likes": 300,
+    },
+]
+
+# KOL groups — fetch recent tweets from these accounts, rank by engagement
+KOL_GROUPS = [
+    {
+        "label": "PM 大神近期推文",
+        "users": ["cagan", "lennysan", "destraynor", "lissijean", "noah_weiss"],
+        "per_user": 10,
+        "top_n": 8,
+    },
+    {
+        "label": "設計大神近期推文",
+        "users": ["joulee", "lukew", "jnd1er", "leeloowrites"],
+        "per_user": 10,
+        "top_n": 8,
     },
 ]
 
@@ -73,6 +84,32 @@ def search_tweets(query: str, min_likes: int, max_rows: int = 10) -> list[dict]:
             return data if isinstance(data, list) else []
     except Exception as e:
         print(f"  [warn] Query '{query}' failed: {e}")
+        return []
+
+def fetch_user_tweets(username: str, max_results: int = 10) -> list[dict]:
+    """Call 6551.io /open/twitter_user_tweets endpoint."""
+    url = f"{API_BASE}/open/twitter_user_tweets"
+    payload = {
+        "username": username,
+        "maxResults": max_results,
+        "product": "Latest",
+        "includeReplies": False,
+        "includeRetweets": False,
+    }
+    try:
+        with httpx.Client(timeout=30) as client:
+            resp = client.post(url, headers=HEADERS, json=payload)
+            resp.raise_for_status()
+            data = resp.json()
+            if isinstance(data, dict):
+                for key in ("tweets", "data", "result", "results", "items"):
+                    val = data.get(key)
+                    if isinstance(val, list):
+                        return val
+                return []
+            return data if isinstance(data, list) else []
+    except Exception as e:
+        print(f"  [warn] @{username} failed: {e}")
         return []
 
 def dedupe(tweets: list[dict]) -> list[dict]:
@@ -130,6 +167,24 @@ def main():
                 "tweets": normalized,
             })
             print(f"     → {len(normalized)} tweets")
+        else:
+            print(f"     → (no results)")
+
+    for group in KOL_GROUPS:
+        print(f"  👤 {group['label']}: {len(group['users'])} accounts")
+        bag = []
+        for username in group["users"]:
+            user_tweets = fetch_user_tweets(username, max_results=group["per_user"])
+            print(f"     · @{username}: {len(user_tweets)} tweets")
+            bag.extend(user_tweets)
+        top = pick_top(dedupe(bag), n=group["top_n"])
+        normalized = [normalize(t) for t in top]
+        if normalized:
+            sections.append({
+                "label": group["label"],
+                "tweets": normalized,
+            })
+            print(f"     → {len(normalized)} tweets (after dedupe + rank)")
         else:
             print(f"     → (no results)")
 
