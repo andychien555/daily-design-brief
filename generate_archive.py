@@ -96,23 +96,16 @@ def main():
     header {{
       max-width: var(--maxw);
       margin: 0 auto;
-      padding: 2.5rem 1.5rem 1.5rem;
-      border-bottom: 1px solid var(--ink);
-      position: relative;
-    }}
-    header::after {{
-      content: '';
-      position: absolute;
-      left: 1.5rem; right: 1.5rem; bottom: -5px;
-      height: 1px; background: var(--ink); opacity: .35;
+      padding: 2.5rem 1.5rem 1.75rem;
+      border-bottom: 1px solid var(--rule);
     }}
     .top-row {{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.25rem;
       font-family: var(--mono);
-      font-size: .7rem;
+      font-size: .72rem;
       letter-spacing: .12em;
       text-transform: uppercase;
       color: var(--ink-3);
@@ -123,15 +116,6 @@ def main():
       display: inline-flex; align-items: center; gap: .35rem;
     }}
     .back:hover {{ gap: .6rem; }}
-    .label {{
-      font-family: var(--mono);
-      font-size: .68rem;
-      letter-spacing: .25em;
-      text-transform: uppercase;
-      color: var(--accent);
-      text-align: center;
-      margin-bottom: .35rem;
-    }}
     h1 {{
       font-family: var(--serif);
       font-weight: 400;
@@ -145,14 +129,6 @@ def main():
       font-style: italic;
       color: var(--accent);
       font-variation-settings: 'opsz' 144, 'SOFT' 80, 'WONK' 1;
-    }}
-    .sub {{
-      text-align: center;
-      font-family: var(--serif);
-      font-style: italic;
-      color: var(--ink-2);
-      font-size: .95rem;
-      margin-top: .65rem;
     }}
 
     main {{
@@ -273,11 +249,9 @@ def main():
   <header>
     <div class="top-row">
       <a href="index.html" class="back">← Today</a>
-      <span>Archive · Vol. I</span>
+      <span>Archive</span>
     </div>
-    <p class="label">Editorial Archive</p>
     <h1>歷史<em>存檔</em></h1>
-    <p class="sub">every issue, kept on file.</p>
   </header>
 
   <main>
