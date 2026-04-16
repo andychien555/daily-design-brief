@@ -1,103 +1,21 @@
 {
   "date": "2026-04-16",
   "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T21:21:01.836347+08:00",
+  "generated_at": "2026-04-16T21:22:50.964721+08:00",
   "sections": [
-    {
-      "label": "Product Design",
-      "tweets": [
-        {
-          "id": "1870188351028113416",
-          "text": "Learn UX design and product design and you will become stronger than you could ever imagine",
-          "author": "garrytan",
-          "name": "Garry Tan",
-          "likes": 4787,
-          "retweets": 379,
-          "replies": 133,
-          "created": "Fri Dec 20 19:23:43 +0000 2024",
-          "url": "https://x.com/garrytan/status/1870188351028113416"
-        },
-        {
-          "id": "1894583200158244981",
-          "text": "I'm working on 24 startups simultaneously\n(half a million b2b users, multimillion ARR)\n\nNo VC funding, employees, calls, office, managers...\n\nEach business is 100% async over chat:\n&gt; me: idea, design, UX &amp; marketing.\n&gt; comaker: coding, product &amp; support.\n\nWhy, how, what: https://t.co/14boTot2IE",
-          "author": "johnrushx",
-          "name": "John Rush",
-          "likes": 3596,
-          "retweets": 194,
-          "replies": 174,
-          "created": "Wed Feb 26 03:00:09 +0000 2025",
-          "url": "https://x.com/johnrushx/status/1894583200158244981"
-        },
-        {
-          "id": "1846948037597581797",
-          "text": "you can't expect ONE designer to do design systems, product design, ux research, graphic design, branding AND expect them to be good at ALL of it.",
-          "author": "felixleezd",
-          "name": "Felix Lee",
-          "likes": 2748,
-          "retweets": 350,
-          "replies": 125,
-          "created": "Thu Oct 17 16:15:01 +0000 2024",
-          "url": "https://x.com/felixleezd/status/1846948037597581797"
-        },
-        {
-          "id": "1941921342451769792",
-          "text": "before:\n- UI designer\n- UX designer\n- UI/UX designer\n\nnow\n- product designer\n- design partner\n- software designer\n\ni like this change",
-          "author": "MichaelFilipiuk",
-          "name": "Michael · Design Partner",
-          "likes": 2950,
-          "retweets": 141,
-          "replies": 42,
-          "created": "Sun Jul 06 18:05:01 +0000 2025",
-          "url": "https://x.com/MichaelFilipiuk/status/1941921342451769792"
-        },
-        {
-          "id": "1973942012278935631",
-          "text": "this is a billion dollar lesson in design.\n\ni bet whoever led Comet has got an extraordinary product sense. It is such an incredible product and ux, not because it’s new—because it isn’t. User ease into it, knows how to navigate around, with some AI integration and not intrusive",
-          "author": "felixleezd",
-          "name": "Felix Lee",
-          "likes": 2610,
-          "retweets": 146,
-          "replies": 71,
-          "created": "Fri Oct 03 02:43:44 +0000 2025",
-          "url": "https://x.com/felixleezd/status/1973942012278935631"
-        }
-      ]
-    },
     {
       "label": "UI Design",
       "tweets": [
         {
-          "id": "1623359864100601861",
-          "text": "Today, Generative AI takes a big step and comes to user interface design!\n\n@helnzhou and I are excited to announce @Galileo_AI : the first AI product that uses natural language to generate UI designs. It lets you design beyond imagination.\n\nEarly access: https://t.co/4KqV1csQ6c https://t.co/LtzSC1kYw3",
-          "author": "arnaudai",
-          "name": "Arnaud Benard",
-          "likes": 5994,
-          "retweets": 1298,
-          "replies": 316,
-          "created": "Wed Feb 08 16:35:26 +0000 2023",
-          "url": "https://x.com/arnaudai/status/1623359864100601861"
-        },
-        {
-          "id": "1980316762827612270",
-          "text": "“Graphic Design” = visual communication\n“Brand Design” = identity creation\n“Visual Design” = digital interface aesthetics\n“Product Design” = UX/UI + product experience\n“Creative Design” = vague umbrella term (use ‘Art Director’ or ‘Multidisciplinary Designer’ instead)\n\n“Visual ≠",
-          "author": "zazzygfx",
-          "name": "Zazzy",
-          "likes": 5973,
-          "retweets": 786,
-          "replies": 57,
-          "created": "Mon Oct 20 16:54:43 +0000 2025",
-          "url": "https://x.com/zazzygfx/status/1980316762827612270"
-        },
-        {
-          "id": "1735788899786727785",
-          "text": "[Introducing] Cute Interface Keycaps &amp; Deskmat Set - Blue ✨🩵\n\nI’ve always wanted to design a matching keycaps &amp; desk mat set. This set is inspired by the clean &amp; minimalistic aesthetics of UI designs… with some added cuteness!\n\nComing soon! \n\n🛒 https://t.co/WDngCpUclZ https://t.co/631la6W2ny",
-          "author": "MookoStudio",
-          "name": "Mooko Studio",
-          "likes": 2713,
-          "retweets": 287,
-          "replies": 30,
-          "created": "Fri Dec 15 22:28:17 +0000 2023",
-          "url": "https://x.com/MookoStudio/status/1735788899786727785"
+          "id": "1635652394951254017",
+          "text": "💥 16 little UI design rules that make a big impact\n\nUI design might appear to be a magical art form, but a lot of it is made up from logical rules or guidelines. \n\nWe’ll redesign an example interface using 16 of 100+ guidelines from my book - @PracticalUI\n\nA mega thread👇 https://t.co/Im6pSSfPkO",
+          "author": "AdhamDannaway",
+          "name": "Adham Dannaway",
+          "likes": 5409,
+          "retweets": 778,
+          "replies": 92,
+          "created": "Tue Mar 14 14:41:34 +0000 2023",
+          "url": "https://x.com/AdhamDannaway/status/1635652394951254017"
         },
         {
           "id": "2033824157985870200",
@@ -111,15 +29,37 @@
           "url": "https://x.com/UniverseIce/status/2033824157985870200"
         },
         {
-          "id": "1623707730367086595",
-          "text": "Generative AI comes to User Interface design!\n\n@Galileo_AI is the first AI product trained on thousands of outstanding designs. It can turn a simple text description into high-fidelity editable UI designs.\n\nSignup here: https://t.co/ZeBzMkro7F https://t.co/SQAqZLZ2s3",
-          "author": "LiorOnAI",
-          "name": "Lior Alexander",
-          "likes": 827,
-          "retweets": 174,
-          "replies": 19,
-          "created": "Thu Feb 09 15:37:44 +0000 2023",
-          "url": "https://x.com/LiorOnAI/status/1623707730367086595"
+          "id": "2041022407050424747",
+          "text": "Hi everyone! I made a NewJeans PITSTOP game interface, and it’s only a UI/UX design concept. I wanted to share this work here because I’ve been really missing them 😭💕 https://t.co/iztsOn6vfC",
+          "author": "_haern",
+          "name": "aren ✹",
+          "likes": 1042,
+          "retweets": 266,
+          "replies": 38,
+          "created": "Mon Apr 06 05:17:16 +0000 2026",
+          "url": "https://x.com/_haern/status/2041022407050424747"
+        },
+        {
+          "id": "1688116622907637760",
+          "text": "16 little UI design rules that make a big impact\n\nA design case study to redesign an example user interface using simple rules such as using space to group related elements and using font weights to make text less or more prominent \n\nhttps://t.co/LN2zDJwtV0 https://t.co/3y90WtXsx5",
+          "author": "101babich",
+          "name": "Nick Babich",
+          "likes": 917,
+          "retweets": 139,
+          "replies": 6,
+          "created": "Sun Aug 06 09:15:41 +0000 2023",
+          "url": "https://x.com/101babich/status/1688116622907637760"
+        },
+        {
+          "id": "1706931171869724732",
+          "text": "Learn how to use Design Principles in UI to improve your UX/UI Designs 🚀🔖\n\nWhat are Fundamental Design Principles?\nFundamental design principles are the rules that designers should follow to achieve a good result and composition in their user interface designs. Here are a few https://t.co/gyWEe2HF6o",
+          "author": "uxlinks",
+          "name": "UX Links",
+          "likes": 751,
+          "retweets": 156,
+          "replies": 9,
+          "created": "Wed Sep 27 07:17:59 +0000 2023",
+          "url": "https://x.com/uxlinks/status/1706931171869724732"
         }
       ]
     },
@@ -147,66 +87,6 @@
           "replies": 4,
           "created": "Tue Dec 05 16:32:47 +0000 2023",
           "url": "https://x.com/dvasishtha/status/1732075557200810212"
-        }
-      ]
-    },
-    {
-      "label": "AI + Design",
-      "tweets": [
-        {
-          "id": "1996117345522385305",
-          "text": "\"We're finalizing the design of Optimus v3. It will have essentially the manual dexterity of a human, a very complex hand and an AI mind that can navigate and comprehend reality. Optimus will be the biggest product ever.\"\n\n一 Elon Musk\n\n https://t.co/siW8gMnBcK",
-          "author": "cb_doge",
-          "name": "DogeDesigner",
-          "likes": 13215,
-          "retweets": 1741,
-          "replies": 912,
-          "created": "Wed Dec 03 07:20:35 +0000 2025",
-          "url": "https://x.com/cb_doge/status/1996117345522385305"
-        },
-        {
-          "id": "1900521217586507963",
-          "text": "AI is making every product look the same. Same features. Same UI. Same smart assistant.\n\nSo if everyone has the same AI tools, what actually makes a product a $100M winning product?\n\nInsights from a 50 page ebook \"how to design products in the AI age\" we wrote at @meetLCA:",
-          "author": "gregisenberg",
-          "name": "GREG ISENBERG",
-          "likes": 2915,
-          "retweets": 269,
-          "replies": 188,
-          "created": "Fri Mar 14 12:15:42 +0000 2025",
-          "url": "https://x.com/gregisenberg/status/1900521217586507963"
-        },
-        {
-          "id": "2033966864825782543",
-          "text": "🚨BREAKING: Someone just open sourced a complete AI agency and it hit 50K GitHub stars in under two weeks.\n\nIt's called The Agency.\n\nAnd it's not a prompt template.\n\nIt's 147 specialized AI agents across 12 divisions -- engineering, design, marketing, product, QA, support, https://t.co/SHmbpEei5E",
-          "author": "heygurisingh",
-          "name": "Guri Singh",
-          "likes": 2378,
-          "retweets": 370,
-          "replies": 129,
-          "created": "Tue Mar 17 18:01:04 +0000 2026",
-          "url": "https://x.com/heygurisingh/status/2033966864825782543"
-        },
-        {
-          "id": "1973942012278935631",
-          "text": "this is a billion dollar lesson in design.\n\ni bet whoever led Comet has got an extraordinary product sense. It is such an incredible product and ux, not because it’s new—because it isn’t. User ease into it, knows how to navigate around, with some AI integration and not intrusive",
-          "author": "felixleezd",
-          "name": "Felix Lee",
-          "likes": 2610,
-          "retweets": 146,
-          "replies": 71,
-          "created": "Fri Oct 03 02:43:44 +0000 2025",
-          "url": "https://x.com/felixleezd/status/1973942012278935631"
-        },
-        {
-          "id": "1752985577031364828",
-          "text": "If you are a NIGERIAN and you want to learn and get CERTIFICATIONS on the following skills for FREE:\n\nSoftware Development\nUI/UX Design\nData Analysis and Visualization\nQuality Assurance\nProduct Management\nData Science\nAnimation\nAI/Machine Learning\nCybersecurity\nGame Development",
-          "author": "OlamideTowobola",
-          "name": "L.A.M.Z",
-          "likes": 1105,
-          "retweets": 588,
-          "replies": 1151,
-          "created": "Thu Feb 01 09:21:45 +0000 2024",
-          "url": "https://x.com/OlamideTowobola/status/1752985577031364828"
         }
       ]
     },
