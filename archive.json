@@ -2,8 +2,8 @@
   {
     "date": "2026-04-16",
     "date_display": "2026 年 04 月 16 日",
-    "generated_at": "2026-04-16T21:06:21.637518+08:00",
-    "total": 16,
+    "generated_at": "2026-04-16T21:12:31.755155+08:00",
+    "total": 28,
     "sections": [
       {
         "label": "Product Design",
@@ -14,12 +14,20 @@
         "count": 5
       },
       {
-        "label": "Design Systems",
+        "label": "Product Management",
+        "count": 2
+      },
+      {
+        "label": "AI + Design",
         "count": 5
       },
       {
-        "label": "Design Thinking",
-        "count": 1
+        "label": "PM 大神近期推文",
+        "count": 8
+      },
+      {
+        "label": "設計大神近期推文",
+        "count": 3
       }
     ]
   }
