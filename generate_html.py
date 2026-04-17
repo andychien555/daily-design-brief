@@ -202,6 +202,7 @@ def criteria_block(criteria: dict) -> str:
         for k in criteria.get("keyword_pools", [])
     )
     filter_items = "".join(f"<li>{esc(r)}</li>" for r in criteria.get("claude_filter_rules", []))
+    kw_count = len(criteria.get("keyword_pools", []))
     top_n = criteria.get("top_n", 10)
     since_days = criteria.get("since_days", 2)
     formula = esc(criteria.get("score_formula", "likes"))
@@ -213,7 +214,7 @@ def criteria_block(criteria: dict) -> str:
       <form method="dialog"><button class="modal-close" aria-label="關閉">✕</button></form>
     </div>
     <div class="criteria-body">
-      <p>每天從下列 <strong>4 組關鍵字</strong> 查詢 X 上最近 <strong>{since_days} 天</strong>、熱門 (Top) 排序的推文，去重後交由 Claude Sonnet 4.5 做二次過濾與排序，最後輸出 <strong>Top {top_n}</strong> 並附繁體中文摘要。</p>
+      <p>每天從下列 <strong>{kw_count} 組關鍵字</strong> 查詢 X 上最近 <strong>{since_days} 天</strong> 的推文，去重後交由 Claude Sonnet 4.5 做二次過濾與排序，最後輸出 <strong>Top {top_n}</strong> 並附繁體中文摘要。</p>
       <p><strong>排序公式</strong>：<code>{formula}</code></p>
 
       <h4>關鍵字搜尋池</h4>
