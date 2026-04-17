@@ -1,57 +1,24 @@
 {
   "date": "2026-04-17",
   "date_display": "2026 年 04 月 17 日",
-  "generated_at": "2026-04-17T10:56:14.128724+08:00",
-  "since_date": "2026-04-14",
+  "generated_at": "2026-04-17T11:25:30.808004+08:00",
+  "since_date": "2026-04-15",
   "top_tweets": [
-    {
-      "id": "2044526740299526511",
-      "text": "Last week @sebgoddijn shared Glass, Ramp's internal AI productivity tool, with the world. Nearly a million views later, everyone's asking the same thing: how did you actually build this?\n\nRead the full story here:\nhttps://t.co/iR15nRiyNn\n\nThe short of it: we built an app that https://t.co/qJFHyCCZLs",
-      "author": "buchan_sm",
-      "name": "Shane Buchan",
-      "likes": 432,
-      "retweets": 21,
-      "replies": 11,
-      "created": "Wed Apr 15 21:22:15 +0000 2026",
-      "url": "https://x.com/buchan_sm/status/2044526740299526511",
-      "source": "AI Tool",
-      "summary_zh": "Ramp 分享他們如何打造內部 AI 生產力工具 Glass 的完整故事，說明實際建構過程與架構決策，對想開發內部 AI 工具的團隊有參考價值。"
-    },
     {
       "id": "2044472288599507108",
       "text": "This is really accurate. \n\nAs much as we all want to drink the vibe coding kool-aid, the reality is that 90%+ of all code in a company is maintaining and migrating existing stuff that is complicated and messy. You can definitely vibe code the remaining 10% but unless there is a",
       "author": "chamath",
       "name": "Chamath Palihapitiya",
-      "likes": 1230,
+      "likes": 1233,
       "retweets": 87,
       "replies": 114,
       "created": "Wed Apr 15 17:45:52 +0000 2026",
       "url": "https://x.com/chamath/status/2044472288599507108",
       "source": "Vibe Coding",
-      "summary_zh": "針對「vibe coding 可以週末完成」的說法，指出現實中 90% 以上的程式碼是維護和遷移既有複雜系統，只有剩餘 10% 適合 vibe coding，強調品質與深度仍需時間累積。",
+      "summary_zh": "引用推文認為很多簡單工作流會被 vibe coding 取代，但品質與優秀系統仍需時間打磨。這則回應指出現實中 90% 以上程式碼都在維護與遷移既有複雜系統，vibe coding 只能處理剩下的 10%，除非有重大突破否則無法取代核心工程工作。",
       "context": {
         "quoted_text": "Every time I see a tweet saying “I can vibe code this in a weekend” - I think of the slack notification system..\n\nIt takes time, persistence and effort to get the details right. \n\nSure, a lot of simple workflows will get vibe coded away. And maybe you can put this in Claude Code and get the code right in one shot. \n\nBut quality, depth and great systems will still have value and take time. You can’t vibe code lessons. \n\nNow and forever.",
         "quoted_author": "nikunj",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2044449830605582629",
-      "text": "New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.\n\nVibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb",
-      "author": "AndrewYNg",
-      "name": "Andrew Ng",
-      "likes": 2464,
-      "retweets": 375,
-      "replies": 95,
-      "created": "Wed Apr 15 16:16:38 +0000 2026",
-      "url": "https://x.com/AndrewYNg/status/2044449830605582629",
-      "source": "Vibe Coding",
-      "summary_zh": "Andrew Ng 與 JetBrains 推出新課程教授 Spec-Driven Development，強調先寫清楚規格再讓 AI 實作，比直覺式 vibe coding 更能產出符合需求的程式碼。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
         "replied_text": "",
         "replied_author": "",
         "top_replies": []
@@ -64,11 +31,11 @@
       "name": "Felix Lee",
       "likes": 626,
       "retweets": 41,
-      "replies": 756,
+      "replies": 758,
       "created": "Wed Apr 15 16:35:36 +0000 2026",
       "url": "https://x.com/felixleezd/status/2044454605703286806",
-      "source": "Product Design",
-      "summary_zh": "ADPList 釋出 Design Stack 平台，免費開放 80+ 部涵蓋設計、職涯、AI、產品等主題的大師課程影片，來自旗下各大會議內容。",
+      "source": "AI Product",
+      "summary_zh": "ADPList 開放旗下所有大師課程影片庫（80+ 支影片涵蓋設計、職涯、AI、產品等主題），完全免費。目標是將完整知識庫公開，推動社群往前發展。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -78,17 +45,17 @@
       }
     },
     {
-      "id": "2044708835416252512",
-      "text": "This 1-hour Stanford lecture on Agentic AI covers exactly what you need to become an AI automation builder\n\ntool calling, multi-step workflows, planning, reflection — the foundations behind every automation system that actually works\n\nmost people learn this by copying Make and https://t.co/0oHGDCUBk0",
-      "author": "DeRonin_",
-      "name": "Ronin",
-      "likes": 869,
-      "retweets": 132,
-      "replies": 16,
-      "created": "Thu Apr 16 09:25:49 +0000 2026",
-      "url": "https://x.com/DeRonin_/status/2044708835416252512",
-      "source": "AI Tool",
-      "summary_zh": "史丹佛一小時 Agentic AI 講座涵蓋 tool calling、多步驟工作流、規劃與反思等核心概念，適合想成為 AI 自動化建構者的人學習基礎架構原理。",
+      "id": "2044619554706604356",
+      "text": "OpenAI offered $3 billion for Windsurf. Google paid $2.4 billion for the CEO and top researchers. Cognition picked up the remaining company, the IDE, the product, 350 enterprise customers, and $82M ARR, for roughly $250 million.\n\nThat $250 million just became the best deal in AI",
+      "author": "aakashgupta",
+      "name": "Aakash Gupta",
+      "likes": 761,
+      "retweets": 53,
+      "replies": 40,
+      "created": "Thu Apr 16 03:31:03 +0000 2026",
+      "url": "https://x.com/aakashgupta/status/2044619554706604356",
+      "source": "AI Product",
+      "summary_zh": "OpenAI 曾出價 30 億美元收購 Windsurf，Google 花 24 億挖角 CEO 與核心研究員，Cognition 最終以約 2.5 億美元拿下剩餘公司、IDE 產品、350 家企業客戶與 8200 萬美元 ARR。這筆交易可能成為 AI 領域最划算的併購案。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -98,37 +65,133 @@
       }
     },
     {
-      "id": "2044696500630851861",
-      "text": "Grok Build is coming next week from @xai 👀\n\n@elonmusk just confirmed that a beta release of the new AI coding tool is coming. This includes both a web app and a terminal UI to compete with Claude Code.\n\nGrok Build will also introduce powerful new coding models! https://t.co/ClmivyHHLy",
-      "author": "mark_k",
-      "name": "Mark Kretschmann",
-      "likes": 360,
-      "retweets": 42,
-      "replies": 42,
-      "created": "Thu Apr 16 08:36:49 +0000 2026",
-      "url": "https://x.com/mark_k/status/2044696500630851861",
-      "source": "AI Tool",
-      "summary_zh": "xAI 即將在下週推出 Grok Build（beta 版），包含網頁版與終端介面，將與 Claude Code 競爭，並推出新的編碼模型。"
+      "id": "2044449830605582629",
+      "text": "New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.\n\nVibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb",
+      "author": "AndrewYNg",
+      "name": "Andrew Ng",
+      "likes": 2470,
+      "retweets": 376,
+      "replies": 96,
+      "created": "Wed Apr 15 16:16:38 +0000 2026",
+      "url": "https://x.com/AndrewYNg/status/2044449830605582629",
+      "source": "Vibe Coding",
+      "summary_zh": "Andrew Ng 與 JetBrains 合作推出新課程《Spec-Driven Development with Coding Agents》。課程主張 vibe coding 雖快但常產出不符需求的程式碼，教導如何先寫詳細規格再讓 AI 生成，提升開發品質。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
     },
     {
-      "id": "2044657411408195680",
-      "text": "Many people will be surprised to know that there’s actually a very good correlation how good you are at leetcode style problems (not rot learning but new problems) and how do you perform at your job.\n\nMost AI companies still do leetcode style interviews without providing AI tool",
-      "author": "asmah2107",
-      "name": "Ashutosh Maheshwari",
-      "likes": 284,
-      "retweets": 23,
-      "replies": 11,
-      "created": "Thu Apr 16 06:01:29 +0000 2026",
-      "url": "https://x.com/asmah2107/status/2044657411408195680",
-      "source": "AI Tool",
-      "summary_zh": "指出 LeetCode 風格的解題能力（非死記而是解新問題）與實際工作表現有良好相關性，多數 AI 公司面試仍採用此類題型且不提供 AI 工具輔助。"
+      "id": "2044809399999631656",
+      "text": "My most powerful vibe coding prompt ever.\n\nPlug this straight into the new Opus 4.7, and you'll literally be able to ship anything.\n\nFully functional apps, landing pages, custom artifacts - you name it.\n\nPro tip: plug this into a \"vibe coding\" expert project as a context file. https://t.co/ISaILZCdZQ",
+      "author": "milesdeutscher",
+      "name": "Miles Deutscher",
+      "likes": 535,
+      "retweets": 60,
+      "replies": 27,
+      "created": "Thu Apr 16 16:05:26 +0000 2026",
+      "url": "https://x.com/milesdeutscher/status/2044809399999631656",
+      "source": "Vibe Coding",
+      "summary_zh": "分享一套「最強 vibe coding prompt」，聲稱搭配新版 Opus 4.7 可快速打造全功能 app、落地頁或客製化產出物。建議將此 prompt 作為「vibe coding」專家專案的 context 檔案使用。"
+    },
+    {
+      "id": "2044687977981358442",
+      "text": "Vibe coding without this prompt is a waste of time.\n\n--------------------------------\nLEAD SOFTWARE ARCHITECT\n--------------------------------\n\nYou are my lead software architect and full-stack engineer.\n\nYou are responsible for building and maintaining a production-grade app",
+      "author": "ennycodes",
+      "name": "𝕯𝖊𝖛𝕰𝖓𝖓𝖞",
+      "likes": 767,
+      "retweets": 121,
+      "replies": 27,
+      "created": "Thu Apr 16 08:02:57 +0000 2026",
+      "url": "https://x.com/ennycodes/status/2044687977981358442",
+      "source": "Vibe Coding",
+      "summary_zh": "主張沒有這個 prompt 的 vibe coding 是浪費時間，並分享一套「首席軟體架構師」角色設定 prompt，用於建立與維護 production-grade 應用程式。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2044880920189272236",
+      "text": "🚨PERPLEXITY JUST LAUNCHED SOMETHING THAT MAKES EVERY OTHER AI PRODUCT LOOK LIKE A TOY.. AND NOBODY IS TALKING ABOUT IT..\n\nThey built a Personal Computer.. Not an app.. Not a chatbot.. A full digital worker that runs 24/7 on a Mac mini even while you sleep..\n\nYou press both https://t.co/Bxg4D5nQIu",
+      "author": "EvanLuthra",
+      "name": "Evan Luthra",
+      "likes": 492,
+      "retweets": 28,
+      "replies": 25,
+      "created": "Thu Apr 16 20:49:38 +0000 2026",
+      "url": "https://x.com/EvanLuthra/status/2044880920189272236",
+      "source": "AI Product",
+      "summary_zh": "Perplexity 推出「個人電腦」功能，在 Mac mini 上 24/7 執行的全職數位工作者，並非僅是 app 或聊天機器人，即使用戶睡覺時也持續運作。作者認為這讓其他 AI 產品相形見絀。"
+    },
+    {
+      "id": "2044798160141156623",
+      "text": "We’re hiring a Product Designer at @doist!\nShape productivity tools across every platform.\nWe’re looking for someone who cares deeply about craft and embraces AI in their work.\nFully async and remote 👋🏼 Let's chat! https://t.co/YsRODtZTuE https://t.co/SiadkGDNnH",
+      "author": "alexmuench",
+      "name": "Alex 🌚",
+      "likes": 377,
+      "retweets": 22,
+      "replies": 32,
+      "created": "Thu Apr 16 15:20:46 +0000 2026",
+      "url": "https://x.com/alexmuench/status/2044798160141156623",
+      "source": "AI Product",
+      "summary_zh": "Doist 徵求 Product Designer，負責跨平台生產力工具設計。職位要求重視工藝細節並擁抱 AI 工具，全遠端異步工作模式。"
+    },
+    {
+      "id": "2044442528183971915",
+      "text": "Claude Code just got it's biggest upgrade yet\n\nThe desktop app is now by far the best way to be building apps with AI, even better than the CLI\n\nIn this video I cover every single change and a few workflows for vibe coding faster than ever, even if you've never coded before: https://t.co/1V1GiKllT8",
+      "author": "AlexFinn",
+      "name": "Alex Finn",
+      "likes": 988,
+      "retweets": 56,
+      "replies": 105,
+      "created": "Wed Apr 15 15:47:37 +0000 2026",
+      "url": "https://x.com/AlexFinn/status/2044442528183971915",
+      "source": "Vibe Coding",
+      "summary_zh": "Claude Code 桌面 app 大幅升級，作者認為現已超越 CLI 成為用 AI 建構 app 的最佳方式。影片涵蓋所有變更與多種 vibe coding 工作流程，即使零程式經驗也能上手。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2044602993086181479",
+      "text": "🚨 BREAKING: Telegram-first vibe coding is here\n\nBuild any full Telegram bot by talking to Claude Opus 4.6 https://t.co/mkRyl9AW0x",
+      "author": "shipper_now",
+      "name": "Shipper",
+      "likes": 443,
+      "retweets": 34,
+      "replies": 5,
+      "created": "Thu Apr 16 02:25:15 +0000 2026",
+      "url": "https://x.com/shipper_now/status/2044602993086181479",
+      "source": "Vibe Coding",
+      "summary_zh": "推出 Telegram-first 的 vibe coding 方案，透過與 Claude Opus 4.6 對話即可建立完整 Telegram bot。"
     }
   ],
   "criteria": {
     "keyword_pools": [
       {
-        "label": "Product Design",
-        "query": "product design",
+        "label": "Design",
+        "query": "design",
+        "min_likes": 100
+      },
+      {
+        "label": "UX Design",
+        "query": "UX design",
+        "min_likes": 100
+      },
+      {
+        "label": "UX Research",
+        "query": "UX research",
         "min_likes": 100
       },
       {
@@ -137,17 +200,22 @@
         "min_likes": 100
       },
       {
-        "label": "AI Tool",
-        "query": "AI tool",
+        "label": "AI Product",
+        "query": "AI product",
         "min_likes": 100
       },
       {
         "label": "Vibe Coding",
         "query": "vibe coding",
         "min_likes": 100
+      },
+      {
+        "label": "Growth",
+        "query": "growth",
+        "min_likes": 100
       }
     ],
-    "since_days": 3,
+    "since_days": 2,
     "top_n": 10,
     "score_formula": "likes（主要）+ Claude 人工過濾廣告/招聘/meme/非設計",
     "claude_filter_rules": [
@@ -164,52 +232,52 @@
   },
   "top_products": [
     {
-      "title": "FunKey",
-      "url": "https://www.producthunt.com/products/funkey",
-      "published": "2026-04-15T11:33:27-07:00",
-      "author": "it0sh",
-      "tagline": "Mechanical keyboard & mouse sounds for your Mac",
-      "summary_zh": "為 Mac 電腦提供機械鍵盤與滑鼠音效模擬的工具，讓使用者在打字與操作時能聽到擬真的聲響效果。"
-    },
-    {
-      "title": "HackerEarth OnScreen",
-      "url": "https://www.producthunt.com/products/hackerearth",
-      "published": "2026-04-15T06:38:25-07:00",
-      "author": "Zahra K",
-      "tagline": "An always-on, zero-bias AI hiring tool",
-      "summary_zh": "一款持續運作的 AI 招聘工具，旨在協助企業進行無偏見的人才篩選與評估流程。"
-    },
-    {
-      "title": "OpenAI Agents SDK",
-      "url": "https://www.producthunt.com/products/openai",
-      "published": "2026-04-15T23:51:50-07:00",
-      "author": "Zac Zuo",
-      "tagline": "Build production agents with harness and sandbox",
-      "summary_zh": "提供開發者建構生產級 AI Agent 的 SDK 工具，整合執行環境與沙盒測試功能。"
-    },
-    {
-      "title": "Foyer",
-      "url": "https://www.producthunt.com/products/foyer-3",
-      "published": "2026-04-15T23:59:06-07:00",
-      "author": "Sohazur",
-      "tagline": "Make your site speak and sell",
-      "summary_zh": "讓網站具備語音互動與銷售功能的工具，適合希望透過語音介面提升轉換率的企業使用。"
-    },
-    {
       "title": "Chinilla",
       "url": "https://www.producthunt.com/products/chinilla",
       "published": "2026-04-14T20:37:18-07:00",
       "author": "alex",
       "tagline": "Design systems, simulate them and watch where they break",
-      "summary_zh": "用於設計與模擬系統運作的工具,能協助開發者找出系統中的潛在故障點與弱點。"
+      "summary_zh": "設計系統模擬工具，可建立設計系統並進行模擬測試，找出潛在的問題點與失效處。"
     },
     {
-      "title": "Agent Card",
-      "url": "https://www.producthunt.com/products/agent-card",
-      "published": "2026-04-15T22:42:07-07:00",
-      "author": "Felipe Abello",
-      "tagline": "Prepaid virtual Visa cards for AI agents",
-      "summary_zh": "專為 AI Agent 設計的預付虛擬 Visa 卡服務，讓 AI 系統能自主進行線上交易與付款。"
+      "title": "ClawTab",
+      "url": "https://www.producthunt.com/products/clawtab",
+      "published": "2026-04-15T02:34:16-07:00",
+      "author": "Tõnis Tiganik",
+      "tagline": "Desktop app to manage 20+ AI coding agents at once",
+      "summary_zh": "桌面應用程式，讓開發者能同時管理 20 個以上的 AI 程式碼助手代理。"
+    },
+    {
+      "title": "LISA Core",
+      "url": "https://www.producthunt.com/products/lisa-core-your-ai-memory-library",
+      "published": "2026-04-15T01:46:23-07:00",
+      "author": "Amar Dahmani",
+      "tagline": "LLM memory using semantic compression for AI conversations",
+      "summary_zh": "使用語義壓縮技術為 LLM 提供記憶功能，讓 AI 對話能保留上下文脈絡。"
+    },
+    {
+      "title": "FunKey",
+      "url": "https://www.producthunt.com/products/funkey",
+      "published": "2026-04-15T11:33:27-07:00",
+      "author": "it0sh",
+      "tagline": "Mechanical keyboard & mouse sounds for your Mac",
+      "summary_zh": "為 Mac 電腦增添機械鍵盤與滑鼠音效的工具軟體。"
+    },
+    {
+      "title": "Windsurf 2.0",
+      "url": "https://www.producthunt.com/products/windsurf",
+      "published": "2026-04-15T16:05:31-07:00",
+      "author": "Chris Messina",
+      "tagline": "Introducing the Agent Command Center and Devin in Windsurf",
+      "summary_zh": "推出 Agent Command Center 功能並整合 Devin，提供更強大的 AI 程式開發環境。"
+    },
+    {
+      "title": "Pilot5.ai",
+      "url": "https://www.producthunt.com/products/pilot5-ai",
+      "published": "2026-04-15T14:30:14-07:00",
+      "author": "Thomas Wainstein",
+      "tagline": "Your question, deliberated by 5 frontier AI models",
+      "summary_zh": "將使用者的問題同時交由 5 個前沿 AI 模型進行討論與回答的服務。"
     }
   ]
 }
