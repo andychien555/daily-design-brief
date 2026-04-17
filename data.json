@@ -1,41 +1,34 @@
 {
-  "date": "2026-04-16",
-  "date_display": "2026 年 04 月 16 日",
-  "generated_at": "2026-04-16T23:41:52.787933+08:00",
-  "since_date": "2026-04-13",
+  "date": "2026-04-17",
+  "date_display": "2026 年 04 月 17 日",
+  "generated_at": "2026-04-17T09:32:47.604382+08:00",
+  "since_date": "2026-04-14",
   "top_tweets": [
     {
-      "id": "2043742105852621052",
-      "text": "As AI agents accelerate coding, what is the future of software engineering? Some trends are clear, such as the Product Management Bottleneck, referring to the idea that we are more constrained by deciding what to build rather than the actual building. But many implications, like",
-      "author": "AndrewYNg",
-      "name": "Andrew Ng",
-      "likes": 836,
-      "retweets": 155,
-      "replies": 106,
-      "created": "Mon Apr 13 17:24:23 +0000 2026",
-      "url": "https://x.com/AndrewYNg/status/2043742105852621052",
-      "source": "Product Management",
-      "summary_zh": "隨著 AI agent 加速編碼過程，軟體工程的未來將面臨「產品管理瓶頸」：我們更受限於決定該做什麼，而非實際建造本身。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "id": "2044526740299526511",
+      "text": "Last week @sebgoddijn shared Glass, Ramp's internal AI productivity tool, with the world. Nearly a million views later, everyone's asking the same thing: how did you actually build this?\n\nRead the full story here:\nhttps://t.co/iR15nRiyNn\n\nThe short of it: we built an app that https://t.co/qJFHyCCZLs",
+      "author": "buchan_sm",
+      "name": "Shane Buchan",
+      "likes": 428,
+      "retweets": 20,
+      "replies": 11,
+      "created": "Wed Apr 15 21:22:15 +0000 2026",
+      "url": "https://x.com/buchan_sm/status/2044526740299526511",
+      "source": "AI Tool",
+      "summary_zh": "Ramp 分享了他們內部 AI 生產力工具 Glass 的完整開發故事，說明如何建構一個實際運作的企業級 AI 應用，獲得近百萬瀏覽。"
     },
     {
       "id": "2044472288599507108",
       "text": "This is really accurate. \n\nAs much as we all want to drink the vibe coding kool-aid, the reality is that 90%+ of all code in a company is maintaining and migrating existing stuff that is complicated and messy. You can definitely vibe code the remaining 10% but unless there is a",
       "author": "chamath",
       "name": "Chamath Palihapitiya",
-      "likes": 1158,
-      "retweets": 82,
-      "replies": 111,
+      "likes": 1229,
+      "retweets": 87,
+      "replies": 114,
       "created": "Wed Apr 15 17:45:52 +0000 2026",
       "url": "https://x.com/chamath/status/2044472288599507108",
       "source": "Vibe Coding",
-      "summary_zh": "回應「週末就能 vibe code 做出來」的說法，指出現實中公司 90% 以上的程式碼是在維護和遷移既有複雜系統，vibe coding 只適用剩下的 10%。",
+      "summary_zh": "回應「週末就能 vibe code 出來」的論點，指出現實中 90% 以上的程式碼工作是維護與遷移既有系統，這些複雜且混亂的部分無法靠 vibe coding 解決。",
       "context": {
         "quoted_text": "Every time I see a tweet saying “I can vibe code this in a weekend” - I think of the slack notification system..\n\nIt takes time, persistence and effort to get the details right. \n\nSure, a lot of simple workflows will get vibe coded away. And maybe you can put this in Claude Code and get the code right in one shot. \n\nBut quality, depth and great systems will still have value and take time. You can’t vibe code lessons. \n\nNow and forever.",
         "quoted_author": "nikunj",
@@ -45,109 +38,17 @@
       }
     },
     {
-      "id": "2044082457910358480",
-      "text": "Anyone who thinks \"AI = easy mode\" honestly just sounds dumb and out of touch.\n\nFor context, I’ve been doing product design for 20+ years, including giant brands like Febreze, Swiffer, and Abercrombie with multi-continent supply chains etc. \n\nI can tell you that AI is by FAR the",
-      "author": "thefinnmckenty",
-      "name": "Finn McKenty",
-      "likes": 468,
-      "retweets": 37,
-      "replies": 197,
-      "created": "Tue Apr 14 15:56:49 +0000 2026",
-      "url": "https://x.com/thefinnmckenty/status/2044082457910358480",
-      "source": "Product Design",
-      "summary_zh": "擁有 20 年產品設計經驗（包含大型跨國供應鏈品牌）的作者認為，覺得「AI = 簡單模式」的人其實是不了解實況且膚淺的。"
-    },
-    {
-      "id": "2044526740299526511",
-      "text": "Last week @sebgoddijn shared Glass, Ramp's internal AI productivity tool, with the world. Nearly a million views later, everyone's asking the same thing: how did you actually build this?\n\nRead the full story here:\nhttps://t.co/iR15nRiyNn\n\nThe short of it: we built an app that https://t.co/qJFHyCCZLs",
-      "author": "buchan_sm",
-      "name": "Shane Buchan",
-      "likes": 404,
-      "retweets": 18,
-      "replies": 11,
-      "created": "Wed Apr 15 21:22:15 +0000 2026",
-      "url": "https://x.com/buchan_sm/status/2044526740299526511",
-      "source": "AI Tool",
-      "summary_zh": "Ramp 分享如何打造內部 AI 生產力工具 Glass 的完整故事，說明實際建構過程與架構思路。"
-    },
-    {
-      "id": "2044492434156228666",
-      "text": "We're being spoiled.\n\nWonder is the first AI design tool that actually feels like you're using Figma.\n\nI don't say that lightly. It feels insanely refined. Yet, everything you're designing is backed by actual code.\n\nThis is the enivitable future of design.",
-      "author": "BrettFromDJ",
-      "name": "Brett",
-      "likes": 717,
-      "retweets": 23,
-      "replies": 46,
-      "created": "Wed Apr 15 19:05:55 +0000 2026",
-      "url": "https://x.com/BrettFromDJ/status/2044492434156228666",
-      "source": "AI Tool",
-      "summary_zh": "Wonder 是首款真正像在用 Figma 的 AI 設計工具，但背後生成的是實際程式碼，被認為是設計工具的必然未來。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2044450734293373355",
-      "text": "AI has completely changed how I work.\n\nOver the weekend I built myself a personal investment tool without opening an IDE or Figma.\n\nIt has agents, chat, fundamentals, screener, and so much more. All perfectly customized to my needs. And it's insanely fast and fun to use. https://t.co/N7ybNUDeCG",
-      "author": "brotzky",
-      "name": "Brotzky",
-      "likes": 426,
-      "retweets": 12,
-      "replies": 31,
-      "created": "Wed Apr 15 16:20:13 +0000 2026",
-      "url": "https://x.com/brotzky/status/2044450734293373355",
-      "source": "AI Tool",
-      "summary_zh": "作者在週末不開 IDE 或 Figma，靠 AI 為自己打造了完整的個人投資分析工具，包含 agent、聊天、篩選器等功能，且極快又好用。"
-    },
-    {
-      "id": "2044708835416252512",
-      "text": "This 1-hour Stanford lecture on Agentic AI covers exactly what you need to become an AI automation builder\n\ntool calling, multi-step workflows, planning, reflection — the foundations behind every automation system that actually works\n\nmost people learn this by copying Make and https://t.co/0oHGDCUBk0",
-      "author": "DeRonin_",
-      "name": "Ronin",
-      "likes": 398,
-      "retweets": 61,
-      "replies": 11,
-      "created": "Thu Apr 16 09:25:49 +0000 2026",
-      "url": "https://x.com/DeRonin_/status/2044708835416252512",
-      "source": "AI Tool",
-      "summary_zh": "推薦史丹佛一小時的 Agentic AI 課程，涵蓋 tool calling、多步驟工作流、規劃與反思等 AI 自動化系統的核心基礎。"
-    },
-    {
-      "id": "2043583979203469680",
-      "text": "Being a solo-founder:\n\n- 10% coding\n- 15% marketing\n- 5% operations\n- 5% management\n- 1% mental control\n- 6% UX/UI\n- 18% customer support\n- 12% sales\n- 10% debugging\n- 8% product strategy\n- 5% finance\n- 5% “wtf isn’t this working” existential crisis",
-      "author": "pmitu",
-      "name": "Paul Mit",
-      "likes": 658,
-      "retweets": 47,
-      "replies": 159,
-      "created": "Mon Apr 13 06:56:03 +0000 2026",
-      "url": "https://x.com/pmitu/status/2043583979203469680",
-      "source": "Product Management",
-      "summary_zh": "獨立創辦人的時間分配：客服 18%、行銷 15%、銷售 12%、除錯 10%、編碼 10%、產品策略 8%，以及 5% 的存在危機。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2044442634622833103",
-      "text": "Obsidian accidentally built the perfect AI operating system and most people still don't see it...\n\ni couldn't stand this app for years... too much manual work for a note taking tool, plugins everywhere, hours of weekly maintenance just to keep it useful\n\nbut everything that made",
-      "author": "EXM7777",
-      "name": "Machina",
-      "likes": 972,
-      "retweets": 53,
-      "replies": 54,
-      "created": "Wed Apr 15 15:48:02 +0000 2026",
-      "url": "https://x.com/EXM7777/status/2044442634622833103",
-      "source": "AI Tool",
-      "summary_zh": "Obsidian 過去需要大量手動維護，但其設計意外成為完美的 AI 作業系統架構，多數人尚未意識到這點。",
+      "id": "2044449830605582629",
+      "text": "New course: Spec-Driven Development with Coding Agents, built in partnership with @jetbrains, and taught by @paulweveritt.\n\nVibe coding is fast, but often produces code that doesn't match what you asked for. This short course teaches you spec-driven development: write a detailed https://t.co/M9zaNg2aTb",
+      "author": "AndrewYNg",
+      "name": "Andrew Ng",
+      "likes": 2448,
+      "retweets": 369,
+      "replies": 95,
+      "created": "Wed Apr 15 16:16:38 +0000 2026",
+      "url": "https://x.com/AndrewYNg/status/2044449830605582629",
+      "source": "Vibe Coding",
+      "summary_zh": "Andrew Ng 與 JetBrains 合作推出新課程，教授「規格驅動開發」：透過撰寫詳細規格來引導 coding agent，避免 vibe coding 產出不符需求的程式碼。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -161,13 +62,79 @@
       "text": "Introducing Design Stack.\n\nToday, we're releasing @ADPList's entire masterclass library ⭐️ 80+ videos on design, career, AI, product and more (100% free) from all our flagship conferences.\n\nWhy are we doing this?\n\nWe believe opening this full knowledge base will move our https://t.co/t8aCiP0WvH",
       "author": "felixleezd",
       "name": "Felix Lee",
-      "likes": 545,
-      "retweets": 35,
-      "replies": 676,
+      "likes": 622,
+      "retweets": 41,
+      "replies": 748,
       "created": "Wed Apr 15 16:35:36 +0000 2026",
       "url": "https://x.com/felixleezd/status/2044454605703286806",
       "source": "Product Design",
-      "summary_zh": "ADPList 釋出完整 Design Stack 大師課程庫，包含 80+ 支設計、職涯、AI、產品等影片，完全免費開放。"
+      "summary_zh": "ADPList 釋出完整 masterclass 影片庫（80+ 支免費影片），涵蓋設計、職涯、AI、產品等主題，目標是開放知識資源推動社群成長。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2044708835416252512",
+      "text": "This 1-hour Stanford lecture on Agentic AI covers exactly what you need to become an AI automation builder\n\ntool calling, multi-step workflows, planning, reflection — the foundations behind every automation system that actually works\n\nmost people learn this by copying Make and https://t.co/0oHGDCUBk0",
+      "author": "DeRonin_",
+      "name": "Ronin",
+      "likes": 823,
+      "retweets": 125,
+      "replies": 15,
+      "created": "Thu Apr 16 09:25:49 +0000 2026",
+      "url": "https://x.com/DeRonin_/status/2044708835416252512",
+      "source": "AI Tool",
+      "summary_zh": "推薦一小時的 Stanford Agentic AI 課程，涵蓋 tool calling、multi-step workflows、planning、reflection 等實作 AI 自動化系統的核心基礎。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2044657411408195680",
+      "text": "Many people will be surprised to know that there’s actually a very good correlation how good you are at leetcode style problems (not rot learning but new problems) and how do you perform at your job.\n\nMost AI companies still do leetcode style interviews without providing AI tool",
+      "author": "asmah2107",
+      "name": "Ashutosh Maheshwari",
+      "likes": 270,
+      "retweets": 22,
+      "replies": 11,
+      "created": "Thu Apr 16 06:01:29 +0000 2026",
+      "url": "https://x.com/asmah2107/status/2044657411408195680",
+      "source": "AI Tool",
+      "summary_zh": "指出 leetcode 風格問題的解題能力與實際工作表現有良好相關性，且多數 AI 公司面試仍採用此方式但不提供 AI 工具。討論中有許多對此觀點的正反意見。"
+    },
+    {
+      "id": "2044495920067215535",
+      "text": "Looks like AI is not the magical tool that CEOs make it out to be. https://t.co/nX0IMxXdYP",
+      "author": "futurism",
+      "name": "Futurism",
+      "likes": 334,
+      "retweets": 58,
+      "replies": 10,
+      "created": "Wed Apr 15 19:19:46 +0000 2026",
+      "url": "https://x.com/futurism/status/2044495920067215535",
+      "source": "AI Tool",
+      "summary_zh": "文章指出 AI 並非 CEO 宣稱的神奇工具，暗示實際應用效果與期待有落差。"
+    },
+    {
+      "id": "2044696500630851861",
+      "text": "Grok Build is coming next week from @xai 👀\n\n@elonmusk just confirmed that a beta release of the new AI coding tool is coming. This includes both a web app and a terminal UI to compete with Claude Code.\n\nGrok Build will also introduce powerful new coding models! https://t.co/ClmivyHHLy",
+      "author": "mark_k",
+      "name": "Mark Kretschmann",
+      "likes": 357,
+      "retweets": 42,
+      "replies": 41,
+      "created": "Thu Apr 16 08:36:49 +0000 2026",
+      "url": "https://x.com/mark_k/status/2044696500630851861",
+      "source": "AI Tool",
+      "summary_zh": "xAI 即將推出 Grok Build（包含 web app 與 terminal UI）與新的 coding 模型，與 Claude Code 競爭。"
     }
   ],
   "criteria": {
@@ -210,52 +177,52 @@
   },
   "top_products": [
     {
-      "title": "Windsurf 2.0",
-      "url": "https://www.producthunt.com/products/windsurf",
-      "published": "2026-04-15T16:05:31-07:00",
-      "author": "Chris Messina",
-      "tagline": "Introducing the Agent Command Center and Devin in Windsurf",
-      "summary_zh": "整合 Agent Command Center 和 Devin 功能的開發工具，讓開發者能更有效地管理和使用 AI 代理進行編程工作。"
+      "title": "Splitt",
+      "url": "https://www.producthunt.com/products/splitt-3",
+      "published": "2026-04-15T02:23:22-07:00",
+      "author": "Zack P",
+      "tagline": "Track your workout from your lock screen and Dynamic Island",
+      "summary_zh": "可從 iPhone 鎖定畫面與 Dynamic Island 直接追蹤運動訓練數據的健身記錄工具，適合需要快速記錄的健身愛好者。"
     },
     {
-      "title": "Google Chrome Skills",
-      "url": "https://www.producthunt.com/products/google-chrome-skills",
-      "published": "2026-04-14T10:09:07-07:00",
+      "title": "3PL Hub",
+      "url": "https://www.producthunt.com/products/3pl-hub",
+      "published": "2026-04-15T19:55:46-07:00",
+      "author": "Ryan Bennett",
+      "tagline": "Find & compare 3PL fulfillment partners",
+      "summary_zh": "協助電商賣家尋找與比較第三方物流（3PL）履行服務夥伴的搜尋平台。"
+    },
+    {
+      "title": "OpenAI Agents SDK",
+      "url": "https://www.producthunt.com/products/openai",
+      "published": "2026-04-15T23:51:50-07:00",
+      "author": "Zac Zuo",
+      "tagline": "Build production agents with harness and sandbox",
+      "summary_zh": "提供 harness 與 sandbox 環境的開發套件，用於建構可投入生產環境的 AI agents。"
+    },
+    {
+      "title": "Resend CLI 2.0",
+      "url": "https://www.producthunt.com/products/resend",
+      "published": "2026-04-15T15:14:26-07:00",
+      "author": "fmerian",
+      "tagline": "Built for humans, AI agents, and CI/CD pipelines",
+      "summary_zh": "支援人類開發者、AI agents 與 CI/CD 流程使用的命令列介面工具，用於管理 Resend 電子郵件服務。"
+    },
+    {
+      "title": "ClawTab",
+      "url": "https://www.producthunt.com/products/clawtab",
+      "published": "2026-04-15T02:34:16-07:00",
+      "author": "Tõnis Tiganik",
+      "tagline": "Desktop app to manage 20+ AI coding agents at once",
+      "summary_zh": "桌面應用程式，可同時管理與切換超過 20 個 AI 程式碼生成助理，適合需要整合多種 coding agents 的開發者。"
+    },
+    {
+      "title": "Subagents in Gemini CLI",
+      "url": "https://www.producthunt.com/products/google",
+      "published": "2026-04-15T13:06:05-07:00",
       "author": "Rohan Chaubey",
-      "tagline": "Turn your best AI prompts into one-click tools in Chrome",
-      "summary_zh": "將常用的 AI 提示詞轉換為 Chrome 瀏覽器中的一鍵工具，讓使用者快速執行重複性的 AI 任務。"
-    },
-    {
-      "title": "Subspace",
-      "url": "https://www.producthunt.com/products/subspace-4",
-      "published": "2026-04-14T18:53:00-07:00",
-      "author": "Joe Fernandez",
-      "tagline": "All your Agents in one app and persistent context",
-      "summary_zh": "集中管理所有 AI Agent 的應用程式，提供持久化的上下文記憶功能，適合需要同時使用多個 AI 代理的使用者。"
-    },
-    {
-      "title": "Chinilla",
-      "url": "https://www.producthunt.com/products/chinilla",
-      "published": "2026-04-14T20:37:18-07:00",
-      "author": "alex",
-      "tagline": "Design systems, simulate them and watch where they break",
-      "summary_zh": "用於設計和模擬系統的工具，幫助使用者識別系統中的潛在問題和失效點。"
-    },
-    {
-      "title": "Pilot5.ai",
-      "url": "https://www.producthunt.com/products/pilot5-ai",
-      "published": "2026-04-15T14:30:14-07:00",
-      "author": "Thomas Wainstein",
-      "tagline": "Your question, deliberated by 5 frontier AI models",
-      "summary_zh": "同時調用五個前沿 AI 模型來回答問題，提供多角度的分析和討論結果。"
-    },
-    {
-      "title": "TaskShell",
-      "url": "https://www.producthunt.com/products/taskshell",
-      "published": "2026-04-15T23:48:10-07:00",
-      "author": "Fred A.",
-      "tagline": "A terminal/IDE-inspired task manager that keeps you in flow",
-      "summary_zh": "採用終端機和 IDE 風格介面的任務管理工具，專為需要保持專注工作流程的開發者設計。"
+      "tagline": "Gemini CLI now runs specialist subagents in your terminal",
+      "summary_zh": "Gemini CLI 現支援在終端機內執行專業子代理（subagents），強化命令列環境中的 AI 協作能力。"
     }
   ]
 }
