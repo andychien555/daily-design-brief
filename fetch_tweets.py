@@ -44,7 +44,7 @@ SEARCH_QUERIES = [
         "min_likes": 100,
     },
 ]
-SINCE_DAYS = 3
+SINCE_DAYS = 2
 
 
 def search_tweets(query: str, min_likes: int, max_rows: int = 30, since_date: str | None = None) -> list[dict]:
