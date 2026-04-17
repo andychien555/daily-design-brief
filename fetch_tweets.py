@@ -58,6 +58,11 @@ SEARCH_QUERIES = [
         "query": "vibe coding",
         "min_likes": 100,
     },
+    {
+        "label": "Growth",
+        "query": "growth",
+        "min_likes": 100,
+    },
 ]
 SINCE_DAYS = 2
 
