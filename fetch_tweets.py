@@ -24,13 +24,8 @@ HEADERS = {
 # Search queries — product & design topics, last 2 days, likes ≥ 100
 SEARCH_QUERIES = [
     {
-        "label": "Product Design",
-        "query": "product design",
-        "min_likes": 100,
-    },
-    {
-        "label": "UI Design",
-        "query": "UI design",
+        "label": "Design",
+        "query": "design",
         "min_likes": 100,
     },
     {
