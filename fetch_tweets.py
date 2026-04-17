@@ -21,11 +21,26 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 
-# Search queries — product & design topics, last 3 days, likes ≥ 100
+# Search queries — product & design topics, last 2 days, likes ≥ 100
 SEARCH_QUERIES = [
     {
         "label": "Product Design",
         "query": "product design",
+        "min_likes": 100,
+    },
+    {
+        "label": "UI Design",
+        "query": "UI design",
+        "min_likes": 100,
+    },
+    {
+        "label": "UX Design",
+        "query": "UX design",
+        "min_likes": 100,
+    },
+    {
+        "label": "UX Research",
+        "query": "UX research",
         "min_likes": 100,
     },
     {
