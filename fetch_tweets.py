@@ -291,7 +291,8 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
         "- 1-2 句繁體中文，聚焦核心觀點/takeaway\n"
         "- 若是引用/回覆，摘要要清楚交代「原 po 在說什麼」「這則怎麼回應」\n"
         "- 若有 top_replies 且內容值得，一句話帶上「討論中 XX 觀點也被提出」這類統整\n"
-        "- 不要描述作者身分或互動數；語氣平實專業，避免行銷語\n\n"
+        "- 不要描述作者身分或互動數；語氣平實專業，避免行銷語\n"
+        "- ⚠️ 若該推文的 text 欄位旁已有 summary_zh（快取），直接沿用，不要改寫\n\n"
         '【輸出】只輸出 JSON 陣列（不要 markdown code block、不要其他文字），'
         '格式：[{"id": "...", "summary_zh": "..."}]，順序即為最終排名。\n\n'
         f"候選推文：\n{json.dumps(items, ensure_ascii=False)}"
@@ -328,6 +329,51 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
         print(f"  [warn] Claude curation failed: {e} — using fallback")
         return fallback
 
+import re
+from pathlib import Path
+
+BRIEFS_DIR = Path("briefs")
+
+def load_summaries_from_md(since_days: int = 7) -> dict[str, str]:
+    """Scan recent briefs/*.md files for tweet IDs and their cached summaries.
+    Returns {tweet_id: summary_zh}."""
+    cache: dict[str, str] = {}
+    cutoff = (datetime.now(timezone(timedelta(hours=8))) - timedelta(days=since_days)).strftime("%Y-%m-%d")
+    if not BRIEFS_DIR.exists():
+        return cache
+    for md in sorted(BRIEFS_DIR.glob("*.md"), reverse=True):
+        date_part = md.stem
+        if date_part < cutoff:
+            break
+        try:
+            content = md.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        current_id = None
+        current_summary = None
+        for line in content.splitlines():
+            id_match = re.match(r"<!-- tweet_id: (.+) -->", line)
+            if id_match:
+                if current_id and current_summary:
+                    cache.setdefault(current_id, current_summary)
+                current_id = id_match.group(1)
+                current_summary = None
+            elif current_id and line.startswith("> ") and current_summary is None:
+                current_summary = line[2:].strip()
+        if current_id and current_summary:
+            cache.setdefault(current_id, current_summary)
+    return cache
+
+def apply_md_cache(tweets: list[dict], cache: dict[str, str]) -> int:
+    """Pre-fill summary_zh from MD cache. Returns count of cache hits."""
+    hits = 0
+    for t in tweets:
+        cached = cache.get(t["id"])
+        if cached:
+            t["summary_zh"] = cached
+            hits += 1
+    return hits
+
 def main():
     tz_taipei = timezone(timedelta(hours=8))
     now = datetime.now(tz_taipei)
@@ -336,6 +382,9 @@ def main():
 
     since_date = (now - timedelta(days=SINCE_DAYS)).strftime("%Y-%m-%d")
     print(f"📰 Fetching tweets since {since_date} for {date_str} ...")
+
+    md_cache = load_summaries_from_md(since_days=SINCE_DAYS + 2)
+    print(f"  📦 MD cache loaded: {len(md_cache)} summaries from briefs/")
 
     pool = []
     for cfg in SEARCH_QUERIES:
@@ -354,7 +403,8 @@ def main():
 
     candidate_cap = max(TOP_N * 3, 30)
     candidates = sorted(unique, key=score, reverse=True)[:candidate_cap]
-    print(f"  🏆 Pool: {len(pool)} → unique: {len(unique)} → Claude candidates: {len(candidates)}")
+    hits = apply_md_cache(candidates, md_cache)
+    print(f"  🏆 Pool: {len(pool)} → unique: {len(unique)} → Claude candidates: {len(candidates)} ({hits} cached)")
 
     enrich_limit = min(len(candidates), 15)
     print(f"  🧵 Enriching top {enrich_limit} candidates with quote/reply context ...")

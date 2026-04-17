@@ -1,9 +1,12 @@
 name: Daily Design Brief
 
 on:
-  # 台灣時間 09:00 = UTC 01:00
+  # 台灣時間 09:00/05/10/15 = UTC 01:00/05/10/15（重試機制）
   schedule:
     - cron: "0 1 * * *"
+    - cron: "5 1 * * *"
+    - cron: "10 1 * * *"
+    - cron: "15 1 * * *"
 
   # 也可以手動觸發（測試用）
   workflow_dispatch:
@@ -26,31 +29,53 @@ jobs:
       - name: Install dependencies
         run: pip install httpx==0.28.1 anthropic==0.92.0
 
+      - name: Check if already ran today
+        id: dedup
+        run: |
+          TODAY=$(TZ=Asia/Taipei date +%Y-%m-%d)
+          EXISTING=$(python3 -c "import json; print(json.load(open('data.json')).get('date',''))" 2>/dev/null || echo "")
+          if [ "$TODAY" = "$EXISTING" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "Already generated for $TODAY, skipping"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Fetch tweets
+        if: steps.dedup.outputs.skip != 'true'
         env:
           TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python fetch_tweets.py
 
       - name: Fetch Product Hunt launches
+        if: steps.dedup.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python fetch_producthunt.py
 
       - name: Generate index.html
+        if: steps.dedup.outputs.skip != 'true'
         run: python generate_html.py
 
       - name: Save daily archive copy
+        if: steps.dedup.outputs.skip != 'true'
         run: |
           mkdir -p briefs
           DATE=$(python -c "import json; d=json.load(open('data.json')); print(d['date'])")
           cp index.html "briefs/${DATE}.html"
           echo "Saved briefs/${DATE}.html"
 
+      - name: Generate daily markdown
+        if: steps.dedup.outputs.skip != 'true'
+        run: python generate_md.py
+
       - name: Generate archive page
+        if: steps.dedup.outputs.skip != 'true'
         run: python generate_archive.py
 
       - name: Commit and push
+        if: steps.dedup.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
