@@ -447,6 +447,8 @@ def generate(data: dict) -> str:
     /* ─────────────── Criteria Modal ─────────────── */
     .criteria-modal {{
       padding: 0;
+      margin: auto;
+      inset: 0;
       border: 1px solid var(--rule-2);
       background: var(--paper-2);
       color: var(--ink-2);
