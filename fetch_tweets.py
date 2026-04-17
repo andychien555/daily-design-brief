@@ -49,8 +49,8 @@ SEARCH_QUERIES = [
         "min_likes": 100,
     },
     {
-        "label": "AI Tool",
-        "query": "AI tool",
+        "label": "AI Product",
+        "query": "AI product",
         "min_likes": 100,
     },
     {
