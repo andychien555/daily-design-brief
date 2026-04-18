@@ -14,9 +14,12 @@ import httpx
 from datetime import datetime, timezone, timedelta
 from xml.etree import ElementTree as ET
 
-RSS_URL = "https://www.producthunt.com/feed"
-TOP_N = 6
-WINDOW_DAYS = 2  # include products published within this window
+from config import (
+    PRODUCTS_TOP_N as TOP_N,
+    PRODUCTS_WINDOW_DAYS as WINDOW_DAYS,
+    PRODUCTS_RSS_URL as RSS_URL,
+)
+
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 NS = {"a": "http://www.w3.org/2005/Atom"}
 

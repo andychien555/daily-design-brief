@@ -11,55 +11,21 @@ import json
 import httpx
 from datetime import datetime, timezone, timedelta
 
+from config import (
+    SEARCH_QUERIES,
+    TWEETS_TOP_N as TOP_N,
+    TWEETS_SINCE_DAYS as SINCE_DAYS,
+    TWEETS_API_BASE_DEFAULT,
+)
+
 TWITTER_TOKEN = os.environ["TWITTER_TOKEN"]
-API_BASE = os.environ.get("TWITTER_API_BASE", "https://ai.6551.io")
+API_BASE = os.environ.get("TWITTER_API_BASE", TWEETS_API_BASE_DEFAULT)
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
-TOP_N = 10
 
 HEADERS = {
     "Authorization": f"Bearer {TWITTER_TOKEN}",
     "Content-Type": "application/json",
 }
-
-# Search queries — product & design topics, last 2 days, likes ≥ 100
-SEARCH_QUERIES = [
-    {
-        "label": "Design",
-        "query": "design",
-        "min_likes": 100,
-    },
-    {
-        "label": "UX Design",
-        "query": "UX design",
-        "min_likes": 100,
-    },
-    {
-        "label": "UX Research",
-        "query": "UX research",
-        "min_likes": 100,
-    },
-    {
-        "label": "Product Management",
-        "query": "product management",
-        "min_likes": 100,
-    },
-    {
-        "label": "AI Product",
-        "query": "AI product",
-        "min_likes": 100,
-    },
-    {
-        "label": "Vibe Coding",
-        "query": "vibe coding",
-        "min_likes": 100,
-    },
-    {
-        "label": "Growth",
-        "query": "growth",
-        "min_likes": 100,
-    },
-]
-SINCE_DAYS = 2
 
 
 def search_tweets(query: str, min_likes: int, max_rows: int = 30, since_date: str | None = None) -> list[dict]:

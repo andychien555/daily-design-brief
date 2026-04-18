@@ -45,7 +45,7 @@ Actions → Daily Design Brief → Run workflow
 
 ## 自訂搜尋主題
 
-編輯 `fetch_tweets.py` 裡的 `SEARCH_QUERIES`：
+編輯 `config.py` 裡的 `SEARCH_QUERIES`（同檔還可調整 `TWEETS_TOP_N`、`TWEETS_SINCE_DAYS`、`PRODUCTS_TOP_N`、`PRODUCTS_WINDOW_DAYS` 等常數）：
 
 ```python
 SEARCH_QUERIES = [
