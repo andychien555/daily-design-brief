@@ -16,6 +16,78 @@ def load_data() -> dict:
         return json.load(f)
 
 
+def load_archive() -> list:
+    p = Path("archive.json")
+    if not p.exists():
+        return []
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+
+
+def archive_rail_html(active_date: str, base_path: str = "") -> str:
+    """Sidebar shell; items populated client-side from archive.json so every
+    page (index + historical briefs) stays in sync with the latest archive."""
+    return f"""
+    <aside class="archive-rail" aria-label="歷史存檔"
+           data-active="{esc(active_date)}" data-base="{esc(base_path)}">
+      <div class="rail-heading"><span>Archive</span></div>
+      <nav class="rail-list"><div class="rail-loading">載入中…</div></nav>
+    </aside>"""
+
+
+ARCHIVE_RAIL_SCRIPT = """
+<script>
+(function() {
+  var aside = document.querySelector('.archive-rail');
+  if (!aside) return;
+  var base = aside.dataset.base || '';
+  var active = aside.dataset.active || '';
+  var list = aside.querySelector('.rail-list');
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+  function pad3(n) { return ('000' + n).slice(-3); }
+  fetch(base + 'archive.json', { cache: 'no-cache' })
+    .then(function(r) { return r.json(); })
+    .then(function(archive) {
+      if (!Array.isArray(archive) || !archive.length) {
+        list.innerHTML = '<div class=\"rail-loading\">尚無存檔</div>';
+        return;
+      }
+      var latest = archive[0].date;
+      var sortedDates = archive.map(function(e) { return e.date; }).sort();
+      var rank = {};
+      sortedDates.forEach(function(d, i) { rank[d] = i + 1; });
+      var html = archive.map(function(e) {
+        var no = rank[e.date] || 1;
+        var total = (e.total != null) ? e.total : '?';
+        var headline = e.headline || ((e.sources || []).join(' · ')) || '—';
+        var isActive = e.date === active;
+        var href;
+        if (e.date === latest) href = base + 'index.html';
+        else if (base) href = e.date + '.html';
+        else href = 'briefs/' + e.date + '.html';
+        return '<a class=\"rail-item' + (isActive ? ' rail-item-current' : '') + '\" href=\"' + href + '\">' +
+          '<div class=\"rail-meta\"><span>№' + pad3(no) + '</span><span>' + esc(total) + ' 篇</span></div>' +
+          '<div class=\"rail-headline\">' + esc(headline) + '</div>' +
+          '<div class=\"rail-date\">' + esc(e.date_display) + '</div>' +
+          '</a>';
+      }).join('');
+      list.innerHTML = html;
+    })
+    .catch(function(err) {
+      list.innerHTML = '<div class=\"rail-loading\">載入失敗</div>';
+      console.error('archive load failed', err);
+    });
+})();
+</script>
+"""
+
+
 def esc(s: str) -> str:
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -28,14 +100,21 @@ def fmt_num(n: int) -> str:
     return str(n)
 
 
-def issue_number(date_str: str) -> int:
-    """Stable issue number derived from date — anchored at 2025-01-01 = №001."""
+def issue_number(date_str: str, archive=None) -> int:
+    """Issue number = rank of date in chronological publication order.
+
+    If an archive list is supplied, use it as the source of truth for past dates,
+    and ensure ``date_str`` itself is counted (even if not yet persisted).
+    Without archive, falls back to 1.
+    """
+    dates = set()
+    if archive:
+        dates.update(e["date"] for e in archive if e.get("date"))
+    dates.add(date_str)
+    ordered = sorted(dates)
     try:
-        anchor = datetime(2025, 1, 1).date()
-        d = datetime.strptime(date_str, "%Y-%m-%d").date()
-        delta = (d - anchor).days
-        return max(1, delta + 1)
-    except Exception:
+        return ordered.index(date_str) + 1
+    except ValueError:
         return 1
 
 
@@ -232,13 +311,14 @@ def criteria_block(criteria: dict) -> str:
 </dialog>"""
 
 
-def generate(data: dict) -> str:
+def generate(data: dict, archive=None, base_path: str = "") -> str:
     date_display = data["date_display"]
     top_tweets = data.get("top_tweets") or []
     total = len(top_tweets)
-    issue_no = issue_number(data["date"])
+    issue_no = issue_number(data["date"], archive or [])
     wkd = weekday_zh(data["date"])
     gen_at = data["generated_at"][:16].replace("T", " ")
+    rail_html = archive_rail_html(data["date"], base_path)
 
     if total == 0:
         body_html = empty_state()
@@ -282,20 +362,20 @@ def generate(data: dict) -> str:
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
 
     :root {{
-      --paper:    #100d0a;
-      --paper-2:  #181410;
-      --paper-3:  #1f1a14;
+      --paper:    #1e1915;
+      --paper-2:  #26201a;
+      --paper-3:  #2e2721;
       --ink:      #f2ecdf;
       --ink-2:    #cbc1ad;
       --ink-3:    #8a7f6c;
-      --rule:     #2a231c;
-      --rule-2:   #3a3025;
+      --rule:     #3a3127;
+      --rule-2:   #4a3f32;
       --accent:   #ff5722;
       --accent-2: #f6b94a;
       --sage:     #87a07a;
       --grain-blend: screen;
-      --grain-opacity: .035;
-      --backdrop: rgba(16, 13, 10, .72);
+      --grain-opacity: .03;
+      --backdrop: rgba(30, 25, 21, .78);
 
       --serif: 'Fraunces', 'DM Serif Display', Georgia, serif;
       --sans:  'Inter', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
@@ -347,6 +427,109 @@ def generate(data: dict) -> str:
     body > * {{ position: relative; z-index: 1; }}
 
     a {{ color: inherit; text-decoration: none; }}
+
+    /* ─────────────── Page shell + Archive rail ─────────────── */
+    .page-shell {{
+      display: grid;
+      grid-template-columns: 240px minmax(0, 1fr);
+      align-items: start;
+    }}
+    .page-main {{ min-width: 0; }}
+
+    .archive-rail {{
+      position: sticky;
+      top: 0;
+      max-height: 100vh;
+      overflow-y: auto;
+      border-right: 1px solid var(--rule);
+      padding: 2.25rem 1.25rem 2rem 1.5rem;
+      font-size: .78rem;
+    }}
+    .archive-rail::-webkit-scrollbar {{ width: 6px; }}
+    .archive-rail::-webkit-scrollbar-track {{ background: transparent; }}
+    .archive-rail::-webkit-scrollbar-thumb {{ background: var(--rule); border-radius: 3px; }}
+
+    .rail-heading {{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-family: var(--mono);
+      font-size: .58rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      margin-bottom: 1.1rem;
+    }}
+    .rail-heading a {{
+      color: var(--ink-3);
+      transition: color .15s;
+    }}
+    .rail-heading a:hover {{ color: var(--accent); }}
+
+    .rail-list {{ display: flex; flex-direction: column; }}
+    .rail-loading {{
+      padding: .5rem 0;
+      font-family: var(--mono);
+      font-size: .6rem;
+      letter-spacing: .1em;
+      color: var(--ink-3);
+    }}
+
+    .rail-item {{
+      display: block;
+      padding: .7rem 0 .8rem;
+      border-top: 1px solid var(--rule);
+      opacity: .72;
+      transition: opacity .15s;
+    }}
+    .rail-item:first-child {{ border-top: none; padding-top: 0; }}
+    .rail-item:hover {{ opacity: 1; }}
+    .rail-item-current {{ opacity: 1; }}
+    .rail-item-current .rail-headline {{ color: var(--ink); }}
+    .rail-item-current .rail-meta span:first-child {{ color: var(--accent); }}
+
+    .rail-meta {{
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--mono);
+      font-size: .58rem;
+      letter-spacing: .1em;
+      color: var(--ink-3);
+      margin-bottom: .35rem;
+    }}
+
+    .rail-headline {{
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: .82rem;
+      line-height: 1.35;
+      color: var(--ink-2);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-variation-settings: 'opsz' 18, 'SOFT' 30;
+      margin-bottom: .3rem;
+    }}
+    .rail-item:hover .rail-headline {{ color: var(--ink); }}
+
+    .rail-date {{
+      font-family: var(--mono);
+      font-size: .58rem;
+      color: var(--ink-3);
+      letter-spacing: .06em;
+    }}
+
+    @media (max-width: 980px) {{
+      .page-shell {{ grid-template-columns: 1fr; }}
+      .archive-rail {{
+        position: static;
+        max-height: none;
+        border-right: none;
+        border-bottom: 1px solid var(--rule);
+        padding: 1.25rem 1.5rem;
+      }}
+    }}
 
     /* ─────────────── Masthead ─────────────── */
     .masthead {{
@@ -1059,7 +1242,9 @@ def generate(data: dict) -> str:
   </style>
 </head>
 <body>
-
+<div class="page-shell">
+  {rail_html}
+  <div class="page-main">
 <header class="masthead">
   <div class="masthead-row">
     <div class="meta-left">№{issue_no:03d}</div>
@@ -1075,7 +1260,6 @@ def generate(data: dict) -> str:
     <span>Today's Brief</span>
     <span class="sep"></span>
     {'<button type="button" class="topbar-link" onclick="document.getElementById(&quot;criteria-modal&quot;).showModal()">編輯方針</button>' if criteria_html else ''}
-    <a href="archive.html">歷史存檔 / Archive →</a>
     <button type="button" class="theme-toggle" aria-label="切換主題" onclick="toggleTheme()"><span class="theme-icon">☾</span></button>
   </div>
 
@@ -1117,17 +1301,25 @@ def generate(data: dict) -> str:
     Updated {gen_at}
   </div>
 </footer>
-
+  </div>
+</div>
+{ARCHIVE_RAIL_SCRIPT}
 </body>
 </html>"""
 
 
 def main():
     data = load_data()
-    html = generate(data)
+    archive = load_archive()
 
-    Path("index.html").write_text(html, encoding="utf-8")
+    Path("index.html").write_text(generate(data, archive), encoding="utf-8")
     print(f"OK index.html generated for {data['date']}")
+
+    briefs_dir = Path("briefs")
+    briefs_dir.mkdir(exist_ok=True)
+    brief_path = briefs_dir / f"{data['date']}.html"
+    brief_path.write_text(generate(data, archive, base_path="../"), encoding="utf-8")
+    print(f"OK {brief_path} generated")
 
     # Also append to archive.json for history page
     archive_path = Path("archive.json")
@@ -1140,12 +1332,16 @@ def main():
 
     top = data.get("top_tweets") or []
     sources = sorted({t.get("source", "") for t in top if t.get("source")})
+    headline = ""
+    if top:
+        headline = top[0].get("summary_zh") or top[0].get("text") or ""
     entry = {
         "date": data["date"],
         "date_display": data["date_display"],
         "generated_at": data["generated_at"],
         "total": len(top),
         "sources": sources,
+        "headline": headline,
     }
 
     # Replace or prepend

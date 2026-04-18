@@ -9,7 +9,8 @@
       "Design",
       "UX Design",
       "Vibe Coding"
-    ]
+    ],
+    "headline": "Anthropic 推出 Claude Design 讓使用者透過對話製作原型、簡報與文件，作者認為這對 Figma 這個 100 億美元的設計工具壟斷者構成威脅。此推文引發大量討論，反映設計工具市場正面臨 AI 帶來的典範轉移。"
   },
   {
     "date": "2026-04-17",
@@ -19,7 +20,8 @@
     "sources": [
       "AI Product",
       "Vibe Coding"
-    ]
+    ],
+    "headline": "回應「週末就能 vibe coding 做出來」的論調，指出現實中 90% 以上程式碼是在維護和遷移既有的複雜系統，vibe coding 只適合剩下的 10%；原推文也強調品質與深度系統仍需時間累積，無法速成。"
   },
   {
     "date": "2026-04-16",
@@ -31,6 +33,7 @@
       "Product Design",
       "Product Management",
       "Vibe Coding"
-    ]
+    ],
+    "headline": "隨著 AI agent 加速編碼過程，軟體工程的未來將面臨「產品管理瓶頸」：我們更受限於決定該做什麼，而非實際建造本身。"
   }
 ]
