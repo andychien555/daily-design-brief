@@ -28,19 +28,27 @@ HEADERS = {
 }
 
 
-def search_tweets(query: str, min_likes: int, max_rows: int = 30, since_date: str | None = None) -> list[dict]:
+def search_tweets(
+    query: str,
+    min_likes: int,
+    max_rows: int = 30,
+    since_date: str | None = None,
+    product: str | None = None,
+) -> list[dict]:
     """Call 6551.io /open/twitter_search endpoint.
 
-    Uses 'Latest' product when since_date is given so we get recent tweets
-    in the window (Top would return all-time popular, which conflicts with
-    a recent date filter and returns nothing).
+    When `product` is omitted, defaults to 'Latest' with a sinceDate and 'Top'
+    otherwise. Callers can pass product explicitly (e.g. 'Top' alongside a
+    sinceDate) to broaden the pool to high-engagement tweets from the window.
     """
     url = f"{API_BASE}/open/twitter_search"
+    if product is None:
+        product = "Latest" if since_date else "Top"
     payload = {
         "keywords": query,
         "minLikes": min_likes,
         "maxResults": max_rows,
-        "product": "Latest" if since_date else "Top",
+        "product": product,
         "lang": "en",
         "excludeReplies": True,
         "excludeRetweets": True,
@@ -393,9 +401,19 @@ def main():
     pool = []
     for cfg in SEARCH_QUERIES:
         print(f"  🔍 {cfg['label']}: {cfg['query']}")
-        raw = search_tweets(cfg["query"], cfg["min_likes"], max_rows=20, since_date=since_date)
+        # Two passes: 'Latest' gets recency, 'Top' catches high-engagement tweets
+        # that would otherwise fall off the tail of a time-sorted list.
+        raw_latest = search_tweets(
+            cfg["query"], cfg["min_likes"], max_rows=50,
+            since_date=since_date, product="Latest",
+        )
+        raw_top = search_tweets(
+            cfg["query"], cfg["min_likes"], max_rows=50,
+            since_date=since_date, product="Top",
+        )
+        raw = raw_latest + raw_top
         normalized = [normalize(t, source=cfg["label"]) for t in raw]
-        print(f"     → {len(normalized)} candidates")
+        print(f"     → {len(raw_latest)} latest + {len(raw_top)} top = {len(normalized)} candidates")
         pool.extend(normalized)
 
     seen_ids = set()
