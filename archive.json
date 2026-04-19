@@ -2,15 +2,15 @@
   {
     "date": "2026-04-19",
     "date_display": "2026 年 04 月 19 日",
-    "generated_at": "2026-04-19T18:29:19.924880+08:00",
+    "generated_at": "2026-04-19T18:32:40.169508+08:00",
     "total": 10,
     "sources": [
-      "AI Product",
+      "Anthropic",
+      "Claude Design",
       "Design",
-      "Product Management",
-      "UX Design"
+      "Vibe Coding"
     ],
-    "headline": "Anthropic 推出 Claude Design，讓使用者透過對話即可製作原型、簡報與文件，由 Claude Opus 4.7 視覺模型驅動，目前對 Pro 以上方案開放研究預覽。"
+    "headline": "Anthropic 推出 Claude Design，可透過對話生成原型、簡報與文件，由最強視覺模型 Opus 4.7 驅動，現於 Pro 以上方案逐步開放。此功能引發業界對 Figma、Adobe 等設計工具的衝擊討論。"
   },
   {
     "date": "2026-04-18",

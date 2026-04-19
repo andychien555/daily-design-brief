@@ -1,7 +1,7 @@
 {
   "date": "2026-04-19",
   "date_display": "2026 年 04 月 19 日",
-  "generated_at": "2026-04-19T18:29:19.924880+08:00",
+  "generated_at": "2026-04-19T18:32:40.169508+08:00",
   "since_date": "2026-04-17",
   "top_tweets": [
     {
@@ -9,13 +9,13 @@
       "text": "Introducing Claude Design by Anthropic Labs: make prototypes, slides, and one-pagers by talking to Claude.\n\nPowered by Claude Opus 4.7, our most capable vision model. Available in research preview on the Pro, Max, Team, and Enterprise plans, rolling out throughout the day. https://t.co/2BgBGtgYGX",
       "author": "claudeai",
       "name": "Claude",
-      "likes": 144344,
-      "retweets": 14621,
-      "replies": 3914,
+      "likes": 144358,
+      "retweets": 14627,
+      "replies": 3915,
       "created": "Fri Apr 17 15:03:46 +0000 2026",
       "url": "https://x.com/claudeai/status/2045156267690213649",
       "source": "Design",
-      "summary_zh": "Anthropic 推出 Claude Design，讓使用者透過對話即可製作原型、簡報與文件，由 Claude Opus 4.7 視覺模型驅動，目前對 Pro 以上方案開放研究預覽。",
+      "summary_zh": "Anthropic 推出 Claude Design，可透過對話生成原型、簡報與文件，由最強視覺模型 Opus 4.7 驅動，現於 Pro 以上方案逐步開放。此功能引發業界對 Figma、Adobe 等設計工具的衝擊討論。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -25,17 +25,17 @@
       }
     },
     {
-      "id": "2045391282680529134",
-      "text": "honest question. if everyone’s using AI for design, won’t things start to look the same after a point?",
-      "author": "Ahmedcreatives",
-      "name": "Ahmed",
-      "likes": 2017,
-      "retweets": 71,
-      "replies": 605,
-      "created": "Sat Apr 18 06:37:37 +0000 2026",
-      "url": "https://x.com/Ahmedcreatives/status/2045391282680529134",
-      "source": "Design",
-      "summary_zh": "提問：當所有人都用 AI 做設計時，產出的東西是否會逐漸趨同？引發對 AI 設計工具長期影響的討論。",
+      "id": "2045162321589252458",
+      "text": "🧵 My tips for getting the best results out of Claude Design! I’m on the verticals team at Anthropic which means I serve 7 different products. Claude Design makes it possible!\n1. Set up your design system and your core screens. An hour of setup and refinement here is worth it",
+      "author": "Flomerboy",
+      "name": "Ryan Mather",
+      "likes": 8424,
+      "retweets": 649,
+      "replies": 173,
+      "created": "Fri Apr 17 15:27:49 +0000 2026",
+      "url": "https://x.com/Flomerboy/status/2045162321589252458",
+      "source": "Anthropic",
+      "summary_zh": "Anthropic 垂直團隊成員分享 Claude Design 使用技巧：前期花一小時建立設計系統與核心畫面，後續效率提升極大。適合需要同時服務多個產品的設計團隊。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -45,69 +45,30 @@
       }
     },
     {
-      "id": "2045583397003866540",
-      "text": "product management tip: ragebaiting your user base/player base by making inaccurate claims about the quality of your systems is an incredibly fast way of identifying current problems with your software that you can then prioritize fixes for\n\neasily the top reason I’m on here",
-      "author": "drewlevin",
-      "name": "Drew Levin",
-      "likes": 1698,
-      "retweets": 25,
-      "replies": 73,
-      "created": "Sat Apr 18 19:21:01 +0000 2026",
-      "url": "https://x.com/drewlevin/status/2045583397003866540",
-      "source": "Product Management",
-      "summary_zh": "產品管理技巧：透過刻意發布「不精確的系統品質聲明」激怒用戶，能快速辨識出產品當前問題並排定修復優先序。作者表示這是他使用社群媒體的主要原因。"
-    },
-    {
-      "id": "2045569489077711289",
-      "text": "The AI debate is difficult because one side views art as a product to be delivered as fast as possible. \n\nIt's like going to a lake and telling fisherman that it's \"more efficient\" to buy fish from the grocery store. They aren't just there for the fish.",
-      "author": "sean_gause",
-      "name": "Sean // Hear Tell of Hauntings🥀",
-      "likes": 1565,
-      "retweets": 181,
-      "replies": 46,
-      "created": "Sat Apr 18 18:25:45 +0000 2026",
-      "url": "https://x.com/sean_gause/status/2045569489077711289",
-      "source": "AI Product",
-      "summary_zh": "AI 辯論的核心分歧在於一方將創作視為「需盡快交付的產品」，就像告訴釣魚者「去超市買魚更有效率」——忽略了過程本身的價值。"
-    },
-    {
-      "id": "2045465422690967637",
-      "text": "Anthropic's Chief Product Officer sat on Figma's board.\n\nFigma integrated Claude as their AI assistant.\n\nOn Monday he resigned from Figma. \n\nThe same day, reports surfaced that Anthropic was building design tools.\n\nYesterday Anthropic launched Claude Design.\n\nA direct Figma",
-      "author": "TheGeorgePu",
-      "name": "George Pu",
-      "likes": 1392,
-      "retweets": 163,
-      "replies": 106,
-      "created": "Sat Apr 18 11:32:14 +0000 2026",
-      "url": "https://x.com/TheGeorgePu/status/2045465422690967637",
-      "source": "AI Product",
-      "summary_zh": "Anthropic 首席產品長曾任 Figma 董事，週一辭職當天傳出 Anthropic 正開發設計工具，隔日即發布 Claude Design，時間點引發對競業關係的討論。"
-    },
-    {
-      "id": "2045565393117610222",
-      "text": "there are likely ~100 ppl alive today that deeply understand all of these together: product instinct, what makes good software, design, technical depth, a real model of ai, the psychology of a single user, the shape of culture, team building, the ability to motivate, &amp; the",
-      "author": "signulll",
-      "name": "signüll",
-      "likes": 1698,
-      "retweets": 105,
-      "replies": 89,
-      "created": "Sat Apr 18 18:09:29 +0000 2026",
-      "url": "https://x.com/signulll/status/2045565393117610222",
-      "source": "AI Product",
-      "summary_zh": "全球真正同時深度理解產品直覺、軟體品質、設計、技術深度、AI 模型、使用者心理、文化形態、團隊建立與激勵能力的人可能不到 100 位。"
+      "id": "2045074941712945592",
+      "text": "&gt; be anthropic\n&gt; ship opus 4.6. most powerful model on earth.\n&gt; still unprofitable.\n&gt; notice 98% of users are bad prompters.\n&gt; notice 4.6 silently fixes their prompts anyway. for free.\n&gt; ship opus 4.7. market it as \"more powerful.\" (it is)\n&gt; also: it stops fixing your prompts.\n&gt; https://t.co/scNUstGjqb",
+      "author": "the_smart_ape",
+      "name": "The Smart Ape 🔥",
+      "likes": 2349,
+      "retweets": 95,
+      "replies": 59,
+      "created": "Fri Apr 17 09:40:36 +0000 2026",
+      "url": "https://x.com/the_smart_ape/status/2045074941712945592",
+      "source": "Anthropic",
+      "summary_zh": "觀察指出 Opus 4.6 會自動修正使用者的爛 prompt，但 4.7 刻意取消這功能，迫使使用者學習更精準的提示工程，反映 Anthropic 在商業化與使用者教育間的策略轉向。"
     },
     {
       "id": "2045163029138948493",
       "text": "Introducing our new collaboration with Anthropic: Canva is now in Claude Design! Generate ideas in Claude. Edit in Canva. No friction. No starting from scratch. \nhttps://t.co/f220BR4AZk https://t.co/tLHHLd1rO3",
       "author": "canva",
       "name": "Canva",
-      "likes": 10026,
+      "likes": 10028,
       "retweets": 1203,
       "replies": 230,
       "created": "Fri Apr 17 15:30:38 +0000 2026",
       "url": "https://x.com/canva/status/2045163029138948493",
       "source": "Design",
-      "summary_zh": "Canva 與 Anthropic 合作，現已整合進 Claude Design；使用者可在 Claude 生成創意後直接在 Canva 編輯，無需從零開始。",
+      "summary_zh": "Canva 與 Anthropic 合作，讓 Claude Design 產出的內容可直接匯入 Canva 編輯，降低從 AI 生成到實際設計工具的轉換摩擦。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -117,17 +78,17 @@
       }
     },
     {
-      "id": "2045231921106673676",
-      "text": "Design, edit, animate. @cavalry__app is now completely free with your Canva account 🎉 Motion has become a core part of modern brand work, and now you've got photo editing, vector design, layout, and 2D animation all under one roof with one login. https://t.co/om5rqVyMbr",
-      "author": "Affinity",
-      "name": "Affinity",
-      "likes": 3376,
-      "retweets": 432,
-      "replies": 56,
-      "created": "Fri Apr 17 20:04:23 +0000 2026",
-      "url": "https://x.com/Affinity/status/2045231921106673676",
-      "source": "Design",
-      "summary_zh": "Affinity 宣布 2D 動畫工具 Cavalry 現已完全免費提供給 Canva 帳戶用戶，讓照片編輯、向量設計、排版與動畫整合在單一平台。",
+      "id": "2045277786005197228",
+      "text": "Anthropic pays engineers $750,000+ a year to understand how LLMs work.\n\nStanford just put a 2 hour lecture that covers 80% of it for FREE.\n\nBookmark this. Give it 2 hours today.\n\nIt might be the highest ROI thing you do this month: https://t.co/ezQQt3Q73J",
+      "author": "EvanLuthra",
+      "name": "Evan Luthra",
+      "likes": 19985,
+      "retweets": 2969,
+      "replies": 210,
+      "created": "Fri Apr 17 23:06:38 +0000 2026",
+      "url": "https://x.com/EvanLuthra/status/2045277786005197228",
+      "source": "Anthropic",
+      "summary_zh": "史丹佛開放 2 小時免費 LLM 課程，涵蓋 Anthropic 工程師年薪 75 萬美元所鑽研內容的八成，被推薦為本月投資報酬率最高的學習資源。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -137,17 +98,69 @@
       }
     },
     {
-      "id": "2045181813484884396",
-      "text": "Made this 30 second video of Claude Design just by pasting in the Claude Design blog post and some tweets from @AnthropicAI employees\n\nKinda speechless. https://t.co/9uFxO3LKzf",
-      "author": "petergyang",
-      "name": "Peter Yang",
-      "likes": 2041,
-      "retweets": 92,
-      "replies": 107,
-      "created": "Fri Apr 17 16:45:16 +0000 2026",
-      "url": "https://x.com/petergyang/status/2045181813484884396",
-      "source": "Design",
-      "summary_zh": "作者只貼入 Claude Design 部落格文章與幾則推文，就讓 Claude Design 生成了一支 30 秒介紹影片，對成果感到震撼。",
+      "id": "2045110526015852667",
+      "text": "ANTHROPIC JUST DROPPED A 33-PAGE GUIDE.\n\nThis is the most practical breakdown of Claude Skills I’ve seen.\n\nBookmark this before you forget.\n\n33 pages.\nPersistent instructions.\nNo repetition.\nNo re-explaining every time.\n\nRead it today. Link below.\n\nClaude → Skills → Memory → https://t.co/lHXwrwQWxm",
+      "author": "kirillk_web3",
+      "name": "Kirill",
+      "likes": 4702,
+      "retweets": 443,
+      "replies": 39,
+      "created": "Fri Apr 17 12:02:00 +0000 2026",
+      "url": "https://x.com/kirillk_web3/status/2045110526015852667",
+      "source": "Anthropic",
+      "summary_zh": "Anthropic 釋出 33 頁 Claude Skills 實用指南，說明如何設定持久指令與記憶功能，避免每次對話重複解釋需求，適合需要穩定工作流程的使用者。"
+    },
+    {
+      "id": "2045541438079836253",
+      "text": "This 30-minute speech by the Head of Anthropic \"Coding Agents\" researcher will teach you more about vibe coding than 100 paid courses.\n\nBookmark it &amp; give it 30 minutes today. This video will change the way you use AI forever, https://t.co/2ymJrZwj1W",
+      "author": "0xMovez",
+      "name": "Movez",
+      "likes": 4615,
+      "retweets": 441,
+      "replies": 45,
+      "created": "Sat Apr 18 16:34:17 +0000 2026",
+      "url": "https://x.com/0xMovez/status/2045541438079836253",
+      "source": "Vibe Coding",
+      "summary_zh": "Anthropic「Coding Agents」研究主管 30 分鐘演講，被譽為比百堂付費課程更能改變 AI 使用思維的 vibe coding 教學資源。"
+    },
+    {
+      "id": "2045391185519448574",
+      "text": "alright - verdict is in - Motion Design is solved\n\nmade with HyperFrames + Claude Design\n\nbtw - HyperFrames is open source, star it on github and I'll send tutorial on how i made this with 2 prompts. https://t.co/uYzeIVDvlA",
+      "author": "liu8in",
+      "name": "Bin Liu",
+      "likes": 4048,
+      "retweets": 188,
+      "replies": 65,
+      "created": "Sat Apr 18 06:37:14 +0000 2026",
+      "url": "https://x.com/liu8in/status/2045391185519448574",
+      "source": "Claude Design",
+      "summary_zh": "開發者用 Claude Design 搭配開源工具 HyperFrames，僅兩個 prompt 就完成動態設計作品，認為 Motion Design 已被 AI 解決。"
+    },
+    {
+      "id": "2044960285510053929",
+      "text": "Anthropic now requires new Claude users to verify their identity with a government-issued photo ID and a live selfie \n\nNo law forcing AI companies like this to do full ID checks. This appears to be Anthropic’s own choice\n\nThey are also using Persona for the verification https://t.co/aQfIVSqx8D",
+      "author": "Pirat_Nation",
+      "name": "Pirat_Nation 🔴",
+      "likes": 2672,
+      "retweets": 309,
+      "replies": 192,
+      "created": "Fri Apr 17 02:05:00 +0000 2026",
+      "url": "https://x.com/Pirat_Nation/status/2044960285510053929",
+      "source": "Anthropic",
+      "summary_zh": "Anthropic 開始要求新用戶以政府核發身分證與即時自拍驗證身分，此舉並非法規強制，而是公司自主選擇，引發隱私權與使用門檻的討論。"
+    },
+    {
+      "id": "2045250949216895058",
+      "text": "Anthropic CEO Dario Amodei: “50% of all tech jobs, entry-level lawyers, consultants, and finance professionals will be completely wiped out within 1–5 years.” https://t.co/sXcT59gWYj",
+      "author": "TFTC21",
+      "name": "TFTC",
+      "likes": 5696,
+      "retweets": 1015,
+      "replies": 918,
+      "created": "Fri Apr 17 21:19:59 +0000 2026",
+      "url": "https://x.com/TFTC21/status/2045250949216895058",
+      "source": "Anthropic",
+      "summary_zh": "Anthropic CEO 預測 1-5 年內，50% 的科技入門職位、初階律師、顧問與金融從業人員將被 AI 完全取代，對職涯規劃帶來重大警示。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -155,19 +168,6 @@
         "replied_author": "",
         "top_replies": []
       }
-    },
-    {
-      "id": "2045079382654427580",
-      "text": "Go-to sites to learn UI design for free \n\nMotion → https://t.co/RbDLwod3Sc\nPatterns → https://t.co/ouboc2azmF\nAB Tests → https://t.co/5lc9wNYSAO\nInspiration → https://t.co/vDFl2UpY7e\nBreakdowns → https://t.co/Ox4zbzx3Sf\nUI components → https://t.co/UMuIPdltEA\n\nDid I miss https://t.co/AQpuUpG90H",
-      "author": "UiSavior",
-      "name": "UI/UX Savior",
-      "likes": 842,
-      "retweets": 126,
-      "replies": 2,
-      "created": "Fri Apr 17 09:58:15 +0000 2026",
-      "url": "https://x.com/UiSavior/status/2045079382654427580",
-      "source": "UX Design",
-      "summary_zh": "整理六個免費學習 UI 設計的網站，涵蓋動態效果、設計模式、A/B 測試、靈感來源、拆解分析與 UI 元件資源。"
     }
   ],
   "criteria": {
@@ -206,6 +206,21 @@
         "label": "Growth",
         "query": "growth",
         "min_likes": 100
+      },
+      {
+        "label": "Claude Design",
+        "query": "claude design",
+        "min_likes": 100
+      },
+      {
+        "label": "Anthropic",
+        "query": "anthropic",
+        "min_likes": 100
+      },
+      {
+        "label": "Figma",
+        "query": "figma",
+        "min_likes": 100
       }
     ],
     "since_days": 2,
@@ -230,7 +245,7 @@
       "published": "2026-04-18T18:16:40-07:00",
       "author": "Etai Gabbai",
       "tagline": "A cloud-native AI agent that can build literally anything",
-      "summary_zh": "一個雲端原生 AI 代理工具，可協助開發者自動建構各類軟體專案。"
+      "summary_zh": "一個雲端原生的 AI 代理工具，能夠協助開發者建構各類軟體專案與應用程式。"
     },
     {
       "title": "Nibbo",
@@ -238,7 +253,7 @@
       "published": "2026-04-18T01:57:49-07:00",
       "author": "Boston",
       "tagline": "Family hub with a 3D pet that grows as you get things done",
-      "summary_zh": "家庭協作中心平台，透過 3D 虛擬寵物隨著任務完成而成長，提升家庭成員的參與度。"
+      "summary_zh": "家庭協作中心平台，透過 3D 虛擬寵物成長機制來激勵家庭成員完成待辦事項。"
     },
     {
       "title": "Gemini app for Mac",
@@ -246,7 +261,7 @@
       "published": "2026-04-17T07:59:13-07:00",
       "author": "Zac Zuo",
       "tagline": "Option + Space and Gemini is right there",
-      "summary_zh": "Mac 版 Gemini 應用程式，按下 Option + Space 即可快速啟動 AI 助理。"
+      "summary_zh": "Google Gemini 的 Mac 桌面應用程式，使用 Option + Space 快捷鍵即可快速呼叫使用。"
     },
     {
       "title": "Tell",
@@ -254,7 +269,7 @@
       "published": "2026-04-18T20:36:20-07:00",
       "author": "Will G",
       "tagline": "Mac widgets, made fun.",
-      "summary_zh": "為 Mac 設計的桌面小工具平台，提供更有趣的使用體驗。"
+      "summary_zh": "為 Mac 設計的趣味小工具應用，提供更具互動性與視覺吸引力的桌面小工具體驗。"
     },
     {
       "title": "Creator OS",
@@ -262,15 +277,15 @@
       "published": "2026-04-18T01:13:02-07:00",
       "author": "Jonh Alex",
       "tagline": "Stop missing comments on Instagram.",
-      "summary_zh": "幫助內容創作者管理 Instagram 留言，避免遺漏與粉絲的互動機會。"
+      "summary_zh": "專為內容創作者設計的 Instagram 留言管理工具，避免遺漏追蹤者的評論互動。"
     },
     {
-      "title": "Vercel Flags",
-      "url": "https://www.producthunt.com/products/vercel",
-      "published": "2026-04-17T13:40:20-07:00",
-      "author": "fmerian",
-      "tagline": "Feature flags, targeting rules, rollouts. All from Vercel.",
-      "summary_zh": "由 Vercel 提供的功能開關管理工具，支援目標定向規則和漸進式發布。"
+      "title": "Claude Design by Anthropic Labs",
+      "url": "https://www.producthunt.com/products/claude",
+      "published": "2026-04-17T08:21:45-07:00",
+      "author": "Rohan Chaubey",
+      "tagline": "Make prototypes, slides & one-pagers by talking to Claude",
+      "summary_zh": "透過對話方式使用 Claude AI 製作原型、簡報與單頁文件的設計工具。"
     }
   ]
 }
