@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-04-19",
+    "date_display": "2026 年 04 月 19 日",
+    "generated_at": "2026-04-19T10:46:12.737163+08:00",
+    "total": 10,
+    "sources": [
+      "AI Product",
+      "Product Management",
+      "UX Design",
+      "Vibe Coding"
+    ],
+    "headline": "Anthropic 推出 Claude Design，讓使用者透過對話建立原型、簡報與文件，由 Opus 4.7 視覺模型驅動。推文指出這對 Figma 這個 100 億美元的 UX 設計工具構成直接衝擊。"
+  },
+  {
     "date": "2026-04-18",
     "date_display": "2026 年 04 月 18 日",
     "generated_at": "2026-04-18T11:44:39.465192+08:00",

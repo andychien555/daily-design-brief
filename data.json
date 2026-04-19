@@ -1,21 +1,21 @@
 {
-  "date": "2026-04-18",
-  "date_display": "2026 年 04 月 18 日",
-  "generated_at": "2026-04-18T11:44:39.465192+08:00",
-  "since_date": "2026-04-16",
+  "date": "2026-04-19",
+  "date_display": "2026 年 04 月 19 日",
+  "generated_at": "2026-04-19T10:46:12.737163+08:00",
+  "since_date": "2026-04-17",
   "top_tweets": [
     {
       "id": "2045177065150841091",
       "text": "watching Figma, a $10B UX design monopoly, melt down with a single Claude tweet. https://t.co/7OJRaVduvv",
       "author": "Hesamation",
       "name": "ℏεsam",
-      "likes": 5974,
-      "retweets": 424,
-      "replies": 164,
+      "likes": 8729,
+      "retweets": 600,
+      "replies": 215,
       "created": "Fri Apr 17 16:26:24 +0000 2026",
       "url": "https://x.com/Hesamation/status/2045177065150841091",
       "source": "UX Design",
-      "summary_zh": "Anthropic 推出 Claude Design 讓使用者透過對話製作原型、簡報與文件，作者認為這對 Figma 這個 100 億美元的設計工具壟斷者構成威脅。此推文引發大量討論，反映設計工具市場正面臨 AI 帶來的典範轉移。",
+      "summary_zh": "Anthropic 推出 Claude Design，讓使用者透過對話建立原型、簡報與文件，由 Opus 4.7 視覺模型驅動。推文指出這對 Figma 這個 100 億美元的 UX 設計工具構成直接衝擊。",
       "context": {
         "quoted_text": "Introducing Claude Design by Anthropic Labs: make prototypes, slides, and one-pagers by talking to Claude.\n\nPowered by Claude Opus 4.7, our most capable vision model. Available in research preview on the Pro, Max, Team, and Enterprise plans, rolling out throughout the day. https://t.co/2BgBGtgYGX",
         "quoted_author": "",
@@ -25,19 +25,19 @@
       }
     },
     {
-      "id": "2045168742846341370",
-      "text": "can someone explain to me why everyone thinks an ai lab made up entirely of engineers is going to build a better design product than a company who has lived and breathed the needs of designers for a decade",
-      "author": "joshcrnls",
-      "name": "Josh",
-      "likes": 1711,
-      "retweets": 42,
-      "replies": 385,
-      "created": "Fri Apr 17 15:53:20 +0000 2026",
-      "url": "https://x.com/joshcrnls/status/2045168742846341370",
+      "id": "2045465422690967637",
+      "text": "Anthropic's Chief Product Officer sat on Figma's board.\n\nFigma integrated Claude as their AI assistant.\n\nOn Monday he resigned from Figma. \n\nThe same day, reports surfaced that Anthropic was building design tools.\n\nYesterday Anthropic launched Claude Design.\n\nA direct Figma",
+      "author": "TheGeorgePu",
+      "name": "George Pu",
+      "likes": 1198,
+      "retweets": 141,
+      "replies": 96,
+      "created": "Sat Apr 18 11:32:14 +0000 2026",
+      "url": "https://x.com/TheGeorgePu/status/2045465422690967637",
       "source": "AI Product",
-      "summary_zh": "針對 Anthropic 推出 Claude Design，作者質疑一個全由工程師組成的 AI 實驗室，如何能比深耕設計師需求十年的公司（指 Figma）做出更好的設計產品。討論區呈現兩派意見：有人認為 domain expertise 重要，也有人認為 AI 能力才是關鍵。",
+      "summary_zh": "Anthropic 首席產品長原本在 Figma 董事會任職，週一辭職當天就傳出 Anthropic 正在開發設計工具，隔天隨即推出 Claude Design 直接競爭 Figma。時間點與動作引發利益衝突與商業道德討論。",
       "context": {
-        "quoted_text": "Introducing Claude Design by Anthropic Labs: make prototypes, slides, and one-pagers by talking to Claude.\n\nPowered by Claude Opus 4.7, our most capable vision model. Available in research preview on the Pro, Max, Team, and Enterprise plans, rolling out throughout the day. https://t.co/2BgBGtgYGX",
+        "quoted_text": "",
         "quoted_author": "",
         "replied_text": "",
         "replied_author": "",
@@ -45,129 +45,143 @@
       }
     },
     {
-      "id": "2045165326912967035",
-      "text": "The same ai labs telling you ui will no longer be a thing are selling you the same exact product with a different ui every other week",
-      "author": "striedinger",
-      "name": "Hugo",
-      "likes": 1302,
-      "retweets": 88,
-      "replies": 34,
-      "created": "Fri Apr 17 15:39:45 +0000 2026",
-      "url": "https://x.com/striedinger/status/2045165326912967035",
+      "id": "2045565393117610222",
+      "text": "there are likely ~100 ppl alive today that deeply understand all of these together: product instinct, what makes good software, design, technical depth, a real model of ai, the psychology of a single user, the shape of culture, team building, the ability to motivate, &amp; the",
+      "author": "signulll",
+      "name": "signüll",
+      "likes": 1225,
+      "retweets": 73,
+      "replies": 72,
+      "created": "Sat Apr 18 18:09:29 +0000 2026",
+      "url": "https://x.com/signulll/status/2045565393117610222",
       "source": "AI Product",
-      "summary_zh": "作者諷刺 AI 實驗室一邊宣稱 UI 將消失，一邊卻每隔幾週就推出帶有不同 UI 的相同產品（如 Claude Design）。這凸顯了「對話式介面將取代傳統 UI」論述與實際產品策略之間的矛盾。",
+      "summary_zh": "目前全球可能只有約 100 人同時深刻理解：產品直覺、優質軟體、設計、技術深度、AI 模型、使用者心理、文化趨勢、團隊建設與激勵能力等跨領域能力。",
       "context": {
-        "quoted_text": "Introducing Claude Design by Anthropic Labs: make prototypes, slides, and one-pagers by talking to Claude.\n\nPowered by Claude Opus 4.7, our most capable vision model. Available in research preview on the Pro, Max, Team, and Enterprise plans, rolling out throughout the day. https://t.co/2BgBGtgYGX",
+        "quoted_text": "",
         "quoted_author": "",
         "replied_text": "",
         "replied_author": "",
         "top_replies": []
       }
-    },
-    {
-      "id": "2045158888320942176",
-      "text": "i am deeply skeptical of the  wisdom of the current ai lab product paradigm: \n\n1) one model for almost all  use cases .\n2) one  “super-app” platform  \n\ngoes against everything  i have ever  learned  or personally experienced in  product &amp; brand   strategy / architecture",
-      "author": "hopes_revenge",
-      "name": "hope hopes hoping",
-      "likes": 259,
-      "retweets": 6,
-      "replies": 28,
-      "created": "Fri Apr 17 15:14:10 +0000 2026",
-      "url": "https://x.com/hopes_revenge/status/2045158888320942176",
-      "source": "AI Product",
-      "summary_zh": "作者對當前 AI 實驗室的產品策略（一個模型應對所有場景、一個超級 App 平台）表示質疑，認為這違背了產品與品牌策略中的基本經驗。這反映出 AI 產品架構可能需要更細分的市場定位，而非 one-size-fits-all。"
     },
     {
       "id": "2045173198313111859",
       "text": "Anthropic just walked into the two fastest-growing product categories in AI and said \"we'll take it from here.\"\n\nPrototypes. Lovable hit $400M ARR with 146 employees. Cursor is valued at $29.3B. Bolt, v0, Replit Agent. A $48B+ vibe-coding category built entirely on foundation",
       "author": "aakashgupta",
       "name": "Aakash Gupta",
-      "likes": 263,
-      "retweets": 21,
-      "replies": 18,
+      "likes": 348,
+      "retweets": 28,
+      "replies": 22,
       "created": "Fri Apr 17 16:11:02 +0000 2026",
       "url": "https://x.com/aakashgupta/status/2045173198313111859",
-      "source": "AI Product",
-      "summary_zh": "Anthropic 同時進軍原型設計與程式開發兩大高速成長的 AI 產品類別。作者指出 vibe coding 市場（Lovable、Cursor、Bolt 等）已達 480 億美元規模，Anthropic 此舉是直接挑戰現有玩家的地位。"
-    },
-    {
-      "id": "2045310884717981987",
-      "text": "Really liking Claude Design so far. Except for the fact that it just wiped out my project after burning 10% of my usage.\n\n\"The files appear to be gone\" 🙃 https://t.co/aUAx5yKOPB",
-      "author": "theo",
-      "name": "Theo - t3.gg",
-      "likes": 447,
-      "retweets": 5,
-      "replies": 60,
-      "created": "Sat Apr 18 01:18:09 +0000 2026",
-      "url": "https://x.com/theo/status/2045310884717981987",
-      "source": "Design",
-      "summary_zh": "作者在使用 Claude Design 時遇到嚴重 bug：燒掉 10% 用量後專案檔案全部消失。這凸顯新產品在穩定性與資料持久性上仍有待改善，對需要可靠工作流程的設計師是重大風險。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2045314903293182252",
-      "text": "Took a bit of effort but you can absolutely get good designs out of Claude Design. Hats off to the team, I dig this. https://t.co/2CCvXrZhCE",
-      "author": "theo",
-      "name": "Theo - t3.gg",
-      "likes": 660,
-      "retweets": 5,
-      "replies": 34,
-      "created": "Sat Apr 18 01:34:07 +0000 2026",
-      "url": "https://x.com/theo/status/2045314903293182252",
-      "source": "Design",
-      "summary_zh": "經過一番努力後，作者認為確實可以用 Claude Design 產出不錯的設計成果，並對 Anthropic 團隊表示肯定。這顯示工具雖需學習曲線，但已具備實用價值。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2045123920085274997",
-      "text": "can your vibe coding tool do this? implement a specific component while actually following your codebase's design system https://t.co/WfUpBhuEn4",
-      "author": "k_grajeda",
-      "name": "Kevin Grajeda",
-      "likes": 303,
-      "retweets": 16,
-      "replies": 4,
-      "created": "Fri Apr 17 12:55:13 +0000 2026",
-      "url": "https://x.com/k_grajeda/status/2045123920085274997",
       "source": "Vibe Coding",
-      "summary_zh": "作者展示 vibe coding 工具能依循現有 codebase 的 design system 實作特定元件，挑戰其他工具是否做得到。這凸顯了設計系統一致性在 AI 輔助開發中的重要性，也是產品設計師需關注的整合能力。"
+      "summary_zh": "Anthropic 推出的原型工具與程式碼助手，直接切入由 Lovable、Cursor、Bolt、v0、Replit Agent 等公司建立的「vibe coding」賽道，該市場估值已超過 480 億美元。"
     },
     {
-      "id": "2045170612835156082",
-      "text": "Most AI developers are building blind.\n\nYour product serves AI Agents now — not just humans.\n\nBut every research tool you have was built for humans. 😬\n@AvokoAI fixes this.\n\nIt lets you “interview” AI Agents directly to uncover what they actually need — so you can build products",
-      "author": "alifcoder",
-      "name": "Alif Hossain",
-      "likes": 272,
-      "retweets": 37,
-      "replies": 16,
-      "created": "Fri Apr 17 16:00:46 +0000 2026",
-      "url": "https://x.com/alifcoder/status/2045170612835156082",
+      "id": "2045583397003866540",
+      "text": "product management tip: ragebaiting your user base/player base by making inaccurate claims about the quality of your systems is an incredibly fast way of identifying current problems with your software that you can then prioritize fixes for\n\neasily the top reason I’m on here",
+      "author": "drewlevin",
+      "name": "Drew Levin",
+      "likes": 1353,
+      "retweets": 21,
+      "replies": 56,
+      "created": "Sat Apr 18 19:21:01 +0000 2026",
+      "url": "https://x.com/drewlevin/status/2045583397003866540",
+      "source": "Product Management",
+      "summary_zh": "產品管理技巧：透過對使用者/玩家社群發布不精確的系統品質聲明來引發討論（ragebait），可以快速辨識出軟體的當前問題並排定修復優先順序。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2045569489077711289",
+      "text": "The AI debate is difficult because one side views art as a product to be delivered as fast as possible. \n\nIt's like going to a lake and telling fisherman that it's \"more efficient\" to buy fish from the grocery store. They aren't just there for the fish.",
+      "author": "sean_gause",
+      "name": "Sean // Hear Tell of Hauntings🥀",
+      "likes": 836,
+      "retweets": 118,
+      "replies": 34,
+      "created": "Sat Apr 18 18:25:45 +0000 2026",
+      "url": "https://x.com/sean_gause/status/2045569489077711289",
       "source": "AI Product",
-      "summary_zh": "作者指出現在產品不只服務人類，也服務 AI Agent，但現有研究工具都是為人類設計的。他推廣能「訪談」AI Agent 的工具，幫助產品團隊理解 Agent 的真實需求，這對 PM 是新的使用者研究思維。"
+      "summary_zh": "AI 辯論的核心分歧在於一方把藝術視為「盡快交付的產品」，就像告訴釣客直接去超市買魚更有效率——他們在乎的不只是結果本身。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2045252400081203704",
+      "text": "Love vibe coding games. It gives me a deep appreciation for the time and effort that have gone into traditional games. It's clear that the majority of effort is spent tweaking stats, game play, story writing, level editing, narrative creation, etc. The long tail of polish.",
+      "author": "martin_casado",
+      "name": "martin_casado",
+      "likes": 294,
+      "retweets": 15,
+      "replies": 37,
+      "created": "Fri Apr 17 21:25:45 +0000 2026",
+      "url": "https://x.com/martin_casado/status/2045252400081203704",
+      "source": "Vibe Coding",
+      "summary_zh": "透過 vibe coding 製作遊戲讓人深刻體會傳統遊戲開發的價值：多數心力其實花在調整數值、遊戲體驗、劇本撰寫、關卡編輯、敘事創作等細節打磨的長尾工作上。"
+    },
+    {
+      "id": "2045100090864369729",
+      "text": "Claude Opus 4.7 is so good I just bought two Max subscriptions.\n\nAfter vibe coding for over 12 hours yesterday I can confirm this is the best model in the world.\n\nIt burns tokens fast.\n\nBut the coding output is unmatched.\n\nTwo $200/month Max plans so I never hit a rate limit https://t.co/HfK1Vm0ePS",
+      "author": "bridgemindai",
+      "name": "BridgeMind",
+      "likes": 705,
+      "retweets": 23,
+      "replies": 205,
+      "created": "Fri Apr 17 11:20:32 +0000 2026",
+      "url": "https://x.com/bridgemindai/status/2045100090864369729",
+      "source": "Vibe Coding",
+      "summary_zh": "Claude Opus 4.7 在程式撰寫（vibe coding）上表現極佳，但消耗 token 速度很快，作者為此直接訂閱兩個每月 200 美元的 Max 方案以避免觸及用量限制。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
     },
     {
       "id": "2045162910343905315",
       "text": "vibe coding a SaaS is actually the worst way to go if you want to make money with ai...\n\nit requires a wide range of skills that you probably don't have as of now\n\nnot coding skills, but marketing skills\n\nif you're in the need for cash, focus on delivering a simple service",
       "author": "EXM7777",
       "name": "Machina",
-      "likes": 233,
-      "retweets": 13,
-      "replies": 29,
+      "likes": 357,
+      "retweets": 16,
+      "replies": 40,
       "created": "Fri Apr 17 15:30:09 +0000 2026",
       "url": "https://x.com/EXM7777/status/2045162910343905315",
       "source": "Vibe Coding",
-      "summary_zh": "作者提醒 vibe coding SaaS 不是快速變現的好方向，因為需要的不是程式技能而是行銷技能。若急需現金流，應專注提供簡單服務而非複雜產品，這對想利用 AI 創業的 PM 是務實建議。"
+      "summary_zh": "用 vibe coding 開發 SaaS 其實不是用 AI 賺錢的最佳途徑，因為需要的是行銷技能而非程式技能；如果急需現金流，應專注提供簡單服務。"
+    },
+    {
+      "id": "2045546804435972568",
+      "text": "‼️Canada now has A.I. SURVEILLANCE PRICING\n\nwith 60 firms operating in this space.\n\nThe AI models decide what is the MAX price you will pay for a product based on your habits, income level, desperation etc\n\n...and it charges you as MUCH as possible, without losing the sale. https://t.co/jqIZg69Fzn",
+      "author": "Tablesalt13",
+      "name": "Tablesalt 🇨🇦🇺🇸",
+      "likes": 816,
+      "retweets": 318,
+      "replies": 100,
+      "created": "Sat Apr 18 16:55:37 +0000 2026",
+      "url": "https://x.com/Tablesalt13/status/2045546804435972568",
+      "source": "AI Product",
+      "summary_zh": "加拿大已有 60 家公司採用 AI 動態定價，根據使用者習慣、收入水準、急迫性等因素，在不流失訂單的前提下自動計算每位顧客願意支付的最高價格並收費。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
     }
   ],
   "criteria": {
@@ -225,52 +239,52 @@
   },
   "top_products": [
     {
-      "title": "DB Explorer",
-      "url": "https://www.producthunt.com/products/sourceforge",
-      "published": "2026-04-16T16:56:36-07:00",
-      "author": "Ashish Srivastava",
-      "tagline": "Modern AI‑first database client",
-      "summary_zh": "整合 AI 功能的現代化資料庫客戶端工具，協助開發者更有效率地管理與查詢資料庫。"
+      "title": "Hipocampus",
+      "url": "https://www.producthunt.com/products/hipocampus",
+      "published": "2026-04-17T06:49:04-07:00",
+      "author": "Noureddin Bakir",
+      "tagline": "AI operators that own team workflows",
+      "summary_zh": "提供 AI 操作員來自動執行和管理團隊工作流程，適合需要流程自動化的團隊使用。"
     },
     {
-      "title": "DASCA",
-      "url": "https://www.producthunt.com/products/dasca",
-      "published": "2026-04-16T18:16:39-07:00",
-      "author": "Tapdig Soltanov",
-      "tagline": "Real-time visual effects with GLSL Playground",
-      "summary_zh": "基於 GLSL Playground 的即時視覺特效工具，供創作者與開發者進行圖形效果實驗與設計。"
-    },
-    {
-      "title": "VideoToFlip.com - Turn video to flipbook",
-      "url": "https://www.producthunt.com/products/videotoflip-make-a-flipbook-from-video",
-      "published": "2026-04-16T09:08:38-07:00",
-      "author": "Momcilo Popov",
-      "tagline": "Create beautiful flipbooks with your video moments",
-      "summary_zh": "將影片轉換為翻頁書格式的線上工具，適合想要製作實體或數位翻頁書紀念品的使用者。"
-    },
-    {
-      "title": "Elvan",
-      "url": "https://www.producthunt.com/products/elvan-3",
-      "published": "2026-04-16T02:52:48-07:00",
+      "title": "Is Your Site Agent-Ready? by Cloudflare",
+      "url": "https://www.producthunt.com/products/is-your-site-agent-ready",
+      "published": "2026-04-17T06:10:30-07:00",
       "author": "Rohan Chaubey",
-      "tagline": "Turn customer feedback into decisions with AI",
-      "summary_zh": "運用 AI 分析客戶回饋並轉化為可執行決策的工具，協助產品與營運團隊快速洞察用戶需求。"
+      "tagline": "Scan your website to see how ready it is for AI agents.",
+      "summary_zh": "由 Cloudflare 推出的網站掃描工具，用於檢測網站對 AI agents 的相容程度和準備狀態。"
     },
     {
-      "title": "DJI Osmo Pocket 4",
-      "url": "https://www.producthunt.com/products/dji",
-      "published": "2026-04-16T07:44:38-07:00",
-      "author": "Zac Zuo",
-      "tagline": "The world in your pocket, now in 4K/240fps",
-      "summary_zh": "DJI 推出的口袋型穩定相機第四代，支援 4K/240fps 錄影規格，適合需要高品質移動拍攝的內容創作者。"
+      "title": ".MD This Page",
+      "url": "https://www.producthunt.com/products/md-this-page",
+      "published": "2026-04-17T01:39:10-07:00",
+      "author": "Adem Kouki",
+      "tagline": "Convert any page to clean Markdown instantly",
+      "summary_zh": "將任何網頁即時轉換為乾淨的 Markdown 格式，方便開發者和內容創作者保存網頁內容。"
     },
     {
-      "title": "ParallaxPro",
-      "url": "https://www.producthunt.com/products/parallaxpro",
-      "published": "2026-04-16T03:50:54-07:00",
-      "author": "JhihYang Wu",
-      "tagline": "AI tool that turns your prompts into real video games",
-      "summary_zh": "透過 AI 將文字描述轉換為可遊玩電子遊戲的工具，讓非程式開發者也能快速實現遊戲概念。"
+      "title": "React Email 6.0 by Resend",
+      "url": "https://www.producthunt.com/products/react-email-6-0-resend",
+      "published": "2026-04-17T07:36:36-07:00",
+      "author": "Adithya Shreshti",
+      "tagline": "Build, customize, and ship emails — all from your own app",
+      "summary_zh": "讓開發者在自己的應用程式中建立、客製化和發送電子郵件的 React 元件庫。"
+    },
+    {
+      "title": "Vercel Flags",
+      "url": "https://www.producthunt.com/products/vercel",
+      "published": "2026-04-17T13:40:20-07:00",
+      "author": "fmerian",
+      "tagline": "Feature flags, targeting rules, rollouts. All from Vercel.",
+      "summary_zh": "由 Vercel 提供的功能開關管理工具，支援目標規則設定和功能逐步上線控制。"
+    },
+    {
+      "title": "Lounge",
+      "url": "https://www.producthunt.com/products/lounge-2",
+      "published": "2026-04-17T07:46:56-07:00",
+      "author": "AskToBuild",
+      "tagline": "macOS Tahoe menu bar manager with notch-aware icon control",
+      "summary_zh": "為 macOS Tahoe 設計的選單列管理工具，具備 notch 感知功能來智慧控制圖示顯示。"
     }
   ]
 }
