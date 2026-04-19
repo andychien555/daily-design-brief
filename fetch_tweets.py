@@ -355,6 +355,29 @@ def apply_md_cache(tweets: list[dict], cache: dict[str, str]) -> int:
             hits += 1
     return hits
 
+
+def load_recent_tweet_ids(days: int, today: str) -> set[str]:
+    """Scan briefs/*.md from the last `days` days (excluding today) and return
+    all tweet IDs previously published. Used to avoid re-publishing the same
+    tweets on consecutive days."""
+    ids: set[str] = set()
+    if not BRIEFS_DIR.exists():
+        return ids
+    cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
+    for md in sorted(BRIEFS_DIR.glob("*.md"), reverse=True):
+        date_part = md.stem
+        if date_part >= today or date_part < cutoff:
+            continue
+        try:
+            content = md.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        for line in content.splitlines():
+            m = re.match(r"<!-- tweet_id: (.+) -->", line)
+            if m:
+                ids.add(m.group(1).strip())
+    return ids
+
 def main():
     tz_taipei = timezone(timedelta(hours=8))
     now = datetime.now(tz_taipei)
@@ -381,6 +404,16 @@ def main():
         if t["id"] and t["id"] not in seen_ids:
             seen_ids.add(t["id"])
             unique.append(t)
+
+    # Drop tweets already published in the last 2 days' briefs so the same
+    # story doesn't reappear when it stays trending.
+    DEDUP_LOOKBACK_DAYS = 2
+    recent_ids = load_recent_tweet_ids(DEDUP_LOOKBACK_DAYS, date_str)
+    before = len(unique)
+    unique = [t for t in unique if t["id"] not in recent_ids]
+    dropped = before - len(unique)
+    if recent_ids:
+        print(f"  🔁 Dedup against last {DEDUP_LOOKBACK_DAYS} days ({len(recent_ids)} prior ids) — dropped {dropped}")
 
     candidate_cap = max(TOP_N * 3, 30)
     candidates = sorted(unique, key=score, reverse=True)[:candidate_cap]
