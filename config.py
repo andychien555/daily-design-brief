@@ -21,7 +21,6 @@ SEARCH_QUERIES = [
     # keywords miss (e.g. @Flomerboy's Claude Design tips).
     {"label": "Claude Design",      "query": "claude design",      "min_likes": 100},
     {"label": "Anthropic",          "query": "anthropic",          "min_likes": 100},
-    {"label": "Figma",              "query": "figma",              "min_likes": 100},
 ]
 
 # ── Product Hunt ingestion ─────────────────────────────────────────
