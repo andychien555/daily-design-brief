@@ -17,6 +17,11 @@ SEARCH_QUERIES = [
     {"label": "AI Product",         "query": "AI product",         "min_likes": 100},
     {"label": "Vibe Coding",        "query": "vibe coding",        "min_likes": 100},
     {"label": "Growth",             "query": "growth",             "min_likes": 100},
+    # Targeted queries to catch AI-lab design/product launches that broad
+    # keywords miss (e.g. @Flomerboy's Claude Design tips).
+    {"label": "Claude Design",      "query": "claude design",      "min_likes": 100},
+    {"label": "Anthropic",          "query": "anthropic",          "min_likes": 100},
+    {"label": "Figma",              "query": "figma",              "min_likes": 100},
 ]
 
 # ── Product Hunt ingestion ─────────────────────────────────────────
