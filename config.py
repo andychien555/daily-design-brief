@@ -5,7 +5,7 @@ touching the fetch/render logic.
 """
 
 # ── Twitter / X ingestion ──────────────────────────────────────────
-TWEETS_TOP_N = 10
+TWEETS_TOP_N = 15
 TWEETS_SINCE_DAYS = 2
 TWEETS_API_BASE_DEFAULT = "https://ai.6551.io"
 
