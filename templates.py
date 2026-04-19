@@ -195,7 +195,7 @@ def criteria_block(criteria: dict) -> str:
       <form method="dialog"><button class="modal-close" aria-label="關閉">✕</button></form>
     </div>
     <div class="criteria-body">
-      <p>每天從下列 <strong>{kw_count} 組關鍵字</strong> 查詢 X 上最近 <strong>{since_days} 天</strong> 的推文，去重後交由 Claude Sonnet 4.5 做二次過濾與排序，最後輸出 <strong>Top {top_n}</strong> 並附繁體中文摘要。</p>
+      <p>每天從下列 <strong>{kw_count} 組關鍵字</strong> 分別以 <strong>Latest</strong>（最新）與 <strong>Top</strong>（最熱）兩種方式查詢 X 上最近 <strong>{since_days} 天</strong> 的推文，合併去重後，再比對<strong>前兩天已刊出的 tweet 排除重複</strong>，最後交由 Claude Sonnet 4.5 做二次過濾與排序，輸出 <strong>Top {top_n}</strong> 並附繁體中文摘要。</p>
       <p><strong>排序公式</strong>：<code>{formula}</code></p>
 
       <h4>關鍵字搜尋池</h4>
@@ -207,7 +207,7 @@ def criteria_block(criteria: dict) -> str:
       <h4>Claude 過濾規則</h4>
       <ul>{filter_items}</ul>
 
-      <p class="criteria-note">語言：English、排除 replies / retweets。摘要由 Claude Sonnet 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
+      <p class="criteria-note">語言：English、排除 replies / retweets。每組關鍵字雙模式查詢各取最多 50 則，合併去重。摘要由 Claude Sonnet 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
     </div>
   </div>
 </dialog>"""
