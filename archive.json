@@ -2,15 +2,15 @@
   {
     "date": "2026-04-19",
     "date_display": "2026 年 04 月 19 日",
-    "generated_at": "2026-04-19T18:17:28.466382+08:00",
-    "total": 9,
+    "generated_at": "2026-04-19T18:29:19.924880+08:00",
+    "total": 10,
     "sources": [
       "AI Product",
       "Design",
       "Product Management",
-      "Vibe Coding"
+      "UX Design"
     ],
-    "headline": "產品管理技巧：在社群媒體上故意發布對系統品質的不準確說法來激怒用戶，可以快速識別出軟體的當前問題，進而排定修復優先順序。"
+    "headline": "Anthropic 推出 Claude Design，讓使用者透過對話即可製作原型、簡報與文件，由 Claude Opus 4.7 視覺模型驅動，目前對 Pro 以上方案開放研究預覽。"
   },
   {
     "date": "2026-04-18",
