@@ -2,18 +2,15 @@
   {
     "date": "2026-04-20",
     "date_display": "2026 年 04 月 20 日",
-    "generated_at": "2026-04-20T09:05:27.267645+08:00",
-    "total": 13,
+    "generated_at": "2026-04-20T12:12:38.833989+08:00",
+    "total": 15,
     "sources": [
       "AI Product",
       "Anthropic",
       "Claude Design",
-      "Design",
-      "Product Management",
-      "UX Design",
       "Vibe Coding"
     ],
-    "headline": "Anthropic 首席產品官曾任 Figma 董事，在他辭去 Figma 職務當天，Anthropic 即傳出正在開發設計工具，隔日便推出 Claude Design，形成直接競爭關係。這起人事與產品發布的時序引發關注。"
+    "headline": "Anthropic 在無預警下封鎖一整間公司（60+ 員工）的 Claude 存取權限，未提供解釋，僅能透過 Google 表單申訴；所有整合、對話歷史全部消失。原推文作者強調不應讓單一供應商控制關鍵工作流程。"
   },
   {
     "date": "2026-04-19",
