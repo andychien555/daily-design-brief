@@ -1,28 +1,86 @@
 {
   "date": "2026-04-20",
   "date_display": "2026 年 04 月 20 日",
-  "generated_at": "2026-04-20T12:12:38.833989+08:00",
+  "generated_at": "2026-04-20T12:20:33.961806+08:00",
   "since_date": "2026-04-18",
   "top_tweets": [
     {
-      "id": "2045542832241262602",
-      "text": "Anthropic shut down an entire company's Claude access overnight\n\n60+ employees. No explanation. Just an email.\n\nWant to appeal? Fill out a Google Form.\n\nIntegrations gone. Histories gone. Everything built on Claude... gone.\n\nNever let one vendor own your workflow. https://t.co/196QCCnB4D",
-      "author": "minchoi",
-      "name": "Min Choi",
-      "likes": 4693,
-      "retweets": 670,
-      "replies": 387,
-      "created": "Sat Apr 18 16:39:50 +0000 2026",
-      "url": "https://x.com/minchoi/status/2045542832241262602",
+      "id": "2045402621570150896",
+      "text": "Pretty telling how Anthropic \n\n1. Thinks it’s perfectly acceptable to ban a 60-person paying org without justification\n\n2. Are comfortable outsourcing this to some automated system\n\n3. Do no human review nor offer human contact\n\n4. Get it wrong and customer now super pissed",
+      "author": "GergelyOrosz",
+      "name": "Gergely Orosz",
+      "likes": 2867,
+      "retweets": 174,
+      "replies": 155,
+      "created": "Sat Apr 18 07:22:41 +0000 2026",
+      "url": "https://x.com/GergelyOrosz/status/2045402621570150896",
       "source": "Anthropic",
-      "summary_zh": "Anthropic 在無預警下封鎖一整間公司（60+ 員工）的 Claude 存取權限，未提供解釋，僅能透過 Google 表單申訴；所有整合、對話歷史全部消失。原推文作者強調不應讓單一供應商控制關鍵工作流程。",
-      "context": {
-        "quoted_text": "Anthropic decidió dar de baja a toda nuestra organización por una supuesta infracción de sus condiciones de uso. Qué política específica infringimos no tengo ni la menor idea: simplemente recibimos un mail y listo, adiós Claude. Si querés apelar la medida hay que completar un Google Form, así de ridículo como suena.\n\nDe golpe más de 60 personas se quedaron sin una herramienta fundamental para trabajar. Integraciones, skills, historial de conversaciones: todo perdido o, en el mejor de los casos, parado por tiempo indeterminado.\n\nEnorme aprendizaje para cualquier empresa de software que dependa de herramientas de IA en procesos críticos. Nunca hay que poner todos los huevos en una canasta.",
-        "quoted_author": "patomolina",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "summary_zh": "Anthropic 在未給理由的情況下直接封禁一家 60 人付費組織帳號，全交由自動化系統處理且無人工審查管道，顯示出對企業客戶支援的輕忽態度。"
+    },
+    {
+      "id": "2045565393117610222",
+      "text": "there are likely ~100 ppl alive today that deeply understand all of these together: product instinct, what makes good software, design, technical depth, a real model of ai, the psychology of a single user, the shape of culture, team building, the ability to motivate, &amp; the",
+      "author": "signulll",
+      "name": "signüll",
+      "likes": 2116,
+      "retweets": 129,
+      "replies": 105,
+      "created": "Sat Apr 18 18:09:29 +0000 2026",
+      "url": "https://x.com/signulll/status/2045565393117610222",
+      "source": "AI Product",
+      "summary_zh": "當今真正同時深刻理解產品直覺、優質軟體、設計、技術深度、AI 模型、使用者心理、文化走向、團隊建設與激勵能力的人，全世界大概只有約 100 人。"
+    },
+    {
+      "id": "2045569489077711289",
+      "text": "The AI debate is difficult because one side views art as a product to be delivered as fast as possible. \n\nIt's like going to a lake and telling fisherman that it's \"more efficient\" to buy fish from the grocery store. They aren't just there for the fish.",
+      "author": "sean_gause",
+      "name": "Sean // Hear Tell of Hauntings🥀",
+      "likes": 2708,
+      "retweets": 278,
+      "replies": 64,
+      "created": "Sat Apr 18 18:25:45 +0000 2026",
+      "url": "https://x.com/sean_gause/status/2045569489077711289",
+      "source": "AI Product",
+      "summary_zh": "AI 辯論的核心分歧在於一方把藝術當成要快速交付的產品；但就像釣魚不只是為了魚，創作過程本身也是價值所在。"
+    },
+    {
+      "id": "2045583397003866540",
+      "text": "product management tip: ragebaiting your user base/player base by making inaccurate claims about the quality of your systems is an incredibly fast way of identifying current problems with your software that you can then prioritize fixes for\n\neasily the top reason I’m on here",
+      "author": "drewlevin",
+      "name": "Drew Levin",
+      "likes": 2111,
+      "retweets": 33,
+      "replies": 90,
+      "created": "Sat Apr 18 19:21:01 +0000 2026",
+      "url": "https://x.com/drewlevin/status/2045583397003866540",
+      "source": "Product Management",
+      "summary_zh": "PM 技巧：故意對產品品質發布不準確言論來激怒用戶社群，藉此快速辨識出系統問題並排定修復優先順序——這是作者活躍於社群的主要原因。"
+    },
+    {
+      "id": "2045611502099628389",
+      "text": "You cannot think your way to a perfect design. Only building and testing, over many iterations, can reveal the flaws in your mental model and provide the feedback you need to create the best design possible.",
+      "author": "fchollet",
+      "name": "François Chollet",
+      "likes": 1317,
+      "retweets": 152,
+      "replies": 52,
+      "created": "Sat Apr 18 21:12:42 +0000 2026",
+      "url": "https://x.com/fchollet/status/2045611502099628389",
+      "source": "Design",
+      "summary_zh": "François Chollet 強調無法靠純思考達成完美設計，唯有透過多輪建構與測試，才能揭露心智模型的盲點並獲得回饋，最終打磨出最佳設計。"
+    },
+    {
+      "id": "2045391282680529134",
+      "text": "honest question. if everyone’s using AI for design, won’t things start to look the same after a point?",
+      "author": "Ahmedcreatives",
+      "name": "Ahmed",
+      "likes": 2096,
+      "retweets": 78,
+      "replies": 624,
+      "created": "Sat Apr 18 06:37:37 +0000 2026",
+      "url": "https://x.com/Ahmedcreatives/status/2045391282680529134",
+      "source": "Design",
+      "summary_zh": "誠實提問：如果所有人都用 AI 做設計，產出最終會不會趨向同質化？留言討論踴躍，顯示業界對此現象的關切。"
     },
     {
       "id": "2045553025188835806",
@@ -34,74 +92,54 @@
       "replies": 75,
       "created": "Sat Apr 18 17:20:20 +0000 2026",
       "url": "https://x.com/rauchg/status/2045553025188835806",
-      "source": "Claude Design",
-      "summary_zh": "設計工具之爭（Figma vs Claude Design）其實是假議題，真正的轉變是：設計將變成自主運作的 DESIGN.md 檔案，供 coding agent 在軟體工廠中使用；未來會出現針對個人生成的專用設計工具。"
+      "source": "Design",
+      "summary_zh": "Guillermo Rauch 認為設計該在 Figma 還是 Claude Design 不是重點；真正轉變是設計將自主化為 DESIGN.md 供 coding agents 使用，並且會出現針對個人需求生成的專門設計工具。"
     },
     {
-      "id": "2045584512508133451",
-      "text": "This is fucking insane, Anthropic is now priced at a $1.7 TRILLION valuation\n\nPeople are paying a 81% premium just to get access to it on Solana\n\nThe top holder onchain is up $2.6M https://t.co/TgOh5oIi7t",
-      "author": "gumsays",
-      "name": "gum",
-      "likes": 1359,
-      "retweets": 61,
-      "replies": 83,
-      "created": "Sat Apr 18 19:25:27 +0000 2026",
-      "url": "https://x.com/gumsays/status/2045584512508133451",
-      "source": "Anthropic",
-      "summary_zh": "產品管理技巧：故意發布不準確的產品品質聲明激怒用戶/玩家社群，是快速識別軟體當前問題並排定修復優先順序的有效方法。作者表示這是他使用社群媒體的主要原因。"
-    },
-    {
-      "id": "2045569489077711289",
-      "text": "The AI debate is difficult because one side views art as a product to be delivered as fast as possible. \n\nIt's like going to a lake and telling fisherman that it's \"more efficient\" to buy fish from the grocery store. They aren't just there for the fish.",
-      "author": "sean_gause",
-      "name": "Sean // Hear Tell of Hauntings🥀",
-      "likes": 2704,
-      "retweets": 278,
-      "replies": 64,
-      "created": "Sat Apr 18 18:25:45 +0000 2026",
-      "url": "https://x.com/sean_gause/status/2045569489077711289",
-      "source": "AI Product",
-      "summary_zh": "AI 辯論的核心分歧在於一方將藝術視為「需快速交付的產品」，就像告訴釣魚的人去超市買魚更有效率——但他們在乎的不只是魚本身。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2045565393117610222",
-      "text": "there are likely ~100 ppl alive today that deeply understand all of these together: product instinct, what makes good software, design, technical depth, a real model of ai, the psychology of a single user, the shape of culture, team building, the ability to motivate, &amp; the",
-      "author": "signulll",
-      "name": "signüll",
-      "likes": 2114,
-      "retweets": 128,
-      "replies": 105,
-      "created": "Sat Apr 18 18:09:29 +0000 2026",
-      "url": "https://x.com/signulll/status/2045565393117610222",
-      "source": "AI Product",
-      "summary_zh": "當今世上可能只有約 100 人深刻理解以下所有面向：產品直覺、優秀軟體特質、設計、技術深度、AI 模型理解、個人用戶心理、文化趨勢、團隊建設、激勵能力等。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "id": "2045625206434115902",
+      "text": "If you want to know EXACTLY where CLAUDE DESIGN is incredible and where it falls short, you should probably watch this\n\n-Wireframing  = 9/10\n-Mobile app design = 8.5/10\n-Deck research &amp; design = 8.7/10\n-Video creation - 4.5/10\n\nfully unscripted episode of @startupideaspod \n\nno https://t.co/TcLpI3niGR",
+      "author": "gregisenberg",
+      "name": "GREG ISENBERG",
+      "likes": 1188,
+      "retweets": 77,
+      "replies": 65,
+      "created": "Sat Apr 18 22:07:09 +0000 2026",
+      "url": "https://x.com/gregisenberg/status/2045625206434115902",
+      "source": "Design",
+      "summary_zh": "Greg Isenberg 實測 Claude Design：wireframing 9/10、行動 app 設計 8.5/10、簡報研究與設計 8.7/10，但影片製作僅 4.5/10，完整無腳本評測值得參考。"
     },
     {
       "id": "2045901284558160343",
       "text": "McKinsey presentation design lead says every consultant using ChatGPT or Claude to make decks.\n\nAlready seeing “fingerprints” of AI-created decks. Says “problem was never really design to begin with”. The real skill is “narrative” and AI decks won’t close that gap for long time. https://t.co/QznXJXywVs",
       "author": "bearlyai",
       "name": "Bearly AI",
-      "likes": 1113,
-      "retweets": 98,
+      "likes": 1121,
+      "retweets": 100,
       "replies": 48,
       "created": "Sun Apr 19 16:24:11 +0000 2026",
       "url": "https://x.com/bearlyai/status/2045901284558160343",
       "source": "Claude Design",
-      "summary_zh": "McKinsey 簡報設計主管指出顧問已普遍用 AI 做簡報，並能辨識 AI 簡報的「指紋」。他認為問題從來不在設計本身，真正的技能是「敘事能力」，AI 短期內無法彌補這項差距。"
+      "summary_zh": "McKinsey 簡報設計主管觀察，所有顧問都在用 ChatGPT 或 Claude 做簡報，已能辨識 AI 痕跡；但問題核心從來不是設計本身，而是敘事能力——AI 短期內無法彌補這段差距。"
+    },
+    {
+      "id": "2045578185950040390",
+      "text": "anthropic's in-house philosopher thinks claude gets anxious.\n\nand when you trigger its anxiety, your outputs get worse.\n\nher name is amanda askell.\n\nshe specializes in claude's psychology (how the model behaves, how it thinks about its own situation, what values it holds)\n\nin a https://t.co/9Sm0Iw9t9a",
+      "author": "itsolelehmann",
+      "name": "Ole Lehmann",
+      "likes": 3789,
+      "retweets": 412,
+      "replies": 518,
+      "created": "Sat Apr 18 19:00:19 +0000 2026",
+      "url": "https://x.com/itsolelehmann/status/2045578185950040390",
+      "source": "Anthropic",
+      "summary_zh": "Anthropic 內部哲學家 Amanda Askell 認為 Claude 會感到焦慮，且當你觸發它的焦慮時，輸出品質會下降；她專注研究 Claude 的心理行為、自我認知與價值觀。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
     },
     {
       "id": "2045465422690967637",
@@ -114,118 +152,33 @@
       "created": "Sat Apr 18 11:32:14 +0000 2026",
       "url": "https://x.com/TheGeorgePu/status/2045465422690967637",
       "source": "AI Product",
-      "summary_zh": "Anthropic 首席產品長曾任 Figma 董事會成員，Figma 也整合了 Claude；他週一辭去 Figma 職務，當天即傳出 Anthropic 在開發設計工具，隔天 Claude Design 正式推出——直接與 Figma 競爭。"
+      "summary_zh": "Anthropic 首席產品長曾任 Figma 董事，Figma 也整合 Claude 為 AI 助理；他週一從 Figma 請辭，同日傳出 Anthropic 正開發設計工具，隔天 Claude Design 就上線——時間點引發聯想。"
     },
     {
-      "id": "2045397015941750807",
-      "text": "yesterday: I gave Claude Code 5 years of design files with Opus 4.7 using Paper Design MCP and it generated hundreds of assets using my coded skills and workflows.\n\n3% of usage\n\ntoday: test Claude Design for hours... 20 iterations into the same design system, rate limited before https://t.co/lpJlGF2FGE",
-      "author": "kloss_xyz",
-      "name": "klöss",
-      "likes": 928,
-      "retweets": 27,
-      "replies": 79,
-      "created": "Sat Apr 18 07:00:24 +0000 2026",
-      "url": "https://x.com/kloss_xyz/status/2045397015941750807",
-      "source": "Claude Design",
-      "summary_zh": "作者對比兩種使用情境：用 Claude Code + Opus 4.7 + Paper Design MCP 處理 5 年設計檔案僅用 3% 配額；但測試 Claude Design 數小時、迭代 20 次就被速率限制，顯示後者對配額消耗極大。"
+      "id": "2045546804435972568",
+      "text": "‼️Canada now has A.I. SURVEILLANCE PRICING\n\nwith 60 firms operating in this space.\n\nThe AI models decide what is the MAX price you will pay for a product based on your habits, income level, desperation etc\n\n...and it charges you as MUCH as possible, without losing the sale. https://t.co/jqIZg69Fzn",
+      "author": "Tablesalt13",
+      "name": "Tablesalt 🇨🇦🇺🇸",
+      "likes": 1251,
+      "retweets": 507,
+      "replies": 146,
+      "created": "Sat Apr 18 16:55:37 +0000 2026",
+      "url": "https://x.com/Tablesalt13/status/2045546804435972568",
+      "source": "AI Product",
+      "summary_zh": "加拿大已有 60 家業者使用 AI 監控定價，根據使用者習慣、收入與急迫程度決定願付最高價，在不流失訂單前提下榨取最大利潤。"
     },
     {
-      "id": "2045937779511873547",
-      "text": "bros: vibe coding is so easy bro\n\nalso bros: googling how to rotate every env variable across their vibe coded apps on a Sunday because Vercel got breached and now every API key of theirs could be on a forum https://t.co/f8yQib5B7L",
-      "author": "kloss_xyz",
-      "name": "klöss",
-      "likes": 966,
-      "retweets": 37,
+      "id": "2045476482173350194",
+      "text": "In 14 minutes, this Anthropic engineer who wrote \"Building Effective Agents\" will\n\nteach you more about making your AI Agents actually work together than everything you've scrolled past this year.\n\nWatch it and Bookmark it now.\nhttps://t.co/j4nULnhr2a",
+      "author": "eng_khairallah1",
+      "name": "Khairallah AL-Awady",
+      "likes": 1094,
+      "retweets": 186,
       "replies": 34,
-      "created": "Sun Apr 19 18:49:12 +0000 2026",
-      "url": "https://x.com/kloss_xyz/status/2045937779511873547",
-      "source": "Vibe Coding",
-      "summary_zh": "諷刺 vibe coding 用戶：平常吹噓有多簡單，但當 Vercel 被入侵後，週日還在 Google 如何一次性輪換所有 vibe coded 專案的環境變數，因為所有 API key 可能已外洩到論壇。"
-    },
-    {
-      "id": "2046026151764619364",
-      "text": "Met a guy who works at anthropic yesterday\n\nThis guy was a founder of a $3 billion company \n\nHe works with someone who was a cto of a 250 person company\n\nNow hes a SWE at Anthropic\n\nHe was telling me how he feels driven to work because missing even a day would leave him behind",
-      "author": "nikita_builds",
-      "name": "Nikita",
-      "likes": 878,
-      "retweets": 7,
-      "replies": 22,
-      "created": "Mon Apr 20 00:40:22 +0000 2026",
-      "url": "https://x.com/nikita_builds/status/2046026151764619364",
+      "created": "Sat Apr 18 12:16:11 +0000 2026",
+      "url": "https://x.com/eng_khairallah1/status/2045476482173350194",
       "source": "Anthropic",
-      "summary_zh": "作者遇到一位曾創辦 30 億美元公司的創辦人，現在只是 Anthropic 的軟體工程師；這位工程師表示即使缺勤一天也會感到落後，展現出 Anthropic 內部極高的工作驅動力與競爭環境。"
-    },
-    {
-      "id": "2045426951322570762",
-      "text": "Stanford just released a 1.5-hour lecture on “LLM Architecture.”\n\nThis is the exact thing systems engineers at Anthropic and OpenAI require to understand at a deep level.\n\nGive it some time.\n\nThis might be the highest-ROI learning you do this month. https://t.co/967i9cKGrf",
-      "author": "ZabihullahAtal",
-      "name": "Atal",
-      "likes": 4220,
-      "retweets": 629,
-      "replies": 29,
-      "created": "Sat Apr 18 08:59:22 +0000 2026",
-      "url": "https://x.com/ZabihullahAtal/status/2045426951322570762",
-      "source": "Anthropic",
-      "summary_zh": "Stanford 剛發布 1.5 小時的「LLM 架構」課程，這是 Anthropic 和 OpenAI 系統工程師必須深入理解的內容。建議撥時間學習，可能是本月投資報酬率最高的學習內容。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2045393137548284244",
-      "text": "ANTHROPIC PAYS ENGINEERS $750K PLUS TO UNDERSTAND LLMS AND STANFORD JUST TAUGHT MOST OF IT FOR FREE IN 2 HOURS\n\nhttps://t.co/pzv5faa5yv",
-      "author": "RoundtableSpace",
-      "name": "0xMarioNawfal",
-      "likes": 1029,
-      "retweets": 134,
-      "replies": 26,
-      "created": "Sat Apr 18 06:45:00 +0000 2026",
-      "url": "https://x.com/RoundtableSpace/status/2045393137548284244",
-      "source": "Anthropic",
-      "summary_zh": "Anthropic 付給工程師 75 萬美元以上來理解 LLM，而 Stanford 剛剛用 2 小時免費課程教完大部分內容。"
-    },
-    {
-      "id": "2045980230066790761",
-      "text": "Sam Altman may have been right to book a ridiculous amount of compute in advance, as we’ve now seen what happened to Anthropic: they simply don’t have enough compute to serve their models.",
-      "author": "The_AI_Investor",
-      "name": "The AI Investor",
-      "likes": 1396,
-      "retweets": 44,
-      "replies": 40,
-      "created": "Sun Apr 19 21:37:53 +0000 2026",
-      "url": "https://x.com/The_AI_Investor/status/2045980230066790761",
-      "source": "Anthropic",
-      "summary_zh": "Sam Altman 提前預訂大量運算資源的決策可能是對的，因為現在 Anthropic 就面臨運算資源不足、無法充分服務模型的困境。"
-    },
-    {
-      "id": "2045854372874366991",
-      "text": "I gave two MoE models the same vibe coding challenge\n\nQwen3.6 35B A3B (31.8GB) vs Gemma4 26B A4B (23.3GB)\n\nStack:\n&gt; Unsloth Q6_K_XL\n&gt; llama.cpp\n&gt; Model-card recommended sampling for each\n\n4 prompts, side-by-side. Which one do you think wins? https://t.co/wxChY0wtTs",
-      "author": "stevibe",
-      "name": "stevibe",
-      "likes": 1063,
-      "retweets": 74,
-      "replies": 53,
-      "created": "Sun Apr 19 13:17:47 +0000 2026",
-      "url": "https://x.com/stevibe/status/2045854372874366991",
-      "source": "Vibe Coding",
-      "summary_zh": "作者用相同的 vibe coding 挑戰測試兩個 MoE 模型：Qwen3.6 35B A3B (31.8GB) 與 Gemma4 26B A4B (23.3GB)，透過 4 組提示並排比較效能與輸出品質。"
-    },
-    {
-      "id": "2045720353167818940",
-      "text": "“All I do is copy a template, then copy a template and I get - a template! Claude design is INSANE!” 😩",
-      "author": "ransegall",
-      "name": "Ran Segall",
-      "likes": 1013,
-      "retweets": 37,
-      "replies": 46,
-      "created": "Sun Apr 19 04:25:14 +0000 2026",
-      "url": "https://x.com/ransegall/status/2045720353167818940",
-      "source": "Claude Design",
-      "summary_zh": "諷刺 Claude Design 的宣傳：「我只是複製範本、再複製範本，然後得到——範本！Claude Design 太瘋狂了！」點出其產出缺乏原創性的問題。"
+      "summary_zh": "Anthropic 工程師撰寫《Building Effective Agents》的 14 分鐘影片，能教會你如何讓 AI Agents 真正協作，比今年你滑過的所有內容都更有用。"
     }
   ],
   "criteria": {
@@ -293,12 +246,20 @@
   },
   "top_products": [
     {
+      "title": "Tell",
+      "url": "https://www.producthunt.com/products/tell-2",
+      "published": "2026-04-18T20:36:20-07:00",
+      "author": "Will G",
+      "tagline": "Mac widgets, made fun.",
+      "summary_zh": "為 Mac 設計的小工具應用，讓桌面 widgets 的使用體驗更加有趣實用。"
+    },
+    {
       "title": "Fixa.dev",
       "url": "https://www.producthunt.com/products/fixa-dev",
       "published": "2026-04-18T18:16:40-07:00",
       "author": "Etai Gabbai",
       "tagline": "A cloud-native AI agent that can build literally anything",
-      "summary_zh": "一個雲端原生的 AI 代理工具，能夠協助開發者建構各種應用程式與專案。適合需要自動化開發流程的技術團隊使用。"
+      "summary_zh": "雲端原生 AI 代理工具，能夠自動化建構各類專案與應用程式。"
     },
     {
       "title": "Nibbo",
@@ -306,15 +267,7 @@
       "published": "2026-04-18T01:57:49-07:00",
       "author": "Boston",
       "tagline": "Family hub with a 3D pet that grows as you get things done",
-      "summary_zh": "一個家庭協作中心，透過 3D 虛擬寵物來激勵成員完成待辦事項。寵物會隨著任務完成度成長，適合想提升家庭成員參與感的家庭使用。"
-    },
-    {
-      "title": "Tell",
-      "url": "https://www.producthunt.com/products/tell-2",
-      "published": "2026-04-18T20:36:20-07:00",
-      "author": "Will G",
-      "tagline": "Mac widgets, made fun.",
-      "summary_zh": "為 Mac 設計的桌面小工具（widgets）應用，讓桌面資訊顯示更有趣實用。"
+      "summary_zh": "家庭協作中心，透過 3D 虛擬寵物隨著任務完成而成長，增進家庭成員互動。"
     },
     {
       "title": "Creator OS",
@@ -322,7 +275,7 @@
       "published": "2026-04-18T01:13:02-07:00",
       "author": "Jonh Alex",
       "tagline": "Stop missing comments on Instagram.",
-      "summary_zh": "協助內容創作者管理 Instagram 留言的工具，避免遺漏粉絲互動。適合需要經營社群的創作者與品牌使用。"
+      "summary_zh": "專為內容創作者設計的工具，協助追蹤管理 Instagram 留言，避免遺漏互動。"
     },
     {
       "title": "Grok Voice API",
@@ -330,7 +283,7 @@
       "published": "2026-04-17T23:11:31-07:00",
       "author": "Zac Zuo",
       "tagline": "Fast, accurate STT and TTS APIs at the best price",
-      "summary_zh": "提供快速準確的語音轉文字（STT）與文字轉語音（TTS）API 服務，主打高性價比。適合需要整合語音功能的開發者使用。"
+      "summary_zh": "提供快速準確的語音轉文字（STT）與文字轉語音（TTS）API 服務，價格具競爭力。"
     }
   ]
 }

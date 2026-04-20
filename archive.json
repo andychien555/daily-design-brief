@@ -2,15 +2,16 @@
   {
     "date": "2026-04-20",
     "date_display": "2026 年 04 月 20 日",
-    "generated_at": "2026-04-20T12:12:38.833989+08:00",
-    "total": 15,
+    "generated_at": "2026-04-20T12:20:33.961806+08:00",
+    "total": 13,
     "sources": [
       "AI Product",
       "Anthropic",
       "Claude Design",
-      "Vibe Coding"
+      "Design",
+      "Product Management"
     ],
-    "headline": "Anthropic 在無預警下封鎖一整間公司（60+ 員工）的 Claude 存取權限，未提供解釋，僅能透過 Google 表單申訴；所有整合、對話歷史全部消失。原推文作者強調不應讓單一供應商控制關鍵工作流程。"
+    "headline": "Anthropic 在未給理由的情況下直接封禁一家 60 人付費組織帳號，全交由自動化系統處理且無人工審查管道，顯示出對企業客戶支援的輕忽態度。"
   },
   {
     "date": "2026-04-19",
