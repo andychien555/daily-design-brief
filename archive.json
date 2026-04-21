@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-21",
+    "date_display": "2026 年 04 月 21 日",
+    "generated_at": "2026-04-21T08:28:35.701999+08:00",
+    "total": 15,
+    "sources": [
+      "Anthropic",
+      "Claude Design",
+      "Design",
+      "UX Design",
+      "Vibe Coding"
+    ],
+    "headline": "Anthropic Claude Code 負責人分享他已數月未手寫程式碼，兩天內靠 AI 完成 49 項功能。他公開 30 分鐘演講詳述具體作法，被認為比付費課程更有價值。"
+  },
+  {
     "date": "2026-04-20",
     "date_display": "2026 年 04 月 20 日",
     "generated_at": "2026-04-20T12:20:33.961806+08:00",
