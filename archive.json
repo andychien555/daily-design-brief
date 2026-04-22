@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-04-22",
+    "date_display": "2026 年 04 月 22 日",
+    "generated_at": "2026-04-22T08:28:34.529820+08:00",
+    "total": 15,
+    "sources": [
+      "AI Product",
+      "Anthropic",
+      "Claude Design",
+      "Growth",
+      "Product Management",
+      "UX Design",
+      "Vibe Coding"
+    ],
+    "headline": "DHH 在 Pragmatic Engineer 訪談中承認過去 20 年對產品管理的輕視是錯的，當 AI 能寫程式後，真正重要的反而是決定要做什麼、怎麼做、該跟哪些客戶對話等 PM 核心能力。"
+  },
+  {
     "date": "2026-04-21",
     "date_display": "2026 年 04 月 21 日",
     "generated_at": "2026-04-21T08:28:35.701999+08:00",
