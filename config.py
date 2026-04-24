@@ -22,6 +22,8 @@ SEARCH_QUERIES = [
     {"label": "Claude",             "query": "claude",             "min_likes": 300},
     {"label": "OpenAI",             "query": "openai",             "min_likes": 300},
     {"label": "Gemini",             "query": "gemini",             "min_likes": 300},
+    {"label": "Tech Hiring",        "query": "tech hiring",        "min_likes": 2000},
+    {"label": "Job Market",         "query": "job market",         "min_likes": 2000},
 ]
 
 # ── Product Hunt ingestion ─────────────────────────────────────────
