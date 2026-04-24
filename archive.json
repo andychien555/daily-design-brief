@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-04-24",
+    "date_display": "2026 年 04 月 24 日",
+    "generated_at": "2026-04-24T08:28:37.452802+08:00",
+    "total": 15,
+    "sources": [
+      "Claude",
+      "Gemini",
+      "OpenAI"
+    ],
+    "headline": "OpenAI 推出 GPT-5.5，強調新一代智能可理解複雜目標、使用工具、自我檢查並完成更多任務，現已在 ChatGPT 與 Codex 上線。"
+  },
+  {
     "date": "2026-04-23",
     "date_display": "2026 年 04 月 23 日",
     "generated_at": "2026-04-23T08:28:35.839908+08:00",

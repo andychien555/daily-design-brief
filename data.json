@@ -1,21 +1,21 @@
 {
-  "date": "2026-04-23",
-  "date_display": "2026 年 04 月 23 日",
-  "generated_at": "2026-04-23T08:28:35.839908+08:00",
-  "since_date": "2026-04-21",
+  "date": "2026-04-24",
+  "date_display": "2026 年 04 月 24 日",
+  "generated_at": "2026-04-24T08:28:37.452802+08:00",
+  "since_date": "2026-04-22",
   "top_tweets": [
     {
-      "id": "2046624729403142320",
-      "text": "Today, we’re open-sourcing the draft specification for DESIGN.md, so it can be used across any tool or platform. We’re also adding new capabilities.\n\nDESIGN.md lets you easily export and import your design rules from project to project. Instead of guessing intent, agents know https://t.co/lTSaq23jfd",
-      "author": "stitchbygoogle",
-      "name": "Stitch by Google",
-      "likes": 11225,
-      "retweets": 1182,
-      "replies": 140,
-      "created": "Tue Apr 21 16:18:54 +0000 2026",
-      "url": "https://x.com/stitchbygoogle/status/2046624729403142320",
-      "source": "Design",
-      "summary_zh": "Google 開源 DESIGN.md 規格，讓設計規則可在不同工具間匯入匯出，AI agents 能直接理解設計意圖而不需猜測，現已新增多項功能。",
+      "id": "2047376561205325845",
+      "text": "Introducing GPT-5.5\n\nA new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done.\n\nNow available in ChatGPT and Codex. https://t.co/rPLTk99ZH5",
+      "author": "OpenAI",
+      "name": "OpenAI",
+      "likes": 36461,
+      "retweets": 5081,
+      "replies": 1719,
+      "created": "Thu Apr 23 18:06:25 +0000 2026",
+      "url": "https://x.com/OpenAI/status/2047376561205325845",
+      "source": "OpenAI",
+      "summary_zh": "OpenAI 推出 GPT-5.5，強調新一代智能可理解複雜目標、使用工具、自我檢查並完成更多任務，現已在 ChatGPT 與 Codex 上線。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -25,30 +25,17 @@
       }
     },
     {
-      "id": "2047006548149289017",
-      "text": "Last month, we published our look into what 81,000 people told us they want from AI.\n\nIn new research, we’ve investigated the economic hopes and worries referenced in their responses.\n\nRead more: https://t.co/PtKjamGmfg",
-      "author": "AnthropicAI",
-      "name": "Anthropic",
-      "likes": 1468,
-      "retweets": 132,
-      "replies": 135,
-      "created": "Wed Apr 22 17:36:07 +0000 2026",
-      "url": "https://x.com/AnthropicAI/status/2047006548149289017",
-      "source": "Anthropic",
-      "summary_zh": "Anthropic 發布新研究，深入分析 81,000 名使用者對 AI 的回應中提及的經濟期待與擔憂。"
-    },
-    {
-      "id": "2046805336137294294",
-      "text": "Claude is really good at doing corporate y2k boringpunk web design. https://t.co/zQRVE3aclt",
-      "author": "zetalyrae",
-      "name": "Fernando 🌺🌌",
-      "likes": 4646,
-      "retweets": 200,
-      "replies": 110,
-      "created": "Wed Apr 22 04:16:34 +0000 2026",
-      "url": "https://x.com/zetalyrae/status/2046805336137294294",
-      "source": "Design",
-      "summary_zh": "Claude 在企業風格 Y2K boringpunk 網頁設計上表現特別出色。",
+      "id": "2047008987665809771",
+      "text": "Introducing workspace agents in ChatGPT—shared agents that can handle complex tasks and long-running workflows across tools and teams. https://t.co/eHplfXCWlk",
+      "author": "OpenAI",
+      "name": "OpenAI",
+      "likes": 17001,
+      "retweets": 1653,
+      "replies": 720,
+      "created": "Wed Apr 22 17:45:48 +0000 2026",
+      "url": "https://x.com/OpenAI/status/2047008987665809771",
+      "source": "OpenAI",
+      "summary_zh": "OpenAI 推出 ChatGPT workspace agents，可跨工具與團隊處理複雜任務與長時間工作流程。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -58,57 +45,17 @@
       }
     },
     {
-      "id": "2046560605839253527",
-      "text": "🚨 Anthropic's CEO: \"software engineering will be fully automated in 12 months.\"\n\ntwo types of people right now:\n\ntype 1: uses Claude Code with basic prompts. scared about the future.\n\ntype 2: knows all 35 commands, tricks, and workflows. ships faster than a team of 5.\n\ntype 1 https://t.co/VodqmvAkPl",
-      "author": "eng_khairallah1",
-      "name": "Khairallah AL-Awady",
-      "likes": 4439,
-      "retweets": 563,
-      "replies": 180,
-      "created": "Tue Apr 21 12:04:06 +0000 2026",
-      "url": "https://x.com/eng_khairallah1/status/2046560605839253527",
-      "source": "Anthropic",
-      "summary_zh": "Anthropic CEO 預測軟體工程將在 12 個月內全自動化；掌握 Claude Code 全部 35 個指令和工作流的人，能以一人抵五人團隊的速度交付產品。",
-      "context": {
-        "quoted_text": "https://t.co/DJJr3suHS4",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2046609447334629807",
-      "text": "🚨 Anthropic's own team just showed how to actually use Claude Code properly.\n\n25 minutes. free. from the people who built it.\n\nwatch the workshop. bookmark it.\n\nyou've been using Claude for months without knowing the commands.\n\nThen read the guide below.\nhttps://t.co/dj7KdSdrNu",
-      "author": "eng_khairallah1",
-      "name": "Khairallah AL-Awady",
-      "likes": 4274,
-      "retweets": 562,
-      "replies": 66,
-      "created": "Tue Apr 21 15:18:11 +0000 2026",
-      "url": "https://x.com/eng_khairallah1/status/2046609447334629807",
-      "source": "Anthropic",
-      "summary_zh": "Anthropic 官方團隊釋出 25 分鐘免費工作坊，由開發者親自示範 Claude Code 的正確使用方式與完整指令集。",
-      "context": {
-        "quoted_text": "https://t.co/DJJr3suHS4",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2046760079622549603",
-      "text": "anthropic went 0 → ~$350B in like 4 yrs. \n\nemployee #200 is getting outcomes that historically required being employee #20 at google.",
-      "author": "signulll",
-      "name": "signüll",
-      "likes": 3130,
-      "retweets": 59,
-      "replies": 48,
-      "created": "Wed Apr 22 01:16:44 +0000 2026",
-      "url": "https://x.com/signulll/status/2046760079622549603",
-      "source": "Anthropic",
-      "summary_zh": "Anthropic 四年內從零成長至約 3500 億美元估值，第 200 號員工獲得的回報相當於過去 Google 第 20 號員工的水準。",
+      "id": "2047371123185287223",
+      "text": "Over the past month, some of you reported Claude Code's quality had slipped. We investigated, and published a post-mortem on the three issues we found.\n\nAll are fixed in v2.1.116+ and we’ve reset usage limits for all subscribers.",
+      "author": "ClaudeDevs",
+      "name": "ClaudeDevs",
+      "likes": 27724,
+      "retweets": 1873,
+      "replies": 1434,
+      "created": "Thu Apr 23 17:44:48 +0000 2026",
+      "url": "https://x.com/ClaudeDevs/status/2047371123185287223",
+      "source": "Claude",
+      "summary_zh": "Claude Code 團隊公開過去一個月品質問題的事後報告，三個問題已在 v2.1.116+ 修復，並重置所有訂戶使用額度。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -118,121 +65,174 @@
       }
     },
     {
-      "id": "2046938620100231661",
-      "text": "&gt; be Cursor\n&gt; start as a code editor\n&gt; get valued at ~$10B\n&gt; realize that’s not enough and move into models\n&gt; now competing with OpenAI, Anthropic, and Google\n&gt; run into the real bottleneck \n&gt; need massive compute but competitors control it\n&gt; stuck depending on the same companies https://t.co/6p9XWVIZtW",
-      "author": "cgtwts",
-      "name": "CG",
-      "likes": 1773,
-      "retweets": 61,
-      "replies": 46,
-      "created": "Wed Apr 22 13:06:11 +0000 2026",
-      "url": "https://x.com/cgtwts/status/2046938620100231661",
-      "source": "Anthropic",
-      "summary_zh": "Cursor 從程式碼編輯器起步、估值達 100 億美元後，現正轉向模型開發與 OpenAI、Anthropic、Google 競爭，但運算資源仍受制於這些競爭對手。"
+      "id": "2047383764347572389",
+      "text": "Claude can now connect to more of the apps you use outside of work, including @Tripadvisor, @bookingcom, @resy, @Instacart, @Spotify, @audible_com, @AllTrails, @thumbtack, Intuit @turbotax, and more. https://t.co/SmQcIdwDWi",
+      "author": "claudeai",
+      "name": "Claude",
+      "likes": 8393,
+      "retweets": 487,
+      "replies": 410,
+      "created": "Thu Apr 23 18:35:02 +0000 2026",
+      "url": "https://x.com/claudeai/status/2047383764347572389",
+      "source": "Claude",
+      "summary_zh": "Claude 現可連接更多生活類應用，包括 Tripadvisor、Booking.com、Resy、Instacart、Spotify、Audible 等第三方服務。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
     },
     {
-      "id": "2046399787294224790",
-      "text": "Anthropic should've shipped this Ultimate Guide last Friday.\n\nTheir new Claude Design platform is literally the most powerful AI design tool ever created.\n\nYet nobody is talking about how powerful it actually is.\n\nI spent the weekend testing every capability.\n\nThe Ultimate Guide:",
-      "author": "milesdeutscher",
-      "name": "Miles Deutscher",
-      "likes": 1189,
-      "retweets": 86,
-      "replies": 44,
-      "created": "Tue Apr 21 01:25:04 +0000 2026",
-      "url": "https://x.com/milesdeutscher/status/2046399787294224790",
-      "source": "Anthropic",
-      "summary_zh": "作者測試 Claude Design 後認為它是目前最強大的 AI 設計工具，並整理出完整使用指南。"
+      "id": "2047047633416397076",
+      "text": "Interactive charts and diagrams are now in Claude Cowork.\n\nAvailable in beta on all paid plans.",
+      "author": "claudeai",
+      "name": "Claude",
+      "likes": 7152,
+      "retweets": 499,
+      "replies": 269,
+      "created": "Wed Apr 22 20:19:22 +0000 2026",
+      "url": "https://x.com/claudeai/status/2047047633416397076",
+      "source": "Claude",
+      "summary_zh": "Claude Cowork 現支援互動式圖表與圖解功能，已在所有付費方案的 beta 版開放。引用推文指出此功能已在免費版開放。",
+      "context": {
+        "quoted_text": "Claude can now build interactive charts and diagrams, directly in the chat.\n\nAvailable today in beta on all plans, including free.\n\nTry it out: http://claude.ai  ",
+        "quoted_author": "claudeai",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
     },
     {
-      "id": "2046541741239709945",
-      "text": "🚨 Stop using Claude Design like a toy.\n\n“make a UI”\n“design a page”\n“create a prototype”\n\nThat’s beginner mode.\n\nYou’re sitting on something that can replace entire design workflows.\n\nUsed right, Claude Design isn’t Figma’s competitor.\n\nIt’s its replacement.\n\nHere are 10 https://t.co/tM7vGLSLZC",
-      "author": "NainsiDwiv50980",
-      "name": "Nainsi Dwivedi",
-      "likes": 993,
-      "retweets": 127,
-      "replies": 20,
-      "created": "Tue Apr 21 10:49:08 +0000 2026",
-      "url": "https://x.com/NainsiDwiv50980/status/2046541741239709945",
-      "source": "Claude Design",
-      "summary_zh": "作者主張不要把 Claude Design 當作玩具，正確使用它不是 Figma 的競爭者，而是替代品，並分享 10 個進階工作流。"
+      "id": "2047421844311949513",
+      "text": "Memory on Claude Managed Agents is now in public beta.\n\nYour agents can now learn from every session, using an intelligence-optimized memory layer that balances performance with flexibility. https://t.co/P7GjOYPqCz",
+      "author": "claudeai",
+      "name": "Claude",
+      "likes": 3970,
+      "retweets": 266,
+      "replies": 170,
+      "created": "Thu Apr 23 21:06:21 +0000 2026",
+      "url": "https://x.com/claudeai/status/2047421844311949513",
+      "source": "Claude",
+      "summary_zh": "Claude Managed Agents 的記憶功能進入公開 beta，Agent 可從每次對話學習，使用智能優化的記憶層平衡效能與彈性。"
     },
     {
-      "id": "2046591491066478619",
-      "text": "Claude design is cool but nobody is talking about how Gemini 3.1 Pro is a beast at motion design\n\nOnly one prompt to turn an HTML into motion graphics https://t.co/3BsUpGzdjS",
-      "author": "MengTo",
-      "name": "Meng To",
-      "likes": 941,
-      "retweets": 52,
-      "replies": 18,
-      "created": "Tue Apr 21 14:06:49 +0000 2026",
-      "url": "https://x.com/MengTo/status/2046591491066478619",
-      "source": "Claude Design",
-      "summary_zh": "作者認為 Gemini 3.1 Pro 在動態設計方面表現驚人，僅需一個 prompt 就能將 HTML 轉為動態圖形。"
+      "id": "2047086372666921217",
+      "text": "New blog: Building agents that reach production systems with MCP.\n\nWhen should agents use direct APIs vs CLIs vs MCP? Plus patterns for building MCP servers, context-efficient clients and pairing MCP with skills.\n\nhttps://t.co/JEogw5vWly",
+      "author": "ClaudeDevs",
+      "name": "ClaudeDevs",
+      "likes": 3026,
+      "retweets": 286,
+      "replies": 78,
+      "created": "Wed Apr 22 22:53:18 +0000 2026",
+      "url": "https://x.com/ClaudeDevs/status/2047086372666921217",
+      "source": "Claude",
+      "summary_zh": "Claude 團隊發布如何用 MCP 建構可達生產系統的 Agent 技術文章，探討何時使用 API/CLI/MCP，以及建構 MCP server 的模式。"
     },
     {
-      "id": "2046642880522211706",
-      "text": "Claude Cowork + Seedance 2.0 is f*cking wild 🤯\n\nI built a skill inside Claude Cowork that generates UGC video ads on demand using Seedance 2.0, the best AI video model.\n\nOne product image + one prompt = a full UGC ad with multiple shots, dialogue, and on-brand pacing.\n\nAll https://t.co/CXD8AcfXrC",
+      "id": "2047377079352877534",
+      "text": "GPT-5.5 is here.\n\nIt’s our smartest frontier model yet, introducing a new class of intelligence for agentic coding, computer use, knowledge work, and scientific research.\n\nRolling out in ChatGPT and Codex today. API is coming soon. https://t.co/KS3Q0hB4bG",
+      "author": "OpenAIDevs",
+      "name": "OpenAI Developers",
+      "likes": 4457,
+      "retweets": 466,
+      "replies": 162,
+      "created": "Thu Apr 23 18:08:28 +0000 2026",
+      "url": "https://x.com/OpenAIDevs/status/2047377079352877534",
+      "source": "OpenAI",
+      "summary_zh": "OpenAI 宣布 GPT-5.5 是目前最聰明的前沿模型，針對 agentic coding、電腦操作、知識工作與科學研究帶來新一級智能，已在 ChatGPT 與 Codex 上線。"
+    },
+    {
+      "id": "2047381283358355706",
+      "text": "With GPT-5.5, Codex now gets more of the job done across the browser, files, docs, and your computer.\n\nWe've expanded browser use so Codex can interact with web apps, and test flows, click through pages, capture screenshots, and iterate on what it sees until it completes the https://t.co/rUguNHIcIB",
+      "author": "OpenAIDevs",
+      "name": "OpenAI Developers",
+      "likes": 3003,
+      "retweets": 246,
+      "replies": 81,
+      "created": "Thu Apr 23 18:25:11 +0000 2026",
+      "url": "https://x.com/OpenAIDevs/status/2047381283358355706",
+      "source": "OpenAI",
+      "summary_zh": "GPT-5.5 讓 Codex 能跨瀏覽器、檔案、文件與電腦完成更多工作，擴展瀏覽器操作能力，可與網頁應用互動、測試流程、截圖並迭代至完成。"
+    },
+    {
+      "id": "2047019993439850631",
+      "text": "Claude Code + ChatGPT Images 2.0 is f*cking cracked 🤯\n\nI rebuilt my static ad system inside Claude Code on the new ChatGPT Images 2.0 model.\n\nOne brand name + one URL = 40 production-ready static ads.\n\nAll inside Claude Code.\n\nPerfect for DTC brands and agencies who need https://t.co/n4xPKDnb5I",
       "author": "mikefutia",
       "name": "Mike Futia",
-      "likes": 937,
-      "retweets": 66,
-      "replies": 573,
-      "created": "Tue Apr 21 17:31:02 +0000 2026",
-      "url": "https://x.com/mikefutia/status/2046642880522211706",
-      "source": "AI Product",
-      "summary_zh": "作者在 Claude Cowork 中建立技能，結合 Seedance 2.0 AI 影片模型，僅用一張產品圖與一段 prompt 就能自動生成完整 UGC 廣告影片，包含多個鏡頭、對話與節奏。"
+      "likes": 2267,
+      "retweets": 110,
+      "replies": 1263,
+      "created": "Wed Apr 22 18:29:32 +0000 2026",
+      "url": "https://x.com/mikefutia/status/2047019993439850631",
+      "source": "Claude",
+      "summary_zh": "作者用 Claude Code + ChatGPT Images 2.0 重建靜態廣告系統，只需品牌名稱與 URL 即可產生 40 組生產級靜態廣告，適合 DTC 品牌與代理商。"
     },
     {
-      "id": "2047069618460635316",
-      "text": "My design 🆚 ChatGPT\n\nI am not afraid for my job 🤣 https://t.co/ry4MlnQrRo",
-      "author": "theootu",
-      "name": "theo 👨‍🎨",
-      "likes": 927,
-      "retweets": 11,
-      "replies": 92,
-      "created": "Wed Apr 22 21:46:44 +0000 2026",
-      "url": "https://x.com/theootu/status/2047069618460635316",
-      "source": "Design",
-      "summary_zh": "設計師分享自己的設計與 ChatGPT 生成結果對比，表示並不擔心工作被取代。"
+      "id": "2047022753652621693",
+      "text": "This entire interface is an SVG made with Deep Think mode in Gemini.\n\nSee how to make your own complex animations 👇 https://t.co/lcMYpAU38T",
+      "author": "GeminiApp",
+      "name": "Google Gemini",
+      "likes": 3860,
+      "retweets": 291,
+      "replies": 90,
+      "created": "Wed Apr 22 18:40:30 +0000 2026",
+      "url": "https://x.com/GeminiApp/status/2047022753652621693",
+      "source": "Gemini",
+      "summary_zh": "Gemini Deep Think 模式可生成整套複雜 SVG 動畫介面，展示如何使用 AI 製作自訂動畫效果。"
     },
     {
-      "id": "2046783496191082940",
-      "text": "every AI lab picked a different war today\n\nAnthropic: lets mistakenly vibe code a $100/mo minimum for Claude Code\n\nOpenAI: a new image model for creatives\n\nSpaceX: maybe acquiring Cursor, $60B\n\nGoogle: open sourced DESIGN .md\n\nthis all happened just today.\n\nit is only Tuesday 🤣 https://t.co/L3HMEKF9sn",
-      "author": "kloss_xyz",
-      "name": "klöss",
-      "likes": 926,
-      "retweets": 30,
-      "replies": 35,
-      "created": "Wed Apr 22 02:49:47 +0000 2026",
-      "url": "https://x.com/kloss_xyz/status/2046783496191082940",
-      "source": "Claude Design",
-      "summary_zh": "作者總結各大 AI 實驗室在同一天的重大動作：Anthropic 推出 Claude Code 訂閱、OpenAI 發布新圖像模型、SpaceX 可能收購 Cursor、Google 開源 DESIGN.md，這一切都發生在週二。"
+      "id": "2047381460437635313",
+      "text": "I'm a manager at @OpenAI, but with GPT-5.5 I'm a more effective IC than I've ever been. I can now write CUDA kernels like a pro. I can rely on it to run my research experiments. And we know how to make it much more powerful from here. https://t.co/6n2uAYCtTf",
+      "author": "polynoamial",
+      "name": "Noam Brown",
+      "likes": 2225,
+      "retweets": 128,
+      "replies": 73,
+      "created": "Thu Apr 23 18:25:53 +0000 2026",
+      "url": "https://x.com/polynoamial/status/2047381460437635313",
+      "source": "OpenAI",
+      "summary_zh": "OpenAI 經理分享 GPT-5.5 讓他作為 IC 比以往更有效率，能像專家一樣寫 CUDA kernel、執行研究實驗，且團隊知道如何讓它更強大。"
     },
     {
-      "id": "2046518919943336209",
-      "text": "If I had to lock in for 6 months as a beginner in Project/Product Management, here’s exactly what I would do to get seen and increase my earning potential:",
-      "author": "tolu_oguntayo",
-      "name": "Tee Extra 💅🏾",
-      "likes": 1185,
-      "retweets": 109,
-      "replies": 5,
-      "created": "Tue Apr 21 09:18:27 +0000 2026",
-      "url": "https://x.com/tolu_oguntayo/status/2046518919943336209",
-      "source": "Product Management",
-      "summary_zh": "作者分享如果重新開始學習 Product/Project Management，會如何在 6 個月內提升能見度與收入潛力的具體計畫。"
+      "id": "2047149684611780721",
+      "text": "It's only been just over 24 hours since OpenAI dropped ChatGPT Images 2.0.\n\nAnd people can't stop getting creative with it.\n\n10 wild examples:",
+      "author": "minchoi",
+      "name": "Min Choi",
+      "likes": 3911,
+      "retweets": 221,
+      "replies": 110,
+      "created": "Thu Apr 23 03:04:53 +0000 2026",
+      "url": "https://x.com/minchoi/status/2047149684611780721",
+      "source": "OpenAI",
+      "summary_zh": "OpenAI 推出 ChatGPT Images 2.0 後 24 小時內，使用者已創作大量創意案例，文章整理十個令人驚豔的應用實例。"
     },
     {
-      "id": "2046715514387660904",
-      "text": "Marketing Skills v1.8.0 is out.\n\nWhat shipped:\n\n🆕 /directory-submissions — Product Hunt, G2, AI directories, and backlink strategy. Launch playbooks, listing optimization, and submission tracking.\n\n🆕 /competitor-profiling — competitive intelligence research. Market positioning https://t.co/cFPTsbK1zL",
-      "author": "coreyhainesco",
-      "name": "Corey Haines",
-      "likes": 1128,
-      "retweets": 74,
-      "replies": 38,
-      "created": "Tue Apr 21 22:19:39 +0000 2026",
-      "url": "https://x.com/coreyhainesco/status/2046715514387660904",
-      "source": "AI Product",
-      "summary_zh": "Marketing Skills v1.8.0 更新，新增產品目錄提交（Product Hunt、G2、AI 目錄）與競爭者分析功能，包含上線策略、清單優化與市場定位研究。"
+      "id": "2047056309535801605",
+      "text": "80% of US adults who report using Claude in the previous week live in households earning $100,000 or more a year, compared to 37% of Meta AI users.\n\nOther major providers cluster in a relatively narrow band, with 56–64% of users in $100,000+ households. https://t.co/4PJnbqJB8X",
+      "author": "EpochAIResearch",
+      "name": "Epoch AI",
+      "likes": 1917,
+      "retweets": 211,
+      "replies": 70,
+      "created": "Wed Apr 22 20:53:51 +0000 2026",
+      "url": "https://x.com/EpochAIResearch/status/2047056309535801605",
+      "source": "Claude",
+      "summary_zh": "調查顯示 80% 上週使用 Claude 的美國成人來自年收入 10 萬美元以上家庭，Meta AI 僅 37%，其他主要供應商則在 56-64% 之間。"
+    },
+    {
+      "id": "2047195058949259652",
+      "text": "Google has crawled every GitHub repo, every Stack Overflow answer, every documentation page ever written\n\nAnd Gemini still sucks at coding, Explain!!",
+      "author": "Star_Knight12",
+      "name": "Prasenjit",
+      "likes": 3406,
+      "retweets": 97,
+      "replies": 193,
+      "created": "Thu Apr 23 06:05:11 +0000 2026",
+      "url": "https://x.com/Star_Knight12/status/2047195058949259652",
+      "source": "Gemini",
+      "summary_zh": "作者質疑 Google 爬遍所有 GitHub repo、Stack Overflow 解答與文件後，Gemini 程式碼能力仍不佳的原因。"
     }
   ],
   "criteria": {
@@ -240,47 +240,52 @@
       {
         "label": "Design",
         "query": "design",
-        "min_likes": 100
+        "min_likes": 300
       },
       {
         "label": "UX Design",
         "query": "UX design",
-        "min_likes": 100
+        "min_likes": 300
       },
       {
         "label": "UX Research",
         "query": "UX research",
-        "min_likes": 100
+        "min_likes": 300
       },
       {
         "label": "Product Management",
         "query": "product management",
-        "min_likes": 100
+        "min_likes": 300
       },
       {
         "label": "AI Product",
         "query": "AI product",
-        "min_likes": 100
+        "min_likes": 300
       },
       {
         "label": "Vibe Coding",
         "query": "vibe coding",
-        "min_likes": 100
+        "min_likes": 300
       },
       {
         "label": "Growth",
         "query": "growth",
-        "min_likes": 100
+        "min_likes": 300
       },
       {
-        "label": "Claude Design",
-        "query": "claude design",
-        "min_likes": 100
+        "label": "Claude",
+        "query": "claude",
+        "min_likes": 300
       },
       {
-        "label": "Anthropic",
-        "query": "anthropic",
-        "min_likes": 100
+        "label": "OpenAI",
+        "query": "openai",
+        "min_likes": 300
+      },
+      {
+        "label": "Gemini",
+        "query": "gemini",
+        "min_likes": 300
       }
     ],
     "since_days": 2,
@@ -300,52 +305,52 @@
   },
   "top_products": [
     {
-      "title": "Seeknal",
-      "url": "https://www.producthunt.com/products/seeknal",
-      "published": "2026-04-21T09:02:49-07:00",
-      "author": "Fitra Kacamarga",
-      "tagline": "Data & AI/ML CLI for pipelines and NL queries",
-      "summary_zh": "專為資料工程師與資料科學家設計的命令列工具，支援建立資料管線與使用自然語言查詢進行 AI/ML 作業。"
+      "title": "Speakmac",
+      "url": "https://www.producthunt.com/products/speakmac",
+      "published": "2026-04-22T03:30:26-07:00",
+      "author": "Kiran Jd",
+      "tagline": "Private voice typing for Mac that works anywhere",
+      "summary_zh": "Mac 平台的私密語音輸入工具，可在任何應用程式中使用。適合需要在本機進行語音轉文字的使用者。"
     },
     {
-      "title": "Cavalry Studio",
-      "url": "https://www.producthunt.com/products/cavalry-2",
-      "published": "2026-04-21T04:15:49-07:00",
-      "author": "Adithya Shreshti",
-      "tagline": "Free Motion Design tool by Canva",
-      "summary_zh": "由 Canva 推出的免費動態設計工具，讓設計師與動畫師可以製作動態圖形與動畫內容。"
+      "title": "Talk to Review",
+      "url": "https://www.producthunt.com/products/talk-to-review",
+      "published": "2026-04-22T03:27:26-07:00",
+      "author": "Jack Butcher",
+      "tagline": "Real reviews in 10 seconds.",
+      "summary_zh": "透過語音快速生成評論的工具，10 秒內即可完成真實評論。適合需要快速撰寫產品或服務評價的使用者。"
     },
     {
-      "title": "Iris Studio",
-      "url": "https://www.producthunt.com/products/iris-studio",
-      "published": "2026-04-21T01:18:54-07:00",
-      "author": "Ibrahim Yaacob",
-      "tagline": "The Swiss Army Knife for AI & Video Creators",
-      "summary_zh": "為 AI 與影片創作者提供的多功能工作平台，整合多種創作與編輯工具於一身。"
+      "title": "Blink AI CFO",
+      "url": "https://www.producthunt.com/products/blink-21",
+      "published": "2026-04-21T19:36:26-07:00",
+      "author": "Garry Tan",
+      "tagline": "AI CFO that autonomously trades stocks and options via Slack",
+      "summary_zh": "透過 Slack 自主執行股票與選擇權交易的 AI 財務長工具，為使用者提供自動化投資決策與執行服務。"
     },
     {
-      "title": "Wrangle",
-      "url": "https://www.producthunt.com/products/wrangle-4",
-      "published": "2026-04-21T19:20:47-07:00",
-      "author": "John Kreisher",
-      "tagline": "The markdown editor that understands CLAUDE.md",
-      "summary_zh": "支援 CLAUDE.md 格式的 Markdown 編輯器，專為需要與 Claude AI 協作的開發者與寫作者設計。"
+      "title": "Fabric CLI",
+      "url": "https://www.producthunt.com/products/fabric-6",
+      "published": "2026-04-22T07:49:38-07:00",
+      "author": "johnny makes ⚡️",
+      "tagline": "Make notes, tasks, and search, directly from the terminal.",
+      "summary_zh": "在終端機直接建立筆記、任務與搜尋的命令列工具。適合習慣使用終端機作業的開發者與進階使用者。"
     },
     {
-      "title": "Kyohansha",
-      "url": "https://www.producthunt.com/products/kyohansha",
-      "published": "2026-04-21T12:07:16-07:00",
-      "author": "Gyanendra Thakur",
-      "tagline": "Web-based 60FPS Live2D AI with Lite-RAG long-term memory",
-      "summary_zh": "基於瀏覽器的 60FPS Live2D AI 角色系統，搭載 Lite-RAG 長期記憶功能，適合互動應用開發者使用。"
+      "title": "Foil AI Code Security",
+      "url": "https://www.producthunt.com/products/foil-ai-code-scanner",
+      "published": "2026-04-22T05:35:54-07:00",
+      "author": "Vito Rallo",
+      "tagline": "AI code security review that runs entirely on your Mac",
+      "summary_zh": "完全在 Mac 本機運行的 AI 程式碼安全審查工具，無需將程式碼上傳至雲端即可進行安全檢測。"
     },
     {
-      "title": "ConsoleMini",
-      "url": "https://www.producthunt.com/products/consolemini",
-      "published": "2026-04-21T20:43:57-07:00",
-      "author": "moamen basel",
-      "tagline": "Turn a Mac mini into a living-room retro/PS console",
-      "summary_zh": "讓 Mac mini 變身為客廳復古遊戲機與 PlayStation 模擬主機的軟體解決方案。"
+      "title": "Agent Context",
+      "url": "https://www.producthunt.com/products/agent-context",
+      "published": "2026-04-22T14:02:10-07:00",
+      "author": "gareth marland",
+      "tagline": "Attach reference projects for AI coding tools",
+      "summary_zh": "為 AI 編程工具附加參考專案的輔助工具，幫助 AI 更準確理解專案脈絡與編碼需求。"
     }
   ]
 }
