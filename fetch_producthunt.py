@@ -21,6 +21,8 @@ from config import (
 )
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
+PRODUCTHUNT_API_TOKEN = os.environ.get("PRODUCTHUNT_API_TOKEN")
+PH_GRAPHQL_URL = "https://api.producthunt.com/v2/api/graphql"
 NS = {"a": "http://www.w3.org/2005/Atom"}
 
 
@@ -51,14 +53,79 @@ def parse_entries(xml_text: str) -> list[dict]:
         author = (entry.findtext("a:author/a:name", default="", namespaces=NS) or "").strip()
         content_html = entry.findtext("a:content", default="", namespaces=NS) or ""
         tagline = extract_tagline(content_html)
+        id_raw = entry.findtext("a:id", default="", namespaces=NS) or ""
+        m = re.search(r"Post/(\d+)", id_raw)
+        post_id = m.group(1) if m else ""
         out.append({
             "title": title,
             "url": link,
             "published": published,
             "author": author,
             "tagline": tagline,
+            "post_id": post_id,
         })
     return out
+
+
+def fetch_thumbnails(products: list[dict]) -> list[dict]:
+    """Batch-query Product Hunt GraphQL for thumbnail URLs."""
+    if not products:
+        return products
+    if not PRODUCTHUNT_API_TOKEN:
+        print("  [info] PRODUCTHUNT_API_TOKEN not set — leaving images blank")
+        return products
+
+    with_id = [p for p in products if p.get("post_id")]
+    if not with_id:
+        return products
+
+    aliased = " ".join(
+        f'p{i}: post(id: {p["post_id"]}) {{ id thumbnail {{ url }} media {{ url type }} }}'
+        for i, p in enumerate(with_id)
+    )
+    query = f"{{ {aliased} }}"
+
+    try:
+        with httpx.Client(timeout=30) as c:
+            r = c.post(
+                PH_GRAPHQL_URL,
+                headers={
+                    "Authorization": f"Bearer {PRODUCTHUNT_API_TOKEN}",
+                    "Content-Type": "application/json",
+                },
+                json={"query": query},
+            )
+            r.raise_for_status()
+            payload = r.json()
+    except Exception as e:
+        print(f"  [warn] PH GraphQL fetch failed: {e}")
+        return products
+
+    def with_size(url: str, params: str) -> str:
+        if not url:
+            return ""
+        sep = "&" if "?" in url else "?"
+        return f"{url}{sep}{params}"
+
+    data = payload.get("data") or {}
+    filled = 0
+    hero_filled = 0
+    for i, p in enumerate(with_id):
+        node = data.get(f"p{i}") or {}
+        thumb = (node.get("thumbnail") or {}).get("url") or ""
+        if thumb:
+            p["image_url"] = with_size(thumb, "w=160&h=160&fit=crop")
+            filled += 1
+        media_list = node.get("media") or []
+        hero = next(
+            (m.get("url") for m in media_list if m.get("type") == "image" and m.get("url")),
+            "",
+        )
+        if hero:
+            p["hero_url"] = with_size(hero, "w=960&h=540&fit=crop")
+            hero_filled += 1
+    print(f"  🖼  thumbs {filled}/{len(with_id)} · heroes {hero_filled}/{len(with_id)}")
+    return products
 
 
 def filter_recent(items: list[dict], window_days: int) -> list[dict]:
@@ -149,6 +216,9 @@ def main():
 
     for p in top:
         p["summary_zh"] = ""
+        p["image_url"] = ""
+        p["hero_url"] = ""
+    top = fetch_thumbnails(top)
     top = summarize_with_claude(top)
 
     data_path = "data.json"

@@ -132,22 +132,40 @@ def product_card(product: dict, rank: int) -> str:
     summary = esc(product.get("summary_zh", ""))
     url = product.get("url", "") or "https://www.producthunt.com/"
     author = esc(product.get("author", ""))
+    image_url = esc(product.get("image_url", ""))
+    hero_url = esc(product.get("hero_url", ""))
 
     tagline_html = f'<p class="ph-tagline">{tagline}</p>' if tagline else ""
     summary_html = f'<p class="ph-summary">{summary}</p>' if summary else ""
     author_html = f'<span class="ph-author">Hunter · {author}</span>' if author else ""
+    icon_html = (
+        f'<img class="ph-thumb" src="{image_url}" alt="" loading="lazy" decoding="async" width="48" height="48">'
+        if image_url else ""
+    )
+    hero_html = (
+        f'<div class="ph-hero"><img src="{hero_url}" alt="" loading="lazy" decoding="async"></div>'
+        if hero_url else '<div class="ph-hero ph-hero-empty"></div>'
+    )
 
     return f"""
     <article class="ph-card">
       <a class="ph-anchor" href="{url}" target="_blank" rel="noopener">
-        <div class="ph-rank">№ {rank:02d}</div>
-        <h3 class="ph-title">{title}</h3>
-        {tagline_html}
-        {summary_html}
-        <div class="ph-foot">
-          <span class="chip chip-ph">Product Hunt</span>
-          {author_html}
-          <span class="ph-arrow" aria-hidden="true">↗</span>
+        {hero_html}
+        <div class="ph-body">
+          <div class="ph-head">
+            {icon_html}
+            <div class="ph-head-text">
+              <div class="ph-rank">№ {rank:02d}</div>
+              <h3 class="ph-title">{title}</h3>
+            </div>
+          </div>
+          {tagline_html}
+          {summary_html}
+          <div class="ph-foot">
+            <span class="chip chip-ph">Product Hunt</span>
+            {author_html}
+            <span class="ph-arrow" aria-hidden="true">↗</span>
+          </div>
         </div>
       </a>
     </article>"""

@@ -618,27 +618,63 @@ STYLES = """  <style>
       color: var(--accent);
     }
     .ph-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      display: flex;
+      flex-direction: column;
       gap: 0;
       border-top: 1px solid var(--rule);
       border-left: 1px solid var(--rule);
+      border-right: 1px solid var(--rule);
       margin-bottom: 3rem;
     }
     .ph-card {
-      border-right: 1px solid var(--rule);
       border-bottom: 1px solid var(--rule);
       transition: background .15s;
     }
     .ph-card:hover { background: var(--paper-2); }
     .ph-anchor {
+      display: grid;
+      grid-template-columns: minmax(240px, 38%) 1fr;
+      gap: 0;
+      cursor: pointer;
+      position: relative;
+      min-height: 220px;
+    }
+    .ph-hero {
+      padding: 1.3rem;
+      background: var(--paper);
+      border-right: 1px solid var(--rule);
+      display: flex;
+    }
+    .ph-hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 6px;
+      border: 1px solid var(--rule);
+      transition: transform .3s ease;
+    }
+    .ph-card:hover .ph-hero img { transform: scale(1.02); }
+    .ph-hero-empty {
+      background:
+        repeating-linear-gradient(45deg, var(--paper-2) 0 8px, var(--paper) 8px 16px);
+    }
+    .ph-body {
       display: flex;
       flex-direction: column;
       gap: .55rem;
-      padding: 1.25rem 1.4rem 1.4rem;
-      height: 100%;
-      cursor: pointer;
-      position: relative;
+      padding: 1.3rem 1.5rem 1.4rem;
+    }
+    .ph-head {
+      display: flex;
+      align-items: center;
+      gap: .85rem;
+    }
+    .ph-head-text {
+      display: flex;
+      flex-direction: column;
+      gap: .15rem;
+      min-width: 0;
     }
     .ph-rank {
       font-family: var(--mono);
@@ -646,6 +682,27 @@ STYLES = """  <style>
       letter-spacing: .15em;
       color: var(--accent);
       text-transform: uppercase;
+    }
+    .ph-thumb {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      object-fit: cover;
+      background: var(--paper-2);
+      border: 1px solid var(--rule);
+      flex-shrink: 0;
+    }
+    @media (max-width: 680px) {
+      .ph-anchor {
+        grid-template-columns: 1fr;
+        min-height: 0;
+      }
+      .ph-hero {
+        aspect-ratio: 16 / 9;
+        padding: 1rem;
+        border-right: none;
+        border-bottom: 1px solid var(--rule);
+      }
     }
     .ph-title {
       font-family: var(--serif);
