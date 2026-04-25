@@ -75,6 +75,7 @@ STYLES = """  <style>
       display: grid;
       grid-template-columns: 240px minmax(0, 1fr);
       align-items: start;
+      transition: grid-template-columns .22s ease;
     }
     .page-main { min-width: 0; }
 
@@ -86,6 +87,7 @@ STYLES = """  <style>
       border-right: 1px solid var(--rule);
       padding: 2.25rem 1.25rem 2rem 1.5rem;
       font-size: .78rem;
+      transition: padding .22s ease;
     }
     .archive-rail::-webkit-scrollbar { width: 6px; }
     .archive-rail::-webkit-scrollbar-track { background: transparent; }
@@ -94,19 +96,62 @@ STYLES = """  <style>
     .rail-heading {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
       font-family: var(--mono);
       font-size: .58rem;
       letter-spacing: .18em;
       text-transform: uppercase;
       color: var(--ink-3);
       margin-bottom: 1.1rem;
+      gap: .5rem;
     }
     .rail-heading a {
       color: var(--ink-3);
       transition: color .15s;
     }
     .rail-heading a:hover { color: var(--accent); }
+
+    .rail-toggle {
+      background: none;
+      border: 1px solid var(--rule-2);
+      color: var(--ink-3);
+      width: 22px;
+      height: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: .9rem;
+      line-height: 1;
+      transition: color .15s, border-color .15s;
+      flex-shrink: 0;
+    }
+    .rail-toggle:hover { color: var(--accent); border-color: var(--accent); }
+    .rail-toggle-icon {
+      display: inline-block;
+      transition: transform .22s ease;
+      line-height: 1;
+    }
+
+    html[data-rail="collapsed"] .page-shell {
+      grid-template-columns: 52px minmax(0, 1fr);
+    }
+    html[data-rail="collapsed"] .archive-rail {
+      padding: 2.25rem .5rem 2rem;
+    }
+    html[data-rail="collapsed"] .rail-heading {
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    html[data-rail="collapsed"] .rail-heading-label,
+    html[data-rail="collapsed"] .rail-list {
+      display: none;
+    }
+    html[data-rail="collapsed"] .rail-toggle-icon {
+      transform: rotate(180deg);
+    }
 
     .rail-list { display: flex; flex-direction: column; }
     .rail-loading {
@@ -163,14 +208,20 @@ STYLES = """  <style>
     }
 
     @media (max-width: 980px) {
-      .page-shell { grid-template-columns: 1fr; }
-      .archive-rail {
+      .page-shell,
+      html[data-rail="collapsed"] .page-shell { grid-template-columns: 1fr; }
+      .archive-rail,
+      html[data-rail="collapsed"] .archive-rail {
         position: static;
         max-height: none;
         border-right: none;
         border-bottom: 1px solid var(--rule);
         padding: 1.25rem 1.5rem;
       }
+      .rail-toggle { display: none; }
+      html[data-rail="collapsed"] .rail-heading { justify-content: space-between; margin-bottom: 1.1rem; }
+      html[data-rail="collapsed"] .rail-heading-label,
+      html[data-rail="collapsed"] .rail-list { display: revert; }
     }
 
     /* ─────────────── Masthead ─────────────── */

@@ -5,6 +5,9 @@ THEME_BOOTSTRAP_SCRIPT = """  <script>
       try {
         var t = localStorage.getItem('theme');
         if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+        if (localStorage.getItem('rail-collapsed') === '1') {
+          document.documentElement.dataset.rail = 'collapsed';
+        }
       } catch (e) {}
     })();
   </script>"""
@@ -17,6 +20,23 @@ INTERACTIVE_SCRIPT = """<script>
     });
     var icon = document.querySelector('.theme-icon');
     if (icon) icon.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
+
+    var railToggle = document.querySelector('.rail-toggle');
+    if (railToggle) {
+      var collapsed = document.documentElement.dataset.rail === 'collapsed';
+      railToggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      railToggle.setAttribute('aria-label', collapsed ? '展開側欄' : '收合側欄');
+      railToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var next = document.documentElement.dataset.rail !== 'collapsed';
+        if (next) document.documentElement.dataset.rail = 'collapsed';
+        else delete document.documentElement.dataset.rail;
+        try { localStorage.setItem('rail-collapsed', next ? '1' : '0'); } catch (err) {}
+        railToggle.setAttribute('aria-expanded', next ? 'false' : 'true');
+        railToggle.setAttribute('aria-label', next ? '展開側欄' : '收合側欄');
+      });
+    }
   })();
   function toggleTheme() {
     var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';

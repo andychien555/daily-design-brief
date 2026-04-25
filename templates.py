@@ -23,8 +23,13 @@ def archive_rail_html(active_date: str, base_path: str = "") -> str:
     return f"""
     <aside class="archive-rail" aria-label="歷史存檔"
            data-active="{esc(active_date)}" data-base="{esc(base_path)}">
-      <div class="rail-heading"><span>Archive</span></div>
-      <nav class="rail-list"><div class="rail-loading">載入中…</div></nav>
+      <div class="rail-heading">
+        <span class="rail-heading-label">Archive</span>
+        <button type="button" class="rail-toggle" aria-label="收合側欄" aria-controls="rail-list" aria-expanded="true">
+          <span class="rail-toggle-icon" aria-hidden="true">‹</span>
+        </button>
+      </div>
+      <nav id="rail-list" class="rail-list"><div class="rail-loading">載入中…</div></nav>
     </aside>"""
 
 

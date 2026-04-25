@@ -8,11 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <script>
+<script>
     (function() {
       try {
         var t = localStorage.getItem('theme');
         if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+        if (localStorage.getItem('rail-collapsed') === '1') {
+          document.documentElement.dataset.rail = 'collapsed';
+        }
       } catch (e) {}
     })();
   </script>
@@ -91,6 +94,7 @@
       display: grid;
       grid-template-columns: 240px minmax(0, 1fr);
       align-items: start;
+      transition: grid-template-columns .22s ease;
     }
     .page-main { min-width: 0; }
 
@@ -102,6 +106,7 @@
       border-right: 1px solid var(--rule);
       padding: 2.25rem 1.25rem 2rem 1.5rem;
       font-size: .78rem;
+      transition: padding .22s ease;
     }
     .archive-rail::-webkit-scrollbar { width: 6px; }
     .archive-rail::-webkit-scrollbar-track { background: transparent; }
@@ -110,19 +115,62 @@
     .rail-heading {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
       font-family: var(--mono);
       font-size: .58rem;
       letter-spacing: .18em;
       text-transform: uppercase;
       color: var(--ink-3);
       margin-bottom: 1.1rem;
+      gap: .5rem;
     }
     .rail-heading a {
       color: var(--ink-3);
       transition: color .15s;
     }
     .rail-heading a:hover { color: var(--accent); }
+
+    .rail-toggle {
+      background: none;
+      border: 1px solid var(--rule-2);
+      color: var(--ink-3);
+      width: 22px;
+      height: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: .9rem;
+      line-height: 1;
+      transition: color .15s, border-color .15s;
+      flex-shrink: 0;
+    }
+    .rail-toggle:hover { color: var(--accent); border-color: var(--accent); }
+    .rail-toggle-icon {
+      display: inline-block;
+      transition: transform .22s ease;
+      line-height: 1;
+    }
+
+    html[data-rail="collapsed"] .page-shell {
+      grid-template-columns: 52px minmax(0, 1fr);
+    }
+    html[data-rail="collapsed"] .archive-rail {
+      padding: 2.25rem .5rem 2rem;
+    }
+    html[data-rail="collapsed"] .rail-heading {
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    html[data-rail="collapsed"] .rail-heading-label,
+    html[data-rail="collapsed"] .rail-list {
+      display: none;
+    }
+    html[data-rail="collapsed"] .rail-toggle-icon {
+      transform: rotate(180deg);
+    }
 
     .rail-list { display: flex; flex-direction: column; }
     .rail-loading {
@@ -179,14 +227,20 @@
     }
 
     @media (max-width: 980px) {
-      .page-shell { grid-template-columns: 1fr; }
-      .archive-rail {
+      .page-shell,
+      html[data-rail="collapsed"] .page-shell { grid-template-columns: 1fr; }
+      .archive-rail,
+      html[data-rail="collapsed"] .archive-rail {
         position: static;
         max-height: none;
         border-right: none;
         border-bottom: 1px solid var(--rule);
         padding: 1.25rem 1.5rem;
       }
+      .rail-toggle { display: none; }
+      html[data-rail="collapsed"] .rail-heading { justify-content: space-between; margin-bottom: 1.1rem; }
+      html[data-rail="collapsed"] .rail-heading-label,
+      html[data-rail="collapsed"] .rail-list { display: revert; }
     }
 
     /* ─────────────── Masthead ─────────────── */
@@ -634,27 +688,63 @@
       color: var(--accent);
     }
     .ph-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      display: flex;
+      flex-direction: column;
       gap: 0;
       border-top: 1px solid var(--rule);
       border-left: 1px solid var(--rule);
+      border-right: 1px solid var(--rule);
       margin-bottom: 3rem;
     }
     .ph-card {
-      border-right: 1px solid var(--rule);
       border-bottom: 1px solid var(--rule);
       transition: background .15s;
     }
     .ph-card:hover { background: var(--paper-2); }
     .ph-anchor {
+      display: grid;
+      grid-template-columns: minmax(240px, 38%) 1fr;
+      gap: 0;
+      cursor: pointer;
+      position: relative;
+      min-height: 220px;
+    }
+    .ph-hero {
+      padding: 1.3rem;
+      background: var(--paper);
+      border-right: 1px solid var(--rule);
+      display: flex;
+    }
+    .ph-hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 6px;
+      border: 1px solid var(--rule);
+      transition: transform .3s ease;
+    }
+    .ph-card:hover .ph-hero img { transform: scale(1.02); }
+    .ph-hero-empty {
+      background:
+        repeating-linear-gradient(45deg, var(--paper-2) 0 8px, var(--paper) 8px 16px);
+    }
+    .ph-body {
       display: flex;
       flex-direction: column;
       gap: .55rem;
-      padding: 1.25rem 1.4rem 1.4rem;
-      height: 100%;
-      cursor: pointer;
-      position: relative;
+      padding: 1.3rem 1.5rem 1.4rem;
+    }
+    .ph-head {
+      display: flex;
+      align-items: center;
+      gap: .85rem;
+    }
+    .ph-head-text {
+      display: flex;
+      flex-direction: column;
+      gap: .15rem;
+      min-width: 0;
     }
     .ph-rank {
       font-family: var(--mono);
@@ -662,6 +752,27 @@
       letter-spacing: .15em;
       color: var(--accent);
       text-transform: uppercase;
+    }
+    .ph-thumb {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      object-fit: cover;
+      background: var(--paper-2);
+      border: 1px solid var(--rule);
+      flex-shrink: 0;
+    }
+    @media (max-width: 680px) {
+      .ph-anchor {
+        grid-template-columns: 1fr;
+        min-height: 0;
+      }
+      .ph-hero {
+        aspect-ratio: 16 / 9;
+        padding: 1rem;
+        border-right: none;
+        border-bottom: 1px solid var(--rule);
+      }
     }
     .ph-title {
       font-family: var(--serif);
@@ -904,8 +1015,13 @@
   
     <aside class="archive-rail" aria-label="歷史存檔"
            data-active="2026-04-19" data-base="../">
-      <div class="rail-heading"><span>Archive</span></div>
-      <nav class="rail-list"><div class="rail-loading">載入中…</div></nav>
+      <div class="rail-heading">
+        <span class="rail-heading-label">Archive</span>
+        <button type="button" class="rail-toggle" aria-label="收合側欄" aria-controls="rail-list" aria-expanded="true">
+          <span class="rail-toggle-icon" aria-hidden="true">‹</span>
+        </button>
+      </div>
+      <nav id="rail-list" class="rail-list"><div class="rail-loading">載入中…</div></nav>
     </aside>
   <div class="page-main">
 <header class="masthead">
@@ -1273,6 +1389,23 @@ They are also using Persona for the verification https://t.co/aQfIVSqx8D</p>
     });
     var icon = document.querySelector('.theme-icon');
     if (icon) icon.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
+
+    var railToggle = document.querySelector('.rail-toggle');
+    if (railToggle) {
+      var collapsed = document.documentElement.dataset.rail === 'collapsed';
+      railToggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      railToggle.setAttribute('aria-label', collapsed ? '展開側欄' : '收合側欄');
+      railToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var next = document.documentElement.dataset.rail !== 'collapsed';
+        if (next) document.documentElement.dataset.rail = 'collapsed';
+        else delete document.documentElement.dataset.rail;
+        try { localStorage.setItem('rail-collapsed', next ? '1' : '0'); } catch (err) {}
+        railToggle.setAttribute('aria-expanded', next ? 'false' : 'true');
+        railToggle.setAttribute('aria-label', next ? '展開側欄' : '收合側欄');
+      });
+    }
   })();
   function toggleTheme() {
     var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
