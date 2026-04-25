@@ -322,8 +322,8 @@
       "tagline": "AI powered by Apple Intelligence now in your Notch",
       "post_id": "1130673",
       "summary_zh": "將 Apple Intelligence 驅動的 AI 助理整合至 MacBook 瀏海區域，讓使用者直接從螢幕頂端存取 AI 功能。",
-      "image_url": "",
-      "hero_url": ""
+      "image_url": "https://ph-files.imgix.net/d6e9c2bd-fc7d-47fc-88d0-74718bb9be5c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/47a44de2-945a-417e-b353-a03d23c4e806.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Universal Gas Framework (UGF)",
@@ -333,8 +333,8 @@
       "tagline": "Route Actions, Not Liquidity",
       "post_id": "1130694",
       "summary_zh": "針對區塊鏈開發者的框架，專注於路由操作邏輯而非流動性管理，簡化跨鏈交易開發流程。",
-      "image_url": "",
-      "hero_url": ""
+      "image_url": "https://ph-files.imgix.net/46dfdfd2-e5fb-4ed7-b6cb-8c738def342e.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d54e67c7-4a1f-451a-9633-82043f498c3b.png?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Spira AI",
@@ -344,8 +344,8 @@
       "tagline": "AI Influencer that always on trend, create & grow your brand",
       "post_id": "1130495",
       "summary_zh": "AI 虛擬網紅工具，可自動追蹤趨勢並生成內容，協助品牌經營社群媒體與擴大影響力。",
-      "image_url": "",
-      "hero_url": ""
+      "image_url": "https://ph-files.imgix.net/c33daa3c-5081-4c13-9202-a121562e4ed3.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/7a30165e-8c21-4e75-9788-5d2acf6968d0.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Codex 3.0 by OpenAI",
@@ -355,8 +355,8 @@
       "tagline": "Codex can now build, test & debug on autopilot",
       "post_id": "1130897",
       "summary_zh": "OpenAI 推出的程式碼 AI 工具升級版，能自動執行建構、測試與除錯流程，適合開發者提升工作效率。",
-      "image_url": "",
-      "hero_url": ""
+      "image_url": "https://ph-files.imgix.net/42d06a08-8bb0-4720-aa1a-99105bfe34ab.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/11554c44-7db9-4c3e-b31a-c1fdd8e09c73.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "CodeCanary",
@@ -366,8 +366,8 @@
       "tagline": "Turn session replays into revenue",
       "post_id": "1131066",
       "summary_zh": "分析使用者操作錄影的工具，協助產品團隊從使用行為中找出提升轉換率與營收的機會點。",
-      "image_url": "",
-      "hero_url": ""
+      "image_url": "https://ph-files.imgix.net/b45f465e-c322-4f22-ac9d-9e2d76acd60a.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ae1405ed-125f-44e2-85e5-804ae3a9dc7f.png?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "TuneJourney.com",
@@ -377,8 +377,8 @@
       "tagline": "AI learns your listening habits and curates your live radio",
       "post_id": "1131189",
       "summary_zh": "AI 音樂電台服務，學習使用者聆聽習慣後自動策劃個人化的即時廣播內容。",
-      "image_url": "",
-      "hero_url": ""
+      "image_url": "https://ph-files.imgix.net/10befa97-8ebb-45d8-82b7-e1d4fdfe9c76.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/55a548b8-5dde-497d-8540-6c4a3e9e8568.jpeg?auto=format&w=960&h=540&fit=crop"
     }
   ]
 }

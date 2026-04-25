@@ -13,6 +13,9 @@
       try {
         var t = localStorage.getItem('theme');
         if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+        if (localStorage.getItem('rail-collapsed') === '1') {
+          document.documentElement.dataset.rail = 'collapsed';
+        }
       } catch (e) {}
     })();
   </script>
@@ -91,6 +94,7 @@
       display: grid;
       grid-template-columns: 240px minmax(0, 1fr);
       align-items: start;
+      transition: grid-template-columns .22s ease;
     }
     .page-main { min-width: 0; }
 
@@ -102,6 +106,7 @@
       border-right: 1px solid var(--rule);
       padding: 2.25rem 1.25rem 2rem 1.5rem;
       font-size: .78rem;
+      transition: padding .22s ease;
     }
     .archive-rail::-webkit-scrollbar { width: 6px; }
     .archive-rail::-webkit-scrollbar-track { background: transparent; }
@@ -110,19 +115,62 @@
     .rail-heading {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
       font-family: var(--mono);
       font-size: .58rem;
       letter-spacing: .18em;
       text-transform: uppercase;
       color: var(--ink-3);
       margin-bottom: 1.1rem;
+      gap: .5rem;
     }
     .rail-heading a {
       color: var(--ink-3);
       transition: color .15s;
     }
     .rail-heading a:hover { color: var(--accent); }
+
+    .rail-toggle {
+      background: none;
+      border: 1px solid var(--rule-2);
+      color: var(--ink-3);
+      width: 22px;
+      height: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: .9rem;
+      line-height: 1;
+      transition: color .15s, border-color .15s;
+      flex-shrink: 0;
+    }
+    .rail-toggle:hover { color: var(--accent); border-color: var(--accent); }
+    .rail-toggle-icon {
+      display: inline-block;
+      transition: transform .22s ease;
+      line-height: 1;
+    }
+
+    html[data-rail="collapsed"] .page-shell {
+      grid-template-columns: 52px minmax(0, 1fr);
+    }
+    html[data-rail="collapsed"] .archive-rail {
+      padding: 2.25rem .5rem 2rem;
+    }
+    html[data-rail="collapsed"] .rail-heading {
+      justify-content: center;
+      margin-bottom: 0;
+    }
+    html[data-rail="collapsed"] .rail-heading-label,
+    html[data-rail="collapsed"] .rail-list {
+      display: none;
+    }
+    html[data-rail="collapsed"] .rail-toggle-icon {
+      transform: rotate(180deg);
+    }
 
     .rail-list { display: flex; flex-direction: column; }
     .rail-loading {
@@ -179,14 +227,20 @@
     }
 
     @media (max-width: 980px) {
-      .page-shell { grid-template-columns: 1fr; }
-      .archive-rail {
+      .page-shell,
+      html[data-rail="collapsed"] .page-shell { grid-template-columns: 1fr; }
+      .archive-rail,
+      html[data-rail="collapsed"] .archive-rail {
         position: static;
         max-height: none;
         border-right: none;
         border-bottom: 1px solid var(--rule);
         padding: 1.25rem 1.5rem;
       }
+      .rail-toggle { display: none; }
+      html[data-rail="collapsed"] .rail-heading { justify-content: space-between; margin-bottom: 1.1rem; }
+      html[data-rail="collapsed"] .rail-heading-label,
+      html[data-rail="collapsed"] .rail-list { display: revert; }
     }
 
     /* ─────────────── Masthead ─────────────── */
@@ -961,8 +1015,13 @@
   
     <aside class="archive-rail" aria-label="歷史存檔"
            data-active="2026-04-25" data-base="../">
-      <div class="rail-heading"><span>Archive</span></div>
-      <nav class="rail-list"><div class="rail-loading">載入中…</div></nav>
+      <div class="rail-heading">
+        <span class="rail-heading-label">Archive</span>
+        <button type="button" class="rail-toggle" aria-label="收合側欄" aria-controls="rail-list" aria-expanded="true">
+          <span class="rail-toggle-icon" aria-hidden="true">‹</span>
+        </button>
+      </div>
+      <nav id="rail-list" class="rail-list"><div class="rail-loading">載入中…</div></nav>
     </aside>
   <div class="page-main">
 <header class="masthead">
@@ -1331,10 +1390,10 @@ Watch it and Bookmark it now. https://t.co/honZtjYu2Q</p>
 <div class="ph-grid">
     <article class="ph-card">
       <a class="ph-anchor" href="https://www.producthunt.com/products/notchnest-quick-access-hub" target="_blank" rel="noopener">
-        <div class="ph-hero ph-hero-empty"></div>
+        <div class="ph-hero"><img src="https://ph-files.imgix.net/47a44de2-945a-417e-b353-a03d23c4e806.jpeg?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
         <div class="ph-body">
           <div class="ph-head">
-            
+            <img class="ph-thumb" src="https://ph-files.imgix.net/d6e9c2bd-fc7d-47fc-88d0-74718bb9be5c.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
             <div class="ph-head-text">
               <div class="ph-rank">№ 01</div>
               <h3 class="ph-title">NotchNest AI</h3>
@@ -1353,10 +1412,10 @@ Watch it and Bookmark it now. https://t.co/honZtjYu2Q</p>
 
     <article class="ph-card">
       <a class="ph-anchor" href="https://www.producthunt.com/products/universal-gas-framework-ugf" target="_blank" rel="noopener">
-        <div class="ph-hero ph-hero-empty"></div>
+        <div class="ph-hero"><img src="https://ph-files.imgix.net/d54e67c7-4a1f-451a-9633-82043f498c3b.png?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
         <div class="ph-body">
           <div class="ph-head">
-            
+            <img class="ph-thumb" src="https://ph-files.imgix.net/46dfdfd2-e5fb-4ed7-b6cb-8c738def342e.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
             <div class="ph-head-text">
               <div class="ph-rank">№ 02</div>
               <h3 class="ph-title">Universal Gas Framework (UGF)</h3>
@@ -1375,10 +1434,10 @@ Watch it and Bookmark it now. https://t.co/honZtjYu2Q</p>
 
     <article class="ph-card">
       <a class="ph-anchor" href="https://www.producthunt.com/products/spira-ai" target="_blank" rel="noopener">
-        <div class="ph-hero ph-hero-empty"></div>
+        <div class="ph-hero"><img src="https://ph-files.imgix.net/7a30165e-8c21-4e75-9788-5d2acf6968d0.jpeg?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
         <div class="ph-body">
           <div class="ph-head">
-            
+            <img class="ph-thumb" src="https://ph-files.imgix.net/c33daa3c-5081-4c13-9202-a121562e4ed3.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
             <div class="ph-head-text">
               <div class="ph-rank">№ 03</div>
               <h3 class="ph-title">Spira AI</h3>
@@ -1397,10 +1456,10 @@ Watch it and Bookmark it now. https://t.co/honZtjYu2Q</p>
 
     <article class="ph-card">
       <a class="ph-anchor" href="https://www.producthunt.com/products/codex-3-0-by-openai" target="_blank" rel="noopener">
-        <div class="ph-hero ph-hero-empty"></div>
+        <div class="ph-hero"><img src="https://ph-files.imgix.net/11554c44-7db9-4c3e-b31a-c1fdd8e09c73.jpeg?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
         <div class="ph-body">
           <div class="ph-head">
-            
+            <img class="ph-thumb" src="https://ph-files.imgix.net/42d06a08-8bb0-4720-aa1a-99105bfe34ab.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
             <div class="ph-head-text">
               <div class="ph-rank">№ 04</div>
               <h3 class="ph-title">Codex 3.0 by OpenAI</h3>
@@ -1419,10 +1478,10 @@ Watch it and Bookmark it now. https://t.co/honZtjYu2Q</p>
 
     <article class="ph-card">
       <a class="ph-anchor" href="https://www.producthunt.com/products/codecanary" target="_blank" rel="noopener">
-        <div class="ph-hero ph-hero-empty"></div>
+        <div class="ph-hero"><img src="https://ph-files.imgix.net/ae1405ed-125f-44e2-85e5-804ae3a9dc7f.png?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
         <div class="ph-body">
           <div class="ph-head">
-            
+            <img class="ph-thumb" src="https://ph-files.imgix.net/b45f465e-c322-4f22-ac9d-9e2d76acd60a.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
             <div class="ph-head-text">
               <div class="ph-rank">№ 05</div>
               <h3 class="ph-title">CodeCanary</h3>
@@ -1441,10 +1500,10 @@ Watch it and Bookmark it now. https://t.co/honZtjYu2Q</p>
 
     <article class="ph-card">
       <a class="ph-anchor" href="https://www.producthunt.com/products/tunejourney-com" target="_blank" rel="noopener">
-        <div class="ph-hero ph-hero-empty"></div>
+        <div class="ph-hero"><img src="https://ph-files.imgix.net/55a548b8-5dde-497d-8540-6c4a3e9e8568.jpeg?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
         <div class="ph-body">
           <div class="ph-head">
-            
+            <img class="ph-thumb" src="https://ph-files.imgix.net/10befa97-8ebb-45d8-82b7-e1d4fdfe9c76.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
             <div class="ph-head-text">
               <div class="ph-rank">№ 06</div>
               <h3 class="ph-title">TuneJourney.com</h3>
@@ -1494,6 +1553,23 @@ Watch it and Bookmark it now. https://t.co/honZtjYu2Q</p>
     });
     var icon = document.querySelector('.theme-icon');
     if (icon) icon.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
+
+    var railToggle = document.querySelector('.rail-toggle');
+    if (railToggle) {
+      var collapsed = document.documentElement.dataset.rail === 'collapsed';
+      railToggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      railToggle.setAttribute('aria-label', collapsed ? '展開側欄' : '收合側欄');
+      railToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var next = document.documentElement.dataset.rail !== 'collapsed';
+        if (next) document.documentElement.dataset.rail = 'collapsed';
+        else delete document.documentElement.dataset.rail;
+        try { localStorage.setItem('rail-collapsed', next ? '1' : '0'); } catch (err) {}
+        railToggle.setAttribute('aria-expanded', next ? 'false' : 'true');
+        railToggle.setAttribute('aria-label', next ? '展開側欄' : '收合側欄');
+      });
+    }
   })();
   function toggleTheme() {
     var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';

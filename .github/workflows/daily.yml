@@ -46,6 +46,7 @@ jobs:
         if: steps.dedup.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PRODUCTHUNT_API_TOKEN: ${{ secrets.PRODUCTHUNT_API_TOKEN }}
         run: python fetch_producthunt.py
 
       - name: Generate index.html and daily brief
