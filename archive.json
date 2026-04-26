@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-26",
+    "date_display": "2026 年 04 月 26 日",
+    "generated_at": "2026-04-26T08:46:57.689298+08:00",
+    "total": 12,
+    "sources": [
+      "AI Product",
+      "Claude",
+      "Design",
+      "OpenAI",
+      "Vibe Coding"
+    ],
+    "headline": "有人根據 Andrej Karpathy 對 LLM 編碼習慣的觀察，建立了一個 Claude.md 檔案來修正 Claude Code 的壞習慣（如隱含假設、過度複雜化），該專案已獲得 78.5K 星標。這顯示透過良好的 prompt 設計可大幅改善 AI 編碼輸出品質。"
+  },
+  {
     "date": "2026-04-25",
     "date_display": "2026 年 04 月 25 日",
     "generated_at": "2026-04-25T08:46:56.854272+08:00",
