@@ -27,10 +27,12 @@ def archive_rail_html(active_date: str, base_path: str = "") -> str:
         <span class="rail-heading-label">Archive</span>
         <button type="button" class="rail-toggle" aria-label="收合側欄" aria-controls="rail-list" aria-expanded="true">
           <span class="rail-toggle-icon" aria-hidden="true">‹</span>
+          <span class="rail-close-icon" aria-hidden="true">✕</span>
         </button>
       </div>
       <nav id="rail-list" class="rail-list"><div class="rail-loading">載入中…</div></nav>
-    </aside>"""
+    </aside>
+    <div class="rail-backdrop" aria-hidden="true"></div>"""
 
 
 def context_html(tweet: dict) -> str:

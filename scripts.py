@@ -22,6 +22,19 @@ INTERACTIVE_SCRIPT = """<script>
     if (icon) icon.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
 
     var railToggle = document.querySelector('.rail-toggle');
+    var railDrawer = document.querySelector('.rail-drawer-toggle');
+    var railBackdrop = document.querySelector('.rail-backdrop');
+    var mobileMQ = window.matchMedia('(max-width: 980px)');
+
+    function closeDrawer() {
+      document.body.classList.remove('rail-drawer-open');
+      if (railDrawer) railDrawer.setAttribute('aria-expanded', 'false');
+    }
+    function openDrawer() {
+      document.body.classList.add('rail-drawer-open');
+      if (railDrawer) railDrawer.setAttribute('aria-expanded', 'true');
+    }
+
     if (railToggle) {
       var collapsed = document.documentElement.dataset.rail === 'collapsed';
       railToggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
@@ -29,6 +42,10 @@ INTERACTIVE_SCRIPT = """<script>
       railToggle.addEventListener('click', function(e) {
         e.preventDefault();
         e.stopPropagation();
+        if (mobileMQ.matches) {
+          closeDrawer();
+          return;
+        }
         var next = document.documentElement.dataset.rail !== 'collapsed';
         if (next) document.documentElement.dataset.rail = 'collapsed';
         else delete document.documentElement.dataset.rail;
@@ -37,6 +54,31 @@ INTERACTIVE_SCRIPT = """<script>
         railToggle.setAttribute('aria-label', next ? '展開側欄' : '收合側欄');
       });
     }
+
+    if (railDrawer) {
+      railDrawer.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (document.body.classList.contains('rail-drawer-open')) closeDrawer();
+        else openDrawer();
+      });
+    }
+    if (railBackdrop) {
+      railBackdrop.addEventListener('click', closeDrawer);
+    }
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && document.body.classList.contains('rail-drawer-open')) {
+        closeDrawer();
+      }
+    });
+    // Close drawer when navigating to an archive item (visual feedback before nav).
+    document.addEventListener('click', function(e) {
+      if (e.target.closest('.rail-item')) closeDrawer();
+    });
+    // If viewport grows past mobile breakpoint, drop transient drawer state.
+    mobileMQ.addEventListener('change', function(ev) {
+      if (!ev.matches) closeDrawer();
+    });
   })();
   function toggleTheme() {
     var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';

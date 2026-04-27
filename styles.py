@@ -134,6 +134,42 @@ STYLES = """  <style>
       transition: transform .22s ease;
       line-height: 1;
     }
+    .rail-close-icon {
+      display: none;
+      line-height: 1;
+      font-size: .85rem;
+    }
+
+    .rail-drawer-toggle {
+      display: none;
+      background: none;
+      border: 1px solid var(--rule-2);
+      color: var(--ink-3);
+      width: 32px;
+      height: 28px;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: 1rem;
+      line-height: 1;
+      transition: color .15s, border-color .15s;
+      flex-shrink: 0;
+    }
+    .rail-drawer-toggle:hover { color: var(--accent); border-color: var(--accent); }
+
+    .rail-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--backdrop);
+      backdrop-filter: blur(2px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .25s ease;
+      z-index: 49;
+    }
 
     html[data-rail="collapsed"] .page-shell {
       grid-template-columns: 52px minmax(0, 1fr);
@@ -210,16 +246,47 @@ STYLES = """  <style>
     @media (max-width: 980px) {
       .page-shell,
       html[data-rail="collapsed"] .page-shell { grid-template-columns: 1fr; }
+
       .archive-rail,
       html[data-rail="collapsed"] .archive-rail {
-        position: static;
+        position: fixed;
+        top: 0; left: 0; bottom: 0;
+        width: 280px;
+        max-width: 85vw;
         max-height: none;
-        border-right: none;
-        border-bottom: 1px solid var(--rule);
-        padding: 1.25rem 1.5rem;
+        z-index: 50;
+        background: var(--paper);
+        border-right: 1px solid var(--rule);
+        border-bottom: none;
+        padding: 1.5rem 1.1rem 1.5rem 1.25rem;
+        overflow-y: auto;
+        transform: translateX(-100%);
+        transition: transform .25s ease;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .45);
       }
-      .rail-toggle { display: none; }
-      html[data-rail="collapsed"] .rail-heading { justify-content: space-between; margin-bottom: 1.1rem; }
+      body.rail-drawer-open .archive-rail {
+        transform: translateX(0);
+      }
+
+      .rail-backdrop { display: block; }
+      body.rail-drawer-open .rail-backdrop {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      body.rail-drawer-open { overflow: hidden; }
+
+      .rail-drawer-toggle { display: inline-flex; }
+
+      /* On mobile the rail-toggle becomes a close button */
+      .rail-toggle-icon { display: none; }
+      .rail-close-icon { display: inline-block; }
+
+      /* Cancel desktop "collapsed" visual state on mobile so the drawer
+         always renders fully expanded when opened. */
+      html[data-rail="collapsed"] .rail-heading {
+        justify-content: space-between;
+        margin-bottom: 1.1rem;
+      }
       html[data-rail="collapsed"] .rail-heading-label,
       html[data-rail="collapsed"] .rail-list { display: revert; }
     }

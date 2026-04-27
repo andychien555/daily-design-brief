@@ -153,6 +153,42 @@
       transition: transform .22s ease;
       line-height: 1;
     }
+    .rail-close-icon {
+      display: none;
+      line-height: 1;
+      font-size: .85rem;
+    }
+
+    .rail-drawer-toggle {
+      display: none;
+      background: none;
+      border: 1px solid var(--rule-2);
+      color: var(--ink-3);
+      width: 32px;
+      height: 28px;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: 1rem;
+      line-height: 1;
+      transition: color .15s, border-color .15s;
+      flex-shrink: 0;
+    }
+    .rail-drawer-toggle:hover { color: var(--accent); border-color: var(--accent); }
+
+    .rail-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--backdrop);
+      backdrop-filter: blur(2px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .25s ease;
+      z-index: 49;
+    }
 
     html[data-rail="collapsed"] .page-shell {
       grid-template-columns: 52px minmax(0, 1fr);
@@ -229,16 +265,47 @@
     @media (max-width: 980px) {
       .page-shell,
       html[data-rail="collapsed"] .page-shell { grid-template-columns: 1fr; }
+
       .archive-rail,
       html[data-rail="collapsed"] .archive-rail {
-        position: static;
+        position: fixed;
+        top: 0; left: 0; bottom: 0;
+        width: 280px;
+        max-width: 85vw;
         max-height: none;
-        border-right: none;
-        border-bottom: 1px solid var(--rule);
-        padding: 1.25rem 1.5rem;
+        z-index: 50;
+        background: var(--paper);
+        border-right: 1px solid var(--rule);
+        border-bottom: none;
+        padding: 1.5rem 1.1rem 1.5rem 1.25rem;
+        overflow-y: auto;
+        transform: translateX(-100%);
+        transition: transform .25s ease;
+        box-shadow: 0 0 30px rgba(0, 0, 0, .45);
       }
-      .rail-toggle { display: none; }
-      html[data-rail="collapsed"] .rail-heading { justify-content: space-between; margin-bottom: 1.1rem; }
+      body.rail-drawer-open .archive-rail {
+        transform: translateX(0);
+      }
+
+      .rail-backdrop { display: block; }
+      body.rail-drawer-open .rail-backdrop {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      body.rail-drawer-open { overflow: hidden; }
+
+      .rail-drawer-toggle { display: inline-flex; }
+
+      /* On mobile the rail-toggle becomes a close button */
+      .rail-toggle-icon { display: none; }
+      .rail-close-icon { display: inline-block; }
+
+      /* Cancel desktop "collapsed" visual state on mobile so the drawer
+         always renders fully expanded when opened. */
+      html[data-rail="collapsed"] .rail-heading {
+        justify-content: space-between;
+        margin-bottom: 1.1rem;
+      }
       html[data-rail="collapsed"] .rail-heading-label,
       html[data-rail="collapsed"] .rail-list { display: revert; }
     }
@@ -1019,10 +1086,12 @@
         <span class="rail-heading-label">Archive</span>
         <button type="button" class="rail-toggle" aria-label="收合側欄" aria-controls="rail-list" aria-expanded="true">
           <span class="rail-toggle-icon" aria-hidden="true">‹</span>
+          <span class="rail-close-icon" aria-hidden="true">✕</span>
         </button>
       </div>
       <nav id="rail-list" class="rail-list"><div class="rail-loading">載入中…</div></nav>
     </aside>
+    <div class="rail-backdrop" aria-hidden="true"></div>
   <div class="page-main">
 <header class="masthead">
   <div class="masthead-row">
@@ -1036,6 +1105,7 @@
 
 <main>
   <div class="topbar">
+    <button type="button" class="rail-drawer-toggle" aria-label="開啟存檔" aria-controls="rail-list" aria-expanded="false"><span aria-hidden="true">☰</span></button>
     <span>Today's Brief</span>
     <span class="sep"></span>
     <button type="button" class="topbar-link" onclick="document.getElementById(&quot;criteria-modal&quot;).showModal()">編輯方針</button>
@@ -1531,6 +1601,19 @@ And Gemini still sucks at coding, Explain!!</p>
     if (icon) icon.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
 
     var railToggle = document.querySelector('.rail-toggle');
+    var railDrawer = document.querySelector('.rail-drawer-toggle');
+    var railBackdrop = document.querySelector('.rail-backdrop');
+    var mobileMQ = window.matchMedia('(max-width: 980px)');
+
+    function closeDrawer() {
+      document.body.classList.remove('rail-drawer-open');
+      if (railDrawer) railDrawer.setAttribute('aria-expanded', 'false');
+    }
+    function openDrawer() {
+      document.body.classList.add('rail-drawer-open');
+      if (railDrawer) railDrawer.setAttribute('aria-expanded', 'true');
+    }
+
     if (railToggle) {
       var collapsed = document.documentElement.dataset.rail === 'collapsed';
       railToggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
@@ -1538,6 +1621,10 @@ And Gemini still sucks at coding, Explain!!</p>
       railToggle.addEventListener('click', function(e) {
         e.preventDefault();
         e.stopPropagation();
+        if (mobileMQ.matches) {
+          closeDrawer();
+          return;
+        }
         var next = document.documentElement.dataset.rail !== 'collapsed';
         if (next) document.documentElement.dataset.rail = 'collapsed';
         else delete document.documentElement.dataset.rail;
@@ -1546,6 +1633,31 @@ And Gemini still sucks at coding, Explain!!</p>
         railToggle.setAttribute('aria-label', next ? '展開側欄' : '收合側欄');
       });
     }
+
+    if (railDrawer) {
+      railDrawer.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (document.body.classList.contains('rail-drawer-open')) closeDrawer();
+        else openDrawer();
+      });
+    }
+    if (railBackdrop) {
+      railBackdrop.addEventListener('click', closeDrawer);
+    }
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && document.body.classList.contains('rail-drawer-open')) {
+        closeDrawer();
+      }
+    });
+    // Close drawer when navigating to an archive item (visual feedback before nav).
+    document.addEventListener('click', function(e) {
+      if (e.target.closest('.rail-item')) closeDrawer();
+    });
+    // If viewport grows past mobile breakpoint, drop transient drawer state.
+    mobileMQ.addEventListener('change', function(ev) {
+      if (!ev.matches) closeDrawer();
+    });
   })();
   function toggleTheme() {
     var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';

@@ -120,6 +120,7 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
 
 <main>
   <div class="topbar">
+    <button type="button" class="rail-drawer-toggle" aria-label="開啟存檔" aria-controls="rail-list" aria-expanded="false"><span aria-hidden="true">☰</span></button>
     <span>Today's Brief</span>
     <span class="sep"></span>
     {'<button type="button" class="topbar-link" onclick="document.getElementById(&quot;criteria-modal&quot;).showModal()">編輯方針</button>' if criteria_html else ''}
