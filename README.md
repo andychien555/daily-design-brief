@@ -58,6 +58,26 @@ SEARCH_QUERIES = [
 ]
 ```
 
+## API 用量（6551.io）
+
+計費單位：
+
+| 單位 | 換算 |
+|---|---|
+| 1 message | 1 次 API call |
+| 1 point | 20 messages |
+| Free 每日 | **5 points = 100 messages**（每日 0:00 重置）|
+| Free 每月 | 3,000 messages |
+
+目前 pipeline 每天約打 **39 次 API**（12 queries × 2 passes + top 15 候選的 quote/reply 補脈絡），約占免費每日額度的 39%，免費額度足夠。
+
+要擴充 query 數量、或開啟 top replies 等更耗 API 的功能再考慮升級：
+
+- **Plus** $1.9/月 · 20,000 msgs/月（cap × 6.6 倍）
+- **Pro** $29/月 · 200,000 msgs/月
+
+dashboard：[6551.io/mcp](https://6551.io/mcp)
+
 ## 檔案說明
 
 | 檔案 | 說明 |
