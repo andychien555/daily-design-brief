@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-03",
+    "date_display": "2026 年 05 月 03 日",
+    "generated_at": "2026-05-03T08:46:58.984227+08:00",
+    "total": 4,
+    "sources": [
+      "Design"
+    ],
+    "headline": "Figma 的 Dev Mode 可以直接複製 CSS，再丟給 Claude 讓 AI 建構出與設計稿一致的結果，但討論中較少人提及這個工作流。"
+  },
+  {
     "date": "2026-05-02",
     "date_display": "2026 年 05 月 02 日",
     "generated_at": "2026-05-02T08:46:58.293159+08:00",
