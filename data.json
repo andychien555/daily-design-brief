@@ -1,61 +1,138 @@
 {
-  "date": "2026-05-03",
-  "date_display": "2026 年 05 月 03 日",
-  "generated_at": "2026-05-03T08:46:58.984227+08:00",
-  "since_date": "2026-05-01",
+  "date": "2026-05-04",
+  "date_display": "2026 年 05 月 04 日",
+  "generated_at": "2026-05-04T08:46:57.625530+08:00",
+  "since_date": "2026-05-02",
   "top_tweets": [
     {
-      "id": "2050577718744318309",
-      "text": "Not enough people talk about this: you can design in Figma, copy the CSS in Dev Mode, drop it into Claude, and it’ll build exactly what you designed.",
-      "author": "BrettFromDJ",
-      "name": "Brett",
-      "likes": 2024,
-      "retweets": 88,
-      "replies": 100,
-      "created": "Sat May 02 14:06:40 +0000 2026",
-      "url": "https://x.com/BrettFromDJ/status/2050577718744318309",
-      "source": "Design",
-      "summary_zh": "Figma 的 Dev Mode 可以直接複製 CSS，再丟給 Claude 讓 AI 建構出與設計稿一致的結果，但討論中較少人提及這個工作流。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "id": "2050940776817795508",
+      "text": "I am in awe of how bad windows 11 is. It is impressive Microsoft managed to fuck up this much. Stop firing all of your talented Q&amp;A people and vibe coding your operating system. You cannot AI your way to a good product.",
+      "author": "AndrewPerpetua",
+      "name": "Andrew Perpetua",
+      "likes": 364,
+      "retweets": 18,
+      "replies": 22,
+      "created": "Sun May 03 14:09:20 +0000 2026",
+      "url": "https://x.com/AndrewPerpetua/status/2050940776817795508",
+      "source": "AI Product",
+      "summary_zh": "批評 Windows 11 品質極差，指出微軟不該裁掉優秀的 QA 人員並用「vibing」方式開發作業系統，也無法靠 AI 彌補產品缺陷。這呼應了許多產品團隊面臨的質量與人力取捨問題。"
     },
     {
-      "id": "2050579689249333722",
-      "text": "I hated how bad agents are at design\n\nI hated how Codex can't access Mobbin\n\nSo I created Lazyweb\n\n- 257k+ screens (apps/web)\n- 6 opinionated design research skills\n- 1 MCP (Claude/Codex)\n\n100% Free...AI native...no rate limits...no subscriptions..\n\nEnjoy (and tell a friend) 🫡 https://t.co/ThpxaJGG2K",
-      "author": "abouelatta_ali",
-      "name": "Ali Abouelatta",
-      "likes": 1680,
-      "retweets": 85,
-      "replies": 73,
-      "created": "Sat May 02 14:14:30 +0000 2026",
-      "url": "https://x.com/abouelatta_ali/status/2050579689249333722",
-      "source": "Design",
-      "summary_zh": "作者推出 Lazyweb 工具，整合 257k+ 螢幕截圖與 6 種設計研究技能，讓 Claude 或 Codex 等 AI 代理能存取 Mobbin 等級的設計資源，完全免費且無速率限制。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2050190076328751185",
-      "text": "Marc Andreessen says Elon Musk runs 120 design reviews a day in 5-minute slots.\n\nHe does this while running six different companies at once.\n\nAndreessen says Elon maps each company as a production process.\n\nEach process has one bottleneck — the single thing slowing it down.\n\nElon https://t.co/UaOY3wn4SZ",
-      "author": "GeniusGTX",
-      "name": "GeniusThinking",
-      "likes": 1564,
-      "retweets": 262,
+      "id": "2050739354008518694",
+      "text": "Engineering will become progressively more alien-looking in the era of computer-generated design",
+      "author": "beffjezos",
+      "name": "Beff (e/acc)",
+      "likes": 1039,
+      "retweets": 53,
       "replies": 44,
-      "created": "Fri May 01 12:26:19 +0000 2026",
-      "url": "https://x.com/GeniusGTX/status/2050190076328751185",
+      "created": "Sun May 03 00:48:57 +0000 2026",
+      "url": "https://x.com/beffjezos/status/2050739354008518694",
       "source": "Design",
-      "summary_zh": "Marc Andreessen 指出 Elon Musk 一天進行 120 場設計審查，每場 5 分鐘，將每間公司視為生產流程並專注解決單一瓶頸。此工作方法展示了極端高效的產品管理模式。",
+      "summary_zh": "預測在電腦生成設計的時代，工程產物的外觀將越來越「異形化」，暗示 AI 設計工具將帶來全新的美學範式。"
+    },
+    {
+      "id": "2051028323686646019",
+      "text": "At some point, we stopped color coding things. It's few extra bits of information that we stopped encoding in the visual language of design. https://t.co/E0FvesrWzk",
+      "author": "usgraphics",
+      "name": "U.S. Graphics Company",
+      "likes": 371,
+      "retweets": 24,
+      "replies": 8,
+      "created": "Sun May 03 19:57:13 +0000 2026",
+      "url": "https://x.com/usgraphics/status/2051028323686646019",
+      "source": "Design",
+      "summary_zh": "指出設計界逐漸放棄用色彩編碼來傳遞資訊，這些額外的視覺訊息位元已不再被納入設計語言中。"
+    },
+    {
+      "id": "2050814213690704231",
+      "text": "A Forward Deployed Engineer (FDE) is a customer-facing software engineer who embeds directly within a client's environment to customize, deploy, and troubleshoot complex software, often in AI or data-heavy sectors. They act as a bridge between a company’s product team and the",
+      "author": "HelloVyom",
+      "name": "VG🌪️",
+      "likes": 446,
+      "retweets": 14,
+      "replies": 17,
+      "created": "Sun May 03 05:46:25 +0000 2026",
+      "url": "https://x.com/HelloVyom/status/2050814213690704231",
+      "source": "AI Product",
+      "summary_zh": "解釋 Forward Deployed Engineer (FDE) 的角色：深入客戶環境、客製化部署並排除複雜軟體問題的客戶面向工程師，是產品團隊與客戶之間的橋樑，常見於 AI 或數據密集領域。"
+    },
+    {
+      "id": "2050959702230745179",
+      "text": "I heard from a reliable source that Google is about to join the harness wars. \n\nThe design doc is almost ready, alignment meetings are underway, back in founder mode baby",
+      "author": "redtachyon",
+      "name": "Ariel",
+      "likes": 394,
+      "retweets": 8,
+      "replies": 23,
+      "created": "Sun May 03 15:24:32 +0000 2026",
+      "url": "https://x.com/redtachyon/status/2050959702230745179",
+      "source": "Design",
+      "summary_zh": "諷刺 Google 即將加入「harness wars」，設計文件快完成、對齊會議進行中，重回創辦人模式——隱喻大公司內部冗長的產品流程。"
+    },
+    {
+      "id": "2050963090447941734",
+      "text": "'Neverness to Everess' (NTE) New GTA-Styled Open World Gacha has been accused of using AI-generated assets, after some players believed the developers would not use GenAI in the final product\n\n\"Our core assets and character portraits will never touch AI\" -Yang Lei (Xihuan) https://t.co/32et6ddWTt",
+      "author": "animeupdates",
+      "name": "Anime Updates",
+      "likes": 747,
+      "retweets": 64,
+      "replies": 68,
+      "created": "Sun May 03 15:38:00 +0000 2026",
+      "url": "https://x.com/animeupdates/status/2050963090447941734",
+      "source": "AI Product",
+      "summary_zh": "開放世界遊戲《Neverness to Everness》被指控使用 AI 生成素材，儘管開發者曾承諾核心資產與角色立繪不會使用生成式 AI，引發玩家信任危機。"
+    },
+    {
+      "id": "2050529544407327078",
+      "text": "cleared ~$230k using a setup like this recently\n\npeople think scale comes from better ads\n\nit doesn’t\n\nit comes from how fast you can produce and test\n\nthis is the system:\n\n– one product\n– ai-generated listing images (like these) in minutes\n– multiple angles built instantly\n– https://t.co/0ZD0RSkOd8",
+      "author": "davidfigeira",
+      "name": "David",
+      "likes": 605,
+      "retweets": 243,
+      "replies": 369,
+      "created": "Sat May 02 10:55:15 +0000 2026",
+      "url": "https://x.com/davidfigeira/status/2050529544407327078",
+      "source": "AI Product",
+      "summary_zh": "分享用 AI 生成產品圖快速測試、最近賺進 23 萬美元的經驗，強調規模化的關鍵不是更好的廣告，而是生產與測試的速度。"
+    },
+    {
+      "id": "2050840135684489280",
+      "text": "my Editing Workflow for Product launch videos\n\n00:00 Introduction\n01:50 Editing workspace, Interface\n03:00 File Organization\n07:04 Choosing the right music\n13:12 Creating human-like voiceover w AI\n20:51 Cutting and placing shots in sequence\n41:35 Color matching, color grading https://t.co/X1C2PiCgil",
+      "author": "theProcessXCII",
+      "name": "MIDΞ (❖,❖)",
+      "likes": 776,
+      "retweets": 75,
+      "replies": 80,
+      "created": "Sun May 03 07:29:25 +0000 2026",
+      "url": "https://x.com/theProcessXCII/status/2050840135684489280",
+      "source": "AI Product",
+      "summary_zh": "分享完整的產品發表影片剪輯工作流程，涵蓋介面設定、檔案管理、配樂選擇、AI 人聲生成、鏡頭剪接與調色等環節。"
+    },
+    {
+      "id": "2050578844571328690",
+      "text": "* Anthropic is reportedly in talks to buy AI chips from Fractile, a UK SRAM-based AI chip startup whose product is expected to launch next year. -The Information\n\nThey’re buying something that hasn’t even launched yet? https://t.co/IcwIA0aM6i",
+      "author": "jukan05",
+      "name": "Jukan",
+      "likes": 592,
+      "retweets": 40,
+      "replies": 50,
+      "created": "Sat May 02 14:11:09 +0000 2026",
+      "url": "https://x.com/jukan05/status/2050578844571328690",
+      "source": "AI Product",
+      "summary_zh": "Anthropic 傳出正與英國 SRAM 晶片新創 Fractile 洽談採購 AI 晶片，但該產品預計明年才推出——質疑為何在產品尚未上市前就下訂。"
+    },
+    {
+      "id": "2050658834209730740",
+      "text": "R.I.P. Ask Jeeves, 3 June 1996 – 1 May 2026 https://t.co/JOGsWarjKZ",
+      "author": "WebDesignMuseum",
+      "name": "Web Design Museum",
+      "likes": 1246,
+      "retweets": 217,
+      "replies": 24,
+      "created": "Sat May 02 19:29:00 +0000 2026",
+      "url": "https://x.com/WebDesignMuseum/status/2050658834209730740",
+      "source": "Design",
+      "summary_zh": "紀念 Ask Jeeves 這個經典搜尋引擎服務，從 1996 年 6 月 3 日上線到 2026 年 5 月 1 日正式告別，見證網路產品的興衰。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -65,24 +142,30 @@
       }
     },
     {
-      "id": "2050517328799105454",
-      "text": "holy shit\n\nKimi K2.6 literally cooked claude design🤯\n\nand it's 7x cheaper\n\ntry the same prompt on both Kimi and Claude design, and there are the outputs\n\nsee the exact same prompt 👇 https://t.co/7JDiP9XkAA",
-      "author": "heygurisingh",
-      "name": "Guri Singh",
-      "likes": 865,
-      "retweets": 56,
-      "replies": 35,
-      "created": "Sat May 02 10:06:42 +0000 2026",
-      "url": "https://x.com/heygurisingh/status/2050517328799105454",
+      "id": "2051008059883790458",
+      "text": "Much of the design of my new site was made around rabbit holes. \n\nTo start with the surface of something simple, say a skull, then slip between (and into) each artwork, collection, person, psalm, their contributions, and how each piece fits together. \n\nhttps://t.co/uiiSGfFQ17 https://t.co/DmheKEfPGP",
+      "author": "SamSpratt",
+      "name": "Sam Spratt",
+      "likes": 351,
+      "retweets": 27,
+      "replies": 21,
+      "created": "Sun May 03 18:36:42 +0000 2026",
+      "url": "https://x.com/SamSpratt/status/2051008059883790458",
       "source": "Design",
-      "summary_zh": "Kimi K2.6 在同樣的設計生成提示下，輸出品質可與 Claude 匹敵，但成本只有七分之一，值得產品設計工具選型時參考。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "summary_zh": "新網站設計圍繞「兔子洞」概念，從單一作品表面出發，讓使用者在作品、系列、人物與貢獻之間自由穿梭、深入探索彼此連結。"
+    },
+    {
+      "id": "2050981225175928895",
+      "text": "Been thinking about sharing some fun, interactive science app ideas\n\nMade this one today\n\nUI design and planet textures\nGPT Images 2\n\nCode\nGemini 3.1 Pro https://t.co/AY4fvSzRLq",
+      "author": "DilumSanjaya",
+      "name": "Dilum Sanjaya",
+      "likes": 752,
+      "retweets": 55,
+      "replies": 27,
+      "created": "Sun May 03 16:50:04 +0000 2026",
+      "url": "https://x.com/DilumSanjaya/status/2050981225175928895",
+      "source": "Design",
+      "summary_zh": "分享互動式科學 app 構想，UI 設計與星球材質由 GPT Images 2 生成，程式碼由 Gemini 3.1 Pro 完成。"
     }
   ],
   "criteria": {
@@ -163,28 +246,5 @@
       "top_n": 6
     }
   },
-  "top_products": [
-    {
-      "title": "Ara",
-      "url": "https://www.producthunt.com/products/dereference-the-100x-ide",
-      "published": "2026-04-30T18:30:46-07:00",
-      "author": "Adi Singh",
-      "tagline": "Build an entire business by texting",
-      "post_id": "1136441",
-      "summary_zh": "透過傳送文字訊息來建立與管理整個業務。適合需要快速啟動與運營業務的創業者或小型企業主。",
-      "image_url": "https://ph-files.imgix.net/39f0991d-08a1-4339-b23c-a944ea43e3f4.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/3ca85f87-314e-48a9-9af1-b20a6269b533.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "PeekFocus",
-      "url": "https://www.producthunt.com/products/peekfocus",
-      "published": "2026-04-30T21:57:56-07:00",
-      "author": "Sulochanal Chellian",
-      "tagline": "One keystroke blurs everything behind your active window",
-      "post_id": "1136527",
-      "summary_zh": "按下一個快捷鍵即可模糊當前作業視窗以外的所有內容，協助使用者專注於當前工作並減少視覺干擾。",
-      "image_url": "https://ph-files.imgix.net/f33ff25d-3f54-4229-8ce2-50de47060dae.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/359a9d6f-af54-4218-83d4-ea6f32d238ee.png?auto=format&w=960&h=540&fit=crop"
-    }
-  ]
+  "top_products": []
 }
