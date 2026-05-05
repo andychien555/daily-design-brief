@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-05",
+    "date_display": "2026 年 05 月 05 日",
+    "generated_at": "2026-05-05T08:46:57.692858+08:00",
+    "total": 5,
+    "sources": [
+      "Design",
+      "UX Design"
+    ],
+    "headline": "Lazyweb 工具整合 25 萬多個真實 app 與網頁畫面，搭配 6 種設計研究技能與 MCP 整合，旨在解決 Claude Codex 產生重複、缺乏設計品質的 UI 問題。"
+  },
+  {
     "date": "2026-05-04",
     "date_display": "2026 年 05 月 04 日",
     "generated_at": "2026-05-04T08:46:57.625530+08:00",
