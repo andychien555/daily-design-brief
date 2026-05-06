@@ -99,6 +99,7 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Product & Design 每日早報 — Issue №{issue_no:03d} · {date_display}" />
   <title>Product & Design 早報 · {data['date']}</title>
+  <link rel="icon" type="image/svg+xml" href="{base_path}favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
