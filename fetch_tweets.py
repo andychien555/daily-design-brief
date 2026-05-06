@@ -15,6 +15,7 @@ from config import (
     SEARCH_QUERIES,
     TWEETS_TOP_N as TOP_N,
     TWEETS_SINCE_DAYS as SINCE_DAYS,
+    TWEETS_LANGS,
     TWEETS_API_BASE_DEFAULT,
 )
 
@@ -34,6 +35,7 @@ def search_tweets(
     max_rows: int = 30,
     since_date: str | None = None,
     product: str | None = None,
+    lang: str = "en",
 ) -> list[dict]:
     """Call 6551.io /open/twitter_search endpoint.
 
@@ -49,7 +51,7 @@ def search_tweets(
         "minLikes": min_likes,
         "maxResults": max_rows,
         "product": product,
-        "lang": "en",
+        "lang": lang,
         "excludeReplies": True,
         "excludeRetweets": True,
     }
@@ -263,7 +265,7 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
 
     items = [shape(t) for t in candidates]
     prompt = (
-        "你是 Product & Design 策展編輯。以下是候選英文推文 JSON 陣列，請從中挑出 "
+        "你是 Product & Design 策展編輯。以下是候選推文 JSON 陣列（內容可能是英文、繁體中文或簡體中文），請從中挑出 "
         f"**最多 {top_n} 則** 對 product designer / PM 讀者最有價值的內容，並為每則寫 1-2 句繁體中文摘要。\n\n"
         "【推文額外欄位】\n"
         "- `quoted`：若這則是引用推文，原文在此（務必把引用原文的觀點納入摘要）\n"
@@ -401,19 +403,24 @@ def main():
     pool = []
     for cfg in SEARCH_QUERIES:
         print(f"  🔍 {cfg['label']}: {cfg['query']}")
-        # Two passes: 'Latest' gets recency, 'Top' catches high-engagement tweets
-        # that would otherwise fall off the tail of a time-sorted list.
-        raw_latest = search_tweets(
-            cfg["query"], cfg["min_likes"], max_rows=50,
-            since_date=since_date, product="Latest",
-        )
-        raw_top = search_tweets(
-            cfg["query"], cfg["min_likes"], max_rows=50,
-            since_date=since_date, product="Top",
-        )
-        raw = raw_latest + raw_top
+        # Two passes per language: 'Latest' gets recency, 'Top' catches
+        # high-engagement tweets that would otherwise fall off the tail of a
+        # time-sorted list. Run once per configured language.
+        raw = []
+        for lang in TWEETS_LANGS:
+            raw_latest = search_tweets(
+                cfg["query"], cfg["min_likes"], max_rows=50,
+                since_date=since_date, product="Latest", lang=lang,
+            )
+            raw_top = search_tweets(
+                cfg["query"], cfg["min_likes"], max_rows=50,
+                since_date=since_date, product="Top", lang=lang,
+            )
+            raw.extend(raw_latest)
+            raw.extend(raw_top)
+            print(f"     → [{lang}] {len(raw_latest)} latest + {len(raw_top)} top")
         normalized = [normalize(t, source=cfg["label"]) for t in raw]
-        print(f"     → {len(raw_latest)} latest + {len(raw_top)} top = {len(normalized)} candidates")
+        print(f"     → total {len(normalized)} candidates")
         pool.extend(normalized)
 
     seen_ids = set()

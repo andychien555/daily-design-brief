@@ -232,7 +232,7 @@ def criteria_block(criteria: dict) -> str:
       <h4>Claude 過濾規則</h4>
       <ul>{filter_items}</ul>
 
-      <p class="criteria-note">語言：English、排除 replies / retweets。每組關鍵字雙模式查詢各取最多 50 則，合併去重。摘要由 Claude Sonnet 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
+      <p class="criteria-note">語言：English / 中文（繁體 + 簡體），排除 replies / retweets。每組關鍵字依語言分別雙模式查詢，每模式各取最多 50 則，合併去重。摘要由 Claude Sonnet 4.5 自動生成，僅供快速瀏覽，實際內容請以原推文為準。</p>
     </div>
   </div>
 </dialog>"""
