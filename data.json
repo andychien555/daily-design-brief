@@ -1,172 +1,159 @@
 {
-  "date": "2026-05-06",
-  "date_display": "2026 年 05 月 06 日",
-  "generated_at": "2026-05-06T08:47:04.188809+08:00",
-  "since_date": "2026-05-04",
+  "date": "2026-05-07",
+  "date_display": "2026 年 05 月 07 日",
+  "generated_at": "2026-05-07T08:47:04.785425+08:00",
+  "since_date": "2026-05-05",
   "top_tweets": [
     {
-      "id": "2051581084261912710",
-      "text": "Someone on TikTok predicted human made products and experiences will be perceived as a luxury in future and we are already heading there. \n\nThe moment I see AI in your ad or copy I automatically do not want to buy your product.",
-      "author": "JayFreaKay",
-      "name": "Jeffrey K 🍉",
-      "likes": 6794,
-      "retweets": 1124,
-      "replies": 26,
-      "created": "Tue May 05 08:33:41 +0000 2026",
-      "url": "https://x.com/JayFreaKay/status/2051581084261912710",
-      "source": "AI Product",
-      "summary_zh": "有人預測未來「人類製作」的產品與體驗會成為奢侈品，現在已經出現這個趨勢——當看到廣告或文案用 AI 生成，立刻就不想購買該產品。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2051281146324095453",
-      "text": "Photo gallery icon evolution\n\nSamsung: 👶👦👨🧔👴\nGoogle:     🧎🧑‍🦽🧑‍🦯🚶🏃\nApple:       🗿🗿🗿🗿🗿 https://t.co/2XrqzSYbya",
-      "author": "TheAppleDesign",
-      "name": "Apple Design",
-      "likes": 4097,
-      "retweets": 116,
-      "replies": 40,
-      "created": "Mon May 04 12:41:50 +0000 2026",
-      "url": "https://x.com/TheAppleDesign/status/2051281146324095453",
+      "id": "2051677497562210552",
+      "text": "How much of SQLite, FFmpeg, PHP compiler can LMs code from scratch? Given just an executable and no starter code or internet access.\n\nIntroducing ProgramBench: 200 rigorous, whole-repo generation tasks where models design, build, and ship a working program end to end. 🧵 https://t.co/8ayeDJLXaJ",
+      "author": "jyangballin",
+      "name": "John Yang",
+      "likes": 1423,
+      "retweets": 231,
+      "replies": 92,
+      "created": "Tue May 05 14:56:48 +0000 2026",
+      "url": "https://x.com/jyangballin/status/2051677497562210552",
       "source": "Design",
-      "summary_zh": "用 emoji 比喻三大品牌圖庫 icon 演進：Samsung 與 Google 不斷改版，Apple 則多年來保持一致如石像 🗿。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "summary_zh": "ProgramBench 推出 200 個高難度整庫生成任務，測試 LLM 能否在沒有起始程式碼或網路的情況下，從零重寫 SQLite、FFmpeg 等知名專案。衡量模型端到端設計、建構與交付完整程式的能力。"
     },
     {
-      "id": "2051789364049395723",
-      "text": "Proof that graphic designers wont get replaced by AI. You already failed at your job by prioritizing the distracting graphics over providing clear information about the product. \n\nIts just ugly, crowded and overstimulating.",
-      "author": "IsThisRealArt_",
-      "name": "Is This Real Art ?",
-      "likes": 2080,
-      "retweets": 281,
-      "replies": 21,
-      "created": "Tue May 05 22:21:19 +0000 2026",
-      "url": "https://x.com/IsThisRealArt_/status/2051789364049395723",
-      "source": "AI Product",
-      "summary_zh": "諷刺某設計作品過度優先視覺效果而忽略產品資訊清晰度，認為這證明平面設計師不會被 AI 取代——因為 AI 也會犯同樣錯誤。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2051312719823810744",
-      "text": "I don't know why more people aren't buying dead SaaS companies and turning them into AI agent companies.\n\n1. Use OpenClaw, Hermes, Perplexity Computer etc to build an automation that scans Product Hunt, Acquire, and app stores for dead SaaS products. Filter for ones that launched",
+      "id": "2052110589682749869",
+      "text": "how to use Google's NEW open source Design.md + AI Skills to make your startup look like a $100 million company in 1 hour:\n\n1. Design.md is an open source file from Google that captures the soul of a design. Typography, colors, spacing, all in one markdown file. You attach it to https://t.co/FCgFIvhNq7",
       "author": "gregisenberg",
       "name": "GREG ISENBERG",
-      "likes": 1254,
-      "retweets": 97,
-      "replies": 128,
-      "created": "Mon May 04 14:47:18 +0000 2026",
-      "url": "https://x.com/gregisenberg/status/2051312719823810744",
-      "source": "AI Product",
-      "summary_zh": "建議用自動化工具掃描 Product Hunt、Acquire 等平台，收購死掉的 SaaS 產品並改造成 AI agent 公司。"
-    },
-    {
-      "id": "2051662513398325513",
-      "text": "Using AI \"non-technical teams are now shipping production code\"\n\nWell, that's not what you want to hear for a financial product.\n\nCoinbase drinking the kool-aid so hard if they think people want to store assets on an exchange that does that.\n\nLet alone one that took pretty poor",
-      "author": "adamscochran",
-      "name": "Adam Cochran (adamscochran.eth)",
-      "likes": 1045,
-      "retweets": 70,
-      "replies": 27,
-      "created": "Tue May 05 13:57:15 +0000 2026",
-      "url": "https://x.com/adamscochran/status/2051662513398325513",
-      "source": "AI Product",
-      "summary_zh": "批評 Coinbase 宣稱「非技術團隊現在能用 AI 直接 ship production code」，認為這對金融產品來說是危險訊號。"
-    },
-    {
-      "id": "2051331328407466431",
-      "text": "The truth is that everything starts from the top. What determines your failure or success is your style of leadership and the chain of command that you design.",
-      "author": "RobertGreene",
-      "name": "Robert Greene",
-      "likes": 1038,
-      "retweets": 112,
-      "replies": 47,
-      "created": "Mon May 04 16:01:15 +0000 2026",
-      "url": "https://x.com/RobertGreene/status/2051331328407466431",
+      "likes": 928,
+      "retweets": 83,
+      "replies": 41,
+      "created": "Wed May 06 19:37:45 +0000 2026",
+      "url": "https://x.com/gregisenberg/status/2052110589682749869",
       "source": "Design",
-      "summary_zh": "一切從領導風格與你設計的指揮鏈開始，這決定了成敗。"
+      "summary_zh": "Google 開源的 Design.md 檔案能以一份 Markdown 記錄品牌設計靈魂（字型、色彩、間距），搭配 AI 工具即可快速讓新創產品看起來像百萬美元級公司。"
     },
     {
-      "id": "2051666230663102799",
-      "text": "JUST IN: Coinbase to test AI-native “one-person teams” that combine engineering, design, &amp; product roles.",
-      "author": "Polymarket",
-      "name": "Polymarket",
-      "likes": 1026,
-      "retweets": 73,
-      "replies": 130,
-      "created": "Tue May 05 14:12:02 +0000 2026",
-      "url": "https://x.com/Polymarket/status/2051666230663102799",
-      "source": "AI Product",
-      "summary_zh": "Coinbase 將測試 AI 原生的「一人團隊」，結合工程、設計與產品角色。"
-    },
-    {
-      "id": "2051526217237405823",
-      "text": "1/4\n🚨 @mobbin  MCP is finally LIVE 📷\n\nYour AI coding tools (Claude, Cursor, etc.) can now tap directly into 600k+ real app screens for perfect UI/UX references. The AI design game just leveled up.\n\n2/4\nWhat changes:\n• Ask for “checkout like Stripe” or “onboarding like Linear” https://t.co/nzySYD1Tie",
-      "author": "MarrComSt",
-      "name": "Mara Ilie",
-      "likes": 741,
-      "retweets": 49,
-      "replies": 29,
-      "created": "Tue May 05 04:55:40 +0000 2026",
-      "url": "https://x.com/MarrComSt/status/2051526217237405823",
-      "source": "UX Design",
-      "summary_zh": "Mobbin 推出 MCP 整合，讓 Claude、Cursor 等 AI 編碼工具可直接調用 60 萬真實 app 畫面作為 UI/UX 參考，能用自然語言請求「像 Stripe 的結帳流程」。"
-    },
-    {
-      "id": "2051334727974469931",
-      "text": "Today we open early access to @Zapier's next product\n\nWe've been using it internally for months (&gt;1,000,000 actions executed so far) and it's completely changed how we work. \n\nWe're letting a small group of AI-forward teams try it first and give feedback. \n\nWho we’re looking for: https://t.co/PHmDbVZB7j",
-      "author": "wadefoster",
-      "name": "Wade Foster",
-      "likes": 608,
-      "retweets": 45,
-      "replies": 94,
-      "created": "Mon May 04 16:14:45 +0000 2026",
-      "url": "https://x.com/wadefoster/status/2051334727974469931",
-      "source": "AI Product",
-      "summary_zh": "Zapier 開放下一個產品的早期測試，內部已執行超過百萬次 action 並改變工作方式，正尋找 AI-forward 團隊試用並給予回饋。"
-    },
-    {
-      "id": "2051689781461995891",
-      "text": "On 5 May 2025, Skype was officially retired.\n\nSkype GUI in 2003 https://t.co/jdB8RJJqc4",
-      "author": "WebDesignMuseum",
-      "name": "Web Design Museum",
-      "likes": 512,
-      "retweets": 65,
+      "id": "2051853718145139002",
+      "text": "汇集一下 DESIGN.md 工具网站：\n\n1. https://t.co/i3lZ2f0ICn\n2. https://t.co/GXHgLz5JDy\n3. https://t.co/Kba3nPeiQm\n4. https://t.co/pUvMyGcAHw\n5. https://t.co/iWmQvhrq7b\n6. https://t.co/YgDSPzG4r1\n\n个人推荐 refero，提供了 2,000+ DESIGN.md，以及支持 DESIGN.md、Tailwind v4、 CSS",
+      "author": "ricouii",
+      "name": "RicoUI",
+      "likes": 1823,
+      "retweets": 271,
       "replies": 10,
-      "created": "Tue May 05 15:45:37 +0000 2026",
-      "url": "https://x.com/WebDesignMuseum/status/2051689781461995891",
+      "created": "Wed May 06 02:37:02 +0000 2026",
+      "url": "https://x.com/ricouii/status/2051853718145139002",
       "source": "Design",
-      "summary_zh": "Skype 於 2025 年 5 月 5 日正式退役，附上 2003 年初版 GUI 截圖作為紀念。"
+      "summary_zh": "整理六個 DESIGN.md 工具網站，個人推薦 refero（提供 2000+ DESIGN.md 範本，並支援 Tailwind v4 與 CSS）。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
     },
     {
-      "id": "2051643276483301873",
-      "text": "I’ve been testing GPT Image 2 for character reference sheets.\n\nWhat surprised me most is that it can build a complete design sheet from a simple text prompt: multiple angles, outfit details, handwritten notes, color palette, and a clean layout.\n\nPrompt : https://t.co/DQc5wfQAkz https://t.co/7ftVKJ7mVS",
-      "author": "underwoodxie96",
-      "name": "underwood",
-      "likes": 1384,
-      "retweets": 94,
-      "replies": 14,
-      "created": "Tue May 05 12:40:49 +0000 2026",
-      "url": "https://x.com/underwoodxie96/status/2051643276483301873",
+      "id": "2051792721871004002",
+      "text": "I got married this past weekend so I did what any rational @AnthropicAI employee would do and had Claude Code analyze 12 years of iMessages with my wife, then Claude Design used that data to whip up a website for our guests in just minutes. https://t.co/Wc0AyH8HLL",
+      "author": "helloitsaustin",
+      "name": "austin lau",
+      "likes": 16512,
+      "retweets": 745,
+      "replies": 454,
+      "created": "Tue May 05 22:34:40 +0000 2026",
+      "url": "https://x.com/helloitsaustin/status/2051792721871004002",
       "source": "Design",
-      "summary_zh": "GPT Image 2 可從簡單文字提示生成完整角色設定表，包含多角度、服裝細節、手寫註記、色板與乾淨排版。"
+      "summary_zh": "作者分析 12 年與妻子的 iMessage 對話，再用 Claude Design 在幾分鐘內生成婚禮賓客網站，展示 AI 工具快速產出個人化設計的能力。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2051868316239896820",
+      "text": "I just found the easiest way to design a custom home.\n\nDrafted lets you draw any shape, AI builds the rest.\n\nProfessional plans, unlimited layouts, realistic 3D models, and all in real time.\n\nBest part: 100% free. https://t.co/xdzI8QOkNJ",
+      "author": "hasantoxr",
+      "name": "Hasan Toor",
+      "likes": 1468,
+      "retweets": 185,
+      "replies": 55,
+      "created": "Wed May 06 03:35:03 +0000 2026",
+      "url": "https://x.com/hasantoxr/status/2051868316239896820",
+      "source": "Design",
+      "summary_zh": "Drafted 工具讓使用者手繪任意形狀，AI 自動生成專業建築平面圖、無限佈局方案與 3D 模型，且完全免費。"
+    },
+    {
+      "id": "2051926447518843296",
+      "text": "Super excited that the micrographics trend is back!\n\nI built a mini design app with 100s of ready to use micrographics all designed by me, a bunch of pre-built templates and cool text layouts. Use it for your morning design workouts, your projects or just for fun.\n\nGonna be https://t.co/lwQS367VnM",
+      "author": "socoloffalex",
+      "name": "Alex Socoloff",
+      "likes": 1030,
+      "retweets": 44,
+      "replies": 44,
+      "created": "Wed May 06 07:26:02 +0000 2026",
+      "url": "https://x.com/socoloffalex/status/2051926447518843296",
+      "source": "Design",
+      "summary_zh": "作者打造一款 micrographics 設計小工具，內建數百個手繪圖形、預製模板與文字排版，適合設計練習或正式專案使用。"
+    },
+    {
+      "id": "2051763995049107887",
+      "text": "✅ Claude Code\n✅ Claude Cowork\n✅ Claude Design\n✅ Claude Finance\n🔲 Claude Marketing\n🔲 Claude Sales\n🔲 Claude Finance\n🔲 Claude HR\n🔲 Claude Operations\n🔲 Claude Customer\n… https://t.co/OAsIDJqXNX",
+      "author": "linasbeliunas",
+      "name": "Linas Beliūnas",
+      "likes": 3760,
+      "retweets": 403,
+      "replies": 100,
+      "created": "Tue May 05 20:40:31 +0000 2026",
+      "url": "https://x.com/linasbeliunas/status/2051763995049107887",
+      "source": "Design",
+      "summary_zh": "列出 Anthropic 已推出 Claude Code、Cowork、Design、Finance 四款工具，並預告後續可能推出 Marketing、Sales、HR 等更多垂直應用。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2051790965640515920",
+      "text": "Every AI tool you need to escape the permanent underclass:\n\n• Codex app (5.5 medium on fast mode)\n• Hermes Agent (powered by local model)\n• OpenClaw (ChatGPT 5.5 oauth)\n• Gemma 4 running on a Mac Mini\n• ChatGPT 5.5 Pro for planning\n• Claude Design for front end design\n•",
+      "author": "AlexFinn",
+      "name": "Alex Finn",
+      "likes": 1099,
+      "retweets": 81,
+      "replies": 108,
+      "created": "Tue May 05 22:27:41 +0000 2026",
+      "url": "https://x.com/AlexFinn/status/2051790965640515920",
+      "source": "Design",
+      "summary_zh": "整理一組 AI 工具組合：Codex app、Hermes Agent、Claude Design 等，涵蓋程式碼生成、前端設計、規劃與本地模型運行。"
+    },
+    {
+      "id": "2052034322052370876",
+      "text": "the most underrated design tip is to be mindful of how your copywriting breaks to lines and creates shapes in a composition\n\nyou should be aggressively comfortable rewriting sentences to avoid widows or to make the \"visual shape\" of paragraphs more uniform and satisfying",
+      "author": "raunofreiberg",
+      "name": "rauno",
+      "likes": 510,
+      "retweets": 22,
+      "replies": 29,
+      "created": "Wed May 06 14:34:41 +0000 2026",
+      "url": "https://x.com/raunofreiberg/status/2052034322052370876",
+      "source": "Design",
+      "summary_zh": "最被低估的設計技巧：留意文案如何換行與形成視覺形狀，應主動改寫句子以避免孤字（widow）並讓段落外型更一致、更令人滿意。"
+    },
+    {
+      "id": "2052119824378036536",
+      "text": "Possibly the most impactful design in my career will be making Clawd the essence of Claude Code. And I have no regrets.",
+      "author": "meag_han_c",
+      "name": "Meaghan",
+      "likes": 857,
+      "retweets": 17,
+      "replies": 43,
+      "created": "Wed May 06 20:14:27 +0000 2026",
+      "url": "https://x.com/meag_han_c/status/2052119824378036536",
+      "source": "Design",
+      "summary_zh": "作者認為將 Clawd 設計成 Claude Code 的核心形象是職業生涯中最具影響力的設計之一，且毫不後悔。"
     }
   ],
   "criteria": {
@@ -174,52 +161,52 @@
       {
         "label": "Design",
         "query": "design",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "UX Design",
         "query": "UX design",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "UX Research",
         "query": "UX research",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "Product Management",
         "query": "product management",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "AI Product",
         "query": "AI product",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "Vibe Coding",
         "query": "vibe coding",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "Growth",
         "query": "growth",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "Claude",
         "query": "claude",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "OpenAI",
         "query": "openai",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "Gemini",
         "query": "gemini",
-        "min_likes": 300
+        "min_likes": 500
       },
       {
         "label": "Tech Hiring",
@@ -249,70 +236,70 @@
   },
   "top_products": [
     {
-      "title": "Openclick",
-      "url": "https://www.producthunt.com/products/openclick",
-      "published": "2026-05-04T13:45:55-07:00",
-      "author": "Riccardo Arvizzigno",
-      "tagline": "macOS agent that turns prompts into automated clicks",
-      "post_id": "1139034",
-      "summary_zh": "macOS 自動化工具，可將文字指令轉換為系統操作與點擊動作，適合需要自動化工作流程的使用者。",
-      "image_url": "https://ph-files.imgix.net/411baad4-4970-4271-9663-3d383f668dc8.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/42c3f448-71bf-452d-b3db-57e3328425fe.gif?auto=format&w=960&h=540&fit=crop"
+      "title": "Ads in ChatGPT",
+      "url": "https://www.producthunt.com/products/chatgpt",
+      "published": "2026-05-05T20:17:32-07:00",
+      "author": "Zac Zuo",
+      "tagline": "Create, manage, and measure your ChatGPT ad campaigns",
+      "post_id": "1140101",
+      "summary_zh": "讓廣告主在 ChatGPT 平台上建立、管理與追蹤廣告活動成效的工具。",
+      "image_url": "https://ph-files.imgix.net/ab9d1922-1570-42b9-8703-a6176d844a98.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/fc5ba01c-240e-4add-9209-ebb2a7028d9c.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Facts",
-      "url": "https://www.producthunt.com/products/facts-fc3505e0-6206-4a1b-b6b4-01b7ffbb7783",
-      "published": "2026-05-04T08:09:35-07:00",
-      "author": "Ivan Charapanau",
-      "tagline": "The antidote to fluffy specs.",
-      "post_id": "1138830",
-      "summary_zh": "協助團隊撰寫清晰、具體的產品規格文件，減少模糊不清的描述，適合產品經理與開發團隊使用。",
-      "image_url": "https://ph-files.imgix.net/ca62c891-e513-4b45-9e42-2038ba45ea9f.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/19bf433a-84c4-40ca-88bf-b379e2a28f80.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Magic Studio by Once UI",
+      "url": "https://www.producthunt.com/products/magic-studio-by-once-ui",
+      "published": "2026-05-05T10:27:45-07:00",
+      "author": "Lorant One",
+      "tagline": "Turn Once UI into a $10k agency",
+      "post_id": "1139778",
+      "summary_zh": "將 Once UI 轉化為高價值設計服務的工具，協助設計師或開發者提升商業價值。",
+      "image_url": "https://ph-files.imgix.net/26196b2f-d5f8-413b-a812-25f3cd4c500c.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/38874910-e673-46d6-968a-e2203f6b6bfd.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "PanicMode",
-      "url": "https://www.producthunt.com/products/panicmode",
-      "published": "2026-05-04T05:28:29-07:00",
-      "author": "Justin Seyvecou",
-      "tagline": "Protect your screen in public with one shortcut",
-      "post_id": "1138721",
-      "summary_zh": "透過單一快捷鍵快速隱藏或切換螢幕內容，保護在公共場合使用電腦時的隱私安全。",
-      "image_url": "https://ph-files.imgix.net/1dc26828-6e92-4bdc-86a4-bf09acd03779.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/94c7d9c4-fe55-4c4c-8cbf-d49767fdf56c.gif?auto=format&w=960&h=540&fit=crop"
+      "title": "Ajelix AI Agent for Work",
+      "url": "https://www.producthunt.com/products/ajelix-ai-excel-tools",
+      "published": "2026-05-05T11:49:37-07:00",
+      "author": "Agnese",
+      "tagline": "The first truly agentic AI sidebar for Google Workspace™",
+      "post_id": "1139843",
+      "summary_zh": "首款為 Google Workspace 設計的 AI 助理側邊欄，提供自主執行任務的智能代理功能。",
+      "image_url": "https://ph-files.imgix.net/dd3349aa-95b6-4469-93c0-1607bff201e1.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/6fbbe19f-d291-41b1-8dd3-4ae6b66637d2.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Dina",
-      "url": "https://www.producthunt.com/products/dina",
-      "published": "2026-05-04T22:57:40-07:00",
-      "author": "Zaid",
-      "tagline": "From screen to polished video in minutes",
-      "post_id": "1139250",
-      "summary_zh": "將螢幕錄製內容快速轉換為精緻影片的工具，適合需要製作教學或展示影片的使用者。",
-      "image_url": "https://ph-files.imgix.net/57fce841-c712-4322-8a1f-809767fbe5ef.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/2b589be7-7fe5-4982-8313-df2b3bf9e35e.png?auto=format&w=960&h=540&fit=crop"
+      "title": "damnlines.com",
+      "url": "https://www.producthunt.com/products/damnlines-com",
+      "published": "2026-05-04T19:13:30-07:00",
+      "author": "Lucas Gordon",
+      "tagline": "No one likes waiting in a damn line.",
+      "post_id": "1139171",
+      "summary_zh": "協助使用者查詢與管理排隊等候時間的服務平台。",
+      "image_url": "https://ph-files.imgix.net/b59267c2-bdf7-4e56-84b3-fa267b57d03e.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5ee85ab9-c0b7-4ae7-9267-16421af0abd7.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Agentic API Grader by SaaStr.ai",
-      "url": "https://www.producthunt.com/products/saastr-ai-your-ai-powered-b2b-advisor",
-      "published": "2026-05-04T04:30:55-07:00",
-      "author": "GJ",
-      "tagline": "Your #1 new customer is an AI agent. Are they getting an A?",
-      "post_id": "1138672",
-      "summary_zh": "評估 API 對 AI Agent 的友善程度，協助 SaaS 產品優化 API 設計以提升 AI 客戶的整合體驗。",
-      "image_url": "https://ph-files.imgix.net/8b366221-c185-4d5a-84db-d01b46ee086d.gif?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/fb801175-5afa-4cf5-98c1-833234103871.png?auto=format&w=960&h=540&fit=crop"
+      "title": "DevAlly",
+      "url": "https://www.producthunt.com/products/devally",
+      "published": "2026-05-05T15:10:01-07:00",
+      "author": "Cormac Chisholm",
+      "tagline": "AI powered accessibility compliance for teams who ship fast",
+      "post_id": "1139962",
+      "summary_zh": "為快速迭代的開發團隊提供 AI 驅動的無障礙合規檢測工具。",
+      "image_url": "https://ph-files.imgix.net/a5c5c811-ab3c-49ac-8978-58fe511b878d.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/7b55c129-0caa-494c-acde-ffde30ef18c8.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Tollecode",
-      "url": "https://www.producthunt.com/products/tollecode",
-      "published": "2026-05-04T05:39:06-07:00",
-      "author": "Bernard Ossei-Agyei",
-      "tagline": "A local AI coding assistant to delegate tasks to AI agents",
-      "post_id": "1138725",
-      "summary_zh": "本地運行的 AI 程式開發助手，讓開發者可將編碼任務委派給 AI Agent 執行。",
-      "image_url": "https://ph-files.imgix.net/8025143d-9880-4202-a2d1-ef1bf33ced1c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a9c13f89-98b3-443e-9f24-d5607c849d1d.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Kanwas",
+      "url": "https://www.producthunt.com/products/kanwas",
+      "published": "2026-05-05T15:00:12-07:00",
+      "author": "Johan Cutych",
+      "tagline": "An open-source brain for your team",
+      "post_id": "1139956",
+      "summary_zh": "開源的團隊知識管理平台，集中儲存與組織團隊資訊。",
+      "image_url": "https://ph-files.imgix.net/e4a685d6-1b32-49fb-810f-ec28ddd4674c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/8cb54eb6-549b-4e46-a9b6-e221c6f3d341.png?auto=format&w=960&h=540&fit=crop"
     }
   ]
 }
