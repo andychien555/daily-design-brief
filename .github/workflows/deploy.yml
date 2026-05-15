@@ -10,7 +10,7 @@ on:
       - "briefs/**"
 
   workflow_run:
-    workflows: ["Daily Design Brief"]
+    workflows: ["Daily Design Brief", "Backfill Translations"]
     types: [completed]
 
   workflow_dispatch:
