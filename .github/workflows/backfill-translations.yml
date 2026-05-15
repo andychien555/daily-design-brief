@@ -1,0 +1,43 @@
+name: Backfill Translations
+
+# 手動觸發：當每日 workflow 已抓到推文但 Anthropic overload 導致 summary_zh 留空時，
+# 用這個 workflow 補翻譯並重生 briefs/*.md 與 briefs/*.html。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install httpx==0.28.1 anthropic==0.92.0
+
+      - name: Backfill summary_zh
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python backfill_translations.py
+
+      - name: Regenerate index.html and daily brief
+        run: python generate_html.py
+
+      - name: Regenerate daily markdown
+        run: python generate_md.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html archive.json data.json briefs/
+          git diff --staged --quiet || git commit -m "chore: backfill translations $(date +'%Y-%m-%d')"
+          git push
