@@ -1,123 +1,9 @@
 {
-  "date": "2026-05-18",
-  "date_display": "2026 年 05 月 18 日",
-  "generated_at": "2026-05-18T08:46:58.834644+08:00",
-  "since_date": "2026-05-16",
-  "top_tweets": [
-    {
-      "id": "2055501757032120497",
-      "text": "Everyone complains about minimalist design until the company tries something fun and everyone reveals why all the companies have been forced into minimalist design",
-      "author": "AndyMasley",
-      "name": "Andy Masley",
-      "likes": 65997,
-      "retweets": 2121,
-      "replies": 544,
-      "created": "Sat May 16 04:13:02 +0000 2026",
-      "url": "https://x.com/AndyMasley/status/2055501757032120497",
-      "source": "Design",
-      "summary_zh": "所有人抱怨極簡設計，但當公司嘗試有趣設計時，大家的反應反而揭示了為何企業被迫走向極簡風格。這道出設計決策背後的市場與用戶接受度矛盾。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2055881668552954322",
-      "text": "UI peaked here, unironically.\n\nEverything was so easy to read, even on low resolution monitors. Sure, it wasn't stable enough, and the search function (before they ruined it) is nice to have, but they really just focused on usability with the graphic design of Win2000. https://t.co/Co4Fzty9S7",
-      "author": "CryptoCyberia",
-      "name": "Lain on the Blockchain",
-      "likes": 3033,
-      "retweets": 324,
-      "replies": 228,
-      "created": "Sun May 17 05:22:40 +0000 2026",
-      "url": "https://x.com/CryptoCyberia/status/2055881668552954322",
-      "source": "Design",
-      "summary_zh": "認為 Windows 2000 的 UI 設計達到巔峰，即使在低解析度螢幕上也極易閱讀，圖形設計完全聚焦於可用性。反映出對當代過度簡化 UI 的反思。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2055936841656762709",
-      "text": "UI/UX Designers, If you're new to design animation, this post is for you. \n\nHere are 12 essential principles of UI/UX animation that you should know when animating your next UI design project.\n\nBookmark it for later 💜 https://t.co/P4cNuMMqiJ",
-      "author": "Abmankendrick",
-      "name": "Abraham John 🦄🦓",
-      "likes": 570,
-      "retweets": 76,
-      "replies": 7,
-      "created": "Sun May 17 09:01:55 +0000 2026",
-      "url": "https://x.com/Abmankendrick/status/2055936841656762709",
-      "source": "UX Design",
-      "summary_zh": "整理了 12 個 UI/UX 動畫的核心原則，適合剛開始學習設計動畫的設計師在專案中應用。"
-    },
-    {
-      "id": "2056091894883742117",
-      "text": "I worked with Glitch to help design all the merch. I even drew the Animiniz with the help of my team. The Gobbles plushie looks like he was stung by a bee.. But when you get one I promise if you crush his skull from the sides he becomes on model.",
-      "author": "RubberNinja",
-      "name": "RubberRoss",
-      "likes": 4791,
-      "retweets": 486,
-      "replies": 83,
-      "created": "Sun May 17 19:18:02 +0000 2026",
-      "url": "https://x.com/RubberNinja/status/2056091894883742117",
-      "source": "Design",
-      "summary_zh": "分享與 Glitch 合作設計周邊商品的經驗，包含角色設計與實體玩偶製作細節，展現從數位到實體產品的設計轉化過程。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2055642237568983097",
-      "text": "xAI got some seriously best designers now\n\nThe design quality has really leveled up and it’s pretty sick https://t.co/S3xVs3rnGY",
-      "author": "XFreeze",
-      "name": "X Freeze",
-      "likes": 2019,
-      "retweets": 611,
-      "replies": 221,
-      "created": "Sat May 16 13:31:16 +0000 2026",
-      "url": "https://x.com/XFreeze/status/2055642237568983097",
-      "source": "Design",
-      "summary_zh": "xAI 的設計品質明顯提升，團隊現在擁有頂尖設計師，整體設計水準大幅躍進。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2056020185476485344",
-      "text": "Kimi K2.6 is actually a beast for design.\n\n❤️‍🔥 Just recorded a tutorial on how to use Kimi K2.6 + to build award-winning $10k websites (step-by-step). https://t.co/YDXDnwK4XX",
-      "author": "viktoroddy",
-      "name": "Viktor Oddy",
-      "likes": 3148,
-      "retweets": 202,
-      "replies": 35,
-      "created": "Sun May 17 14:33:05 +0000 2026",
-      "url": "https://x.com/viktoroddy/status/2056020185476485344",
-      "source": "Design",
-      "summary_zh": "Kimi K2.6 在設計應用上表現強大，作者錄製了如何用它打造高品質網站的完整教學。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    }
-  ],
+  "date": "2026-05-19",
+  "date_display": "2026 年 05 月 19 日",
+  "generated_at": "2026-05-19T08:46:59.543043+08:00",
+  "since_date": "2026-05-17",
+  "top_tweets": [],
   "criteria": {
     "keyword_pools": [
       {
@@ -198,26 +84,70 @@
   },
   "top_products": [
     {
-      "title": "Kirki",
-      "url": "https://www.producthunt.com/products/kirki",
-      "published": "2026-05-16T04:15:00-07:00",
-      "author": "Kawshar Ahmed",
-      "tagline": "WordPress finally has a freeform canvas website builder.",
-      "post_id": "1148297",
-      "summary_zh": "一個為 WordPress 設計的自由版面網站建構工具，讓使用者能以更靈活的方式編輯網站版面配置。",
-      "image_url": "https://ph-files.imgix.net/b605c592-de55-4306-af8c-2cb8b1f5f0d6.webp?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/787584b2-bb4a-40cf-93ee-8c0319e6dbe9.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "ReactVision Studio",
+      "url": "https://www.producthunt.com/products/reactvision-studio",
+      "published": "2026-05-17T05:40:43-07:00",
+      "author": "Paul Mit",
+      "tagline": "Build AR/VR Apps in React Native + ship directly to devices",
+      "post_id": "1149049",
+      "summary_zh": "讓開發者使用 React Native 建立 AR/VR 應用程式，並可直接部署到裝置上。適合熟悉 React 生態系統的開發團隊。",
+      "image_url": "https://ph-files.imgix.net/2392e869-311a-4527-8875-bd658e17a404.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/bbb92eb8-e2c4-4027-8f70-71b949dd78a9.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Raybeam",
-      "url": "https://www.producthunt.com/products/raybeam",
-      "published": "2026-05-15T21:29:06-07:00",
-      "author": "Nathan",
-      "tagline": "A better way to screen share on macOS",
-      "post_id": "1148119",
-      "summary_zh": "專為 macOS 設計的螢幕分享工具，提供更優化的畫面共享體驗。",
-      "image_url": "https://ph-files.imgix.net/19142699-a4a5-4736-98e2-7959056defdf.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/bbb5931b-b1b5-40ac-b8ba-7ffa40c8db0c.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Voiser AI",
+      "url": "https://www.producthunt.com/products/voiser-ai-text-to-speech",
+      "published": "2026-05-17T23:28:32-07:00",
+      "author": "Fatih Sönmez",
+      "tagline": "Human-like AI voiceovers in 140+ languages",
+      "post_id": "1149543",
+      "summary_zh": "提供超過 140 種語言的 AI 語音合成服務，聲音效果接近真人。適用於需要多語言旁白的內容創作者與企業。",
+      "image_url": "https://ph-files.imgix.net/6d23631c-84c4-44e2-a1f3-57c3f599563f.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d22a4003-3819-4e82-bc15-db3b44c4eaff.jpeg?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "M1 by Montage",
+      "url": "https://www.producthunt.com/products/montage-3",
+      "published": "2026-05-17T21:05:57-07:00",
+      "author": "Aarav Makadia",
+      "tagline": "Agentic UI that scales on demand",
+      "post_id": "1149482",
+      "summary_zh": "一個可依需求動態擴展的 Agentic UI 系統，為需要靈活介面架構的應用程式提供解決方案。",
+      "image_url": "https://ph-files.imgix.net/254bfb97-b897-4201-8fbb-31290296cac2.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/e113612a-feee-4a9e-aded-171678b1d2bb.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Krea 2",
+      "url": "https://www.producthunt.com/products/krea",
+      "published": "2026-05-17T21:49:16-07:00",
+      "author": "Zac Zuo",
+      "tagline": "An image model built for style control and moodboards",
+      "post_id": "1149496",
+      "summary_zh": "專為風格控制與情緒板製作設計的圖像生成模型，適合設計師與創意工作者進行視覺探索。",
+      "image_url": "https://ph-files.imgix.net/08bffbf5-ff99-439a-9da8-43dd786c4f0a.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/1cd4019d-9a37-4251-83dd-05c468b7b055.webp?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Polarity",
+      "url": "https://www.producthunt.com/products/polarity-2",
+      "published": "2026-05-17T20:56:06-07:00",
+      "author": "Alex U",
+      "tagline": "The Self-Improvement Stack For agents",
+      "post_id": "1149478",
+      "summary_zh": "為 AI agents 提供的自我改進技術堆疊，協助優化 agent 的學習與執行能力。",
+      "image_url": "https://ph-files.imgix.net/ff0d91ee-233a-4779-92ef-e6442a0a6651.gif?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/be550755-60e1-470b-b1e5-b25333aaa302.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "AnyFrame",
+      "url": "https://www.producthunt.com/products/anyframe-2",
+      "published": "2026-05-17T23:49:44-07:00",
+      "author": "Nishchith Shetty",
+      "tagline": "Sandboxes for your AI agents",
+      "post_id": "1149570",
+      "summary_zh": "為 AI agents 提供沙盒環境，讓開發者能在隔離空間中安全測試與運行 agent 應用。",
+      "image_url": "https://ph-files.imgix.net/9e1bd037-7a78-4e00-97fe-329021351385.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c99c91eb-bae5-4bc1-8a06-ba2edf96d104.png?auto=format&w=960&h=540&fit=crop"
     }
   ]
 }
