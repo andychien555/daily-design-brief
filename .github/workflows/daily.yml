@@ -1,9 +1,14 @@
 name: Daily Design Brief
 
 on:
-  # 由外部 Vercel Cron 每天台北 08:00 (UTC 00:00) 透過 workflow_dispatch 觸發
-  # GitHub Actions schedule 太不可靠，已改用 Vercel Cron 主導
+  # 主觸發：外部 Vercel Cron 每天台北 08:00 (UTC 00:00) 透過 workflow_dispatch
   workflow_dispatch:
+  # 備援：GitHub 內建 schedule，台北 10:00 (UTC 02:00)。
+  # 若 Vercel Cron 已在 00:00 跑過，下方 dedup step 會偵測 data.json 已是今天
+  # 且 event=schedule → 自動 skip，不會重複產生。
+  # schedule 可能延遲數分鐘~數小時，但可避免 Vercel 單點故障時連續多天空白。
+  schedule:
+    - cron: "0 2 * * *"
 
 permissions:
   contents: write
