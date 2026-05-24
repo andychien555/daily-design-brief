@@ -1,9 +1,142 @@
 {
-  "date": "2026-05-23",
-  "date_display": "2026 年 05 月 23 日",
-  "generated_at": "2026-05-23T14:32:16.521527+08:00",
-  "since_date": "2026-05-21",
-  "top_tweets": [],
+  "date": "2026-05-24",
+  "date_display": "2026 年 05 月 24 日",
+  "generated_at": "2026-05-24T08:55:38.563495+08:00",
+  "since_date": "2026-05-22",
+  "top_tweets": [
+    {
+      "id": "2058162598672314602",
+      "text": "I still don't think people understand what just happened with Claude Design.\n\nClaude Design can now take you from rough idea to fully responsive, high-fidelity website design in 10 minutes.\n\nMost builders are skipping Steps 1-3 and blaming the tool when results look generic. https://t.co/t80TynAju5",
+      "author": "PrajwalTomar_",
+      "name": "Prajwal Tomar",
+      "likes": 538,
+      "retweets": 44,
+      "replies": 27,
+      "created": "Sat May 23 12:26:16 +0000 2026",
+      "url": "https://x.com/PrajwalTomar_/status/2058162598672314602",
+      "source": "Design",
+      "summary_zh": "Claude Design 能在 10 分鐘內從粗略想法產出完整響應式高擬真網站設計，但多數使用者跳過前置步驟就直接責怪工具產出太通用。作者強調正確的使用流程至關重要。"
+    },
+    {
+      "id": "2058292384270819765",
+      "text": "Tom Clancy’s Splinter Cell: Chaos Theory designer Clint Hocking says modern graphics are making stealth games harder to design because realistic lighting is more difficult for players to read.\n\n“It gets very hard to tell what’s light, what’s shadow, what’s dark, what’s safe, https://t.co/oTj0JuC7NQ",
+      "author": "Pirat_Nation",
+      "name": "Pirat_Nation 🔴",
+      "likes": 953,
+      "retweets": 60,
+      "replies": 72,
+      "created": "Sat May 23 21:02:00 +0000 2026",
+      "url": "https://x.com/Pirat_Nation/status/2058292384270819765",
+      "source": "Design",
+      "summary_zh": "《縱橫諜海：混沌理論》設計師 Clint Hocking 指出，現代寫實光影技術反而讓潛行遊戲更難設計，因為玩家難以判讀哪裡是光、哪裡是影、哪裡安全。"
+    },
+    {
+      "id": "2057868874134241574",
+      "text": "Built for the AI era. ✨ Meet Neural Expressive, Gemini’s new design language featuring fluid animations, vibrant colors, updated typography, haptic feedback, and visual responses.",
+      "author": "GeminiApp",
+      "name": "Google Gemini",
+      "likes": 919,
+      "retweets": 107,
+      "replies": 63,
+      "created": "Fri May 22 16:59:07 +0000 2026",
+      "url": "https://x.com/GeminiApp/status/2057868874134241574",
+      "source": "Design",
+      "summary_zh": "Gemini 發布專為 AI 時代設計的新設計語言 Neural Expressive，具備流暢動畫、鮮明色彩、更新字體、觸覺回饋與視覺反應等特點。"
+    },
+    {
+      "id": "2058184836536258863",
+      "text": "We talk about Millenial gray and how we’ve lost so much color in interior design but we don’t talk enough about the loss of TEXTURE https://t.co/2CRaR4Pzam",
+      "author": "luusssso",
+      "name": "lusso",
+      "likes": 871,
+      "retweets": 84,
+      "replies": 26,
+      "created": "Sat May 23 13:54:38 +0000 2026",
+      "url": "https://x.com/luusssso/status/2058184836536258863",
+      "source": "Design",
+      "summary_zh": "除了千禧灰與色彩流失，現代室內設計更嚴重的問題是質感（texture）的消失，這點被討論得太少。"
+    },
+    {
+      "id": "2057653600797770091",
+      "text": "Be like Lenny (@lennysan)\n\n1. Find a niche you genuinely care about\n2. Obsess over creating insanely useful content for that niche\n3. Build products that solve their problems better than anyone else\n4. Be really nice  \n5. Design a life you don’t need a vacation from https://t.co/HqpVSnJSxJ",
+      "author": "gregisenberg",
+      "name": "GREG ISENBERG",
+      "likes": 1174,
+      "retweets": 56,
+      "replies": 148,
+      "created": "Fri May 22 02:43:42 +0000 2026",
+      "url": "https://x.com/gregisenberg/status/2057653600797770091",
+      "source": "Design",
+      "summary_zh": "以 Lenny 為例，成功方程式包括：找到真正在乎的利基、為該受眾打造極有用的內容、做出比任何人都好的解決方案產品、保持友善、設計不需要逃離的人生。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2058136028456919509",
+      "text": "AGENTS.md\nDESIGN.md\nCLAUDE.md\nSKILL.md\nREQUIREMENTS.md\nPROPOSAL.md\nPLAN.md\n.\n.\nGOD-HELP-ME.md",
+      "author": "mannupaaji",
+      "name": "Manu Arora",
+      "likes": 3631,
+      "retweets": 333,
+      "replies": 128,
+      "created": "Sat May 23 10:40:42 +0000 2026",
+      "url": "https://x.com/mannupaaji/status/2058136028456919509",
+      "source": "Design",
+      "summary_zh": "開發者的專案文件從 AGENTS.md、DESIGN.md、CLAUDE.md 一路寫到 GOD-HELP-ME.md，幽默呈現複雜專案中逐步崩潰的真實狀態。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2058060326755795082",
+      "text": "Twitter is cool.  \n\nBut it’s 100x better when your timeline is full with people who code and build things.  \n\nI need to connect with more founders and tech people.\n\nIf you’re into Tech, AI, Startups, Design, web dev, SaaS, or programming, say hi.",
+      "author": "thenowhereway",
+      "name": "Devansh",
+      "likes": 1394,
+      "retweets": 48,
+      "replies": 545,
+      "created": "Sat May 23 05:39:53 +0000 2026",
+      "url": "https://x.com/thenowhereway/status/2058060326755795082",
+      "source": "Design",
+      "summary_zh": "作者號召更多技術創辦人與開發者連結，認為當時間軸充滿會寫程式與做產品的人時，Twitter 的價值會提升 100 倍。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2057850008574308512",
+      "text": "I am building a team.\n\nIf you're really really really good at building stuff, design, filmmaking, writing, pushing the models to their limits, or just making people care about a product at mass, certainly reach out.\n\nLet's collab + make stuff.\n\nDetails:\n\nhttps://t.co/Xo4rlaBNld",
+      "author": "FarzaTV",
+      "name": "Farza 🇵🇰🇺🇸",
+      "likes": 2022,
+      "retweets": 97,
+      "replies": 211,
+      "created": "Fri May 22 15:44:09 +0000 2026",
+      "url": "https://x.com/FarzaTV/status/2057850008574308512",
+      "source": "Design",
+      "summary_zh": "作者正在組建團隊，尋找在開發、設計、影片製作、寫作、推動 AI 模型極限，或讓大眾在意產品方面極其出色的人才進行合作。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    }
+  ],
   "criteria": {
     "keyword_pools": [
       {
@@ -84,70 +217,70 @@
   },
   "top_products": [
     {
-      "title": "Cleo",
-      "url": "https://www.producthunt.com/products/cleo-4",
-      "published": "2026-05-21T04:50:50-07:00",
-      "author": "Rahim",
-      "tagline": "The AI PM that runs your team",
-      "post_id": "1152537",
-      "summary_zh": "一款 AI 產品經理工具，能協助管理與協調團隊工作流程。適合需要自動化專案管理的產品團隊使用。",
-      "image_url": "https://ph-files.imgix.net/5edce491-25ca-4a4e-ac6b-0521e5c83e07.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/b088c6c5-21a8-41fd-97d2-1a62f562e60b.png?auto=format&w=960&h=540&fit=crop"
+      "title": "SignalLEMO - Ai Outreach Made Simple",
+      "url": "https://www.producthunt.com/products/signallemo-ai-outreach-made-simple",
+      "published": "2026-05-22T19:56:16-07:00",
+      "author": "Shaquille Adams",
+      "tagline": "AI-powered lead outreach for field service contractors",
+      "post_id": "1153747",
+      "summary_zh": "為現場服務承包商提供 AI 驅動的潛在客戶開發工具，自動化客戶聯繫流程。",
+      "image_url": "https://ph-files.imgix.net/340eaa61-6767-4f59-b62e-d06d477533b9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/955fa282-4255-4ec3-a77f-20ae93031b85.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Shroomie",
-      "url": "https://www.producthunt.com/products/shroomie",
-      "published": "2026-05-21T23:49:14-07:00",
-      "author": "Chenglai Huang",
-      "tagline": "AI-powered news made fun and habit-forming",
-      "post_id": "1153101",
-      "summary_zh": "利用 AI 技術將新聞內容轉化為有趣且易於養成閱讀習慣的形式，協助使用者更輕鬆地吸收資訊。",
-      "image_url": "https://ph-files.imgix.net/2059c7ff-895d-4a6f-a25a-15fc598f1ae6.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/ba297079-ad3a-406f-8ccc-4bc1a6db24a3.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Spantop",
+      "url": "https://www.producthunt.com/products/spantop",
+      "published": "2026-05-21T21:14:40-07:00",
+      "author": "Aditya Dewaskar",
+      "tagline": "Turn any Mac into a real second monitor",
+      "post_id": "1153019",
+      "summary_zh": "將任何 Mac 裝置轉換為真實的第二螢幕，擴展工作顯示空間。",
+      "image_url": "https://ph-files.imgix.net/0445407f-beee-4239-b4bb-988976715cb8.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ce4da396-8445-4e4b-9fc3-339b9142a8d2.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "JAMtime.ai",
-      "url": "https://www.producthunt.com/products/jamtime-ai",
-      "published": "2026-05-21T20:17:59-07:00",
-      "author": "Jeff Ward",
-      "tagline": "Just tell your guitar pedal how to sound",
-      "post_id": "1152999",
-      "summary_zh": "讓使用者透過語音描述來設定吉他效果器的音色，簡化音色調校流程。適合吉他手與音樂製作人使用。",
-      "image_url": "https://ph-files.imgix.net/ff4bfecc-4087-4c55-b33f-cfb4969cdca3.jpeg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/4e2bb68e-e25d-4c13-9305-61a6c3fb5bbf.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "RetroMac",
+      "url": "https://www.producthunt.com/products/retromac",
+      "published": "2026-05-22T03:09:53-07:00",
+      "author": "Maik Klotz",
+      "tagline": "Turn your Mac into a time machine.",
+      "post_id": "1153270",
+      "summary_zh": "讓 Mac 呈現復古介面外觀，重現經典 Macintosh 使用體驗。",
+      "image_url": "https://ph-files.imgix.net/54ed8bd1-4036-4a86-a87f-3f5b22e9fb24.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/e7d120d9-7038-42f4-9ff5-69be4234ea05.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "DCP",
-      "url": "https://www.producthunt.com/products/dcp",
-      "published": "2026-05-21T15:45:53-07:00",
-      "author": "Iftakhar Rahmany",
-      "tagline": "Give your AI agents encrypted permission and keys",
-      "post_id": "1152914",
-      "summary_zh": "為 AI agents 提供加密權限與金鑰管理功能，確保自動化系統的安全存取控制。",
-      "image_url": "https://ph-files.imgix.net/842340c7-1886-4cbe-94a4-e492aafb9374.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/9e0eb0c8-25a4-4805-8d83-76f3e466e584.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Vibedock",
+      "url": "https://www.producthunt.com/products/vibedock",
+      "published": "2026-05-22T06:28:39-07:00",
+      "author": "Theo Wtmn",
+      "tagline": "Toggle Claude Code MCP servers from your menu bar",
+      "post_id": "1153399",
+      "summary_zh": "從選單列快速切換 Claude Code MCP 伺服器的狀態管理工具。",
+      "image_url": "https://ph-files.imgix.net/c01eb119-0d26-40e1-9512-b099885feafb.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/7b5244c1-91d3-468f-beb7-50c9e85d8f4d.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Nota: AI Notes & Voice",
-      "url": "https://www.producthunt.com/products/nota-ai-notes-voice",
-      "published": "2026-05-22T06:47:02-07:00",
-      "author": "Michel Valenzuela",
-      "tagline": "Turn voice, scans, sketches, and text into notes with AI",
-      "post_id": "1153413",
-      "summary_zh": "將語音、掃描文件、手繪草圖與文字等多種輸入形式透過 AI 轉換為結構化筆記。適合需要多元記錄方式的使用者。",
-      "image_url": "https://ph-files.imgix.net/6cd65100-8143-425f-9c7d-e62cb9588103.jpeg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/ceecee8a-5344-4da1-a6c0-5026e429743b.png?auto=format&w=960&h=540&fit=crop"
+      "title": "note.md",
+      "url": "https://www.producthunt.com/products/note-md",
+      "published": "2026-05-22T02:27:42-07:00",
+      "author": "André Aigner",
+      "tagline": "Local-first markdown based workspace for research writings",
+      "post_id": "1153243",
+      "summary_zh": "基於 Markdown 的本地優先工作空間，專為研究寫作設計。",
+      "image_url": "https://ph-files.imgix.net/f4be11d9-437a-41e3-968b-4dde083e5524.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c1fef98f-4091-4086-a3fd-f8ee5c5faae3.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Reader Alive",
-      "url": "https://www.producthunt.com/products/reader-alive",
-      "published": "2026-05-21T01:06:07-07:00",
-      "author": "Phil Ren",
-      "tagline": "Translate, listen to, and ask questions about your ebooks",
-      "post_id": "1152321",
-      "summary_zh": "提供電子書的翻譯、朗讀與 AI 問答功能，協助使用者更有效地閱讀與理解電子書內容。",
-      "image_url": "https://ph-files.imgix.net/5c890e07-d619-4889-ad4d-312c2aecdfe1.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d1807a88-6b01-41b9-a5a8-3d061a3d2afd.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Command A+",
+      "url": "https://www.producthunt.com/products/cohere-2",
+      "published": "2026-05-22T07:16:45-07:00",
+      "author": "Zac Zuo",
+      "tagline": "Cohere’s open enterprise workhorse",
+      "post_id": "1153427",
+      "summary_zh": "Cohere 推出的開放式企業級 AI 工作助手模型。",
+      "image_url": "https://ph-files.imgix.net/0edf9bfc-169b-44fb-89ee-edbf53de5f7c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/9c221d39-8b56-469a-baca-043154ae27b6.png?auto=format&w=960&h=540&fit=crop"
     }
   ]
 }
