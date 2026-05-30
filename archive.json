@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-30",
+    "date_display": "2026 年 05 月 30 日",
+    "generated_at": "2026-05-30T08:55:37.206003+08:00",
+    "total": 8,
+    "sources": [
+      "Design"
+    ],
+    "headline": "隨著 Opus 4.8 推出，越來越多設計師進入 Design Engineering 領域。作者分享常用的互動設計模式：利用「接近度」（proximity）而非僅靠 hover，當游標靠近時，附近元素會根據距離微妙地縮放和變暗。"
+  },
+  {
     "date": "2026-05-29",
     "date_display": "2026 年 05 月 29 日",
     "generated_at": "2026-05-29T08:55:36.938848+08:00",
