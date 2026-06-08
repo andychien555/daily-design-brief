@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-08",
+    "date_display": "2026 年 06 月 08 日",
+    "generated_at": "2026-06-08T08:55:36.690364+08:00",
+    "total": 5,
+    "sources": [
+      "Design"
+    ],
+    "headline": "一位 Google 資深工程師免費發布 421 頁《Agentic Design Patterns》文件，是一份完整的 AI 構建指南並附帶可直接用於生產環境的程式碼。"
+  },
+  {
     "date": "2026-06-07",
     "date_display": "2026 年 06 月 07 日",
     "generated_at": "2026-06-07T08:55:39.842314+08:00",
