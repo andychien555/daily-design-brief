@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-18",
+    "date_display": "2026 年 06 月 18 日",
+    "generated_at": "2026-06-18T08:55:37.758338+08:00",
+    "total": 8,
+    "sources": [
+      "Design"
+    ],
+    "headline": "Claude Design 新功能：可跨專案維持設計系統一致性、支援畫布直接編輯、與 Claude Code 同步，並整合更多第三方工具。"
+  },
+  {
     "date": "2026-06-17",
     "date_display": "2026 年 06 月 17 日",
     "generated_at": "2026-06-17T08:55:39.280596+08:00",
