@@ -1,6 +1,6 @@
 # Product & Design 每日早報
 
-每天台北早上 08:00 自動從 X/Twitter 與 Product Hunt 抓 Product & Design 相關熱門內容，並追蹤多個財經 podcast（游庭皓的財經皓角、股癌 Gooaye）抓最新一集做語音轉錄重點，用 Claude 篩選並翻譯成繁體中文摘要，產生靜態網站。
+每天台北早上 08:00 自動從 X/Twitter 與 Product Hunt 抓 Product & Design 相關熱門內容，並追蹤多個財經 podcast（游庭皓的財經皓角、股癌 Gooaye、M觀點）抓最新一集做語音轉錄重點，用 Claude 篩選並翻譯成繁體中文摘要，產生靜態網站。
 
 ## 架構
 
@@ -20,12 +20,16 @@ GitHub Actions: Daily Design Brief
         └─ Deploy workflow ─► GitHub Pages
 ```
 
-財經 podcast 每天檢查兩次新集（節目更新時間不定，尤其股癌）：
+財經 podcast 每天檢查新集（節目更新時間不定，尤其股癌）：
 
 ```
-  • Daily Design Brief（daily.yml）  — 台北早上一起跑 fetch_podcast.py
+  • Daily Design Brief（daily.yml）  — 台北早上一起跑 fetch_podcast.py（所有節目）
   • Podcast Check（podcast-check.yml）— 台北 22:00 (UTC 14:00) 再補一次，只跑 podcast + 重建頁面
 ```
+
+> 標記 `morning_only` 的節目（規律更新、每天一次即可，如 M觀點）只在早上那次抓；
+> 晚間 22:00 那次會跳過、沿用早上的 brief（透過 `PODCAST_RUN=evening` 環境變數控制）。
+> 沒標的（如股癌、財經皓角）兩次都檢查，靠 `podcast_state.json` 冪等快取避免重轉錄。
 
 > 財經重點曾用 YouTube 直播當來源，但 GitHub Actions 機房 IP 會被 YouTube 當機器人擋下（cookies 撐不久）。改用 podcast enclosure 直連 MP3 後，機房抓取屬正常行為、不被封鎖，無需 cookies/代理，穩定許多。轉錄走 Groq Whisper，因此 workflow 會先確保 `ffmpeg` 存在（大檔切段用）。
 
@@ -96,6 +100,8 @@ PRODUCTS_WINDOW_DAYS = 2
 PODCASTS = [
     {"name": "游庭皓的財經皓角", "itunes_id": "1488295306", "rss": "https://feeds.soundcloud.com/.../sounds.rss"},
     {"name": "股癌 Gooaye",      "itunes_id": "1500839292", "rss": "https://feeds.soundon.fm/podcasts/....xml"},
+    {"name": "M觀點",            "itunes_id": "1487378625", "rss": "https://feeds.soundon.fm/podcasts/....xml",
+     "morning_only": True},  # 規律更新，每天只在早上那次檢查；晚間 22:00 跳過
 ]
 PODCAST_SHOW_WITHIN_DAYS = 7   # 只顯示近 N 天內的最新集（週更節目也能持續顯示，過舊自動隱藏）
 
@@ -107,7 +113,7 @@ PODCAST_SUMMARY_SINGLE_PASS_MAX = 40000  # 逐字稿超過此長度 → map-redu
 PODCAST_SUMMARY_CHUNK_CHARS = 12000
 ```
 
-> 加／換 podcast：在 `PODCASTS` 加一筆 `{name, itunes_id, rss}` 即可。`rss` 是主來源（最即時），失效時用 `itunes_id` 經 iTunes Lookup 重新定位 feedUrl。`podcast_state.json` 以 `itunes_id:episode_id` 為鍵做冪等快取，同一集不會重轉錄/重摘要；單台失敗不影響其他台。
+> 加／換 podcast：在 `PODCASTS` 加一筆 `{name, itunes_id, rss}` 即可。`rss` 是主來源（最即時），失效時用 `itunes_id` 經 iTunes Lookup 重新定位 feedUrl。加上 `"morning_only": True` 則該台只在早上 daily.yml 那次檢查、晚間 22:00 跳過（適合規律更新、每天一次即可的節目）。`podcast_state.json` 以 `itunes_id:episode_id` 為鍵做冪等快取，同一集不會重轉錄/重摘要；單台失敗不影響其他台。
 
 ## API 用量
 
@@ -131,7 +137,7 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 
 ### Groq Whisper（Podcast 轉錄）
 
-- 每台每次最多 1 集（`PODCASTS` 有幾台就最多幾集）；命中 `podcast_state.json` 快取則 0 次。每天兩次檢查（早上 + 22:00），通常只有新集那次才真的轉錄。
+- 每台每次最多 1 集（`PODCASTS` 有幾台就最多幾集）；命中 `podcast_state.json` 快取則 0 次。每天檢查兩次（早上 + 22:00），`morning_only` 的台只在早上那次檢查；通常只有新集那次才真的轉錄。
 - 音檔 > `PODCAST_AUDIO_SEGMENT_MB` 會先用 `ffmpeg` 轉 16kHz 單聲道再切段，分段呼叫 `whisper-large-v3`。
 - 沒設 `GROQ_API_KEY` 或沒裝 `groq`／`ffmpeg` → 轉錄回空字串，該台不顯示（不中斷早報）。
 

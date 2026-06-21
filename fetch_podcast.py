@@ -341,10 +341,30 @@ def process_one(podcast: dict, state: dict, force: bool) -> dict | None:
 
 def main() -> None:
     force = "--force" in sys.argv
+    # 晚間（22:00）那次檢查只跑「不定時更新」的節目；標記 morning_only 的
+    # （規律更新、每天一次即可，如 M觀點）只在早上 daily.yml 那次抓。
+    evening = os.environ.get("PODCAST_RUN", "").lower() == "evening"
     state = load_json(STATE_PATH)
+    data = load_json(DATA_PATH)
+    prev_briefs = {b.get("channel"): b for b in data.get("podcast_briefs", [])}
+
+    def _parse_dt(brief: dict):
+        try:
+            return datetime.strptime(brief.get("published", ""), "%Y-%m-%d").replace(tzinfo=TPE)
+        except Exception:
+            return None
 
     collected = []  # (published_dt, brief)
     for pod in PODCASTS:
+        if evening and pod.get("morning_only"):
+            # 晚間不重抓；沿用早上 daily.yml 已產生的 brief，避免它從頁面消失。
+            prev = prev_briefs.get(pod["name"])
+            if prev:
+                log(f"{pod['name']} 標記 morning_only → 晚間沿用早上的 brief")
+                collected.append((_parse_dt(prev), prev))
+            else:
+                log(f"{pod['name']} 標記 morning_only → 晚間跳過（尚無早上 brief）")
+            continue
         try:
             info = resolve_latest_episode(pod)
             if not info:
@@ -368,7 +388,6 @@ def main() -> None:
     collected.sort(key=lambda t: t[0] or datetime.min.replace(tzinfo=TPE), reverse=True)
     briefs = [b for _, b in collected]
 
-    data = load_json(DATA_PATH)
     data["podcast_briefs"] = briefs
     data.pop("podcast_brief", None)   # 移除舊單則欄位（已由清單取代）
     with open(DATA_PATH, "w", encoding="utf-8") as f:

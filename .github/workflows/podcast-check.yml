@@ -5,6 +5,12 @@ name: Podcast Check
 # 專抓不定時更新的節目（如股癌），有新集就轉錄＋摘要並重建頁面。
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "podcast run mode（evening 跳過 morning_only 節目；all 全部都跑）"
+        type: choice
+        options: [evening, all]
+        default: evening
   schedule:
     - cron: "0 14 * * *"   # 台北 22:00 (UTC 14:00)
 
@@ -33,6 +39,9 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          # 排程預設 evening（跳過 morning_only 如 M觀點，只沿用早上的 brief）；
+          # 手動 dispatch 可選 all 讓全部節目都跑（測試新節目用）。
+          PODCAST_RUN: ${{ github.event.inputs.mode || 'evening' }}
         run: python fetch_podcast.py
 
       - name: Regenerate HTML
