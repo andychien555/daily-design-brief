@@ -983,6 +983,11 @@ STYLES = """  <style>
         text-align: center;
       }
       .colophon-left, .colophon-right { text-align: center; }
+
+      /* 手機版收窄左右留白，讓內容區更寬 */
+      .masthead { padding-left: .9rem; padding-right: .9rem; }
+      main { padding-left: .9rem; padding-right: .9rem; }
+      .card-anchor { padding-left: 1rem; padding-right: 1rem; }
     }
 
     /* ── Tweet context: quoted / replied-to / top replies ── */
@@ -1143,5 +1148,10 @@ STYLES = """  <style>
       letter-spacing: .04em;
     }
     .yt-foot a:hover { text-decoration: underline; }
+
+    /* 手機版收窄財經重點橘框卡片的左右留白（須放在 .yt-brief 定義之後才不會被蓋掉） */
+    @media (max-width: 720px) {
+      .yt-brief { padding: 1.1rem 12px 1.2rem; }
+    }
   </style>
 """
