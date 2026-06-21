@@ -9,8 +9,9 @@ saves results to data.json.
 import os
 import json
 import httpx
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta
 
+import config
 from config import (
     SEARCH_QUERIES,
     TWEETS_TOP_N as TOP_N,
@@ -18,6 +19,7 @@ from config import (
     TWEETS_LANGS,
     TWEETS_API_BASE_DEFAULT,
 )
+from utils import shape_tweet, strip_code_fence, save_json
 
 TWITTER_TOKEN = os.environ["TWITTER_TOKEN"]
 API_BASE = os.environ.get("TWITTER_API_BASE", TWEETS_API_BASE_DEFAULT)
@@ -72,17 +74,6 @@ def search_tweets(
     except Exception as e:
         print(f"  [warn] Query '{query}' failed: {e}")
         return []
-
-def dedupe(tweets: list[dict]) -> list[dict]:
-    """Remove duplicate tweets by id."""
-    seen = set()
-    result = []
-    for t in tweets:
-        tid = t.get("id") or t.get("tweet_id")
-        if tid and tid not in seen:
-            seen.add(tid)
-            result.append(t)
-    return result
 
 def pick_top(tweets: list[dict], n: int = 5) -> list[dict]:
     """Sort by engagement (likes + retweets) and return top n."""
@@ -245,25 +236,7 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
         print("  [warn] anthropic package missing — using likes-only fallback")
         return fallback
 
-    def shape(t: dict) -> dict:
-        ctx = t.get("context") or {}
-        out = {
-            "id": t["id"], "author": t["author"],
-            "likes": t["likes"], "retweets": t["retweets"], "replies": t["replies"],
-            "text": t["text"],
-        }
-        if ctx.get("quoted_text"):
-            out["quoted"] = {"author": ctx["quoted_author"], "text": ctx["quoted_text"]}
-        if ctx.get("replied_text"):
-            out["replying_to"] = {"author": ctx["replied_author"], "text": ctx["replied_text"]}
-        if ctx.get("top_replies"):
-            out["top_replies"] = [
-                {"author": r["author"], "text": r["text"], "likes": r["likes"]}
-                for r in ctx["top_replies"]
-            ]
-        return out
-
-    items = [shape(t) for t in candidates]
+    items = [shape_tweet(t) for t in candidates]
     prompt = (
         "你是 Product & Design 策展編輯。以下是候選推文 JSON 陣列（內容可能是英文、繁體中文或簡體中文），請從中挑出 "
         f"**最多 {top_n} 則** 對 product designer / PM 讀者最有價值的內容，並為每則寫 1-2 句繁體中文摘要。\n\n"
@@ -292,16 +265,11 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
     try:
         client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
         resp = client.messages.create(
-            model="claude-sonnet-4-5",
+            model=config.CLAUDE_MODEL,
             max_tokens=4000,
             messages=[{"role": "user", "content": prompt}],
         )
-        raw = resp.content[0].text.strip()
-        if raw.startswith("```"):
-            raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
-            raw = raw.strip()
+        raw = strip_code_fence(resp.content[0].text.strip())
         picks = json.loads(raw)
         by_id = {t["id"]: t for t in candidates}
         ordered = []
@@ -389,8 +357,7 @@ def load_recent_tweet_ids(days: int, today: str) -> set[str]:
     return ids
 
 def main():
-    tz_taipei = timezone(timedelta(hours=8))
-    now = datetime.now(tz_taipei)
+    now = datetime.now(config.TPE)
     date_str = now.strftime("%Y-%m-%d")
     date_display = now.strftime("%Y 年 %m 月 %d 日")
 
@@ -474,8 +441,7 @@ def main():
         },
     }
 
-    with open("data.json", "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+    save_json(config.DATA_FILE, output)
 
     print(f"✅ data.json saved — top {len(top)} tweets")
 

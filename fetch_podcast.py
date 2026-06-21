@@ -18,16 +18,16 @@ fetch_podcast.py
 import os
 import re
 import sys
-import json
 import tempfile
 import subprocess
 from pathlib import Path
 from email.utils import parsedate_to_datetime
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta
 from xml.etree import ElementTree as ET
 
 import httpx
 
+import config
 from config import (
     PODCASTS,
     PODCAST_SHOW_WITHIN_DAYS,
@@ -38,14 +38,15 @@ from config import (
     PODCAST_SUMMARY_SINGLE_PASS_MAX,
     PODCAST_SUMMARY_CHUNK_CHARS,
 )
+from utils import load_json, save_json
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
-STATE_PATH = "podcast_state.json"
-DATA_PATH = "data.json"
-TPE = timezone(timedelta(hours=8))
-UA = {"User-Agent": "Mozilla/5.0 (daily-design-brief podcast fetcher)"}
+STATE_PATH = config.PODCAST_STATE_FILE
+DATA_PATH = config.DATA_FILE
+TPE = config.TPE
+UA = {"User-Agent": config.USER_AGENT_PODCAST}
 
 
 def log(msg: str) -> None:
@@ -55,7 +56,7 @@ def log(msg: str) -> None:
 
 # ── 1. 偵測最新一集 ────────────────────────────────────────────────
 def _fetch_rss_text(url: str) -> str:
-    with httpx.Client(timeout=30, headers=UA, follow_redirects=True) as c:
+    with httpx.Client(timeout=config.HTTP_TIMEOUT, headers=UA, follow_redirects=True) as c:
         r = c.get(url)
         r.raise_for_status()
         return r.text
@@ -70,7 +71,7 @@ def _resolve_feed_url(podcast: dict) -> str:
     except Exception as e:
         log(f"[warn] {podcast['name']} 直連 RSS 失敗（{e}）→ 改用 iTunes Lookup")
     try:
-        with httpx.Client(timeout=30, headers=UA, follow_redirects=True) as c:
+        with httpx.Client(timeout=config.HTTP_TIMEOUT, headers=UA, follow_redirects=True) as c:
             r = c.get(f"https://itunes.apple.com/lookup?id={podcast['itunes_id']}")
             r.raise_for_status()
             feed = (r.json().get("results") or [{}])[0].get("feedUrl")
@@ -139,7 +140,7 @@ def _recent(published_dt) -> bool:
 # ── 2. 下載音檔 ────────────────────────────────────────────────────
 def download_mp3(url: str, dest: str) -> bool:
     try:
-        with httpx.Client(timeout=180, headers=UA, follow_redirects=True) as c:
+        with httpx.Client(timeout=config.HTTP_TIMEOUT_LONG, headers=UA, follow_redirects=True) as c:
             with c.stream("GET", url) as r:
                 r.raise_for_status()
                 with open(dest, "wb") as f:
@@ -235,7 +236,7 @@ FORMAT_INSTRUCTION = (
 
 def _claude(client, system: str, user: str, max_tokens: int = 3000) -> str:
     resp = client.messages.create(
-        model="claude-sonnet-4-5",
+        model=config.CLAUDE_MODEL,
         max_tokens=max_tokens,
         system=system,
         messages=[{"role": "user", "content": user}],
@@ -284,16 +285,6 @@ def summarize(transcript: str, title: str) -> str:
 
 
 # ── state / data I/O ───────────────────────────────────────────────
-def load_json(path: str) -> dict:
-    if os.path.exists(path):
-        try:
-            with open(path, encoding="utf-8") as f:
-                return json.load(f)
-        except Exception:
-            return {}
-    return {}
-
-
 def process_one(podcast: dict, state: dict, force: bool) -> dict | None:
     """回傳此 podcast 最新一集的 brief（新轉錄或快取重用），失敗回 None。"""
     info = resolve_latest_episode(podcast)
@@ -334,17 +325,36 @@ def process_one(podcast: dict, state: dict, force: bool) -> dict | None:
     if len(state) > 120:
         for k in list(state.keys())[:-120]:
             state.pop(k, None)
-    with open(STATE_PATH, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
+    save_json(STATE_PATH, state)
     return brief
 
 
 def main() -> None:
     force = "--force" in sys.argv
+    # 晚間（22:00）那次檢查只跑「不定時更新」的節目；標記 morning_only 的
+    # （規律更新、每天一次即可，如 M觀點）只在早上 daily.yml 那次抓。
+    evening = os.environ.get("PODCAST_RUN", "").lower() == "evening"
     state = load_json(STATE_PATH)
+    data = load_json(DATA_PATH)
+    prev_briefs = {b.get("channel"): b for b in data.get("podcast_briefs", [])}
+
+    def _parse_dt(brief: dict):
+        try:
+            return datetime.strptime(brief.get("published", ""), "%Y-%m-%d").replace(tzinfo=TPE)
+        except Exception:
+            return None
 
     collected = []  # (published_dt, brief)
     for pod in PODCASTS:
+        if evening and pod.get("morning_only"):
+            # 晚間不重抓；沿用早上 daily.yml 已產生的 brief，避免它從頁面消失。
+            prev = prev_briefs.get(pod["name"])
+            if prev:
+                log(f"{pod['name']} 標記 morning_only → 晚間沿用早上的 brief")
+                collected.append((_parse_dt(prev), prev))
+            else:
+                log(f"{pod['name']} 標記 morning_only → 晚間跳過（尚無早上 brief）")
+            continue
         try:
             info = resolve_latest_episode(pod)
             if not info:
@@ -368,11 +378,9 @@ def main() -> None:
     collected.sort(key=lambda t: t[0] or datetime.min.replace(tzinfo=TPE), reverse=True)
     briefs = [b for _, b in collected]
 
-    data = load_json(DATA_PATH)
     data["podcast_briefs"] = briefs
     data.pop("podcast_brief", None)   # 移除舊單則欄位（已由清單取代）
-    with open(DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    save_json(DATA_PATH, data)
     log(f"✅ data.json 寫入 {len(briefs)} 則 podcast_briefs："
         + "、".join(b["channel"] for b in briefs))
 

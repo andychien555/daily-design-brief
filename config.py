@@ -4,6 +4,27 @@ Tune ingestion knobs (counts, windows, search queries) here without
 touching the fetch/render logic.
 """
 
+from datetime import timezone, timedelta
+
+# ── Shared constants ───────────────────────────────────────────────
+# Output / state files (single source of truth across fetch + render).
+DATA_FILE = "data.json"
+ARCHIVE_FILE = "archive.json"
+PODCAST_STATE_FILE = "podcast_state.json"
+BRIEFS_DIR = "briefs"
+
+# Claude model used for all curation / summarisation calls.
+CLAUDE_MODEL = "claude-sonnet-4-5"
+
+# Asia/Taipei (UTC+8) — pipeline runs and date stamping use this.
+TPE = timezone(timedelta(hours=8))
+
+# HTTP client knobs.
+USER_AGENT = "Mozilla/5.0 (daily-design-brief)"
+USER_AGENT_PODCAST = "Mozilla/5.0 (daily-design-brief podcast fetcher)"
+HTTP_TIMEOUT = 30
+HTTP_TIMEOUT_LONG = 180
+
 # ── Twitter / X ingestion ──────────────────────────────────────────
 TWEETS_TOP_N = 15
 TWEETS_SINCE_DAYS = 2
@@ -33,7 +54,7 @@ PRODUCTS_TOP_N = 6
 PRODUCTS_WINDOW_DAYS = 2
 PRODUCTS_RSS_URL = "https://www.producthunt.com/feed"
 
-# ── 財經 Podcast 重點（游庭皓的財經皓角）──────────────────────────
+# ── 財經 Podcast 重點（財經皓角 / 股癌 / M觀點）───────────────────
 # 每天從 podcast RSS 偵測最新一集，下載直連 MP3 → Groq Whisper 轉錄 →
 # Claude 整理成結構化筆記，渲染在早報最上方。
 # 改用 podcast 取代 YouTube：直連 MP3 不被機房 IP 封鎖，無需 cookies/代理。
@@ -50,6 +71,14 @@ PODCASTS = [
         "name": "股癌 Gooaye",
         "itunes_id": "1500839292",
         "rss": "https://feeds.soundon.fm/podcasts/954689a5-3096-43a4-a80b-7810b219cef3.xml",
+    },
+    {
+        # 規律更新、每天檢查一次即可 → 標記 morning_only：晚間 22:00 那次跳過，
+        # 只在早上 daily.yml 那次抓（晚間檢查是給股癌這類不定時更新的節目用的）。
+        "name": "M觀點",
+        "itunes_id": "1487378625",
+        "rss": "https://feeds.soundon.fm/podcasts/b8f5a471-f4f7-4763-9678-65887beda63a.xml",
+        "morning_only": True,
     },
 ]
 # 只顯示「發布在近 N 天內」的最新一集（股癌週更也能持續顯示，過舊則自動隱藏）。

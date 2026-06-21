@@ -9,29 +9,10 @@ import json
 import os
 import sys
 
-DATA_FILE = "data.json"
+import config
+from utils import shape_tweet, strip_code_fence, load_json, save_json
 
-
-def shape(t: dict) -> dict:
-    ctx = t.get("context") or {}
-    out = {
-        "id": t["id"],
-        "author": t["author"],
-        "likes": t["likes"],
-        "retweets": t["retweets"],
-        "replies": t["replies"],
-        "text": t["text"],
-    }
-    if ctx.get("quoted_text"):
-        out["quoted"] = {"author": ctx["quoted_author"], "text": ctx["quoted_text"]}
-    if ctx.get("replied_text"):
-        out["replying_to"] = {"author": ctx["replied_author"], "text": ctx["replied_text"]}
-    if ctx.get("top_replies"):
-        out["top_replies"] = [
-            {"author": r["author"], "text": r["text"], "likes": r["likes"]}
-            for r in ctx["top_replies"]
-        ]
-    return out
+DATA_FILE = config.DATA_FILE
 
 
 def main() -> int:
@@ -42,8 +23,7 @@ def main() -> int:
 
     import anthropic
 
-    with open(DATA_FILE, encoding="utf-8") as f:
-        data = json.load(f)
+    data = load_json(DATA_FILE)
 
     tweets = data.get("top_tweets", [])
     missing = [t for t in tweets if not t.get("summary_zh")]
@@ -52,7 +32,7 @@ def main() -> int:
         print("Nothing to backfill.")
         return 0
 
-    items = [shape(t) for t in missing]
+    items = [shape_tweet(t) for t in missing]
     prompt = (
         "你是 Product & Design 策展編輯。以下是已選定的推文 JSON 陣列（內容可能是英文、繁體中文或簡體中文），"
         "請為每則寫 1-2 句繁體中文摘要。\n\n"
@@ -72,16 +52,11 @@ def main() -> int:
 
     client = anthropic.Anthropic(api_key=api_key)
     resp = client.messages.create(
-        model="claude-sonnet-4-5",
+        model=config.CLAUDE_MODEL,
         max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
     )
-    raw = resp.content[0].text.strip()
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-        raw = raw.strip()
+    raw = strip_code_fence(resp.content[0].text.strip())
     picks = json.loads(raw)
 
     by_id = {p["id"]: p["summary_zh"] for p in picks if p.get("id") and p.get("summary_zh")}
@@ -92,8 +67,7 @@ def main() -> int:
             filled += 1
     print(f"Filled {filled}/{len(missing)} summaries")
 
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    save_json(DATA_FILE, data)
     print(f"✅ {DATA_FILE} updated")
     return 0
 
