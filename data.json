@@ -1,75 +1,9 @@
 {
   "date": "2026-06-21",
   "date_display": "2026 年 06 月 21 日",
-  "generated_at": "2026-06-21T08:55:35.813323+08:00",
+  "generated_at": "2026-06-21T12:34:56.880517+08:00",
   "since_date": "2026-06-19",
-  "top_tweets": [
-    {
-      "id": "2068350101920067738",
-      "text": "i've been building things for developers for a long time which means i have a lot of experience with api design\n\nbut LLMs are making me reset a bit\n\ninstead of neat simple APIs it's probably worth trading that off for more powerful APIs",
-      "author": "thdxr",
-      "name": "dax",
-      "likes": 865,
-      "retweets": 15,
-      "replies": 90,
-      "created": "Sat Jun 20 15:07:47 +0000 2026",
-      "url": "https://x.com/thdxr/status/2068350101920067738",
-      "source": "Design",
-      "summary_zh": "作者從長期 API 設計經驗出發，認為 LLM 時代應重新思考取捨：與其追求簡潔的 API，不如提供更強大的功能介面。"
-    },
-    {
-      "id": "2068346261497868460",
-      "text": "A few people are asking so let me explain.\n\nSo firstly why concept art is dead.\nWe used to be a core part of in-house development teams. Working alongside designers to visualise the world.\nNowadays it feels more like we are just asset designers, and as more concept work moves to",
-      "author": "jadel4w",
-      "name": "Jade Law",
-      "likes": 719,
-      "retweets": 70,
-      "replies": 35,
-      "created": "Sat Jun 20 14:52:31 +0000 2026",
-      "url": "https://x.com/jadel4w/status/2068346261497868460",
-      "source": "Design",
-      "summary_zh": "概念藝術家指出產業變化：過去是開發團隊核心、與設計師共同構建世界觀，現在更像資產設計師，外包趨勢加劇。"
-    },
-    {
-      "id": "2068356392558252494",
-      "text": "Alright I’m gonna say it. \n\nThe Obama Library is unappealing in almost every way imaginable. \n\nZero interesting lines, the details look sloppy and jumbled, and a complete lack of contrast and color.  \n\nAnytime you see a great design the superlatives should flow easily when https://t.co/IkRQ0nykX7",
-      "author": "luusssso",
-      "name": "lusso",
-      "likes": 910,
-      "retweets": 42,
-      "replies": 246,
-      "created": "Sat Jun 20 15:32:46 +0000 2026",
-      "url": "https://x.com/luusssso/status/2068356392558252494",
-      "source": "Design",
-      "summary_zh": "作者批評歐巴馬圖書館設計缺乏吸引力：線條無趣、細節凌亂、缺乏對比與色彩，認為優秀設計應能自然激發讚美。"
-    },
-    {
-      "id": "2068344843563085829",
-      "text": "Spending time learning graphs and networking theory is one of the highest-ROI investments you can make. It quietly compounds across distributed systems, AI, infrastructure, markets, and even social dynamics.\n\nSolid starters: Barabási – Network Science; Easley/Kleinberg –",
-      "author": "TheAhmadOsman",
-      "name": "Ahmad",
-      "likes": 536,
-      "retweets": 48,
-      "replies": 10,
-      "created": "Sat Jun 20 14:46:53 +0000 2026",
-      "url": "https://x.com/TheAhmadOsman/status/2068344843563085829",
-      "source": "Design",
-      "summary_zh": "學習圖論與網絡理論是高投報的投資，能靜默複利於分散式系統、AI、基礎設施、市場與社會動態等多個領域。推薦 Barabási 與 Easley/Kleinberg 的入門書籍。"
-    },
-    {
-      "id": "2068376297244402084",
-      "text": "Design for the central hub area within the Cryo Archive.\n\nThe goal was to push this area into a more organic visual language in order to contrast the otherwise angular and mechanical visuals of the UESC.\n\nIncredible final in-game model was built by Eve Astra. https://t.co/teHkwxMOlx",
-      "author": "d_goryainov",
-      "name": "Dima Goryainov",
-      "likes": 985,
-      "retweets": 129,
-      "replies": 16,
-      "created": "Sat Jun 20 16:51:52 +0000 2026",
-      "url": "https://x.com/d_goryainov/status/2068376297244402084",
-      "source": "Design",
-      "summary_zh": "《Marathon》Cryo Archive 中央樞紐區的設計分享，刻意採用有機視覺語言來對比 UESC 原本的機械與稜角風格。"
-    }
-  ],
+  "top_tweets": [],
   "criteria": {
     "keyword_pools": [
       {
@@ -150,15 +84,15 @@
   },
   "top_products": [
     {
-      "title": "pumaDB",
-      "url": "https://www.producthunt.com/products/pumadb",
-      "published": "2026-06-18T19:39:34-07:00",
-      "author": "Stuart Sim",
-      "tagline": "a small hosted memory layer for AI agents",
-      "post_id": "1175700",
-      "summary_zh": "為 AI agents 設計的小型託管記憶層服務，提供快速的資料存取與狀態管理功能。",
-      "image_url": "https://ph-files.imgix.net/9519eda9-81d2-4fcd-887b-15183bdf3c32.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/50594f98-32dc-40a5-aa5d-5c664e4e8898.png?auto=format&w=960&h=540&fit=crop"
+      "title": "GitSync for macOS",
+      "url": "https://www.producthunt.com/products/gitsync-for-macos",
+      "published": "2026-06-19T14:52:21-07:00",
+      "author": "Kevin Tobler",
+      "tagline": "Visual GitHub management directly from a graphical interface",
+      "post_id": "1176393",
+      "summary_zh": "為 macOS 設計的視覺化 GitHub 管理工具，透過圖形介面直接操作 GitHub 專案與版本控制。",
+      "image_url": "https://ph-files.imgix.net/f2dea0db-e324-4cdc-a84f-bba31a90c3a3.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5c2c54b5-7b6b-4cfe-ae86-30b98f6fc023.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Pixlie",
@@ -167,7 +101,7 @@
       "author": "Illia Ovcharenko",
       "tagline": "AI video studio: text & image to video, with real control",
       "post_id": "1176012",
-      "summary_zh": "AI 影片製作工具，可將文字或圖片轉換為影片，並提供細緻的控制選項給創作者使用。",
+      "summary_zh": "AI 影片製作工具，可將文字與圖片轉換為影片，並提供精細的控制選項給內容創作者。",
       "image_url": "https://ph-files.imgix.net/6a0057c3-675d-436a-a6cb-30a14f404bb5.svg?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/a7fd3ad5-f830-41fb-87bd-6bfe2c5dd9ca.png?auto=format&w=960&h=540&fit=crop"
     },
@@ -178,7 +112,7 @@
       "author": "Max Musing",
       "tagline": "Control exactly who can access your company data",
       "post_id": "1176207",
-      "summary_zh": "企業資料存取權限管理工具，讓管理者能精確控制不同使用者對公司資料的存取範圍。",
+      "summary_zh": "企業資料存取權限管理工具，讓管理者精確控制團隊成員對公司資料的存取範圍。",
       "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/07750fa8-d42f-4471-9223-f2fba2aaaae8.png?auto=format&w=960&h=540&fit=crop"
     },
@@ -189,31 +123,20 @@
       "author": "Thomas Dimson",
       "tagline": "Find out if you live forever in the brain of the LLMs",
       "post_id": "1176437",
-      "summary_zh": "檢測工具，讓你查詢自己的資訊是否已被大型語言模型（LLM）訓練資料收錄。",
+      "summary_zh": "檢測工具，幫助使用者了解自己的資訊是否被包含在大型語言模型的訓練資料中。",
       "image_url": "https://ph-files.imgix.net/aa7a17d2-293c-40e8-91ae-74fbe0e74034.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/fb7d1064-96dc-40d3-ac11-49b6437e249b.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Reframe",
-      "url": "https://www.producthunt.com/products/reframe-7",
-      "published": "2026-06-18T19:16:03-07:00",
-      "author": "Maik Klotz",
-      "tagline": "Surf like it's 1999",
-      "post_id": "1175694",
-      "summary_zh": "復古風格的網頁瀏覽器，重現 1999 年代的上網體驗與介面設計。",
-      "image_url": "https://ph-files.imgix.net/81ca198a-33cc-40f6-a7eb-357f3f078df7.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/883e60d4-fca9-4353-b5e4-b0772e744202.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "GitSync for macOS",
-      "url": "https://www.producthunt.com/products/gitsync-for-macos",
-      "published": "2026-06-19T14:52:21-07:00",
-      "author": "Kevin Tobler",
-      "tagline": "Visual GitHub management directly from a graphical interface",
-      "post_id": "1176393",
-      "summary_zh": "macOS 平台的 GitHub 管理工具，透過圖形化介面提供視覺化的版本控制操作。",
-      "image_url": "https://ph-files.imgix.net/f2dea0db-e324-4cdc-a84f-bba31a90c3a3.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/5c2c54b5-7b6b-4cfe-ae86-30b98f6fc023.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Mutter AI Dictation",
+      "url": "https://www.producthunt.com/products/mutter-ai-dictation",
+      "published": "2026-06-18T22:41:54-07:00",
+      "author": "Steven Billings",
+      "tagline": "Private AI dictation that lets you operate offline.",
+      "post_id": "1175765",
+      "summary_zh": "支援離線使用的私密 AI 語音轉文字工具，注重使用者隱私與資料安全。",
+      "image_url": "https://ph-files.imgix.net/c57fdfa4-4e9b-4a42-90f3-06c6cfddbbbe.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/2e3bd02a-1cf0-4c18-a97c-34c17c6ab60f.png?auto=format&w=960&h=540&fit=crop"
     }
   ]
 }

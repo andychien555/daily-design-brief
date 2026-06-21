@@ -1076,6 +1076,93 @@
       color: var(--ink);
       line-height: 1.5;
     }
+
+    /* ─────────────── YouTube 財經直播重點（最上方）─────────────── */
+    .yt-brief {
+      margin: 0 0 3rem;
+      padding: 1.75rem 1.75rem 2rem;
+      border: 1px solid var(--rule);
+      border-top: 3px solid var(--accent);
+      background: var(--paper-2);
+      border-radius: 4px;
+      position: relative;
+    }
+    .yt-kicker {
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: .75rem;
+    }
+    .yt-title {
+      font-family: var(--serif);
+      font-size: 1.5rem;
+      line-height: 1.25;
+      margin: 0 0 .75rem;
+      font-weight: 600;
+    }
+    .yt-title a {
+      color: var(--ink);
+      text-decoration: none;
+      transition: color .15s;
+    }
+    .yt-title a:hover { color: var(--accent); }
+    .yt-title a:hover .yt-arrow { transform: translate(2px, -2px); display: inline-block; }
+    .yt-arrow { color: var(--ink-3); font-size: .85em; transition: transform .15s; }
+
+    .yt-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .5rem .9rem;
+      margin-bottom: 1.25rem;
+      font-family: var(--mono);
+      font-size: .72rem;
+      color: var(--ink-3);
+    }
+    .yt-meta .chip.yt-source {
+      margin-left: 0;
+    }
+
+    .yt-body { color: var(--ink); line-height: 1.7; }
+    .yt-body h3 {
+      font-family: var(--serif);
+      font-size: 1.08rem;
+      color: var(--ink);
+      margin: 1.5rem 0 .6rem;
+      padding-bottom: .35rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .yt-body h3:first-child { margin-top: 0; }
+    .yt-body h4 {
+      font-family: var(--sans);
+      font-size: .95rem;
+      color: var(--ink-2);
+      margin: 1.1rem 0 .4rem;
+      font-weight: 600;
+    }
+    .yt-body p { margin: .55rem 0; color: var(--ink-2); }
+    .yt-body ul { margin: .55rem 0 .9rem; padding-left: 1.3rem; }
+    .yt-body li { margin: .3rem 0; color: var(--ink-2); line-height: 1.6; }
+    .yt-body strong { color: var(--ink); }
+    .yt-body .yt-rule {
+      border: none;
+      border-top: 1px dashed var(--rule-2);
+      margin: 1.25rem 0;
+    }
+
+    .yt-foot {
+      margin-top: 1.25rem;
+      font-family: var(--mono);
+      font-size: .75rem;
+    }
+    .yt-foot a {
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: .04em;
+    }
+    .yt-foot a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -1100,7 +1187,7 @@
     <div class="masthead-center">
       <h1 class="masthead-title">Product &amp; <em>Design</em></h1>
     </div>
-    <div class="meta-right">2026-06-21 · 05 篇</div>
+    <div class="meta-right">2026-06-21 · 00 篇</div>
   </div>
 </header>
 
@@ -1114,141 +1201,36 @@
   </div>
 
   
-    <article class="lead">
-      <a class="lead-anchor" href="https://x.com/thdxr/status/2068350101920067738" target="_blank" rel="noopener">
-        <div class="lead-meta">
-          <span class="lead-rank">№ 01 · 頭條</span>
-          <span class="lead-rule"></span>
-          <span class="lead-author">
-            <span class="author-name">dax</span>
-            <span class="author-handle">@thdxr</span>
-          </span>
-        </div>
-        <h2 class="lead-summary">作者從長期 API 設計經驗出發，認為 LLM 時代應重新思考取捨：與其追求簡潔的 API，不如提供更強大的功能介面。</h2>
-        <p class="lead-text">i've been building things for developers for a long time which means i have a lot of experience with api design
 
-but LLMs are making me reset a bit
-
-instead of neat simple APIs it's probably worth trading that off for more powerful APIs</p>
-        
-        <div class="lead-foot">
-          <span class="stat"><span class="glyph">♥</span>865</span>
-          <span class="stat"><span class="glyph">↻</span>15</span>
-          <span class="chip">Design</span>
-          <span class="lead-arrow" aria-hidden="true">↗</span>
-        </div>
-      </a>
-    </article>
+  
+    <section class="empty">
+      <div class="empty-mark">№</div>
+      <h2 class="empty-title">No <em>press</em> today.</h2>
+      <p class="empty-sub">本日無上稿。爬蟲跑了但 X 沒人在聊有趣的設計、AI、產品。<br>明日 09:00 (UTC+8) 重新出刊。</p>
+      <div class="empty-rule"></div>
+      <p class="empty-foot">— Editor</p>
+    </section>
     
-<div class="grid-divider"><span>更多 / More from the desk</span></div>
-<div class="cards-grid">
-    <article class="card">
-      <a class="card-anchor" href="https://x.com/jadel4w/status/2068346261497868460" target="_blank" rel="noopener">
-        <div class="card-rank">02</div>
-        <div class="card-meta">
-          <span class="author-name">Jade Law</span>
-          <span class="author-handle">@jadel4w</span>
-        </div>
-        <p class="card-summary">概念藝術家指出產業變化：過去是開發團隊核心、與設計師共同構建世界觀，現在更像資產設計師，外包趨勢加劇。</p>
-        <p class="card-text">A few people are asking so let me explain.
-
-So firstly why concept art is dead.
-We used to be a core part of in-house development teams. Working alongside designers to visualise the world.
-Nowadays it feels more like we are just asset designers, and as more concept work moves to</p>
-        
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>719</span>
-          <span class="stat"><span class="glyph">↻</span>70</span>
-          <span class="chip">Design</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
-      <a class="card-anchor" href="https://x.com/luusssso/status/2068356392558252494" target="_blank" rel="noopener">
-        <div class="card-rank">03</div>
-        <div class="card-meta">
-          <span class="author-name">lusso</span>
-          <span class="author-handle">@luusssso</span>
-        </div>
-        <p class="card-summary">作者批評歐巴馬圖書館設計缺乏吸引力：線條無趣、細節凌亂、缺乏對比與色彩，認為優秀設計應能自然激發讚美。</p>
-        <p class="card-text">Alright I’m gonna say it. 
-
-The Obama Library is unappealing in almost every way imaginable. 
-
-Zero interesting lines, the details look sloppy and jumbled, and a complete lack of contrast and color.  
-
-Anytime you see a great design the superlatives should flow easily when https://t.co/IkRQ0nykX7</p>
-        
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>910</span>
-          <span class="stat"><span class="glyph">↻</span>42</span>
-          <span class="chip">Design</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
-      <a class="card-anchor" href="https://x.com/TheAhmadOsman/status/2068344843563085829" target="_blank" rel="noopener">
-        <div class="card-rank">04</div>
-        <div class="card-meta">
-          <span class="author-name">Ahmad</span>
-          <span class="author-handle">@TheAhmadOsman</span>
-        </div>
-        <p class="card-summary">學習圖論與網絡理論是高投報的投資，能靜默複利於分散式系統、AI、基礎設施、市場與社會動態等多個領域。推薦 Barabási 與 Easley/Kleinberg 的入門書籍。</p>
-        <p class="card-text">Spending time learning graphs and networking theory is one of the highest-ROI investments you can make. It quietly compounds across distributed systems, AI, infrastructure, markets, and even social dynamics.
-
-Solid starters: Barabási – Network Science; Easley/Kleinberg –</p>
-        
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>536</span>
-          <span class="stat"><span class="glyph">↻</span>48</span>
-          <span class="chip">Design</span>
-        </div>
-      </a>
-    </article>
-
-    <article class="card">
-      <a class="card-anchor" href="https://x.com/d_goryainov/status/2068376297244402084" target="_blank" rel="noopener">
-        <div class="card-rank">05</div>
-        <div class="card-meta">
-          <span class="author-name">Dima Goryainov</span>
-          <span class="author-handle">@d_goryainov</span>
-        </div>
-        <p class="card-summary">《Marathon》Cryo Archive 中央樞紐區的設計分享，刻意採用有機視覺語言來對比 UESC 原本的機械與稜角風格。</p>
-        <p class="card-text">Design for the central hub area within the Cryo Archive.
-
-The goal was to push this area into a more organic visual language in order to contrast the otherwise angular and mechanical visuals of the UESC.
-
-Incredible final in-game model was built by Eve Astra. https://t.co/teHkwxMOlx</p>
-        
-        <div class="card-foot">
-          <span class="stat"><span class="glyph">♥</span>985</span>
-          <span class="stat"><span class="glyph">↻</span>129</span>
-          <span class="chip">Design</span>
-        </div>
-      </a>
-    </article></div>
 
   
 <div class="grid-divider ph-divider"><span>Product Hunt · 今日新品 / New Launches</span></div>
 <div class="ph-grid">
     <article class="ph-card">
-      <a class="ph-anchor" href="https://www.producthunt.com/products/pumadb" target="_blank" rel="noopener">
-        <div class="ph-hero"><img src="https://ph-files.imgix.net/50594f98-32dc-40a5-aa5d-5c664e4e8898.png?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
+      <a class="ph-anchor" href="https://www.producthunt.com/products/gitsync-for-macos" target="_blank" rel="noopener">
+        <div class="ph-hero"><img src="https://ph-files.imgix.net/5c2c54b5-7b6b-4cfe-ae86-30b98f6fc023.jpeg?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
         <div class="ph-body">
           <div class="ph-head">
-            <img class="ph-thumb" src="https://ph-files.imgix.net/9519eda9-81d2-4fcd-887b-15183bdf3c32.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
+            <img class="ph-thumb" src="https://ph-files.imgix.net/f2dea0db-e324-4cdc-a84f-bba31a90c3a3.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
             <div class="ph-head-text">
               <div class="ph-rank">№ 01</div>
-              <h3 class="ph-title">pumaDB</h3>
+              <h3 class="ph-title">GitSync for macOS</h3>
             </div>
           </div>
-          <p class="ph-tagline">a small hosted memory layer for AI agents</p>
-          <p class="ph-summary">為 AI agents 設計的小型託管記憶層服務，提供快速的資料存取與狀態管理功能。</p>
+          <p class="ph-tagline">Visual GitHub management directly from a graphical interface</p>
+          <p class="ph-summary">為 macOS 設計的視覺化 GitHub 管理工具，透過圖形介面直接操作 GitHub 專案與版本控制。</p>
           <div class="ph-foot">
             <span class="chip chip-ph">Product Hunt</span>
-            <span class="ph-author">Hunter · Stuart Sim</span>
+            <span class="ph-author">Hunter · Kevin Tobler</span>
             <span class="ph-arrow" aria-hidden="true">↗</span>
           </div>
         </div>
@@ -1267,7 +1249,7 @@ Incredible final in-game model was built by Eve Astra. https://t.co/teHkwxMOlx</
             </div>
           </div>
           <p class="ph-tagline">AI video studio: text &amp; image to video, with real control</p>
-          <p class="ph-summary">AI 影片製作工具，可將文字或圖片轉換為影片，並提供細緻的控制選項給創作者使用。</p>
+          <p class="ph-summary">AI 影片製作工具，可將文字與圖片轉換為影片，並提供精細的控制選項給內容創作者。</p>
           <div class="ph-foot">
             <span class="chip chip-ph">Product Hunt</span>
             <span class="ph-author">Hunter · Illia Ovcharenko</span>
@@ -1289,7 +1271,7 @@ Incredible final in-game model was built by Eve Astra. https://t.co/teHkwxMOlx</
             </div>
           </div>
           <p class="ph-tagline">Control exactly who can access your company data</p>
-          <p class="ph-summary">企業資料存取權限管理工具，讓管理者能精確控制不同使用者對公司資料的存取範圍。</p>
+          <p class="ph-summary">企業資料存取權限管理工具，讓管理者精確控制團隊成員對公司資料的存取範圍。</p>
           <div class="ph-foot">
             <span class="chip chip-ph">Product Hunt</span>
             <span class="ph-author">Hunter · Max Musing</span>
@@ -1311,7 +1293,7 @@ Incredible final in-game model was built by Eve Astra. https://t.co/teHkwxMOlx</
             </div>
           </div>
           <p class="ph-tagline">Find out if you live forever in the brain of the LLMs</p>
-          <p class="ph-summary">檢測工具，讓你查詢自己的資訊是否已被大型語言模型（LLM）訓練資料收錄。</p>
+          <p class="ph-summary">檢測工具，幫助使用者了解自己的資訊是否被包含在大型語言模型的訓練資料中。</p>
           <div class="ph-foot">
             <span class="chip chip-ph">Product Hunt</span>
             <span class="ph-author">Hunter · Thomas Dimson</span>
@@ -1322,43 +1304,21 @@ Incredible final in-game model was built by Eve Astra. https://t.co/teHkwxMOlx</
     </article>
 
     <article class="ph-card">
-      <a class="ph-anchor" href="https://www.producthunt.com/products/reframe-7" target="_blank" rel="noopener">
-        <div class="ph-hero"><img src="https://ph-files.imgix.net/883e60d4-fca9-4353-b5e4-b0772e744202.png?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
+      <a class="ph-anchor" href="https://www.producthunt.com/products/mutter-ai-dictation" target="_blank" rel="noopener">
+        <div class="ph-hero"><img src="https://ph-files.imgix.net/2e3bd02a-1cf0-4c18-a97c-34c17c6ab60f.png?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
         <div class="ph-body">
           <div class="ph-head">
-            <img class="ph-thumb" src="https://ph-files.imgix.net/81ca198a-33cc-40f6-a7eb-357f3f078df7.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
+            <img class="ph-thumb" src="https://ph-files.imgix.net/c57fdfa4-4e9b-4a42-90f3-06c6cfddbbbe.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
             <div class="ph-head-text">
               <div class="ph-rank">№ 05</div>
-              <h3 class="ph-title">Reframe</h3>
+              <h3 class="ph-title">Mutter AI Dictation</h3>
             </div>
           </div>
-          <p class="ph-tagline">Surf like it's 1999</p>
-          <p class="ph-summary">復古風格的網頁瀏覽器，重現 1999 年代的上網體驗與介面設計。</p>
+          <p class="ph-tagline">Private AI dictation that lets you operate offline.</p>
+          <p class="ph-summary">支援離線使用的私密 AI 語音轉文字工具，注重使用者隱私與資料安全。</p>
           <div class="ph-foot">
             <span class="chip chip-ph">Product Hunt</span>
-            <span class="ph-author">Hunter · Maik Klotz</span>
-            <span class="ph-arrow" aria-hidden="true">↗</span>
-          </div>
-        </div>
-      </a>
-    </article>
-
-    <article class="ph-card">
-      <a class="ph-anchor" href="https://www.producthunt.com/products/gitsync-for-macos" target="_blank" rel="noopener">
-        <div class="ph-hero"><img src="https://ph-files.imgix.net/5c2c54b5-7b6b-4cfe-ae86-30b98f6fc023.jpeg?auto=format&amp;w=960&amp;h=540&amp;fit=crop" alt="" loading="lazy" decoding="async"></div>
-        <div class="ph-body">
-          <div class="ph-head">
-            <img class="ph-thumb" src="https://ph-files.imgix.net/f2dea0db-e324-4cdc-a84f-bba31a90c3a3.png?auto=format&amp;w=160&amp;h=160&amp;fit=crop" alt="" loading="lazy" decoding="async" width="48" height="48">
-            <div class="ph-head-text">
-              <div class="ph-rank">№ 06</div>
-              <h3 class="ph-title">GitSync for macOS</h3>
-            </div>
-          </div>
-          <p class="ph-tagline">Visual GitHub management directly from a graphical interface</p>
-          <p class="ph-summary">macOS 平台的 GitHub 管理工具，透過圖形化介面提供視覺化的版本控制操作。</p>
-          <div class="ph-foot">
-            <span class="chip chip-ph">Product Hunt</span>
-            <span class="ph-author">Hunter · Kevin Tobler</span>
+            <span class="ph-author">Hunter · Steven Billings</span>
             <span class="ph-arrow" aria-hidden="true">↗</span>
           </div>
         </div>
@@ -1478,8 +1438,8 @@ Incredible final in-game model was built by Eve Astra. https://t.co/teHkwxMOlx</
     Daily at <em>09:00</em> UTC+8 · Made with care.
   </div>
   <div class="colophon-right">
-    Source: Design · Product Hunt<br>
-    Updated 2026-06-21 08:55
+    Source: Product Hunt<br>
+    Updated 2026-06-21 12:34
   </div>
 </footer>
   </div>
