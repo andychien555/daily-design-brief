@@ -222,11 +222,11 @@ def md_to_html(md: str) -> str:
             close_list()
             html_parts.append('<hr class="yt-rule">')
             continue
-        m = re.match(r"^(#{2,4})\s+(.*)$", stripped)
+        m = re.match(r"^(#{1,6})\s+(.*)$", stripped)
         if m:
             close_list()
             level = len(m.group(1))
-            tag = {2: "h3", 3: "h4", 4: "h5"}.get(level, "h4")
+            tag = {1: "h3", 2: "h3", 3: "h4", 4: "h5"}.get(level, "h5")
             html_parts.append(f"<{tag}>{_md_inline(m.group(2))}</{tag}>")
             continue
         m = re.match(r"^[-*]\s+(.*)$", stripped)
