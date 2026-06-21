@@ -14,11 +14,13 @@ import httpx
 from datetime import datetime, timezone, timedelta
 from xml.etree import ElementTree as ET
 
+import config
 from config import (
     PRODUCTS_TOP_N as TOP_N,
     PRODUCTS_WINDOW_DAYS as WINDOW_DAYS,
     PRODUCTS_RSS_URL as RSS_URL,
 )
+from utils import strip_code_fence, load_json, save_json
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 PRODUCTHUNT_API_TOKEN = os.environ.get("PRODUCTHUNT_API_TOKEN")
@@ -27,7 +29,7 @@ NS = {"a": "http://www.w3.org/2005/Atom"}
 
 
 def fetch_rss() -> str:
-    with httpx.Client(timeout=30, headers={"User-Agent": "Mozilla/5.0 (daily-design-brief)"}) as c:
+    with httpx.Client(timeout=config.HTTP_TIMEOUT, headers={"User-Agent": config.USER_AGENT}) as c:
         r = c.get(RSS_URL)
         r.raise_for_status()
         return r.text
@@ -86,7 +88,7 @@ def fetch_thumbnails(products: list[dict]) -> list[dict]:
     query = f"{{ {aliased} }}"
 
     try:
-        with httpx.Client(timeout=30) as c:
+        with httpx.Client(timeout=config.HTTP_TIMEOUT) as c:
             r = c.post(
                 PH_GRAPHQL_URL,
                 headers={
@@ -172,16 +174,11 @@ def summarize_with_claude(products: list[dict]) -> list[dict]:
     try:
         client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
         resp = client.messages.create(
-            model="claude-sonnet-4-5",
+            model=config.CLAUDE_MODEL,
             max_tokens=2000,
             messages=[{"role": "user", "content": prompt}],
         )
-        raw = resp.content[0].text.strip()
-        if raw.startswith("```"):
-            raw = raw.split("```")[1]
-            if raw.startswith("json"):
-                raw = raw[4:]
-            raw = raw.strip()
+        raw = strip_code_fence(resp.content[0].text.strip())
         picks = json.loads(raw)
         by_title = {p.get("title"): p for p in picks}
         for prod in products:
@@ -221,14 +218,8 @@ def main():
     top = fetch_thumbnails(top)
     top = summarize_with_claude(top)
 
-    data_path = "data.json"
-    data = {}
-    if os.path.exists(data_path):
-        try:
-            with open(data_path, encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            data = {}
+    data_path = config.DATA_FILE
+    data = load_json(data_path)
     data["top_products"] = top
     criteria = data.setdefault("criteria", {})
     criteria["producthunt"] = {
@@ -237,8 +228,7 @@ def main():
         "top_n": TOP_N,
     }
 
-    with open(data_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    save_json(data_path, data)
     print(f"✅ data.json updated — top {len(top)} products")
 
 

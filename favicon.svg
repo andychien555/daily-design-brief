@@ -1,7 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Product & Design Daily">
-  <rect width="64" height="64" rx="12" fill="#1e1915"/>
-  <text x="32" y="47" text-anchor="middle"
-        font-family="Georgia, 'Times New Roman', 'Noto Serif TC', serif"
-        font-size="44" font-weight="700"
-        fill="#f2ecdf">P</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="晨刊 The Daily">
+  <defs>
+    <!-- 晨光漸層：頂部琥珀金 → 底部暖橘 -->
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC24B"/>
+      <stop offset="1" stop-color="#FF8A4C"/>
+    </linearGradient>
+    <style>
+      .bg     { fill: #1B2A4A; }   /* 深墨藍底 */
+      .fold   { stroke: #F2ECDF; } /* 摺線／地平線（暖白）*/
+      .sheet  { stroke: #F2ECDF; opacity: .45; }
+      @media (prefers-color-scheme: light) {
+        .bg    { fill: #F7F2E8; }  /* 米色底 */
+        .fold  { stroke: #1B2A4A; }
+        .sheet { stroke: #1B2A4A; opacity: .35; }
+      }
+    </style>
+  </defs>
+
+  <!-- 圓角底 -->
+  <rect class="bg" width="64" height="64" rx="13"/>
+
+  <!-- 破曉：地平線上方剛升起的半圓太陽 -->
+  <path d="M19 39 A13 13 0 0 1 45 39 Z" fill="url(#dawn)"/>
+  <!-- 太陽中的一道細切口＝翻開的那一頁 -->
+  <line x1="26" y1="33" x2="38" y2="33" stroke="#1B2A4A" stroke-width="2"
+        stroke-linecap="round" opacity=".30"/>
+
+  <!-- 地平線 / 簡報的對摺線 -->
+  <line class="fold" x1="11" y1="39" x2="53" y2="39"
+        stroke-width="2.6" stroke-linecap="round"/>
+  <!-- 對摺紙的下緣，暗示「一份摺起來的早報」 -->
+  <line class="sheet" x1="17" y1="45" x2="47" y2="45"
+        stroke-width="2" stroke-linecap="round"/>
 </svg>

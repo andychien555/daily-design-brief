@@ -72,7 +72,7 @@ def generate_md(data: dict) -> str:
 
     sections = []
 
-    sections.append(f"# Daily Design Brief — {date_display}")
+    sections.append(f"# 晨刊 The Daily — {date_display}")
     sections.append(f"*Generated: {generated_at} · {len(top)} tweets*\n")
 
     sections.append("---\n")

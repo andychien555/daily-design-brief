@@ -8,6 +8,8 @@ import json
 from pathlib import Path
 from datetime import datetime
 
+import config
+from utils import load_json, save_json
 from styles import STYLES
 from scripts import ARCHIVE_RAIL_SCRIPT, INTERACTIVE_SCRIPT, THEME_BOOTSTRAP_SCRIPT
 from templates import (
@@ -24,18 +26,12 @@ WEEKDAY_ZH = ["星期一", "星期二", "星期三", "星期四", "星期五", "
 
 
 def load_data() -> dict:
-    with open("data.json", encoding="utf-8") as f:
+    with open(config.DATA_FILE, encoding="utf-8") as f:
         return json.load(f)
 
 
 def load_archive() -> list:
-    p = Path("archive.json")
-    if not p.exists():
-        return []
-    try:
-        return json.loads(p.read_text(encoding="utf-8"))
-    except Exception:
-        return []
+    return load_json(config.ARCHIVE_FILE, default=[])
 
 
 def issue_number(date_str: str, archive=None) -> int:
@@ -103,8 +99,8 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Product & Design 每日早報 — Issue №{issue_no:03d} · {date_display}" />
-  <title>Product & Design 早報 · {data['date']}</title>
+  <meta name="description" content="晨刊 The Daily — 財經 · Product · Design 每日早報 — Issue №{issue_no:03d} · {date_display}" />
+  <title>晨刊 The Daily · {data['date']}</title>
   <link rel="icon" type="image/svg+xml" href="{base_path}favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -119,7 +115,7 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
   <div class="masthead-row">
     <div class="meta-left">№{issue_no:03d}</div>
     <div class="masthead-center">
-      <h1 class="masthead-title">Product &amp; <em>Design</em></h1>
+      <h1 class="masthead-title">The <em>Daily</em></h1>
     </div>
     <div class="meta-right">{data['date']} · {total:02d} 篇</div>
   </div>
@@ -171,20 +167,14 @@ def main():
     Path("index.html").write_text(generate(data, archive), encoding="utf-8")
     print(f"OK index.html generated for {data['date']}")
 
-    briefs_dir = Path("briefs")
+    briefs_dir = Path(config.BRIEFS_DIR)
     briefs_dir.mkdir(exist_ok=True)
     brief_path = briefs_dir / f"{data['date']}.html"
     brief_path.write_text(generate(data, archive, base_path="../"), encoding="utf-8")
     print(f"OK {brief_path} generated")
 
     # Also append to archive.json for history page
-    archive_path = Path("archive.json")
-    archive = []
-    if archive_path.exists():
-        try:
-            archive = json.loads(archive_path.read_text(encoding="utf-8"))
-        except Exception:
-            archive = []
+    archive = load_json(config.ARCHIVE_FILE, default=[])
 
     top = data.get("top_tweets") or []
     sources = sorted({t.get("source", "") for t in top if t.get("source")})
@@ -205,7 +195,7 @@ def main():
     archive.insert(0, entry)
     archive = archive[:90]  # keep last 90 days
 
-    archive_path.write_text(json.dumps(archive, ensure_ascii=False, indent=2), encoding="utf-8")
+    save_json(config.ARCHIVE_FILE, archive)
     print(f"OK archive.json updated ({len(archive)} entries)")
 
 

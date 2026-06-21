@@ -1,6 +1,8 @@
-# Product & Design 每日早報
+# 晨刊 The Daily
 
-每天台北早上 08:00 自動從 X/Twitter 與 Product Hunt 抓 Product & Design 相關熱門內容，並追蹤多個財經 podcast（游庭皓的財經皓角、股癌 Gooaye、M觀點）抓最新一集做語音轉錄重點，用 Claude 篩選並翻譯成繁體中文摘要，產生靜態網站。
+> 原名「Product & Design 每日早報」。內容已擴張為財經 · Product · Design 三塊，財經 podcast 重點置於早報最上方，故更名。
+
+每天台北早上 08:00 自動追蹤多個財經 podcast（游庭皓的財經皓角、股癌 Gooaye、M觀點）抓最新一集做語音轉錄重點，並從 X/Twitter 與 Product Hunt 抓 Product & Design 相關熱門內容，用 Claude 篩選並翻譯成繁體中文摘要，產生靜態網站。
 
 ## 架構
 

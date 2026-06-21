@@ -5,3 +5,5 @@ __pycache__/
 .gstack/
 cookies.txt
 .venv-yttest/
+
+.claude/settings.local.json

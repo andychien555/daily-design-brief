@@ -4,6 +4,27 @@ Tune ingestion knobs (counts, windows, search queries) here without
 touching the fetch/render logic.
 """
 
+from datetime import timezone, timedelta
+
+# ── Shared constants ───────────────────────────────────────────────
+# Output / state files (single source of truth across fetch + render).
+DATA_FILE = "data.json"
+ARCHIVE_FILE = "archive.json"
+PODCAST_STATE_FILE = "podcast_state.json"
+BRIEFS_DIR = "briefs"
+
+# Claude model used for all curation / summarisation calls.
+CLAUDE_MODEL = "claude-sonnet-4-5"
+
+# Asia/Taipei (UTC+8) — pipeline runs and date stamping use this.
+TPE = timezone(timedelta(hours=8))
+
+# HTTP client knobs.
+USER_AGENT = "Mozilla/5.0 (daily-design-brief)"
+USER_AGENT_PODCAST = "Mozilla/5.0 (daily-design-brief podcast fetcher)"
+HTTP_TIMEOUT = 30
+HTTP_TIMEOUT_LONG = 180
+
 # ── Twitter / X ingestion ──────────────────────────────────────────
 TWEETS_TOP_N = 15
 TWEETS_SINCE_DAYS = 2
