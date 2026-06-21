@@ -1056,5 +1056,92 @@ STYLES = """  <style>
       color: var(--ink);
       line-height: 1.5;
     }
+
+    /* ─────────────── YouTube 財經直播重點（最上方）─────────────── */
+    .yt-brief {
+      margin: 0 0 3rem;
+      padding: 1.75rem 1.75rem 2rem;
+      border: 1px solid var(--rule);
+      border-top: 3px solid var(--accent);
+      background: var(--paper-2);
+      border-radius: 4px;
+      position: relative;
+    }
+    .yt-kicker {
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: .75rem;
+    }
+    .yt-title {
+      font-family: var(--serif);
+      font-size: 1.5rem;
+      line-height: 1.25;
+      margin: 0 0 .75rem;
+      font-weight: 600;
+    }
+    .yt-title a {
+      color: var(--ink);
+      text-decoration: none;
+      transition: color .15s;
+    }
+    .yt-title a:hover { color: var(--accent); }
+    .yt-title a:hover .yt-arrow { transform: translate(2px, -2px); display: inline-block; }
+    .yt-arrow { color: var(--ink-3); font-size: .85em; transition: transform .15s; }
+
+    .yt-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .5rem .9rem;
+      margin-bottom: 1.25rem;
+      font-family: var(--mono);
+      font-size: .72rem;
+      color: var(--ink-3);
+    }
+    .yt-meta .chip.yt-source {
+      margin-left: 0;
+    }
+
+    .yt-body { color: var(--ink); line-height: 1.7; }
+    .yt-body h3 {
+      font-family: var(--serif);
+      font-size: 1.08rem;
+      color: var(--ink);
+      margin: 1.5rem 0 .6rem;
+      padding-bottom: .35rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .yt-body h3:first-child { margin-top: 0; }
+    .yt-body h4 {
+      font-family: var(--sans);
+      font-size: .95rem;
+      color: var(--ink-2);
+      margin: 1.1rem 0 .4rem;
+      font-weight: 600;
+    }
+    .yt-body p { margin: .55rem 0; color: var(--ink-2); }
+    .yt-body ul { margin: .55rem 0 .9rem; padding-left: 1.3rem; }
+    .yt-body li { margin: .3rem 0; color: var(--ink-2); line-height: 1.6; }
+    .yt-body strong { color: var(--ink); }
+    .yt-body .yt-rule {
+      border: none;
+      border-top: 1px dashed var(--rule-2);
+      margin: 1.25rem 0;
+    }
+
+    .yt-foot {
+      margin-top: 1.25rem;
+      font-family: var(--mono);
+      font-size: .75rem;
+    }
+    .yt-foot a {
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: .04em;
+    }
+    .yt-foot a:hover { text-decoration: underline; }
   </style>
 """

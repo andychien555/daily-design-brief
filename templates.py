@@ -4,6 +4,8 @@ Pure string builders — no I/O, no data loading. Each function takes a
 plain dict and returns the matching HTML fragment.
 """
 
+import re
+
 
 def esc(s: str) -> str:
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -185,6 +187,90 @@ def products_section(products: list[dict]) -> str:
     return f"""
 <div class="grid-divider ph-divider"><span>Product Hunt · 今日新品 / New Launches</span></div>
 <div class="ph-grid">{cards}</div>
+"""
+
+
+def _md_inline(text: str) -> str:
+    """行內 markdown：先跳脫 HTML，再還原 **粗體** 與 *斜體*。"""
+    s = esc(text)
+    s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
+    s = re.sub(r"\*(.+?)\*", r"<em>\1</em>", s)
+    return s
+
+
+def md_to_html(md: str) -> str:
+    """極簡 markdown→HTML，僅支援摘要會用到的子集：
+    ## / ### 標題、- 或 * 清單、--- 分隔線、*斜體* / **粗體**、段落。
+    """
+    lines = (md or "").replace("\r\n", "\n").split("\n")
+    html_parts: list[str] = []
+    in_list = False
+
+    def close_list():
+        nonlocal in_list
+        if in_list:
+            html_parts.append("</ul>")
+            in_list = False
+
+    for raw in lines:
+        line = raw.rstrip()
+        stripped = line.strip()
+        if not stripped:
+            close_list()
+            continue
+        if stripped in ("---", "***", "___"):
+            close_list()
+            html_parts.append('<hr class="yt-rule">')
+            continue
+        m = re.match(r"^(#{1,6})\s+(.*)$", stripped)
+        if m:
+            close_list()
+            level = len(m.group(1))
+            tag = {1: "h3", 2: "h3", 3: "h4", 4: "h5"}.get(level, "h5")
+            html_parts.append(f"<{tag}>{_md_inline(m.group(2))}</{tag}>")
+            continue
+        m = re.match(r"^[-*]\s+(.*)$", stripped)
+        if m:
+            if not in_list:
+                html_parts.append("<ul>")
+                in_list = True
+            html_parts.append(f"<li>{_md_inline(m.group(1))}</li>")
+            continue
+        close_list()
+        html_parts.append(f"<p>{_md_inline(stripped)}</p>")
+
+    close_list()
+    return "\n".join(html_parts)
+
+
+def youtube_section(brief: dict) -> str:
+    """財經直播重點 — 渲染在早報最上方的完整結構化筆記區塊。"""
+    if not brief or not brief.get("summary_md"):
+        return ""
+    title = esc(brief.get("title", ""))
+    url = brief.get("url", "") or "https://www.youtube.com/"
+    channel = esc(brief.get("channel", ""))
+    published = esc(brief.get("published", ""))
+    source = esc(brief.get("transcript_source", ""))
+    body = md_to_html(brief.get("summary_md", ""))
+
+    meta_bits = []
+    if channel:
+        meta_bits.append(f'<span class="yt-channel">{channel}</span>')
+    if published:
+        meta_bits.append(f'<span class="yt-date">{published}</span>')
+    if source:
+        meta_bits.append(f'<span class="chip yt-source">逐字稿來源 · {source}</span>')
+    meta_html = " ".join(meta_bits)
+
+    return f"""
+<section class="yt-brief" aria-label="財經直播重點">
+  <div class="yt-kicker">📈 今日財經直播重點 / Morning Market Brief</div>
+  <h2 class="yt-title"><a href="{url}" target="_blank" rel="noopener">{title} <span class="yt-arrow" aria-hidden="true">↗</span></a></h2>
+  <div class="yt-meta">{meta_html}</div>
+  <div class="yt-body">{body}</div>
+  <div class="yt-foot"><a href="{url}" target="_blank" rel="noopener">▶ 觀看原始直播</a></div>
+</section>
 """
 
 

@@ -17,6 +17,7 @@ from templates import (
     lead_card,
     products_section,
     tweet_card,
+    youtube_section,
 )
 
 WEEKDAY_ZH = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
@@ -85,6 +86,7 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
         )
 
     criteria_html = criteria_block(data.get("criteria", {}))
+    youtube_html = youtube_section(data.get("youtube_brief"))
     top_products = data.get("top_products") or []
     products_html = products_section(top_products)
     sources = sorted({t.get("source", "") for t in top_tweets if t.get("source")})
@@ -127,6 +129,8 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
     {'<button type="button" class="topbar-link" onclick="document.getElementById(&quot;criteria-modal&quot;).showModal()">編輯方針</button>' if criteria_html else ''}
     <button type="button" class="theme-toggle" aria-label="切換主題" onclick="toggleTheme()"><span class="theme-icon">☾</span></button>
   </div>
+
+  {youtube_html}
 
   {body_html}
 
