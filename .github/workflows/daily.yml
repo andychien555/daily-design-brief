@@ -63,6 +63,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          YT_PROXY: ${{ secrets.YT_PROXY }}   # 住宅代理（最穩解法）；未設則略過
         run: |
           # 把 YT_COOKIES secret 寫成 cookies.txt（機房 IP 防封鎖）；未設定則略過 cookies
           if [ -n "${{ secrets.YT_COOKIES }}" ]; then

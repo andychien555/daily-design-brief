@@ -40,6 +40,9 @@ from config import (
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 YT_COOKIES = os.environ.get("YT_COOKIES")  # cookies.txt 路徑（機房 IP 防封鎖）
+# 住宅代理（最穩的機房 IP 解法）。設了就帶；沒設就略過。
+# 例：http://user:pass@host:port 或 socks5://host:port
+YT_PROXY = os.environ.get("YT_PROXY")
 
 STATE_PATH = "youtube_state.json"
 DATA_PATH = "data.json"
@@ -57,6 +60,9 @@ def base_ydl_opts() -> dict:
     if YT_COOKIES and os.path.exists(YT_COOKIES):
         opts["cookiefile"] = YT_COOKIES
         log(f"使用 cookies：{YT_COOKIES}")
+    if YT_PROXY:
+        opts["proxy"] = YT_PROXY
+        log("使用住宅代理 YT_PROXY")
     return opts
 
 
