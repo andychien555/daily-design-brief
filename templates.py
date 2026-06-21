@@ -243,8 +243,8 @@ def md_to_html(md: str) -> str:
     return "\n".join(html_parts)
 
 
-def youtube_section(brief: dict) -> str:
-    """財經直播重點 — 渲染在早報最上方的完整結構化筆記區塊。"""
+def briefing_section(brief: dict) -> str:
+    """財經節目重點 — 渲染在早報最上方的完整結構化筆記區塊。"""
     if not brief or not brief.get("summary_md"):
         return ""
     title = esc(brief.get("title", ""))
@@ -264,12 +264,12 @@ def youtube_section(brief: dict) -> str:
     meta_html = " ".join(meta_bits)
 
     return f"""
-<section class="yt-brief" aria-label="財經直播重點">
-  <div class="yt-kicker">📈 今日財經直播重點 / Morning Market Brief</div>
+<section class="yt-brief" aria-label="財經節目重點">
+  <div class="yt-kicker">📈 今日財經重點 / Morning Market Brief</div>
   <h2 class="yt-title"><a href="{url}" target="_blank" rel="noopener">{title} <span class="yt-arrow" aria-hidden="true">↗</span></a></h2>
   <div class="yt-meta">{meta_html}</div>
   <div class="yt-body">{body}</div>
-  <div class="yt-foot"><a href="{url}" target="_blank" rel="noopener">▶ 觀看原始直播</a></div>
+  <div class="yt-foot"><a href="{url}" target="_blank" rel="noopener">▶ 收聽原始節目</a></div>
 </section>
 """
 
