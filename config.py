@@ -38,10 +38,22 @@ PRODUCTS_RSS_URL = "https://www.producthunt.com/feed"
 # Claude 整理成結構化筆記，渲染在早報最上方。
 # 改用 podcast 取代 YouTube：直連 MP3 不被機房 IP 封鎖，無需 cookies/代理。
 # RSS 來源：iTunes Lookup 查到的「游庭皓的財經皓角」feed（SoundCloud host）。
-PODCAST_RSS_URL = "https://feeds.soundcloud.com/users/soundcloud:users:735679489/sounds.rss"
-PODCAST_NAME = "游庭皓的財經皓角"
-# 保險：若直連 RSS 失效（作者換 host），用 iTunes Lookup 以此 ID 重新取得 feedUrl。
-PODCAST_ITUNES_ID = "1488295306"
+# 追蹤的 podcast 清單。每個都會偵測「最新一集」，新集就轉錄＋摘要進日報。
+# rss 為主來源（直連最即時）；itunes_id 當 feedUrl 失效時的重新定位備援。
+PODCASTS = [
+    {
+        "name": "游庭皓的財經皓角",
+        "itunes_id": "1488295306",
+        "rss": "https://feeds.soundcloud.com/users/soundcloud:users:735679489/sounds.rss",
+    },
+    {
+        "name": "股癌 Gooaye",
+        "itunes_id": "1500839292",
+        "rss": "https://feeds.soundon.fm/podcasts/954689a5-3096-43a4-a80b-7810b219cef3.xml",
+    },
+]
+# 只顯示「發布在近 N 天內」的最新一集（股癌週更也能持續顯示，過舊則自動隱藏）。
+PODCAST_SHOW_WITHIN_DAYS = 7
 # Groq Whisper 轉錄設定（podcast 無字幕，一律走 Whisper）。
 PODCAST_GROQ_MODEL = "whisper-large-v3"
 PODCAST_WHISPER_LANGUAGE = "zh"

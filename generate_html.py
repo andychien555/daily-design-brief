@@ -86,7 +86,11 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
         )
 
     criteria_html = criteria_block(data.get("criteria", {}))
-    youtube_html = briefing_section(data.get("podcast_brief") or data.get("youtube_brief"))
+    podcast_briefs = data.get("podcast_briefs")
+    if not podcast_briefs:
+        legacy = data.get("podcast_brief") or data.get("youtube_brief")
+        podcast_briefs = [legacy] if legacy else []
+    podcast_html = "\n".join(briefing_section(b) for b in podcast_briefs)
     top_products = data.get("top_products") or []
     products_html = products_section(top_products)
     sources = sorted({t.get("source", "") for t in top_tweets if t.get("source")})
@@ -130,7 +134,7 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
     <button type="button" class="theme-toggle" aria-label="切換主題" onclick="toggleTheme()"><span class="theme-icon">☾</span></button>
   </div>
 
-  {youtube_html}
+  {podcast_html}
 
   {body_html}
 

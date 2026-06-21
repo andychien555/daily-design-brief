@@ -1,24 +1,24 @@
 #!/usr/bin/env python3
 """
 fetch_podcast.py
-從「游庭皓的財經皓角」podcast RSS 偵測最新一集，下載直連 MP3 → Groq Whisper
-轉錄 → Claude 整理成結構化財經筆記，寫入 data.json["podcast_brief"]。
+追蹤 config.PODCASTS 清單裡的每個財經 podcast，偵測各自「最新一集」，
+新集就下載直連 MP3 → Groq Whisper 轉錄 → Claude 整理成結構化筆記，
+把近 N 天內的最新集（每台一則）寫進 data.json["podcast_briefs"]（新到舊）。
 
 取代 fetch_youtube.py：podcast enclosure 是開放直連 MP3，機房 IP 抓取屬正常
 行為、不被當機器人，因此無需 cookies/代理，比 YouTube 穩定得多。
 
 設計要點：
-- 主來源直連 SoundCloud RSS；失效時用 iTunes Lookup（PODCAST_ITUNES_ID）
-  重新取得當前 feedUrl 再抓（作者換 host 也不會壞）。
-- podcast_state.json 冪等快取：同一集 id 已處理過 → 直接重用，不重轉錄/重摘要。
-- 任何失敗只記 log、不丟例外，不可中斷整批早報。
+- 主來源直連 RSS；失效時用 iTunes Lookup（itunes_id）重新取得當前 feedUrl。
+- podcast_state.json 冪等快取（鍵：itunes_id:episode_id）：同集已處理 → 重用，
+  不重轉錄/重摘要。可被多個 workflow（每日 10:00 + 晚間 22:00）安全重複呼叫。
+- 任何失敗只記 log、不丟例外，單一節目失敗不影響其他節目與整批早報。
 """
 
 import os
 import re
 import sys
 import json
-import html
 import tempfile
 import subprocess
 from pathlib import Path
@@ -29,9 +29,8 @@ from xml.etree import ElementTree as ET
 import httpx
 
 from config import (
-    PODCAST_RSS_URL,
-    PODCAST_NAME,
-    PODCAST_ITUNES_ID,
+    PODCASTS,
+    PODCAST_SHOW_WITHIN_DAYS,
     PODCAST_GROQ_MODEL,
     PODCAST_WHISPER_LANGUAGE,
     PODCAST_AUDIO_SEGMENT_MB,
@@ -62,42 +61,39 @@ def _fetch_rss_text(url: str) -> str:
         return r.text
 
 
-def _resolve_feed_url() -> str:
+def _resolve_feed_url(podcast: dict) -> str:
     """主來源直連 RSS；失敗時用 iTunes Lookup 取得當前 feedUrl。"""
+    rss = podcast.get("rss", "")
     try:
-        _fetch_rss_text(PODCAST_RSS_URL)
-        return PODCAST_RSS_URL
+        _fetch_rss_text(rss)
+        return rss
     except Exception as e:
-        log(f"[warn] 直連 RSS 失敗（{e}）→ 改用 iTunes Lookup 重新定位 feedUrl")
+        log(f"[warn] {podcast['name']} 直連 RSS 失敗（{e}）→ 改用 iTunes Lookup")
     try:
         with httpx.Client(timeout=30, headers=UA, follow_redirects=True) as c:
-            r = c.get(f"https://itunes.apple.com/lookup?id={PODCAST_ITUNES_ID}")
+            r = c.get(f"https://itunes.apple.com/lookup?id={podcast['itunes_id']}")
             r.raise_for_status()
             feed = (r.json().get("results") or [{}])[0].get("feedUrl")
             if feed:
-                log(f"iTunes 取得 feedUrl：{feed}")
+                log(f"{podcast['name']} iTunes 取得 feedUrl：{feed}")
                 return feed
     except Exception as e:
-        log(f"[warn] iTunes Lookup 也失敗：{e}")
-    return PODCAST_RSS_URL  # 回退原值，交由上層 try/except 處理
+        log(f"[warn] {podcast['name']} iTunes Lookup 也失敗：{e}")
+    return rss
 
 
-def resolve_latest_episode() -> dict | None:
-    """回傳最新一集 {episode_id,title,url,published,channel,mp3_url} 或 None。"""
+def resolve_latest_episode(podcast: dict) -> dict | None:
+    """回傳某 podcast 最新一集 dict 或 None。"""
     try:
-        xml_text = _fetch_rss_text(_resolve_feed_url())
-    except Exception as e:
-        log(f"[warn] 取得 RSS 失敗：{e}")
-        return None
-    try:
+        xml_text = _fetch_rss_text(_resolve_feed_url(podcast))
         root = ET.fromstring(xml_text)
     except Exception as e:
-        log(f"[warn] RSS 解析失敗：{e}")
+        log(f"[warn] {podcast['name']} 取得/解析 RSS 失敗：{e}")
         return None
 
     item = root.find(".//item")  # feed 由新到舊，第一筆即最新
     if item is None:
-        log("RSS 內沒有任何集數")
+        log(f"{podcast['name']} RSS 內沒有任何集數")
         return None
 
     title = (item.findtext("title") or "").strip()
@@ -108,33 +104,42 @@ def resolve_latest_episode() -> dict | None:
     guid = (item.findtext("guid") or "").strip() or mp3_url
 
     if not mp3_url:
-        log("最新集沒有 enclosure 音檔 → 跳過")
+        log(f"{podcast['name']} 最新集沒有 enclosure 音檔 → 跳過")
         return None
 
+    published_dt = None
     published = ""
     try:
-        published = parsedate_to_datetime(pub_raw).astimezone(TPE).strftime("%Y-%m-%d")
+        published_dt = parsedate_to_datetime(pub_raw).astimezone(TPE)
+        published = published_dt.strftime("%Y-%m-%d")
     except Exception:
         pass
 
-    # episode_id：取 guid 末段做為穩定鍵
     m = re.search(r"(\d{6,})", guid)
     episode_id = m.group(1) if m else guid[-32:]
 
     return {
+        "state_key": f"{podcast['itunes_id']}:{episode_id}",
         "episode_id": episode_id,
         "title": title,
-        "url": link or PODCAST_RSS_URL,
+        "url": link or podcast.get("rss", ""),
         "published": published,
-        "channel": PODCAST_NAME,
+        "published_dt": published_dt,
+        "channel": podcast["name"],
         "mp3_url": mp3_url,
     }
+
+
+def _recent(published_dt) -> bool:
+    if published_dt is None:
+        return True  # 無日期時保守顯示
+    return (datetime.now(TPE) - published_dt) <= timedelta(days=PODCAST_SHOW_WITHIN_DAYS)
 
 
 # ── 2. 下載音檔 ────────────────────────────────────────────────────
 def download_mp3(url: str, dest: str) -> bool:
     try:
-        with httpx.Client(timeout=120, headers=UA, follow_redirects=True) as c:
+        with httpx.Client(timeout=180, headers=UA, follow_redirects=True) as c:
             with c.stream("GET", url) as r:
                 r.raise_for_status()
                 with open(dest, "wb") as f:
@@ -175,8 +180,7 @@ def transcribe(mp3_path: str, tmp: str) -> str:
             log(f"Whisper 轉錄（{size_mb:.1f}MB，單檔）")
             return _whisper_one(client, mp3_path).strip()
 
-        log(f"音訊 {size_mb:.1f}MB > {PODCAST_AUDIO_SEGMENT_MB}MB → ffmpeg 切段")
-        # 先轉成 16kHz 單聲道縮小體積，再依秒數切段
+        log(f"音訊 {size_mb:.1f}MB > {PODCAST_AUDIO_SEGMENT_MB}MB → 轉 16k 單聲道並切段")
         mono = os.path.join(tmp, "mono.mp3")
         subprocess.run(
             ["ffmpeg", "-y", "-i", mp3_path, "-ar", "16000", "-ac", "1", mono],
@@ -290,49 +294,35 @@ def load_json(path: str) -> dict:
     return {}
 
 
-def write_brief_into_data(brief: dict) -> None:
-    data = load_json(DATA_PATH)
-    data["podcast_brief"] = brief
-    with open(DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    log(f"✅ data.json 寫入 podcast_brief（{brief.get('title','')[:30]}）")
-
-
-# ── main ───────────────────────────────────────────────────────────
-def main() -> None:
-    force = "--force" in sys.argv
-    log("偵測最新一集 …")
-    info = resolve_latest_episode()
+def process_one(podcast: dict, state: dict, force: bool) -> dict | None:
+    """回傳此 podcast 最新一集的 brief（新轉錄或快取重用），失敗回 None。"""
+    info = resolve_latest_episode(podcast)
     if not info:
-        return
+        return None
+    key = info["state_key"]
 
-    eid = info["episode_id"]
-    state = load_json(STATE_PATH)
-    if not force and eid in state:
-        log(f"{eid}（{info['title'][:24]}）已在快取 → 重用，不重轉錄/摘要")
-        write_brief_into_data(state[eid])
-        return
+    if not force and key in state:
+        log(f"{podcast['name']}：{info['title'][:24]} 已在快取 → 重用")
+        return state[key]
 
-    log(f"新集：{info['title'][:40]}（{info['published']}）")
+    log(f"{podcast['name']} 新集：{info['title'][:36]}（{info['published']}）")
     with tempfile.TemporaryDirectory() as tmp:
         mp3 = os.path.join(tmp, "episode.mp3")
         log("下載音檔 …")
         if not download_mp3(info["mp3_url"], mp3):
-            log("[warn] 音檔下載失敗 → 跳過")
-            return
+            return None
         transcript = transcribe(mp3, tmp)
-
     if not transcript:
-        log("[warn] 轉錄為空 → 跳過")
-        return
+        log(f"[warn] {podcast['name']} 轉錄為空 → 跳過")
+        return None
 
     summary_md = summarize(transcript, info["title"])
     if not summary_md:
-        log("[warn] 摘要為空 → 跳過")
-        return
+        log(f"[warn] {podcast['name']} 摘要為空 → 跳過")
+        return None
 
     brief = {
-        "episode_id": eid,
+        "episode_id": info["episode_id"],
         "title": info["title"],
         "url": info["url"],
         "published": info["published"],
@@ -340,16 +330,51 @@ def main() -> None:
         "transcript_source": "Podcast 音檔 · Whisper",
         "summary_md": summary_md,
     }
-
-    state[eid] = brief
-    if len(state) > 90:
-        for k in list(state.keys())[:-90]:
+    state[key] = brief
+    if len(state) > 120:
+        for k in list(state.keys())[:-120]:
             state.pop(k, None)
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
+    return brief
 
-    write_brief_into_data(brief)
-    log("完成")
+
+def main() -> None:
+    force = "--force" in sys.argv
+    state = load_json(STATE_PATH)
+
+    collected = []  # (published_dt, brief)
+    for pod in PODCASTS:
+        try:
+            info = resolve_latest_episode(pod)
+            if not info:
+                continue
+            if not _recent(info["published_dt"]):
+                log(f"{pod['name']} 最新集（{info['published']}）超過 "
+                    f"{PODCAST_SHOW_WITHIN_DAYS} 天 → 不顯示")
+                continue
+            # 用快取或重新轉錄拿到 brief
+            if not force and info["state_key"] in state:
+                log(f"{pod['name']}：{info['title'][:24]} 已在快取 → 重用")
+                brief = state[info["state_key"]]
+            else:
+                brief = process_one(pod, state, force)
+            if brief:
+                collected.append((info["published_dt"], brief))
+        except Exception as e:
+            log(f"[warn] {pod['name']} 處理失敗（不影響其他節目）：{e}")
+
+    # 新到舊排序（無日期者排後）
+    collected.sort(key=lambda t: t[0] or datetime.min.replace(tzinfo=TPE), reverse=True)
+    briefs = [b for _, b in collected]
+
+    data = load_json(DATA_PATH)
+    data["podcast_briefs"] = briefs
+    data.pop("podcast_brief", None)   # 移除舊單則欄位（已由清單取代）
+    with open(DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    log(f"✅ data.json 寫入 {len(briefs)} 則 podcast_briefs："
+        + "、".join(b["channel"] for b in briefs))
 
 
 if __name__ == "__main__":

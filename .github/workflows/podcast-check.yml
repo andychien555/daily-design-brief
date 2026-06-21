@@ -1,0 +1,48 @@
+name: Podcast Check
+
+# 一天兩次抓財經 podcast 新集中的第二次（晚間）。
+# 早上 10:00 那次由 daily.yml 一起做；這支只在晚上補一次，
+# 專抓不定時更新的節目（如股癌），有新集就轉錄＋摘要並重建頁面。
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * *"   # 台北 22:00 (UTC 14:00)
+
+permissions:
+  contents: write
+
+jobs:
+  podcast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install httpx==0.28.1 anthropic==0.92.0 groq==1.4.0
+
+      - name: Ensure ffmpeg
+        run: which ffmpeg || sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Fetch podcast briefs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python fetch_podcast.py
+
+      - name: Regenerate HTML
+        run: python generate_html.py
+
+      - name: Commit and push (only if something changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html archive.json data.json briefs/
+          [ -f podcast_state.json ] && git add podcast_state.json || true
+          git diff --staged --quiet || git commit -m "chore: podcast check $(TZ=Asia/Taipei date +'%Y-%m-%d %H:%M')"
+          git push
