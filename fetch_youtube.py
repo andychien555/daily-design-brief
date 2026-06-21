@@ -93,7 +93,12 @@ def resolve_latest_finished() -> dict | None:
         vid = ent["id"]
         try:
             with yt_dlp.YoutubeDL(full_opts) as ydl:
-                meta = ydl.extract_info(f"https://www.youtube.com/watch?v={vid}", download=False)
+                # process=False：只取 metadata（live_status/title/upload_date），
+                # 不做格式選擇——帶 cookies 時登入用 client 回傳的格式會讓
+                # 預設格式選擇器丟「Requested format is not available」。
+                meta = ydl.extract_info(
+                    f"https://www.youtube.com/watch?v={vid}", download=False, process=False
+                )
         except Exception as e:
             log(f"[warn] 取 {vid} metadata 失敗：{e}（跳過此候選）")
             continue
@@ -160,6 +165,9 @@ def fetch_subtitles(video_id: str) -> str:
             "subtitlesformat": "vtt",
             "subtitleslangs": YT_SUBTITLE_LANGS,
             "outtmpl": os.path.join(tmp, "%(id)s.%(ext)s"),
+            # 帶 cookies 時預設格式選擇器會丟錯；字幕下載不需要影片格式，
+            # 忽略「無可用格式」讓字幕仍能寫出。
+            "ignore_no_formats_error": True,
         })
         try:
             with yt_dlp.YoutubeDL(opts) as ydl:
