@@ -297,7 +297,7 @@ def load_summaries_from_md(since_days: int = 7) -> dict[str, str]:
     """Scan recent briefs/*.md files for tweet IDs and their cached summaries.
     Returns {tweet_id: summary_zh}."""
     cache: dict[str, str] = {}
-    cutoff = (datetime.now(timezone(timedelta(hours=8))) - timedelta(days=since_days)).strftime("%Y-%m-%d")
+    cutoff = (datetime.now(config.TPE) - timedelta(days=since_days)).strftime("%Y-%m-%d")
     if not BRIEFS_DIR.exists():
         return cache
     for md in sorted(BRIEFS_DIR.glob("*.md"), reverse=True):
