@@ -38,7 +38,7 @@ from config import (
     PODCAST_SUMMARY_SINGLE_PASS_MAX,
     PODCAST_SUMMARY_CHUNK_CHARS,
 )
-from utils import load_json, save_json
+from utils import load_json, save_json, claude_token_cost, record_usage
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -164,6 +164,19 @@ def _whisper_one(client, path: str) -> str:
     return resp if isinstance(resp, str) else getattr(resp, "text", str(resp))
 
 
+def _audio_seconds(path: str) -> float:
+    """以 ffprobe 量音檔長度（秒）；失敗回 0，純粹用於估算 Whisper 轉錄花費。"""
+    try:
+        out = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+             "-of", "default=noprint_wrappers=1:nokey=1", path],
+            check=True, capture_output=True, text=True,
+        )
+        return float(out.stdout.strip())
+    except Exception:
+        return 0.0
+
+
 def transcribe(mp3_path: str, tmp: str) -> str:
     if not GROQ_API_KEY:
         log("[info] GROQ_API_KEY 未設定 — 無法轉錄")
@@ -176,30 +189,37 @@ def transcribe(mp3_path: str, tmp: str) -> str:
 
     client = Groq(api_key=GROQ_API_KEY)
     size_mb = os.path.getsize(mp3_path) / (1024 * 1024)
+    secs = _audio_seconds(mp3_path)
     try:
         if size_mb <= PODCAST_AUDIO_SEGMENT_MB:
             log(f"Whisper 轉錄（{size_mb:.1f}MB，單檔）")
-            return _whisper_one(client, mp3_path).strip()
+            text = _whisper_one(client, mp3_path).strip()
+        else:
+            log(f"音訊 {size_mb:.1f}MB > {PODCAST_AUDIO_SEGMENT_MB}MB → 轉 16k 單聲道並切段")
+            mono = os.path.join(tmp, "mono.mp3")
+            subprocess.run(
+                ["ffmpeg", "-y", "-i", mp3_path, "-ar", "16000", "-ac", "1", mono],
+                check=True, capture_output=True,
+            )
+            src = mono if os.path.exists(mono) else mp3_path
+            seg_tmpl = os.path.join(tmp, "seg%03d.mp3")
+            subprocess.run(
+                ["ffmpeg", "-y", "-i", src, "-f", "segment",
+                 "-segment_time", str(PODCAST_AUDIO_SEGMENT_SECONDS), "-c", "copy", seg_tmpl],
+                check=True, capture_output=True,
+            )
+            segs = sorted(Path(tmp).glob("seg*.mp3"))
+            parts = []
+            for i, seg in enumerate(segs):
+                log(f"  轉錄第 {i+1}/{len(segs)} 段")
+                parts.append(_whisper_one(client, str(seg)).strip())
+            text = "\n".join(p for p in parts if p)
 
-        log(f"音訊 {size_mb:.1f}MB > {PODCAST_AUDIO_SEGMENT_MB}MB → 轉 16k 單聲道並切段")
-        mono = os.path.join(tmp, "mono.mp3")
-        subprocess.run(
-            ["ffmpeg", "-y", "-i", mp3_path, "-ar", "16000", "-ac", "1", mono],
-            check=True, capture_output=True,
-        )
-        src = mono if os.path.exists(mono) else mp3_path
-        seg_tmpl = os.path.join(tmp, "seg%03d.mp3")
-        subprocess.run(
-            ["ffmpeg", "-y", "-i", src, "-f", "segment",
-             "-segment_time", str(PODCAST_AUDIO_SEGMENT_SECONDS), "-c", "copy", seg_tmpl],
-            check=True, capture_output=True,
-        )
-        segs = sorted(Path(tmp).glob("seg*.mp3"))
-        parts = []
-        for i, seg in enumerate(segs):
-            log(f"  轉錄第 {i+1}/{len(segs)} 段")
-            parts.append(_whisper_one(client, str(seg)).strip())
-        return "\n".join(p for p in parts if p)
+        if secs:
+            record_usage(datetime.now(TPE).strftime("%Y-%m-%d"), "podcast-whisper",
+                         config.USAGE_LOG_FILE, audio_seconds=secs,
+                         cost_usd=secs / 3600 * config.WHISPER_PRICE_PER_HOUR)
+        return text
     except Exception as e:
         log(f"[warn] Whisper 轉錄失敗：{e}")
         return ""
@@ -241,6 +261,9 @@ def _claude(client, system: str, user: str, max_tokens: int = 3000) -> str:
         system=system,
         messages=[{"role": "user", "content": user}],
     )
+    in_tok, out_tok, cost = claude_token_cost(resp.usage, config.CLAUDE_PRICING)
+    record_usage(datetime.now(TPE).strftime("%Y-%m-%d"), "podcast-summary",
+                 config.USAGE_LOG_FILE, input_tokens=in_tok, output_tokens=out_tok, cost_usd=cost)
     return "".join(b.text for b in resp.content if getattr(b, "type", "") == "text").strip()
 
 

@@ -10,7 +10,7 @@ import os
 import sys
 
 import config
-from utils import shape_tweet, strip_code_fence, load_json, save_json
+from utils import shape_tweet, strip_code_fence, load_json, save_json, claude_token_cost, record_usage
 
 DATA_FILE = config.DATA_FILE
 
@@ -56,6 +56,9 @@ def main() -> int:
         max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
     )
+    in_tok, out_tok, cost = claude_token_cost(resp.usage, config.CLAUDE_PRICING)
+    record_usage(data.get("date", ""), "backfill-translations",
+                 config.USAGE_LOG_FILE, input_tokens=in_tok, output_tokens=out_tok, cost_usd=cost)
     raw = strip_code_fence(resp.content[0].text.strip())
     picks = json.loads(raw)
 

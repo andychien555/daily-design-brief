@@ -81,5 +81,7 @@ jobs:
           git add index.html archive.json data.json briefs/
           # podcast_state.json 可能尚未產生（首次 / podcast 步驟失敗）→ 存在才加
           [ -f podcast_state.json ] && git add podcast_state.json || true
+          # usage_log.json：每日 token/轉錄花費累計，存在才加
+          [ -f usage_log.json ] && git add usage_log.json || true
           git diff --staged --quiet || git commit -m "chore: daily brief $(date +'%Y-%m-%d')"
           git push
