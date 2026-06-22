@@ -61,3 +61,45 @@ def save_json(path: str, data) -> None:
     """Write ``data`` as UTF-8 JSON (ensure_ascii=False, indent=2)."""
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def claude_token_cost(usage, pricing: dict) -> tuple[int, int, float]:
+    """Turn an Anthropic ``resp.usage`` into ``(input_tokens, output_tokens, usd_cost)``.
+
+    ``pricing`` is a ``{"input": $/Mtok, "output": $/Mtok}`` dict (kept out of this
+    module so utils stays config-decoupled — callers pass ``config.CLAUDE_PRICING``).
+    """
+    in_tok = getattr(usage, "input_tokens", 0) or 0
+    out_tok = getattr(usage, "output_tokens", 0) or 0
+    cost = in_tok / 1_000_000 * pricing["input"] + out_tok / 1_000_000 * pricing["output"]
+    return in_tok, out_tok, cost
+
+
+def record_usage(date_str: str, label: str, log_file: str, *,
+                 input_tokens: int = 0, output_tokens: int = 0,
+                 audio_seconds: float = 0.0, cost_usd: float = 0.0) -> None:
+    """Append one API call's tokens / audio-seconds / USD cost to a per-day usage log.
+
+    Aggregates by ``date_str`` so the daily job's separate scripts
+    (tweets / producthunt / podcast) accumulate into one running daily total.
+    Best-effort: never raises into the caller — cost logging must not break the pipeline.
+    """
+    try:
+        log = load_json(log_file, {})
+        day = log.setdefault(date_str, {
+            "input_tokens": 0, "output_tokens": 0,
+            "audio_seconds": 0.0, "cost_usd": 0.0, "calls": [],
+        })
+        day["input_tokens"] += input_tokens
+        day["output_tokens"] += output_tokens
+        day["audio_seconds"] = round(day["audio_seconds"] + audio_seconds, 1)
+        day["cost_usd"] = round(day["cost_usd"] + cost_usd, 6)
+        day["calls"].append({
+            "label": label, "input_tokens": input_tokens, "output_tokens": output_tokens,
+            "audio_seconds": round(audio_seconds, 1), "cost_usd": round(cost_usd, 6),
+        })
+        save_json(log_file, log)
+        detail = f"{audio_seconds:.0f}s 音檔" if audio_seconds else f"{input_tokens}in/{output_tokens}out"
+        print(f"  💰 {label}: {detail} → ${cost_usd:.4f}（{date_str} 累計 ${day['cost_usd']:.4f}）")
+    except Exception as e:
+        print(f"  [warn] usage log failed: {e}")

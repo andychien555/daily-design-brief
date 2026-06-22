@@ -16,6 +16,16 @@ BRIEFS_DIR = "briefs"
 # Claude model used for all curation / summarisation calls.
 CLAUDE_MODEL = "claude-sonnet-4-5"
 
+# Claude Sonnet 4.5 計價（USD / 百萬 tokens）— 把 resp.usage 換算成每日真實花費。
+# ⚠️ 換模型時記得一起更新這裡，否則 usage_log 的金額會失準。
+CLAUDE_PRICING = {"input": 3.0, "output": 15.0}
+
+# Groq whisper-large-v3 轉錄計價（USD / 小時音檔）。
+WHISPER_PRICE_PER_HOUR = 0.111
+
+# 每日 API token / 轉錄花費的累計記錄（依日期彙整，跨 tweets/PH/podcast 三支腳本）。
+USAGE_LOG_FILE = "usage_log.json"
+
 # Asia/Taipei (UTC+8) — pipeline runs and date stamping use this.
 TPE = timezone(timedelta(hours=8))
 

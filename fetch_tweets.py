@@ -19,7 +19,7 @@ from config import (
     TWEETS_LANGS,
     TWEETS_API_BASE_DEFAULT,
 )
-from utils import shape_tweet, strip_code_fence, save_json
+from utils import shape_tweet, strip_code_fence, save_json, claude_token_cost, record_usage
 
 TWITTER_TOKEN = os.environ["TWITTER_TOKEN"]
 API_BASE = os.environ.get("TWITTER_API_BASE", TWEETS_API_BASE_DEFAULT)
@@ -269,6 +269,9 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
             max_tokens=4000,
             messages=[{"role": "user", "content": prompt}],
         )
+        in_tok, out_tok, cost = claude_token_cost(resp.usage, config.CLAUDE_PRICING)
+        record_usage(datetime.now(config.TPE).strftime("%Y-%m-%d"), "tweets-curate",
+                     config.USAGE_LOG_FILE, input_tokens=in_tok, output_tokens=out_tok, cost_usd=cost)
         raw = strip_code_fence(resp.content[0].text.strip())
         picks = json.loads(raw)
         by_id = {t["id"]: t for t in candidates}
@@ -280,8 +283,13 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
                 tweet["summary_zh"] = p.get("summary_zh", "")
                 ordered.append(tweet)
         if not ordered:
-            print("  [warn] Claude returned no usable picks — using fallback")
-            return fallback
+            # Claude 跑成功但一則都沒挑（候選全是離題內容，例如來源限流那天
+            # 池子塌縮成一堆 ACG 角色美術圖）。此時回空陣列 → 前端顯示空白狀態，
+            # 不要 fallback 塞離題推文、也不浪費翻譯 token。
+            # 注意：這條只在「Claude 有回但篩到空」時觸發；overload/例外走下面
+            # except 分支仍回 fallback，配合 backfill-translations.yml 事後補翻譯。
+            print("  [info] Claude picked nothing on-topic — showing empty state (no fallback)")
+            return []
         print(f"  ✨ Claude curated {len(ordered)}/{len(candidates)} candidates with summaries")
         return ordered
     except Exception as e:

@@ -20,7 +20,7 @@ from config import (
     PRODUCTS_WINDOW_DAYS as WINDOW_DAYS,
     PRODUCTS_RSS_URL as RSS_URL,
 )
-from utils import strip_code_fence, load_json, save_json
+from utils import strip_code_fence, load_json, save_json, claude_token_cost, record_usage
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 PRODUCTHUNT_API_TOKEN = os.environ.get("PRODUCTHUNT_API_TOKEN")
@@ -178,6 +178,9 @@ def summarize_with_claude(products: list[dict]) -> list[dict]:
             max_tokens=2000,
             messages=[{"role": "user", "content": prompt}],
         )
+        in_tok, out_tok, cost = claude_token_cost(resp.usage, config.CLAUDE_PRICING)
+        record_usage(datetime.now(config.TPE).strftime("%Y-%m-%d"), "producthunt",
+                     config.USAGE_LOG_FILE, input_tokens=in_tok, output_tokens=out_tok, cost_usd=cost)
         raw = strip_code_fence(resp.content[0].text.strip())
         picks = json.loads(raw)
         by_title = {p.get("title"): p for p in picks}
