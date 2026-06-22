@@ -1072,6 +1072,37 @@ STYLES = """  <style>
       border-radius: 4px;
       position: relative;
     }
+    /* 預設收合：summary 為唯一可見、可點開／隨時收合的標題列 */
+    .yt-summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      gap: .6rem;
+      align-items: flex-start;
+    }
+    .yt-summary::-webkit-details-marker { display: none; }
+    .yt-summary::marker { content: ""; }
+    .yt-head { flex: 1; min-width: 0; }
+    .yt-toggle {
+      flex-shrink: 0;
+      margin-top: .1rem;
+      color: var(--accent);
+      font-size: .9rem;
+      line-height: 1.6;
+      transition: transform .18s ease;
+    }
+    details[open] .yt-toggle { transform: rotate(90deg); }
+    .yt-expand-hint {
+      display: inline-block;
+      margin-top: .35rem;
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .04em;
+      color: var(--ink-3);
+    }
+    details[open] .yt-expand-hint { display: none; }
+    .yt-summary:hover .yt-toggle,
+    .yt-summary:hover .yt-expand-hint { color: var(--accent); }
     .yt-kicker {
       font-family: var(--mono);
       font-size: .72rem;
@@ -1101,7 +1132,7 @@ STYLES = """  <style>
       flex-wrap: wrap;
       align-items: center;
       gap: .5rem .9rem;
-      margin-bottom: 1.25rem;
+      margin-bottom: 0;
       font-family: var(--mono);
       font-size: .72rem;
       color: var(--ink-3);
@@ -1110,7 +1141,7 @@ STYLES = """  <style>
       margin-left: 0;
     }
 
-    .yt-body { color: var(--ink); line-height: 1.7; }
+    .yt-body { color: var(--ink); line-height: 1.7; margin-top: 1.4rem; }
     .yt-body h3 {
       font-family: var(--serif);
       font-size: 1.08rem;

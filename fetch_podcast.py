@@ -334,6 +334,7 @@ def main() -> None:
     # 晚間（22:00）那次檢查只跑「不定時更新」的節目；標記 morning_only 的
     # （規律更新、每天一次即可，如 M觀點）只在早上 daily.yml 那次抓。
     evening = os.environ.get("PODCAST_RUN", "").lower() == "evening"
+    today = datetime.now(TPE).strftime("%Y-%m-%d")
     state = load_json(STATE_PATH)
     data = load_json(DATA_PATH)
     prev_briefs = {b.get("channel"): b for b in data.get("podcast_briefs", [])}
@@ -370,6 +371,19 @@ def main() -> None:
             else:
                 brief = process_one(pod, state, force)
             if brief:
+                # 跨日去重：同一集只在「首次出現的那天」顯示，之後不再重複，
+                # 直到該節目釋出新一集。first_shown 記在 state 快取裡（鍵：state_key）。
+                first_shown = brief.get("first_shown")
+                if not first_shown:
+                    brief["first_shown"] = today
+                    sk = info["state_key"]
+                    if isinstance(state.get(sk), dict):
+                        state[sk]["first_shown"] = today
+                    save_json(STATE_PATH, state)
+                elif first_shown != today:
+                    log(f"{pod['name']}：{info['title'][:24]}（{info['published']}）"
+                        f"已於 {first_shown} 顯示過 → 今日不重複")
+                    continue
                 collected.append((info["published_dt"], brief))
         except Exception as e:
             log(f"[warn] {pod['name']} 處理失敗（不影響其他節目）：{e}")

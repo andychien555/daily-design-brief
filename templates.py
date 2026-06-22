@@ -264,13 +264,19 @@ def briefing_section(brief: dict) -> str:
     meta_html = " ".join(meta_bits)
 
     return f"""
-<section class="yt-brief" aria-label="財經節目重點">
-  <div class="yt-kicker">📈 今日財經重點 / Morning Market Brief</div>
-  <h2 class="yt-title"><a href="{url}" target="_blank" rel="noopener">{title} <span class="yt-arrow" aria-hidden="true">↗</span></a></h2>
-  <div class="yt-meta">{meta_html}</div>
+<details class="yt-brief" aria-label="財經節目重點">
+  <summary class="yt-summary">
+    <span class="yt-toggle" aria-hidden="true">▸</span>
+    <div class="yt-head">
+      <div class="yt-kicker">📈 今日財經重點 / Morning Market Brief</div>
+      <h2 class="yt-title"><a href="{url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{title} <span class="yt-arrow" aria-hidden="true">↗</span></a></h2>
+      <div class="yt-meta">{meta_html}</div>
+      <span class="yt-expand-hint">點開閱讀全文 ▾</span>
+    </div>
+  </summary>
   <div class="yt-body">{body}</div>
   <div class="yt-foot"><a href="{url}" target="_blank" rel="noopener">▶ 收聽原始節目</a></div>
-</section>
+</details>
 """
 
 
