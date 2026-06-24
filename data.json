@@ -1,47 +1,34 @@
 {
-  "date": "2026-06-23",
-  "date_display": "2026 年 06 月 23 日",
-  "generated_at": "2026-06-23T08:55:51.617493+08:00",
-  "since_date": "2026-06-21",
+  "date": "2026-06-24",
+  "date_display": "2026 年 06 月 24 日",
+  "generated_at": "2026-06-24T08:55:51.440727+08:00",
+  "since_date": "2026-06-22",
   "top_tweets": [
     {
-      "id": "2068887723692417129",
-      "text": "设计师必备 Design Skill 推荐，整理了我日常高频在用的 5 款实用 Skill，亲测实用性拉满\n\n1、Text to Lottie Skill\n上传 SVG + 填写动画描述，快速生成可编辑 Lottie 动画文件。\n\n2、GSAP Skill\n一键生成专业网页交互动效，自动输出高性能代码，支持 SVG 动画、鼠标跟随、滚动视差文字等效果。 https://t.co/8EkaENex7k",
-      "author": "xin_pai88825",
-      "name": "Paidax",
-      "likes": 579,
-      "retweets": 88,
-      "replies": 36,
-      "created": "Mon Jun 22 02:44:06 +0000 2026",
-      "url": "https://x.com/xin_pai88825/status/2068887723692417129",
+      "id": "2069438390374924314",
+      "text": "Behind the scenes of Faker's T1 Galio Worlds 2025 skin!\n\n- Faker wanted  to emphasize T1's gold color and fill Galio with symbolic details from wing to tail\n\n- Riot says they completely redesigned Galio's wings, replacing the structure with a unique wing design inspired by the T1 https://t.co/yLmkx4kLs8",
+      "author": "YujinnieHa",
+      "name": "Yujin Ha",
+      "likes": 834,
+      "retweets": 61,
+      "replies": 1,
+      "created": "Tue Jun 23 15:12:15 +0000 2026",
+      "url": "https://x.com/YujinnieHa/status/2069438390374924314",
       "source": "Design",
-      "summary_zh": "整理了 5 款日常高頻使用的設計 Skill 工具：包括 Text to Lottie（上傳 SVG + 描述快速生成可編輯動畫）和 GSAP（一鍵生成專業網頁交互動效並輸出代碼，支援 SVG 動畫、鼠標跟隨、滾動視差等效果）。"
+      "summary_zh": "Faker 的 T1 Galio 造型設計幕後：Faker 希望強調 T1 金色並在細節中注入象徵意義，Riot 為此完全重新設計了翅膀結構，以 T1 為靈感打造獨特翼型。這則展示了玩家意見如何與設計團隊協作，產出具品牌識別度的角色造型。"
     },
     {
-      "id": "2069137063342170190",
-      "text": "It’s exciting to finally announce what Northwood has been working on behind the scenes – the newest addition to our network, Prism, which will support high throughput comms through space.\n\nWhen we first founded Northwood, the pressing problem in front of us was the sheer volume https://t.co/enTisb339p",
-      "author": "bridgitmendler",
-      "name": "Bridgit Mendler",
-      "likes": 935,
-      "retweets": 59,
-      "replies": 28,
-      "created": "Mon Jun 22 19:14:53 +0000 2026",
-      "url": "https://x.com/bridgitmendler/status/2069137063342170190",
+      "id": "2069461230578774266",
+      "text": "Design for the Assassin. While I was responsible for the final look, this was the result of an incredible collaborative effort. @tobieee, Jeremy Hanna, and Patrick Bloom all made amazing contributions. The majority of the credit for the final design of the face goes to them. https://t.co/7yZZCircEs",
+      "author": "d_goryainov",
+      "name": "Dima Goryainov",
+      "likes": 639,
+      "retweets": 73,
+      "replies": 9,
+      "created": "Tue Jun 23 16:43:00 +0000 2026",
+      "url": "https://x.com/d_goryainov/status/2069461230578774266",
       "source": "Design",
-      "summary_zh": "Northwood Space 宣布推出新產品 Prism，用於支援太空高吞吐量通訊。創辦時面對的核心問題是通訊量的龐大規模，這是底層基礎設施設計需要解決的挑戰。"
-    },
-    {
-      "id": "2069088780263239715",
-      "text": "This simple method helps you discover the best color combinations for homes and modern interior design. \nhttps://t.co/WPyHH7wCTo",
-      "author": "Rainmaker1973",
-      "name": "Massimo",
-      "likes": 799,
-      "retweets": 57,
-      "replies": 14,
-      "created": "Mon Jun 22 16:03:01 +0000 2026",
-      "url": "https://x.com/Rainmaker1973/status/2069088780263239715",
-      "source": "Design",
-      "summary_zh": "介紹一個簡單方法，幫助設計師為現代室內設計和家居空間找到最佳配色組合。"
+      "summary_zh": "刺客角色的最終視覺設計是跨團隊協作的成果，作者負責統整，但臉部設計的主要功勞歸於 Tobieee、Jeremy Hanna 和 Patrick Bloom。展現了遊戲角色設計中分工與協作的實務流程。"
     }
   ],
   "criteria": {
@@ -124,70 +111,70 @@
   },
   "top_products": [
     {
-      "title": "AlgoFly AI",
-      "url": "https://www.producthunt.com/products/algofly-ai",
-      "published": "2026-06-21T06:51:27-07:00",
-      "author": "Nitin Rai",
-      "tagline": "The all-in-one place to build and deploy vision AI",
-      "post_id": "1177354",
-      "summary_zh": "提供完整的視覺 AI 開發與部署平台，讓開發者能在單一環境中建立和運行電腦視覺應用。",
-      "image_url": "https://ph-files.imgix.net/101899cb-649c-4717-b082-6b9c27e2d21e.jpeg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a032f1e0-2b59-44b5-aa75-b1661f974c09.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Bluerails Discovery",
+      "url": "https://www.producthunt.com/products/bluerails-discovery",
+      "published": "2026-06-22T07:12:05-07:00",
+      "author": "Ben Lang",
+      "tagline": "The rails AI agents use to find and pay you",
+      "post_id": "1178153",
+      "summary_zh": "提供 AI agents 發現並付款給服務提供者的基礎設施平台，協助建立 AI 與人類服務者之間的交易機制。",
+      "image_url": "https://ph-files.imgix.net/8b88d8fa-e999-4fcf-8cf9-b650f350d9c9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c7a4fc3e-dc24-4e20-8b1f-c75e1c447c79.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Cloudflare Temporary Accounts",
-      "url": "https://www.producthunt.com/products/cloudflare",
-      "published": "2026-06-21T20:39:10-07:00",
-      "author": "Zac Zuo",
-      "tagline": "Let agents deploy before signup",
-      "post_id": "1177735",
-      "summary_zh": "允許 AI agent 在用戶正式註冊前即可進行部署操作，簡化自動化流程的啟動門檻。",
-      "image_url": "https://ph-files.imgix.net/837b271c-d3d2-40a9-92e8-d077864a2d50.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a94a8522-53b5-4d83-9c1b-28408ae2496c.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Rosply",
+      "url": "https://www.producthunt.com/products/rosply",
+      "published": "2026-06-22T10:19:16-07:00",
+      "author": "Harkixsha",
+      "tagline": "AI agent that controls your computer autonomously",
+      "post_id": "1178312",
+      "summary_zh": "能夠自主控制電腦操作的 AI agent，可代替使用者執行各種電腦任務。",
+      "image_url": "https://ph-files.imgix.net/6159738d-25c7-4153-aef3-310205d685ee.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/0d752efb-6d1b-4169-8c3b-81bc6bd2627d.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "MD+HTML Reader",
-      "url": "https://www.producthunt.com/products/md-html-reader",
-      "published": "2026-06-21T23:24:17-07:00",
-      "author": "Ahab",
-      "tagline": "Review AI-generated Markdown and HTML in a focused workspace",
-      "post_id": "1177821",
-      "summary_zh": "提供專注的工作空間，用於檢視和審查 AI 生成的 Markdown 與 HTML 內容。",
-      "image_url": "https://ph-files.imgix.net/af81e35d-4150-43f0-98f8-10aaad725fda.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/31c9afd9-6806-4a4f-8dcc-4df0624723f6.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Deckwise",
+      "url": "https://www.producthunt.com/products/deckwise",
+      "published": "2026-06-22T09:13:04-07:00",
+      "author": "Ao XU",
+      "tagline": "AI presentation agent for editable decks",
+      "post_id": "1178259",
+      "summary_zh": "AI 簡報助理工具，能生成可編輯的簡報檔案，適合需要快速製作簡報的商務人士。",
+      "image_url": "https://ph-files.imgix.net/5efdd679-e50f-402b-ad22-473ae56cb49d.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/19c155c2-d023-416f-b129-4556f1e93266.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Selector Forge",
-      "url": "https://www.producthunt.com/products/selector-forge",
-      "published": "2026-06-21T05:47:39-07:00",
-      "author": "Ahmad Ilaiwi",
-      "tagline": "Browser extension for AI-generated resilient selectors",
-      "post_id": "1177323",
-      "summary_zh": "瀏覽器擴充功能，透過 AI 自動生成穩定可靠的網頁元素選擇器，減少選擇器失效問題。",
-      "image_url": "https://ph-files.imgix.net/61f775ad-53f0-443f-b060-763f0eaf15b6.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/639cec74-2e57-4603-b338-f618e20ac82e.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Blazly SEO",
+      "url": "https://www.producthunt.com/products/tregno",
+      "published": "2026-06-22T08:39:00-07:00",
+      "author": "Srijita Baidya",
+      "tagline": "Dominate SEO with an AI content operating system",
+      "post_id": "1178238",
+      "summary_zh": "AI 驅動的內容管理系統，專注於 SEO 優化內容的生產與管理流程。",
+      "image_url": "https://ph-files.imgix.net/cd4fe90d-915c-44fd-bc60-4c3a1ef778c5.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/1a0d13d1-a0c9-4b71-8a4d-5e10e471b6b7.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "MediaSeg",
-      "url": "https://www.producthunt.com/products/mediaseg",
-      "published": "2026-06-21T17:40:36-07:00",
-      "author": "Sho Nishikawa, ExaEdge",
-      "tagline": "Split large media files into upload-ready chunks on macOS",
-      "post_id": "1177680",
-      "summary_zh": "macOS 應用程式，可將大型媒體檔案分割成符合上傳限制的小區塊。",
-      "image_url": "https://ph-files.imgix.net/d55ee31d-054c-4a19-85ac-99164a8c3f66.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/fca001b4-caee-474a-b58d-98ea0e816505.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Steam Machine",
+      "url": "https://www.producthunt.com/products/steam-machine",
+      "published": "2026-06-22T17:12:18-07:00",
+      "author": "Chris Messina",
+      "tagline": "A tiny, powerful PC for big-screen gaming",
+      "post_id": "1178556",
+      "summary_zh": "小型高效能電腦主機，專為大螢幕遊戲體驗設計。",
+      "image_url": "https://ph-files.imgix.net/0feaf5ac-957c-40c0-8781-6c2e7c30b5bf.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/6bee0e4e-2efa-4bd6-b5db-1c7bac00da98.gif?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "AgentX",
-      "url": "https://www.producthunt.com/products/agentx",
-      "published": "2026-06-21T00:13:56-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
-      "post_id": "1177141",
-      "summary_zh": "用於評估 AI agent 效能的工具，能自動定位問題並提供一鍵修復功能。",
-      "image_url": "https://ph-files.imgix.net/3569abf9-5c75-44f2-8b6e-d7af7caaad97.gif?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c0274766-9f1d-41a3-8e28-486a5fd306c5.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Tufte",
+      "url": "https://www.producthunt.com/products/tufte-markdown-graphs",
+      "published": "2026-06-22T14:07:21-07:00",
+      "author": "Arvin Dang",
+      "tagline": "CDN and Node package to generate ASCII graphs inline",
+      "post_id": "1178471",
+      "summary_zh": "CDN 服務與 Node 套件，用於在網頁中即時生成 ASCII 格式的圖表。",
+      "image_url": "https://ph-files.imgix.net/c168e2d4-f56c-40c2-848c-9c1ac57e8510.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/a6f95ded-1af7-434a-af0e-48456234e234.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "podcast_briefs": [
@@ -200,16 +187,6 @@
       "transcript_source": "Podcast 音檔 · Whisper",
       "summary_md": "## 一句話總結\n主講人認為 2026 年資金正從七巨頭、黃金、比特幣流向半導體硬體股，市場開始精明地只買「收支票」（賣設備給 AI）而非「開支票」（擴資本支出）的企業，但散戶高槓桿追逐翻身的風險值得警惕。\n\n## 1. SpaceX 與七巨頭估值修正：市場從夢想回歸現金流\n- **SpaceX 單日重挫 16.4%：** 6/23 股價從高點下跌，市值蒸發約 4000 億美元；主因市場重新評價 AI 部門 26.5 兆估值（該部門 2025 年仍虧損 64 億），加上公司才剛 IPO 又宣布發債 200 億美元償還整合 XAI 和 X 平台債務。\n- **七巨頭 2026 年表現落後：** 今年七巨頭整體小幅上漲但跑輸標普 500 約 9.4%，為 2015 年以來首次跑輸大盤；微軟跌 22%、Meta 跌 13%、特斯拉跌 7.5%、Amazon 漲 2.7%，反觀輝達本益比已降至 19.7 倍（低於標普 500 的 20.4 倍）、台積電（TSM）漲 48% 但仍輸台股大盤。\n- **資本支出擴張遭區別對待：** Google、微軟等宣布擴大資本支出後股價承壓，但半導體設備商（美光漲 297%、威腾漲 333%）因產能緊俏而估值飆升——市場只認可「收支票者」（賣設備）而非「開支票者」（蓋資料中心）。\n- **AI 融資狂潮：** 2026 年全球 AI 基礎建設信用市場融資規模達 2363 億美元，全年預估 5700 億；大型雲端業者今年已發債 820 億、全年預估 3000 億，杠杆倍數從去年 0.9 倍升至 1.8 倍（仍低於通訊服務 2.5 倍、公用事業 5.6 倍）。\n\n## 2. 資產輪動：半導體飆漲、黃金與比特幣重挫\n- **半導體領漲、軟體重挫：** 標普 500 中 Sendesk 今年漲 820%、威騰 333%、美光 297%、希捷 289%、Intel 263%、戴爾 227%、超微 150%；跌幅前段為 IT 服務與軟體（Costa 房地產資訊跌 55%、波士頓科學跌 52%、愛森哲跌 51%、Lululemon 跌 46%、Adobe 跌 44%、Salesforce 跌 42%）。\n- **黃金與比特幣成最差資產：** 黃金年初至今跌 2.3%、一度逼近熊市；比特幣暴跌 28%（從高點計算），過去作為「數位黃金」或風險偏好領先指標的角色失效——主因 Strategy 持有 58 萬枚比特幣、2028 年有 120 億美元債務到期可能被迫賣出，加上量子運算威脅（670 萬枚存放在公開地址、2030–2032 年可能被破解）。\n- **聯發科調漲晶片價格：** 理由為零組件缺貨、物流成本上升與供應鏈壓力，背後是 AI 重塑半導體產業；過去十年手機市場競爭激烈時極少看到手機晶片商調漲。\n- **費城半導體指數大漲 2.04%：** 資金集中湧入半導體，費半年初至今漲幅遠超七巨頭；美光因宣布與 Enthropy 長期合作、股價單日漲 7% 創歷史新高。\n\n## 3. 各類資產 2026 年表現分化\n- **科技股領先但內部分化：** 科技股今年漲 24.7%、大宗商品漲 23%、納斯達克漲 20%、小型股漲 20.6%；中大型股與小型股同步爆發，但七巨頭整體表現落後。\n- **價值股與新興市場：** 價值股漲 15%、中型股 13%、新興市場與已開發市場股市平均 10%–13%、美國大型股僅漲 10%。\n- **債券與 REITs 疲軟：** REITs、成長股、特別股、高收益債漲幅 2%–4%；長天期國債、短天期國庫券、投資等級債漲幅 0%–2%。\n- **標普 500 年化報酬 15.6%：** 2020 年至今年化報酬優於 2010 年代的 13.1%、略低於 1950 年代的 19.5%、1990 年代的 18.2%、1980 年代的 17.4%；主講人認為川普行情看似亮麗實則「先殺後漲」，從年初到年尾報酬並未特別突出。\n\n## 4. 企業裁員潮與成本控制\n- **科技業裁員暴增 66%：** 2026 年科技業已裁撤超 12.3 萬人，較去年增 66%；甲骨文過去 12 個月從 16.2 萬人降至 14.1 萬人、裁 2.1 萬人（13%），直接表示部分裁員與 AI 技術導入有關。\n- **主要裁員企業：** 甲骨文裁 3 萬人、UPS 3 萬人、亞馬遜 1.6 萬人、亞斯蘭代 1 萬人、Meta 6000 人、海尼根 6000 人、Paypal 4760 人、斯科 4000 人、大摩 2500 人、Nike 2000 人、迪士尼 1000 人、沃爾瑪 1000 人、星巴克 300 人、Robinhood 290 人。\n- **成本挪向資料中心：** 企業認為人力成本相對於資料中心投資不重要，資金優先配置 AI 基礎建設；市場發現「擴資本支出股價會跌、裁員減少支出股價會漲」。\n\n## 5. 散戶高槓桿投機風潮：Z 世代的翻身夢\n- **美國 Z 世代高風險交易：** 62% 的 35 歲以下投資人認為必須承擔更大風險才能達財務目標；43% 交易過選擇權、29% 買過迷因股、22% 使用借款投資。\n- **財務焦慮與攀比：** 80% 的 Z 世代與 75% 的千禧世代認為自己財務上落後；主講人指出過去只跟鄰居、同學比較，現在社群媒體讓年輕人與全球前 1% 比較高光時刻，產生「所有人都比自己有錢」錯覺。\n- **韓國單一股票槓桿 ETF 亂象：** 5 月推出追蹤三星與 SK 海力士的 16 檔槓桿 ETF、規模已達 14 兆韓元（91 億美元）、92% 由散戶持有；韓國金管院院長李灿正公開表示後悔沒阻止這類產品上市，擔心再平衡交易放大市場波動（單日可能流近 7 億美元、約平日成交量 1/8）。\n- **台灣「六代同堂」融資：** 房屋抵押貸款或增貸 → 保單質借 → 個人信貸 → 券商無限用途貸款（股票質押）→ 券商融資 → 期貨選擇權交易；主講人強調「杠杆是拿來超車用、不是飆車用」，資產幾千萬的人可借貸增效率，但沒錢的人全槓桿翻身風險極大。\n\n## 6. 市場估值邏輯轉變：從夢想到現金流\n- **SpaceX 估值一周反轉：** 一周前還是「AI + 太空經濟霸權」，幾天後股價腰斬三成，公司業務未變、火箭照發、AI 照推，但市場突然開始算現金流與負債——主講人認為「改變的不是事實、是看待事實的角度」。\n- **資金成本上升與風險意識：** 利率不低（聯準會未明確降息）、SpaceX 等高估值科技公司發債壓力大，市場從「願意為夢想買單」轉為保守評價；同一套商業模式與願景，資金充沛時溢價、資金緊張時打折。\n- **高盛對黃金態度轉變：** 過去十分看好黃金的高盛，最近變為「長期看多、短期謹慎」，擔心川普鷹派政策使利率長期高位、對黃金形成壓力；但世界黃金協會調查顯示 45% 央行計劃未來一年持續增持黃金（創歷史新高），央行長線買盤仍在。\n\n## 結論與後市展望\n主講人認為當前市場資金流向「精明但不理性」：資金從開支票者（七巨頭、SpaceX）轉向收支票者（半導體設備商），顯示市場開始重視短期現金流與立即獲利能力；但散戶（尤其 Z 世代）因房價高漲、生活成本上升與社群",
       "first_shown": "2026-06-24"
-    },
-    {
-      "episode_id": "9883757",
-      "title": "EP313. 谷歌痛失 AI 大將、Fable 5 配方解密、Meta 士氣低落中、FSD 即將入台 | M觀點",
-      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/b911adb2-9839-4029-bfbd-3d9883757cbc",
-      "published": "2026-06-22",
-      "channel": "M觀點",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\nGoogle 流失兩位 AI 大將至 OpenAI 與 Anthropic，Anthropic 透過系統提示詞揭露 Claude 5 採用 Agentic Workflow 提升效能，Meta 因大規模裁員與調職導致內部士氣跌至 20 年低點，而特斯拉 FSD 已向台灣車安中心遞交審查申請。\n\n## 1. Google AI 大將出走：人才戰爭加劇\n- **Noam Shazeer 轉投 OpenAI：** 前 Gemini 共同負責人、Transformer 論文共同作者，Google 曾於 2024 年以 27 億美元收購其新創 Character.AI 將其買回，兩年約滿後加入 OpenAI 負責 AI 架構研究。\n- **John Jumper 加入 Anthropic：** 諾貝爾化學獎得主（因 AlphaFold 蛋白質結構預測獲獎）、DeepMind 資深研究科學家，預計在 Anthropic 負責科學領域 AI 研究。\n- **對 Google 心理打擊：** 雖然 Google 人才眾多，但兩位頂尖專家接連流失至競爭對手，反映 AI 人才爭奪戰的激烈程度。\n- **Gemini 2.5 Pro 前景不明：** 外界預期即將推出的 Gemini 2.5 Pro 可能無法超越 GPT-5.5 與 Claude Opus 4.8，但主講人認為 Google 核心資源（算力、數據、人才）仍強，不至於被打趴。\n\n## 2. Claude 5 配方解密：Agentic Workflow 嵌入系統提示詞\n- **12 萬字元系統提示詞曝光：** AI 研究者「Pliny the Liberator」在 X 平台公開 Claude 5 在 Claude.ai 聊天機器人的系統提示詞，長達 12 萬字元（僅針對 Web 版，API 版不含此提示詞）。\n- **內建 Agent Harness 邏輯：** Claude 5 透過系統提示詞將整套 Agentic Workflow（代理式工作流）的原則、指導、規範寫入，使模型在回答問題時會自動開啟沙盒環境，分派多個子代理執行不同工具（如查資料、寫程式、做驗證），最後彙整答案。\n- **效能提升但速度變慢：** 這種方法讓 Claude 5 在聊天機器人版本就能達到接近 Claude Code 的 Harness 能力（約七、八成），但因運算過程複雜導致回應速度較慢。\n- **競爭對手跟進：** 主講人推測 OpenAI 與 Google 幾個月前已知悉此做法，OpenAI 可能在一個月內推出 GPT-5.6，預期比 GPT-5.5 強 5%–10%。\n\n## 3. Meta 士氣崩盤：裁員與無意義工作的雙重打擊\n- **CTO 公開承認士氣低落：** Meta CTO Andrew Bosworth（外號 Boz）在六月初會議中表示，目前士氣是他 20 年來最糟的前三名之一，並發內部備忘錄批評公司在解釋 AI 長期躍進時溝通很爛。\n- **裁員 8,000 人並調職 7,000 人：** Meta 裁員約 10%（從 8 萬降至 7 萬人），剩餘員工中再有 7,000 人（約 9%）被調至新成立的「Applied AI」部門。\n- **Applied AI 工作內容單調：** 該部門負責標記數據、評估 AI 回答、出題訓練 AI，或讓模型執行 Agentic Workflow 後輸出訓練資料，工作重複性高且缺乏成就感，被視為「Placeholder」（暫時性安置）部門。\n- **精英員工難以適應：** Meta 員工多為頂尖人才（如 MIT 資工碩博士、年薪 30 萬美元），過去工作強調意義與價值，現在卻淪為「挑錯字」式的螺絲釘工作，主講人預期不滿者會陸續離職或轉調，最終部門將由能接受單調工作者組成。\n\n## 4. 特斯拉 FSD 進軍台灣：審查啟動與市場影響\n- **已向車安中心遞交申請：** 特斯拉台灣正式向車安中心提交 FSD Supervised Version（需監督版）申請，預計最快 8 月、最慢 9 月通過（仍為 Level 2，駕駛需全程監督）。\n- **荷蘭通過帶動台灣：** 荷蘭 DMV 通過後，歐盟其他國家可援引標準；台灣法規偏好參考歐洲而非美國，荷蘭通過成為台灣審查的重要參考。\n- **關稅降價仍待立法院：** 雖然台美對等貿易協議已由行政院與美國談妥，但立法院在野黨占多數尚未通過，即使通過也需數月行政程序，主講人預期最快年底至明年才可能降關稅。\n- **德國車可能連帶受惠：** 台灣現售 Model Y 為德國產，若僅美國車降關稅，德國政府可能施壓要求對等待遇，台灣或能藉此與德國協商其他貿易條件。主講人預估關稅降後 Model Y 可能從 190 多萬降至 160–170 萬區間。\n\n## 5. Anthropic Claude 5 出口禁令：國安爭議持續\n- **川普態度軟化但國會仍有疑慮：** 川普在 G7 峰會與 Anthropic CEO Dario Amodei 會面後表示「不再認為是國安威脅」，但美國國會議員 Mark Warner 引述 NSA 主任說法，稱 Claude 5 可在數小時內破解高度機密系統。\n- **Jailbreak 漏洞成關鍵：** Claude 5 原有安全護欄，但已被證實可繞過（Jailbreak），使其在數位攻擊能力上與 Llama 3.1-405B 相當；主講人認為 NSA 測試是在提供原始碼與內部設定的情況下進行，實際駭客攻擊難度會更高。\n- **解決方向：修補已知漏洞：** 主講人批評 Anthropic 堅持不可能百分之百封住漏洞，但認為川普政府要求的是「修補現有已知漏洞、提高破解難度」（如從 20 次成功一次提升至 10 萬次成功一次），若配合修補預計 2–4 週內可重新上線。\n\n## 結論與後市展望\n主講人認為 Google 雖流失兩位 AI 大將並面臨 Gemini 2.5 Pro 不如預期的壓力，但核心資源（算力、數據、人才庫）仍強，在消費端市占率已達 27.7%（ChatGPT 46.4%），企業端雖落後但有機會在年底 Gemini 4.0 追上。Meta 的士氣危機源於大規模裁員與 Applied AI 部門的低價值工作，但主講人預期半年內會透過離職與內部轉調自然調整。特斯拉 FSD 若在台灣通過，將震撼台灣駕駛市場並帶動今年銷量；關稅降價需視台美協議立法進度與德國施壓力道而定。整體而言，2026 年 AI 競賽重點在 Agentic Workflow 整合能力，模型實力加上 Harness 設計將決定最終表現；人類未來工作可能大量轉向「高熵值資料創造」，但多數工作將缺乏意義感。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-06-23"
     }
   ]
 }
