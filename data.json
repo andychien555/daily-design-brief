@@ -1,41 +1,47 @@
 {
-  "date": "2026-06-29",
-  "date_display": "2026 年 06 月 29 日",
-  "generated_at": "2026-06-29T08:55:58.427046+08:00",
-  "since_date": "2026-06-27",
+  "date": "2026-06-30",
+  "date_display": "2026 年 06 月 30 日",
+  "generated_at": "2026-06-30T08:56:07.063696+08:00",
+  "since_date": "2026-06-28",
   "top_tweets": [
     {
-      "id": "2071379474277613732",
-      "text": "As engineering, product, design, DS, etc. melt into a new kind of role, I was reflecting on what roles might look like in the future. For example, when I look at the Claude Code team I see what I think is five archetypes:\n\n1. Prototyper: comes up with brand new ideas; churns out",
-      "author": "bcherny",
-      "name": "Boris Cherny",
-      "likes": 2777,
-      "retweets": 263,
-      "replies": 174,
-      "created": "Sun Jun 28 23:45:25 +0000 2026",
-      "url": "https://x.com/bcherny/status/2071379474277613732",
+      "id": "2071625866912944151",
+      "text": "We just launched Comfy MCP in public beta, the first MCP built for production pipelines.\n\nConnect Claude, Codex, Cursor, or Hermes to the entire ComfyUI ecosystem.\n\n→ Run any workflow in natural language\n\n→ Search models, nodes, and templates\n\n→ Share a workflow URL - your https://t.co/9aAVLBNLLi",
+      "author": "ComfyUI",
+      "name": "ComfyUI",
+      "likes": 597,
+      "retweets": 77,
+      "replies": 39,
+      "created": "Mon Jun 29 16:04:30 +0000 2026",
+      "url": "https://x.com/ComfyUI/status/2071625866912944151",
       "source": "Design",
-      "summary_zh": "隨著工程、產品、設計、數據科學等角色逐漸融合，作者觀察 Claude Code 團隊並歸納出未來可能出現的五種新角色原型，首先是「原型開發者」負責提出全新想法並快速產出原型。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "summary_zh": "ComfyUI 推出 Comfy MCP 公開測試版，可讓 Claude、Cursor 等工具透過自然語言執行 ComfyUI 工作流程，並搜尋模型、節點與模板，為生產管線提供整合方案。"
     },
     {
-      "id": "2071273094249922580",
-      "text": "One sharp shape can carry an entire design https://t.co/gWfdcZOkN2",
-      "author": "ezdrawps",
-      "name": "ezdraw",
-      "likes": 1401,
-      "retweets": 43,
-      "replies": 1,
-      "created": "Sun Jun 28 16:42:42 +0000 2026",
-      "url": "https://x.com/ezdrawps/status/2071273094249922580",
+      "id": "2071651083479371972",
+      "text": "Apple acquires Play. Design Mode in Xcode incoming. https://t.co/vzcQfHLHPj",
+      "author": "avstorm",
+      "name": "Andreas Storm",
+      "likes": 1478,
+      "retweets": 70,
+      "replies": 43,
+      "created": "Mon Jun 29 17:44:42 +0000 2026",
+      "url": "https://x.com/avstorm/status/2071651083479371972",
       "source": "Design",
-      "summary_zh": "一個銳利的形狀就能撐起整個設計。簡潔有力的設計原則提醒。"
+      "summary_zh": "Apple 收購了 Play，可能將在 Xcode 中推出 Design Mode 功能。"
+    },
+    {
+      "id": "2071698859735273801",
+      "text": "If you're a streamer looking for a new music widget but sick of getting cucked by Spotify, I started working on a brand new Universal Now Playing widget.\n\nSome key features:\n\n• Works with (almost) any streaming platform — Spotify, YouTube Music, Apple Music, TIDAL, Soundcloud, https://t.co/v7JK1o3Wrq",
+      "author": "nuttylmao",
+      "name": "nutty",
+      "likes": 1394,
+      "retweets": 96,
+      "replies": 40,
+      "created": "Mon Jun 29 20:54:33 +0000 2026",
+      "url": "https://x.com/nuttylmao/status/2071698859735273801",
+      "source": "Design",
+      "summary_zh": "開發者正在打造通用音樂播放 widget，支援 Spotify、YouTube Music、Apple Music 等多平台，解決串流媒體平台鎖定問題。"
     }
   ],
   "criteria": {
@@ -118,15 +124,37 @@
   },
   "top_products": [
     {
-      "title": "Lyto",
-      "url": "https://www.producthunt.com/products/lyto",
-      "published": "2026-06-27T08:17:01-07:00",
-      "author": "Arystan Tanekov",
-      "tagline": "\"One AI agent across your browser, tools, and messages \"",
-      "post_id": "1182460",
-      "summary_zh": "整合瀏覽器、工具與訊息的 AI 助理，讓使用者能在不同平台上使用同一個智能代理協助工作。",
-      "image_url": "https://ph-files.imgix.net/f1112048-e1d1-416c-bc05-66809f06dd89.jpeg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/34faa5eb-d362-4229-b8f9-cd6f2524675c.png?auto=format&w=960&h=540&fit=crop"
+      "title": "PMB",
+      "url": "https://www.producthunt.com/products/pmb-local-first-memory-for-ai",
+      "published": "2026-06-27T21:10:11-07:00",
+      "author": "Oleksii Bondar",
+      "tagline": "Stop re-explaining your project to AI coding agents",
+      "post_id": "1182762",
+      "summary_zh": "為 AI 程式碼代理提供專案脈絡管理工具，避免重複說明專案內容。適合需要頻繁與 AI 協作開發的工程師使用。",
+      "image_url": "https://ph-files.imgix.net/1a0ae89c-0545-4f46-993c-1894d2eddcac.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/7de2bbe5-fd6c-44a6-a488-6c1450ba3fd2.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "ReadHere",
+      "url": "https://www.producthunt.com/products/readhere-2",
+      "published": "2026-06-28T10:22:17-07:00",
+      "author": "Quazi Marufur Rahman",
+      "tagline": "Lightweight PDF & EPUB reader in your browser",
+      "post_id": "1183145",
+      "summary_zh": "在瀏覽器中直接閱讀 PDF 和 EPUB 檔案的輕量級閱讀器，無需安裝額外軟體。",
+      "image_url": "https://ph-files.imgix.net/dbfd2b0b-d4d4-4bab-93f0-0c2df3f6e166.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/4a103155-6a60-4413-a1b9-1524fb10a268.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Crest",
+      "url": "https://www.producthunt.com/products/crest-3",
+      "published": "2026-06-28T12:50:38-07:00",
+      "author": "zack",
+      "tagline": "System stats and translation on your Mac's notch",
+      "post_id": "1183216",
+      "summary_zh": "在 Mac 瀏海區域顯示系統狀態資訊與翻譯功能的工具列應用程式。",
+      "image_url": "https://ph-files.imgix.net/9e1b1ad1-02ba-4282-8caf-7a0bd6796ef2.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/e0d34502-e33e-4fcb-8159-b5682da62757.png?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Dotient",
@@ -135,12 +163,22 @@
       "author": "Declan",
       "tagline": "Your local semantic search app",
       "post_id": "1182736",
-      "summary_zh": "本地端語意搜尋應用程式，讓使用者可以在自己的裝置上進行智能化的內容檢索。",
+      "summary_zh": "本地端語意搜尋應用程式，讓使用者在自己的裝置上進行智能內容檢索。",
       "image_url": "https://ph-files.imgix.net/82b244b7-baed-481e-bb0f-5202eaf33d75.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/e592297e-11b2-42e8-bf3e-d48e1083a02e.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "podcast_briefs": [
+    {
+      "episode_id": "fcf7-a0b7-4e78-ac2e-a172c51cd27e",
+      "title": "EP315. GPT-5.6 限定推出、蘋果漲價被罵翻、Meta 新智能眼鏡 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/05dbfcf7-a0b7-4e78-ac2e-a172c51cd27e",
+      "published": "2026-06-29",
+      "channel": "M觀點",
+      "transcript_source": "Podcast 音檔 · Whisper",
+      "summary_md": "## 一句話總結\nOpenAI 推出的 GPT-5.6 在 Agent 工作流與資安測試上達到或超越 Anthropic 的 Claude Misos 水準，但與 Claude 一樣受美國政府監管僅限定客戶使用；蘋果因記憶體漲價調漲 Mac/iPad 售價引發批評；Meta 推出自有品牌智慧眼鏡降價搶市。\n\n## 1. GPT-5.6 發表：與 Claude Misos 同級但受限定預覽\n- **三版本命名策略：** GPT-5.6 分為 Soul（旗艦）、Terra（平衡）、Luna（小型），模仿 Anthropic 的 Opus/Sonic/Haiku 三級制，其中 Terra 以一半成本提供 GPT-5.5 等級能力。\n- **Agent 與資安測試領先：** 在 Terminal Bench 2.1 達 91.9% 超越 Misos 的 88%；Exploit Bench 用一半 token 達到 Misos 同等成績，顯示在 Anthropic 強項領域已追上或超越。\n- **政府監管限制發布：** 與 Claude Misos/Fable 相同，僅開放給經美國政府審核的少數客戶使用（Limited Preview），顯示最強 frontier model 正面臨新監管框架。\n- **中美競爭的兩難：** 主講人認為過度限制美國模型會讓市場拱手讓給中國開源模型（如 GLM-5.2，實力約 GPT-5.4 等級、落後 3–4 個月），美國政府需在資安風險與產業競爭力間取得平衡。\n\n## 2. 蘋果漲價風波：記憶體成本上升引發眾怒\n- **全產品線調漲除 iPhone：** Mac、iPad、Vision Pro、Apple TV 都漲價，官方理由是 DRAM 與 Flash 儲存成本大幅上升已無法吸收。\n- **成本漲幅與售價對比：** 以 MacBook Neo（8GB RAM + 512GB SSD）為例，光這兩項零組件從年初到六月市價已漲約 2,200 台幣，但整機僅漲 3,000 台幣，主講人認為漲幅在合理範圍（包含其他料件漲價與緩衝空間）。\n- **美光高層補槍：** 美光首席商務官受訪時暗指某些大客戶過去在供應商虧損時仍壓價，導致無力擴產，現在供不應求才漲價；主講人認為雙方都是商業談判合理但美光當年也不會因多賺 10%–20% 就擴產。\n- **網路批評超乎預期：** 主講人原以為果粉信仰強不會因小幅漲價抱怨，但實際上社群出現大量批評聲浪，部分因通路商臨時取消訂單或要求加價引發不滿。\n\n## 3. Meta 自有品牌智慧眼鏡：降價搶市與 AI 競賽\n- **品牌策略轉變：** 從 Meta Ray-Ban Smart Glasses 改為 Meta Glasses，不再掛名雷朋品牌，基礎款從約 10,000 台幣降至 9,000 台幣（省約 80 美元授權費），仍由 EssilorLuxottica 代工。\n- **三款式設計：** 推出兩款平價與一款名人設計款（Kylie Jenner 聯名），並提供度數鏡片選擇，擴大市場覆蓋範圍。\n- **AI 能力是關鍵戰場：** 美國版已升級至 Llama Spark 模型明顯強於前代，但主講人擔心若 AI 不夠強，會在 Google 智慧眼鏡（預計 Q3–Q4 推出、可能搭載 Gemini 4.0 Flash）上市時被翻盤；台灣目前無法使用 AI 功能影響買氣。\n- **市場領先優勢：** Meta 在智慧眼鏡賽道已領先兩年，但若模型能力輸給 Google 將浪費先發優勢；主講人呼籲盡快在全球開放 AI 功能並持續強化模型。\n\n## 4. AI 模型競賽現況：雙頭馬車與中美角力\n- **OpenAI 與 Anthropic 領先：** 主講人認為目前 AI 競賽是「雙頭馬車」格局，兩家公司模型推出時間差僅 1–1.5 個月（Misos 約四月 ready、GPT-5.6 約五月 ready），但 AI 領域一個月落差會引發市場大幅反應。\n- **中國追趕速度：** 中國開源模型（如 GLM-5.2）實力約落後 3–4 個月，若美國模型持續限制發布，可能在九、十月出現同級開源替代方案。\n- **監管政策動態調整：** 主講人預期美國政府會在一個月內提出初步規則並每 1–2 個月動態調整，因模型能力提升速度超乎預期（類比：手槍威力若能炸毀大樓就不能用舊規則管理）；川普時期 AI 沙皇 David Sacks 任期已滿，其反監管立場影響力減弱。\n\n## 5. 記憶體產業現況：供需失衡與擴產困境\n- **價格漲幅驚人：** 8GB DRAM 從年初約 1,800 台幣漲至 3,000 台幣（漲 1,200 元）、512GB SSD 從 2,000 漲至 3,000（漲 1,000 元），六個月內漲幅達 60%–67%。\n- **擴產意願保守：** 主講人認為記憶體廠商因產業週期性陰影，即使過去幾年蘋果多付 10%–20% 也不會擴產；美光、三星、SK Hynix 目前開始擴產但幅度不大，記憶體可能持續缺貨 1–2 年。\n- **對消費電子影響：** 文書筆電可能從 2 萬漲至 2.5 萬台幣，主講人提醒相關台股投資人注意消費性電子可能未來一兩年表現不佳。\n\n## 結論與後市展望\n主講人認為 OpenAI 與 Anthropic 在頂尖模型競賽中維持微幅領先（1–1.5 個月），但美國政府監管可能讓中國模型在 3–4 個月後縮小差距並搶佔全球市場；蘋果漲價雖有成本支撐但處理方式有瑕疵引發爭議；Meta 智慧眼鏡降價策略正確但 AI 模型強度將決定能否守住先發優勢對抗即將推出的 Google 產品。股市方面提醒當前波動大需去槓桿，避免因指數未跌 10% 就被斷頭出場。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-06-30"
+    },
     {
       "episode_id": "2349564431",
       "title": "2026/6/29(一)七巨頭行情結束?AI進入選股時代 美伊再互轟 急跌是買點?【早晨財經速解讀】",
