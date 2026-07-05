@@ -1,21 +1,47 @@
 {
-  "date": "2026-07-04",
-  "date_display": "2026 年 07 月 04 日",
-  "generated_at": "2026-07-04T08:55:52.986973+08:00",
-  "since_date": "2026-07-02",
+  "date": "2026-07-05",
+  "date_display": "2026 年 07 月 05 日",
+  "generated_at": "2026-07-05T08:55:54.265784+08:00",
+  "since_date": "2026-07-03",
   "top_tweets": [
     {
-      "id": "2073091833530392614",
-      "text": "if you’re into harness engineering, i strongly recommend looking into arc agi winning harnesses. they clearly illustrate what works from first principles, what is bs, and why a lot of current harness design is overfitted to benchmarkmaxx",
-      "author": "alxfazio",
-      "name": "alex fazio",
-      "likes": 561,
-      "retweets": 24,
-      "replies": 10,
-      "created": "Fri Jul 03 17:09:43 +0000 2026",
-      "url": "https://x.com/alxfazio/status/2073091833530392614",
+      "id": "2073449533712073005",
+      "text": "been working on API design and there's some details in there most people won't ever seen anymore\n\nagent will generate a lot of it and won't care about these things\n\nbut that quote about the cabinets makes me do it anyway\n\nWhen you’re building a beautiful chest of drawers, you",
+      "author": "thdxr",
+      "name": "dax",
+      "likes": 1052,
+      "retweets": 46,
+      "replies": 55,
+      "created": "Sat Jul 04 16:51:06 +0000 2026",
+      "url": "https://x.com/thdxr/status/2073449533712073005",
       "source": "Design",
-      "summary_zh": "建議深入研究 ARC AGI 競賽得獎的 AI agent 架構設計，能從第一性原理看出哪些做法真正有效、哪些只是為了跑分而過度擬合基準測試。"
+      "summary_zh": "作者在設計 API 時思考，雖然未來大多數人可能透過 AI agent 生成程式碼而不會在意細節，但仍堅持把不被看見的部分做好——就像精美櫥櫃背面也要打磨的工藝精神。"
+    },
+    {
+      "id": "2073100197769646511",
+      "text": "测了最流行的5个前端页面设计 Skill。\n\n我觉得 ui-ux-pro-max 非常一般，自带太多模版、规则反而限制模型发挥。\n\n① 动效方面 emil-design-eng 最好。\n\n② 网页规范+无障碍，Vercel团队的 web-design-guidelines 最好\n\n③ taste-skill 的AI味最小，而且文案简洁。\n\nAnthropic https://t.co/9XqjmGoTAl",
+      "author": "vista8",
+      "name": "向阳乔木",
+      "likes": 764,
+      "retweets": 103,
+      "replies": 33,
+      "created": "Fri Jul 03 17:42:58 +0000 2026",
+      "url": "https://x.com/vista8/status/2073100197769646511",
+      "source": "Design",
+      "summary_zh": "測試了五個流行的前端頁面設計 AI Skill，發現 ui-ux-pro-max 因模版太多反而限制發揮；動效以 emil-design-eng 最佳、無障礙規範以 Vercel 團隊的 web-design-guidelines 最優、taste-skill 的 AI 味最淡且文案簡潔。"
+    },
+    {
+      "id": "2073466806308655171",
+      "text": "The opening paragraph of Gilroy’s manifesto for ANDOR reads:\n\n“The design must crush. Must be fresh and forward. Highest bar. Take the visual SW’s canon and pervert it into something real. That’s the goal here: Mad but real.”\n\n(Source: The Art of Star Wars: Andor) https://t.co/c1qFBFt8ps",
+      "author": "sw_holocron",
+      "name": "Star Wars Holocron",
+      "likes": 774,
+      "retweets": 30,
+      "replies": 12,
+      "created": "Sat Jul 04 17:59:44 +0000 2026",
+      "url": "https://x.com/sw_holocron/status/2073466806308655171",
+      "source": "Design",
+      "summary_zh": "《Andor》設計總監 Gilroy 在設計宣言中要求：「設計必須震撼、必須前衛，將星戰視覺規範扭曲成真實的東西——目標是瘋狂但真實」，展現了對既有 IP 視覺語言的顛覆性思考。"
     }
   ],
   "criteria": {
@@ -98,82 +124,27 @@
   },
   "top_products": [
     {
-      "title": "Osloq",
-      "url": "https://www.producthunt.com/products/osloq",
-      "published": "2026-07-02T15:37:18-07:00",
-      "author": "Enes",
-      "tagline": "An AI agent that reproduces GitHub issues for you",
-      "post_id": "1186689",
-      "summary_zh": "一個 AI 代理工具，能夠自動重現 GitHub issue 中描述的問題，協助開發者快速驗證與除錯。",
-      "image_url": "https://ph-files.imgix.net/a92edd05-32c9-4e8d-9d30-78b152e49f59.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/8b9100d4-3ca7-42c8-a684-0e89aa76d81e.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Termi Protocol",
+      "url": "https://www.producthunt.com/products/termi-protocol",
+      "published": "2026-07-03T14:14:15-07:00",
+      "author": "Eric Omer Ercan",
+      "tagline": "Watch your AI coding agents build, live in 3D",
+      "post_id": "1187434",
+      "summary_zh": "讓開發者以 3D 視覺化方式即時觀看 AI 程式編寫代理的建構過程。適合需要監控自動化編程流程的技術團隊使用。",
+      "image_url": "https://ph-files.imgix.net/7c8d0653-500d-4fa4-8d50-c710fdf91321.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/4cf58ccf-889b-4b93-a318-fdae6b1f40b4.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Tamamon",
-      "url": "https://www.producthunt.com/products/tamamon-a-tiny-desktop-pet-that-grows",
-      "published": "2026-07-02T06:57:06-07:00",
-      "author": "Jason Jeong",
-      "tagline": "A desktop pet that grows as you code with Claude Code",
-      "post_id": "1186410",
-      "summary_zh": "桌面寵物應用程式，會隨著你使用 Claude Code 撰寫程式碼而成長，為開發過程增添互動趣味。",
-      "image_url": "https://ph-files.imgix.net/d6869c44-a80c-4343-8bbd-230ef20a3307.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/284f2b15-5edd-47f0-b5be-fe72e53475c3.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Glaze by Raycast",
-      "url": "https://www.producthunt.com/products/glaze-4",
-      "published": "2026-07-02T08:57:02-07:00",
-      "author": "Chris Messina",
-      "tagline": "Create your own Mac apps by chatting with AI",
-      "post_id": "1186480",
-      "summary_zh": "讓使用者透過與 AI 對話來建立自己的 Mac 應用程式，降低開發門檻。",
-      "image_url": "https://ph-files.imgix.net/85150caf-3a40-490f-ad86-32e3e5a88afa.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/2375fc04-8d88-4b49-9412-58872203cbe8.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Vox",
-      "url": "https://www.producthunt.com/products/vox-5",
-      "published": "2026-07-02T17:08:51-07:00",
-      "author": "Ashish Kumar",
-      "tagline": "Voice in, voice out — with GitHub Copilot",
-      "post_id": "1186717",
-      "summary_zh": "為 GitHub Copilot 提供語音輸入與語音輸出功能，讓開發者能以語音方式與 AI 編程助手互動。",
-      "image_url": "https://ph-files.imgix.net/e75841bf-dfc1-4421-b5d7-b034fd81c08f.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/7d687a1a-3d13-41bd-9193-3d37d4e070f8.webp?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Goals from Loops",
-      "url": "https://www.producthunt.com/products/loops",
-      "published": "2026-07-02T03:03:16-07:00",
-      "author": "Garry Tan",
-      "tagline": "Measure whether a campaign drove the desired outcome",
-      "post_id": "1186250",
-      "summary_zh": "行銷分析工具，用於追蹤與衡量行銷活動是否達成預期的轉換目標。",
-      "image_url": "https://ph-files.imgix.net/7b71ea48-9987-463a-8e1d-8995069b3e27.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/db8e4ca1-0596-4f5e-9cba-86836460c5bc.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Gaming Chat SDK by CometChat",
-      "url": "https://www.producthunt.com/products/cometchat",
-      "published": "2026-07-01T22:02:58-07:00",
-      "author": "Pourav Raj",
-      "tagline": "Chat drops into Unreal like it was always there",
-      "post_id": "1186027",
-      "summary_zh": "為 Unreal Engine 設計的聊天 SDK，提供遊戲內即時通訊功能的原生整合方案。",
-      "image_url": "https://ph-files.imgix.net/7ce5ecfa-997a-4775-af49-ebfda6c816ac.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/e07292f2-b6ce-4aa6-98ec-ae1ecb6b88d3.png?auto=format&w=960&h=540&fit=crop"
+      "title": "ChecklistFox",
+      "url": "https://www.producthunt.com/products/checklistfox",
+      "published": "2026-07-03T13:40:09-07:00",
+      "author": "Usama Khalid",
+      "tagline": "AI checklist maker for beautiful pdfs, free & instant",
+      "post_id": "1187416",
+      "summary_zh": "使用 AI 快速生成檢查清單並匯出為精美的 PDF 格式。提供免費即時服務，適合需要製作標準化流程文件的使用者。",
+      "image_url": "https://ph-files.imgix.net/9bf30a8b-610a-441d-878a-2c3a5c4d101a.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3a9d42d1-5410-4bee-ba4b-d798b0576c91.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
-  "podcast_briefs": [
-    {
-      "episode_id": "77d8-c828-43f9-b835-5a1a72aa2e38",
-      "title": "EP676 | 🐬",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/2d7b77d8-c828-43f9-b835-5a1a72aa2e38",
-      "published": "2026-07-04",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人分享育兒出遊經驗後，指出台股強勢股經短期修正後可能重啟攻勢，並強調被動元件、功率元件、封測三大產業鏈正因 AI 需求出現缺貨與漲價，但消費性電子復甦訊號仍不明確。\n\n## 1. 育兒與旅遊觀察：換位思考的體悟\n- **夏令營的雙贏策略：** 主講人認為以前羨慕同學參加夏令營，當父母後才理解這是讓家長喘息、孩子社交的雙贏安排；預算允許會「報好報滿」。\n- **宜蘭凱渡飯店體驗：** 原訂老爺訂滿才選凱渡，意外發現親子設施（海水泳池、kids club、代幣電玩、木頭車車搭配 Switch）讓孩子玩到瘋掉，buffet 與江振誠合作包廂低消 3 萬；推薦給以孩子為核心的家庭。\n- **帶幼兒出遊的現實：** 兩三歲以下需拉兩個行李箱裝消毒用品等，到宜蘭買房不如住飯店靈活；孩子長大後（小學、國中）會想跟朋友而非家長出遊，珍貴的親子時光只有數個夏天。\n\n## 2. 台股盤面觀察：強勢股修正後等待突破\n- **上週修正與籌碼洗盤：** 主講人 7/3（週三）提到強勢股若追高會被修理，週四週五開始有股票氣勢不同；認為前波套牢散戶在解套時拼命賣，造成賣壓，但籌碼洗乾淨後若大盤創新高，強勢族群有望展現延續性。\n- **被動與功率元件領先轉強：** 被動元件是修正後第一波轉強標的，功率元件隨後跟上；主講人認為資金壓在這些領域，下一波若持續攻高應能回到正常盤面。\n- **強勢股策略提醒：** 目前不少人追強勢股被修理，主講人建議等大盤突破新高再觀察，不要在震盪期亂追。\n\n## 3. 功率元件產業：房間裡的大象開始缺貨\n- **lead time 拉長與斷貨現象：** ODM 與 EMS 業者反映 MOSFET 等功率元件開始買不到，部分應用已斷貨；主講人形容這是「房間裡的大象」，白熱化程度不輸被動元件。\n- **7 月密集漲價函：** 產業面 7 月開始發出漲價函，業界朋友在研究缺料時該買哪檔股票；主講人強調這是產業面動態，股價已提前反映（不少功率股已漲數倍）。\n- **IDM 與 fabless 的競爭力：** IDM 廠（設計到封測一條龍）較能掌握產能；fabless 廠若能透過母公司或集團資源 secure 產能也無礙，但完全無產能者較尴尬（類比記憶體模組廠當年大膽賭對也能賺）。\n\n## 4. 封測產業：AI 需求推升報價 30–50%\n- **IC design house 被爆漲：** 部分設計公司下一季被後段封測廠報價直接調漲 30–50%（疫情期間僅漲 10–20%），主講人認為這是 AI 需求排擠效應，封測廠開始挑客戶。\n- **封測族群整體轉強：** 日月光、京元電等 household name 外，整體族群線型好看；主講人認為封測可能是下一棒題材，類比 TSMC 與 Amkor/日月光的邏輯，成熟製程晶圓廠與封測廠也能受惠。\n- **AI 產業鏈毛利全面拉高：** 從高毛利 design house、晶圓代工，到過去「論斤秤兩賣」的被動元件、功率元件，AI 需求讓整條鏈毛利率都有機會衝高，反映科技巨頭「很有錢」且急於短時間內完成搶貨。\n\n## 5. Meta Neo Cloud 與 AI 建置策略\n- **Meta 推 Neo Cloud 非退出 AI：** 市場多數解讀 Meta 要投入 Neo Cloud 是「不玩了」，主講人認為恰好相反——Meta 要 double down，將 legacy 算力（如 Hopper）出租以賺錢再投資更多新算力。\n- **內部共識形成：** Meta 原本 CFO 想踩煞車，找到出租解方後全公司達成共識可繼續衝；主講人認為祖克伯「絕不缺席」任何風口（Instagram、Reels、元宇宙皆然），這次也要效仿馬斯克 X/SpaceX 的 Colossus 出租模式（據傳一年回本）。\n- **對 Neo Cloud 市場衝擊：** 短期可能是利空（多一競爭者），長期若 Meta 加入未讓 AI 算力供需平衡，反而證明需求仍緊俏；主講人甚至半開玩笑提到 Meta 有「灰色產業」出海口（暗指詐騙集團可能租用）。\n\n## 6. 光通訊與消費性電子：資金未到、靜待轉機\n- **光通訊目前無資金青睞：** 主講人坦言未主動聊光通訊，因市場資金明顯不在此（美股 Lumentum/Coherent、台股光相關股都未跟上），雖產業面仍佳但「不會漲沒有用」；近期 Semian Analysis 發行光相關 ETF，可能短彈但需觀察資金是否回流。\n- **消費性電子復甦訊號不明：** 驅動 IC 龍頭 2027 展望不佳，主講人數月前已提醒面板/消費拉貨僅是補庫存非真實需求；部分 design house 股價強是因「成本導向漲價」成功轉嫁（改善獲利）或切入新應用（PE rating 上修如機器人概念），但本業需求未見起色。\n- **股價提前反映與博弈心態：** 聯發科在手機砍單後因 AI PC 故事連拉漲停，市場資金會提前「賭」轉折；主講人強調「股市是經濟櫥窗」，趨勢形成代表產業有巧妙變化，但短線波動仍需留意。\n\n## 結論與後市展望\n主講人認為台股經短期修正後，若大盤創新高將確認修正結束，屆時被動元件、功率元件、封測等強勢族群有望再展延續性；功率元件缺貨與封測漲價正在發酵，產業面支撐強勁，但股價已先反映需留意追高風險。光通訊與消費性電子雖產業面尚可，資金未到位建議靜待時機。Meta 推 Neo Cloud 應解讀為加碼 AI 投資而非退出，對建置需求影響有限。整體而言，AI 驅動的零組件漲價與缺貨故事仍是市場主軸，投資人應聚焦資金流向與籌碼變化，避免在震盪期追高或抱怨落後補漲股，耐心等待盤面明朗。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-07-04"
-    }
-  ]
+  "podcast_briefs": []
 }
