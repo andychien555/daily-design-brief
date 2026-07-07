@@ -38,8 +38,7 @@ STATE_PATH = config.ARTICLE_STATE_FILE
 DATA_PATH = config.DATA_FILE
 TPE = config.TPE
 UA = {"User-Agent": config.USER_AGENT}
-
-CONTENT_ENCODED = "{http://purl.org/rss/1.0/modules/content/}encoded"
+BROWSER_UA = {"User-Agent": config.USER_AGENT_BROWSER}
 
 
 def log(msg: str) -> None:
@@ -47,16 +46,16 @@ def log(msg: str) -> None:
     print(f"[{ts}] [article] {msg}", flush=True)
 
 
-# ── 1. 取 RSS 並抽出近期文章 ───────────────────────────────────────
-def _fetch_rss_text(url: str) -> str:
-    with httpx.Client(timeout=config.HTTP_TIMEOUT, headers=UA, follow_redirects=True) as c:
+# ── 1. 取 Wix feed 找近期文章（僅 metadata，不含全文）──────────────
+def _fetch_text(url: str, headers: dict) -> str:
+    with httpx.Client(timeout=config.HTTP_TIMEOUT, headers=headers, follow_redirects=True) as c:
         r = c.get(url)
         r.raise_for_status()
         return r.text
 
 
 def _html_to_text(raw: str) -> str:
-    """把 content:encoded 的 HTML 粗略轉純文字：去標籤、還原 entity、壓縮空白。"""
+    """把 HTML 粗略轉純文字：去標籤、還原 entity、壓縮空白。"""
     if not raw:
         return ""
     # 區塊級標籤轉換行，避免段落黏在一起
@@ -68,12 +67,36 @@ def _html_to_text(raw: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", "\n".join(ln for ln in lines if ln)).strip()
 
 
+def _extract_body_text(page_html: str) -> str:
+    """從 Wix 文章頁 HTML 取正文：砍掉 <head>、正文前的導覽列、以及 post-footer
+    之後（統計／推薦文章）。切點都退到該標籤的起始 '<'，避免切在標籤中間留半截。"""
+    page_html = re.sub(r"(?is)<head.*?</head>", "", page_html)
+    # 從文章標題容器開始（砍掉頁首導覽選單）
+    start = page_html.find('data-hook="post-title"')
+    if start > 0:
+        tag = page_html.rfind("<", 0, start)
+        if tag > 0:
+            page_html = page_html[tag:]
+    # 砍掉正文之後（統計／推薦文章／footer）
+    cut = page_html.find('data-hook="post-footer"')
+    if cut > 0:
+        tag = page_html.rfind("<", 0, cut)
+        page_html = page_html[:tag if tag > 0 else cut]
+    return _html_to_text(page_html)
+
+
+def fetch_article_text(url: str) -> str:
+    """抓 uxtigers.com 文章頁全文（Wix server-rendered），用瀏覽器 UA 避免被擋。"""
+    return _extract_body_text(_fetch_text(url, BROWSER_UA))
+
+
 def recent_articles(feed: dict) -> list[dict]:
-    """回傳某 feed 內近 ARTICLE_SHOW_WITHIN_DAYS 天、最多 ARTICLE_MAX_ITEMS 篇文章（新到舊）。"""
+    """回傳某 feed 內近 ARTICLE_SHOW_WITHIN_DAYS 天、最多 ARTICLE_MAX_ITEMS 篇文章
+    的 metadata（新到舊）。全文延到 process_one 快取未命中時才抓，避免白抓。"""
     try:
-        root = ET.fromstring(_fetch_rss_text(feed["rss"]))
+        root = ET.fromstring(_fetch_text(feed["rss"], BROWSER_UA))
     except Exception as e:
-        log(f"[warn] {feed['name']} 取得/解析 RSS 失敗：{e}")
+        log(f"[warn] {feed['name']} 取得/解析 feed 失敗：{e}")
         return []
 
     out = []
@@ -82,8 +105,6 @@ def recent_articles(feed: dict) -> list[dict]:
         link = (item.findtext("link") or "").strip()
         pub_raw = (item.findtext("pubDate") or "").strip()
         guid = (item.findtext("guid") or "").strip() or link
-        enc = item.find(CONTENT_ENCODED)
-        body_html = (enc.text if enc is not None else None) or item.findtext("description") or ""
 
         published_dt, published = None, ""
         try:
@@ -101,7 +122,6 @@ def recent_articles(feed: dict) -> list[dict]:
             "published": published,
             "published_dt": published_dt,
             "author": feed["name"],
-            "text": _html_to_text(body_html),
         })
     out.sort(key=lambda a: a["published_dt"] or datetime.min.replace(tzinfo=TPE), reverse=True)
     return out[:ARTICLE_MAX_ITEMS]
@@ -191,12 +211,17 @@ def process_one(art: dict, state: dict, force: bool) -> dict | None:
         log(f"{art['author']}：{art['title'][:32]} 已在快取 → 重用")
         return state[key]
 
-    if not art["text"]:
+    log(f"新文章：{art['title'][:44]}（{art['published']}）")
+    try:
+        text = fetch_article_text(art["url"])
+    except Exception as e:
+        log(f"[warn] {art['title'][:32]} 抓全文失敗：{e}")
+        return None
+    if not text:
         log(f"[warn] {art['title'][:32]} 全文為空 → 跳過")
         return None
 
-    log(f"新文章：{art['title'][:44]}（{art['published']}）")
-    summary_md = summarize(art["text"], art["title"])
+    summary_md = summarize(text, art["title"])
     if not summary_md:
         log(f"[warn] {art['title'][:32]} 摘要為空 → 跳過")
         return None

@@ -33,6 +33,11 @@ TPE = timezone(timedelta(hours=8))
 # HTTP client knobs.
 USER_AGENT = "Mozilla/5.0 (daily-design-brief)"
 USER_AGENT_PODCAST = "Mozilla/5.0 (daily-design-brief podcast fetcher)"
+# 抓需要「像瀏覽器」的站（如 uxtigers.com 文章頁）時用，避免被基本 bot 過濾擋掉。
+USER_AGENT_BROWSER = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+)
 HTTP_TIMEOUT = 30
 HTTP_TIMEOUT_LONG = 180
 
@@ -105,12 +110,16 @@ PODCAST_SUMMARY_SINGLE_PASS_MAX = 40000
 PODCAST_SUMMARY_CHUNK_CHARS = 12000
 
 # ── UX 好文（Jakob Nielsen — UX Tigers）────────────────────────────
-# 訂閱作者的 RSS，每有新文章就抓「全文」→ Claude 整理成中文重點，渲染在
-# 財經 podcast 區塊下方。選 Substack feed 而非 uxtigers.com（Wix）的原因：
-# Substack 的 content:encoded 帶「整篇全文」（數萬字），Wix feed 只給 ~200 字
-# 摘要，全文才夠 Claude 做有料的中文總結。純文字文章、無音檔 → 不需 Whisper。
+# 每有新文章就抓「全文」→ Claude 整理成中文重點，渲染在財經 podcast 區塊下方。
+# 純文字文章、無音檔 → 不需 Whisper。
+#
+# 來源取捨（實測結論）：作者的文章同時發在 Substack 與 uxtigers.com。
+# Substack 的 feed 帶整篇全文（content:encoded），但**會擋機房 IP（GitHub
+# Actions 回 403）**，只能在住宅 IP 用，不適合 CI。改走 uxtigers.com（Wix）：
+#   - discovery：Wix 的 blog-feed.xml（不擋機房，但 description 僅約 200 字）
+#   - 全文：抓每篇 post 連結的文章頁（Wix server-rendered，含整篇正文）
 ARTICLE_FEEDS = [
-    {"name": "Jakob Nielsen", "rss": "https://jakobnielsenphd.substack.com/feed"},
+    {"name": "Jakob Nielsen", "rss": "https://www.uxtigers.com/blog-feed.xml"},
 ]
 # 只顯示近 N 天內發布的文章（作者約每週兩篇，7 天窗可持續顯示最新一兩篇）。
 ARTICLE_SHOW_WITHIN_DAYS = 7
