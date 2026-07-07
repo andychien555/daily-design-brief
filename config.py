@@ -11,6 +11,7 @@ from datetime import timezone, timedelta
 DATA_FILE = "data.json"
 ARCHIVE_FILE = "archive.json"
 PODCAST_STATE_FILE = "podcast_state.json"
+ARTICLE_STATE_FILE = "article_state.json"
 BRIEFS_DIR = "briefs"
 
 # Claude model used for all curation / summarisation calls.
@@ -102,3 +103,19 @@ PODCAST_AUDIO_SEGMENT_SECONDS = 1500
 # 逐字稿 map-reduce 門檻（字數）。
 PODCAST_SUMMARY_SINGLE_PASS_MAX = 40000
 PODCAST_SUMMARY_CHUNK_CHARS = 12000
+
+# ── UX 好文（Jakob Nielsen — UX Tigers）────────────────────────────
+# 訂閱作者的 RSS，每有新文章就抓「全文」→ Claude 整理成中文重點，渲染在
+# 財經 podcast 區塊下方。選 Substack feed 而非 uxtigers.com（Wix）的原因：
+# Substack 的 content:encoded 帶「整篇全文」（數萬字），Wix feed 只給 ~200 字
+# 摘要，全文才夠 Claude 做有料的中文總結。純文字文章、無音檔 → 不需 Whisper。
+ARTICLE_FEEDS = [
+    {"name": "Jakob Nielsen", "rss": "https://jakobnielsenphd.substack.com/feed"},
+]
+# 只顯示近 N 天內發布的文章（作者約每週兩篇，7 天窗可持續顯示最新一兩篇）。
+ARTICLE_SHOW_WITHIN_DAYS = 7
+# 單次最多處理幾篇（防首跑或補跑時 backlog 一次爆量、狂打 Claude）。
+ARTICLE_MAX_ITEMS = 4
+# 全文 map-reduce 門檻（字數）— 與 podcast 同策略。
+ARTICLE_SUMMARY_SINGLE_PASS_MAX = 40000
+ARTICLE_SUMMARY_CHUNK_CHARS = 12000

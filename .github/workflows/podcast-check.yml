@@ -12,7 +12,12 @@ on:
         options: [evening, all]
         default: evening
   schedule:
-    - cron: "0 14 * * *"   # 台北 22:00 (UTC 14:00)
+    # 早晨補抓：財經皓角「早晨財經速解讀」約 09:07 才上架，晚於 daily.yml 主觸發
+    # （台北 08:00）→ 早報一開始只有前一天那集。這次在上架後重抓，把 podcast 區塊
+    # 換成當天的（不定時節目如股癌也一併重抓；morning_only 的 M觀點沿用早上的）。
+    # 排 09:45 是為了穩定落在最晚 09:16 上架之後（GitHub 排程只會延後、不會提前）。
+    - cron: "45 1 * * *"    # 台北 09:45 (UTC 01:45)
+    - cron: "0 14 * * *"    # 台北 22:00 (UTC 14:00)
 
 permissions:
   contents: write

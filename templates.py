@@ -280,6 +280,41 @@ def briefing_section(brief: dict) -> str:
 """
 
 
+def article_section(brief: dict) -> str:
+    """UX 好文重點 — 沿用 podcast 的 .yt-brief 可收合結構，渲染在財經區塊下方。"""
+    if not brief or not brief.get("summary_md"):
+        return ""
+    title = esc(brief.get("title", ""))
+    url = brief.get("url", "") or "https://www.uxtigers.com/"
+    author = esc(brief.get("author", ""))
+    published = esc(brief.get("published", ""))
+    body = md_to_html(brief.get("summary_md", ""))
+
+    meta_bits = []
+    if author:
+        meta_bits.append(f'<span class="yt-channel">{author}</span>')
+    if published:
+        meta_bits.append(f'<span class="yt-date">{published}</span>')
+    meta_bits.append('<span class="chip yt-source">全文摘要 · Claude</span>')
+    meta_html = " ".join(meta_bits)
+
+    return f"""
+<details class="yt-brief" aria-label="UX 好文重點">
+  <summary class="yt-summary">
+    <span class="yt-toggle" aria-hidden="true">▸</span>
+    <div class="yt-head">
+      <div class="yt-kicker">📖 UX 好文 / Reading</div>
+      <h2 class="yt-title"><a href="{url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{title} <span class="yt-arrow" aria-hidden="true">↗</span></a></h2>
+      <div class="yt-meta">{meta_html}</div>
+      <span class="yt-expand-hint">點開閱讀重點 ▾</span>
+    </div>
+  </summary>
+  <div class="yt-body">{body}</div>
+  <div class="yt-foot"><a href="{url}" target="_blank" rel="noopener">▶ 閱讀原文</a></div>
+</details>
+"""
+
+
 def empty_state() -> str:
     return """
     <section class="empty">
