@@ -1,60 +1,21 @@
 {
-  "date": "2026-07-06",
-  "date_display": "2026 年 07 月 06 日",
-  "generated_at": "2026-07-06T08:56:05.933881+08:00",
-  "since_date": "2026-07-04",
+  "date": "2026-07-07",
+  "date_display": "2026 年 07 月 07 日",
+  "generated_at": "2026-07-07T08:55:52.134250+08:00",
+  "since_date": "2026-07-05",
   "top_tweets": [
     {
-      "id": "2073747915848475093",
-      "text": "Galaxy Fam 👋\n\nWhat if One UI adopted a frosted glass design? 👀\n\nI've been working on a few concepts and personally think it gives One UI a much more modern and premium look.\n\nWould you like Samsung to explore this design language? 👇\n\nI need your support by commenting on this https://t.co/hHgohFvYlB",
-      "author": "tarunvats33",
-      "name": "Tarun Vats",
-      "likes": 539,
-      "retweets": 23,
-      "replies": 92,
-      "created": "Sun Jul 05 12:36:46 +0000 2026",
-      "url": "https://x.com/tarunvats33/status/2073747915848475093",
+      "id": "2074158309452456016",
+      "text": "$HOOD\n\nROBINHOOD CEO VLAD TENEV:\n\n\"We're very focused on making sure that everyone hears about Trump Accounts and encouraging people to tell their friends and loved ones that these accounts are there.\"\n\nWhether or not you support the Trump adminstration, if you care about capital https://t.co/QhrfGET7p6",
+      "author": "amitisinvesting",
+      "name": "amit",
+      "likes": 1191,
+      "retweets": 80,
+      "replies": 96,
+      "created": "Mon Jul 06 15:47:31 +0000 2026",
+      "url": "https://x.com/amitisinvesting/status/2074158309452456016",
       "source": "Design",
-      "summary_zh": "設計師提出為 Samsung One UI 採用毛玻璃設計語言的概念，認為這能讓介面更現代與高級。展示了 UI 設計趨勢如何影響使用者對產品質感的感知。"
-    },
-    {
-      "id": "2073764885096284640",
-      "text": "here's Portland's new terminal and Xi'an's railway station side by side. the wood and light is welcoming. the futurist design feels hostile https://t.co/2alfNeIq0r",
-      "author": "quorumcaller",
-      "name": "quorumcall",
-      "likes": 1959,
-      "retweets": 70,
-      "replies": 54,
-      "created": "Sun Jul 05 13:44:11 +0000 2026",
-      "url": "https://x.com/quorumcaller/status/2073764885096284640",
-      "source": "Design",
-      "summary_zh": "將波特蘭新航廈的木質溫暖設計與西安車站的未來主義風格並列比較，指出前者親切、後者疏離。提醒設計師材質與風格如何影響空間的情感氛圍。"
-    },
-    {
-      "id": "2073843242194325859",
-      "text": "no disrespect but this is mediocre. 0 artistic vision, 0 game design knowledge, 0 sauce. removing automation isn't good if you can't understand why it's there in the first place. the level design is barely changed to accommodate the lack of automation, so the levels feel lifeless",
-      "author": "sonicbuni",
-      "name": "maurice",
-      "likes": 540,
-      "retweets": 54,
-      "replies": 18,
-      "created": "Sun Jul 05 18:55:33 +0000 2026",
-      "url": "https://x.com/sonicbuni/status/2073843242194325859",
-      "source": "Design",
-      "summary_zh": "批評某款遊戲移除自動化功能卻未調整關卡設計，導致體驗空洞。強調產品設計中「理解功能存在原因」比單純移除功能更重要，需要整體思考。"
-    },
-    {
-      "id": "2073799063431242092",
-      "text": "The bee hotel from the garden center probably isn't actually helping bees. It might even be hurting them. But a well-designed one actually can work.\n\nScott MacIvor, a researcher at the University of Toronto, set up 200 bee hotels across the city and monitored them for three https://t.co/wPQtIPr5E7",
-      "author": "giveashitnature",
-      "name": "Give A Shit About Nature",
-      "likes": 629,
-      "retweets": 148,
-      "replies": 12,
-      "created": "Sun Jul 05 16:00:00 +0000 2026",
-      "url": "https://x.com/giveashitnature/status/2073799063431242092",
-      "source": "Design",
-      "summary_zh": "多倫多大學研究發現，市售蜜蜂旅館設計不當可能傷害蜜蜂，但精心設計的確實有效。提醒產品設計需基於實證研究，而非僅滿足表面需求或行銷目的。"
+      "summary_zh": "Robinhood CEO 表示正積極推廣 Trump Accounts 功能，強調無論政治立場，這對關注資本市場的人都值得注意。討論串顯示此舉在產品策略與政治立場之間引發爭議。"
     }
   ],
   "criteria": {
@@ -137,18 +98,72 @@
   },
   "top_products": [
     {
-      "title": "CircleChat",
-      "url": "https://www.producthunt.com/products/circlechat",
-      "published": "2026-07-04T09:05:42-07:00",
-      "author": "Tash Ahmed",
-      "tagline": "Give your AI agents a slack, a task board, and a boss",
-      "post_id": "1187923",
-      "summary_zh": "為 AI agents 提供類似 Slack 的協作空間、任務看板與管理機制，讓多個 AI 代理能協同工作並接受統一調度。",
-      "image_url": "https://ph-files.imgix.net/66384c6d-eda3-40f8-9c55-a08c06cdaf86.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c808aa54-b312-4f7a-8d1c-bb1eb01f6c79.webp?auto=format&w=960&h=540&fit=crop"
+      "title": "Astryx",
+      "url": "https://www.producthunt.com/products/meta",
+      "published": "2026-07-05T20:52:49-07:00",
+      "author": "Zac Zuo",
+      "tagline": "A customizable, agent-ready open-source design system",
+      "post_id": "1188925",
+      "summary_zh": "一套可客製化、支援 AI agent 整合的開源設計系統，適合開發團隊建立一致的介面規範。",
+      "image_url": "https://ph-files.imgix.net/be95212c-b868-4f94-8713-8b8035b11c9d.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/46b84a02-71bf-40ef-bc55-5f8b18dbc04f.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Mozaik",
+      "url": "https://www.producthunt.com/products/mozaik-4",
+      "published": "2026-07-05T05:31:38-07:00",
+      "author": "Miodrag Vilotijević",
+      "tagline": "TypeScript runtime for self-organizing AI agents",
+      "post_id": "1188511",
+      "summary_zh": "基於 TypeScript 的執行環境，讓 AI agents 能夠自主組織協作，適合開發複雜的多 agent 應用。",
+      "image_url": "https://ph-files.imgix.net/6738738b-337f-4d1c-a781-0ee60b37e853.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/53302f34-f71b-4d1f-9b11-069125c2cee8.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Stanley Studio",
+      "url": "https://www.producthunt.com/products/stanley-studio",
+      "published": "2026-07-05T20:37:29-07:00",
+      "author": "Daniel Park",
+      "tagline": "The AI video editor you hire that edits like a human",
+      "post_id": "1188912",
+      "summary_zh": "模擬人類編輯思維的 AI 影片編輯工具，協助創作者自動完成影片剪輯工作。",
+      "image_url": "https://ph-files.imgix.net/ddecb817-f367-4d99-9c0a-eb80e0748b4f.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/55d0950d-24a8-499a-a6fd-6d516565e2e3.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "CodeMote",
+      "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
+      "published": "2026-07-05T06:39:06-07:00",
+      "author": "Salvatore Castellitti",
+      "tagline": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
+      "post_id": "1188554",
+      "summary_zh": "讓使用者透過 iPhone 遠端操控 Claude Code、Codex 等命令列 AI agent 的工具。",
+      "image_url": "https://ph-files.imgix.net/76bbea19-6575-48c5-b232-239aa4863547.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/09cc5dd7-f1cf-475a-a464-47758d3811f9.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Nixmac",
+      "url": "https://www.producthunt.com/products/nixmac",
+      "published": "2026-07-05T06:33:34-07:00",
+      "author": "Cooper Maruyama",
+      "tagline": "Nix-darwin that speaks plain English",
+      "post_id": "1188550",
+      "summary_zh": "將 Nix-darwin 套件管理系統轉化為易懂語言介面的工具，降低 macOS 開發環境配置門檻。",
+      "image_url": "https://ph-files.imgix.net/e4a4eccb-301c-476c-9c1d-0b2b5cff53fa.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/19b8a295-9e11-4af2-96de-b3d94aa22959.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "podcast_briefs": [
+    {
+      "episode_id": "3ef5-76e1-4c4c-b2bf-ce6a2a6332a9",
+      "title": "EP317. 特斯拉第二季大賣 + 企業 AI 論戰延燒 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/5c3f3ef5-76e1-4c4c-b2bf-ce6a2a6332a9",
+      "published": "2026-07-06",
+      "channel": "M觀點",
+      "transcript_source": "Podcast 音檔 · Whisper",
+      "summary_md": "## 一句話總結\n特斯拉第二季交車量創歷史新高達 48 萬台超越市場預期，但主講人認為投資人更關注 FSD、RoboTaxi 與 Optimus；企業 AI 論戰中，Palantir 路線已獲微軟、橋水基金與 Thinking Machine 合作案例證明正確，企業應將核心能力保留在自有平台而非依賴外部模型。\n\n## 1. 特斯拉第二季交車數：史上最強 Q2 成績\n- **交車量大幅超越預期：** Q2 交車 48 萬台（年增 25%、季增 34%），遠高於華爾街共識的 40.6 萬台，超出 18%；生產 45.2 萬台（年增 10%、季增 12%）。\n- **歐洲市場強勁復甦：** 今年 1–5 月歐洲銷量年增 57%，法國翻倍成長、瑞典成長 56%；主講人推測與油價上漲、馬斯克與川普拉開距離、低價 Model 3 與 Model Y L（七人座）推出有關。\n- **中國市場穩健：** Model Y 仍是中國電動車單一車款銷量冠軍；主講人認為福特 CEO 宣稱「全世界電動車打不贏中國」說法荒謬。\n- **能源業務回升：** Q2 部署 13.5 GWh 儲能裝置容量（年增 41%），主講人預估未來 3–5 年能穩定維持 20%–30% 年化成長率。\n\n## 2. 特斯拉未來焦點：FSD、RoboTaxi 與 Optimus\n- **FSD 採用率成為關鍵指標：** 主講人認為 Q2 財報（7 月下旬公布）最重要數據是 FSD 北美採用率，期望達到 70%–80%；FSD V14 Lite 已對 HW 3.0 舊車推出，在歐洲通過荷蘭監管並開放台灣測試。\n- **RoboTaxi 大規模部署期待：** 德州超級工廠已停放超過 100 台 CyberCab，但尚未大量投入營運；主講人預期 7 月若單日新增 100 台 RoboTaxi，特斯拉股價可能大漲 10%。\n- **Optimus 量產在即：** 據傳 7 月開始量產人形機器人（初期月產數十至上百台），可能很快舉辦發表會；All-In Podcast 主持人 Jason Calacanis 稱親見 Optimus 表現遠勝 Figure AI 機器人。\n- **汽車業務重要性下降：** 主講人直言投資人已不太關注交車數，現在持有特斯拉股票者主要看好 FSD/RoboTaxi、Optimus 或為馬斯克粉絲。\n\n## 3. 企業 AI 論戰：Palantir 路線獲驗證\n- **Palantir 主張企業端 Ontology：** 認為企業應在自有平台建立資料關聯與決策邏輯（Ontology），再靈活搭配不同模型（OpenAI、Anthropic、開源模型），避免核心能力被模型公司掌握。\n- **OpenAI 與 Anthropic 反向抄襲：** 兩家 Frontier AI 實驗室都開始成立 Deployment Company，試圖複製 Palantier 模式進入企業市場；主講人認為這反而證明 Palantir 路線正確，但後者僅能學到九成且缺乏平台 know-how。\n- **模型中立性成競爭優勢：** Palantir 可根據任務選用最適模型（包括開源），OpenAI/Anthropic 部署公司則必須主推自家模型、難以使用其他選項，成本優勢會被靈活性劣勢抵消。\n\n## 4. 微軟入局證明平台路線：Microsoft Frontier Company\n- **微軟推出企業 AI 部署事業：** 投入 25 億美元與 6,000 名工程師成立 Microsoft Frontier Company，協助財富 500 強企業進行 AI 轉型。\n- **客戶信任成最大資產：** 主講人認為微軟平台實力可能只有 Palantir 的 80 分（OpenAI/Anthropic 約 90 分），但憑藉長期 IT 合作關係與客戶信任，仍能成功推動服務。\n- **納德拉呼應 Palantir 論述：** 微軟 CEO 近期長文強調「企業不應將 IP、產業 know-how 交給外部模型訓練」，主張建立企業端平台（Microsoft IQ，類似 Ontology）保護核心資料。\n\n## 5. 橋水與 Thinking Machine 實證：開源模型後訓練打敗前沿模型\n- **合作成果：** 橋水基金與前 OpenAI CTO Mira Murati 創立的 Thinking Machine 合作，用阿里巴巴開源模型 Qwen 3（235B 參數）經 Fine-tuning 與 Post-training 後，準確率從前沿模型的 70% 提升至 84.7%，推理成本下降 13.8 倍。\n- **專家品味無法被前沿模型取代：** 橋水 AIA Labs 表示，金融專家在複雜任務（如報告重點排序）的正確率達 90%，但前沿模型僅 45%–50%、即使專家級 Prompting 也只達 70%；Post-training 需要產業專家提供高品質人類標記與反饋。\n- **驗證企業專屬模型路線：** 證明企業可用開源模型加上自有專業資料，在特定領域達成比前沿模型更好的效果與更低成本，且不必擔心資料外洩。\n\n## 6. 市場格局：多方共存而非零和競爭\n- **各家優勢並存：** Palantir 擁有平台與 Ontology 優勢、微軟掌握企業信任、OpenAI/Anthropic 具備模型能力，主講人類比 AWS（Palantir）、Azure（微軟）與 Google Cloud（OpenAI/Anthropic），認為市場夠大、各方都能成長。\n- **Palantir 與 NVIDIA 合作前景：** 主講人認為 Palantir 可用 NVIDIA Nemotron 開源模型為企業打造專屬模型，20%–30% 高機密任務部署在私有雲（如 NVL72 機櫃），表現不輸前沿模型且成本更低、資料更安全。\n- **Alex Karp 風格非危機反應：** 主講人強調 Palantir CEO 的重砲批評並非因公司面臨威脅，而是他一貫的「哲學家」風格，習慣任性而為地表達觀點。\n\n## 結論與後市展望\n主講人認為特斯拉汽車業務重要性已下降，未來股價將由 FSD 採用率、RoboTaxi 部署規模與 Optimus 量產決定；企業 AI 市場中，Palantir「企業端 Ontology + 靈活配模型」路線已獲微軟、橋水與 Thinking Machine 案例驗證，OpenAI/Anthropic 反向抄襲反而證明其正確性。主講人預期市場格局將類似雲端三巨頭（AWS、Azure、Google Cloud）共存，各方憑藉平台能力、客戶信任或模型優勢分食擴大的市場，Palantir 並無生存危機。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-07-07"
+    },
     {
       "episode_id": "2353701455",
       "title": "2026/7/6(一)Token成本下行 AI投資出警訊?股價重挫 記憶體見頂?【早晨財經速解讀】",
