@@ -1,23 +1,9 @@
 {
   "date": "2026-07-07",
   "date_display": "2026 年 07 月 07 日",
-  "generated_at": "2026-07-07T08:55:52.134250+08:00",
+  "generated_at": "2026-07-07T13:24:36.277288+08:00",
   "since_date": "2026-07-05",
-  "top_tweets": [
-    {
-      "id": "2074158309452456016",
-      "text": "$HOOD\n\nROBINHOOD CEO VLAD TENEV:\n\n\"We're very focused on making sure that everyone hears about Trump Accounts and encouraging people to tell their friends and loved ones that these accounts are there.\"\n\nWhether or not you support the Trump adminstration, if you care about capital https://t.co/QhrfGET7p6",
-      "author": "amitisinvesting",
-      "name": "amit",
-      "likes": 1191,
-      "retweets": 80,
-      "replies": 96,
-      "created": "Mon Jul 06 15:47:31 +0000 2026",
-      "url": "https://x.com/amitisinvesting/status/2074158309452456016",
-      "source": "Design",
-      "summary_zh": "Robinhood CEO 表示正積極推廣 Trump Accounts 功能，強調無論政治立場，這對關注資本市場的人都值得注意。討論串顯示此舉在產品策略與政治立場之間引發爭議。"
-    }
-  ],
+  "top_tweets": [],
   "criteria": {
     "keyword_pools": [
       {
@@ -98,13 +84,24 @@
   },
   "top_products": [
     {
+      "title": "CodeMote",
+      "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
+      "published": "2026-07-05T06:39:06-07:00",
+      "author": "Salvatore Castellitti",
+      "tagline": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
+      "post_id": "1188554",
+      "summary_zh": "讓你從 iPhone 遠端控制 Claude Code、Codex 等命令列 AI 代理工具的應用程式。",
+      "image_url": "https://ph-files.imgix.net/76bbea19-6575-48c5-b232-239aa4863547.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/09cc5dd7-f1cf-475a-a464-47758d3811f9.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
       "title": "Astryx",
       "url": "https://www.producthunt.com/products/meta",
       "published": "2026-07-05T20:52:49-07:00",
       "author": "Zac Zuo",
       "tagline": "A customizable, agent-ready open-source design system",
       "post_id": "1188925",
-      "summary_zh": "一套可客製化、支援 AI agent 整合的開源設計系統，適合開發團隊建立一致的介面規範。",
+      "summary_zh": "一套可客製化的開源設計系統，專為 AI 代理應用場景設計，方便開發者整合使用。",
       "image_url": "https://ph-files.imgix.net/be95212c-b868-4f94-8713-8b8035b11c9d.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/46b84a02-71bf-40ef-bc55-5f8b18dbc04f.png?auto=format&w=960&h=540&fit=crop"
     },
@@ -115,7 +112,7 @@
       "author": "Miodrag Vilotijević",
       "tagline": "TypeScript runtime for self-organizing AI agents",
       "post_id": "1188511",
-      "summary_zh": "基於 TypeScript 的執行環境，讓 AI agents 能夠自主組織協作，適合開發複雜的多 agent 應用。",
+      "summary_zh": "基於 TypeScript 的執行環境，用於建構能自主協作組織的 AI 代理系統。",
       "image_url": "https://ph-files.imgix.net/6738738b-337f-4d1c-a781-0ee60b37e853.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/53302f34-f71b-4d1f-9b11-069125c2cee8.png?auto=format&w=960&h=540&fit=crop"
     },
@@ -126,20 +123,9 @@
       "author": "Daniel Park",
       "tagline": "The AI video editor you hire that edits like a human",
       "post_id": "1188912",
-      "summary_zh": "模擬人類編輯思維的 AI 影片編輯工具，協助創作者自動完成影片剪輯工作。",
+      "summary_zh": "使用 AI 技術進行影片剪輯的工具，模擬人類剪輯師的編輯思維與風格。",
       "image_url": "https://ph-files.imgix.net/ddecb817-f367-4d99-9c0a-eb80e0748b4f.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/55d0950d-24a8-499a-a6fd-6d516565e2e3.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "CodeMote",
-      "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
-      "published": "2026-07-05T06:39:06-07:00",
-      "author": "Salvatore Castellitti",
-      "tagline": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
-      "post_id": "1188554",
-      "summary_zh": "讓使用者透過 iPhone 遠端操控 Claude Code、Codex 等命令列 AI agent 的工具。",
-      "image_url": "https://ph-files.imgix.net/76bbea19-6575-48c5-b232-239aa4863547.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/09cc5dd7-f1cf-475a-a464-47758d3811f9.png?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Nixmac",
@@ -148,12 +134,22 @@
       "author": "Cooper Maruyama",
       "tagline": "Nix-darwin that speaks plain English",
       "post_id": "1188550",
-      "summary_zh": "將 Nix-darwin 套件管理系統轉化為易懂語言介面的工具，降低 macOS 開發環境配置門檻。",
+      "summary_zh": "讓 nix-darwin 套件管理系統支援自然語言操作的工具，降低 Mac 使用者的學習門檻。",
       "image_url": "https://ph-files.imgix.net/e4a4eccb-301c-476c-9c1d-0b2b5cff53fa.svg?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/19b8a295-9e11-4af2-96de-b3d94aa22959.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "podcast_briefs": [
+    {
+      "episode_id": "2354428853",
+      "title": "2026/7/7(二)道瓊再創高 散戶歸隊?大賣空貝瑞狙擊美光 修正來了嗎?【早晨財經速解讀】",
+      "url": "https://soundcloud.com/l9j0totnyhgh/2026-7-7",
+      "published": "2026-07-07",
+      "channel": "游庭皓的財經皓角",
+      "transcript_source": "Podcast 音檔 · Whisper",
+      "summary_md": "## 一句話總結\n主講人認為美股市場正從「七巨頭獨大」轉向「AI半導體供應鏈輪動」，但Michael Burry放空美光顯示估值與槓桿型ETF已成短期風險，而台韓靠產業突破創高、日股靠貨幣寬鬆的邏輯截然不同。\n\n## 1. 美股資金輪動：七巨頭讓位給半導體供應鏈\n- **領導力量正在轉移：** 自5月中旬起七巨頭持續落後大盤，但標普500維持高檔震盪，成長股vs.價值股、大型股vs.小型股等傳統關係出現反轉。\n- **半導體貢獻驚人：** 美光單一公司貢獻標普500今年上半年8%漲幅中的1.4個百分點（約六分之一）；加上Synopsys與Cadence三家記憶體公司已占標普500漲幅四分之一。\n- **資金分流邏輯：** 主動型基金在七巨頭已累積可觀獲利，選擇部分轉向美光、AMD等AI供應鏈；另有資金因利率前景不明，從長天期成長股轉向現金流較快實現的半導體股。\n\n## 2. Michael Burry放空美光：估值與槓桿ETF風險警訊\n- **歷史性高估值與乖離：** Burry已建立美光放空部位，認為股價相對200日均線乖離幅度達1984年以來最高（超越網路泡沫時期）；強調美光42年來出現過34次跌幅超過30%的修正，中位數投資資本報酬率僅4%、股東權益報酬率7%。\n- **HBM非產業本質改變：** 主講人引述Burry觀點認為HBM雖是新產品，但只是記憶體世代交換的一環，無法改變產業景氣循環本質；選擇權價格過高故直接放空現股。\n- **槓桿型ETF放大波動：** 美國槓桿型ETF管理資產規模（AUM）6月底再平衡資金流向從4月以來首度轉正，但這類產品必須依市場漲跌調整部位，上漲時加碼買進、下跌時被迫賣出，放大市場震盪幅度。\n\n## 3. AI投資狂潮與泡沫警訊：國際清算銀行示警\n- **資本支出暴增：** 國際清算銀行（BIS）預估2025–2026年五大雲端業者將投入超過1兆美元資本支出；七巨頭今年EPS成長25%，但資本支出增速達90%，遠超獲利增速。\n- **現金流壓力：** BIS警告若獲利無法支撐龐大投資，資金可能迅速撤離；預估2029年以前現金流就會用盡，若無法獲得更多融資，代表2029年前生產力必須大爆發。\n- **歷史泡沫對比：** BIS比較1830年運河熱潮、1840年英國鐵路、1990年網路泡沫，指出當前三年資金流入量已放大至景氣低點前的4.5倍，增速超越歷史所有技術革命。\n\n## 4. 韓國股市：SK海力士與杠桿ETF雙面刃\n- **記憶體股暴漲與回檔：** SK海力士過去18個月股價漲16倍，預估2026年營收達355兆韓元（年增265%）、淨利221兆韓元（年增415%）；但近期韓股已回撤至季線，上方賣壓沉重。\n- **槓桿ETF反噬現貨：** 大量資金透過正二倍槓桿ETF持有SK海力士與三星，這些產品每天收盤前須重新調整部位以維持固定槓桿倍數，已被韓國主管機關證實反過來影響現貨股價當日波動。\n- **24小時交易與制度改革：** 韓元自7月起進入24小時交易制度、推出每小時基準價格、放寬外資參與規定，2027年將開放境外現貨韓元交易；SK海力士本周在那斯達克掛牌290億美元ADR搶AI資金。\n\n## 5. 台股：ETF與散戶推升的「另類繁榮」\n- **資金流入驚人：** 今年以來台股基金規模成長超過80%、主動型ETF暴增300%，目前已有8家投信資產規模破兆；0050規模從五年前1,769億元暴增至目前1.9兆元（近10倍）。\n- **散戶參與度提升：** 主講人舉蕭煌奇為例，憑每日收聽財經新聞與語音讀報軟體看盤，從奇鴻（AI散熱股）獲利千萬元；顯示本業收入增長與外匯收入增加帶動投資誘因。\n- **鴻海營收結構轉變：** 鴻海Q2營收2.5兆台幣（年增40%），雲端與伺服器產品占比已達50%、消費性電子降至近30%；過去五年美國AI相關電腦產品進口來源重組，台灣與墨西哥（多為台商）幾乎吃下全美AI伺服器訂單。\n\n## 6. 日股創高的困境：貨幣寬鬆非萬靈丹\n- **東證指數創歷史新高：** 昨日東證指數收漲0.92%創新高，但日經指數受半導體與電子股賣壓一度衝上7萬點後回落；資金流向日本實業股與公司治理改革標的。\n- **日圓貶值雙面刃：** 日圓持續貶值雖助漲豐田等大型出口企業獲利，但2026年上半年已有45家企業因日圓疲軟而倒閉（年增超過30%，2022年以來最高）；依賴進口原料的中小企業面臨成本飆升與工資上漲壓力。\n- **阿Q精神警訊：** 前日銀行長黑田東彥撰文提醒，貨幣寬鬆與財政刺激只能爭取時間、無法取代產業改革；主講人強調日股創高與台韓邏輯不同（台韓靠單點產業突破、日股靠印鈔），長期競爭力仍需企業創新與技術突破。\n\n## 結論與後市展望\n主講人認為美股、台韓、日股各有不同驅動邏輯：台韓靠AI半導體產業突破直接拉升指數，美股正經歷從七巨頭到供應鏈的資金輪動，日股創高則依賴貨幣寬鬆與財政刺激、但缺乏產業基礎。Burry放空美光與BIS警告顯示估值、槓桿ETF與AI資本支出回報均存在短期風險；真正的投資勝利來自「尊重歷史、善用歷史、走出這個時代自己的投資道路」，並對風險保持敬畏——「穩穩賺時間長、馬上賺風險大、馬上瘋猝死快」。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-07-07"
+    },
     {
       "episode_id": "3ef5-76e1-4c4c-b2bf-ce6a2a6332a9",
       "title": "EP317. 特斯拉第二季大賣 + 企業 AI 論戰延燒 | M觀點",
@@ -163,16 +159,7 @@
       "transcript_source": "Podcast 音檔 · Whisper",
       "summary_md": "## 一句話總結\n特斯拉第二季交車量創歷史新高達 48 萬台超越市場預期，但主講人認為投資人更關注 FSD、RoboTaxi 與 Optimus；企業 AI 論戰中，Palantir 路線已獲微軟、橋水基金與 Thinking Machine 合作案例證明正確，企業應將核心能力保留在自有平台而非依賴外部模型。\n\n## 1. 特斯拉第二季交車數：史上最強 Q2 成績\n- **交車量大幅超越預期：** Q2 交車 48 萬台（年增 25%、季增 34%），遠高於華爾街共識的 40.6 萬台，超出 18%；生產 45.2 萬台（年增 10%、季增 12%）。\n- **歐洲市場強勁復甦：** 今年 1–5 月歐洲銷量年增 57%，法國翻倍成長、瑞典成長 56%；主講人推測與油價上漲、馬斯克與川普拉開距離、低價 Model 3 與 Model Y L（七人座）推出有關。\n- **中國市場穩健：** Model Y 仍是中國電動車單一車款銷量冠軍；主講人認為福特 CEO 宣稱「全世界電動車打不贏中國」說法荒謬。\n- **能源業務回升：** Q2 部署 13.5 GWh 儲能裝置容量（年增 41%），主講人預估未來 3–5 年能穩定維持 20%–30% 年化成長率。\n\n## 2. 特斯拉未來焦點：FSD、RoboTaxi 與 Optimus\n- **FSD 採用率成為關鍵指標：** 主講人認為 Q2 財報（7 月下旬公布）最重要數據是 FSD 北美採用率，期望達到 70%–80%；FSD V14 Lite 已對 HW 3.0 舊車推出，在歐洲通過荷蘭監管並開放台灣測試。\n- **RoboTaxi 大規模部署期待：** 德州超級工廠已停放超過 100 台 CyberCab，但尚未大量投入營運；主講人預期 7 月若單日新增 100 台 RoboTaxi，特斯拉股價可能大漲 10%。\n- **Optimus 量產在即：** 據傳 7 月開始量產人形機器人（初期月產數十至上百台），可能很快舉辦發表會；All-In Podcast 主持人 Jason Calacanis 稱親見 Optimus 表現遠勝 Figure AI 機器人。\n- **汽車業務重要性下降：** 主講人直言投資人已不太關注交車數，現在持有特斯拉股票者主要看好 FSD/RoboTaxi、Optimus 或為馬斯克粉絲。\n\n## 3. 企業 AI 論戰：Palantir 路線獲驗證\n- **Palantir 主張企業端 Ontology：** 認為企業應在自有平台建立資料關聯與決策邏輯（Ontology），再靈活搭配不同模型（OpenAI、Anthropic、開源模型），避免核心能力被模型公司掌握。\n- **OpenAI 與 Anthropic 反向抄襲：** 兩家 Frontier AI 實驗室都開始成立 Deployment Company，試圖複製 Palantier 模式進入企業市場；主講人認為這反而證明 Palantir 路線正確，但後者僅能學到九成且缺乏平台 know-how。\n- **模型中立性成競爭優勢：** Palantir 可根據任務選用最適模型（包括開源），OpenAI/Anthropic 部署公司則必須主推自家模型、難以使用其他選項，成本優勢會被靈活性劣勢抵消。\n\n## 4. 微軟入局證明平台路線：Microsoft Frontier Company\n- **微軟推出企業 AI 部署事業：** 投入 25 億美元與 6,000 名工程師成立 Microsoft Frontier Company，協助財富 500 強企業進行 AI 轉型。\n- **客戶信任成最大資產：** 主講人認為微軟平台實力可能只有 Palantir 的 80 分（OpenAI/Anthropic 約 90 分），但憑藉長期 IT 合作關係與客戶信任，仍能成功推動服務。\n- **納德拉呼應 Palantir 論述：** 微軟 CEO 近期長文強調「企業不應將 IP、產業 know-how 交給外部模型訓練」，主張建立企業端平台（Microsoft IQ，類似 Ontology）保護核心資料。\n\n## 5. 橋水與 Thinking Machine 實證：開源模型後訓練打敗前沿模型\n- **合作成果：** 橋水基金與前 OpenAI CTO Mira Murati 創立的 Thinking Machine 合作，用阿里巴巴開源模型 Qwen 3（235B 參數）經 Fine-tuning 與 Post-training 後，準確率從前沿模型的 70% 提升至 84.7%，推理成本下降 13.8 倍。\n- **專家品味無法被前沿模型取代：** 橋水 AIA Labs 表示，金融專家在複雜任務（如報告重點排序）的正確率達 90%，但前沿模型僅 45%–50%、即使專家級 Prompting 也只達 70%；Post-training 需要產業專家提供高品質人類標記與反饋。\n- **驗證企業專屬模型路線：** 證明企業可用開源模型加上自有專業資料，在特定領域達成比前沿模型更好的效果與更低成本，且不必擔心資料外洩。\n\n## 6. 市場格局：多方共存而非零和競爭\n- **各家優勢並存：** Palantir 擁有平台與 Ontology 優勢、微軟掌握企業信任、OpenAI/Anthropic 具備模型能力，主講人類比 AWS（Palantir）、Azure（微軟）與 Google Cloud（OpenAI/Anthropic），認為市場夠大、各方都能成長。\n- **Palantir 與 NVIDIA 合作前景：** 主講人認為 Palantir 可用 NVIDIA Nemotron 開源模型為企業打造專屬模型，20%–30% 高機密任務部署在私有雲（如 NVL72 機櫃），表現不輸前沿模型且成本更低、資料更安全。\n- **Alex Karp 風格非危機反應：** 主講人強調 Palantir CEO 的重砲批評並非因公司面臨威脅，而是他一貫的「哲學家」風格，習慣任性而為地表達觀點。\n\n## 結論與後市展望\n主講人認為特斯拉汽車業務重要性已下降，未來股價將由 FSD 採用率、RoboTaxi 部署規模與 Optimus 量產決定；企業 AI 市場中，Palantir「企業端 Ontology + 靈活配模型」路線已獲微軟、橋水與 Thinking Machine 案例驗證，OpenAI/Anthropic 反向抄襲反而證明其正確性。主講人預期市場格局將類似雲端三巨頭（AWS、Azure、Google Cloud）共存，各方憑藉平台能力、客戶信任或模型優勢分食擴大的市場，Palantir 並無生存危機。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
       "first_shown": "2026-07-07"
-    },
-    {
-      "episode_id": "2353701455",
-      "title": "2026/7/6(一)Token成本下行 AI投資出警訊?股價重挫 記憶體見頂?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-7-6-token-ai",
-      "published": "2026-07-06",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為記憶體股價重挫主因是高乖離後的獲利了結，三大利空（Meta砍單、長江存儲打入蘋果、韓國擴產）皆缺乏實質證據；油價與AI Token成本雙雙下滑，有望緩解通膨壓力，真正利空只有「算力過剩」那一天。\n\n## 1. 記憶體股價重挫與三大「偽利空」分析\n- **高乖離後正常回調：** 費半今年4月以來漲近100%，從高點回檔15%屬正常波動；6月形成第一波套牢量，但長期投資人獲利仍豐厚。\n- **Meta砍單傳言不實：** 美銀走訪晶片廠商後確認Meta在HBM與ESSD的長期訂單持續增長；開放數據中心出租是產能輪替與股東溝通策略，非產能過剩。\n- **長江存儲打入蘋果供應鏈影響有限：** 受美國半導體出口管制、良率未達標準、韓美廠商智財權護城河三大門檻限制；主講人認為蘋果更像是拿長江存儲作談判籌碼壓低三星與SK海力士報價。\n- **韓國800兆韓元投資計畫時程遙遠：** 該計畫產能要到2028年才落地，本年度至明年度不會出現週期見頂；主講人強調真正利空只有「AI資料中心決定不投錢」或「算力過剩」。\n\n## 2. 油價回跌與能源通膨緩解進度\n- **布蘭特原油從高點腰斬：** 跌幅約44%，已回到3月戰前水準；荷姆茲海峽恢復通行，OPEC再增產18.8萬桶（全球需求1%），累計增產94萬桶。\n- **期貨與現貨價格傳導緩慢：** 7月初美國平均汽油價格每加侖3.8美元，較疫情前高約1美元，為史上第三昂貴國慶假期加油成本（僅次於2008與2022年）。\n- **電價與僵固性通膨壓力仍在：** 美國今年電價平均上漲5–6%超過通膨；北美熱浪襲擊，紐約市氣溫攝氏38度，即時電價突破每兆瓦1,100美元，6,700萬人供電系統負載創歷史記錄。\n- **烤肉食材成本大漲：** 7月4日烤肉指數顯示四人份食材平均81美元，年增12%、五年累計漲40%；牛群數量創7年新低，牛排疫情以來漲70%；生質燃料政策導致1/3玉米與1/2黃豆進入燃料生產。\n\n## 3. AI Token成本下滑與通縮效應\n- **企業AI支出指數回落：** 追蹤企業使用的AI Token指數5月以來下跌20%（儘管2025年以來仍翻倍）；主講人認為企業轉向成本更低模型，能壓低通膨但也引發對AI公司定價能力的擔憂。\n- **H100租賃價格下跌40%：** 主講人強調這僅反映「閒置算力」的現貨市場價格，非整體需求；全球最大AI算力早被四大CSP業者（雲端服務供應商）長期預約，不會流入租賃市場。\n- **樂觀派觀點：** 自2023年以來AI Token單價下降90%，但整體支出較去年增一倍；類比汽車從10萬美元降至1萬美元，雖單價跌但購買人數從1人變100人，成本降低反能擴大需求。\n\n## 4. 川普施政民調下滑與中期選舉壓力\n- **支持率跌至36%：** 較上月再跌2個百分點，無黨籍選民支持率降至21%（月減8個百分點）；若7月舉行選舉，44%受訪者支持民主黨、38%支持共和黨，民主黨領先幅度從4個百分點擴大至6個百分點。\n- **伊朗戰爭評價反轉：** 58%受訪者認為戰爭不值得，44%認為美國在對伊關係中處於劣勢；今年1–2月委內瑞拉事件後國人對軍事行動態度曾超過60%正面評價，但時間拖久影響荷包後民調反轉。\n- **中東和平協議前景悲觀：** 42%受訪者認為協議對中東和平幾乎無影響，25%認為反而增加區域不確定性；主講人認為扭轉低評價關鍵在通膨——「打了伊朗通膨還變低，那我就支持打伊朗」。\n\n## 5. 美股結構分化與小型股表現\n- **費半領跌但其他指數溫和：** 費半今年漲100%後回檔15%；道瓊創高，標普500上半年漲10%（連續四年雙位數報酬，為1995–1999年後首見），納斯達克呈頭部。\n- **小型股羅素2000表現亮眼：** 上半年漲23%，超越納斯達克與標普500，僅次於費半；較納斯達克高9個百分點，為2006年以來相對大型股最強一次，顯示資金向外輪動。\n- **各類型股票漲幅分化：** 高盛統計顯示記憶體年初至今漲250%、資料中心115%、AI半導體101%；韓國股市102%、台灣加權指數近60%、日經40%；標普等權指數漲12%，說明七巨頭外溢效應顯著。\n- **消費性電子循環已被打破：** 主講人認為AI伺服器需求遠大於手機與消費性電子，導致美股連續四年雙位數報酬，不再受兩到三年一次的庫存循環制約。\n\n## 6. 個股技術面與支撐觀察\n- **Sandisk（應為美光或其他記憶體股）：** 距歷史高位跌22%，跌破陡峭上升趨勢線與20日均線，下一支撐看季線。\n- **凱俠（Kioxia）：** 一夜動能直線向下，跳空跌破上升趨勢線與20日均線，呈現高強度獲利了結。\n- **美光：** 月線全線跌破，因先前未如Sandisk或凱俠瘋狂飆漲，此次技術面轉弱具警示意義；主講人調侃「質疑美光、了解美光、加入美光、相信美光、堅守美光、一夕陪光」。\n- **SK海力士：** 作為亞洲AI熱潮代表，跌破月線，下一支撐看季線；韓國股市散戶意願與三星等大量股票接近熊市（跌幅20%）規模。\n\n## 結論與後市展望\n主講人整體樂觀：記憶體股價重挫主因是高乖離後的獲利了結，三大利空皆缺乏實質證據；油價與AI Token成本雙雙下滑有望緩解通膨，今年預期「五碼」（維持不升息）。真正利空只有「AI資料中心決定不投錢」或「算力過剩」，但目前算力明顯不足。提醒投資人不用急著操作，應釐清自身投資原則與資金規模，「克制比衝動更有價值」；市場波動時不是所有問題都能靠暴力（劇烈操作）解決，耐心比力量更能創造長期報酬。台股收漲521點至47,301點，完全不受費半重挫影響。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-07-07"
     }
-  ]
+  ],
+  "article_briefs": []
 }
