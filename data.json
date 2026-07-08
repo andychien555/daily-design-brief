@@ -1,9 +1,49 @@
 {
-  "date": "2026-07-07",
-  "date_display": "2026 年 07 月 07 日",
-  "generated_at": "2026-07-07T13:32:33.455722+08:00",
-  "since_date": "2026-07-05",
-  "top_tweets": [],
+  "date": "2026-07-08",
+  "date_display": "2026 年 07 月 08 日",
+  "generated_at": "2026-07-08T08:55:53.033087+08:00",
+  "since_date": "2026-07-06",
+  "top_tweets": [
+    {
+      "id": "2074593163487178802",
+      "text": "Bungie is still hiring for Marathon after layoffs and the position has a salary range of $222,000–$258,000 per year.\n\n&gt;A new job listing shows Bungie is looking for a UI/UX Director to lead the design and overall user experience for Marathon. \n\n&gt;The role includes setting the https://t.co/GRv86PUG1x",
+      "author": "Pirat_Nation",
+      "name": "Pirat_Nation 🔴",
+      "likes": 595,
+      "retweets": 28,
+      "replies": 85,
+      "created": "Tue Jul 07 20:35:28 +0000 2026",
+      "url": "https://x.com/Pirat_Nation/status/2074593163487178802",
+      "source": "Design",
+      "summary_zh": "Bungie 在裁員後仍為 Marathon 招募 UI/UX 總監，年薪 22.2–25.8 萬美元，負責領導整體使用者體驗設計。此職缺反映遊戲產業即使縮編仍持續投資關鍵設計角色。"
+    },
+    {
+      "id": "2074538220025774346",
+      "text": "It’s 2026 – Americans deserve better digital experiences. The President agrees and is investing in better design for everyone. The TrumpAccounts app is the perfect example: easy to use, easy on the eyes, and clear communication about where you are in the process. My commentary to",
+      "author": "jgebbia",
+      "name": "Joe Gebbia",
+      "likes": 791,
+      "retweets": 34,
+      "replies": 42,
+      "created": "Tue Jul 07 16:57:09 +0000 2026",
+      "url": "https://x.com/jgebbia/status/2074538220025774346",
+      "source": "Design",
+      "summary_zh": "評論者認為 2026 年美國政府應投資更好的數位體驗設計，以 TrumpAccounts app 為例，強調介面易用、視覺清晰、流程透明的重要性。"
+    },
+    {
+      "id": "2074514696275681682",
+      "text": "The worst thing any luxury brand can do is change their product line and design language to “appeal to the Asian market.” First, it taints the brand. Second, it’s backwards from the start: Asians and Indians just adopt what westerners already like as upscale and elite. https://t.co/YveoodlsyC",
+      "author": "fentanylbrownie",
+      "name": "Shrimp Trillionaire",
+      "likes": 711,
+      "retweets": 17,
+      "replies": 13,
+      "created": "Tue Jul 07 15:23:40 +0000 2026",
+      "url": "https://x.com/fentanylbrownie/status/2074514696275681682",
+      "source": "Design",
+      "summary_zh": "作者認為奢侈品牌為「迎合亞洲市場」而改變產品線與設計語言是最糟的策略，因為這會損害品牌，且亞洲消費者本就傾向採納西方已確立的高端設計。"
+    }
+  ],
   "criteria": {
     "keyword_pools": [
       {
@@ -84,15 +124,48 @@
   },
   "top_products": [
     {
-      "title": "CodeMote",
-      "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
-      "published": "2026-07-05T06:39:06-07:00",
-      "author": "Salvatore Castellitti",
-      "tagline": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
-      "post_id": "1188554",
-      "summary_zh": "讓你從 iPhone 遠端操作 Claude Code、Codex 等各種命令列工具和 AI 代理的行動應用程式。",
-      "image_url": "https://ph-files.imgix.net/76bbea19-6575-48c5-b232-239aa4863547.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/09cc5dd7-f1cf-475a-a464-47758d3811f9.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Kadoink AI",
+      "url": "https://www.producthunt.com/products/say-who-say-why-kadoink-gathers-everyone",
+      "published": "2026-07-06T15:56:37-07:00",
+      "author": "Eric Stone",
+      "tagline": "Gather people instantly by AI txt, video, or ringing phones",
+      "post_id": "1189761",
+      "summary_zh": "透過 AI 文字、影片或電話鈴聲即時召集人員的通訊工具，適合需要快速集結團隊的場景。",
+      "image_url": "https://ph-files.imgix.net/cbfb779c-5dfb-40fc-98d0-0b3464598555.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/9a373bc6-7918-4e76-b234-d69fe8f54231.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "AI Emaily",
+      "url": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox",
+      "published": "2026-07-06T02:37:56-07:00",
+      "author": "Nafiul Hasan",
+      "tagline": "Your AI inbox that writes like you + replies on autopilot",
+      "post_id": "1189175",
+      "summary_zh": "AI 郵件助理，能學習使用者的寫作風格並自動回覆信件，協助處理收件匣。",
+      "image_url": "https://ph-files.imgix.net/1aada7a8-be3a-4597-bbea-2dca28f0e8f6.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/18adfea9-a4b0-47c6-a23c-0385493f44e4.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Zoho Tables",
+      "url": "https://www.producthunt.com/products/zoho-tables",
+      "published": "2026-07-05T23:04:23-07:00",
+      "author": "Archanaa",
+      "tagline": "Smarter way to manage work and data.",
+      "post_id": "1188995",
+      "summary_zh": "結合資料庫與協作功能的工作管理平台，讓團隊能更有效地組織和管理工作資料。",
+      "image_url": "https://ph-files.imgix.net/90d25df8-4219-4ea9-b5ee-053ca08dd28a.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3023349f-bf6f-4223-8f65-910355d491bd.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "LongCat-2.0",
+      "url": "https://www.producthunt.com/products/longcat",
+      "published": "2026-07-06T23:27:32-07:00",
+      "author": "Zac Zuo",
+      "tagline": "1.6T MoE trained entirely on AI ASICs",
+      "post_id": "1189943",
+      "summary_zh": "完全在 AI ASIC 上訓練的 1.6T MoE（Mixture of Experts）大型語言模型。",
+      "image_url": "https://ph-files.imgix.net/c52c96e7-a57e-447e-8b45-217f8e45b37d.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/2bab1d7b-176f-4f54-a009-283d7f8fafd1.png?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Astryx",
@@ -101,20 +174,9 @@
       "author": "Zac Zuo",
       "tagline": "A customizable, agent-ready open-source design system",
       "post_id": "1188925",
-      "summary_zh": "一個開源的設計系統，可客製化且專為 AI 代理應用場景設計，方便開發者整合使用。",
+      "summary_zh": "開源設計系統，可客製化且支援 AI agent 整合，適合開發團隊建立一致的使用者介面。",
       "image_url": "https://ph-files.imgix.net/be95212c-b868-4f94-8713-8b8035b11c9d.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/46b84a02-71bf-40ef-bc55-5f8b18dbc04f.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Mozaik",
-      "url": "https://www.producthunt.com/products/mozaik-4",
-      "published": "2026-07-05T05:31:38-07:00",
-      "author": "Miodrag Vilotijević",
-      "tagline": "TypeScript runtime for self-organizing AI agents",
-      "post_id": "1188511",
-      "summary_zh": "基於 TypeScript 的執行環境，讓 AI 代理能夠自主組織協作，適合開發多代理系統的開發者。",
-      "image_url": "https://ph-files.imgix.net/6738738b-337f-4d1c-a781-0ee60b37e853.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/53302f34-f71b-4d1f-9b11-069125c2cee8.png?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Stanley Studio",
@@ -123,34 +185,12 @@
       "author": "Daniel Park",
       "tagline": "The AI video editor you hire that edits like a human",
       "post_id": "1188912",
-      "summary_zh": "使用 AI 技術模擬人類剪輯師的影片編輯工具，可自動完成專業級的影片後製作業。",
+      "summary_zh": "AI 影片編輯工具，模擬真人編輯師的剪輯邏輯與風格來處理影片內容。",
       "image_url": "https://ph-files.imgix.net/ddecb817-f367-4d99-9c0a-eb80e0748b4f.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/55d0950d-24a8-499a-a6fd-6d516565e2e3.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Nixmac",
-      "url": "https://www.producthunt.com/products/nixmac",
-      "published": "2026-07-05T06:33:34-07:00",
-      "author": "Cooper Maruyama",
-      "tagline": "Nix-darwin that speaks plain English",
-      "post_id": "1188550",
-      "summary_zh": "為 macOS 使用者設計的 Nix-darwin 管理工具，以自然語言介面簡化系統配置流程。",
-      "image_url": "https://ph-files.imgix.net/e4a4eccb-301c-476c-9c1d-0b2b5cff53fa.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/19b8a295-9e11-4af2-96de-b3d94aa22959.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
-  "podcast_briefs": [
-    {
-      "episode_id": "3ef5-76e1-4c4c-b2bf-ce6a2a6332a9",
-      "title": "EP317. 特斯拉第二季大賣 + 企業 AI 論戰延燒 | M觀點",
-      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/5c3f3ef5-76e1-4c4c-b2bf-ce6a2a6332a9",
-      "published": "2026-07-06",
-      "channel": "M觀點",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n特斯拉第二季交車量創歷史新高達 48 萬台超越市場預期，但主講人認為投資人更關注 FSD、RoboTaxi 與 Optimus；企業 AI 論戰中，Palantir 路線已獲微軟、橋水基金與 Thinking Machine 合作案例證明正確，企業應將核心能力保留在自有平台而非依賴外部模型。\n\n## 1. 特斯拉第二季交車數：史上最強 Q2 成績\n- **交車量大幅超越預期：** Q2 交車 48 萬台（年增 25%、季增 34%），遠高於華爾街共識的 40.6 萬台，超出 18%；生產 45.2 萬台（年增 10%、季增 12%）。\n- **歐洲市場強勁復甦：** 今年 1–5 月歐洲銷量年增 57%，法國翻倍成長、瑞典成長 56%；主講人推測與油價上漲、馬斯克與川普拉開距離、低價 Model 3 與 Model Y L（七人座）推出有關。\n- **中國市場穩健：** Model Y 仍是中國電動車單一車款銷量冠軍；主講人認為福特 CEO 宣稱「全世界電動車打不贏中國」說法荒謬。\n- **能源業務回升：** Q2 部署 13.5 GWh 儲能裝置容量（年增 41%），主講人預估未來 3–5 年能穩定維持 20%–30% 年化成長率。\n\n## 2. 特斯拉未來焦點：FSD、RoboTaxi 與 Optimus\n- **FSD 採用率成為關鍵指標：** 主講人認為 Q2 財報（7 月下旬公布）最重要數據是 FSD 北美採用率，期望達到 70%–80%；FSD V14 Lite 已對 HW 3.0 舊車推出，在歐洲通過荷蘭監管並開放台灣測試。\n- **RoboTaxi 大規模部署期待：** 德州超級工廠已停放超過 100 台 CyberCab，但尚未大量投入營運；主講人預期 7 月若單日新增 100 台 RoboTaxi，特斯拉股價可能大漲 10%。\n- **Optimus 量產在即：** 據傳 7 月開始量產人形機器人（初期月產數十至上百台），可能很快舉辦發表會；All-In Podcast 主持人 Jason Calacanis 稱親見 Optimus 表現遠勝 Figure AI 機器人。\n- **汽車業務重要性下降：** 主講人直言投資人已不太關注交車數，現在持有特斯拉股票者主要看好 FSD/RoboTaxi、Optimus 或為馬斯克粉絲。\n\n## 3. 企業 AI 論戰：Palantir 路線獲驗證\n- **Palantir 主張企業端 Ontology：** 認為企業應在自有平台建立資料關聯與決策邏輯（Ontology），再靈活搭配不同模型（OpenAI、Anthropic、開源模型），避免核心能力被模型公司掌握。\n- **OpenAI 與 Anthropic 反向抄襲：** 兩家 Frontier AI 實驗室都開始成立 Deployment Company，試圖複製 Palantier 模式進入企業市場；主講人認為這反而證明 Palantir 路線正確，但後者僅能學到九成且缺乏平台 know-how。\n- **模型中立性成競爭優勢：** Palantir 可根據任務選用最適模型（包括開源），OpenAI/Anthropic 部署公司則必須主推自家模型、難以使用其他選項，成本優勢會被靈活性劣勢抵消。\n\n## 4. 微軟入局證明平台路線：Microsoft Frontier Company\n- **微軟推出企業 AI 部署事業：** 投入 25 億美元與 6,000 名工程師成立 Microsoft Frontier Company，協助財富 500 強企業進行 AI 轉型。\n- **客戶信任成最大資產：** 主講人認為微軟平台實力可能只有 Palantir 的 80 分（OpenAI/Anthropic 約 90 分），但憑藉長期 IT 合作關係與客戶信任，仍能成功推動服務。\n- **納德拉呼應 Palantir 論述：** 微軟 CEO 近期長文強調「企業不應將 IP、產業 know-how 交給外部模型訓練」，主張建立企業端平台（Microsoft IQ，類似 Ontology）保護核心資料。\n\n## 5. 橋水與 Thinking Machine 實證：開源模型後訓練打敗前沿模型\n- **合作成果：** 橋水基金與前 OpenAI CTO Mira Murati 創立的 Thinking Machine 合作，用阿里巴巴開源模型 Qwen 3（235B 參數）經 Fine-tuning 與 Post-training 後，準確率從前沿模型的 70% 提升至 84.7%，推理成本下降 13.8 倍。\n- **專家品味無法被前沿模型取代：** 橋水 AIA Labs 表示，金融專家在複雜任務（如報告重點排序）的正確率達 90%，但前沿模型僅 45%–50%、即使專家級 Prompting 也只達 70%；Post-training 需要產業專家提供高品質人類標記與反饋。\n- **驗證企業專屬模型路線：** 證明企業可用開源模型加上自有專業資料，在特定領域達成比前沿模型更好的效果與更低成本，且不必擔心資料外洩。\n\n## 6. 市場格局：多方共存而非零和競爭\n- **各家優勢並存：** Palantir 擁有平台與 Ontology 優勢、微軟掌握企業信任、OpenAI/Anthropic 具備模型能力，主講人類比 AWS（Palantir）、Azure（微軟）與 Google Cloud（OpenAI/Anthropic），認為市場夠大、各方都能成長。\n- **Palantir 與 NVIDIA 合作前景：** 主講人認為 Palantir 可用 NVIDIA Nemotron 開源模型為企業打造專屬模型，20%–30% 高機密任務部署在私有雲（如 NVL72 機櫃），表現不輸前沿模型且成本更低、資料更安全。\n- **Alex Karp 風格非危機反應：** 主講人強調 Palantir CEO 的重砲批評並非因公司面臨威脅，而是他一貫的「哲學家」風格，習慣任性而為地表達觀點。\n\n## 結論與後市展望\n主講人認為特斯拉汽車業務重要性已下降，未來股價將由 FSD 採用率、RoboTaxi 部署規模與 Optimus 量產決定；企業 AI 市場中，Palantir「企業端 Ontology + 靈活配模型」路線已獲微軟、橋水與 Thinking Machine 案例驗證，OpenAI/Anthropic 反向抄襲反而證明其正確性。主講人預期市場格局將類似雲端三巨頭（AWS、Azure、Google Cloud）共存，各方憑藉平台能力、客戶信任或模型優勢分食擴大的市場，Palantir 並無生存危機。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-07-07"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
       "title": "UX Roundup: UX Benchmark | Impact of AI Mentions | Character Design Workflow | AI Maturity | UX Hero: Stu Card | Microsoft FDE",
