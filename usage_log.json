@@ -707,5 +707,27 @@
         "cost_usd": 0.074682
       }
     ]
+  },
+  "2026-07-09": {
+    "input_tokens": 21523,
+    "output_tokens": 2370,
+    "audio_seconds": 2991.6,
+    "cost_usd": 0.192359,
+    "calls": [
+      {
+        "label": "podcast-whisper",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "audio_seconds": 2991.6,
+        "cost_usd": 0.09224
+      },
+      {
+        "label": "podcast-summary",
+        "input_tokens": 21523,
+        "output_tokens": 2370,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.100119
+      }
+    ]
   }
 }
