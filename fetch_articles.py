@@ -8,6 +8,8 @@ fetch_articles.py
 設計要點（對齊 fetch_podcast.py）：
 - article_state.json 冪等快取（鍵：feed_key:guid）：同一篇已摘要 → 重用，
   不重打 Claude。每天由 daily.yml 呼叫一次即可。
+- 跨日去重：同一篇只在首次抓到的那天顯示（first_shown），之後不再重複佔版面。
+  作者約每週兩篇 → 沒有新文章的日子，UX 好文區塊自然不出現。
 - 純文字文章、無音檔 → 不需下載/Whisper，比 podcast 單純。
 - 任何失敗只記 log、不丟例外，單一 feed 失敗不影響其他 feed 與整批早報。
 """
@@ -243,6 +245,7 @@ def process_one(art: dict, state: dict, force: bool) -> dict | None:
 
 def main() -> None:
     force = "--force" in sys.argv
+    today = datetime.now(TPE).strftime("%Y-%m-%d")
     state = load_json(STATE_PATH)
 
     collected = []  # (published_dt, brief)
@@ -250,8 +253,22 @@ def main() -> None:
         try:
             for art in recent_articles(feed):
                 brief = process_one(art, state, force)
-                if brief:
-                    collected.append((art["published_dt"], brief))
+                if not brief:
+                    continue
+                # 跨日去重：同一篇只在「首次出現的那天」顯示，之後不再重複，
+                # 直到作者發新文章。first_shown 記在 state 快取裡（鍵：state_key）。
+                first_shown = brief.get("first_shown")
+                if not first_shown:
+                    brief["first_shown"] = today
+                    sk = art["state_key"]
+                    if isinstance(state.get(sk), dict):
+                        state[sk]["first_shown"] = today
+                    save_json(STATE_PATH, state)
+                elif first_shown != today:
+                    log(f"{art['title'][:32]}（{art['published']}）"
+                        f"已於 {first_shown} 顯示過 → 今日不重複")
+                    continue
+                collected.append((art["published_dt"], brief))
         except Exception as e:
             log(f"[warn] {feed['name']} 處理失敗（不影響其他 feed）：{e}")
 
