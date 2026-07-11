@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-11",
+    "date_display": "2026 年 07 月 11 日",
+    "generated_at": "2026-07-11T08:55:57.714391+08:00",
+    "total": 8,
+    "sources": [
+      "Design"
+    ],
+    "headline": "HeyGen 推出 HyperFrames 功能，讓設計師能直接從 Figma 設計稿生成產品發布影片。只需複製 Figma 連結並透過 agent 調用 /figma 指令，即可完整保留所有設計細節（色碼、字體、畫面）自動產出影片。"
+  },
+  {
     "date": "2026-07-10",
     "date_display": "2026 年 07 月 10 日",
     "generated_at": "2026-07-10T08:55:57.571509+08:00",
