@@ -1,34 +1,21 @@
 {
-  "date": "2026-07-11",
-  "date_display": "2026 年 07 月 11 日",
-  "generated_at": "2026-07-11T08:55:57.714391+08:00",
-  "since_date": "2026-07-09",
+  "date": "2026-07-12",
+  "date_display": "2026 年 07 月 12 日",
+  "generated_at": "2026-07-12T08:55:53.112331+08:00",
+  "since_date": "2026-07-10",
   "top_tweets": [
     {
-      "id": "2075627684806201809",
-      "text": "A man’s obligations in marriage can be compelled\n\nA woman’s obligations can never be compelled\n\nBad deal\n\nBy design, of course",
-      "author": "StefanMolyneux",
-      "name": "Freedomain - with Stefan Molyneux, MA",
-      "likes": 948,
-      "retweets": 59,
-      "replies": 24,
-      "created": "Fri Jul 10 17:06:18 +0000 2026",
-      "url": "https://x.com/StefanMolyneux/status/2075627684806201809",
+      "id": "2075984822489460846",
+      "text": "My requests are APPROXIMATE. I am not the one coding; you are. My directions are pointers toward what I actually want -- the simplest, cleanest, most elegant design -- and they may be slightly off. That goal ALWAYS outranks my literal words.\n\nSo when you hit a wall -- a case that",
+      "author": "VictorTaelin",
+      "name": "Taelin",
+      "likes": 1972,
+      "retweets": 44,
+      "replies": 77,
+      "created": "Sat Jul 11 16:45:26 +0000 2026",
+      "url": "https://x.com/VictorTaelin/status/2075984822489460846",
       "source": "Design",
-      "summary_zh": "HeyGen 推出 HyperFrames 功能，讓設計師能直接從 Figma 設計稿生成產品發布影片。只需複製 Figma 連結並透過 agent 調用 /figma 指令，即可完整保留所有設計細節（色碼、字體、畫面）自動產出影片。"
-    },
-    {
-      "id": "2075635882183270731",
-      "text": "These piazzas are thousands of years old. They were not designed like northern parks where people sit under trees all day. In the summer, they  come alive in the morning and again after sunset, and stayed empty in the day. \n\nIt's not a design failure. It reflects a different",
-      "author": "PaulSkallas",
-      "name": "LindyMan",
-      "likes": 1486,
-      "retweets": 29,
-      "replies": 32,
-      "created": "Fri Jul 10 17:38:52 +0000 2026",
-      "url": "https://x.com/PaulSkallas/status/2075635882183270731",
-      "source": "Design",
-      "summary_zh": "南歐廣場與北方公園的設計邏輯不同：它們並非設計失敗，而是反映當地生活習慣——夏季在早晨和日落後才使用，白天保持空曠。設計必須理解文化脈絡，而非套用單一標準。",
+      "summary_zh": "在與 AI 協作寫程式時，你的指令應該是「近似的方向」而非字面要求，目標永遠是最簡潔優雅的設計方案。當 AI 遇到瓶頸時，應該回頭挑戰你的指令本身，而非硬做出不理想的實作。",
       "context": {
         "quoted_text": "",
         "quoted_author": "",
@@ -36,91 +23,6 @@
         "replied_author": "",
         "top_replies": []
       }
-    },
-    {
-      "id": "2075664408127373567",
-      "text": "Alright, let me explain why this is a bad idea and how small “meaningless changes” like this ripple throughout the entire game design and structure.\n\nPersona 4 is a game all about resource management 🧵 https://t.co/tCaXZzTsn3",
-      "author": "NamsCompendium",
-      "name": "Nam",
-      "likes": 503,
-      "retweets": 65,
-      "replies": 39,
-      "created": "Fri Jul 10 19:32:13 +0000 2026",
-      "url": "https://x.com/NamsCompendium/status/2075664408127373567",
-      "source": "Design",
-      "summary_zh": "解釋為何某項看似微小的遊戲改動是壞主意：Persona 4 的核心設計圍繞資源管理，任何「無意義的小改動」都會在整個遊戲結構中產生連鎖反應，影響玩法平衡。"
-    },
-    {
-      "id": "2075699758765642239",
-      "text": "just so that this is clear, apple is suing openai &amp; io, the company founded by its own former chief design officer, jony ive.\n\nyou genuinely could not write an episode of the ai wars this dramatic. that script would be rejected for being too on the nose.\n\ncan you imagine steve https://t.co/MtmihMGyUP",
-      "author": "signulll",
-      "name": "signüll",
-      "likes": 747,
-      "retweets": 26,
-      "replies": 48,
-      "created": "Fri Jul 10 21:52:41 +0000 2026",
-      "url": "https://x.com/signulll/status/2075699758765642239",
-      "source": "Design",
-      "summary_zh": "Apple 正式起訴 OpenAI 與其前首席設計長 Jony Ive 創辦的公司 io，指控竊取商業機密。這起訴訟戲劇性地讓蘋果與自家前設計核心成員對簿公堂，成為 AI 競爭最具張力的一幕。"
-    },
-    {
-      "id": "2075697141956157547",
-      "text": "🚨 BREAKING: Apple is suing OpenAI for stealing trade secrets\n\nAPPLE: OpenAI “deliberately and systematically” stole confidential info from Apple employees\n\nChang Liu (ex-Apple engineer) kept his Apple laptop, found “bug” to access Apple cloud storage\n\nLiu: “LOL, I found out I https://t.co/9Enbv1rybV",
-      "author": "ns123abc",
-      "name": "NIK",
-      "likes": 900,
-      "retweets": 99,
-      "replies": 75,
-      "created": "Fri Jul 10 21:42:17 +0000 2026",
-      "url": "https://x.com/ns123abc/status/2075697141956157547",
-      "source": "Design",
-      "summary_zh": "Apple 控告 OpenAI「蓄意且系統性地」竊取機密資訊：前蘋果工程師 Chang Liu 保留公司筆電並發現漏洞存取蘋果雲端儲存。這起訴訟揭露 AI 競爭背後的商業機密爭奪戰。"
-    },
-    {
-      "id": "2075705925302673434",
-      "text": "The new App Planning Phase feature in Pi App Studio allows creators to develop their ideas with the help of AI before App Studio generates the app.\n\nFor example, App Studio may ask for more detail about the app’s:\n- Main idea\n- Goal\n- Design\n- User experience\n\nThis helps guide https://t.co/XeuuVTOIcq",
-      "author": "PiCoreTeam",
-      "name": "Pi Network",
-      "likes": 1599,
-      "retweets": 401,
-      "replies": 274,
-      "created": "Fri Jul 10 22:17:12 +0000 2026",
-      "url": "https://x.com/PiCoreTeam/status/2075705925302673434",
-      "source": "Design",
-      "summary_zh": "Pi App Studio 新增「App Planning Phase」功能，在生成 app 前先透過 AI 協助創作者釐清核心概念、目標、設計與使用者體驗，讓開發前期更有方向。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2075683959086747880",
-      "text": "just for a second… imagine Steve Jobs’ nuclear reaction to Jony and the design team attempting a raiding like this",
-      "author": "ParkerOrtolani",
-      "name": "Parker Ortolani",
-      "likes": 717,
-      "retweets": 11,
-      "replies": 17,
-      "created": "Fri Jul 10 20:49:54 +0000 2026",
-      "url": "https://x.com/ParkerOrtolani/status/2075683959086747880",
-      "source": "Design",
-      "summary_zh": "想像若 Steve Jobs 在世，看到 Jony Ive 與設計團隊進行這種「突襲式」行動（指涉與 OpenAI 合作並被控竊密）會有什麼核爆級反應。"
-    },
-    {
-      "id": "2075708788783636879",
-      "text": "✨ SUMMER CLEAN UP SALE PART 2!✨\n\nOnly Selling What We Have in Storage! Once a design is sold out, that's it! (18 Unique Designs)\n\nI'm moving by AUG, so these need a loving home!\n\nGrab yours from the shop now!\nLINK IS IN MY BIO!! ☝️ https://t.co/h50uOHqvap",
-      "author": "hothot_spicy",
-      "name": "BlushySpicy💖✨",
-      "likes": 529,
-      "retweets": 19,
-      "replies": 5,
-      "created": "Fri Jul 10 22:28:34 +0000 2026",
-      "url": "https://x.com/hothot_spicy/status/2075708788783636879",
-      "source": "Design",
-      "summary_zh": "作者因八月搬家，清倉庫存設計商品（18 款獨特設計），售完即止。雖為銷售文，但展現創作者在生命週期管理與行銷節奏上的實務考量。"
     }
   ],
   "criteria": {
@@ -203,48 +105,37 @@
   },
   "top_products": [
     {
-      "title": "GPT-5.6",
-      "url": "https://www.producthunt.com/products/openai",
-      "published": "2026-07-09T10:08:01-07:00",
-      "author": "Rajiv Ayyangar",
-      "tagline": "A new standard for intelligence and efficiency",
-      "post_id": "1192267",
-      "summary_zh": "新一代大型語言模型，提供更高的智能水平與運算效率。適合需要先進 AI 能力的開發者與企業用戶。",
-      "image_url": "https://ph-files.imgix.net/f904aec8-e324-4aed-ae3b-ff68795ce44f.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/4ee3d08f-e758-4af4-9aa5-9cca5234056f.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "San Fran Sim",
+      "url": "https://www.producthunt.com/products/san-fran-sim",
+      "published": "2026-07-10T01:07:45-07:00",
+      "author": "Daniel Kempe",
+      "tagline": "A startup tycoon game",
+      "post_id": "1192699",
+      "summary_zh": "一款以新創公司為主題的模擬經營遊戲，讓玩家體驗創業大亨的角色。",
+      "image_url": "https://ph-files.imgix.net/89910a54-4586-4b88-a758-4c5d98a3ce8b.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/0cefa55e-0292-4bb6-b4af-b033ff186c29.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Native SDK",
-      "url": "https://www.producthunt.com/products/vercel",
-      "published": "2026-07-09T11:17:11-07:00",
-      "author": "Chris Messina",
-      "tagline": "Toolkit for building native desktop apps",
-      "post_id": "1192316",
-      "summary_zh": "用於開發原生桌面應用程式的工具包，讓開發者能建構跨平台的桌面軟體。",
-      "image_url": "https://ph-files.imgix.net/1567ad29-dd26-403f-bbc2-de3604b889bc.vnd.microsoft.icon?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d4aba341-8d89-41a5-8836-299fbdbadf7b.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Basedash SCIM",
+      "url": "https://www.producthunt.com/products/basedash",
+      "published": "2026-07-10T19:40:25-07:00",
+      "author": "Max Musing",
+      "tagline": "Your org changes. Access keeps up.",
+      "post_id": "1193351",
+      "summary_zh": "透過 SCIM 協議自動同步組織變動，讓應用程式存取權限即時跟上人員異動。",
+      "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/6a96d194-ec66-4b3f-821d-149666fa573f.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "ChatCut",
-      "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
-      "published": "2026-07-08T23:50:16-07:00",
-      "author": "Zac Zuo",
-      "tagline": "Your AI video editor in ChatGPT, desktop, and web",
-      "post_id": "1191785",
-      "summary_zh": "整合 AI 的影片編輯工具，可在 ChatGPT、桌面版和網頁版使用，協助使用者快速完成影片剪輯。",
-      "image_url": "https://ph-files.imgix.net/1d15a575-7af7-4a02-8a77-6ef871232720.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/63e46d86-91c2-47ce-b208-78eae05d1ea2.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Mispher",
-      "url": "https://www.producthunt.com/products/mispher-agentic-transcription-for-mac",
-      "published": "2026-07-09T02:36:54-07:00",
-      "author": "Daniel Saad",
-      "tagline": "Dictate, rewrite, translate, and an agent in a single device",
-      "post_id": "1191918",
-      "summary_zh": "整合語音輸入、文字改寫、翻譯與 AI 助理功能的單一裝置，適合需要多語言處理的使用者。",
-      "image_url": "https://ph-files.imgix.net/8f891159-eb3c-4954-ab89-ffa1b8402ca8.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/115b9d0c-7b9a-404e-a229-abc1e432ed4d.png?auto=format&w=960&h=540&fit=crop"
+      "title": "SoundPipe",
+      "url": "https://www.producthunt.com/products/soundpipe",
+      "published": "2026-07-10T15:27:30-07:00",
+      "author": "Chris Battarbee",
+      "tagline": "SoundPipe is a mixing board for your Mac",
+      "post_id": "1193273",
+      "summary_zh": "為 Mac 設計的虛擬混音控制台，讓使用者管理系統音訊路由與混音。",
+      "image_url": "https://ph-files.imgix.net/6b1520de-3a02-4a04-b6c5-c0c337e42552.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3397526d-c7ac-422b-8232-38c0789992e1.png?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "RepStandard",
@@ -253,33 +144,11 @@
       "author": "Edvinas",
       "tagline": "Computer vision counts your reps in real time",
       "post_id": "1192582",
-      "summary_zh": "運用電腦視覺技術即時計算運動訓練次數，適合健身愛好者與教練使用。",
+      "summary_zh": "運用電腦視覺技術即時計算健身動作次數，適合運動訓練使用。",
       "image_url": "https://ph-files.imgix.net/8cf4932b-7b00-440c-89a1-060f8efafb20.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/69164826-2ad5-4c3a-9266-cb8463b29ac5.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "StoryChief Connect",
-      "url": "https://www.producthunt.com/products/storychief-io",
-      "published": "2026-07-09T03:43:58-07:00",
-      "author": "Valeri Potchekailov",
-      "tagline": "Publish content from Claude to your website and socials",
-      "post_id": "1191975",
-      "summary_zh": "讓使用者將 Claude 生成的內容直接發布到網站與社群媒體的整合工具。",
-      "image_url": "https://ph-files.imgix.net/2790179f-7da7-4a61-907f-0a35e430a0d0.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/44f6a821-899e-4ecb-a3f0-bdbf61cde95a.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
-  "podcast_briefs": [
-    {
-      "episode_id": "9012965",
-      "title": "EP678 | 🎮",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/233f8f4d-1bd8-49dd-9744-4867e9012965",
-      "published": "2026-07-11",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人分享台風假觀感變化、健康管理心得，並解析 Meta 出租算力對市場意義、記憶體與功率元件持續漲價、光通訊產業內部板塊輪動等產業動態。\n\n## 1. 台風假與市場開盤：心態轉變\n- **從抱怨到接受：** 主講人早年極度希望颱風天開盤，認為「少一天等於少一天賺錢機會」，但隨著年齡與生活重心改變（運動、家庭），現在反而不希望交易時段延長至 3:30 收盤，「會有更多藉口留在電腦前面、對健康不好」。\n- **市場情緒變化：** 今年因 0050 報酬率超過 50%，越來越多散戶上車，網路風向從「放假萬歲」轉為「為何不開盤」，主講人認為「當大家都在車上，想法就會趨同」。\n- **這次閃漲而非閃崩：** 台風假期間美股與台積電 ADR 上漲 3%+（夜盤收斂），台股少承受一天國際波動，形同「閃漲」。\n\n## 2. 健康管理成效：血壓與體重大幅改善\n- **家族遺傳與檢查契機：** 主講人家族有高血壓與膽固醇遺傳，某次檢查達 140/90（高血壓第一期前期），醫師建議用藥或減重。\n- **運動與瘦瘦針效果：** 體重降 8–10 公斤後，血壓從 140 降至 100–110、舒張壓約 70，心跳維持 70 幾下（瘦瘦針理論上會加速心跳，但運動抵銷），「運動真的改變身體超級大一塊」。\n- **生活優先級調整：** 現在每天運動（機能訓練、網球等），刻意減少盤前時間，「即便看盤仍快樂，但不希望整天待在電腦前面」。\n\n## 3. Meta 出租算力：AI 基建賽局升級\n- **非退出、而是 double down：** 主講人當時即反駁「Meta 退出算力競賽」的市場誤讀；Zuckerberg 近日證實「滿倉殺進」，未來仍大量 booking 新 data center（如 Vera Rubin、Feynman）。\n- **舊 GPU 變現實資產：** 舊 Hopper 可做 inferencing 或外租，「不只會計折舊年限可拉長，甚至變成可賺錢資產」，反駁 Michael Burry 對 GPU 折舊的質疑。\n- **對產業鏈影響：** 利多 Meta 本身與 AI 生態，但對 Neo Cloud 衝擊較大（多一超級玩家競爭）；算力定價將更透明與平穩，「以前朦朧美時最會漲，現在投報率算得出來，估值倍數可能從四五十倍收斂」，供應鏈「炒本夢比」的空間縮小。\n\n## 4. 記憶體與功率元件：漲價持續但幅度收斂\n- **記憶體合約價：** 下一季漲價持續但有收斂跡象，「巨頭採購力量太強大」，年增率因高基期會收斂但絕對價格仍往上。\n- **被動元件全面漲價：** 絕大多數廠商成功（少數失敗不具名），「母雞拉小雞」邏輯——大廠漲價後中小廠跟進，未來 1–2 季持續。\n- **功率元件缺貨擴張：** ADI（全球大型類比 IC 廠）發出漲價信號；台系 MOSFET 與後段封裝表現強勁，「有些封裝廠營收年增率持平但獲利大跳，代表漲價或稼動率拉滿」；部分導線架交期從 3–4 個月拉至 7–8 個月、價格漲 10–20%。美股 IDM 反而未跟漲，「類似當年日本被動先動、台灣後補漲」。\n\n## 5. 光通訊內部輪動：Narrow & Fast vs. Wide & Slow\n- **板塊分化：** 主講人觀察矽光（SiP）與磷化銦雷射相關標的「相對軟調」，反而 Vixel、AOC、甚至 Micro LED 等「Wide & Slow」概念股較硬。\n- **技術路線差異：** Narrow & Fast（磷化銦雷射）每次頻寬升級需重新設計、成本指數上升；Wide & Slow（Vixel 多層堆疊、Fiber Array Unit 收斂光）相對便宜，「瓶頸在那邊，不用花巨資升級單一元件」。\n- **類比「光進銅退」爭議：** 主講人認為兩種方案應用場域不同（如銅用於 intra-rack、光用於 scale-out），但市場資金會「白痴地」只炒新故事而拋售舊名字；光通訊若要突破需大盤創新高（高估值股特性），目前處觀望。\n\n## 6. 個人投資框架：資訊過濾與產業線建立\n- **資訊源精簡：** 主講人早年加一堆群組，後來發現「100 條線都是雜訊，不如兩條超純的 design house 或 fab 線」；現在很少聽投資 podcast，「經營越久越懂得砍掉不需要的，時間有限」。\n- **短線 vs. 長線：** 批評「投機心態卻整天問基本面」的矛盾；若真投機應關注資金流向，若投資則不必在意短期股價（如導線架基本面佳但股價橫盤）。\n- **當前布局偏好：** 自己與身邊資金鎖定「短期內營收獲利跑出來的標的」，記憶體因「已射到宇宙」早已下車大部分持股；高估值光通訊等 sentiment 改善與大盤創新高再說。\n\n## 7. 生活哲學：運動優先與言論平衡\n- **運動改變生活：** 每天機能訓練、網球，「晒得很黑也沒關係」，血壓、心跳、體態全面改善，「非常開心」。\n- **發言分寸拿捏：** 承認「站在每個人角度思考會變成一句話都不能講」（如台風對泰安山區影響 vs. 都會區無感），學習「抓平衡、忠於自己但不傷害或不禮貌」，「這是我的修煉」。\n- **數位游牧建議：** 對詢問「加拿大工作 vs. 台日數位游牧」聽眾，主講人鼓勵「婚前單身時做些在外人看來瘋狂的事，後來有家庭孩子就不可能了」；若薪資代價不大，「年輕時應去體驗不一樣環境」。\n\n## 結論與後市展望\n主講人認為 AI 供應鏈漲價仍是主旋律（記憶體、被動元件、功率元件、封裝），但隨著 Meta 等巨頭加入算力租賃、價格透明化，過去「本夢比」炒作空間收窄，市場將更重視實際營收獲利；光通訊內部出現 Wide & Slow vs. Narrow & Fast 的板塊輪動，需等大盤創新高與 sentiment 改善才有突破契機。個人層面，主講人強調運動與家庭優先於盤面，資訊源精簡至少數高品質產業線，並提醒聽眾「投機就看資金、投資就看基本面，不要混淆」。整體而言，AI 長期趨勢不變，短期需留意估值消化與板塊輪動。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-07-11"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": []
 }
