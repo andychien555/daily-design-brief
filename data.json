@@ -1,30 +1,9 @@
 {
-  "date": "2026-07-12",
-  "date_display": "2026 年 07 月 12 日",
-  "generated_at": "2026-07-12T08:55:53.112331+08:00",
-  "since_date": "2026-07-10",
-  "top_tweets": [
-    {
-      "id": "2075984822489460846",
-      "text": "My requests are APPROXIMATE. I am not the one coding; you are. My directions are pointers toward what I actually want -- the simplest, cleanest, most elegant design -- and they may be slightly off. That goal ALWAYS outranks my literal words.\n\nSo when you hit a wall -- a case that",
-      "author": "VictorTaelin",
-      "name": "Taelin",
-      "likes": 1972,
-      "retweets": 44,
-      "replies": 77,
-      "created": "Sat Jul 11 16:45:26 +0000 2026",
-      "url": "https://x.com/VictorTaelin/status/2075984822489460846",
-      "source": "Design",
-      "summary_zh": "在與 AI 協作寫程式時，你的指令應該是「近似的方向」而非字面要求，目標永遠是最簡潔優雅的設計方案。當 AI 遇到瓶頸時，應該回頭挑戰你的指令本身，而非硬做出不理想的實作。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    }
-  ],
+  "date": "2026-07-13",
+  "date_display": "2026 年 07 月 13 日",
+  "generated_at": "2026-07-13T08:55:53.369715+08:00",
+  "since_date": "2026-07-11",
+  "top_tweets": [],
   "criteria": {
     "keyword_pools": [
       {
@@ -105,48 +84,15 @@
   },
   "top_products": [
     {
-      "title": "San Fran Sim",
-      "url": "https://www.producthunt.com/products/san-fran-sim",
-      "published": "2026-07-10T01:07:45-07:00",
-      "author": "Daniel Kempe",
-      "tagline": "A startup tycoon game",
-      "post_id": "1192699",
-      "summary_zh": "一款以新創公司為主題的模擬經營遊戲，讓玩家體驗創業大亨的角色。",
-      "image_url": "https://ph-files.imgix.net/89910a54-4586-4b88-a758-4c5d98a3ce8b.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/0cefa55e-0292-4bb6-b4af-b033ff186c29.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
       "title": "Basedash SCIM",
       "url": "https://www.producthunt.com/products/basedash",
       "published": "2026-07-10T19:40:25-07:00",
       "author": "Max Musing",
       "tagline": "Your org changes. Access keeps up.",
       "post_id": "1193351",
-      "summary_zh": "透過 SCIM 協議自動同步組織變動，讓應用程式存取權限即時跟上人員異動。",
+      "summary_zh": "透過 SCIM 協定自動同步組織成員變動，讓存取權限管理即時更新。適合需要管理多人團隊資料庫存取權限的企業使用。",
       "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/6a96d194-ec66-4b3f-821d-149666fa573f.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "SoundPipe",
-      "url": "https://www.producthunt.com/products/soundpipe",
-      "published": "2026-07-10T15:27:30-07:00",
-      "author": "Chris Battarbee",
-      "tagline": "SoundPipe is a mixing board for your Mac",
-      "post_id": "1193273",
-      "summary_zh": "為 Mac 設計的虛擬混音控制台，讓使用者管理系統音訊路由與混音。",
-      "image_url": "https://ph-files.imgix.net/6b1520de-3a02-4a04-b6c5-c0c337e42552.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/3397526d-c7ac-422b-8232-38c0789992e1.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "RepStandard",
-      "url": "https://www.producthunt.com/products/repstandard",
-      "published": "2026-07-09T21:31:51-07:00",
-      "author": "Edvinas",
-      "tagline": "Computer vision counts your reps in real time",
-      "post_id": "1192582",
-      "summary_zh": "運用電腦視覺技術即時計算健身動作次數，適合運動訓練使用。",
-      "image_url": "https://ph-files.imgix.net/8cf4932b-7b00-440c-89a1-060f8efafb20.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/69164826-2ad5-4c3a-9266-cb8463b29ac5.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "podcast_briefs": [],
