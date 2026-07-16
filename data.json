@@ -1,9 +1,142 @@
 {
-  "date": "2026-07-15",
-  "date_display": "2026 年 07 月 15 日",
-  "generated_at": "2026-07-15T08:55:52.874050+08:00",
-  "since_date": "2026-07-13",
-  "top_tweets": [],
+  "date": "2026-07-16",
+  "date_display": "2026 年 07 月 16 日",
+  "generated_at": "2026-07-16T08:56:07.845702+08:00",
+  "since_date": "2026-07-14",
+  "top_tweets": [
+    {
+      "id": "2077407794341302719",
+      "text": "new skill: improve-ui\n\nbuilt to audit interfaces against their own design language, inspired by @shadcn's improve skill.\n\nit reads your repo's design context: DESIGN.md, CSS, shared components, etc. then finds where the UI breaks its own rules and writes a plan to fix it https://t.co/SimmQa6q6F",
+      "author": "Ibelick",
+      "name": "Ibelick",
+      "likes": 864,
+      "retweets": 31,
+      "replies": 10,
+      "created": "Wed Jul 15 14:59:49 +0000 2026",
+      "url": "https://x.com/Ibelick/status/2077407794341302719",
+      "source": "Design",
+      "summary_zh": "推出 improve-ui 技能工具，能讀取專案的設計系統文件（DESIGN.md、CSS、共用元件等），自動檢查 UI 是否違反自身設計規範並產生修正計畫。靈感來自 shadcn 的 improve skill。"
+    },
+    {
+      "id": "2076963616067113144",
+      "text": "How to become AI engineer in next 6 months:\n\nBy the end, you want to be able to:\n\n- build LLM apps end-to-end\n- use APIs from OpenAI / Anthropic / open-source stacks\n- design prompts and context properly\n- add tool calling and structured outputs\n- deploy real projects\n\nSo, let’s https://t.co/hXQaQCGnFt",
+      "author": "eng_khairallah1",
+      "name": "Khairallah AL-Awady",
+      "likes": 584,
+      "retweets": 113,
+      "replies": 40,
+      "created": "Tue Jul 14 09:34:48 +0000 2026",
+      "url": "https://x.com/eng_khairallah1/status/2076963616067113144",
+      "source": "UX Design",
+      "summary_zh": "提供六個月成為 AI 工程師的學習路徑，目標包含端到端建構 LLM 應用、使用主流 API、設計 prompt 與 context、加入工具呼叫與結構化輸出，並實際部署專案。"
+    },
+    {
+      "id": "2077121355116384372",
+      "text": "I turned Claude into an entire company\n\n42 skills, organized like a real org chart\n\nEvery department is real and installable from the links below\n\nDevelopers\n\nSuperpowers\n→ https://t.co/NP8oyW4Akc\n\nContext7\n→ https://t.co/WDXbWUVNts\n\nSkill Creator\n→ https://t.co/O8UHJrCFNx https://t.co/LUOQDwgx3H",
+      "author": "LunarResearcher",
+      "name": "Lunar",
+      "likes": 967,
+      "retweets": 178,
+      "replies": 26,
+      "created": "Tue Jul 14 20:01:36 +0000 2026",
+      "url": "https://x.com/LunarResearcher/status/2077121355116384372",
+      "source": "UX Design",
+      "summary_zh": "將 Claude 轉化為 42 個技能組成的虛擬公司組織架構，涵蓋開發者、Superpowers、Context7、Skill Creator 等部門，所有技能皆可透過連結安裝使用。"
+    },
+    {
+      "id": "2077404416400040322",
+      "text": "my new &amp; improved rocktiz design https://t.co/1FAkklZIpV",
+      "author": "zoopityscoopz",
+      "name": "Zzoupz 🧩 TEAM MYSTERY ❓",
+      "likes": 3181,
+      "retweets": 370,
+      "replies": 36,
+      "created": "Wed Jul 15 14:46:23 +0000 2026",
+      "url": "https://x.com/zoopityscoopz/status/2077404416400040322",
+      "source": "Design",
+      "summary_zh": "展示改良版角色設計作品，屬遊戲/動畫社群內容。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2077424918145171606",
+      "text": "2018 VS 2026 DESIGN - Which one do you like more? https://t.co/81n9D0PcHe",
+      "author": "ShiinaBR",
+      "name": "Shiina",
+      "likes": 2890,
+      "retweets": 106,
+      "replies": 122,
+      "created": "Wed Jul 15 16:07:51 +0000 2026",
+      "url": "https://x.com/ShiinaBR/status/2077424918145171606",
+      "source": "Design",
+      "summary_zh": "比較 2018 與 2026 年設計版本，詢問使用者偏好。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2077434380101063007",
+      "text": "ZZZ Question\n\nDo you prefer old or new Remielle Design? https://t.co/RbdHvPsyuj",
+      "author": "Genshin_Forever",
+      "name": "OTAKUさん🐉 Dokkan & Genshin Lover",
+      "likes": 2786,
+      "retweets": 68,
+      "replies": 74,
+      "created": "Wed Jul 15 16:45:27 +0000 2026",
+      "url": "https://x.com/Genshin_Forever/status/2077434380101063007",
+      "source": "Design",
+      "summary_zh": "針對遊戲角色 Remielle 新舊設計進行投票調查，詢問玩家偏好。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2077462062725480946",
+      "text": "dear Apple,\n\nplease bring back the Touch Bar. with a design like this.\n\nsincerely, every MacBook user ever. https://t.co/bINGGiRToH",
+      "author": "app_settings",
+      "name": "System Settings",
+      "likes": 1251,
+      "retweets": 48,
+      "replies": 72,
+      "created": "Wed Jul 15 18:35:27 +0000 2026",
+      "url": "https://x.com/app_settings/status/2077462062725480946",
+      "source": "Design",
+      "summary_zh": "呼籲 Apple 重新推出 Touch Bar 並採用新設計概念，引發不少 MacBook 使用者討論。"
+    },
+    {
+      "id": "2077404416400040322",
+      "text": "my new &amp; improved rocktiz design https://t.co/1FAkklZIpV",
+      "author": "zoopityscoopz",
+      "name": "Zzoupz 🧩 TEAM MYSTERY ❓",
+      "likes": 3181,
+      "retweets": 370,
+      "replies": 36,
+      "created": "Wed Jul 15 14:46:23 +0000 2026",
+      "url": "https://x.com/zoopityscoopz/status/2077404416400040322",
+      "source": "Design",
+      "summary_zh": "展示改良版角色設計作品，屬遊戲/動畫社群內容。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    }
+  ],
   "criteria": {
     "keyword_pools": [
       {
@@ -84,93 +217,81 @@
   },
   "top_products": [
     {
-      "title": "Portero",
-      "url": "https://www.producthunt.com/products/portero",
-      "published": "2026-07-13T20:50:15-07:00",
-      "author": "C3B",
-      "tagline": "Know exactly what's running on every port of your Mac",
-      "post_id": "1195838",
-      "summary_zh": "讓 Mac 使用者清楚查看每個連接埠上正在運行的服務與程序，提供系統監控與管理功能。",
-      "image_url": "https://ph-files.imgix.net/eb60ce1d-1492-40b4-ae7d-8bbc4dab8209.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/48d67628-c27c-4be0-937a-a4e609e4faf4.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Keepresso",
+      "url": "https://www.producthunt.com/products/keepresso",
+      "published": "2026-07-14T06:34:13-07:00",
+      "author": "Gyorgy",
+      "tagline": "Keep your Mac awake, on your terms. Free and open source",
+      "post_id": "1196344",
+      "summary_zh": "免費開源的 Mac 工具，讓使用者自訂條件來防止電腦進入睡眠狀態。",
+      "image_url": "https://ph-files.imgix.net/d87bdd69-203b-466c-bc2d-7d0d9d5ef2ed.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5106d012-b5c8-40d8-bf4a-d94608cec258.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "VocalVia",
-      "url": "https://www.producthunt.com/products/vocalvia",
-      "published": "2026-07-13T01:25:34-07:00",
-      "author": "Zoey",
-      "tagline": "Turn documents and articles into editable multi-voice audio",
-      "post_id": "1194977",
-      "summary_zh": "將文件與文章轉換為可編輯的多聲音音訊內容，適合需要製作語音版本的內容創作者。",
-      "image_url": "https://ph-files.imgix.net/a24fc092-7a1b-40de-8d1d-869541285ef3.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/681fbc36-2c6b-4841-ba9a-d3544af5c97f.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Jam-Pod",
+      "url": "https://www.producthunt.com/products/jam-pod",
+      "published": "2026-07-14T10:08:42-07:00",
+      "author": "Gianpaolo Campoli",
+      "tagline": "A player for people who keep their own music collection",
+      "post_id": "1196511",
+      "summary_zh": "專為保有個人音樂收藏的使用者設計的播放器，適合管理本地音樂檔案。",
+      "image_url": "https://ph-files.imgix.net/d6903552-4883-41d4-889e-c5a2d1d79206.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/451b0fa3-ce54-44b9-abcb-3b273a6b2675.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "ClipFlow",
-      "url": "https://www.producthunt.com/products/clipflow-2",
-      "published": "2026-07-13T02:45:28-07:00",
-      "author": "FaiChou",
-      "tagline": "Small video jobs, without a timeline",
-      "post_id": "1195046",
-      "summary_zh": "針對小型影片編輯任務設計的工具，不需使用傳統時間軸介面即可完成剪輯。",
-      "image_url": "https://ph-files.imgix.net/587262e4-4916-4bc3-8cc7-ed3342bf9ce3.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/95024a2a-0b6c-4842-b970-59a49428b7ef.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Velo 3.0",
+      "url": "https://www.producthunt.com/products/velo-4",
+      "published": "2026-07-14T04:21:50-07:00",
+      "author": "Rohan Chaubey",
+      "tagline": "AI video infrastructure to explain, train, and sell faster.",
+      "post_id": "1196222",
+      "summary_zh": "AI 驅動的影片基礎設施，協助企業加速產品解說、培訓與銷售流程。",
+      "image_url": "https://ph-files.imgix.net/5a395b78-27ac-4662-9eac-cb5ce89d165c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/080a8ea7-9366-4e90-bf2d-871ca5f9a7d2.gif?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Branda",
-      "url": "https://www.producthunt.com/products/branda-open-source-on-brand-ad-maker",
-      "published": "2026-07-13T19:16:02-07:00",
-      "author": "Yahia Bakour",
-      "tagline": "Turn any domain into on-brand ads, MIT Open Source",
-      "post_id": "1195790",
-      "summary_zh": "開源工具，可將任何網域轉換為符合品牌風格的廣告素材，採用 MIT 授權。",
-      "image_url": "https://ph-files.imgix.net/50a2d6b0-9eea-4d3e-8344-1a5f4984aa92.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/9516fcdf-a73f-46a8-993c-472e0277084e.png?auto=format&w=960&h=540&fit=crop"
+      "title": "nudge2.0",
+      "url": "https://www.producthunt.com/products/nudge-26",
+      "published": "2026-07-14T21:42:28-07:00",
+      "author": "Shunsuke Nakagawa",
+      "tagline": "AI schedules your whole week to take action",
+      "post_id": "1196852",
+      "summary_zh": "AI 自動排程工具，為使用者規劃整週行動計畫並推動執行。",
+      "image_url": "https://ph-files.imgix.net/01198a53-19e9-494e-a5e9-c0fe0f0e2ec3.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/e9102d44-17e2-4ad0-8c8f-684459c23005.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Agentcard for companies",
-      "url": "https://www.producthunt.com/products/agent-card",
-      "published": "2026-07-13T20:22:01-07:00",
-      "author": "Karen S.",
-      "tagline": "Give your agent a debit card",
-      "post_id": "1195821",
-      "summary_zh": "為企業的 AI 代理提供實體或虛擬簽帳卡，讓代理能自主執行需要付款的任務。",
-      "image_url": "https://ph-files.imgix.net/0fa43230-d539-4c5b-b63a-0ddd949db65c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d379d1b0-0450-4a2d-83e5-e9c5ae31c656.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Crustdata Recruiter",
+      "url": "https://www.producthunt.com/products/crustdata-2",
+      "published": "2026-07-13T20:38:01-07:00",
+      "author": "Garry Tan",
+      "tagline": "Claude Skills to turn Claude into a 100x Recruiter",
+      "post_id": "1195830",
+      "summary_zh": "將 Claude 轉化為高效招募助理的技能套件，提升招募人員工作效率。",
+      "image_url": "https://ph-files.imgix.net/86c6a32c-14bc-454a-8d97-b04065d688c9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/1d864854-76a1-4817-bf89-b22d72dbb2d3.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Flyout",
-      "url": "https://www.producthunt.com/products/flyout",
-      "published": "2026-07-13T03:10:46-07:00",
-      "author": "Görkem Yıldırım",
-      "tagline": "Rich-text notes that fly out from your Mac's screen edge",
-      "post_id": "1195072",
-      "summary_zh": "Mac 應用程式，提供從螢幕邊緣彈出的富文本筆記功能，方便快速記錄與查看。",
-      "image_url": "https://ph-files.imgix.net/3a9c5c7c-d076-4223-9c1c-cb1f61b28d71.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/3283ed58-f81e-417a-92ea-f90a9a890722.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Tiptap AI Toolkit",
+      "url": "https://www.producthunt.com/products/tiptap",
+      "published": "2026-07-14T23:01:24-07:00",
+      "author": "Philip Isik",
+      "tagline": "Empower your AI to directly edit documents in real time.",
+      "post_id": "1196883",
+      "summary_zh": "讓 AI 能夠即時直接編輯文件的工具套件，適合需要整合 AI 寫作功能的應用。",
+      "image_url": "https://ph-files.imgix.net/7df30036-bdd9-4bf9-b060-c9f3452552f0.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/03a74607-3d52-4ef5-a788-8f500bd2263c.jpeg?auto=format&w=960&h=540&fit=crop"
     }
   ],
-  "podcast_briefs": [
+  "podcast_briefs": [],
+  "article_briefs": [
     {
-      "episode_id": "0bcd-2051-41e5-b7a8-ae58366f43a7",
-      "title": "EP679 | 🧌",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/23fa0bcd-2051-41e5-b7a8-ae58366f43a7",
+      "title": "Predicting the AI Interface 30 Years Ago: I Was 71% Right",
+      "url": "https://www.uxtigers.com/post/noncommand-antimac",
       "published": "2026-07-15",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為 AI 工具開始顯露成本與準確性局限，市場則因韓國槓桿斷頭引發全球去槓桿，台股雖大盤僅回檔 10% 內但熱門股修正劇烈，建議縮減部位、聚焦業績股並等待財報季確認方向。\n\n## 1. AI 工具使用瓶頸：成本效益遞減與準確性問題\n- **高階模型燒錢但未必更準：** 使用 Claude Opus 處理 20 多分鐘錄音檔，為追求準確反覆驗證燒掉數千元 token，但對專業領域（如紅酒估價）仍出現明顯錯誤，人眼一看即知的離群值 AI 卻重複驗證。\n- **通用 AI 的領域知識不足：** 測試周杰倫酒櫃估價，AI 將實際約 100 多萬的酒誤報成 1,000 萬以上；Romanée-Conti 1990 後年份實際 60–100 萬卻被估成 300–600 萬，顯示缺乏 domain knowledge。\n- **策略轉向成本控管：** 主講人開始從追求最新模型轉向使用 GPT-4o 等較便宜方案，認為對自己的使用情境（資料整理、摘要）而言 Opus 與 4o 差距已不大，不值得多花數倍 token 成本。\n- **AI 治理警示：** 強調 AI 需要人為 govern 和 harness，不能完全信任其決策，否則可能在法規、合約等關鍵領域釀成重大風險（如近期社會事件因規定對接錯誤導致人命損失）。\n\n## 2. 韓國槓桿斷頭引爆全球去槓桿：市場殺人誅心盤\n- **韓國散戶槓桿失控：** 韓國綜合指數本身波動就是一般市場 2–3 倍（記憶體產業占比近半、整天熔斷），散戶再開 2–3 倍 ETF/融資槓桿，本金又可能來自信貸，實際槓桿保底 9–10 倍甚至十幾倍以上。\n- **被迫平倉引發踩踏：** 與去年 3 月美國有序 deleverge 不同，韓國是「被迫平倉、人踩人」，主講人形容韓國人像「待宰羔羊」、「金融恐怖分子」，過去 Archegos 事件、Luna 幣、Tesla/Palantir 高檔光速回檔都有韓國槓桿推波助瀾。\n- **台股受波及但相對克制：** 台灣融資環境已提前收緊（券商封控單檔上限、暫停新增額度、禁止先用途止壓），主講人自己 2 億額度只能下 6,000 萬；連續大跌日融資僅減 100 多億（預期應減 200–300 億），顯示「大家賺太多還不想賣」。\n- **大盤僅回 10% 內但個股慘烈：** 台股指數距高點約 8–10%、逼近季線，理論上 2–2.5 倍槓桿應回 16–20% 內；但熱門股（被動元件、功率、載板、細金線）因籌碼擁擠回吐 20–30% 以上。\n\n## 3. 盤面輪動加速與策略調整：從追強勢轉向區間操作\n- **熱門族群修正劇烈、籌碼集中：** 細金線、載板因市場資金全數湧入（「猴子都知道是最強」），主講人觀察身邊高槓桿交易者全部擠進這些族群，預期下一波修正將輪到這些強勢股。\n- **不再追逐輪動、改做區間操作：** 過去習慣「哪裡強切哪裡」（衛星→載板光設備→被動功率），但現在擔心「越追越死、越動能越被修理」；比喻盤面像《糖豆人》地板越踩越少，不想在震盪中虧 30% 卻大盤僅 ±5%。\n- **逢低加碼但設停損：** 近幾日在重挫時加碼心儀標的（尚未買滿部位者），但若反彈後再破底會先砍加碼單、甚至縮減原持股；若大盤跌破季線將「提早扣現金」、部位降至更低水位（8 月出國前進一步降倉）。\n- **聚焦財報季與業績股：** 7 月底 IDM 廠財報會議將確認「功率元件、封測需求旺盛」能否延續；過去休息較久的族群（載板設備、光通設備、產物險）或開始盤整末端者可能接棒，但「心態已壞掉的、大頭部形態的」標的優先砍掉換股。\n\n## 4. 產業觀察：載板/CCL/封測供需仍緊、被動元件不再評論\n- **載板/CCL：** 持續匱乏、Lead Time 拉長甚至暫停交貨，「整天發漲價信已麻木」；主講人認為「人盡皆知、法人推到上千上萬」但基本面 no change，屬長期故事不再節目反覆討論。\n- **封測全線緊繃：** 昨日（6770）利基型封測法說透露功率 MOSFET 封裝「滿很久、客戶一直催加單」；KYEC（AI 封測）、金橋（TSMC CoS 外包）、功率 IC 後段封測皆供不應求，後續看漲價延續。\n- **被動元件：** 產業面「Lead Time 拉長、暫停交貨」狀況不變，但「股價炒太遠」主講人不再評論估值合理性；記憶體類比認為可能走「橫盤居於整理」但不確定時程。\n- **細金線偏貴偏早：** 報價將上漲、展望佳，但庫存仍偏高、評價偏貴；市場提前反映或因「過去未明顯拉升」而補漲，主講人認同基本面但不追高。\n\n## 5. 風險控管心態轉變：從追求最大獲利到規避大額回吐\n- **2022 年教訓：** 當年因 2020–2021 連續大賺「有點膨脹」，烏俄戰爭時錯估影響、不捨得賣持股而遭回吐；後期啟動 long-short 策略（多單為主、配部分空單對沖）才穩住。\n- **本波尚未啟動避險：** 目前大盤僅回 8–10%、能見度仍佳，主講人「還沒想過用空單」；需先回 12–15% 才考慮策略調整，但會「提早扣現金、縮部位」而非等大破線。\n- **時機判斷的代價：** 提早減倉若後來全面噴出會「帶 20% 現金空踏」，但主講人表示「我已不想忍受太大回吐，寧願犧牲部分上檔」；強調「每個決定都有代價，知道代價是什麼即可」。\n- **融資管道緊縮：** 券商封控門檻下降（單檔數千萬上限、須簽切結書、舊額度不敢還怕被收回），「營業員說內部討論設白名單機制」類似防詐騙邏輯；主講人因「已沒什麼槓桿可縮」反而老神在在，但也「無法像過去那麼翹」。\n\n## 結論與後市展望\n主講人認為當前並非產業基本面惡化（AI 需求、載板封測、IDM 展望皆佳），而是「資金面影響＋韓國槓桿觸發全球去槓桿」導致熱門股修正劇烈。策略上不再追逐強勢股輪動，改採「區間操作、逢低小量加碼、設嚴格停損」，並等待 7 月底財報季確認產業動能；若大盤跌破季線將大幅扣現金，8 月出國前進一步降低部位。強調「不要在震盪中把錢賠光」比追求最大獲利更重要，並提醒散戶勿盲信 AI、須保持對標的的信念（conviction）與獨立判斷，「下跌時還能開心加碼才是真 faith」。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-07-15"
-    },
-    {
-      "episode_id": "2360851019",
-      "title": "2026/7/15(三)股市大怒神?海力士狂飆 IBM大崩 通膨降溫 回調結束了?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-7-15-ibm",
-      "published": "2026-07-15",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為川普政策快速反覆、通膨降溫、聯準會可能全年不升息，資金開始從科技巨頭輪動到小型股與傳產，但所有行情仍建立在 AI 投資能否兌現的賭注上。\n\n## 1. 川普政策反覆：從極端要價到收割成果\n- **荷姆茲海峽關稅朝令夕改：** 川普原提荷姆茲海峽 20% 通行費，不到一天即撤回，改要求波斯灣國家對美投資；布蘭特油價回落至 80 美元上下，抑制通膨壓力。\n- **「先開天價再退讓」談判模式：** 主講人形容川普交易藝術為「控制議題再談條件」——先拋極端要求（如 50% 關稅、格陵蘭主權），最後讓對方接受原本不可能同意的投資或軍費承諾。\n- **貿易戰實際成效有限：** 美國 5 月貿易逆差擴大 42%（2025 年 3 月來新高），台灣對美順差創高；主講人認為川普真正目的是「投資增加」而非貿易平衡，供應鏈繞道中國但未完全脫鉤。\n\n## 2. 通膨降溫與聯準會態度：全年不升息機率高\n- **6 月 CPI 大幅回落：** 年增 3.5%（前值 4.2%，預估 3.8%），單月下跌 0.4%（2020 年 4 月疫情來最大降幅）；汽油價格跌 9.7%，核心通膨從 2.9% 降至 2.6%。\n- **市場下修升息預期：** 原估 10 月升一碼，現延至 12 月；主講人預期「今年可能真的符合五碼達成（不升不降）」，認為中性政策最利 AI 自由發展。\n- **華許首秀與鮑爾一致：** 新任聯準會主席華許承諾「不容許高通膨長期存在」，但重視 AI 生產力提升對物價影響；主講人指出川普不再批評華許，因政策方向與鮑爾無異。\n\n## 3. 美股內部輪動：小型股牛市、巨頭分化\n- **羅素 2000 進入牛市：** 今年漲逾 20%，為 20 年最佳表現；標普 500 漲 10%，科技七雄漲幅不到 3%；主講人認為中小型股受惠經濟韌性與非掛牌企業資金輪動。\n- **個股劇烈分化：** SK 海力士 ADR 單日飆 27%、IBM 暴跌 25%（1968 年來最大跌幅，因企業客戶資本支出從大型主機轉向 AI 伺服器）；銀行股財報亮眼（摩根大通淨利增 41% 達 212 億美元、高盛增 80%）。\n- **AI 發債潮消化不良：** 六大巨頭（Google、Amazon、Meta、輝達、SpaceX、特斯拉）今年發債 2,440 億美元（去年 1,080 億、2024 年 17 億），近期新債價格下跌；主講人擔心基金保留資金等下一波、利率可能更高，股債聯動風險上升。\n\n## 4. 川普內政整肅：聯邦政府瘦身與文化戰爭\n- **外交體系大裁員：** 國務院一年裁 2,800 人（十年最大減幅），六成駐外大使懸缺，101 位提名大使中僅 9 人為職業外交官（占 9%，打破 60 年慣例）；主講人認為川普要省錢並讓外交官成親信。\n- **個人權威塑造：** 佛州機場改名「川普機場」（費用 1.8 億台幣）、周邊道路改「川普總統大道」；華盛頓將興建 250 英尺凱旋門。\n- **文化戰爭擴大：** 司法部調查華盛頓州女子監獄允許「自認女性」男囚入住；財政部修改非營利組織 990 表格，揭露左派 NGO 資金網；TrumpRX 平台增 600–900 種學名藥壓低藥價，擴大學校營養午餐補助（每份 4–5 美元）。\n\n## 5. 台韓與全球市場：供應鏈韌性與地緣調整\n- **台灣順差創高、美成最大進口國：** 關稅戰後台灣對美貿易順差反增；美國已成台灣最大天然氣與石油進口國（亞洲各國因中東危機轉單美國）。\n- **韓國散戶「斷頭潮」：** SK 海力士等記憶體股與韓股散戶大幅波動，主講人提醒「5%、10% 還算回調嗎？可能只是單日正常波動」。\n- **杜拜新港口繞開荷姆茲：** 杜拜宣布建新港從阿曼灣進出，中東國家將美伊衝突視為長期常態；主講人認為全球能源調整已啟動，美國 LNG 出口商成贏家。\n\n## 結論與後市展望\n主講人認為川普透過政策反覆與極端要價逐步收割成果（投資增加、通膨壓制、選情鋪墊），聯準會全年不升息機率高，有利 AI 行情延續；但市場內部已從科技巨頭輪動至小型股與傳產，所有資產價格（股票、債券）仍高度依賴 AI 投資能否兌現——「真正問題不是花不花錢，是資金能否配置在創造未來價值的地方」。提醒投資人「悲觀的人看什麼都悲觀」，關鍵在於是否相信技術革命；逢低布局優質股仍可行，但需留意巨頭發債規模與股債聯動風險。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-07-15"
+      "author": "Jakob Nielsen",
+      "summary_md": "## 一句話總結\n作者在 1993 與 1996 年預測電腦將從命令式介面轉向推論使用者意圖的介面，30 年後以 23 項具體預測逐一檢視，結果正確率達 71%，最準的是「語言成為主要介面」，最失準的是「專家使用者」假設——AI 反而成為降低技能門檻的平等化工具。\n\n- **語言介面命中率 95%：** 作者 1996 年預測「描述後下指令」會取代「看到再點擊」，如今對話式 AI 的空白文字框與提示詞互動正是這個模式，連當年設想的「參考館員式協商對話」都在多輪對話中實現。\n\n- **代理 AI 實現高階委派：** 作者批評直接操作把使用者變成「流水線工人」而非「主管」；2026 年的 agentic AI 讓使用者陳述目標、委派步驟、審查結果，正是當年呼籲的高階指令模式,並開始跨應用程式執行任務。\n\n- **專家使用者預測失準(25%)：** 作者當年認為未來介面會像學母語一樣需要數年學習、服務「後任天堂世代」的高階使用者;現實卻相反——MIT 與史丹佛研究顯示 AI 讓新手客服績效提升 30-66%,資深員工幾乎無增益,AI 成了「心智堆高機」,最幫助技能最弱的人。\n\n- **「結構化資料謬誤」是最大盲點：** 兩篇論文都認為電腦需要標準化的屬性、標籤與資料交換格式才能智慧運作(也未提過「機器學習」),但大型語言模型直接從雜亂非結構化文字學習意涵,根本不需人工標註——這解釋了為何願景延遲 30 年:當年指明了目的地,但交通工具尚未發明。\n\n- **Mac 原則在 AI 時代回歸：** 作者當年刻意反轉 Mac 介面守則(如可回復性、回饋、使用者控制),但 2026 年的 agentic AI 反而急需這些原則作為安全措施——undo 變成「不可逆動作前的檢查點」、回饋變成「串流推理過程」、一致性變成「同樣請求產生穩定品質」的要求。\n\n- **願景落差定律 20-30 年：** 作者定義「vision lag」為研究展示到成為主流的時間,滑鼠從 1968 年展示到 1990 年代普及歷時約 25 年,對話介面從 1980 年代原型到 2023 年 ChatGPT 也是類似時程,據此推估今日腦機介面實驗室 demo 可能要到 2050 年才會普及。\n\n## 對設計／產品的啟示\n作者建議:預測時應聚焦於人類需求的原則(如「人們會委派更多工作」)而非技術押注(如「2028 年智慧眼鏡勝出」);每個打破舊規則的新典範都該在第一天就把違反的原則(undo、回饋、控制權)列為安全待辦清單;始終押注「降低技能門檻」而非「僅供專家」的設計方向,因為歷來每一代獲勝介面(GUI 打敗命令列、觸控打敗滑鼠、提示詞打敗寫程式)都是這樣。此外,別因機制失敗就否定預測的方向,也別因機制展示順利就過度信任——目的地可能對,但抵達的載具往往出乎意料。\n\n---\n*本筆記為文章重點摘要,完整內容請見原文。*",
+      "first_shown": "2026-07-16"
     }
-  ],
-  "article_briefs": []
+  ]
 }

@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-16",
+    "date_display": "2026 年 07 月 16 日",
+    "generated_at": "2026-07-16T08:56:07.845702+08:00",
+    "total": 8,
+    "sources": [
+      "Design",
+      "UX Design"
+    ],
+    "headline": "推出 improve-ui 技能工具，能讀取專案的設計系統文件（DESIGN.md、CSS、共用元件等），自動檢查 UI 是否違反自身設計規範並產生修正計畫。靈感來自 shadcn 的 improve skill。"
+  },
+  {
     "date": "2026-07-15",
     "date_display": "2026 年 07 月 15 日",
     "generated_at": "2026-07-15T08:55:52.874050+08:00",
@@ -952,18 +963,5 @@
       "Vibe Coding"
     ],
     "headline": "回應「週末就能 vibe coding 做出來」的論調，指出現實中 90% 以上程式碼是在維護和遷移既有的複雜系統，vibe coding 只適合剩下的 10%；原推文也強調品質與深度系統仍需時間累積，無法速成。"
-  },
-  {
-    "date": "2026-04-16",
-    "date_display": "2026 年 04 月 16 日",
-    "generated_at": "2026-04-16T23:41:52.787933+08:00",
-    "total": 10,
-    "sources": [
-      "AI Tool",
-      "Product Design",
-      "Product Management",
-      "Vibe Coding"
-    ],
-    "headline": "隨著 AI agent 加速編碼過程，軟體工程的未來將面臨「產品管理瓶頸」：我們更受限於決定該做什麼，而非實際建造本身。"
   }
 ]
