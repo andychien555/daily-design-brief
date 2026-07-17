@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-17",
+    "date_display": "2026 年 07 月 17 日",
+    "generated_at": "2026-07-17T08:56:34.083216+08:00",
+    "total": 6,
+    "sources": [
+      "Design"
+    ],
+    "headline": "Kimi-K3 在 Frontend Code Arena 拿下第一，超越 Claude Fable 5，排名從 #18 躍升至 #1，在品牌行銷、參考設計、數據分析等 7 個領域中有 6 個領域排名第一。"
+  },
+  {
     "date": "2026-07-16",
     "date_display": "2026 年 07 月 16 日",
     "generated_at": "2026-07-16T08:56:07.845702+08:00",
@@ -952,16 +962,5 @@
       "Vibe Coding"
     ],
     "headline": "Anthropic 推出 Claude Design 讓使用者透過對話製作原型、簡報與文件，作者認為這對 Figma 這個 100 億美元的設計工具壟斷者構成威脅。此推文引發大量討論，反映設計工具市場正面臨 AI 帶來的典範轉移。"
-  },
-  {
-    "date": "2026-04-17",
-    "date_display": "2026 年 04 月 17 日",
-    "generated_at": "2026-04-17T15:30:28.519438+08:00",
-    "total": 8,
-    "sources": [
-      "AI Product",
-      "Vibe Coding"
-    ],
-    "headline": "回應「週末就能 vibe coding 做出來」的論調，指出現實中 90% 以上程式碼是在維護和遷移既有的複雜系統，vibe coding 只適合剩下的 10%；原推文也強調品質與深度系統仍需時間累積，無法速成。"
   }
 ]
