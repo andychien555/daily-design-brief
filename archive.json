@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-18",
+    "date_display": "2026 年 07 月 18 日",
+    "generated_at": "2026-07-18T08:55:58.019457+08:00",
+    "total": 1,
+    "sources": [
+      "UX Design"
+    ],
+    "headline": "有人將 Claude 打造成完整的虛擬公司組織架構，涵蓋 42 種技能並模擬真實企業部門分工，提供各類開發者工具與技能模組的連結。這種將 AI 助理結構化、角色化的應用方式，對產品設計者思考 AI 工具的組織與賦能有參考價值。"
+  },
+  {
     "date": "2026-07-17",
     "date_display": "2026 年 07 月 17 日",
     "generated_at": "2026-07-17T08:56:34.083216+08:00",
@@ -949,18 +959,5 @@
       "Vibe Coding"
     ],
     "headline": "Anthropic 推出 Claude Design，可透過對話生成原型、簡報與文件，由最強視覺模型 Opus 4.7 驅動，現於 Pro 以上方案逐步開放。此功能引發業界對 Figma、Adobe 等設計工具的衝擊討論。"
-  },
-  {
-    "date": "2026-04-18",
-    "date_display": "2026 年 04 月 18 日",
-    "generated_at": "2026-04-18T11:44:39.465192+08:00",
-    "total": 10,
-    "sources": [
-      "AI Product",
-      "Design",
-      "UX Design",
-      "Vibe Coding"
-    ],
-    "headline": "Anthropic 推出 Claude Design 讓使用者透過對話製作原型、簡報與文件，作者認為這對 Figma 這個 100 億美元的設計工具壟斷者構成威脅。此推文引發大量討論，反映設計工具市場正面臨 AI 帶來的典範轉移。"
   }
 ]
