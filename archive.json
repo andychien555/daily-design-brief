@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-19",
+    "date_display": "2026 年 07 月 19 日",
+    "generated_at": "2026-07-19T08:55:51.817653+08:00",
+    "total": 3,
+    "sources": [
+      "Design",
+      "UX Design"
+    ],
+    "headline": "作者友人 Dean Ball 提出保護美國前沿 AI 供應商的論點，不是透過國會立法禁止中國開源模型，而是採用更符合現代治理特徵的做法。討論觸及 AI 政策與國家安全的微妙平衡。"
+  },
+  {
     "date": "2026-07-18",
     "date_display": "2026 年 07 月 18 日",
     "generated_at": "2026-07-18T08:55:58.019457+08:00",
@@ -946,18 +957,5 @@
       "Product Management"
     ],
     "headline": "Anthropic 在未給理由的情況下直接封禁一家 60 人付費組織帳號，全交由自動化系統處理且無人工審查管道，顯示出對企業客戶支援的輕忽態度。"
-  },
-  {
-    "date": "2026-04-19",
-    "date_display": "2026 年 04 月 19 日",
-    "generated_at": "2026-04-19T18:32:40.169508+08:00",
-    "total": 10,
-    "sources": [
-      "Anthropic",
-      "Claude Design",
-      "Design",
-      "Vibe Coding"
-    ],
-    "headline": "Anthropic 推出 Claude Design，可透過對話生成原型、簡報與文件，由最強視覺模型 Opus 4.7 驅動，現於 Pro 以上方案逐步開放。此功能引發業界對 Figma、Adobe 等設計工具的衝擊討論。"
   }
 ]

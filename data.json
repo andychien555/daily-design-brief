@@ -1,28 +1,47 @@
 {
-  "date": "2026-07-18",
-  "date_display": "2026 年 07 月 18 日",
-  "generated_at": "2026-07-18T08:55:58.019457+08:00",
-  "since_date": "2026-07-16",
+  "date": "2026-07-19",
+  "date_display": "2026 年 07 月 19 日",
+  "generated_at": "2026-07-19T08:55:51.817653+08:00",
+  "since_date": "2026-07-17",
   "top_tweets": [
     {
-      "id": "2077733367358079309",
-      "text": "Someone turned Claude into an entire company.\n\n42 skills, organised like a real org chart (links below):\n\nHere is every department, and where to get each one.\n\nDevelopers\n\nSuperpowers → https://t.co/DTcROo2MvH\nContext7 → https://t.co/5UIwubYM4W\nSkill Creator → https://t.co/ezwpBgerhy",
-      "author": "sairahul1",
-      "name": "Rahul",
-      "likes": 2735,
-      "retweets": 475,
-      "replies": 48,
-      "created": "Thu Jul 16 12:33:31 +0000 2026",
-      "url": "https://x.com/sairahul1/status/2077733367358079309",
+      "id": "2078500818127315290",
+      "text": "My friend Dean Ball has advanced an argument for the de facto protection of American frontier intelligence providers.\n\nDean does not propose banning Chinese open-weight models. Banning things requires Congress. He proposes something more characteristic of the modern",
+      "author": "WillManidis",
+      "name": "Will Manidis",
+      "likes": 824,
+      "retweets": 83,
+      "replies": 65,
+      "created": "Sat Jul 18 15:23:06 +0000 2026",
+      "url": "https://x.com/WillManidis/status/2078500818127315290",
+      "source": "Design",
+      "summary_zh": "作者友人 Dean Ball 提出保護美國前沿 AI 供應商的論點，不是透過國會立法禁止中國開源模型，而是採用更符合現代治理特徵的做法。討論觸及 AI 政策與國家安全的微妙平衡。"
+    },
+    {
+      "id": "2078564728272564476",
+      "text": "Can someone PLEASE tell me why vaccine companies get to test new jabs for new indications not against placebo, or even adjuvanted saline, but against older shots for different diseases to generate safety data?\n\nWhere is the placebo control in this design? How is this ethical?",
+      "author": "AlexBerenson",
+      "name": "Alex Berenson",
+      "likes": 1079,
+      "retweets": 157,
+      "replies": 113,
+      "created": "Sat Jul 18 19:37:03 +0000 2026",
+      "url": "https://x.com/AlexBerenson/status/2078564728272564476",
+      "source": "Design",
+      "summary_zh": "質疑疫苗公司測試新適應症時，為何不使用安慰劑對照，而是用其他疾病的舊疫苗來產生安全性數據，認為這種試驗設計缺乏倫理基礎。"
+    },
+    {
+      "id": "2078428461085966666",
+      "text": "To learn AI automation for free check here https://t.co/j9sKKVDEQI\n\nTo learn Digital Marketing for free check here https://t.co/jedNjIkzHW\n\nTo learn UI/UX design for free check here \nhttps://t.co/B3HJXDKTuM\n\nFor AI YouTube automation check here https://t.co/qN1Nwd5HLV\n\nRepost, https://t.co/mp6T3nIVr2",
+      "author": "madamayo_",
+      "name": "Miss.ayo.artss",
+      "likes": 1125,
+      "retweets": 384,
+      "replies": 64,
+      "created": "Sat Jul 18 10:35:35 +0000 2026",
+      "url": "https://x.com/madamayo_/status/2078428461085966666",
       "source": "UX Design",
-      "summary_zh": "有人將 Claude 打造成完整的虛擬公司組織架構，涵蓋 42 種技能並模擬真實企業部門分工，提供各類開發者工具與技能模組的連結。這種將 AI 助理結構化、角色化的應用方式，對產品設計者思考 AI 工具的組織與賦能有參考價值。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "summary_zh": "免費學習資源整理推文，涵蓋 AI 自動化、數位行銷、UI/UX 設計和 AI YouTube 自動化等多個領域，但屬於典型資源彙整型內容。"
     }
   ],
   "criteria": {
@@ -105,26 +124,15 @@
   },
   "top_products": [
     {
-      "title": "Basedash Suggestions",
-      "url": "https://www.producthunt.com/products/basedash",
-      "published": "2026-07-16T07:57:03-07:00",
-      "author": "Max Musing",
-      "tagline": "Your AI data analyst, now with ideas of its own.",
-      "post_id": "1198296",
-      "summary_zh": "具備主動建議功能的 AI 數據分析助手，能自主提出資料洞察與分析想法。",
-      "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a3276df3-2b26-4b0c-96ef-2a32c2541382.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Aye",
-      "url": "https://www.producthunt.com/products/aye-browser",
-      "published": "2026-07-15T22:07:19-07:00",
-      "author": "Xiao Chen",
-      "tagline": "Your teachable AI intern for everyday browser work",
-      "post_id": "1197816",
-      "summary_zh": "可訓練的 AI 助手，協助使用者處理日常瀏覽器內的重複性工作任務。",
-      "image_url": "https://ph-files.imgix.net/8684092e-6197-4bf1-8e8e-ba0c197c2e4e.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/ac33a762-ce24-4d84-b42c-9433747a0dc8.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Kimi K3",
+      "url": "https://www.producthunt.com/products/kimi-ai-assistant",
+      "published": "2026-07-16T19:39:47-07:00",
+      "author": "Zac Zuo",
+      "tagline": "The world's first open 3T-class model",
+      "post_id": "1198643",
+      "summary_zh": "全球首個開源的 3T 級別 AI 模型，面向需要大規模參數模型的開發者與研究人員。",
+      "image_url": "https://ph-files.imgix.net/be76baa0-d4e9-4f86-ae51-cb94d9b86787.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/68fb16b8-d46f-4e2e-b40d-4224d3ad9f51.png?auto=format&w=960&h=540&fit=crop"
     },
     {
       "title": "Scribble Party",
@@ -133,64 +141,11 @@
       "author": "Dakota Kim",
       "tagline": "A local-first whiteboard studio for teachers and creators",
       "post_id": "1198652",
-      "summary_zh": "專為教師與創作者設計的本地優先白板工作室，支援離線協作與教學使用。",
+      "summary_zh": "一款本地優先的數位白板工具，專為教師與內容創作者設計，用於教學與創意協作。",
       "image_url": "https://ph-files.imgix.net/b86cba90-9c03-4400-a3cb-3afdedf7254d.png?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/75ec6eda-5725-49af-8950-ca4ef20ef4b1.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "PixyCAD",
-      "url": "https://www.producthunt.com/products/pixycad-3d-solid-modelling",
-      "published": "2026-07-16T00:15:45-07:00",
-      "author": "Andrea Sartori",
-      "tagline": "Fast & precise 3D CAD built natively for iPad and Mac",
-      "post_id": "1197914",
-      "summary_zh": "原生支援 iPad 和 Mac 的 3D CAD 軟體,提供快速且精準的建模體驗。",
-      "image_url": "https://ph-files.imgix.net/869bb174-98d7-4995-b6fd-22269f1eb48e.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/acecad39-22da-422a-9d5f-4e75bd7d9fb5.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Kimi K3",
-      "url": "https://www.producthunt.com/products/kimi-ai-assistant",
-      "published": "2026-07-16T19:39:47-07:00",
-      "author": "Zac Zuo",
-      "tagline": "The world's first open 3T-class model",
-      "post_id": "1198643",
-      "summary_zh": "全球首個開源的 3T 級別大型語言模型。",
-      "image_url": "https://ph-files.imgix.net/be76baa0-d4e9-4f86-ae51-cb94d9b86787.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/68fb16b8-d46f-4e2e-b40d-4224d3ad9f51.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Timely",
-      "url": "https://www.producthunt.com/products/timely-9",
-      "published": "2026-07-16T13:38:51-07:00",
-      "author": "James Ketteringham",
-      "tagline": "Pull your calendar availability in 3 seconds",
-      "post_id": "1198501",
-      "summary_zh": "快速提取行事曆可用時段的工具，3 秒內即可完成查詢。",
-      "image_url": "https://ph-files.imgix.net/08c6e970-0827-464a-b8d6-f3b25edbf2cd.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d123073e-00fe-42d1-b541-48579a78d5b2.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
-  "podcast_briefs": [
-    {
-      "episode_id": "8c03-5a1b-4cf9-b87f-3354f50c3cde",
-      "title": "EP680 | 💔",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/07b58c03-5a1b-4cf9-b87f-3354f50c3cde",
-      "published": "2026-07-18",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人因台積電財報後暴跌 6% 導致淨值從高點回檔超過 15%，決定轉為防守模式，後續將以台積電、指數（台指期、0050）為主要配置，並強調在市場估值修正期要優先守住上半年獲利。\n\n## 1. SpaceX 參訪經驗與企業文化：速度至上的火箭公司\n- **工廠參訪門檻極高：** 2024 年透過聽眾引薦參觀 SpaceX Hoffen 工廠，須嚴格身份審查且有 non-China policy（中國籍禁入）；台灣人因常被誤認為 part of China 而需特別確認。\n- **Maczilla 筷子周邊：** SpaceX 將第一代 Starship 機械手臂（俗稱「筷子」）熔化後製成約 4,500 副筷子，僅供內部員工採購；主講人取得一副作為收藏。\n- **激進的速度文化：** 公司要求工程師直接開 mass production 規格而非慢慢做實驗；寧可選擇價格高十倍但兩個月交貨的供應商，也不選六個月的便宜選項；甚至有 Junior 工程師直接催促高層主管 Gwen，對方立刻核准需求。\n- **內部交通工具：** 員工可搭 shuttle plane 往返德州發射基地與加州；在 U 型海灣兩端配置氣垫船由退役軍官駕駛，加速員工通勤。\n\n## 2. 台積電 Q2 財報與市場反應：數據亮眼但股價重挫\n- **財報數據超預期：** EPS 27.25 元、毛利率 67.7%（市場曾有人喊到 70% 但主講人認為不切實際）；CAPEX 從原估 52–56B 上修至 60–64B，營收年增預估從 30% 調升至 40%。\n- **Q3 展望保守但可能低估高報：** 預估毛利率 65–67%、營業利潤率 56–58%；主講人認為最終數字會落在區間上緣或更高。\n- **先進封裝產能緊俏：** 法說會提到後段先進封裝極度吃緊；若競爭對手（如 Intel 的 EMIP-T）能做好，反而有利台積電前段產能釋放。\n- **股價暴跌 6% 難以解釋：** 隔天 ADR 直接下跌；主講人認為法說內容與展望皆佳，無明顯敗相，推測市場進入分化與估值修正階段。\n\n## 3. 個人操作策略轉為防守：從進攻轉向保成果\n- **淨值回檔觸發防守模式：** 持股已超過一半為台積電，週五台積電跌 6% 後淨值從高點回檔超過 15%，達到預設停損標準。\n- **不再追逐高 Beta 與題材股：** 過去半年偏好買題材、買夢、讓本夢比上修（戴維斯雙擊），但現在認為估值（P ratio）修正壓力持續，將改以「業績股 + 指數 + 台積電」為主。\n- **指數與台指期為主要工具：** 參考過往在市場崩殺時將資金停泊於指數的經驗；主講人信奉「市場長期向上」，不認同「現金為王」，因現金會貶值且容易錯失反彈。\n- **不期待估值快速修復：** 假設高點平均 P/E 為 25 倍，現階段可能回到 12–13 倍，但後續反彈目標僅設在 18–20 倍，不期待短期回到 25 倍的瘋狂估值。\n\n## 4. 市場結構觀察：分化與估值修正並行\n- **台股與美股分化明顯：** 標普仍在新高附近、台股扣除週五跌幅也在高點，但大量中小型股已跌超過兩成；美股中 SOX 成分股（CPU、ASIC 相關）跌幅亦重，但科技巨頭與軟體股再次轉強撐住指數。\n- **台積電佔比過高影響指數：** 台股指數組成高度仰賴台積電，只要台積電夠強指數回檔僅 5–6%，但多數散戶中小配置已回檔兩成以上。\n- **融資未大幅下降：** 顯示上半年獲利豐厚，真正受傷的是高檔才進場或 FOMO 的投資人；絕大多數人帳上仍有獲利，但擔心繼續加碼或 Buy and Hold 會讓績效歸零。\n- **產業基本面未惡化：** 記憶體、被動元件、光通訊等族群雖跌深，但產業前景無重大問題；主講人認為當前回檔主因是估值修正與資金面殺盤，而非基本面轉差。\n\n## 5. 市場雜音與誤判風險：Kimi K3、DeepSeek 式恐慌再現\n- **Kimi K3 引發 AI 效率恐慌：** 市場傳出中國開源模型 Kimi K3（2.8 兆參數）可能降低 AI 伺服器需求；主講人認為這與 DeepSeek 事件類似，屬市場誤判——高參數模型仍需高規格硬體，反而會因效率提升而被更多人採用，總消耗量更大（Jevons Paradox）。\n- **成熟製程、記憶體等壞消息頻傳：** 市場開始出現各種負面敘事（如台積電搶成熟製程生意、記憶體需求減少），但主講人認為多為恐慌情緒主導，缺乏產業實證。\n- **韓國槓桿 ETF 爆倉引發連鎖反應：** 主講人推測韓國大量槓桿 ETF 先爆炸，影響全球市場情緒，導致各市場進行修正；這可能是此波回檔的資金面觸發點。\n\n## 6. 個人心態調整與風險管理建議\n- **不追漲改為「買黑不買紅」：** 現階段形態好的標的（在季線、月線之上）越來越少，主講人擔心暫時的避風港後續資金又會流出，因此改採更保守策略。\n- **股票質押應急但需控制槓桿：** 若需周轉現金，可用股票質押（如 1,000 萬部位僅質押 50 萬），風險趨近於零；但強調不可開到極限（如 1,000 萬質押 600 萬再融資買股），否則易爆倉。\n- **接受回檔是市場常態：** 主講人以 2022 年烏俄戰爭為例，當時事件影響並非長遠，但市場修正長達一年；強調重點在「如何好好 navigate 並活下來」，而非預測高低點。\n- **新進場者須繳學費：** 5–6 月才加入市場的投資人必然受創最重，但這是進入市場的必經過程；主講人鼓勵將回檔視為壓力測試，檢視自己的承受能力。\n\n## 結論與後市展望\n主講人認為台積電法說展望佳、產業基本面未惡化，但市場已進入估值修正期，短期不期待回到高點本夢比；後續將以「業績股 + 指數（台指期、0050）+ 台積電」為主要配置，不再追逐高 Beta 題材股。強調「市場長期向上」信念，不持有現金而改以指數承接，並提醒投資人專注守住上半年獲利、耐心等待下一波明確訊號再重啟進攻。對於產業面利空（如 Kimi K3、成熟製程競爭）持保留態度，認為多屬市場恐慌而非實質威脅。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-07-18"
-    }
-  ],
-  "article_briefs": [
-    {
-      "title": "UX Roundup: Usability of AI “Skills” | UXR Job Listings | AI Comics Help Learning | Quick View | The AI Economy | Social Learning | Automated Ads",
-      "url": "https://www.uxtigers.com/post/ux-roundup-20260717",
-      "published": "2026-07-17",
-      "author": "Jakob Nielsen",
-      "summary_md": "## 一句話總結\n作者指出 AI 時代的 UX 工作正從親手設計轉向「預先設計別人如何被服務」——技能包作者為數千名使用者定義互動規則、資料漫畫預先咀嚼分析結論、而 AI 工具採用靠同事展示而非手冊訓練。\n\n---\n\n- **AI 技能包存在嚴重維護問題：** 研究分析 41,662 個技能包發現，70.3% 是逐字複製、53% 從未更新、40.2% 錯過原版的錯誤修正。最關鍵的是，63% 技能包定義了 AI 如何與人類互動（如需使用者同意才執行操作），但這些互動規則幾乎不被更新——原始作者實際上在為數千個下游部署進行互動設計。\n\n- **UX 研究職缺出現 AI 技能溢價與資歷緊縮：** 分析 1,593 個職位發現，提及 AI 的職缺薪資中位數為 $178k，比未提及的高出 15%（約 $23k/年）；AI 要求占比從 2024 年 10% 成長至 2026 年 35%。但 2/3 職缺針對資深等級，僅 10% 歡迎早期職涯研究者——且「建構 AI 產品」比「用 AI 工具做研究」被要求的頻率高 81%。\n\n- **AI 生成資料漫畫讓學生理解力提升超過一倍：** Monash 大學對 60 名學生的實驗顯示，AI 繪製的資料漫畫準確度中位數達 75% vs. 傳統圖表 33%；理解題提升 42 個百分點，需整合多項見解的題目答對率 100% vs. 33%。但矛盾的是，75% 學生在揭露 AI 生成後表達對錯誤資訊的擔憂——即使他們剛因這些材料表現好一倍。\n\n- **AI 工具採用是社交傳播而非訓練成果：** Microsoft 追蹤數萬名工程師發現,當超過 1/4 的跨級同儕已使用工具時，嘗試機率提高 216%（最強預測因子）；主管使用提高 82%。NBER 調查顯示雇主鼓勵時採用率達 47%，保持沉默時僅 10%——而正式訓練對採用率無預測力。\n\n- **GenAI 經濟成長速度是網際網路的 3 倍：** Exponential View 報告測量過去 12 個月 GenAI 營收達 $1,100 億美元（年化 $1,750 億）；現在不到 2 天即可增加 $10 億美元累積營收，3 年內加速 90 倍。但這仍僅佔美國 GDP 的 0.42%，且 70% 企業 AI 聲明聚焦於成本節省而非新商業模式。\n\n- **快速預覽設計的最大陷阱是被誤認為完整資訊：** 作者基於對真實購物者的觀察研究，提出 8 項準則——其中最關鍵的是在覆蓋層內放置明顯的「查看完整細節」按鈕（而非小字），並確保與頁面視覺區隔、保持背景列表可見，避免使用者將預覽誤認為產品頁面而陷入決策死胡同。\n\n## 對設計／產品的啟示\n\n作者建議 UX 工作者應將重心從「設計單一介面」轉向「設計可被重用的互動契約」——技能包創建者應優先設計同意機制、升級規則和失敗訊息（因為這些最少被編輯，影響所有下游使用者）；將描述寫成列舉具體觸發情境的微內容;定期刪除過時內容避免自相矛盾。在推廣 AI 工具時，預算應投入「可見性」而非訓練課程——舉辦展示會、分享提示詞、讓主管親自使用、向跨級同儕廣播成功案例，因為同事的實際成果比 400 頁手冊更能驅動採用。對資料呈現而言,預先咀嚼的見解(如 AI 漫畫)大幅提升理解,但也要警覺這帶來的引導性——排列面板的人決定了觀眾的結論。最後，履歷應突出參與打造 AI 功能的專案（而非提示工程證書），因為 UX 研究市場正在為懂得建構 AI 產品的人支付 15% 溢價。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-07-18"
-    }
-  ]
+  "podcast_briefs": [],
+  "article_briefs": []
 }
