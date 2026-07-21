@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-21",
+    "date_display": "2026 年 07 月 21 日",
+    "generated_at": "2026-07-21T08:55:51.899692+08:00",
+    "total": 5,
+    "sources": [
+      "Design"
+    ],
+    "headline": "作者認為 AI 帶來的關鍵啟示是「萬物皆程式碼」：簡報、設計、影片、Excel 自動化，甚至宇宙本身，都可以被視為由程式碼構成。這對產品與設計流程的思考方式具有根本性影響。"
+  },
+  {
     "date": "2026-07-20",
     "date_display": "2026 年 07 月 20 日",
     "generated_at": "2026-07-20T08:55:59.455326+08:00",
@@ -940,19 +950,5 @@
       "Vibe Coding"
     ],
     "headline": "DHH 在 Pragmatic Engineer 訪談中承認過去 20 年對產品管理的輕視是錯的，當 AI 能寫程式後，真正重要的反而是決定要做什麼、怎麼做、該跟哪些客戶對話等 PM 核心能力。"
-  },
-  {
-    "date": "2026-04-21",
-    "date_display": "2026 年 04 月 21 日",
-    "generated_at": "2026-04-21T08:28:35.701999+08:00",
-    "total": 15,
-    "sources": [
-      "Anthropic",
-      "Claude Design",
-      "Design",
-      "UX Design",
-      "Vibe Coding"
-    ],
-    "headline": "Anthropic Claude Code 負責人分享他已數月未手寫程式碼，兩天內靠 AI 完成 49 項功能。他公開 30 分鐘演講詳述具體作法，被認為比付費課程更有價值。"
   }
 ]
