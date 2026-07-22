@@ -32,6 +32,13 @@ def archive_rail_html(active_date: str, base_path: str = "") -> str:
           <span class="rail-close-icon" aria-hidden="true">✕</span>
         </button>
       </div>
+      <div class="rail-search">
+        <span class="rail-search-icon" aria-hidden="true">⌕</span>
+        <input type="search" class="rail-search-input" placeholder="搜尋關鍵字"
+               aria-label="搜尋歷史早報" autocomplete="off" spellcheck="false">
+        <button type="button" class="rail-search-clear" aria-label="清除搜尋" hidden>✕</button>
+      </div>
+      <div class="rail-search-status" role="status" hidden></div>
       <nav id="rail-list" class="rail-list"><div class="rail-loading">載入中…</div></nav>
     </aside>
     <div class="rail-backdrop" aria-hidden="true"></div>"""

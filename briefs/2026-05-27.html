@@ -38,6 +38,7 @@
       --grain-blend: screen;
       --grain-opacity: .03;
       --backdrop: rgba(30, 25, 21, .78);
+      --mark: rgba(255, 87, 34, .32);
 
       --serif: 'Fraunces', 'DM Serif Display', Georgia, serif;
       --sans:  'Inter', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
@@ -59,6 +60,7 @@
       --grain-blend: multiply;
       --grain-opacity: .04;
       --backdrop: rgba(40, 30, 18, .45);
+      --mark: rgba(209, 68, 18, .22);
     }
     html { color-scheme: dark; transition: background-color .2s; }
     html[data-theme="light"] { color-scheme: light; }
@@ -202,12 +204,92 @@
       margin-bottom: 0;
     }
     html[data-rail="collapsed"] .rail-heading-label,
+    html[data-rail="collapsed"] .rail-search,
+    html[data-rail="collapsed"] .rail-search-status,
     html[data-rail="collapsed"] .rail-list {
       display: none;
     }
     html[data-rail="collapsed"] .rail-toggle-icon {
       transform: rotate(180deg);
     }
+
+    .rail-search {
+      display: flex;
+      align-items: center;
+      gap: .15rem;
+      margin-bottom: .9rem;
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      background: var(--paper-2);
+      transition: border-color .15s;
+    }
+    .rail-search:focus-within { border-color: var(--accent); }
+    .rail-search-icon {
+      padding-left: .5rem;
+      font-size: .95rem;
+      line-height: 1;
+      color: var(--ink-3);
+    }
+    .rail-search-input {
+      flex: 1;
+      min-width: 0;
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: .72rem;
+      padding: .45rem .3rem;
+    }
+    .rail-search-input::placeholder { color: var(--ink-3); }
+    .rail-search-input::-webkit-search-cancel-button {
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    .rail-search-clear {
+      background: none;
+      border: none;
+      color: var(--ink-3);
+      cursor: pointer;
+      font-size: .65rem;
+      line-height: 1;
+      padding: .35rem .5rem;
+      transition: color .15s;
+    }
+    .rail-search-clear:hover { color: var(--accent); }
+
+    .rail-search-status {
+      font-family: var(--mono);
+      font-size: .58rem;
+      letter-spacing: .1em;
+      color: var(--ink-3);
+      margin-bottom: .85rem;
+    }
+
+    .rail-hit-kind {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: .54rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-right: .35rem;
+      vertical-align: .05em;
+    }
+    .rail-headline mark {
+      background: none;
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .rail-item-hit .rail-headline { -webkit-line-clamp: 3; }
+
+    mark.q-hit {
+      background: var(--mark);
+      color: inherit;
+      border-radius: 2px;
+      padding: 0 .08em;
+    }
+    mark.q-hit-active { box-shadow: 0 0 0 1px var(--accent); }
 
     .rail-list { display: flex; flex-direction: column; }
     .rail-loading {
@@ -309,6 +391,8 @@
       }
       html[data-rail="collapsed"] .rail-heading-label,
       html[data-rail="collapsed"] .rail-list { display: revert; }
+      html[data-rail="collapsed"] .rail-search { display: flex; }
+      html[data-rail="collapsed"] .rail-search-status { display: revert; }
     }
 
     /* ─────────────── Masthead ─────────────── */
@@ -1003,6 +1087,11 @@
         text-align: center;
       }
       .colophon-left, .colophon-right { text-align: center; }
+
+      /* 手機版收窄左右留白，讓內容區更寬 */
+      .masthead { padding-left: .9rem; padding-right: .9rem; }
+      main { padding-left: .9rem; padding-right: .9rem; }
+      .card-anchor { padding-left: 1rem; padding-right: 1rem; }
     }
 
     /* ── Tweet context: quoted / replied-to / top replies ── */
@@ -1076,6 +1165,129 @@
       color: var(--ink);
       line-height: 1.5;
     }
+
+    /* ─────────────── YouTube 財經直播重點（最上方）─────────────── */
+    .yt-brief {
+      margin: 0 0 3rem;
+      padding: 1.75rem 1.75rem 2rem;
+      border: 1px solid var(--rule);
+      border-top: 3px solid var(--accent);
+      background: var(--paper-2);
+      border-radius: 4px;
+      position: relative;
+    }
+    /* 預設收合：summary 為唯一可見、可點開／隨時收合的標題列 */
+    .yt-summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      gap: .6rem;
+      align-items: flex-start;
+    }
+    .yt-summary::-webkit-details-marker { display: none; }
+    .yt-summary::marker { content: ""; }
+    .yt-head { flex: 1; min-width: 0; }
+    .yt-toggle {
+      flex-shrink: 0;
+      margin-top: .1rem;
+      color: var(--accent);
+      font-size: .9rem;
+      line-height: 1.6;
+      transition: transform .18s ease;
+    }
+    details[open] .yt-toggle { transform: rotate(90deg); }
+    .yt-expand-hint {
+      display: inline-block;
+      margin-top: .35rem;
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .04em;
+      color: var(--ink-3);
+    }
+    details[open] .yt-expand-hint { display: none; }
+    .yt-summary:hover .yt-toggle,
+    .yt-summary:hover .yt-expand-hint { color: var(--accent); }
+    .yt-kicker {
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: .75rem;
+    }
+    .yt-title {
+      font-family: var(--serif);
+      font-size: 1.5rem;
+      line-height: 1.25;
+      margin: 0 0 .75rem;
+      font-weight: 600;
+    }
+    .yt-title a {
+      color: var(--ink);
+      text-decoration: none;
+      transition: color .15s;
+    }
+    .yt-title a:hover { color: var(--accent); }
+    .yt-title a:hover .yt-arrow { transform: translate(2px, -2px); display: inline-block; }
+    .yt-arrow { color: var(--ink-3); font-size: .85em; transition: transform .15s; }
+
+    .yt-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: .5rem .9rem;
+      margin-bottom: 0;
+      font-family: var(--mono);
+      font-size: .72rem;
+      color: var(--ink-3);
+    }
+    .yt-meta .chip.yt-source {
+      margin-left: 0;
+    }
+
+    .yt-body { color: var(--ink); line-height: 1.7; margin-top: 1.4rem; }
+    .yt-body h3 {
+      font-family: var(--serif);
+      font-size: 1.08rem;
+      color: var(--ink);
+      margin: 1.5rem 0 .6rem;
+      padding-bottom: .35rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .yt-body h3:first-child { margin-top: 0; }
+    .yt-body h4 {
+      font-family: var(--sans);
+      font-size: .95rem;
+      color: var(--ink-2);
+      margin: 1.1rem 0 .4rem;
+      font-weight: 600;
+    }
+    .yt-body p { margin: .55rem 0; color: var(--ink-2); }
+    .yt-body ul { margin: .55rem 0 .9rem; padding-left: 1.3rem; }
+    .yt-body li { margin: .3rem 0; color: var(--ink-2); line-height: 1.6; }
+    .yt-body strong { color: var(--ink); }
+    .yt-body .yt-rule {
+      border: none;
+      border-top: 1px dashed var(--rule-2);
+      margin: 1.25rem 0;
+    }
+
+    .yt-foot {
+      margin-top: 1.25rem;
+      font-family: var(--mono);
+      font-size: .75rem;
+    }
+    .yt-foot a {
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: .04em;
+    }
+    .yt-foot a:hover { text-decoration: underline; }
+
+    /* 手機版收窄財經重點橘框卡片的左右留白（須放在 .yt-brief 定義之後才不會被蓋掉） */
+    @media (max-width: 720px) {
+      .yt-brief { padding: 1.1rem 12px 1.2rem; }
+    }
   </style>
 </head>
 <body>
@@ -1090,6 +1302,13 @@
           <span class="rail-close-icon" aria-hidden="true">✕</span>
         </button>
       </div>
+      <div class="rail-search">
+        <span class="rail-search-icon" aria-hidden="true">⌕</span>
+        <input type="search" class="rail-search-input" placeholder="搜尋關鍵字"
+               aria-label="搜尋歷史早報" autocomplete="off" spellcheck="false">
+        <button type="button" class="rail-search-clear" aria-label="清除搜尋" hidden>✕</button>
+      </div>
+      <div class="rail-search-status" role="status" hidden></div>
       <nav id="rail-list" class="rail-list"><div class="rail-loading">載入中…</div></nav>
     </aside>
     <div class="rail-backdrop" aria-hidden="true"></div>
@@ -1649,44 +1868,295 @@ I liked her design, goofy scientist vibes from her.
   var base = aside.dataset.base || '';
   var active = aside.dataset.active || '';
   var list = aside.querySelector('.rail-list');
+  var input = aside.querySelector('.rail-search-input');
+  var clearBtn = aside.querySelector('.rail-search-clear');
+  var status = aside.querySelector('.rail-search-status');
+
+  var archive = null;      // archive.json — drives the default rail listing
+  var indexPromise = null; // search-index.json — fetched lazily on first query
+  var latest = '';
+  var query = '';
+
+  var KIND_LABEL = { podcast: '財經', article: 'UX 好文', tweet: '推文', product: 'Product Hunt' };
+
   function esc(s) {
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
   }
   function pad3(n) { return ('000' + n).slice(-3); }
+  function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  function note(msg) { list.innerHTML = '<div class="rail-loading">' + esc(msg) + '</div>'; }
+
+  function hrefFor(date) {
+    if (date === latest) return base + 'index.html';
+    return base ? date + '.html' : 'briefs/' + date + '.html';
+  }
+
+  /* ─────────── default listing ─────────── */
+  function renderArchive() {
+    if (!archive) return;
+    if (!archive.length) { note('尚無存檔'); return; }
+    var sorted = archive.map(function(e) { return e.date; }).sort();
+    var rank = {};
+    sorted.forEach(function(d, i) { rank[d] = i + 1; });
+    list.innerHTML = archive.map(function(e) {
+      var total = (e.total != null) ? e.total : '?';
+      var headline = e.headline || ((e.sources || []).join(' · ')) || '—';
+      /* e.no is the stamped issue number; positional rank is the fallback for
+         entries written before generate_html started recording it. */
+      var no = e.no || rank[e.date] || 1;
+      return '<a class="rail-item' + (e.date === active ? ' rail-item-current' : '') +
+        '" href="' + hrefFor(e.date) + '">' +
+        '<div class="rail-meta"><span>№' + pad3(no) + '</span><span>' + esc(total) + ' 篇</span></div>' +
+        '<div class="rail-headline">' + esc(headline) + '</div>' +
+        '<div class="rail-date">' + esc(e.date_display) + '</div>' +
+        '</a>';
+    }).join('');
+  }
+
   fetch(base + 'archive.json', { cache: 'no-cache' })
     .then(function(r) { return r.json(); })
-    .then(function(archive) {
-      if (!Array.isArray(archive) || !archive.length) {
-        list.innerHTML = '<div class="rail-loading">尚無存檔</div>';
-        return;
-      }
-      var latest = archive[0].date;
-      var sortedDates = archive.map(function(e) { return e.date; }).sort();
-      var rank = {};
-      sortedDates.forEach(function(d, i) { rank[d] = i + 1; });
-      var html = archive.map(function(e) {
-        var no = rank[e.date] || 1;
-        var total = (e.total != null) ? e.total : '?';
-        var headline = e.headline || ((e.sources || []).join(' · ')) || '—';
-        var isActive = e.date === active;
-        var href;
-        if (e.date === latest) href = base + 'index.html';
-        else if (base) href = e.date + '.html';
-        else href = 'briefs/' + e.date + '.html';
-        return '<a class="rail-item' + (isActive ? ' rail-item-current' : '') + '" href="' + href + '">' +
-          '<div class="rail-meta"><span>№' + pad3(no) + '</span><span>' + esc(total) + ' 篇</span></div>' +
-          '<div class="rail-headline">' + esc(headline) + '</div>' +
-          '<div class="rail-date">' + esc(e.date_display) + '</div>' +
-          '</a>';
-      }).join('');
-      list.innerHTML = html;
+    .then(function(data) {
+      archive = Array.isArray(data) ? data : [];
+      latest = archive.length ? archive[0].date : '';
+      if (!query) renderArchive();
     })
     .catch(function(err) {
-      list.innerHTML = '<div class="rail-loading">載入失敗</div>';
+      if (!query) note('載入失敗');
       console.error('archive load failed', err);
     });
+
+  /* ─────────── search ─────────── */
+  function tokenize(q) {
+    return q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  }
+  function buildRe(toks) {
+    return new RegExp(toks.map(escRe).join('|'), 'gi');
+  }
+  function matches(item, toks) {
+    var hay = ((item.t || '') + ' ' + (item.b || '') + ' ' + (item.m || '')).toLowerCase();
+    for (var i = 0; i < toks.length; i++) {
+      if (hay.indexOf(toks[i]) < 0) return false;
+    }
+    return true;
+  }
+  /* Escape and <mark> in one pass, so entities can never be matched as text. */
+  function markup(text, re) {
+    var out = '', last = 0, m;
+    re.lastIndex = 0;
+    while ((m = re.exec(text)) !== null) {
+      out += esc(text.slice(last, m.index)) + '<mark>' + esc(m[0]) + '</mark>';
+      last = m.index + m[0].length;
+      if (m[0].length === 0) re.lastIndex++;
+    }
+    return out + esc(text.slice(last));
+  }
+  function snippet(item, re) {
+    var fields = [item.t || '', item.b || '', item.m || ''];
+    for (var i = 0; i < fields.length; i++) {
+      re.lastIndex = 0;
+      var m = re.exec(fields[i]);
+      if (!m) continue;
+      var text = fields[i];
+      var start = Math.max(0, m.index - 24);
+      var end = Math.min(text.length, start + 110);
+      var slice = (start > 0 ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+      return markup(slice, re);
+    }
+    return esc((item.t || '').slice(0, 110));
+  }
+
+  function loadIndex() {
+    if (!indexPromise) {
+      indexPromise = fetch(base + 'search-index.json', { cache: 'no-cache' })
+        .then(function(r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .catch(function(err) {
+          indexPromise = null;  // let the next keystroke retry
+          throw err;
+        });
+    }
+    return indexPromise;
+  }
+
+  function setStatus(text) {
+    if (!status) return;
+    status.textContent = text || '';
+    status.hidden = !text;
+  }
+
+  function renderSearch(index) {
+    var toks = tokenize(query);
+    if (!toks.length) { reset(); return; }
+    var re = buildRe(toks);
+    var days = 0, hits = 0;
+    var rows = (index.days || []).map(function(day) {
+      var found = (day.items || []).filter(function(it) { return matches(it, toks); });
+      if (!found.length) return '';
+      days++; hits += found.length;
+      var first = found[0];
+      return '<a class="rail-item rail-item-hit' + (day.d === active ? ' rail-item-current' : '') +
+        '" href="' + hrefFor(day.d) + '?q=' + encodeURIComponent(query) + '">' +
+        '<div class="rail-meta"><span>№' + pad3(day.no) + '</span><span>' + found.length + ' 則命中</span></div>' +
+        '<div class="rail-headline"><span class="rail-hit-kind">' + esc(KIND_LABEL[first.k] || '') + '</span>' +
+        snippet(first, re) + '</div>' +
+        '<div class="rail-date">' + esc(day.dd) + '</div>' +
+        '</a>';
+    }).filter(Boolean).join('');
+
+    var onPage = highlightPage(toks);
+    if (!days) {
+      note('無符合結果');
+      setStatus('找不到「' + query + '」');
+      return;
+    }
+    list.innerHTML = rows;
+    setStatus(days + ' 天 · ' + hits + ' 則命中' + (onPage ? ' · 本頁 ' + onPage + ' 處' : ''));
+  }
+
+  function reset() {
+    query = '';
+    setStatus('');
+    if (clearBtn) clearBtn.hidden = true;
+    clearHighlight();
+    renderArchive();
+  }
+
+  function run() {
+    if (clearBtn) clearBtn.hidden = !query;
+    if (!query) { reset(); return; }
+    setStatus('搜尋中…');
+    loadIndex().then(renderSearch).catch(function(err) {
+      note('搜尋索引載入失敗');
+      setStatus('');
+      console.error('search index load failed', err);
+    });
+  }
+
+  /* ─────────── in-page highlighting ─────────── */
+  function clearHighlight() {
+    var main = document.querySelector('main');
+    if (!main) return;
+    main.querySelectorAll('mark.q-hit').forEach(function(m) {
+      m.parentNode.replaceChild(document.createTextNode(m.textContent), m);
+    });
+    main.normalize();
+  }
+
+  function highlightPage(toks) {
+    clearHighlight();
+    var main = document.querySelector('main');
+    if (!main || !toks.length) return 0;
+    var re = buildRe(toks);
+    var walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, {
+      acceptNode: function(node) {
+        var p = node.parentNode;
+        if (!p || p.nodeType !== 1) return NodeFilter.FILTER_REJECT;
+        var tag = p.tagName;
+        if (tag === 'SCRIPT' || tag === 'STYLE' || tag === 'MARK') return NodeFilter.FILTER_REJECT;
+        return node.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+
+    var count = 0;
+    nodes.forEach(function(node) {
+      var text = node.nodeValue;
+      re.lastIndex = 0;
+      if (!re.test(text)) return;
+      re.lastIndex = 0;
+      var frag = document.createDocumentFragment();
+      var last = 0, m;
+      while ((m = re.exec(text)) !== null) {
+        if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+        var mark = document.createElement('mark');
+        mark.className = 'q-hit';
+        mark.textContent = m[0];
+        frag.appendChild(mark);
+        last = m.index + m[0].length;
+        count++;
+        if (m[0].length === 0) re.lastIndex++;
+      }
+      if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    });
+    return count;
+  }
+
+  /* Landing from a search result: open whatever <details> hides the first hit. */
+  function revealFirstHit() {
+    var first = document.querySelector('main mark.q-hit');
+    if (!first) return;
+    var d = first.closest('details');
+    while (d) {
+      d.open = true;
+      d = d.parentElement ? d.parentElement.closest('details') : null;
+    }
+    first.classList.add('q-hit-active');
+    first.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  }
+
+  /* ─────────── wiring ─────────── */
+  if (input) {
+    var timer = null;
+    input.addEventListener('input', function() {
+      query = input.value.trim();
+      clearTimeout(timer);
+      timer = setTimeout(run, 140);
+    });
+    input.addEventListener('keydown', function(e) {
+      if (e.key !== 'Escape') return;
+      e.stopPropagation();
+      if (input.value) { input.value = ''; reset(); }
+      else input.blur();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+      var el = document.activeElement;
+      if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable)) return;
+      e.preventDefault();
+      if (document.documentElement.dataset.rail === 'collapsed') {
+        delete document.documentElement.dataset.rail;
+        try { localStorage.setItem('rail-collapsed', '0'); } catch (err) {}
+      }
+      if (window.matchMedia('(max-width: 980px)').matches) {
+        document.body.classList.add('rail-drawer-open');
+      }
+      input.focus();
+      input.select();
+    });
+  }
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function() {
+      if (input) { input.value = ''; input.focus(); }
+      reset();
+    });
+  }
+
+  /* Deep link: ?q=… arrives from a clicked search result. */
+  var initial = '';
+  try {
+    initial = new URLSearchParams(window.location.search).get('q') || '';
+  } catch (err) {}
+  if (initial && input) {
+    input.value = initial;
+    query = initial.trim();
+    if (query) {
+      if (clearBtn) clearBtn.hidden = false;
+      setStatus('搜尋中…');
+      loadIndex()
+        .then(function(index) { renderSearch(index); revealFirstHit(); })
+        .catch(function(err) {
+          note('搜尋索引載入失敗');
+          setStatus('');
+          console.error('search index load failed', err);
+        });
+    }
+  }
 })();
 </script>
 

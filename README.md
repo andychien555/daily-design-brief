@@ -18,6 +18,8 @@ GitHub Actions: Daily Design Brief
   ├─ fetch_podcast.py       # 逐台偵測 podcast 最新集 MP3 → Groq Whisper 轉錄 → Claude 整理（continue-on-error）
   ├─ generate_html.py       # 渲染 index.html / briefs/*.html / archive.json
   ├─ generate_md.py         # 寫 briefs/*.md（同時是翻譯快取）
+  ├─ refresh_briefs_shell.py # 把最新 CSS／側欄／JS 補回所有歷史 briefs/*.html
+  ├─ build_search_index.py  # 掃 briefs/*.html → search-index.json（全站關鍵字搜尋）
   └─ git commit & push
         └─ Deploy workflow ─► GitHub Pages
 ```
@@ -36,6 +38,27 @@ GitHub Actions: Daily Design Brief
 > 財經重點曾用 YouTube 直播當來源，但 GitHub Actions 機房 IP 會被 YouTube 當機器人擋下（cookies 撐不久）。改用 podcast enclosure 直連 MP3 後，機房抓取屬正常行為、不被封鎖，無需 cookies/代理，穩定許多。轉錄走 Groq Whisper，因此 workflow 會先確保 `ffmpeg` 存在（大檔切段用）。
 
 `workflow_run` 監聽 **Daily Design Brief**、**Backfill Translations**、**Podcast Check** 三支 workflow 完成事件，觸發 [deploy.yml](.github/workflows/deploy.yml) 把 `index.html` / `briefs/` 部署到 Pages。
+
+## 關鍵字搜尋
+
+側欄 Archive 上方有搜尋框，可跨全部歷史早報搜關鍵字（財經 podcast 重點、UX 好文、推文中英文與作者、Product Hunt 產品）。純前端：
+
+```
+build_search_index.py  →  search-index.json（84 天約 600 KB，含全文）
+        │
+        ▼
+側欄搜尋框（scripts.py）
+  ├─ 首次輸入時才 lazy fetch search-index.json，平常載入零成本
+  ├─ 多個關鍵字以空白分隔 = AND；中英文都直接做子字串比對，不需斷詞
+  ├─ 命中的日期取代側欄存檔清單，顯示「類型 + 片段 + 命中數」
+  └─ 點結果 → 該日早報 ?q=關鍵字 → 自動展開 <details>、全文高亮、捲到第一處
+```
+
+鍵盤：在頁面任意處按 `/` 聚焦搜尋框（側欄收合時會自動展開，手機會開抽屜），`Esc` 清除。
+
+> 歷史 briefs 的 HTML 寫完就不再重新產生（原始資料已被隔天覆蓋），所以搜尋框、`?q=` 高亮這類全站功能要靠
+> [refresh_briefs_shell.py](refresh_briefs_shell.py) 把當前的 CSS／側欄 markup／側欄 JS 重新套進每份 `briefs/*.html`。
+> 它只換外殼、不動內文，且可重複執行——之後改 [styles.py](styles.py) / [scripts.py](scripts.py) 也會自動散佈到整個存檔。
 
 ## Setup（一次性設定）
 
@@ -166,11 +189,14 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 | [fetch_podcast.py](fetch_podcast.py) | 逐台偵測 podcast 最新集 MP3 → Groq Whisper 轉錄 → Claude 整理 → 寫 `data.json["podcast_briefs"]`（多台、每台一則） |
 | [generate_html.py](generate_html.py) | 渲染 `index.html`、`briefs/*.html`、更新 `archive.json`（財經重點逐則走 `briefing_section`，置於早報最上方） |
 | [generate_md.py](generate_md.py) | 寫 `briefs/*.md`（也是隔天的翻譯快取） |
+| [refresh_briefs_shell.py](refresh_briefs_shell.py) | 把當前 CSS／側欄 markup／側欄 JS 重新套進所有 `briefs/*.html`（只換殼、不動內文，可重複執行） |
+| [build_search_index.py](build_search_index.py) | 解析所有 `briefs/*.html` → `search-index.json`，驅動側欄關鍵字搜尋 |
 | [templates.py](templates.py) / [styles.py](styles.py) / [scripts.py](scripts.py) | HTML 模板 / CSS / JS |
 | [config.py](config.py) | 搜尋 query、TopN、時間窗 |
 | `data.json` | 當日原始資料（每日覆蓋），含 `podcast_briefs`（多台列表） |
 | `podcast_state.json` | podcast 以 `itunes_id:episode_id` 為鍵的冪等快取，避免重轉錄/重摘要 |
 | `archive.json` | 最近 90 天索引（headline + 數量），驅動側邊存檔列 |
+| `search-index.json` | 全存檔全文搜尋索引（每日重建），側欄搜尋框首次輸入時才下載 |
 | `briefs/YYYY-MM-DD.html` | 每天的 HTML 快照 |
 | `briefs/YYYY-MM-DD.md` | 每天的 Markdown 版（人類可讀 + 翻譯快取） |
 | [.github/workflows/daily.yml](.github/workflows/daily.yml) | 抓資料 → commit pipeline（早上含 podcast） |

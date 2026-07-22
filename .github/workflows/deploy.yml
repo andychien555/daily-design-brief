@@ -7,6 +7,8 @@ on:
     paths:
       - "index.html"
       - "archive.html"
+      - "archive.json"
+      - "search-index.json"
       - "briefs/**"
 
   workflow_run:

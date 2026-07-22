@@ -35,16 +35,26 @@ def load_archive() -> list:
     return load_json(config.ARCHIVE_FILE, default=[])
 
 
+def published_dates(archive=None) -> set:
+    """Every date ever published.
+
+    ``briefs/*.html`` is the source of truth: archive.json only keeps the most
+    recent 90 days, so counting it alone caps the issue number once the archive
+    fills up. The archive is still folded in so a date whose snapshot is missing
+    still counts.
+    """
+    dates = {p.stem for p in Path(config.BRIEFS_DIR).glob("*.html")}
+    if archive:
+        dates.update(e["date"] for e in archive if e.get("date"))
+    return dates
+
+
 def issue_number(date_str: str, archive=None) -> int:
     """Issue number = rank of date in chronological publication order.
 
-    If an archive list is supplied, use it as the source of truth for past dates,
-    and ensure ``date_str`` itself is counted (even if not yet persisted).
-    Without archive, falls back to 1.
+    ``date_str`` is always counted, even if its snapshot is not yet written.
     """
-    dates = set()
-    if archive:
-        dates.update(e["date"] for e in archive if e.get("date"))
+    dates = published_dates(archive)
     dates.add(date_str)
     ordered = sorted(dates)
     try:
@@ -199,6 +209,12 @@ def main():
     archive = [e for e in archive if e["date"] != data["date"]]
     archive.insert(0, entry)
     archive = archive[:90]  # keep last 90 days
+
+    # Stamp the issue number so the sidebar rail can label a trimmed archive the
+    # same way each page's own masthead does.
+    rank = {d: i + 1 for i, d in enumerate(sorted(published_dates(archive)))}
+    for e in archive:
+        e["no"] = rank.get(e["date"], 1)
 
     save_json(config.ARCHIVE_FILE, archive)
     print(f"OK archive.json updated ({len(archive)} entries)")

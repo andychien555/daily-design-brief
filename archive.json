@@ -7,7 +7,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "如果你發現自己需要不斷一對一解釋設計為何優秀，請記住你無法親自向每位玩家說明——設計最終必須自己說話。這是一個關鍵的遊戲設計教訓。"
+    "headline": "如果你發現自己需要不斷一對一解釋設計為何優秀，請記住你無法親自向每位玩家說明——設計最終必須自己說話。這是一個關鍵的遊戲設計教訓。",
+    "no": 97
   },
   {
     "date": "2026-07-21",
@@ -17,7 +18,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "作者認為 AI 帶來的關鍵啟示是「萬物皆程式碼」：簡報、設計、影片、Excel 自動化，甚至宇宙本身，都可以被視為由程式碼構成。這對產品與設計流程的思考方式具有根本性影響。"
+    "headline": "作者認為 AI 帶來的關鍵啟示是「萬物皆程式碼」：簡報、設計、影片、Excel 自動化，甚至宇宙本身，都可以被視為由程式碼構成。這對產品與設計流程的思考方式具有根本性影響。",
+    "no": 96
   },
   {
     "date": "2026-07-20",
@@ -28,7 +30,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "Reicon 提供 2,700+ 開源 SVG 圖示，適合現代網站、App、儀表板與設計系統使用，易於客製化。"
+    "headline": "Reicon 提供 2,700+ 開源 SVG 圖示，適合現代網站、App、儀表板與設計系統使用，易於客製化。",
+    "no": 95
   },
   {
     "date": "2026-07-19",
@@ -39,7 +42,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "作者友人 Dean Ball 提出保護美國前沿 AI 供應商的論點，不是透過國會立法禁止中國開源模型，而是採用更符合現代治理特徵的做法。討論觸及 AI 政策與國家安全的微妙平衡。"
+    "headline": "作者友人 Dean Ball 提出保護美國前沿 AI 供應商的論點，不是透過國會立法禁止中國開源模型，而是採用更符合現代治理特徵的做法。討論觸及 AI 政策與國家安全的微妙平衡。",
+    "no": 94
   },
   {
     "date": "2026-07-18",
@@ -49,7 +53,8 @@
     "sources": [
       "UX Design"
     ],
-    "headline": "有人將 Claude 打造成完整的虛擬公司組織架構，涵蓋 42 種技能並模擬真實企業部門分工，提供各類開發者工具與技能模組的連結。這種將 AI 助理結構化、角色化的應用方式，對產品設計者思考 AI 工具的組織與賦能有參考價值。"
+    "headline": "有人將 Claude 打造成完整的虛擬公司組織架構，涵蓋 42 種技能並模擬真實企業部門分工，提供各類開發者工具與技能模組的連結。這種將 AI 助理結構化、角色化的應用方式，對產品設計者思考 AI 工具的組織與賦能有參考價值。",
+    "no": 93
   },
   {
     "date": "2026-07-17",
@@ -59,7 +64,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Kimi-K3 在 Frontend Code Arena 拿下第一，超越 Claude Fable 5，排名從 #18 躍升至 #1，在品牌行銷、參考設計、數據分析等 7 個領域中有 6 個領域排名第一。"
+    "headline": "Kimi-K3 在 Frontend Code Arena 拿下第一，超越 Claude Fable 5，排名從 #18 躍升至 #1，在品牌行銷、參考設計、數據分析等 7 個領域中有 6 個領域排名第一。",
+    "no": 92
   },
   {
     "date": "2026-07-16",
@@ -70,7 +76,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "推出 improve-ui 技能工具，能讀取專案的設計系統文件（DESIGN.md、CSS、共用元件等），自動檢查 UI 是否違反自身設計規範並產生修正計畫。靈感來自 shadcn 的 improve skill。"
+    "headline": "推出 improve-ui 技能工具，能讀取專案的設計系統文件（DESIGN.md、CSS、共用元件等），自動檢查 UI 是否違反自身設計規範並產生修正計畫。靈感來自 shadcn 的 improve skill。",
+    "no": 91
   },
   {
     "date": "2026-07-15",
@@ -78,7 +85,8 @@
     "generated_at": "2026-07-15T08:55:52.874050+08:00",
     "total": 0,
     "sources": [],
-    "headline": ""
+    "headline": "",
+    "no": 90
   },
   {
     "date": "2026-07-14",
@@ -89,7 +97,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "OpenAI CEO Sam Altman 表示，看到自家模型在設計能力上終於有所突破，這仍讓他感到驚訝。顯示 AI 在設計領域的能力正快速進步。"
+    "headline": "OpenAI CEO Sam Altman 表示，看到自家模型在設計能力上終於有所突破，這仍讓他感到驚訝。顯示 AI 在設計領域的能力正快速進步。",
+    "no": 89
   },
   {
     "date": "2026-07-13",
@@ -97,7 +106,8 @@
     "generated_at": "2026-07-13T08:55:53.369715+08:00",
     "total": 0,
     "sources": [],
-    "headline": ""
+    "headline": "",
+    "no": 88
   },
   {
     "date": "2026-07-12",
@@ -107,7 +117,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "在與 AI 協作寫程式時，你的指令應該是「近似的方向」而非字面要求，目標永遠是最簡潔優雅的設計方案。當 AI 遇到瓶頸時，應該回頭挑戰你的指令本身，而非硬做出不理想的實作。"
+    "headline": "在與 AI 協作寫程式時，你的指令應該是「近似的方向」而非字面要求，目標永遠是最簡潔優雅的設計方案。當 AI 遇到瓶頸時，應該回頭挑戰你的指令本身，而非硬做出不理想的實作。",
+    "no": 87
   },
   {
     "date": "2026-07-11",
@@ -117,7 +128,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "HeyGen 推出 HyperFrames 功能，讓設計師能直接從 Figma 設計稿生成產品發布影片。只需複製 Figma 連結並透過 agent 調用 /figma 指令，即可完整保留所有設計細節（色碼、字體、畫面）自動產出影片。"
+    "headline": "HeyGen 推出 HyperFrames 功能，讓設計師能直接從 Figma 設計稿生成產品發布影片。只需複製 Figma 連結並透過 agent 調用 /figma 指令，即可完整保留所有設計細節（色碼、字體、畫面）自動產出影片。",
+    "no": 86
   },
   {
     "date": "2026-07-10",
@@ -127,7 +139,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "X 和 SpaceX AI 正在招聘 staff 級產品設計師、動態設計師和設計工程師，必須在 Palo Alto 或願意搬遷。雖是招聘文，但反映大型科技公司對設計人才的配置策略與地點要求。"
+    "headline": "X 和 SpaceX AI 正在招聘 staff 級產品設計師、動態設計師和設計工程師，必須在 Palo Alto 或願意搬遷。雖是招聘文，但反映大型科技公司對設計人才的配置策略與地點要求。",
+    "no": 85
   },
   {
     "date": "2026-07-09",
@@ -137,7 +150,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "前 LinkedIn 工程師分享離職，過去三年從零設計並建立全球最大規模之一的 on-prem Kubernetes 叢集（35 萬台以上伺服器），現已承載公司全部服務。此案例展示超大規模基礎架構的設計與實踐經驗。"
+    "headline": "前 LinkedIn 工程師分享離職，過去三年從零設計並建立全球最大規模之一的 on-prem Kubernetes 叢集（35 萬台以上伺服器），現已承載公司全部服務。此案例展示超大規模基礎架構的設計與實踐經驗。",
+    "no": 84
   },
   {
     "date": "2026-07-08",
@@ -147,7 +161,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Bungie 在裁員後仍為 Marathon 招募 UI/UX 總監，年薪 22.2–25.8 萬美元，負責領導整體使用者體驗設計。此職缺反映遊戲產業即使縮編仍持續投資關鍵設計角色。"
+    "headline": "Bungie 在裁員後仍為 Marathon 招募 UI/UX 總監，年薪 22.2–25.8 萬美元，負責領導整體使用者體驗設計。此職缺反映遊戲產業即使縮編仍持續投資關鍵設計角色。",
+    "no": 83
   },
   {
     "date": "2026-07-07",
@@ -155,7 +170,8 @@
     "generated_at": "2026-07-07T13:32:33.455722+08:00",
     "total": 0,
     "sources": [],
-    "headline": ""
+    "headline": "",
+    "no": 82
   },
   {
     "date": "2026-07-06",
@@ -165,7 +181,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "設計師提出為 Samsung One UI 採用毛玻璃設計語言的概念，認為這能讓介面更現代與高級。展示了 UI 設計趨勢如何影響使用者對產品質感的感知。"
+    "headline": "設計師提出為 Samsung One UI 採用毛玻璃設計語言的概念，認為這能讓介面更現代與高級。展示了 UI 設計趨勢如何影響使用者對產品質感的感知。",
+    "no": 81
   },
   {
     "date": "2026-07-05",
@@ -175,7 +192,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "作者在設計 API 時思考，雖然未來大多數人可能透過 AI agent 生成程式碼而不會在意細節，但仍堅持把不被看見的部分做好——就像精美櫥櫃背面也要打磨的工藝精神。"
+    "headline": "作者在設計 API 時思考，雖然未來大多數人可能透過 AI agent 生成程式碼而不會在意細節，但仍堅持把不被看見的部分做好——就像精美櫥櫃背面也要打磨的工藝精神。",
+    "no": 80
   },
   {
     "date": "2026-07-04",
@@ -185,7 +203,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "建議深入研究 ARC AGI 競賽得獎的 AI agent 架構設計，能從第一性原理看出哪些做法真正有效、哪些只是為了跑分而過度擬合基準測試。"
+    "headline": "建議深入研究 ARC AGI 競賽得獎的 AI agent 架構設計，能從第一性原理看出哪些做法真正有效、哪些只是為了跑分而過度擬合基準測試。",
+    "no": 79
   },
   {
     "date": "2026-07-03",
@@ -195,7 +214,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "實體媒體的消失只為公司節省成本（生產、設計、運輸），價格卻沒有因此降低，消費者完全沒有分享到成本節省的好處。這點出定價策略與成本結構脫鉤的產品決策問題。"
+    "headline": "實體媒體的消失只為公司節省成本（生產、設計、運輸），價格卻沒有因此降低，消費者完全沒有分享到成本節省的好處。這點出定價策略與成本結構脫鉤的產品決策問題。",
+    "no": 78
   },
   {
     "date": "2026-07-02",
@@ -205,7 +225,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "The Pirate Bay 網站設計從 2005 到 2026 年幾乎沒有變化，呈現出 21 年來網頁設計趨勢的演變對比。這則貼文引發討論，反映出簡約設計的持久性與網頁設計潮流的變遷。"
+    "headline": "The Pirate Bay 網站設計從 2005 到 2026 年幾乎沒有變化，呈現出 21 年來網頁設計趨勢的演變對比。這則貼文引發討論，反映出簡約設計的持久性與網頁設計潮流的變遷。",
+    "no": 77
   },
   {
     "date": "2026-07-01",
@@ -215,7 +236,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "「Loop engineering」成為 AI agent 開發的熱門技術，由 Claude Code 與 OpenClaw 創辦人推廣後爆紅，現已是讓 AI 長時間迭代建構軟體的核心方法。作者將在信中深入探討這項技術。"
+    "headline": "「Loop engineering」成為 AI agent 開發的熱門技術，由 Claude Code 與 OpenClaw 創辦人推廣後爆紅，現已是讓 AI 長時間迭代建構軟體的核心方法。作者將在信中深入探討這項技術。",
+    "no": 76
   },
   {
     "date": "2026-06-30",
@@ -225,7 +247,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "ComfyUI 推出 Comfy MCP 公開測試版，可讓 Claude、Cursor 等工具透過自然語言執行 ComfyUI 工作流程，並搜尋模型、節點與模板，為生產管線提供整合方案。"
+    "headline": "ComfyUI 推出 Comfy MCP 公開測試版，可讓 Claude、Cursor 等工具透過自然語言執行 ComfyUI 工作流程，並搜尋模型、節點與模板，為生產管線提供整合方案。",
+    "no": 75
   },
   {
     "date": "2026-06-29",
@@ -235,7 +258,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "隨著工程、產品、設計、數據科學等角色逐漸融合，作者觀察 Claude Code 團隊並歸納出未來可能出現的五種新角色原型，首先是「原型開發者」負責提出全新想法並快速產出原型。"
+    "headline": "隨著工程、產品、設計、數據科學等角色逐漸融合，作者觀察 Claude Code 團隊並歸納出未來可能出現的五種新角色原型，首先是「原型開發者」負責提出全新想法並快速產出原型。",
+    "no": 74
   },
   {
     "date": "2026-06-28",
@@ -245,7 +269,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Hypixel 開放遊戲設計師職缺（戰鬥與成長系統），強調現階段重心放在新內容與核心玩法：武器、敵人、Boss、道具化、技能系統及其整合設計。"
+    "headline": "Hypixel 開放遊戲設計師職缺（戰鬥與成長系統），強調現階段重心放在新內容與核心玩法：武器、敵人、Boss、道具化、技能系統及其整合設計。",
+    "no": 73
   },
   {
     "date": "2026-06-27",
@@ -255,7 +280,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Google AI Studio 推出 Design Variations 功能，只需單擊即可生成、探索並應用不同的 UI 佈局方案，簡化了設計稿的視覺探索流程。"
+    "headline": "Google AI Studio 推出 Design Variations 功能，只需單擊即可生成、探索並應用不同的 UI 佈局方案，簡化了設計稿的視覺探索流程。",
+    "no": 72
   },
   {
     "date": "2026-06-26",
@@ -265,7 +291,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "探討「品味」在設計中的概念，提問：品味在程式碼中又如何體現？引發對設計與工程美學共通性的思考。"
+    "headline": "探討「品味」在設計中的概念，提問：品味在程式碼中又如何體現？引發對設計與工程美學共通性的思考。",
+    "no": 71
   },
   {
     "date": "2026-06-25",
@@ -275,7 +302,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Figma 推出 Code Layers 功能，將程式碼帶入設計畫布。作者認為「設計 vs 程式碼」是假議題，程式碼本身就是設計的材料之一，不應被迫二選一。"
+    "headline": "Figma 推出 Code Layers 功能，將程式碼帶入設計畫布。作者認為「設計 vs 程式碼」是假議題，程式碼本身就是設計的材料之一，不應被迫二選一。",
+    "no": 70
   },
   {
     "date": "2026-06-24",
@@ -285,7 +313,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Faker 的 T1 Galio 造型設計幕後：Faker 希望強調 T1 金色並在細節中注入象徵意義，Riot 為此完全重新設計了翅膀結構，以 T1 為靈感打造獨特翼型。這則展示了玩家意見如何與設計團隊協作，產出具品牌識別度的角色造型。"
+    "headline": "Faker 的 T1 Galio 造型設計幕後：Faker 希望強調 T1 金色並在細節中注入象徵意義，Riot 為此完全重新設計了翅膀結構，以 T1 為靈感打造獨特翼型。這則展示了玩家意見如何與設計團隊協作，產出具品牌識別度的角色造型。",
+    "no": 69
   },
   {
     "date": "2026-06-23",
@@ -295,7 +324,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "整理了 5 款日常高頻使用的設計 Skill 工具：包括 Text to Lottie（上傳 SVG + 描述快速生成可編輯動畫）和 GSAP（一鍵生成專業網頁交互動效並輸出代碼，支援 SVG 動畫、鼠標跟隨、滾動視差等效果）。"
+    "headline": "整理了 5 款日常高頻使用的設計 Skill 工具：包括 Text to Lottie（上傳 SVG + 描述快速生成可編輯動畫）和 GSAP（一鍵生成專業網頁交互動效並輸出代碼，支援 SVG 動畫、鼠標跟隨、滾動視差等效果）。",
+    "no": 68
   },
   {
     "date": "2026-06-22",
@@ -303,7 +333,8 @@
     "generated_at": "2026-06-22T12:45:05.528651+08:00",
     "total": 0,
     "sources": [],
-    "headline": ""
+    "headline": "",
+    "no": 67
   },
   {
     "date": "2026-06-21",
@@ -311,7 +342,8 @@
     "generated_at": "2026-06-21T13:36:48.983742+08:00",
     "total": 0,
     "sources": [],
-    "headline": ""
+    "headline": "",
+    "no": 66
   },
   {
     "date": "2026-06-20",
@@ -321,7 +353,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "一款陶瓷碗設計證明傳統工藝仍能在功能與美感上超越現代「智慧」產品，提醒設計師回歸本質思考。"
+    "headline": "一款陶瓷碗設計證明傳統工藝仍能在功能與美感上超越現代「智慧」產品，提醒設計師回歸本質思考。",
+    "no": 65
   },
   {
     "date": "2026-06-19",
@@ -331,7 +364,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Figma 設計代理現在支援網頁搜尋功能，可透過提示詞或 URL 讓 AI 搜尋內容並附引用來源，搜尋結果可直接插入設計檔案中使用。"
+    "headline": "Figma 設計代理現在支援網頁搜尋功能，可透過提示詞或 URL 讓 AI 搜尋內容並附引用來源，搜尋結果可直接插入設計檔案中使用。",
+    "no": 64
   },
   {
     "date": "2026-06-18",
@@ -341,7 +375,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Claude Design 新功能：可跨專案維持設計系統一致性、支援畫布直接編輯、與 Claude Code 同步，並整合更多第三方工具。"
+    "headline": "Claude Design 新功能：可跨專案維持設計系統一致性、支援畫布直接編輯、與 Claude Code 同步，並整合更多第三方工具。",
+    "no": 63
   },
   {
     "date": "2026-06-17",
@@ -351,7 +386,8 @@
     "sources": [
       "UX Design"
     ],
-    "headline": "People obsessed with engineering, computer science, robotics, AI, AGI, machine learning, deep learning, neural networks, LLMs, SLMs, transformers, RAG systems, vector databases, agents, automation, DevOps, MLOps, distributed systems, backend architecture, scalable systems, Linux,"
+    "headline": "People obsessed with engineering, computer science, robotics, AI, AGI, machine learning, deep learning, neural networks, LLMs, SLMs, transformers, RAG systems, vector databases, agents, automation, DevOps, MLOps, distributed systems, backend architecture, scalable systems, Linux,",
+    "no": 62
   },
   {
     "date": "2026-06-16",
@@ -361,7 +397,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Open Design 發布全新官網，整合了 265 套視覺模板、150 多套 Design Systems 及 50 多套精選教程，全站本身即以 Open Design 設計完成。"
+    "headline": "Open Design 發布全新官網，整合了 265 套視覺模板、150 多套 Design Systems 及 50 多套精選教程，全站本身即以 Open Design 設計完成。",
+    "no": 61
   },
   {
     "date": "2026-06-15",
@@ -371,7 +408,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "指出直升機設計存在根本缺陷：尾旋翼一旦受損整架機就會失控，死亡率是商用噴射機的 200 倍以上。作者因此拒絕搭乘直升機，認為應重新思考這類交通工具的安全性設計。"
+    "headline": "指出直升機設計存在根本缺陷：尾旋翼一旦受損整架機就會失控，死亡率是商用噴射機的 200 倍以上。作者因此拒絕搭乘直升機，認為應重新思考這類交通工具的安全性設計。",
+    "no": 60
   },
   {
     "date": "2026-06-14",
@@ -381,7 +419,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "角色設計中眼睛的細微處理可以成為傳達角色真實自我的窗口，即使角色試圖隱藏身份，柔和而鮮明的眼神能讓設計更具辨識度與深度。"
+    "headline": "角色設計中眼睛的細微處理可以成為傳達角色真實自我的窗口，即使角色試圖隱藏身份，柔和而鮮明的眼神能讓設計更具辨識度與深度。",
+    "no": 59
   },
   {
     "date": "2026-06-13",
@@ -391,7 +430,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "觀察到視覺文化近期重新興起對紙張與硬紙板剪貼的興趣（不論真實材質或模擬），反映設計趨勢正轉向強調人工手作與類比質感的觸覺性。"
+    "headline": "觀察到視覺文化近期重新興起對紙張與硬紙板剪貼的興趣（不論真實材質或模擬），反映設計趨勢正轉向強調人工手作與類比質感的觸覺性。",
+    "no": 58
   },
   {
     "date": "2026-06-12",
@@ -401,7 +441,8 @@
     "sources": [
       "UX Design"
     ],
-    "headline": "Discord 的每次改版都在退步，曾經做對過一次後就持續劣化，例如移除了 v2 分頁和訊息標籤，只留下繞道的雙擊操作。這反映出產品設計中「過度迭代反而破壞原有優勢」的常見陷阱。"
+    "headline": "Discord 的每次改版都在退步，曾經做對過一次後就持續劣化，例如移除了 v2 分頁和訊息標籤，只留下繞道的雙擊操作。這反映出產品設計中「過度迭代反而破壞原有優勢」的常見陷阱。",
+    "no": 57
   },
   {
     "date": "2026-06-11",
@@ -411,7 +452,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "2026 年一人創業門檻大降：Cursor/Replit 讓非工程師能出貨完整 app，v0/Claude Design 讓非設計師也能做設計，Opus/Descript 把一支影片剪成十支短片，個人生產力工具已徹底改變遊戲規則。"
+    "headline": "2026 年一人創業門檻大降：Cursor/Replit 讓非工程師能出貨完整 app，v0/Claude Design 讓非設計師也能做設計，Opus/Descript 把一支影片剪成十支短片，個人生產力工具已徹底改變遊戲規則。",
+    "no": 56
   },
   {
     "date": "2026-06-10",
@@ -421,7 +463,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Fable 能處理 15 頁設計文件並持續工作 9 小時以上交出優秀成果，但與它協作的體驗「很怪且會更怪」，作者提供大量實例說明這種能力躍升。"
+    "headline": "Fable 能處理 15 頁設計文件並持續工作 9 小時以上交出優秀成果，但與它協作的體驗「很怪且會更怪」，作者提供大量實例說明這種能力躍升。",
+    "no": 55
   },
   {
     "date": "2026-06-09",
@@ -431,7 +474,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "MKBHD 期待蘋果軟體更新能專注於細節打磨與效能改善，指出 Liquid Glass 等近期設計元素顯得草率，連「統一所有 Mac app 的圓角半徑」都需要當作功能宣傳就很說明問題。"
+    "headline": "MKBHD 期待蘋果軟體更新能專注於細節打磨與效能改善，指出 Liquid Glass 等近期設計元素顯得草率，連「統一所有 Mac app 的圓角半徑」都需要當作功能宣傳就很說明問題。",
+    "no": 54
   },
   {
     "date": "2026-06-08",
@@ -441,7 +485,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "一位 Google 資深工程師免費發布 421 頁《Agentic Design Patterns》文件，是一份完整的 AI 構建指南並附帶可直接用於生產環境的程式碼。"
+    "headline": "一位 Google 資深工程師免費發布 421 頁《Agentic Design Patterns》文件，是一份完整的 AI 構建指南並附帶可直接用於生產環境的程式碼。",
+    "no": 53
   },
   {
     "date": "2026-06-07",
@@ -451,7 +496,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "當執行變得廉價時，設計與創意才是真正的競爭優勢。"
+    "headline": "當執行變得廉價時，設計與創意才是真正的競爭優勢。",
+    "no": 52
   },
   {
     "date": "2026-06-06",
@@ -461,7 +507,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "AI 在後端開發表現優異，但在 UI/UX 設計上仍然不足，通常需要 10 次以上的提示才能調整到理想的設計效果。"
+    "headline": "AI 在後端開發表現優異，但在 UI/UX 設計上仍然不足，通常需要 10 次以上的提示才能調整到理想的設計效果。",
+    "no": 51
   },
   {
     "date": "2026-06-05",
@@ -471,7 +518,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Supabase 宣布以 100 億美元估值完成 5 億美元融資，並在每輪融資中都讓員工以「無現金交易」方式套現 25% 已歸屬期權，員工無需自掏腰包即可實現部分股權變現。"
+    "headline": "Supabase 宣布以 100 億美元估值完成 5 億美元融資，並在每輪融資中都讓員工以「無現金交易」方式套現 25% 已歸屬期權，員工無需自掏腰包即可實現部分股權變現。",
+    "no": 50
   },
   {
     "date": "2026-06-04",
@@ -481,7 +529,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "質疑「工程、產品、設計正在合併為單一 builder 角色」的論點，認為這是過度簡化的說法，實際分工仍然複雜且必要。"
+    "headline": "質疑「工程、產品、設計正在合併為單一 builder 角色」的論點，認為這是過度簡化的說法，實際分工仍然複雜且必要。",
+    "no": 49
   },
   {
     "date": "2026-06-03",
@@ -491,7 +540,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Apple 首款眼鏡將以橢圓鏡頭、獨特配色和多種鏡框設計來建立差異化，長期目標是演進為健康裝置並整合 AR 技術來增強視覺能力。"
+    "headline": "Apple 首款眼鏡將以橢圓鏡頭、獨特配色和多種鏡框設計來建立差異化，長期目標是演進為健康裝置並整合 AR 技術來增強視覺能力。",
+    "no": 48
   },
   {
     "date": "2026-06-02",
@@ -501,7 +551,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "AI 在設計上表現不佳的原因之一，是使用者不懂如何用設計師的專業語彙表達需求。經驗豐富的設計師會用「收緊／放鬆字距」「調整行距」「修正層級」等簡寫詞彙，這些細膩的溝通語言是 AI 難以理解的關鍵。"
+    "headline": "AI 在設計上表現不佳的原因之一，是使用者不懂如何用設計師的專業語彙表達需求。經驗豐富的設計師會用「收緊／放鬆字距」「調整行距」「修正層級」等簡寫詞彙，這些細膩的溝通語言是 AI 難以理解的關鍵。",
+    "no": 47
   },
   {
     "date": "2026-06-01",
@@ -511,7 +562,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "有經驗的設計師擁有上千種用詞語表達設計意圖的簡語（如「收緊間距」、「增加行距」、「修正層級」），這正是 AI 在設計上表現不佳的原因之一——多數人不擅長用精確語言描述設計需求。"
+    "headline": "有經驗的設計師擁有上千種用詞語表達設計意圖的簡語（如「收緊間距」、「增加行距」、「修正層級」），這正是 AI 在設計上表現不佳的原因之一——多數人不擅長用精確語言描述設計需求。",
+    "no": 46
   },
   {
     "date": "2026-05-31",
@@ -522,7 +574,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "Design Systems Surf 是一個免費資源，集結了世界頂尖產品團隊的設計系統，涵蓋視覺風格、UI 元件、模式與參考資料，適合 UI/UX 設計師探索學習。"
+    "headline": "Design Systems Surf 是一個免費資源，集結了世界頂尖產品團隊的設計系統，涵蓋視覺風格、UI 元件、模式與參考資料，適合 UI/UX 設計師探索學習。",
+    "no": 45
   },
   {
     "date": "2026-05-30",
@@ -532,7 +585,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "隨著 Opus 4.8 推出，越來越多設計師進入 Design Engineering 領域。作者分享常用的互動設計模式：利用「接近度」（proximity）而非僅靠 hover，當游標靠近時，附近元素會根據距離微妙地縮放和變暗。"
+    "headline": "隨著 Opus 4.8 推出，越來越多設計師進入 Design Engineering 領域。作者分享常用的互動設計模式：利用「接近度」（proximity）而非僅靠 hover，當游標靠近時，附近元素會根據距離微妙地縮放和變暗。",
+    "no": 44
   },
   {
     "date": "2026-05-29",
@@ -542,7 +596,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "微軟發布重新設計的 Copilot，主打更簡潔、快速與直覺的介面，幫助用戶保持工作流暢度。"
+    "headline": "微軟發布重新設計的 Copilot，主打更簡潔、快速與直覺的介面，幫助用戶保持工作流暢度。",
+    "no": 43
   },
   {
     "date": "2026-05-28",
@@ -552,7 +607,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Paul Graham 觀察當代設計正經歷「無色時代」，從汽車、建築到電影都在失去色彩飽和度，但他認為這股潮流終將回擺，屆時無色設計反而會顯得過時。"
+    "headline": "Paul Graham 觀察當代設計正經歷「無色時代」，從汽車、建築到電影都在失去色彩飽和度，但他認為這股潮流終將回擺，屆時無色設計反而會顯得過時。",
+    "no": 42
   },
   {
     "date": "2026-05-27",
@@ -562,7 +618,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Jony Ive 批評汽車觸控螢幕是「愚蠢的設計」並危及生命，認為多點觸控需要駕駛分心看螢幕，不該用於基本車輛控制。諷刺的是這番話正出自觸控螢幕普及推手之口。"
+    "headline": "Jony Ive 批評汽車觸控螢幕是「愚蠢的設計」並危及生命，認為多點觸控需要駕駛分心看螢幕，不該用於基本車輛控制。諷刺的是這番話正出自觸控螢幕普及推手之口。",
+    "no": 41
   },
   {
     "date": "2026-05-26",
@@ -572,7 +629,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "作者質疑當前主流 app（iPhone 電話、Spotify）是否忽略了最基本的互動設計原則：點擊後的動作不明確、載入狀態缺乏回饋，讓使用者無所適從。"
+    "headline": "作者質疑當前主流 app（iPhone 電話、Spotify）是否忽略了最基本的互動設計原則：點擊後的動作不明確、載入狀態缺乏回饋，讓使用者無所適從。",
+    "no": 40
   },
   {
     "date": "2026-05-25",
@@ -582,7 +640,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "i thought kits design was lacking something so i did some personal adjustments.... https://t.co/dji5Pzz5Mg"
+    "headline": "i thought kits design was lacking something so i did some personal adjustments.... https://t.co/dji5Pzz5Mg",
+    "no": 39
   },
   {
     "date": "2026-05-24",
@@ -592,7 +651,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Claude Design 能在 10 分鐘內從粗略想法產出完整響應式高擬真網站設計，但多數使用者跳過前置步驟就直接責怪工具產出太通用。作者強調正確的使用流程至關重要。"
+    "headline": "Claude Design 能在 10 分鐘內從粗略想法產出完整響應式高擬真網站設計，但多數使用者跳過前置步驟就直接責怪工具產出太通用。作者強調正確的使用流程至關重要。",
+    "no": 38
   },
   {
     "date": "2026-05-23",
@@ -600,7 +660,8 @@
     "generated_at": "2026-05-23T14:32:16.521527+08:00",
     "total": 0,
     "sources": [],
-    "headline": ""
+    "headline": "",
+    "no": 37
   },
   {
     "date": "2026-05-22",
@@ -613,7 +674,8 @@
       "Product Management",
       "UX Design"
     ],
-    "headline": "認為 Google（與 DeepMind）若有產品領導者能大刀闊斧清理整個產品管理官僚體系，就能真正勝出。直指組織結構是 Google 產品力的核心瓶頸。"
+    "headline": "認為 Google（與 DeepMind）若有產品領導者能大刀闊斧清理整個產品管理官僚體系，就能真正勝出。直指組織結構是 Google 產品力的核心瓶頸。",
+    "no": 36
   },
   {
     "date": "2026-05-20",
@@ -625,7 +687,8 @@
       "Product Management",
       "UX Design"
     ],
-    "headline": "Nexu 推出 Open Design 與 Codex 整合功能，讓 AI agent 可以直接操作設計畫布，從設計、程式碼到動畫一次完成，解決 AI 設計過程中保持設計意圖的最大痛點。"
+    "headline": "Nexu 推出 Open Design 與 Codex 整合功能，讓 AI agent 可以直接操作設計畫布，從設計、程式碼到動畫一次完成，解決 AI 設計過程中保持設計意圖的最大痛點。",
+    "no": 35
   },
   {
     "date": "2026-05-19",
@@ -633,7 +696,8 @@
     "generated_at": "2026-05-19T08:46:59.543043+08:00",
     "total": 0,
     "sources": [],
-    "headline": ""
+    "headline": "",
+    "no": 34
   },
   {
     "date": "2026-05-18",
@@ -644,7 +708,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "所有人抱怨極簡設計，但當公司嘗試有趣設計時，大家的反應反而揭示了為何企業被迫走向極簡風格。這道出設計決策背後的市場與用戶接受度矛盾。"
+    "headline": "所有人抱怨極簡設計，但當公司嘗試有趣設計時，大家的反應反而揭示了為何企業被迫走向極簡風格。這道出設計決策背後的市場與用戶接受度矛盾。",
+    "no": 33
   },
   {
     "date": "2026-05-17",
@@ -656,7 +721,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "當代室內設計過度追求「普遍討好」而非「令人難忘」，應該打造有層次、戲劇性且觀點鮮明的空間，讓人一眼就認出是誰的作品。"
+    "headline": "當代室內設計過度追求「普遍討好」而非「令人難忘」，應該打造有層次、戲劇性且觀點鮮明的空間，讓人一眼就認出是誰的作品。",
+    "no": 32
   },
   {
     "date": "2026-05-16",
@@ -668,7 +734,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "工程師不寫程式、PM 直接上線、設計流程消失、行銷自助上稿、AI 取代 SDR——職能邊界正在瓦解，每個角色都在跨界。"
+    "headline": "工程師不寫程式、PM 直接上線、設計流程消失、行銷自助上稿、AI 取代 SDR——職能邊界正在瓦解，每個角色都在跨界。",
+    "no": 31
   },
   {
     "date": "2026-05-15",
@@ -679,7 +746,8 @@
       "AI Product",
       "Design"
     ],
-    "headline": "質疑某評分設計直接套用 Pitchfork（知名音樂媒體）的視覺模板，缺乏原創性。"
+    "headline": "質疑某評分設計直接套用 Pitchfork（知名音樂媒體）的視覺模板，缺乏原創性。",
+    "no": 30
   },
   {
     "date": "2026-05-14",
@@ -690,7 +758,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "推出名為 Interfaces 的設計工程雜誌，每月發行，涵蓋動畫、排版、佈局、色彩等介面設計核心主題，專注於打造優秀介面的實務內容。"
+    "headline": "推出名為 Interfaces 的設計工程雜誌，每月發行，涵蓋動畫、排版、佈局、色彩等介面設計核心主題，專注於打造優秀介面的實務內容。",
+    "no": 29
   },
   {
     "date": "2026-05-13",
@@ -702,7 +771,8 @@
       "Design",
       "Product Management"
     ],
-    "headline": "幕後花絮內容正從「附加素材」升級為「產品本身的延伸」，是對 AI 疲勞的回應。這趨勢反映了使用者對真實製作過程的渴望。"
+    "headline": "幕後花絮內容正從「附加素材」升級為「產品本身的延伸」，是對 AI 疲勞的回應。這趨勢反映了使用者對真實製作過程的渴望。",
+    "no": 28
   },
   {
     "date": "2026-05-12",
@@ -714,7 +784,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "大型細分領域 subreddit（如 r/accounting、r/dentistry）中每個「有沒有更好方法做這件事」的貼文，都是 AI 產品的潛在機會；單一社群的 startup idea 密度比整個 YC batch 還高。"
+    "headline": "大型細分領域 subreddit（如 r/accounting、r/dentistry）中每個「有沒有更好方法做這件事」的貼文，都是 AI 產品的潛在機會；單一社群的 startup idea 密度比整個 YC batch 還高。",
+    "no": 27
   },
   {
     "date": "2026-05-11",
@@ -725,7 +796,8 @@
       "AI Product",
       "Design"
     ],
-    "headline": "品味其實就是設計素養。一句話點出設計鑑賞力的本質，對設計師和 PM 理解如何培養判斷力很有啟發。"
+    "headline": "品味其實就是設計素養。一句話點出設計鑑賞力的本質，對設計師和 PM 理解如何培養判斷力很有啟發。",
+    "no": 26
   },
   {
     "date": "2026-05-10",
@@ -737,7 +809,8 @@
       "Design",
       "Product Management"
     ],
-    "headline": "作者認為最具啟發性的設計作品正發生在消費性 App 之外，並以 Mixtape 的暫停選單為例，說明遊戲或其他領域的介面創新值得關注。"
+    "headline": "作者認為最具啟發性的設計作品正發生在消費性 App 之外，並以 Mixtape 的暫停選單為例，說明遊戲或其他領域的介面創新值得關注。",
+    "no": 25
   },
   {
     "date": "2026-05-09",
@@ -749,7 +822,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "諷刺所有 AI 產品的行銷套路：宣稱用尖端 AI 改變生活，結果示範場景都是處理試算表這類平凡任務。對 PM 在定位 AI 產品價值主張時是個提醒。"
+    "headline": "諷刺所有 AI 產品的行銷套路：宣稱用尖端 AI 改變生活，結果示範場景都是處理試算表這類平凡任務。對 PM 在定位 AI 產品價值主張時是個提醒。",
+    "no": 24
   },
   {
     "date": "2026-05-08",
@@ -760,7 +834,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "Apple 的相機版 AirPods 已進入量產前最終測試階段，設計與功能基本定案，將成為蘋果首款 AI 穿戴裝置。這對 PM 和設計師來說是觀察硬體 AI 整合趨勢的重要案例。"
+    "headline": "Apple 的相機版 AirPods 已進入量產前最終測試階段，設計與功能基本定案，將成為蘋果首款 AI 穿戴裝置。這對 PM 和設計師來說是觀察硬體 AI 整合趨勢的重要案例。",
+    "no": 23
   },
   {
     "date": "2026-05-07",
@@ -770,7 +845,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "ProgramBench 推出 200 個高難度整庫生成任務，測試 LLM 能否在沒有起始程式碼或網路的情況下，從零重寫 SQLite、FFmpeg 等知名專案。衡量模型端到端設計、建構與交付完整程式的能力。"
+    "headline": "ProgramBench 推出 200 個高難度整庫生成任務，測試 LLM 能否在沒有起始程式碼或網路的情況下，從零重寫 SQLite、FFmpeg 等知名專案。衡量模型端到端設計、建構與交付完整程式的能力。",
+    "no": 22
   },
   {
     "date": "2026-05-06",
@@ -782,7 +858,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "有人預測未來「人類製作」的產品與體驗會成為奢侈品，現在已經出現這個趨勢——當看到廣告或文案用 AI 生成，立刻就不想購買該產品。"
+    "headline": "有人預測未來「人類製作」的產品與體驗會成為奢侈品，現在已經出現這個趨勢——當看到廣告或文案用 AI 生成，立刻就不想購買該產品。",
+    "no": 21
   },
   {
     "date": "2026-05-05",
@@ -793,7 +870,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "Lazyweb 工具整合 25 萬多個真實 app 與網頁畫面，搭配 6 種設計研究技能與 MCP 整合，旨在解決 Claude Codex 產生重複、缺乏設計品質的 UI 問題。"
+    "headline": "Lazyweb 工具整合 25 萬多個真實 app 與網頁畫面，搭配 6 種設計研究技能與 MCP 整合，旨在解決 Claude Codex 產生重複、缺乏設計品質的 UI 問題。",
+    "no": 20
   },
   {
     "date": "2026-05-04",
@@ -804,7 +882,8 @@
       "AI Product",
       "Design"
     ],
-    "headline": "批評 Windows 11 品質極差，指出微軟不該裁掉優秀的 QA 人員並用「vibing」方式開發作業系統，也無法靠 AI 彌補產品缺陷。這呼應了許多產品團隊面臨的質量與人力取捨問題。"
+    "headline": "批評 Windows 11 品質極差，指出微軟不該裁掉優秀的 QA 人員並用「vibing」方式開發作業系統，也無法靠 AI 彌補產品缺陷。這呼應了許多產品團隊面臨的質量與人力取捨問題。",
+    "no": 19
   },
   {
     "date": "2026-05-03",
@@ -814,7 +893,8 @@
     "sources": [
       "Design"
     ],
-    "headline": "Figma 的 Dev Mode 可以直接複製 CSS，再丟給 Claude 讓 AI 建構出與設計稿一致的結果，但討論中較少人提及這個工作流。"
+    "headline": "Figma 的 Dev Mode 可以直接複製 CSS，再丟給 Claude 讓 AI 建構出與設計稿一致的結果，但討論中較少人提及這個工作流。",
+    "no": 18
   },
   {
     "date": "2026-05-02",
@@ -826,7 +906,8 @@
       "Product Management",
       "UX Design"
     ],
-    "headline": "開發了一個工具，可將任何網站 URL 轉換成結構化的 DESIGN.md 文件，自動提取佈局、字體、色彩和元件模式，並提供 160+ 可下載的設計系統作為起點。"
+    "headline": "開發了一個工具，可將任何網站 URL 轉換成結構化的 DESIGN.md 文件，自動提取佈局、字體、色彩和元件模式，並提供 160+ 可下載的設計系統作為起點。",
+    "no": 17
   },
   {
     "date": "2026-05-01",
@@ -837,7 +918,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "推出包含 2,000 個頂尖產品的 DESIGN.md 資料庫，讓 AI Agent 學習優秀設計系統（顏色、字型、間距、佈局等），解決 Agent 生成醜陋 UI 的問題，免費開放使用。"
+    "headline": "推出包含 2,000 個頂尖產品的 DESIGN.md 資料庫，讓 AI Agent 學習優秀設計系統（顏色、字型、間距、佈局等），解決 Agent 生成醜陋 UI 的問題，免費開放使用。",
+    "no": 16
   },
   {
     "date": "2026-04-30",
@@ -848,7 +930,8 @@
       "AI Product",
       "Design"
     ],
-    "headline": "Sandra Tanimura's bikini jeans which she introduced in the 2000s as an ultra-low-rise design with bikini strings that prevent them from slipping without the need for a belt https://t.co/zwZ1IqhRxK"
+    "headline": "Sandra Tanimura's bikini jeans which she introduced in the 2000s as an ultra-low-rise design with bikini strings that prevent them from slipping without the need for a belt https://t.co/zwZ1IqhRxK",
+    "no": 15
   },
   {
     "date": "2026-04-29",
@@ -860,7 +943,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "設計代理商將面臨更大壓力，建議轉向高端品牌或產品化 AI 服務。產品設計將持續轉為內部化，AI 會加速這個趨勢。"
+    "headline": "設計代理商將面臨更大壓力，建議轉向高端品牌或產品化 AI 服務。產品設計將持續轉為內部化，AI 會加速這個趨勢。",
+    "no": 14
   },
   {
     "date": "2026-04-28",
@@ -872,7 +956,8 @@
       "Design",
       "UX Design"
     ],
-    "headline": "Anthropic 產品主管揭露其快速出貨的秘訣：「side quest maxxing」——團隊成員擁有完全自由進行無計畫的下午實驗，而非依賴長期路線圖。這種靈活的產品開發文化讓他們能比其他 AI 公司更快迭代。"
+    "headline": "Anthropic 產品主管揭露其快速出貨的秘訣：「side quest maxxing」——團隊成員擁有完全自由進行無計畫的下午實驗，而非依賴長期路線圖。這種靈活的產品開發文化讓他們能比其他 AI 公司更快迭代。",
+    "no": 13
   },
   {
     "date": "2026-04-27",
@@ -888,7 +973,8 @@
       "OpenAI",
       "UX Design"
     ],
-    "headline": "AWS 推出 Claude Platform，讓企業可直接在 AWS 帳戶內使用 Claude 原生體驗，不需透過 Bedrock，身份管理、帳單、日誌全整合進現有 AWS 基礎設施。"
+    "headline": "AWS 推出 Claude Platform，讓企業可直接在 AWS 帳戶內使用 Claude 原生體驗，不需透過 Bedrock，身份管理、帳單、日誌全整合進現有 AWS 基礎設施。",
+    "no": 12
   },
   {
     "date": "2026-04-26",
@@ -902,7 +988,8 @@
       "OpenAI",
       "Vibe Coding"
     ],
-    "headline": "有人根據 Andrej Karpathy 對 LLM 編碼習慣的觀察，建立了一個 Claude.md 檔案來修正 Claude Code 的壞習慣（如隱含假設、過度複雜化），該專案已獲得 78.5K 星標。這顯示透過良好的 prompt 設計可大幅改善 AI 編碼輸出品質。"
+    "headline": "有人根據 Andrej Karpathy 對 LLM 編碼習慣的觀察，建立了一個 Claude.md 檔案來修正 Claude Code 的壞習慣（如隱含假設、過度複雜化），該專案已獲得 78.5K 星標。這顯示透過良好的 prompt 設計可大幅改善 AI 編碼輸出品質。",
+    "no": 11
   },
   {
     "date": "2026-04-25",
@@ -917,7 +1004,8 @@
       "Job Market",
       "OpenAI"
     ],
-    "headline": "Xbox 新 logo 採用類似 Apple Liquid Glass 的風格，標誌著設計界可能告別過去十年的極簡主義，開始重新為品牌注入靈魂與質感。"
+    "headline": "Xbox 新 logo 採用類似 Apple Liquid Glass 的風格，標誌著設計界可能告別過去十年的極簡主義，開始重新為品牌注入靈魂與質感。",
+    "no": 10
   },
   {
     "date": "2026-04-24",
@@ -929,7 +1017,8 @@
       "Gemini",
       "OpenAI"
     ],
-    "headline": "OpenAI 推出 GPT-5.5，強調新一代智能可理解複雜目標、使用工具、自我檢查並完成更多任務，現已在 ChatGPT 與 Codex 上線。"
+    "headline": "OpenAI 推出 GPT-5.5，強調新一代智能可理解複雜目標、使用工具、自我檢查並完成更多任務，現已在 ChatGPT 與 Codex 上線。",
+    "no": 9
   },
   {
     "date": "2026-04-23",
@@ -943,6 +1032,7 @@
       "Design",
       "Product Management"
     ],
-    "headline": "Google 開源 DESIGN.md 規格，讓設計規則可在不同工具間匯入匯出，AI agents 能直接理解設計意圖而不需猜測，現已新增多項功能。"
+    "headline": "Google 開源 DESIGN.md 規格，讓設計規則可在不同工具間匯入匯出，AI agents 能直接理解設計意圖而不需猜測，現已新增多項功能。",
+    "no": 8
   }
 ]
