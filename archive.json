@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-24",
+    "date_display": "2026 年 07 月 24 日",
+    "generated_at": "2026-07-24T08:55:51.379720+08:00",
+    "total": 3,
+    "sources": [
+      "Design"
+    ],
+    "headline": "Paper 宣布完成由 Accel 與 ICONIQ Capital 領投的 3,400 萬美元 A 輪融資，定位為「團隊與 AI Agent 協作的專業設計工具」，正快速成長中。",
+    "no": 99
+  },
+  {
     "date": "2026-07-23",
     "date_display": "2026 年 07 月 23 日",
     "generated_at": "2026-07-23T08:56:09.862655+08:00",
@@ -1017,18 +1028,5 @@
     ],
     "headline": "Xbox 新 logo 採用類似 Apple Liquid Glass 的風格，標誌著設計界可能告別過去十年的極簡主義，開始重新為品牌注入靈魂與質感。",
     "no": 10
-  },
-  {
-    "date": "2026-04-24",
-    "date_display": "2026 年 04 月 24 日",
-    "generated_at": "2026-04-24T08:28:37.452802+08:00",
-    "total": 15,
-    "sources": [
-      "Claude",
-      "Gemini",
-      "OpenAI"
-    ],
-    "headline": "OpenAI 推出 GPT-5.5，強調新一代智能可理解複雜目標、使用工具、自我檢查並完成更多任務，現已在 ChatGPT 與 Codex 上線。",
-    "no": 9
   }
 ]
