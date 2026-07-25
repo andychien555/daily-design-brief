@@ -1,6 +1,115 @@
 {
-  "generated_at": "2026-07-24T23:22:37+08:00",
+  "generated_at": "2026-07-25T09:00:14+08:00",
   "days": [
+    {
+      "d": "2026-07-25",
+      "dd": "2026 年 07 月 25 日",
+      "no": 100,
+      "items": [
+        {
+          "k": "article",
+          "t": "UX Roundup: Carousels | AI-Native Games | Bulk Actions | AI Film Wins at Cannes | Peak–End Rule | AI Use 2× in One Year",
+          "b": "一句話總結 作者透過輪播介面眼動研究、AI 原生遊戲分析與批次操作設計，指出成功的數位體驗必須結合對使用者真實行為模式的理解（而非假設）、結構化設計與適當的摩擦力控制。 核心重點 輪播打破 F-pattern、呈現 L-pattern 掃視： 阿姆斯特丹大學分析 87 位使用者、2,375 個畫面的眼動數據發現，堆疊式輪播中使用者會先垂直掃視每排第一個縮圖（形成 L 形），滑動幾乎只發生在最終選擇的那一排——水平探索不是瀏覽而是「承諾」。至少 65% 使用者看了電影但從未看類別標籤，縮圖才是真正的導覽工具。 AI 原生遊戲需要「河岸」而非只有「河流」： 中國科學院團隊分析 53 款 AI 原生遊戲後發現，成功作品結合開放式生成與堅實結構（目標、持久狀態、驗證、清晰回饋）。作者提出「拔除測試」標準——移除 AI 後遊戲會崩潰才算 AI 原生。79% 遊戲使用三大機制：審問角色、說服/欺騙、AI 故事主持，但深度整合規則的設計仍稀少。 批次操作的速度優勢與失敗風險： 作者計算出批次操作可帶來 120 倍速度提升（200 封郵件從 10 分鐘降至 5 秒），但四大失敗模式包括：使用者從未看過的項目被納入操作（隱形載荷）、不可逆性、部分適用性、執行中途失敗。每個問題都有已知解法，但許多團隊仍在發布時跳過。 峰終定律：記憶只根據 2 個時刻評分： 作者指出 UX 團隊習慣測量「體驗自我」數據，卻困惑滿意度分數與分析不一致，因為記憶形成於「結尾」與「高峰」兩處。IKEA 出口處的 1 美元熱狗是峰終工程實體化；離開體驗（offboarding）最關鍵——出口的輕蔑態度會阻斷未來回歸。 AI 應用使用時間一年翻倍： Sensor Tower 報告顯示 2026 上半年全球用戶在 AI 應用內花費約 360 億小時，是 2025 上半年 172 億小時的兩倍多；美國市場從 26 億增至 40 億小時（成長較慢但更成熟）；消費者支出從 18.3 億美元增至 42 億美元。 自動完成是橋樑而非終點： 作者認為 AI 自動完成（如 MagicX 的意圖建議）可能是連接「純文字現況」與「意圖導向未來」的橋樑，但無法解決使用者尚未明確知道自己想要什麼的根本問題——人們透過「看見選項、對結果反應、修正問題」逐步發現意圖，這需要跨識字程度、真實任務的研究驗證。 對設計／產品的啟示 作者提供三層實務建議：（1）質疑從其他情境移植的假設——輪播研究推翻了網頁搜尋的四個假設，提醒設計者必須針對特定互動模式執行眼動或行為研究，而非直接套用既有模式；（2）為 AI 功能建立結構與驗證——生成是便宜的，可玩性/可用性必須被設計，每個模型輸出都需驗證器，好的生成應凍結為永久規則以降低成本並建立可學習系統；（3）摩擦力要與後果成比例——批次操作需顯示持續選取數量、提供撤銷、要求確認（與破壞性成比例），峰終定律則要求先修復最負面時刻、像設計入門一樣設計離開，讓旅程以成就而非官僚作業結束。作者強調：「旅程結束了；記憶才剛開始」——最後 30 秒的體驗決定使用者是否回歸。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "tweet",
+          "t": "Anthropic 團隊分享他們將 Claude Code 的 system prompt 刪減了約 80%，總結了如何為新模型撰寫 system prompt 與技能指令的實戰經驗。",
+          "b": "We removed ~80% of the Claude Code system prompt for our newest models, this is what we've learned about writing system prompts, skills and Claude.MDs for them. https://t.co/6DZwSrZjE9",
+          "m": "Thariq @trq212"
+        },
+        {
+          "k": "tweet",
+          "t": "Opus 5 除了在編碼、資料分析、設計等任務上表現優異，最令人興奮的是它成為 Anthropic 目前最抗提示注入（prompt injection）的模型。",
+          "b": "Opus 5 is a great model for coding, data analysis, design, biology, knowledge work. More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and https://t.co/JCAjU874tP",
+          "m": "Boris Cherny @bcherny"
+        },
+        {
+          "k": "tweet",
+          "t": "Midjourney 宣布收購占星應用 Co-Star，其 CEO Banu Guler 轉任 Midjourney 首席設計長，將建立跨職能設計、產品與前端團隊；Co-Star 應用將由 Banu 獨立繼續營運。",
+          "b": "Midjourney is acquiring Co-Star. CEO @banu__guler is now Chief Design Officer at Midjourney. She's building a cross-functional design, product and frontend team for all our efforts. The Co-Star app will continue to operate under Banus complete control. Welcome Banu and team &lt;3",
+          "m": "Midjourney @midjourney"
+        },
+        {
+          "k": "tweet",
+          "t": "Paper 完成 3400 萬美元 A 輪融資，定位為「專為與 AI agent 協作出貨的團隊設計的專業設計工具」，並且成長迅速。",
+          "b": "Paper just raised $34M in our Series A from @Accel and @ICONIQCapital Paper is the pro design tool for teams shipping with agents. We are well-funded and growing faster every day. Thank you for supporting Paper! Full story in the replies -- check out Agu's new graphics https://t.co/5H5EcQ5xJc",
+          "m": "Stephen Haney @stephenhaney"
+        },
+        {
+          "k": "tweet",
+          "t": "一張視覺化的 Go-To-Market 完整手冊，從市場定義、ICP、買家人設、JTBD、定位、價值主張到 TAM/SAM/SOM，涵蓋從 0 到 1 兆美元公司的完整 GTM 架構。",
+          "b": "the full Go-To-Market playbook from 0 to $1T company in one visual: 📂 Go-To-Market ┃ ┣ 📂 Foundation ┃ ┣ 📂 Market Definition ┃ ┣ 📂 ICP Development ┃ ┣ 📂 Buyer Personas ┃ ┣ 📂 Jobs To Be Done ┃ ┗ 📂 TAM / SAM / SOM ┃ ┣ 📂 Positioning ┃ ┣ 📂 Value Proposition",
+          "m": "Finn Mallery @fin465"
+        },
+        {
+          "k": "tweet",
+          "t": "整理了一份設計靈感來源清單：包括社群貼文設計精選、每日網頁設計靈感、極簡網站目錄、OG 圖範例等資源。",
+          "b": "Where I go when I run out of design ideas. Save this 👇 - https://t.co/FCZV9qE0gv - best of social post design - https://t.co/u6xNahfclU - daily web design inspiration - https://t.co/PZq5xDjQnJ - minimal websites directory - https://t.co/2UBWCcj9pJ - OG images done right - https://t.co/ckg9PaGGyE",
+          "m": "Tran Mau Tri Tam ✪ @tranmautritam"
+        },
+        {
+          "k": "tweet",
+          "t": "整理了 30 篇部落格文章來學習 30 個系統設計概念，涵蓋 API、API Gateway、JWT、Webhook、REST vs GraphQL、負載平衡等主題。",
+          "b": "𝟯𝟬 𝗕𝗹𝗼𝗴𝘀 𝘁𝗼 𝗟𝗲𝗮𝗿𝗻 𝟯𝟬 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀: 1. APIs: https://t.co/H11RMJSoYk 2. API Gateways: https://t.co/DaobFXCahz 3. JWTs: https://t.co/3lMVIvlwBZ 4. Webhooks: https://t.co/4L8uPx1TiO 5. REST vs GraphQL: https://t.co/SXLlBTJaxK 6. Load https://t.co/ukW4YoxF4m",
+          "m": "Jack @Tech_Rose1"
+        },
+        {
+          "k": "tweet",
+          "t": "Lu Yan 與 Zhiyi Zhang 推出受 Dieter Rams 與 Braun 工業設計啟發的擬物風格系統圖示套組（Rams System Icons）。",
+          "b": "Lu Yan Crafts Dieter Rams Inspired System Icon Design Rams System Icons launches a skeuomorphic icon suite with industrial design, combining Braun-inspired hardware by Lu Yan and Zhiyi Zhang. https://t.co/2rHP2Erzmb https://t.co/WmE8T8hRpa",
+          "m": "abdz. @abduzeedo"
+        },
+        {
+          "k": "tweet",
+          "t": "《Final Fantasy VII Revelation》導演濱口直樹表示他理解「開放世界疲勞」問題，因此將遊戲的開放世界設計得更易於玩家理解。",
+          "b": "Naoki Hamaguchi says he is aware of \"open world fatigue\" and has designed the open world of FF7 Revelation to be easy for players to understand! \"There are a lot of open world games out in the world right now, and [the idea of 'open world fatigue'] is a very important concept to https://t.co/uJpn740MTW",
+          "m": "Genki✨ @Genki_JPN"
+        },
+        {
+          "k": "tweet",
+          "t": "Co-Star 創辦人 Banu Guler 分享自己 17 歲移居紐約後，從餐廳服務生、甜甜圈店夜班到單車快遞員的早期經歷，當時希望能專注於女性主義獨立出版計畫。",
+          "b": "I moved to New York when I was 17. I waited tables at a vegan restaurant, worked the night shift at Dunkin Donuts on 3rd Ave, and finally found out about bike messengering, which I figured was a great long-term career option if I wanted to focus on feminist zine/book projects and",
+          "m": "Banu Guler @banu__guler"
+        },
+        {
+          "k": "product",
+          "t": "Hotspot Meter",
+          "b": "A private data-usage meter for your Mac menu bar 一款 Mac 選單列工具，用於私密地監控個人熱點或網路的數據使用量。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Liso",
+          "b": "Highlight text on any page and turn it into audio. 讓使用者在任何網頁上標記文字並即時轉換為語音播放的工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Buzz",
+          "b": "Your people, your agents, your project — all in one place 整合團隊成員、AI 代理與專案管理的協作平台，集中管理工作流程。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Chimlo",
+          "b": "Track Codex and Claude Code and respond from your Notch 追蹤 Codex 和 Claude Code 的活動，並可直接從 Mac Notch 區域快速回應。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "CrawlRaven",
+          "b": "SEO Hub for GSC + GA4 + a 200-point crawl 整合 Google Search Console 和 GA4 數據的 SEO 工具，提供 200 項檢查點的網站爬蟲分析。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "HOL Guard",
+          "b": "The 1st Firewall for AI Agents 首款專為 AI Agent 設計的防火牆，保護 AI 代理運作的安全性。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-07-24",
       "dd": "2026 年 07 月 24 日",
