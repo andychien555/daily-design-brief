@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-26",
+    "date_display": "2026 年 07 月 26 日",
+    "generated_at": "2026-07-26T08:56:20.125164+08:00",
+    "total": 1,
+    "sources": [
+      "Design"
+    ],
+    "headline": "引用長弓如何民主化戰爭的歷史論述，指出槍械是一種讓平等理念在物理上成真的技術，而非單純的武器。這種「效率優於壯麗」的模式反覆出現在西方文明史中，市場機制也是如此——不在意你的排場，只在乎實際效果。",
+    "no": 101
+  },
+  {
     "date": "2026-07-25",
     "date_display": "2026 年 07 月 25 日",
     "generated_at": "2026-07-25T08:55:55.337528+08:00",
@@ -1008,20 +1019,5 @@
     ],
     "headline": "AWS 推出 Claude Platform，讓企業可直接在 AWS 帳戶內使用 Claude 原生體驗，不需透過 Bedrock，身份管理、帳單、日誌全整合進現有 AWS 基礎設施。",
     "no": 12
-  },
-  {
-    "date": "2026-04-26",
-    "date_display": "2026 年 04 月 26 日",
-    "generated_at": "2026-04-26T08:46:57.689298+08:00",
-    "total": 12,
-    "sources": [
-      "AI Product",
-      "Claude",
-      "Design",
-      "OpenAI",
-      "Vibe Coding"
-    ],
-    "headline": "有人根據 Andrej Karpathy 對 LLM 編碼習慣的觀察，建立了一個 Claude.md 檔案來修正 Claude Code 的壞習慣（如隱含假設、過度複雜化），該專案已獲得 78.5K 星標。這顯示透過良好的 prompt 設計可大幅改善 AI 編碼輸出品質。",
-    "no": 11
   }
 ]

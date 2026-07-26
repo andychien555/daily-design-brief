@@ -1,6 +1,55 @@
 {
-  "generated_at": "2026-07-25T22:58:37+08:00",
+  "generated_at": "2026-07-26T08:57:10+08:00",
   "days": [
+    {
+      "d": "2026-07-26",
+      "dd": "2026 年 07 月 26 日",
+      "no": 101,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "引用長弓如何民主化戰爭的歷史論述，指出槍械是一種讓平等理念在物理上成真的技術，而非單純的武器。這種「效率優於壯麗」的模式反覆出現在西方文明史中，市場機制也是如此——不在意你的排場，只在乎實際效果。",
+          "b": "The gun is the most misunderstood object in Western civilization. Not a weapon. A technology. The technology that made the idea of equality physically real. 1. The longbow democratized warfare – a peasant could kill a knight with a stick and a string, and Agincourt proved it. https://t.co/aTbUnRmZ7V",
+          "m": "Krzysztof Szczawinski 🇵🇱 @Kristof_Poland"
+        },
+        {
+          "k": "product",
+          "t": "Heard",
+          "b": "Give Claude Code and Codex a voice 為 Claude Code 和 Codex 等 AI 編程工具增加語音互動功能，讓開發者能透過語音與程式碼助手溝通。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "ADE",
+          "b": "All your coding agents, synced everywhere, free forever 整合並同步所有程式碼開發 AI 代理工具的平台，提供跨裝置使用且永久免費。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Health in ChatGPT",
+          "b": "Your personal health companion, powered by ChatGPT 基於 ChatGPT 技術的個人健康管理助手，協助使用者追蹤與管理健康資訊。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Seller by Facebook",
+          "b": "The easiest way to sell on Facebook Marketplace Facebook 官方推出的簡化版 Marketplace 販售工具，協助賣家更快速地在平台上架商品。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Speechius",
+          "b": "The teleprompter that actually listens 具備語音辨識功能的智慧型提詞機，能即時偵測使用者朗讀進度並自動捲動文稿。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Banquish — Make the web your workspace",
+          "b": "Clip living pieces of the web onto one canvas 讓使用者將網頁內容擷取為可互動的卡片，並整合到單一畫布上進行協作與管理。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-07-25",
       "dd": "2026 年 07 月 25 日",
