@@ -1,6 +1,55 @@
 {
-  "generated_at": "2026-07-26T23:00:26+08:00",
+  "generated_at": "2026-07-27T08:57:04+08:00",
   "days": [
+    {
+      "d": "2026-07-27",
+      "dd": "2026 年 07 月 27 日",
+      "no": 102,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "作者成功讓 13B AI 模型在一般消費級硬體上離線運行，且 RAM 低於模型建議配置，聲稱能為大型 AI 公司省下數十億美元成本。討論中對技術細節與可行性有進一步探討。",
+          "b": "SUCCESS! AI ON NO GPU COMPUTERS! I’m back the stress test is done. AND I NOW KNOW I CAN SAVE LARGE AI COMPANIES BILLIONS OF DOLLARS! I’ll show you how for free. The 13B model ran fully offline on ordinary consumer hardware that has less RAM than the model wants. Flash (the https://t.co/70w3uFiL5l",
+          "m": "Brian Roemmele @BrianRoemmele"
+        },
+        {
+          "k": "product",
+          "t": "PureBox.ai",
+          "b": "Review-first AI cleanup for your real Gmail inbox. 採用審核優先機制的 AI 郵件清理工具，直接整理你的 Gmail 收件匣。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "AppUFO",
+          "b": "Ship localised Apps faster 協助開發者加速應用程式在地化流程的工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "SF Apartment Finder",
+          "b": "Tinder for live SF rentals from across the web 以類似 Tinder 滑動介面搜尋舊金山即時租屋資訊的平台。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Yoggi",
+          "b": "Safe AI chat for kids 專為兒童設計的安全 AI 聊天應用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "KeyOpera 2.0",
+          "b": "Make every Mac keystroke sound uniquely yours 讓 Mac 鍵盤敲擊發出個人化聲音效果的工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Pulse Island",
+          "b": "A living island for your Mac's notch 在 Mac 瀏海區域顯示動態小島視覺效果的應用程式。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-07-26",
       "dd": "2026 年 07 月 26 日",
