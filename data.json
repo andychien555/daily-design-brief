@@ -1,21 +1,113 @@
 {
-  "date": "2026-07-27",
-  "date_display": "2026 年 07 月 27 日",
-  "generated_at": "2026-07-27T08:56:16.606690+08:00",
-  "since_date": "2026-07-25",
+  "date": "2026-07-28",
+  "date_display": "2026 年 07 月 28 日",
+  "generated_at": "2026-07-28T08:56:01.447055+08:00",
+  "since_date": "2026-07-26",
   "top_tweets": [
     {
-      "id": "2081386219293069724",
-      "text": "SUCCESS! AI ON NO GPU COMPUTERS!\n\nI’m back the stress test is done.\n\nAND I NOW KNOW I CAN SAVE LARGE AI COMPANIES BILLIONS OF DOLLARS!\n\nI’ll show you how for free.\n\nThe 13B model ran fully offline on ordinary consumer hardware that has less RAM than the model wants. \n\nFlash (the https://t.co/70w3uFiL5l",
-      "author": "BrianRoemmele",
-      "name": "Brian Roemmele",
-      "likes": 980,
-      "retweets": 143,
-      "replies": 75,
-      "created": "Sun Jul 26 14:28:39 +0000 2026",
-      "url": "https://x.com/BrianRoemmele/status/2081386219293069724",
+      "id": "2081759923139178810",
+      "text": "claude design is *by far* the single most underrated ai product rn.\n\na world class designer for everyone.\n\nusing it w/ opus 5 this weekend has completely transformed how i build.\n\nit should be 100x more popular.\n\nunreal product.",
+      "author": "mckaywrigley",
+      "name": "Mckay Wrigley",
+      "likes": 827,
+      "retweets": 11,
+      "replies": 93,
+      "created": "Mon Jul 27 15:13:37 +0000 2026",
+      "url": "https://x.com/mckaywrigley/status/2081759923139178810",
       "source": "Design",
-      "summary_zh": "作者成功讓 13B AI 模型在一般消費級硬體上離線運行，且 RAM 低於模型建議配置，聲稱能為大型 AI 公司省下數十億美元成本。討論中對技術細節與可行性有進一步探討。"
+      "summary_zh": "Claude Design 搭配 Opus 5 使用後，讓作者的開發流程完全改變，認為這是目前最被低估的 AI 產品，能為每個人提供世界級設計師的能力。"
+    },
+    {
+      "id": "2081401658647490797",
+      "text": "终于有一个可以复刻 Apple 设计风格的 Skill 了。\nApple 的一些视觉风格，给人的感觉就是很舒服。\n\napple-design ，它的来源主要来自 Apple 的 WWDC 设计演讲，尤其是流体界面、音频触觉反馈、字体细节、伟大设计原则这些内容。\n\n作者把这些经验整理成 17 条设计和动效原则，再转换成 Web https://t.co/BcELxEpgyL",
+      "author": "guangGitHub",
+      "name": "逛逛GitHub",
+      "likes": 1673,
+      "retweets": 138,
+      "replies": 66,
+      "created": "Sun Jul 26 15:30:00 +0000 2026",
+      "url": "https://x.com/guangGitHub/status/2081401658647490797",
+      "source": "Design",
+      "summary_zh": "apple-design 專案將 Apple WWDC 設計演講中的流體界面、觸覺反饋、字體細節等經驗，整理成 17 條設計和動效原則並轉換成 Web 實作，讓開發者能夠複刻 Apple 設計風格。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2081836061332824450",
+      "text": "We asked for design feedback 📢 \nYou gave your feedback 📢 📢 📢 📢 \nWe listened👂 \nNow there’s a new update! ✅ \n\nKeep us honest and keep the feedback coming 🤝",
+      "author": "JustTeddii",
+      "name": "Ted Timmins",
+      "likes": 636,
+      "retweets": 26,
+      "replies": 169,
+      "created": "Mon Jul 27 20:16:10 +0000 2026",
+      "url": "https://x.com/JustTeddii/status/2081836061332824450",
+      "source": "Design",
+      "summary_zh": "團隊公開徵求設計反饋、傾聽並根據用戶意見推出新版本更新，呼籲用戶持續提供回饋意見。"
+    },
+    {
+      "id": "2081846074415677714",
+      "text": "Windows is spying on you. By design.\n\nMicrosoft's GDID is a unique, server-assigned identifier for your Windows install. \n\nA recent court filing showed Microsoft was able to connect a GDID to IP activity.\n\nVPNs don't help. Local accounts don't fix it.\n\nSo we built deGDID.",
+      "author": "Windscribe",
+      "name": "Windscribe",
+      "likes": 825,
+      "retweets": 71,
+      "replies": 18,
+      "created": "Mon Jul 27 20:55:57 +0000 2026",
+      "url": "https://x.com/Windscribe/status/2081846074415677714",
+      "source": "Design",
+      "summary_zh": "Windows 的 GDID 是微軟伺服器指派的唯一識別碼，可用於追蹤 IP 活動且 VPN 無法防範，Windscribe 因此開發 deGDID 工具來解決隱私問題。"
+    },
+    {
+      "id": "2081759838963409365",
+      "text": "Level design in \"You can go in guns blazing or take a stealthy approach\" video games",
+      "author": "JoeLongBalls",
+      "name": "JoeLongBalls",
+      "likes": 14714,
+      "retweets": 439,
+      "replies": 77,
+      "created": "Mon Jul 27 15:13:17 +0000 2026",
+      "url": "https://x.com/JoeLongBalls/status/2081759838963409365",
+      "source": "Design",
+      "summary_zh": "諷刺多數號稱「可潛行或正面強攻」的遊戲，關卡設計實際上缺乏真正的策略選擇性。",
+      "context": {
+        "quoted_text": "",
+        "quoted_author": "",
+        "replied_text": "",
+        "replied_author": "",
+        "top_replies": []
+      }
+    },
+    {
+      "id": "2081744666991731133",
+      "text": "People like to pretend that the ''heckin chuds'' are the people killing the game industry but it's not them. \n\nIt's this type of toxically positive consoomer who keeps buying garbage and tolerating downgrades, censorship, and shitty game design\n\nToxic positivity is KILLING gaming https://t.co/5H7iWs8uGI",
+      "author": "ShitpostRock",
+      "name": "Rock Solid",
+      "likes": 1355,
+      "retweets": 133,
+      "replies": 26,
+      "created": "Mon Jul 27 14:13:00 +0000 2026",
+      "url": "https://x.com/ShitpostRock/status/2081744666991731133",
+      "source": "Design",
+      "summary_zh": "作者認為真正殺死遊戲產業的不是批評者，而是盲目容忍劣質設計、審查和降級內容的「毒性正向消費者」。"
+    },
+    {
+      "id": "2081354526003712415",
+      "text": "GPT-Image分享一套生成康奈尔笔记学习各种知识的提示词模版\n\n提示词如下⬇️\n\n请设计一张高质量的信息图（Infographic），采用「康奈尔笔记（Cornell Notes）」版式，用于学习【主题】。\n\n整体要求：\n\n风格：\n- A4竖版\n- 高清（4K）\n- 扁平化设计（Flat Design）\n- 清爽、干净、现代\n- 白色背景\n- https://t.co/0XKdkRCXKB",
+      "author": "knowledgefxg",
+      "name": "知识分享官",
+      "likes": 981,
+      "retweets": 237,
+      "replies": 81,
+      "created": "Sun Jul 26 12:22:43 +0000 2026",
+      "url": "https://x.com/knowledgefxg/status/2081354526003712415",
+      "source": "Design",
+      "summary_zh": "分享用 GPT-Image 生成康奈爾筆記風格資訊圖的提示詞模板，要求採用 A4 直版、扁平化設計、4K 高清等規格來學習知識主題。"
     }
   ],
   "criteria": {
@@ -98,72 +190,92 @@
   },
   "top_products": [
     {
-      "title": "PureBox.ai",
-      "url": "https://www.producthunt.com/products/purebox-ai",
-      "published": "2026-07-25T12:23:04-07:00",
-      "author": "Shaked I",
-      "tagline": "Review-first AI cleanup for your real Gmail inbox.",
-      "post_id": "1206492",
-      "summary_zh": "採用審核優先機制的 AI 郵件清理工具，直接整理你的 Gmail 收件匣。",
-      "image_url": "https://ph-files.imgix.net/13d2e711-0ab6-4e1f-a6dc-1abca88a2e94.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/f5576484-0831-42ef-b6e3-7af69e15f216.png?auto=format&w=960&h=540&fit=crop"
+      "title": "FindDiskKiller",
+      "url": "https://www.producthunt.com/products/finddiskkiller",
+      "published": "2026-07-26T10:27:58-07:00",
+      "author": "jianyin tang",
+      "tagline": "See which apps are hammering your Mac's disk",
+      "post_id": "1207143",
+      "summary_zh": "幫助 Mac 使用者找出哪些應用程式正在大量讀寫磁碟，協助診斷系統效能問題。",
+      "image_url": "https://ph-files.imgix.net/83486414-58f8-433f-95ce-35b5965d825e.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/acbff46d-2060-4d38-8d6b-07198172117e.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "AppUFO",
-      "url": "https://www.producthunt.com/products/appufo-localise-apps-with-ai",
-      "published": "2026-07-25T02:00:29-07:00",
-      "author": "Melvin Zammit",
-      "tagline": "Ship localised Apps faster",
-      "post_id": "1206101",
-      "summary_zh": "協助開發者加速應用程式在地化流程的工具。",
-      "image_url": "https://ph-files.imgix.net/5316b062-da46-4b6d-b51f-14ec68da01b6.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/707de342-89a4-4038-9b75-f993f35fb6fb.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Grok 4.5",
+      "url": "https://www.producthunt.com/products/grok",
+      "published": "2026-07-26T14:24:53-07:00",
+      "author": "Chris Messina",
+      "tagline": "SpaceXAI's model for coding, agentic tasks & knowledge work",
+      "post_id": "1207308",
+      "summary_zh": "SpaceXAI 推出的 AI 模型，專注於程式開發、自主任務執行與知識工作應用。",
+      "image_url": "https://ph-files.imgix.net/a1a82d64-c2aa-496b-b79b-ad94dddf113e.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ee3cc408-d3cf-4b98-a2b6-74066f002240.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "SF Apartment Finder",
-      "url": "https://www.producthunt.com/products/sf-apartment-finder",
-      "published": "2026-07-25T13:23:55-07:00",
-      "author": "Yahia Bakour",
-      "tagline": "Tinder for live SF rentals from across the web",
-      "post_id": "1206526",
-      "summary_zh": "以類似 Tinder 滑動介面搜尋舊金山即時租屋資訊的平台。",
-      "image_url": "https://ph-files.imgix.net/b8239e89-ef66-4ee2-a6db-50db666d92e2.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/cd1b8159-8f0c-47a6-9c3f-c0ecd24c1db2.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Tackly",
+      "url": "https://www.producthunt.com/products/tackly",
+      "published": "2026-07-26T09:39:30-07:00",
+      "author": "Jonathan Lukas",
+      "tagline": "Map your thoughts in real time with AI.",
+      "post_id": "1207115",
+      "summary_zh": "使用 AI 即時將使用者的思緒轉換為視覺化心智圖，適合需要整理想法的工作者。",
+      "image_url": "https://ph-files.imgix.net/a58dfdf1-47f4-4a14-9c30-44cb8a9bb0af.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/cd2950f9-61ba-48b0-8c71-7e6e54239fdd.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Yoggi",
-      "url": "https://www.producthunt.com/products/yoggi",
-      "published": "2026-07-25T03:16:14-07:00",
-      "author": "Lucas",
-      "tagline": "Safe AI chat for kids",
-      "post_id": "1206148",
-      "summary_zh": "專為兒童設計的安全 AI 聊天應用。",
-      "image_url": "https://ph-files.imgix.net/5d305389-108f-413b-a49f-6da58d6a302e.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/cecf25dd-dc22-43d7-bdad-90d1baac07e1.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Tunio",
+      "url": "https://www.producthunt.com/products/tunio",
+      "published": "2026-07-26T13:29:09-07:00",
+      "author": "Mike Kabanov",
+      "tagline": "AI Music operations platform for venues",
+      "post_id": "1207280",
+      "summary_zh": "為音樂場館設計的 AI 營運平台，協助管理音樂相關業務流程。",
+      "image_url": "https://ph-files.imgix.net/e04e1e87-eb5d-4dc6-85d0-ad8f0f36fdc5.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3268e6cc-51af-4c0f-8e07-1253089c6156.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "KeyOpera 2.0",
-      "url": "https://www.producthunt.com/products/keyopera",
-      "published": "2026-07-25T11:49:56-07:00",
-      "author": "Birang",
-      "tagline": "Make every Mac keystroke sound uniquely yours",
-      "post_id": "1206472",
-      "summary_zh": "讓 Mac 鍵盤敲擊發出個人化聲音效果的工具。",
-      "image_url": "https://ph-files.imgix.net/c6f3c8a7-daac-4852-9264-7fa5d1df6c2b.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/57c7003e-7166-4790-9bc1-381dd8dce062.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Edit Mind × Strava",
+      "url": "https://www.producthunt.com/products/edit-mind-3",
+      "published": "2026-07-26T01:02:33-07:00",
+      "author": "Ilias Haddad",
+      "tagline": "Every clip matched to the Strava activity it's from",
+      "post_id": "1206798",
+      "summary_zh": "將影片片段自動配對到對應的 Strava 運動紀錄，方便運動愛好者整理訓練影片。",
+      "image_url": "https://ph-files.imgix.net/0022c433-ce97-4357-a41a-e0b662bc0926.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/732920bb-0c61-4af6-b697-b0cac60527fc.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Pulse Island",
-      "url": "https://www.producthunt.com/products/pulse-island",
-      "published": "2026-07-25T11:13:51-07:00",
-      "author": "Aayush Talreja",
-      "tagline": "A living island for your Mac's notch",
-      "post_id": "1206457",
-      "summary_zh": "在 Mac 瀏海區域顯示動態小島視覺效果的應用程式。",
-      "image_url": "https://ph-files.imgix.net/ac434894-b8ee-4e4f-9245-5d8a2761c5e1.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/50ccb84d-9de7-424b-977b-418295bc20b1.png?auto=format&w=960&h=540&fit=crop"
+      "title": "HeyZoku",
+      "url": "https://www.producthunt.com/products/heyzoku",
+      "published": "2026-07-26T23:25:42-07:00",
+      "author": "Priyanshu Dangi",
+      "tagline": "Orchestrate an army of coding agents with your voice.",
+      "post_id": "1207527",
+      "summary_zh": "透過語音指令調度多個 AI 程式開發代理，協助開發者進行編碼工作。",
+      "image_url": "https://ph-files.imgix.net/fdf1c31d-a8a7-4465-9dba-ca5ba6b86e69.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/9a45b2e8-9a34-44e0-a62d-4f3860b6a00d.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
-  "podcast_briefs": [],
-  "article_briefs": []
+  "podcast_briefs": [
+    {
+      "episode_id": "8de0-0571-47d0-ab5f-1297a3976cf6",
+      "title": "EP323. Opus 5 正式發表、星艦第十三飛達標、開放模型的公開信 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/2ddb8de0-0571-47d0-ab5f-1297a3976cf6",
+      "published": "2026-07-27",
+      "channel": "M觀點",
+      "transcript_source": "Podcast 音檔 · Whisper",
+      "summary_md": "## 一句話總結\nAnthropic 推出 Opus 5 與 Fable 5 同等實力但成本低 25–30%，SpaceX 星艦第 13 飛幾乎完美達標，美國科技巨頭聯名呼籲政府支持開放權重模型以維護 AI 生態健康。\n\n## 1. Anthropic Opus 5 發表：性價比挑戰封閉模型\n- **性能與 Fable 5 並駕齊驅：** 在 AAAI 評測拿下 61 分超越 Fable 5 的 60 分，AACAI 編碼測試以 Extra High 模式得 67 分與 GPT 5.6 並列冠軍。\n- **成本降低 25–30%：** Opus 5 完成任務成本僅 Fable 5 的 74%，Extra High 模式更只需 70% 成本即達最高分。\n- **競爭壓力仍在：** 主講人認為 GPT 5.6 與 Grok 4.5 整體 CP 值仍優於 Opus 5，但 Opus 5 可降低 Anthropic 用戶流失率（從 33% 降至 20%）並補足 Fable 5 弱項。\n- **模型定位待調整：** Anthropic 現有四階模型（Fable、Opus、Sonnet、Haiku）可能簡化為三階，主講人預期 OpenAI 年底前推 GPT-6、XAI 兩周內推 Grok 4.6（2T 參數）。\n\n## 2. SpaceX 星艦第 13 飛：軟著陸近乎完美\n- **任務達標率 90%：** V3 版星艦（Ship 40 + Booster 20）成功部署 Starlink V3 衛星、太空中引擎熄火重啟、印度洋軟著陸浮於海面；唯 Super Heavy 火箭 Landing Burn 部分引擎未啟動導致硬著陸。\n- **下次測試將用筷子夾星艦：** 馬斯克預告 Flight 14（約 9 月底前）將嘗試機械臂回收星艦，主講人預期時程比 Flight 12→13 的兩個月更短。\n- **SpaceX 股價腰斬：** 從高點 220 美元跌至 115 美元（發行價 135 美元），主講人認為合理價約 84 美元（含 10% 信仰溢價至 92 美元），已小幅加碼至持股 1.5%（目標 3–4%），若跌至 90 幾美元將買滿。\n\n## 3. 開放權重模型公開信：產業聯合遊說政府\n- **50 家企業聯署支持 Open Weight：** 輝達、微軟、Meta、Palantir 等率先發起（7/24 美國時間），OpenAI、Google 隔日補簽，馬斯克全力支持；Anthropic 與亞馬遜至今未簽。\n- **核心主張反對全面禁中國模型：** 公開信強調 AI 領導力取決於生態系健康而非單一封閉模型最強，開放模型可促進競爭、降低中小企業與學術門檻、保障企業主權；版權爭議應以商業框架（違約而非違法）處理。\n- **背景：政府考慮禁中國模型：** Kimi K3 引發美方警覺，傳 Anthropic 與 OpenAI 遊說禁止中國開源模型；主講人認為公開信可阻止全面封殺，但美方可能「殺雞儆猴」將 1–2 家中國公司（如月之暗面）列入實體清單，禁 API 交易但仍可下載模型本地運行。\n- **利益分野：** 輝達（硬體商）、微軟（雲平台）、Palantir（企業層）支持模型通用商品化以打破壟斷；Anthropic 希望獨霸市場；OpenAI 因 Sam Altman 善抓風向而補簽；Google 兼具模型與雲業務立場尷尬但最終簽署。\n\n## 4. 週末東北角行程與個人觀點\n- **首訪東北角體驗佳：** 主講人成年後首次造訪福隆、馬崗潮間帶，認為交通不便但生態體驗值得推薦，遇熱心聽眾分享螃蟹、海星等生物（已放回）。\n- **食安事件看法保留：** 對毒油事件未深入研究不便評論政治責任，但認為台灣食安標準常參照歐盟過嚴，應在合理劑量內允許彈性；地方與中央皆有改善空間，政治攻防戰非必要。\n\n## 結論與後市展望\n主講人認為 Opus 5 雖未根本扭轉 Anthropic 競爭劣勢，但可透過信仰加成與轉換成本降低用戶流失；OpenAI 暫無急迫感推 GPT-6，XAI 的 Grok 4.6/4.7 值得期待。SpaceX 股價已進入合理區間下緣，Flight 14 若成功回收星艦將成里程碑。開放權重模型公開信反映產業對政府過度干預的防禦，主講人支持折衷路線：打擊極端侵權但保留開放生態，最終 AI 應用將是「封閉前沿模型（10% 頂尖任務）+ CP 值中階模型（30–50% 主力）+ 本地開源模型（30% 機密工作）」的混合模式。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-07-28"
+    }
+  ],
+  "article_briefs": [
+    {
+      "title": "UX Roundup: New AI Models | How Designers Use AI Design | User Agency | Breadcrumbs | Doug Engelbart | Decoy Effect | Active Users | AI Training vs. Copyright",
+      "url": "https://www.uxtigers.com/post/jakob-uxtigers-com",
+      "published": "2026-07-27",
+      "author": "Jakob Nielsen",
+      "summary_md": "## 一句話總結\n作者認為儘管 AI 技術不斷進步，人類行為模式——急於行動、依賴舊習慣、易受對比影響——在數十年間幾乎沒變，設計者應圍繞這些不變的人性常數來打造產品。\n\n## 重點整理\n\n- **AI 模型比較：Kimi K3 與 Fable 5 各擅勝場：** 作者測試 GPT 5.6 Sol、Claude Opus 5 與 Moonshot Kimi K3，發現 Kimi K3 提出最有價值的新觀點，但 Fable 5 整體洞察深度仍居領先；不同模型在編程、寫作等領域表現差異大，基準測試分數已愈來愈無法反映商業價值。\n\n- **21 萬筆 AI 設計提示的行為數據：60% 是一次性設計：** Superdesign 分析 2026 年上半年 21 萬筆真實提示，發現僅 40% 是迭代修改（中位數每個專案僅 0.67 次迭代），多數設計者仍採「提示即禱告」的一次性產出；中位提示長度 806 字符（約 130 詞），顯示設計者開始寫較完整的需求，但迭代設計仍遠遠不足。\n\n- **使用者原諒 AI 錯誤，因感受到能力增強（agency）：** Jigsaw 與 Gemic 針對 51 名重度 AI 使用者的民族誌研究顯示，儘管 AI 常犯錯（包括在簡報前 10 小時失敗、法律數據幻覺等），使用者仍持續使用，因累積的「能力紅利」（感覺自己變得更有能力）大於單次失敗；作者警告這可能導致「賦能劇場」（empowerment theater）——只給感覺、不給實質能力的黑暗模式。\n\n- **麵包屑導覽：零缺點的方向指引：** 作者重申麵包屑導覽（Home > 分類 > 子分類 > 當前頁）是最有效的位置型導覽，僅佔一行、不干擾不需要的人、幫助深層連結訪客理解網站結構、還能提升 Google 搜尋能見度；常見錯誤包括取代主導覽、顯示使用者點擊歷史、連結當前頁等。\n\n- **誘餌效應與殭屍方案：定價頁上無人選的選項可能操縱 52% 購買決策：** 作者回顧 1982 年 Huber 等人發現的誘餌效應（asymmetric dominance effect），以《經濟學人》訂閱案例為例：加入一個 0% 人選擇的「僅印刷版」方案，使「印刷+網路」方案的選擇率從 32% 跳至 84%；但作者強調該效應在實驗室外較不穩定，且刻意製造「殭屍方案」（zombie tier）是黑暗模式，會增加認知負荷、侵蝕信任、招致監管。\n\n- **主動使用者悖論：沒人讀說明書，也永遠不會讀：** 作者引用 1987 年 Carroll 與 Rosson 的經典研究，指出使用者受「產出偏誤」（想做事、不想學）與「同化偏誤」（用舊習慣理解新系統）驅使，會跳過所有教學直接嘗試真實任務；這行為模式至今未變，從文字處理器延伸到 AI 提示——設計者應接受這一事實，讓首次任務無需指導即可成功、提供安全探索環境（如無處不在的復原功能）、遵循既有慣例。\n\n## 對設計／產品的啟示\n\n作者建議設計者將人性常數視為不可改變的約束條件：**不要期待使用者會讀文件或迭代設計**，而應讓首次嘗試即可安全完成任務、在需要時才提供脈絡化的幫助、遵循平台慣例以利舊習慣遷移。針對 AI 產品，應**設計能力轉移而非只給爽感**——讓使用者在 6 個月後真正更有能力，而非只是在第 12 次對話中更開心；偵測並打破失敗迴圈、對低穩定性使用者提供防護欄。在定價頁等對比情境，**誠實安排選項、每個方案都應有真實受眾**，避免製造殭屍方案以操縱選擇。整體而言，科技在飛奔，人類行為紋風不動——為常數設計，才能從變數中獲利。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-07-28"
+    }
+  ]
 }
