@@ -1,6 +1,79 @@
 {
-  "generated_at": "2026-07-29T00:03:22+08:00",
+  "generated_at": "2026-07-29T08:56:54+08:00",
   "days": [
+    {
+      "d": "2026-07-29",
+      "dd": "2026 年 07 月 29 日",
+      "no": 104,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "有人指出數十年前食譜設計已經有完美解方，但現在所有人都選擇無視它。這則推文點出了產品設計中經典設計範式被遺忘的現象。",
+          "b": "i can’t believe someone solved recipe design decades ago and everyone just decided to ignore it https://t.co/drnU7Sj7kr",
+          "m": "juan @juanbuis"
+        },
+        {
+          "k": "tweet",
+          "t": "整理了 22 個值得安裝的 Claude Code 技能擴充，按功能分類，特別推薦 superpowers 這個會在撰寫程式前先規劃與除錯的工具。",
+          "b": "You installed Claude Code and stopped there. Here are 22 skills (actually) worth adding: If you're just getting started, check out these guides: Every one is a GitHub repo. Grouped by what they do: BUILD superpowers — plans and debugs before it writes Install → https://t.co/ZSLB0IZxU3",
+          "m": "Suryansh Tiwari @Suryanshti777"
+        },
+        {
+          "k": "tweet",
+          "t": "作者宣布加入 Apple 的 Human Interface Design 團隊，對產品設計師而言是值得關注的職涯動向。",
+          "b": "I’m excited to share that I’ve joined Apple’s Human Interface Design team! https://t.co/6bZbQPLPay",
+          "m": "Haolun Yang @haolun_yang"
+        },
+        {
+          "k": "tweet",
+          "t": "作者抱怨 Fable 這個 AI 工具的回應過於複雜難懂，對設計工作幫助不大，像是用密碼在溝通。",
+          "b": "fable thinks i'm a galaxy brain multi-phd. i can't take this anymore. it's like it speaks in code. useless for design work. https://t.co/6VUxNRMVp2",
+          "m": "Mario Zechner @badlogicgames"
+        },
+        {
+          "k": "tweet",
+          "t": "一位富有的藝術收藏家分享他的購買決策邏輯：沒有藝術學位，但會購買自己喜歡且預期能保值的作品，有時在信任的畫廊花夠多錢也是關鍵。",
+          "b": "I once asked a wealthy friend who collects art how he decides what art to buy. He buys art at Art Basel and through dealers. He told me that he doesn't have an art degree, but purchases things he likes and suspects will hold value. Sometimes if you spend enough money at a",
+          "m": "derek guy @dieworkwear"
+        },
+        {
+          "k": "product",
+          "t": "Cercle",
+          "b": "The bat signal for your closest friends. 讓你快速向最親近的朋友發送召集訊號的通訊工具，類似蝙蝠俠的求救信號概念。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Liminal",
+          "b": "A workspace & 2nd brain for you, your agent, and your team 結合工作空間與第二大腦功能的協作平台，支援個人、AI 代理和團隊共同使用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "MCP-Billing",
+          "b": "OAuth 2.1 + usage-based Stripe billing for MCP servers 為 MCP 伺服器提供 OAuth 2.1 身份驗證與 Stripe 用量計費整合方案。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "EasyCircuit",
+          "b": "Hardware prototyping, as simple as vibe-coding 簡化硬體原型開發流程的工具，讓電路設計如同撰寫程式碼般直覺。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Pinery Prose",
+          "b": "AI co-author for books + every edit is a diff you approve 書籍寫作的 AI 共同作者工具，每次編輯都以差異比對方式呈現供作者審核。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Lamoom",
+          "b": "Run agent apps inside your Claude or sell your own 讓使用者在 Claude 內執行 AI 代理應用程式，也可作為平台販售自己開發的應用。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-07-28",
       "dd": "2026 年 07 月 28 日",

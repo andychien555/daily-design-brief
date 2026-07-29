@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-29",
+    "date_display": "2026 年 07 月 29 日",
+    "generated_at": "2026-07-29T08:56:01.282485+08:00",
+    "total": 5,
+    "sources": [
+      "Design",
+      "UX Design"
+    ],
+    "headline": "有人指出數十年前食譜設計已經有完美解方，但現在所有人都選擇無視它。這則推文點出了產品設計中經典設計範式被遺忘的現象。",
+    "no": 104
+  },
+  {
     "date": "2026-07-28",
     "date_display": "2026 年 07 月 28 日",
     "generated_at": "2026-07-28T08:56:01.447055+08:00",
@@ -998,18 +1010,5 @@
     ],
     "headline": "Sandra Tanimura's bikini jeans which she introduced in the 2000s as an ultra-low-rise design with bikini strings that prevent them from slipping without the need for a belt https://t.co/zwZ1IqhRxK",
     "no": 15
-  },
-  {
-    "date": "2026-04-29",
-    "date_display": "2026 年 04 月 29 日",
-    "generated_at": "2026-04-29T08:46:58.238573+08:00",
-    "total": 10,
-    "sources": [
-      "AI Product",
-      "Design",
-      "UX Design"
-    ],
-    "headline": "設計代理商將面臨更大壓力，建議轉向高端品牌或產品化 AI 服務。產品設計將持續轉為內部化，AI 會加速這個趨勢。",
-    "no": 14
   }
 ]
