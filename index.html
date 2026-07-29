@@ -1288,6 +1288,118 @@
     @media (max-width: 720px) {
       .yt-brief { padding: 1.1rem 12px 1.2rem; }
     }
+
+    /* ─────────────── Newsletter / 好文（X 貼文風格卡片）─────────────── */
+    .nl-divider { margin-top: 3rem; }
+    .nl-divider span { color: var(--accent); }
+
+    .nl-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr));
+      gap: 1rem;
+      align-items: start;
+      margin-bottom: 3rem;
+    }
+
+    .nl-card {
+      border: 1px solid var(--rule);
+      border-radius: 16px;
+      background: var(--paper-2);
+      padding: 1.15rem 1.25rem 1rem;
+      transition: border-color .15s, background .15s;
+    }
+    .nl-card:hover { border-color: var(--accent); }
+
+    .nl-top {
+      display: flex;
+      align-items: center;
+      gap: .7rem;
+      margin-bottom: .85rem;
+    }
+    .nl-avatar {
+      flex: none;
+      width: 42px; height: 42px;
+      border-radius: 50%;
+      display: grid; place-items: center;
+      font-family: var(--serif);
+      font-size: 1.15rem; font-weight: 600;
+      color: var(--paper);
+      background: var(--accent);
+      border: 1px solid var(--rule);
+    }
+    .nl-id { display: flex; flex-direction: column; gap: .05rem; min-width: 0; }
+    .nl-name {
+      font-size: .92rem; font-weight: 600; color: var(--ink);
+      display: inline-flex; align-items: center; gap: .3rem;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .nl-verified { color: var(--accent); font-size: .68rem; }
+    .nl-handle { font-family: var(--mono); font-size: .72rem; color: var(--ink-3); }
+    .nl-src {
+      margin-left: auto;
+      font-family: var(--mono); font-size: .62rem;
+      letter-spacing: .08em; text-transform: uppercase;
+      color: var(--ink-2);
+      background: rgba(255, 87, 34, 0.08);
+      border: 1px solid rgba(255, 87, 34, 0.2);
+      padding: 3px 9px; border-radius: 999px; white-space: nowrap;
+    }
+
+    .nl-headline {
+      display: block;
+      font-family: var(--serif);
+      font-size: 1.16rem; line-height: 1.32;
+      color: var(--ink); text-decoration: none;
+      letter-spacing: -.005em;
+      font-variation-settings: 'opsz' 36, 'SOFT' 30;
+    }
+    .nl-headline:hover { color: var(--accent); }
+
+    .nl-lead {
+      margin-top: .55rem;
+      font-size: .9rem; line-height: 1.6; color: var(--ink-2);
+    }
+
+    .nl-thread { margin-top: .55rem; }
+    .nl-thread summary { list-style: none; cursor: pointer; }
+    .nl-thread summary::-webkit-details-marker { display: none; }
+    .nl-thread summary::marker { content: ""; }
+    .nl-expand {
+      display: inline-flex; align-items: center; gap: .35rem;
+      font-family: var(--mono); font-size: .72rem;
+      color: var(--accent); padding: .3rem 0;
+    }
+    .nl-expand:hover { color: var(--accent-2); }
+    .nl-thread[open] .nl-expand-open { display: none; }
+    .nl-expand-close { display: none; }
+    .nl-thread[open] .nl-expand-close { display: inline; }
+    .nl-expand-caret { transition: transform .2s; }
+    .nl-thread[open] .nl-expand-caret { transform: rotate(180deg); }
+
+    .nl-body {
+      margin-top: .35rem;
+      border-top: 1px dashed var(--rule);
+      padding-top: .9rem;
+    }
+    .nl-body.yt-body { line-height: 1.65; margin-top: .35rem; }
+    .nl-body.yt-body h3 { font-size: .96rem; margin-top: 1.1rem; }
+    .nl-body.yt-body h4 { font-size: .85rem; }
+    .nl-body.yt-body p, .nl-body.yt-body li { font-size: .85rem; }
+
+    .nl-actions {
+      display: flex; align-items: center; gap: .8rem;
+      margin-top: 1rem; padding-top: .7rem;
+      border-top: 1px dashed var(--rule);
+      font-family: var(--mono); font-size: .72rem;
+    }
+    .nl-open { color: var(--accent); text-decoration: none; letter-spacing: .03em; }
+    .nl-open:hover { text-decoration: underline; }
+    .nl-tag { margin-left: auto; color: var(--ink-3); }
+
+    @media (max-width: 720px) {
+      .nl-grid { grid-template-columns: 1fr; gap: .8rem; }
+      .nl-card { border-radius: 14px; }
+    }
   </style>
 </head>
 <body>
@@ -1333,6 +1445,67 @@
   </div>
 
   
+<details class="yt-brief" aria-label="財經節目重點">
+  <summary class="yt-summary">
+    <span class="yt-toggle" aria-hidden="true">▸</span>
+    <div class="yt-head">
+      <div class="yt-kicker">📈 今日財經重點 / Morning Market Brief</div>
+      <h2 class="yt-title"><a href="https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/067686d8-d739-40ff-bbb9-5d2e7558b6ee" target="_blank" rel="noopener" onclick="event.stopPropagation()">EP683 | 🚑 <span class="yt-arrow" aria-hidden="true">↗</span></a></h2>
+      <div class="yt-meta"><span class="yt-channel">股癌 Gooaye</span> <span class="yt-date">2026-07-29</span> <span class="chip yt-source">逐字稿來源 · Podcast 音檔 · Whisper</span></div>
+      <span class="yt-expand-hint">點開閱讀全文 ▾</span>
+    </div>
+  </summary>
+  <div class="yt-body"><h3>一句話總結</h3>
+<p>主講人孟公認為目前台股遭遇 2025 年可記載史冊的「AI 科技大屠殺」，個人帳戶最大回檔 25–28%（已從年度高點 200 多趴獲利大幅回吐至五月初淨值），市場滿地便宜貨但形態全毀、看不到止跌訊號，建議降低槓桿、分散至指數成分股、等待明確反彈再調整部位。</p>
+<h3>1. 當前跌勢與歷史比較：中小型股慘烈但未爆量</h3>
+<ul>
+<li><strong>絕對跌幅超越 2025/3 關稅戰：</strong> 櫃買指數一個月跌近 30%（相當於 2022 全年跌幅），但主講人認為「心理恐慌不如去年三月」——去年是流動性瞬間抽乾、當下看不到盡頭，今年則因多數人成本在四五月低點，帳上仍有獲利緩衝。</li>
+<li><strong>未出現斷頭爆量：</strong> 台股大盤持續下殺卻未見歷史巨量（今日約 1.08 兆），推測原因是「絕大多數投資人進場時間早、未到強制平倉線」，大家在互相消耗但沒人認輸出場。</li>
+<li><strong>季線防線全面失守：</strong> 兩週前主講人還說「季線下不看」，現在幾乎所有個股都跌破季線；台積電成為「最後堡壘」但也持續陰跌（每日 3% 內緩降）。</li>
+<li><strong>估值崩塌至十倍股遍地：</strong> 許多 AI 供應鏈個股本益比已從三四十倍砍到 10–15 倍（甚至出現七八倍股），主講人坦言「已在 15 倍時買進、如今變 10 倍仍在跌」，形容為「無底洞」。</li>
+</ul>
+<h3>2. 主講人操作回顧與心態調整：從進攻轉防守</h3>
+<ul>
+<li><strong>部位大幅轉向台積電與台指期：</strong> 過去一兩週陸續賣出中小型股、換入台積電（戲稱「聖櫃谷」）與台指期避險，但台積電也未能倖免、持續補跌。</li>
+<li><strong>杠桿控制與風險教訓：</strong> 主講人平時杠桿壓在 1.3 倍以下（曾發現 1.8 倍以上就夜不成眠），去年三月關稅戰曾因流動性危機「到處借銀行額度、甚至延後投資款項」，自此更加謹慎；強調「影響生活就是部位太大」。</li>
+<li><strong>未來策略轉為高度分散：</strong> 八月帶小孩出國前將調整為「單一持股不超過 10%、打散持股」，放棄過去集中押注題材股的作法；若再出現「人道走廊」反彈，會增持台指期或現金、不再搶反彈個股。</li>
+<li><strong>拒絕空手與放空：</strong> 主講人明確表示「不做空、不鼓勵空手」，傾向持有指數成分股熬過震盪，認為「歷史教訓是極端時可能出現三五倍股，但事後兩三年會證明當時低估」。</li>
+</ul>
+<h3>3. 市場恐慌來源推測：多重利空交織但缺乏主因</h3>
+<ul>
+<li><strong>聯準會立場不明：</strong> 市場擔心 FOMC 會議可能意外升息（主講人認為機率不大），但「若真升息、這波回檔根本不合理」；會議結果將是短期關鍵轉折。</li>
+<li><strong>油價與中東局勢：</strong> 美伊衝突一度推升油價，但油價回落後股市未反彈，故主講人判斷「非主因」。</li>
+<li><strong>中國 DUV 設備與傾銷疑慮：</strong> 市場傳中國將推出自製 DUV 曝光機、可能對 ASML 等設備廠構成威脅；主講人分析「關鍵在美國政府是否開放蘋果等大廠採用長鑫記憶體（CXMT）」——若開放則中國可用低價傾銷，否則影響有限（僅內循環）。</li>
+<li><strong>韓國為震央、全球擴散：</strong> 三星與 SK 海力士股價重挫（儘管記憶體前景看好、本益比不貴），主講人擔心「最缺的記憶體都能這樣殺，是否隱含 AI 需求預期反轉？」但強調目前產業面與預測數據仍正常。</li>
+</ul>
+<h3>4. 估值邏輯重估與產業觀察：CPU、記憶體、AI 伺服器</h3>
+<ul>
+<li><strong>台積電與輝達成市場「公定價」：</strong> 過去認為兩者相對其他 AI 股便宜、應向上收斂，現在市場可能改寫劇本為「台積電與輝達估值才是合理基準、其他個股應向下收斂」。</li>
+<li><strong>CPU 需求被低估：</strong> 主講人研究 Agentic AI 應用後發現，CPU 在推論階段扮演關鍵角色；雖然蘇姿丰與陳立武宣稱「CPU：GPU 將走向 1:1」，但目前產品（如 AMD Helios）仍維持 1:4 配置——主講人推測「1:1 是把通用伺服器內的 CPU 也算進去」，因此 Intel、AMD 的 CPU 出貨可能被市場忽略、具上修空間。</li>
+<li><strong>記憶體仍是最缺環節：</strong> 美光與 Meta 白皮書指出「DRAM 到 SSD 卸載速度慢數十倍」，HBM 與 DRAM 需求依然強勁；主講人認為韓國記憶體股暴跌「難以用基本面解釋」，可能反映市場過度恐慌或隱藏風險。</li>
+</ul>
+<h3>5. 心態建設與風控提醒：被市場「寵壞」後的修正</h3>
+<ul>
+<li><strong>四五月行情過於順遂：</strong> 主講人自嘲當時「每天開盤去打球、不看盤也一直漲」，事後檢討「那時應有警覺」；現在回吐兩個月漲幅，身邊大哥提醒「只是兩個多月沒漲、不要被寵壞」。</li>
+<li><strong>新手六月進場最慘：</strong> 留言網友六月滿倉 0050 成分股、目前負 30% 多，主講人安慰「非戰之罪、六月以來買什麼都賠」，建議先降低部位、等待盤整再加碼。</li>
+<li><strong>杠桿與資金缺口教訓：</strong> 主講人強調「去年三月曾因擔心連續跌停、到處開信用額度」，此後對杠桿極度謹慎；提醒「每個人的 100% 都一樣重、不論資產大小都可能一夕歸零」。</li>
+<li><strong>紅眼路比遊戲分散注意力：</strong> 主講人坦言遊戲成功上線（Debut）讓心情稍好，也看到許多實況主自發開箱（雖然有人連新手教學都沒看、全程平 A 打王），感謝社群支持、暫時轉移投資壓力。</li>
+</ul>
+<h3>6. 後市操作建議：等反彈、降杠桿、拉長週期</h3>
+<ul>
+<li><strong>短期不追跌、等人道走廊：</strong> 主講人認為「滿地便宜貨但不敢重押」，因跌勢未見止穩、形態全毀；若出現反彈會優先增持台指期或減少個股曝險，而非搶進跌深個股。</li>
+<li><strong>技術面需盤整時間：</strong> 一次回檔太深通常難 V 型反轉，預期「可能先給一個 V、然後橫盤整理數月、等均線壓力消化」，類似去年三月後走勢。</li>
+<li><strong>指數化投資為首選：</strong> 對看不清方向的投資人，建議直接持有大盤 ETF（如 0050）或台指期，避免個股地雷；主講人自己也將朝「單一持股 ≤10%、高度分散」調整。</li>
+<li><strong>絕不加槓桿、保留現金：</strong> 強調「波動太大、不知何時止跌」，即使反彈也會碰到密集均線壓力、解套賣壓湧現，因此現階段加槓桿「風險遠大於報酬」。</li>
+</ul>
+<h3>結論與後市展望</h3>
+<p>主講人認為此波「AI 科技大屠殺」已可載入史冊，雖絕對跌幅超越去年關稅戰、但因多數人成本低而未見斷頭爆量，市場呈「互相消耗、看不到盡頭」的膠著。當前滿地十倍股卻不敢買，主因形態全毀、不知是否「老板不在家（基本面出問題）」；短期關注 FOMC 會議與美國對中國記憶體態度，中長期仍看好 AI 趨勢（CPU、記憶體需求未變）。操作上建議：1) 降低杠桿至零、2) 增持指數成分股或台指期、3) 等明確反彈訊號再調整、4) 拉長投資週期、接受「可能需數月盤整」。主講人以去年三月經驗提醒：極端恐慌時保持現金流與部位彈性最重要，「活下來才能看到下一輪機會」。</p>
+<hr class="yt-rule">
+<p><em>本筆記為節目內容摘要，非投資建議。</em></p></div>
+  <div class="yt-foot"><a href="https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/067686d8-d739-40ff-bbb9-5d2e7558b6ee" target="_blank" rel="noopener">▶ 收聽原始節目</a></div>
+</details>
+
+
 <details class="yt-brief" aria-label="財經節目重點">
   <summary class="yt-summary">
     <span class="yt-toggle" aria-hidden="true">▸</span>
