@@ -14,7 +14,7 @@ from styles import STYLES
 from scripts import ARCHIVE_RAIL_SCRIPT, INTERACTIVE_SCRIPT, THEME_BOOTSTRAP_SCRIPT
 from templates import (
     archive_rail_html,
-    article_section,
+    newsletter_section,
     criteria_block,
     empty_state,
     lead_card,
@@ -99,7 +99,7 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
         podcast_briefs = [legacy] if legacy else []
     podcast_html = "\n".join(briefing_section(b) for b in podcast_briefs)
     article_briefs = data.get("article_briefs") or []
-    article_html = "\n".join(article_section(b) for b in article_briefs)
+    article_html = newsletter_section(article_briefs)
     top_products = data.get("top_products") or []
     products_html = products_section(top_products)
     sources = sorted({t.get("source", "") for t in top_tweets if t.get("source")})

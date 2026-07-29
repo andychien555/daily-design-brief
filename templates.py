@@ -287,38 +287,79 @@ def briefing_section(brief: dict) -> str:
 """
 
 
-def article_section(brief: dict) -> str:
-    """UX 好文重點 — 沿用 podcast 的 .yt-brief 可收合結構，渲染在財經區塊下方。"""
-    if not brief or not brief.get("summary_md"):
-        return ""
+def _lead_line(md: str) -> str:
+    """從中文重點 markdown 取「一句話總結」那行（第一個非標題／非清單／非分隔線
+    的段落），當作卡片上不必展開就看得到的導言。"""
+    for raw in (md or "").replace("\r\n", "\n").split("\n"):
+        s = raw.strip()
+        if not s or s.startswith("#") or s in ("---", "***", "___") or s.startswith(("-", "*", ">")):
+            continue
+        s = re.sub(r"\*\*(.+?)\*\*", r"\1", s)
+        s = re.sub(r"\*(.+?)\*", r"\1", s)
+        s = re.sub(r"^（|）$", "", s)
+        return s
+    return ""
+
+
+def newsletter_card(brief: dict, rank: int) -> str:
+    """把一篇 newsletter 全文重點渲染成 X 貼文風格卡片：頭像＋來源／handle／日期
+    的貼文標頭、文章標題連結、一句話導言，展開後為完整中文重點整理。"""
     title = esc(brief.get("title", ""))
-    url = brief.get("url", "") or "https://www.uxtigers.com/"
-    author = esc(brief.get("author", ""))
+    url = brief.get("url", "") or "#"
+    author = brief.get("author", "") or brief.get("source", "")
+    name = esc(author)
+    handle = esc(brief.get("handle", ""))
+    source = esc(brief.get("source", ""))
     published = esc(brief.get("published", ""))
+    initial = esc((author.strip()[:1] or "•").upper())
+    lead = esc(_lead_line(brief.get("summary_md", "")))
     body = md_to_html(brief.get("summary_md", ""))
 
-    meta_bits = []
-    if author:
-        meta_bits.append(f'<span class="yt-channel">{author}</span>')
+    handle_bits = []
+    if handle:
+        handle_bits.append(f"@{handle}")
     if published:
-        meta_bits.append(f'<span class="yt-date">{published}</span>')
-    meta_bits.append('<span class="chip yt-source">全文摘要 · Claude</span>')
-    meta_html = " ".join(meta_bits)
+        handle_bits.append(published)
+    handle_line = " · ".join(handle_bits)
+    source_chip = f'<span class="nl-src">{source}</span>' if source else ""
+    lead_html = f'<p class="nl-lead">{lead}</p>' if lead else ""
 
     return f"""
-<details class="yt-brief" aria-label="UX 好文重點">
-  <summary class="yt-summary">
-    <span class="yt-toggle" aria-hidden="true">▸</span>
-    <div class="yt-head">
-      <div class="yt-kicker">📖 UX 好文 / Reading</div>
-      <h2 class="yt-title"><a href="{url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{title} <span class="yt-arrow" aria-hidden="true">↗</span></a></h2>
-      <div class="yt-meta">{meta_html}</div>
-      <span class="yt-expand-hint">點開閱讀重點 ▾</span>
-    </div>
-  </summary>
-  <div class="yt-body">{body}</div>
-  <div class="yt-foot"><a href="{url}" target="_blank" rel="noopener">▶ 閱讀原文</a></div>
-</details>
+    <article class="nl-card">
+      <div class="nl-top">
+        <span class="nl-avatar" data-handle="{handle}" aria-hidden="true">{initial}</span>
+        <div class="nl-id">
+          <span class="nl-name">{name}<span class="nl-verified" aria-hidden="true">✔</span></span>
+          <span class="nl-handle">{handle_line}</span>
+        </div>
+        {source_chip}
+      </div>
+      <a class="nl-headline" href="{url}" target="_blank" rel="noopener">{title}</a>
+      {lead_html}
+      <details class="nl-thread">
+        <summary class="nl-expand">
+          <span class="nl-expand-open">展開完整重點整理</span>
+          <span class="nl-expand-close">收合重點</span>
+          <span class="nl-expand-caret" aria-hidden="true">▾</span>
+        </summary>
+        <div class="nl-body yt-body">{body}</div>
+      </details>
+      <div class="nl-actions">
+        <a class="nl-open" href="{url}" target="_blank" rel="noopener">閱讀原文 <span aria-hidden="true">↗</span></a>
+        <span class="nl-tag">全文摘要 · Claude</span>
+      </div>
+    </article>"""
+
+
+def newsletter_section(briefs: list[dict]) -> str:
+    """Newsletter / 好文精選區塊 — X 貼文風格卡片牆。"""
+    briefs = [b for b in (briefs or []) if b and b.get("summary_md")]
+    if not briefs:
+        return ""
+    cards = "\n".join(newsletter_card(b, i + 1) for i, b in enumerate(briefs))
+    return f"""
+<div class="grid-divider nl-divider"><span>📰 好文精選 / Newsletter</span></div>
+<div class="nl-grid">{cards}</div>
 """
 
 

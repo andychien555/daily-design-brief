@@ -109,17 +109,65 @@ PODCAST_AUDIO_SEGMENT_SECONDS = 1500
 PODCAST_SUMMARY_SINGLE_PASS_MAX = 40000
 PODCAST_SUMMARY_CHUNK_CHARS = 12000
 
-# ── UX 好文（Jakob Nielsen — UX Tigers）────────────────────────────
-# 每有新文章就抓「全文」→ Claude 整理成中文重點，渲染在財經 podcast 區塊下方。
+# ── 好文 / Newsletter 精選 ─────────────────────────────────────────
+# 每有新文章就抓「全文」→ Claude 整理成中文重點，渲染成 X 貼文卡片。
 # 純文字文章、無音檔 → 不需 Whisper。
 #
-# 來源取捨（實測結論）：作者的文章同時發在 Substack 與 uxtigers.com。
-# Substack 的 feed 帶整篇全文（content:encoded），但**會擋機房 IP（GitHub
-# Actions 回 403）**，只能在住宅 IP 用，不適合 CI。改走 uxtigers.com（Wix）：
-#   - discovery：Wix 的 blog-feed.xml（不擋機房，但 description 僅約 200 字）
-#   - 全文：抓每篇 post 連結的文章頁（Wix server-rendered，含整篇正文）
+# discovery（找近期文章清單）：
+#   - "direct"（預設）：httpx 直接抓 RSS。
+#   - "jina"          ：改用 r.jina.ai reader 抓 feed（jina 從自家 IP 抓，
+#                       繞過 Cloudflare TLS 指紋封鎖與 Substack 機房 IP 封鎖）。
+# fulltext（取全文）：
+#   - "feed"：RSS 的 content:encoded 已含整篇全文（未被擋時最省）。
+#   - "page"：RSS 只有摘要 → 用 r.jina.ai reader 抓文章頁全文。
+#   - "wix" ：uxtigers.com（Wix server-rendered）專用正文擷取。
+#   （discovery 走 jina 的來源，內文也一律走 jina，故 fulltext 對它們不生效。）
+#
+# 為何這樣配（實測結論）：
+#   - Import AI：作者自家 WordPress（jack-clark.net）掛 Cloudflare，curl 過但
+#     httpx 吃 403（TLS 指紋），CI 只裝 httpx → discovery 與內文都走 jina。
+#   - NN/g：官網 RSS 不擋 httpx（direct）；RSS 只有摘要 → 內文走 jina（page）。
+#   - Design with AI：只在 Substack，機房 IP 會被 403 → discovery 與內文走 jina。
+#   - Jakob Nielsen：uxtigers.com（Wix）不擋機房，維持 direct + wix 正文擷取。
+# `topic` 會餵進 Claude 系統提示，讓摘要口吻／取材貼近該來源主題。
+ARTICLE_JINA_PREFIX = "https://r.jina.ai/"
 ARTICLE_FEEDS = [
-    {"name": "Jakob Nielsen", "rss": "https://www.uxtigers.com/blog-feed.xml"},
+    {
+        "name": "Jakob Nielsen",
+        "handle": "jakobnielsen",
+        "rss": "https://www.uxtigers.com/blog-feed.xml",
+        "source": "UX Tigers",
+        "discover": "direct",
+        "fulltext": "wix",
+        "topic": "使用者體驗、AI 與產品設計（作者為 UX 專家 Jakob Nielsen）",
+    },
+    {
+        "name": "Import AI",
+        "handle": "importai",
+        "rss": "https://jack-clark.net/feed/",
+        "source": "Import AI",
+        "discover": "jina",
+        "show_within_days": 14,  # 週報，偶有跳週 → 放寬窗避免漏抓
+        "topic": "AI 研究進展、產業趨勢與政策（Jack Clark 的 Import AI 週報）",
+    },
+    {
+        "name": "NN/g Nielsen Norman Group",
+        "handle": "nngroup",
+        "rss": "https://www.nngroup.com/feed/rss/",
+        "source": "NN/g",
+        "discover": "direct",
+        "fulltext": "page",
+        "topic": "UX 研究、易用性與介面設計（Nielsen Norman Group 的 UX 專文）",
+    },
+    {
+        "name": "Design with AI",
+        "handle": "designwithai",
+        "rss": "https://designwithai.substack.com/feed",
+        "source": "Substack",
+        "discover": "jina",
+        "show_within_days": 14,  # 雙週更 → 放寬窗，否則常態被 7 天窗擋掉
+        "topic": "AI × 產品／UX 設計的實作與工作流（Xinran Ma 的 Design with AI）",
+    },
 ]
 # 只顯示近 N 天內發布的文章（作者約每週兩篇，7 天窗可持續顯示最新一兩篇）。
 ARTICLE_SHOW_WITHIN_DAYS = 7
