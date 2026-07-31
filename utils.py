@@ -32,6 +32,10 @@ def shape_tweet(t: dict) -> dict:
         "replies": t["replies"],
         "text": t["text"],
     }
+    # A summary pre-filled from the briefs/*.md cache. The curation prompt tells
+    # Claude to reuse it verbatim, which only works if it is actually sent.
+    if t.get("summary_zh"):
+        out["summary_zh"] = t["summary_zh"]
     if ctx.get("quoted_text"):
         out["quoted"] = {"author": ctx["quoted_author"], "text": ctx["quoted_text"]}
     if ctx.get("replied_text"):
@@ -77,11 +81,14 @@ def claude_token_cost(usage, pricing: dict) -> tuple[int, int, float]:
 
 def record_usage(date_str: str, label: str, log_file: str, *,
                  input_tokens: int = 0, output_tokens: int = 0,
-                 audio_seconds: float = 0.0, cost_usd: float = 0.0) -> None:
+                 audio_seconds: float = 0.0, cost_usd: float = 0.0,
+                 keep_days: int = 180) -> None:
     """Append one API call's tokens / audio-seconds / USD cost to a per-day usage log.
 
     Aggregates by ``date_str`` so the daily job's separate scripts
     (tweets / producthunt / podcast) accumulate into one running daily total.
+    Trimmed to the most recent ``keep_days`` days — the other state files cap
+    themselves, and this one is committed on every run.
     Best-effort: never raises into the caller — cost logging must not break the pipeline.
     """
     try:
@@ -98,6 +105,10 @@ def record_usage(date_str: str, label: str, log_file: str, *,
             "label": label, "input_tokens": input_tokens, "output_tokens": output_tokens,
             "audio_seconds": round(audio_seconds, 1), "cost_usd": round(cost_usd, 6),
         })
+        # Keys are YYYY-MM-DD, so lexical order is chronological.
+        if len(log) > keep_days:
+            for stale in sorted(log)[:-keep_days]:
+                log.pop(stale, None)
         save_json(log_file, log)
         detail = f"{audio_seconds:.0f}s 音檔" if audio_seconds else f"{input_tokens}in/{output_tokens}out"
         print(f"  💰 {label}: {detail} → ${cost_usd:.4f}（{date_str} 累計 ${day['cost_usd']:.4f}）")

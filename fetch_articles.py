@@ -10,8 +10,9 @@ fetch_articles.py
 - "page"：RSS 只有摘要 → 用 r.jina.ai reader 抓文章頁全文（乾淨 markdown）。
 - "wix" ：uxtigers.com（Wix server-rendered）專用正文擷取。
 
-機房 IP 封鎖：Substack 的 feed 會擋 GitHub Actions（403）。標了 proxy_fallback 的
-feed，直連失敗時改用 r.jina.ai 繞過（jina 從自己的 IP 抓），discovery 與內文都走它。
+機房 IP 封鎖：Substack 與 Cloudflare 後面的 feed 會擋 GitHub Actions（403）。這類
+來源在 config 標 `discover: "jina"`，改用 r.jina.ai 繞過（jina 從自己的 IP 抓），
+discovery 與內文都走它（此時 `fulltext` 不生效）。
 
 設計要點（對齊 fetch_podcast.py）：
 - article_state.json 冪等快取（鍵：feed_name:guid）：同一篇已摘要 → 重用，不重打 Claude。

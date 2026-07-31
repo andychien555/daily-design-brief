@@ -280,7 +280,10 @@ def curate_with_claude(candidates: list[dict], top_n: int) -> list[dict]:
             tid = p.get("id")
             if tid in by_id:
                 tweet = by_id[tid]
-                tweet["summary_zh"] = p.get("summary_zh", "")
+                # Keep whatever the MD cache pre-filled if Claude returned no
+                # summary for this pick — overwriting with "" loses a summary we
+                # already paid for and leaves the card blank.
+                tweet["summary_zh"] = p.get("summary_zh") or tweet.get("summary_zh", "")
                 ordered.append(tweet)
         if not ordered:
             # Claude 跑成功但一則都沒挑（候選全是離題內容，例如來源限流那天
@@ -352,7 +355,11 @@ def load_recent_tweet_ids(days: int, today: str) -> set[str]:
     cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
     for md in sorted(BRIEFS_DIR.glob("*.md"), reverse=True):
         date_part = md.stem
-        if date_part >= today or date_part < cutoff:
+        # Newest first, so anything past the cutoff ends the scan; today's own
+        # brief (and any future-dated file) is skipped but does not stop it.
+        if date_part < cutoff:
+            break
+        if date_part >= today:
             continue
         try:
             content = md.read_text(encoding="utf-8")

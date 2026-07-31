@@ -321,17 +321,14 @@ def cached_brief(state: dict, key: str) -> dict | None:
     return entry if isinstance(entry, dict) and entry.get("summary_md") else None
 
 
-def process_one(podcast: dict, state: dict, force: bool) -> dict | None:
-    """回傳此 podcast 最新一集的 brief（新轉錄或快取重用），失敗回 None。"""
-    info = resolve_latest_episode(podcast)
-    if not info:
-        return None
-    key = info["state_key"]
+def process_one(podcast: dict, info: dict, state: dict, force: bool) -> dict | None:
+    """轉錄＋摘要某 podcast 的最新一集，回傳 brief，失敗回 None。
 
-    cached = None if force else cached_brief(state, key)
-    if cached:
-        log(f"{podcast['name']}：{info['title'][:24]} 已在快取 → 重用")
-        return cached
+    `info` 由呼叫端的 resolve_latest_episode 提供（早年這裡自己再解析一次，
+    等於每台每次多抓一輪 RSS）。快取命中也由呼叫端先判掉，這裡只走「要新做」
+    的路徑。
+    """
+    key = info["state_key"]
 
     # 上次轉錄成功但 Claude 摘要失敗（如 API 額度用盡）時逐字稿會留在 state：
     # 這次直接重試摘要，不重新下載＋轉錄，否則每次排程都白燒一次 Whisper。
@@ -415,7 +412,7 @@ def main() -> None:
                 log(f"{pod['name']}：{info['title'][:24]} 已在快取 → 重用")
                 brief = cached
             else:
-                brief = process_one(pod, state, force)
+                brief = process_one(pod, info, state, force)
             if brief:
                 # 跨日去重：同一集只在「首次出現的那天」顯示，之後不再重複，
                 # 直到該節目釋出新一集。first_shown 記在 state 快取裡（鍵：state_key）。
