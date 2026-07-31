@@ -1,24 +1,4 @@
-"""JavaScript for the daily-design-brief HTML output.
-
-``SHELL_JS`` is written to ``assets/shell.js`` and loaded with a <script src>.
-The theme bootstrap stays inline in <head>: it has to run before first paint,
-or the page flashes the wrong theme while an external file loads.
-"""
-
-THEME_BOOTSTRAP_SCRIPT = """  <script>
-    (function() {
-      try {
-        var t = localStorage.getItem('theme');
-        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
-        if (localStorage.getItem('rail-collapsed') === '1') {
-          document.documentElement.dataset.rail = 'collapsed';
-        }
-      } catch (e) {}
-    })();
-  </script>"""
-
-
-INTERACTIVE_JS = """  (function() {
+  (function() {
     document.querySelectorAll('dialog').forEach(function(d) {
       d.addEventListener('click', function(e) { if (e.target === d) d.close(); });
     });
@@ -93,11 +73,8 @@ INTERACTIVE_JS = """  (function() {
       el.textContent = next === 'light' ? '☀' : '☾';
     });
   }
-"""
 
-
-# Raw string: every backslash below is emitted verbatim into the page's JS.
-RAIL_JS = r"""(function() {
+(function() {
   var aside = document.querySelector('.archive-rail');
   if (!aside) return;
   var base = aside.dataset.base || '';
@@ -393,9 +370,3 @@ RAIL_JS = r"""(function() {
     }
   }
 })();
-"""
-
-
-# One file for both: the interactive chrome (dialogs, theme, drawer) and the
-# archive rail / search. Emitted to assets/shell.js and loaded at end of body.
-SHELL_JS = INTERACTIVE_JS + "\n" + RAIL_JS

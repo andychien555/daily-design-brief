@@ -1,11 +1,4 @@
-"""CSS styles for the daily-design-brief HTML output.
-
-Written to ``assets/shell.css`` by generate_html and linked from every page.
-It used to be inlined into each brief, which meant 106 snapshots carried the
-same 38KB and any tweak here rewrote all of them.
-"""
-
-SHELL_CSS = """    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
       --paper:    #1e1915;
@@ -1384,4 +1377,3 @@ SHELL_CSS = """    *, *::before, *::after { box-sizing: border-box; margin: 0; p
       .nl-grid { grid-template-columns: 1fr; gap: .8rem; }
       .nl-card { border-radius: 14px; }
     }
-"""

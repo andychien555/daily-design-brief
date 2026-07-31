@@ -9,6 +9,7 @@ on:
       - "archive.html"
       - "archive.json"
       - "search-index.json"
+      - "assets/**"
       - "briefs/**"
 
   workflow_run:
@@ -40,10 +41,20 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # Publishing the repo root also served the pipeline's state files —
+      # usage_log.json (daily API spend), podcast_state.json (~340KB of stored
+      # summaries), article_state.json. None of them are fetched by the site.
+      # Copy out only what the pages actually load.
+      - name: Assemble site
+        run: |
+          mkdir -p _site
+          cp index.html favicon.svg archive.json search-index.json _site/
+          cp -r assets briefs _site/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "_site"
 
       - name: Deploy to GitHub Pages
         id: deployment

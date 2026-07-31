@@ -10,8 +10,8 @@ from datetime import datetime
 
 import config
 from utils import load_json, save_json
-from styles import STYLES
-from scripts import ARCHIVE_RAIL_SCRIPT, INTERACTIVE_SCRIPT, THEME_BOOTSTRAP_SCRIPT
+from styles import SHELL_CSS
+from scripts import SHELL_JS, THEME_BOOTSTRAP_SCRIPT
 from templates import (
     archive_rail_html,
     newsletter_section,
@@ -24,6 +24,20 @@ from templates import (
 )
 
 WEEKDAY_ZH = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
+
+ASSETS_DIR = "assets"
+
+
+def write_shell_assets() -> None:
+    """Emit the CSS/JS every page links to.
+
+    Rewritten on each run so the assets always match styles.py / scripts.py —
+    they are build output, not hand-edited files.
+    """
+    assets = Path(ASSETS_DIR)
+    assets.mkdir(exist_ok=True)
+    (assets / "shell.css").write_text(SHELL_CSS, encoding="utf-8")
+    (assets / "shell.js").write_text(SHELL_JS, encoding="utf-8")
 
 
 def load_data() -> dict:
@@ -119,7 +133,8 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 {THEME_BOOTSTRAP_SCRIPT}
-{STYLES}</head>
+  <link rel="stylesheet" href="{base_path}{ASSETS_DIR}/shell.css">
+</head>
 <body>
 <div class="page-shell">
   {rail_html}
@@ -153,7 +168,6 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
 </main>
 
 {criteria_html}
-{INTERACTIVE_SCRIPT}
 
 <footer>
   <div class="colophon-left">
@@ -170,7 +184,7 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
 </footer>
   </div>
 </div>
-{ARCHIVE_RAIL_SCRIPT}
+<script src="{base_path}{ASSETS_DIR}/shell.js"></script>
 </body>
 </html>"""
 
@@ -179,6 +193,7 @@ def main():
     data = load_data()
     archive = load_archive()
 
+    write_shell_assets()
     Path("index.html").write_text(generate(data, archive), encoding="utf-8")
     print(f"OK index.html generated for {data['date']}")
 
