@@ -21,11 +21,14 @@ from utils import load_json, save_json
 OUT_FILE = "search-index.json"
 
 # Wrapper elements that open a searchable block, mapped to the block kind.
+# ``nl-card`` superseded ``yt-brief`` for articles in 4431e75; briefs written
+# before that still use the old wrapper, so both stay mapped.
 BLOCK_CLASSES = {
     "lead": "tweet",
     "card": "tweet",
     "ph-card": "product",
-    "yt-brief": "brief",  # podcast or article — resolved from its kicker text
+    "nl-card": "article",
+    "yt-brief": "brief",  # legacy podcast or article — resolved from its kicker
 }
 
 # Elements inside a block whose text we keep, mapped to a field name.
@@ -39,6 +42,13 @@ FIELD_CLASSES = {
     "ph-title": "title",
     "ph-tagline": "tagline",
     "ph-summary": "summary",
+    "nl-headline": "title",
+    "nl-lead": "summary",
+    # The body div carries both classes; map each so whichever the class set
+    # yields first lands in the same field.
+    "nl-body": "body",
+    "nl-name": "name",
+    "nl-handle": "handle",
     "yt-kicker": "kicker",
     "yt-title": "title",
     "yt-body": "body",
@@ -54,7 +64,9 @@ INLINE_TAGS = {"a", "b", "code", "em", "i", "mark", "small", "span",
 
 
 def _clean(s: str) -> str:
-    return re.sub(r"\s+", " ", s.replace("↗", " ").replace("▶", " ")).strip()
+    for glyph in ("↗", "▶", "✔"):
+        s = s.replace(glyph, " ")
+    return re.sub(r"\s+", " ", s).strip()
 
 
 class BriefParser(HTMLParser):
@@ -167,11 +179,24 @@ def _entry(block: dict) -> dict | None:
         body = _clean(f"{block.get('tagline', '')} {block.get('summary', '')}")
         return {"k": "product", "t": title, "b": body, "m": "Product Hunt"}
 
+    if kind == "article":
+        title = block.get("title", "")
+        body = _clean(f"{block.get('summary', '')} {block.get('body', '')}")
+        if not (title or body):
+            return None
+        return {
+            "k": "article",
+            "t": title,
+            "b": body,
+            "m": _clean(f"{block.get('name', '')} {block.get('handle', '')}"),
+        }
+
     if kind == "brief":
         title = block.get("title", "")
         body = block.get("body", "")
         if not (title or body):
             return None
+        # Legacy wrapper carried both kinds; the kicker is the only tell.
         kicker = block.get("kicker", "")
         sub = "article" if "UX" in kicker else "podcast"
         return {"k": sub, "t": title, "b": body, "m": block.get("channel", "")}
