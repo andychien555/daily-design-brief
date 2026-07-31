@@ -13,6 +13,15 @@ on:
 permissions:
   contents: write
 
+# daily.yml / podcast-check.yml / backfill-translations.yml all commit and push
+# to the same branch. GitHub's free scheduler drifts badly (a 02:00 UTC cron has
+# fired as late as 05:33), so runs that look well separated can overlap and race
+# each other's push. Share one group across all three so they serialise; queued
+# runs wait rather than cancel, since each one has real work to commit.
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,8 +37,10 @@ jobs:
       - name: Install dependencies
         run: pip install httpx==0.28.1 anthropic==0.92.0 groq==1.4.0
 
+      # `a || b && c` parses as `(a || b) && c`, so the install ran even when
+      # ffmpeg was already present. Group the fallback so it only runs on a miss.
       - name: Ensure ffmpeg (for podcast audio → Whisper segmentation)
-        run: which ffmpeg || sudo apt-get update && sudo apt-get install -y ffmpeg
+        run: which ffmpeg || { sudo apt-get update && sudo apt-get install -y ffmpeg; }
 
       - name: Check if already ran today
         id: dedup
@@ -102,5 +113,17 @@ jobs:
           [ -f article_state.json ] && git add article_state.json || true
           # usage_log.json：每日 token/轉錄花費累計，存在才加
           [ -f usage_log.json ] && git add usage_log.json || true
-          git diff --staged --quiet || git commit -m "chore: daily brief $(date +'%Y-%m-%d')"
-          git push
+          if git diff --staged --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: daily brief $(date +'%Y-%m-%d')"
+          # 併發保險：concurrency 群組擋不住已在跑的舊 run，被拒就 rebase 重試。
+          # 失敗即丟失本次的 podcast_state 逐字稿快取 → 下次得重燒一次 Whisper。
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push && exit 0
+            echo "push attempt $i rejected — retrying"
+            sleep $((i * 5))
+          done
+          echo "push failed after 3 attempts"
+          exit 1

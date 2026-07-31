@@ -28,6 +28,11 @@ on:
 permissions:
   contents: write
 
+# Shared with daily.yml / backfill-translations.yml — see the note there.
+concurrency:
+  group: content-push
+  cancel-in-progress: false
+
 jobs:
   podcast:
     runs-on: ubuntu-latest
@@ -43,8 +48,9 @@ jobs:
       - name: Install dependencies
         run: pip install httpx==0.28.1 anthropic==0.92.0 groq==1.4.0
 
+      # See daily.yml — `a || b && c` groups as `(a || b) && c`.
       - name: Ensure ffmpeg
-        run: which ffmpeg || sudo apt-get update && sudo apt-get install -y ffmpeg
+        run: which ffmpeg || { sudo apt-get update && sudo apt-get install -y ffmpeg; }
 
       - name: Fetch podcast briefs
         env:
@@ -71,5 +77,15 @@ jobs:
           git add index.html archive.json search-index.json data.json briefs/
           [ -f podcast_state.json ] && git add podcast_state.json || true
           [ -f usage_log.json ] && git add usage_log.json || true
-          git diff --staged --quiet || git commit -m "chore: podcast check $(TZ=Asia/Taipei date +'%Y-%m-%d %H:%M')"
-          git push
+          if git diff --staged --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: podcast check $(TZ=Asia/Taipei date +'%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push && exit 0
+            echo "push attempt $i rejected — retrying"
+            sleep $((i * 5))
+          done
+          echo "push failed after 3 attempts"
+          exit 1
