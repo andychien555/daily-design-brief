@@ -308,6 +308,19 @@ def summarize(transcript: str, title: str) -> str:
 
 
 # ── state / data I/O ───────────────────────────────────────────────
+def save_state(state: dict) -> None:
+    if len(state) > 120:
+        for k in list(state.keys())[:-120]:
+            state.pop(k, None)
+    save_json(STATE_PATH, state)
+
+
+def cached_brief(state: dict, key: str) -> dict | None:
+    """只有「摘要已完成」的快取才算命中；僅存逐字稿的待摘要條目不算。"""
+    entry = state.get(key)
+    return entry if isinstance(entry, dict) and entry.get("summary_md") else None
+
+
 def process_one(podcast: dict, state: dict, force: bool) -> dict | None:
     """回傳此 podcast 最新一集的 brief（新轉錄或快取重用），失敗回 None。"""
     info = resolve_latest_episode(podcast)
@@ -315,24 +328,35 @@ def process_one(podcast: dict, state: dict, force: bool) -> dict | None:
         return None
     key = info["state_key"]
 
-    if not force and key in state:
+    cached = None if force else cached_brief(state, key)
+    if cached:
         log(f"{podcast['name']}：{info['title'][:24]} 已在快取 → 重用")
-        return state[key]
+        return cached
 
-    log(f"{podcast['name']} 新集：{info['title'][:36]}（{info['published']}）")
-    with tempfile.TemporaryDirectory() as tmp:
-        mp3 = os.path.join(tmp, "episode.mp3")
-        log("下載音檔 …")
-        if not download_mp3(info["mp3_url"], mp3):
+    # 上次轉錄成功但 Claude 摘要失敗（如 API 額度用盡）時逐字稿會留在 state：
+    # 這次直接重試摘要，不重新下載＋轉錄，否則每次排程都白燒一次 Whisper。
+    pending = {} if force else (state.get(key) or {})
+    transcript = pending.get("transcript") or ""
+    if transcript:
+        log(f"{podcast['name']}：{info['title'][:24]} 已有逐字稿快取 → 只重試摘要")
+    else:
+        log(f"{podcast['name']} 新集：{info['title'][:36]}（{info['published']}）")
+        with tempfile.TemporaryDirectory() as tmp:
+            mp3 = os.path.join(tmp, "episode.mp3")
+            log("下載音檔 …")
+            if not download_mp3(info["mp3_url"], mp3):
+                return None
+            transcript = transcribe(mp3, tmp)
+        if not transcript:
+            log(f"[warn] {podcast['name']} 轉錄為空 → 跳過")
             return None
-        transcript = transcribe(mp3, tmp)
-    if not transcript:
-        log(f"[warn] {podcast['name']} 轉錄為空 → 跳過")
-        return None
+        # 先把逐字稿落地，摘要之後失敗也不必重轉錄。
+        state[key] = {"transcript": transcript}
+        save_state(state)
 
     summary_md = summarize(transcript, info["title"])
     if not summary_md:
-        log(f"[warn] {podcast['name']} 摘要為空 → 跳過")
+        log(f"[warn] {podcast['name']} 摘要為空 → 保留逐字稿，下次只重試摘要")
         return None
 
     brief = {
@@ -344,11 +368,9 @@ def process_one(podcast: dict, state: dict, force: bool) -> dict | None:
         "transcript_source": "Podcast 音檔 · Whisper",
         "summary_md": summary_md,
     }
+    # 覆蓋待摘要條目 → 逐字稿一併清掉，state 檔不會長期帶著整份逐字稿。
     state[key] = brief
-    if len(state) > 120:
-        for k in list(state.keys())[:-120]:
-            state.pop(k, None)
-    save_json(STATE_PATH, state)
+    save_state(state)
     return brief
 
 
@@ -388,9 +410,10 @@ def main() -> None:
                     f"{PODCAST_SHOW_WITHIN_DAYS} 天 → 不顯示")
                 continue
             # 用快取或重新轉錄拿到 brief
-            if not force and info["state_key"] in state:
+            cached = None if force else cached_brief(state, info["state_key"])
+            if cached:
                 log(f"{pod['name']}：{info['title'][:24]} 已在快取 → 重用")
-                brief = state[info["state_key"]]
+                brief = cached
             else:
                 brief = process_one(pod, state, force)
             if brief:
