@@ -8,7 +8,35 @@ import re
 
 
 def esc(s: str) -> str:
-    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    """Escape text for both HTML body and double-quoted attribute contexts."""
+    return (
+        (s or "")
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#39;")
+    )
+
+
+# Everything rendered here comes from third parties we do not control — the
+# 6551 tweet API, Product Hunt's feed and GraphQL, podcast/article RSS, and
+# r.jina.ai's extraction. A link or image URL is attacker-controlled text, so
+# reject anything that isn't a plain web/mail link before it reaches href/src.
+_SAFE_URL = re.compile(r"^(?:https?://|mailto:|/|\#|\.{0,2}/)", re.I)
+
+
+def esc_url(url: str, fallback: str = "#") -> str:
+    """Escape a URL for an HTML attribute, dropping unsafe schemes.
+
+    Guards two things ``esc`` alone cannot: a quote breaking out of the
+    attribute to add an event handler, and a ``javascript:`` URL executing on
+    click.
+    """
+    u = (url or "").strip()
+    if not u or not _SAFE_URL.match(u):
+        return fallback
+    return esc(u)
 
 
 def fmt_num(n: int) -> str:
@@ -76,8 +104,9 @@ def lead_card(tweet: dict) -> str:
     summary = esc(tweet.get("summary_zh", "")) or text[:120]
     author = tweet["author"] or "unknown"
     name = esc(tweet["name"] or author)
+    handle = esc(author)
     source = esc(tweet.get("source", ""))
-    url = tweet["url"] or f"https://x.com/{author}"
+    url = esc_url(tweet["url"] or f"https://x.com/{author}", "https://x.com/")
     likes = fmt_num(tweet.get("likes", 0))
     retweets = fmt_num(tweet.get("retweets", 0))
     source_html = f'<span class="chip">{source}</span>' if source else ""
@@ -91,7 +120,7 @@ def lead_card(tweet: dict) -> str:
           <span class="lead-rule"></span>
           <span class="lead-author">
             <span class="author-name">{name}</span>
-            <span class="author-handle">@{author}</span>
+            <span class="author-handle">@{handle}</span>
           </span>
         </div>
         <h2 class="lead-summary">{summary}</h2>
@@ -113,10 +142,11 @@ def tweet_card(tweet: dict, rank: int) -> str:
     summary = esc(tweet.get("summary_zh", ""))
     author = tweet["author"] or "unknown"
     name = esc(tweet["name"] or author)
+    handle = esc(author)
     source = esc(tweet.get("source", ""))
     likes = fmt_num(tweet.get("likes", 0))
     retweets = fmt_num(tweet.get("retweets", 0))
-    url = tweet["url"] or f"https://x.com/{author}"
+    url = esc_url(tweet["url"] or f"https://x.com/{author}", "https://x.com/")
 
     summary_html = f'<p class="card-summary">{summary}</p>' if summary else ""
     source_html = f'<span class="chip">{source}</span>' if source else ""
@@ -128,7 +158,7 @@ def tweet_card(tweet: dict, rank: int) -> str:
         <div class="card-rank">{rank:02d}</div>
         <div class="card-meta">
           <span class="author-name">{name}</span>
-          <span class="author-handle">@{author}</span>
+          <span class="author-handle">@{handle}</span>
         </div>
         {summary_html}
         <p class="card-text">{text}</p>
@@ -146,10 +176,10 @@ def product_card(product: dict, rank: int) -> str:
     title = esc(product.get("title", ""))
     tagline = esc(product.get("tagline", ""))
     summary = esc(product.get("summary_zh", ""))
-    url = product.get("url", "") or "https://www.producthunt.com/"
+    url = esc_url(product.get("url", ""), "https://www.producthunt.com/")
     author = esc(product.get("author", ""))
-    image_url = esc(product.get("image_url", ""))
-    hero_url = esc(product.get("hero_url", ""))
+    image_url = esc_url(product.get("image_url", ""), "")
+    hero_url = esc_url(product.get("hero_url", ""), "")
 
     tagline_html = f'<p class="ph-tagline">{tagline}</p>' if tagline else ""
     summary_html = f'<p class="ph-summary">{summary}</p>' if summary else ""
@@ -255,7 +285,7 @@ def briefing_section(brief: dict) -> str:
     if not brief or not brief.get("summary_md"):
         return ""
     title = esc(brief.get("title", ""))
-    url = brief.get("url", "") or "https://www.youtube.com/"
+    url = esc_url(brief.get("url", ""), "https://www.youtube.com/")
     channel = esc(brief.get("channel", ""))
     published = esc(brief.get("published", ""))
     source = esc(brief.get("transcript_source", ""))
@@ -305,7 +335,7 @@ def newsletter_card(brief: dict, rank: int) -> str:
     """把一篇 newsletter 全文重點渲染成 X 貼文風格卡片：頭像＋來源／handle／日期
     的貼文標頭、文章標題連結、一句話導言，展開後為完整中文重點整理。"""
     title = esc(brief.get("title", ""))
-    url = brief.get("url", "") or "#"
+    url = esc_url(brief.get("url", ""))
     author = brief.get("author", "") or brief.get("source", "")
     name = esc(author)
     handle = esc(brief.get("handle", ""))
