@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-31",
+    "date_display": "2026 年 07 月 31 日",
+    "generated_at": "2026-07-31T08:55:52.071287+08:00",
+    "total": 15,
+    "sources": [
+      "Design",
+      "UX Design"
+    ],
+    "headline": "Love this Tasque manager design SO MUCH #deltarune #tasquemanager https://t.co/8MfcZDSiGs",
+    "no": 106
+  },
+  {
     "date": "2026-07-30",
     "date_display": "2026 年 07 月 30 日",
     "generated_at": "2026-07-30T08:55:52.947161+08:00",
@@ -997,17 +1009,5 @@
     ],
     "headline": "開發了一個工具，可將任何網站 URL 轉換成結構化的 DESIGN.md 文件，自動提取佈局、字體、色彩和元件模式，並提供 160+ 可下載的設計系統作為起點。",
     "no": 17
-  },
-  {
-    "date": "2026-05-01",
-    "date_display": "2026 年 05 月 01 日",
-    "generated_at": "2026-05-01T08:46:57.092483+08:00",
-    "total": 10,
-    "sources": [
-      "Design",
-      "UX Design"
-    ],
-    "headline": "推出包含 2,000 個頂尖產品的 DESIGN.md 資料庫，讓 AI Agent 學習優秀設計系統（顏色、字型、間距、佈局等），解決 Agent 生成醜陋 UI 的問題，免費開放使用。",
-    "no": 16
   }
 ]
