@@ -1,0 +1,30 @@
+name: Debug Probe Media
+
+# 一次性探測：確認 6551.io twitter_search 回應是否帶 media
+# (extended_entities / 圖片 URL / 影片 variants)。
+# 只打 1 次 API call，不寫檔、不 commit。用完可刪。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install httpx==0.28.1
+
+      - name: Probe twitter_search payload
+        env:
+          TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
+        run: python debug_probe_media.py
