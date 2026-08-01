@@ -31,6 +31,34 @@ HEADERS = {
 }
 
 
+# --- TEMPORARY probe -------------------------------------------------------
+# Dumps the first raw API response so we can see whether 6551.io returns media
+# (extended_entities / photo URLs / video variants). Piggybacks on the daily run
+# so it costs no extra quota. Enabled by PROBE_RAW_TWEET; remove once settled.
+_probe_done = False
+
+
+def _probe_dump(data) -> None:
+    global _probe_done
+    if _probe_done or not os.environ.get("PROBE_RAW_TWEET"):
+        return
+    try:
+        if isinstance(data, dict):
+            sample = {"_top_level_keys": list(data.keys())}
+            for key, val in data.items():
+                if isinstance(val, list) and val:
+                    sample[key] = val[:2]
+                    break
+        else:
+            sample = data[:2] if isinstance(data, list) else data
+        with open("debug_raw_tweet.json", "w", encoding="utf-8") as f:
+            json.dump(sample, f, ensure_ascii=False, indent=2)
+        _probe_done = True
+        print("  [probe] raw response sample saved → debug_raw_tweet.json")
+    except Exception as e:
+        print(f"  [probe] dump failed: {e}")
+
+
 def search_tweets(
     query: str,
     min_likes: int,
@@ -64,6 +92,7 @@ def search_tweets(
             resp = client.post(url, headers=HEADERS, json=payload)
             resp.raise_for_status()
             data = resp.json()
+            _probe_dump(data)
             if isinstance(data, dict):
                 for key in ("tweets", "data", "result", "results", "items"):
                     val = data.get(key)

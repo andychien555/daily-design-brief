@@ -52,6 +52,9 @@ jobs:
         env:
           TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # TEMPORARY: dump the first raw API response to debug_raw_tweet.json so
+          # we can check whether 6551.io returns media. Remove once settled.
+          PROBE_RAW_TWEET: "1"
         run: python fetch_tweets.py
 
       - name: Fetch Product Hunt launches
@@ -102,5 +105,7 @@ jobs:
           [ -f article_state.json ] && git add article_state.json || true
           # usage_log.json：每日 token/轉錄花費累計，存在才加
           [ -f usage_log.json ] && git add usage_log.json || true
+          # debug_raw_tweet.json：TEMPORARY media probe sample，存在才加
+          [ -f debug_raw_tweet.json ] && git add debug_raw_tweet.json || true
           git diff --staged --quiet || git commit -m "chore: daily brief $(date +'%Y-%m-%d')"
           git push
