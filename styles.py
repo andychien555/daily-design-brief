@@ -1269,116 +1269,43 @@ STYLES = """  <style>
       .yt-brief { padding: 1.1rem 12px 1.2rem; }
     }
 
-    /* ─────────────── Newsletter / 好文（X 貼文風格卡片）─────────────── */
+    /* ─────────────── Newsletter / 好文 ───────────────
+       卡片本體直接用上面財經重點那組 .yt-* class，這裡只放兩種東西：
+       (1) .nl-item — 把頭條規格降成列表規格的少數覆寫
+       (2) 財經重點沒有的欄位（頭像、handle、導言）
+       請不要在這裡重建一套卡片樣式；要調外觀就去改 .yt-brief。 */
     .nl-divider { margin-top: 3rem; }
     .nl-divider span { color: var(--accent); }
 
-    .nl-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr));
-      gap: 1rem;
-      align-items: start;
-      margin-bottom: 3rem;
-    }
+    .nl-grid { margin-bottom: 3rem; }
 
-    .nl-card {
-      border: 1px solid var(--rule);
-      border-radius: 16px;
-      background: var(--paper-2);
-      padding: 1.15rem 1.25rem 1rem;
-      transition: border-color .15s, background .15s;
+    /* 列表規格：拿掉頭條專屬的 3px 橘頂邊，標題小一級，卡片間距收窄 */
+    .nl-item {
+      margin-bottom: .75rem;
+      border-top: 1px solid var(--rule);
     }
-    .nl-card:hover { border-color: var(--accent); }
+    .nl-item .yt-title { font-size: 1.2rem; margin-bottom: .6rem; }
+    .nl-item .yt-kicker { margin-bottom: .55rem; }
 
-    .nl-top {
-      display: flex;
-      align-items: center;
-      gap: .7rem;
-      margin-bottom: .85rem;
-    }
+    /* 財經重點沒有的欄位 */
     .nl-avatar {
       flex: none;
-      width: 42px; height: 42px;
+      width: 22px; height: 22px;
       border-radius: 50%;
-      display: grid; place-items: center;
+      display: inline-grid; place-items: center;
       font-family: var(--serif);
-      font-size: 1.15rem; font-weight: 600;
+      font-size: .72rem; font-weight: 600;
       color: var(--paper);
       background: var(--accent);
-      border: 1px solid var(--rule);
+      margin-right: -.45rem;
     }
-    .nl-id { display: flex; flex-direction: column; gap: .05rem; min-width: 0; }
-    .nl-name {
-      font-size: .92rem; font-weight: 600; color: var(--ink);
-      display: inline-flex; align-items: center; gap: .3rem;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    }
-    .nl-verified { color: var(--accent); font-size: .68rem; }
-    .nl-handle { font-family: var(--mono); font-size: .72rem; color: var(--ink-3); }
-    .nl-src {
-      margin-left: auto;
-      font-family: var(--mono); font-size: .62rem;
-      letter-spacing: .08em; text-transform: uppercase;
-      color: var(--ink-2);
-      background: rgba(255, 87, 34, 0.08);
-      border: 1px solid rgba(255, 87, 34, 0.2);
-      padding: 3px 9px; border-radius: 999px; white-space: nowrap;
-    }
-
-    .nl-headline {
-      display: block;
-      font-family: var(--serif);
-      font-size: 1.16rem; line-height: 1.32;
-      color: var(--ink); text-decoration: none;
-      letter-spacing: -.005em;
-      font-variation-settings: 'opsz' 36, 'SOFT' 30;
-    }
-    .nl-headline:hover { color: var(--accent); }
-
+    .nl-verified { color: var(--accent); font-size: .68rem; margin-left: .25rem; }
+    .nl-handle { font-family: var(--mono); }
+    /* 導言字級對齊 .yt-body，讓收合與展開讀起來是同一個尺度 */
     .nl-lead {
-      margin-top: .55rem;
-      font-size: .9rem; line-height: 1.6; color: var(--ink-2);
+      margin-top: .7rem;
+      line-height: 1.7; color: var(--ink-2);
     }
 
-    .nl-thread { margin-top: .55rem; }
-    .nl-thread summary { list-style: none; cursor: pointer; }
-    .nl-thread summary::-webkit-details-marker { display: none; }
-    .nl-thread summary::marker { content: ""; }
-    .nl-expand {
-      display: inline-flex; align-items: center; gap: .35rem;
-      font-family: var(--mono); font-size: .72rem;
-      color: var(--accent); padding: .3rem 0;
-    }
-    .nl-expand:hover { color: var(--accent-2); }
-    .nl-thread[open] .nl-expand-open { display: none; }
-    .nl-expand-close { display: none; }
-    .nl-thread[open] .nl-expand-close { display: inline; }
-    .nl-expand-caret { transition: transform .2s; }
-    .nl-thread[open] .nl-expand-caret { transform: rotate(180deg); }
-
-    .nl-body {
-      margin-top: .35rem;
-      border-top: 1px dashed var(--rule);
-      padding-top: .9rem;
-    }
-    .nl-body.yt-body { line-height: 1.65; margin-top: .35rem; }
-    .nl-body.yt-body h3 { font-size: .96rem; margin-top: 1.1rem; }
-    .nl-body.yt-body h4 { font-size: .85rem; }
-    .nl-body.yt-body p, .nl-body.yt-body li { font-size: .85rem; }
-
-    .nl-actions {
-      display: flex; align-items: center; gap: .8rem;
-      margin-top: 1rem; padding-top: .7rem;
-      border-top: 1px dashed var(--rule);
-      font-family: var(--mono); font-size: .72rem;
-    }
-    .nl-open { color: var(--accent); text-decoration: none; letter-spacing: .03em; }
-    .nl-open:hover { text-decoration: underline; }
-    .nl-tag { margin-left: auto; color: var(--ink-3); }
-
-    @media (max-width: 720px) {
-      .nl-grid { grid-template-columns: 1fr; gap: .8rem; }
-      .nl-card { border-radius: 14px; }
-    }
   </style>
 """

@@ -129,6 +129,9 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 #   - NN/g：官網 RSS 不擋 httpx（direct）；RSS 只有摘要 → 內文走 jina（page）。
 #   - Design with AI：只在 Substack，機房 IP 會被 403 → discovery 與內文走 jina。
 #   - Jakob Nielsen：uxtigers.com（Wix）不擋機房，維持 direct + wix 正文擷取。
+#   - Y Combinator：YC 官方週報「This Week at YC」。內容不在 blog 上——blog 的
+#     newsletter tag 是空的，blog RSS 只有零星 YC 公司新聞（一年約 6 篇）。真正
+#     每期全文在 Mailchimp 公開存檔 feed，httpx 直連不被擋 → direct + feed。
 # `topic` 會餵進 Claude 系統提示，讓摘要口吻／取材貼近該來源主題。
 ARTICLE_JINA_PREFIX = "https://r.jina.ai/"
 ARTICLE_FEEDS = [
@@ -167,6 +170,24 @@ ARTICLE_FEEDS = [
         "discover": "jina",
         "show_within_days": 14,  # 雙週更 → 放寬窗，否則常態被 7 天窗擋掉
         "topic": "AI × 產品／UX 設計的實作與工作流（Xinran Ma 的 Design with AI）",
+    },
+    {
+        "name": "Y Combinator",
+        "handle": "ycombinator",
+        # Mailchimp 公開存檔 feed（保留最近 10 期，content:encoded 帶整封全文）。
+        "rss": "https://us7.campaign-archive.com/feed?u=6507bf4e4c2df3fdbae6ef738&id=547725049b",
+        "source": "This Week at YC",
+        "discover": "direct",
+        "fulltext": "feed",
+        "show_within_days": 14,  # 名為週報但常跳期（2026/6 整月停更）→ 放寬窗
+        "topic": (
+            "創業、AI 產業趨勢與 YC 生態動態（YC 官方週報 This Week at YC）。"
+            "每期固定四段：The Latest（本週主打的深度觀點或教學）、YC Community"
+            "（YC 公司新聞）、The Launchpad（本週新開張的 YC 公司）、Hacker News"
+            "（本週 HN 熱門貼文）。四段都要涵蓋，並直接用「本週主打」「YC 動態」"
+            "「新創 launch」「HN 熱門」當重點標籤；名單型的段落請歸納趨勢"
+            "（例如題目集中在哪類），不要逐家照抄"
+        ),
     },
 ]
 # 只顯示近 N 天內發布的文章（作者約每週兩篇，7 天窗可持續顯示最新一兩篇）。

@@ -72,7 +72,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python fetch_podcast.py
 
-      # 好文 / Newsletter（Nielsen、Import AI、NN/g、Design with AI）—
+      # 好文 / Newsletter（Nielsen、Import AI、NN/g、Design with AI、YC 週報）—
       # 每天檢查一次即可，只在完整產出時抓
       - name: Fetch newsletter articles
         if: steps.dedup.outputs.full == 'true'

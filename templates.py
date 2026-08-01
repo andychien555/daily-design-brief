@@ -302,8 +302,15 @@ def _lead_line(md: str) -> str:
 
 
 def newsletter_card(brief: dict, rank: int) -> str:
-    """把一篇 newsletter 全文重點渲染成 X 貼文風格卡片：頭像＋來源／handle／日期
-    的貼文標頭、文章標題連結、一句話導言，展開後為完整中文重點整理。"""
+    """把一篇 newsletter 全文重點渲染成一張可展開的重點卡片。
+
+    刻意沿用財經重點（podcast_brief）那組 yt-* class：兩者是同一種東西——標題列
+    可點開、展開後是 Claude 整理的中文重點。`.nl-item` 只負責把頭條規格降到列表
+    規格（拿掉 3px 橘頂邊、標題小一級），不另立一套樣式。
+
+    kicker 必須含「UX」：build_search_index.py:176 靠它把 yt-brief 區塊分成
+    article 或 podcast。
+    """
     title = esc(brief.get("title", ""))
     url = brief.get("url", "") or "#"
     author = brief.get("author", "") or brief.get("source", "")
@@ -315,44 +322,38 @@ def newsletter_card(brief: dict, rank: int) -> str:
     lead = esc(_lead_line(brief.get("summary_md", "")))
     body = md_to_html(brief.get("summary_md", ""))
 
-    handle_bits = []
+    meta_bits = [
+        f'<span class="nl-avatar" data-handle="{handle}" aria-hidden="true">{initial}</span>'
+        f'<span class="yt-channel">{name}<span class="nl-verified" aria-hidden="true">✔</span></span>'
+    ]
     if handle:
-        handle_bits.append(f"@{handle}")
+        meta_bits.append(f'<span class="nl-handle">@{handle}</span>')
     if published:
-        handle_bits.append(published)
-    handle_line = " · ".join(handle_bits)
-    source_chip = f'<span class="nl-src">{source}</span>' if source else ""
+        meta_bits.append(f'<span class="yt-date">{published}</span>')
+    if source:
+        meta_bits.append(f'<span class="chip yt-source">{source}</span>')
+    meta_html = " ".join(meta_bits)
     lead_html = f'<p class="nl-lead">{lead}</p>' if lead else ""
 
     return f"""
-    <article class="nl-card">
-      <div class="nl-top">
-        <span class="nl-avatar" data-handle="{handle}" aria-hidden="true">{initial}</span>
-        <div class="nl-id">
-          <span class="nl-name">{name}<span class="nl-verified" aria-hidden="true">✔</span></span>
-          <span class="nl-handle">{handle_line}</span>
-        </div>
-        {source_chip}
-      </div>
-      <a class="nl-headline" href="{url}" target="_blank" rel="noopener">{title}</a>
+<details class="yt-brief nl-item" aria-label="UX 好文重點">
+  <summary class="yt-summary">
+    <span class="yt-toggle" aria-hidden="true">▸</span>
+    <div class="yt-head">
+      <div class="yt-kicker">📄 UX 好文 / {source or 'Newsletter'}</div>
+      <h2 class="yt-title"><a href="{url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{title} <span class="yt-arrow" aria-hidden="true">↗</span></a></h2>
+      <div class="yt-meta">{meta_html}</div>
       {lead_html}
-      <details class="nl-thread">
-        <summary class="nl-expand">
-          <span class="nl-expand-open">展開完整重點整理</span>
-          <span class="nl-expand-close">收合重點</span>
-          <span class="nl-expand-caret" aria-hidden="true">▾</span>
-        </summary>
-        <div class="nl-body yt-body">{body}</div>
-      </details>
-      <div class="nl-actions">
-        <a class="nl-open" href="{url}" target="_blank" rel="noopener">閱讀原文 <span aria-hidden="true">↗</span></a>
-        <span class="nl-tag">全文摘要 · Claude</span>
-      </div>
-    </article>"""
+      <span class="yt-expand-hint">點開閱讀全文 ▾</span>
+    </div>
+  </summary>
+  <div class="yt-body">{body}</div>
+  <div class="yt-foot"><a href="{url}" target="_blank" rel="noopener">↗ 閱讀原文</a></div>
+</details>"""
 
 
 def newsletter_section(briefs: list[dict]) -> str:
-    """Newsletter / 好文精選區塊 — X 貼文風格卡片牆。"""
+    """Newsletter / 好文精選區塊 — 與財經重點同一種可展開卡片，列表規格。"""
     briefs = [b for b in (briefs or []) if b and b.get("summary_md")]
     if not briefs:
         return ""
