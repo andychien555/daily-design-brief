@@ -345,7 +345,10 @@ def process_one(art: dict, feed: dict, state: dict, force: bool) -> dict | None:
     key = art["state_key"]
     if not force and key in state:
         log(f"{art['author']}：{art['title'][:32]} 已在快取 → 重用")
-        return state[key]
+        brief = state[key]
+        # label 是 feed 的靜態屬性，補進早於這個欄位的快取，省得重抓一輪。
+        brief.setdefault("label", feed.get("label", ""))
+        return brief
 
     log(f"新文章：{(art['title'] or art['url'])[:44]}（{art['published']}）")
     try:
@@ -370,6 +373,7 @@ def process_one(art: dict, feed: dict, state: dict, force: bool) -> dict | None:
         "author": art["author"],
         "handle": art.get("handle", ""),
         "source": art.get("source", ""),
+        "label": feed.get("label", ""),
         "summary_md": summary_md,
     }
     state[key] = brief

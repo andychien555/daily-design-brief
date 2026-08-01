@@ -133,6 +133,9 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 #     newsletter tag 是空的，blog RSS 只有零星 YC 公司新聞（一年約 6 篇）。真正
 #     每期全文在 Mailchimp 公開存檔 feed，httpx 直連不被擋 → direct + feed。
 # `topic` 會餵進 Claude 系統提示，讓摘要口吻／取材貼近該來源主題。
+# `label` 是卡片 kicker 上的分類（「📄 {label} / {source}」）。不是每個來源都在
+# 談 UX——Import AI 是 AI 研究、YC 是創業——所以標籤跟著來源走，別統一寫死。
+# 新增來源沒填 label 時，卡片會退回中性的「好文」。
 ARTICLE_JINA_PREFIX = "https://r.jina.ai/"
 ARTICLE_FEEDS = [
     {
@@ -140,6 +143,7 @@ ARTICLE_FEEDS = [
         "handle": "jakobnielsen",
         "rss": "https://www.uxtigers.com/blog-feed.xml",
         "source": "UX Tigers",
+        "label": "UX 好文",
         "discover": "direct",
         "fulltext": "wix",
         "topic": "使用者體驗、AI 與產品設計（作者為 UX 專家 Jakob Nielsen）",
@@ -149,6 +153,7 @@ ARTICLE_FEEDS = [
         "handle": "importai",
         "rss": "https://jack-clark.net/feed/",
         "source": "Import AI",
+        "label": "AI 週報",
         "discover": "jina",
         "show_within_days": 14,  # 週報，偶有跳週 → 放寬窗避免漏抓
         "topic": "AI 研究進展、產業趨勢與政策（Jack Clark 的 Import AI 週報）",
@@ -158,6 +163,7 @@ ARTICLE_FEEDS = [
         "handle": "nngroup",
         "rss": "https://www.nngroup.com/feed/rss/",
         "source": "NN/g",
+        "label": "UX 好文",
         "discover": "direct",
         "fulltext": "page",
         "topic": "UX 研究、易用性與介面設計（Nielsen Norman Group 的 UX 專文）",
@@ -167,6 +173,7 @@ ARTICLE_FEEDS = [
         "handle": "designwithai",
         "rss": "https://designwithai.substack.com/feed",
         "source": "Substack",
+        "label": "AI 設計",
         "discover": "jina",
         "show_within_days": 14,  # 雙週更 → 放寬窗，否則常態被 7 天窗擋掉
         "topic": "AI × 產品／UX 設計的實作與工作流（Xinran Ma 的 Design with AI）",
@@ -177,6 +184,7 @@ ARTICLE_FEEDS = [
         # Mailchimp 公開存檔 feed（保留最近 10 期，content:encoded 帶整封全文）。
         "rss": "https://us7.campaign-archive.com/feed?u=6507bf4e4c2df3fdbae6ef738&id=547725049b",
         "source": "This Week at YC",
+        "label": "創業週報",
         "discover": "direct",
         "fulltext": "feed",
         "show_within_days": 14,  # 名為週報但常跳期（2026/6 整月停更）→ 放寬窗

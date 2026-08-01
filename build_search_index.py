@@ -21,11 +21,15 @@ from utils import load_json, save_json
 OUT_FILE = "search-index.json"
 
 # Wrapper elements that open a searchable block, mapped to the block kind.
+# Order matters: a newsletter card carries both `nl-item` and `yt-brief` (it
+# reuses the podcast card's styling), and the first class to match wins — so
+# `nl-item` has to come first for articles to be told apart from podcasts.
 BLOCK_CLASSES = {
+    "nl-item": "article",
     "lead": "tweet",
     "card": "tweet",
     "ph-card": "product",
-    "yt-brief": "brief",  # podcast or article — resolved from its kicker text
+    "yt-brief": "podcast",
 }
 
 # Elements inside a block whose text we keep, mapped to a field name.
@@ -39,7 +43,6 @@ FIELD_CLASSES = {
     "ph-title": "title",
     "ph-tagline": "tagline",
     "ph-summary": "summary",
-    "yt-kicker": "kicker",
     "yt-title": "title",
     "yt-body": "body",
     "yt-channel": "channel",
@@ -53,8 +56,16 @@ INLINE_TAGS = {"a", "b", "code", "em", "i", "mark", "small", "span",
                "strong", "sub", "sup", "u"}
 
 
+# Decorative glyphs carried by aria-hidden spans inside indexed fields. They are
+# stripped rather than indexed: `m` is rendered verbatim as a search snippet, so
+# anything left here shows up in results (e.g. "NN/g Nielsen Norman Group✔").
+DECORATIVE = ("↗", "▶", "✔")
+
+
 def _clean(s: str) -> str:
-    return re.sub(r"\s+", " ", s.replace("↗", " ").replace("▶", " ")).strip()
+    for glyph in DECORATIVE:
+        s = s.replace(glyph, " ")
+    return re.sub(r"\s+", " ", s).strip()
 
 
 class BriefParser(HTMLParser):
@@ -167,14 +178,12 @@ def _entry(block: dict) -> dict | None:
         body = _clean(f"{block.get('tagline', '')} {block.get('summary', '')}")
         return {"k": "product", "t": title, "b": body, "m": "Product Hunt"}
 
-    if kind == "brief":
+    if kind in ("podcast", "article"):
         title = block.get("title", "")
         body = block.get("body", "")
         if not (title or body):
             return None
-        kicker = block.get("kicker", "")
-        sub = "article" if "UX" in kicker else "podcast"
-        return {"k": sub, "t": title, "b": body, "m": block.get("channel", "")}
+        return {"k": kind, "t": title, "b": body, "m": block.get("channel", "")}
 
     return None
 
