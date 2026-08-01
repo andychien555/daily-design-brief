@@ -1,6 +1,121 @@
 {
-  "generated_at": "2026-07-31T23:59:19+08:00",
+  "generated_at": "2026-08-01T09:09:03+08:00",
   "days": [
+    {
+      "d": "2026-08-01",
+      "dd": "2026 年 08 月 01 日",
+      "no": 107,
+      "items": [
+        {
+          "k": "podcast",
+          "t": "EP324. AI 基建股大跌中、調控 AI 公開信、美國禁中國機器人 | M觀點",
+          "b": "一句話總結 主講人認為 AI 基建股過去一個月大跌 25% 主因是市場擔憂科技巨頭 AI 資本支出能否持續，但若以四至五年回收期來看仍屬健康，短期修正反而可能是長線布局機會。 1. AI 基建股修正：台美股跌幅驚人 跌幅普遍達 20–30%： 過去一個月美光（MU）跌 27%、Sandisk 跌 48%、Lumentum 跌 20%、Credo 跌 19%，平均跌幅約 25%；台股一度跌破 40,000 點，主講人自己美股主動部位也跌 7–8%。 上半年漲幅驚人但獲利回吐： 這些個股年初至 6 月漲幅多在 80–250%（美光漲 250%、Sandisk 漲 700%），因此即使跌 25% 仍有獲利，但五、六月高點進場或加槓桿者傷害極大。 主講人也有痛感： 他在三、四月將 AI 基建部位從 12–13% 提高至 25%，雖多數在五月前買入尚可接受，但六月加碼部位也受傷，認為「左側投資人要能接刀且等待」。 2. 市場擔憂焦點：AI 資本支出可持續性 兩大疑慮： 第一，科技巨頭今年合計砸近 2,000 億美元 AI CapEx 能否賺回；第二，明年能否再加碼至 2,500–3,000 億，若不加碼 AI 基建股成長受限、若加碼則擔心無法回收。 Google 自由現金流轉負引發恐慌： Google 因 AI CapEx 導致自由現金流轉負、傳出可能發新股或借錢，市場首次看到「印鈔機」也撐不住；微軟雖同樣高支出但現金流仍正，故財報後大漲 15%。 回收效率仍健康： 主講人試算 AWS 2024 年 533 億 CapEx 約三年回收（年收 140 億折舊+營益）、2025 年 965 億約四年回收（年收 240 億）；Google、微軟同樣約三至四年可回本，顯示短中期風險可控。 3. AI 未來成長變數太多難以預測 需求 vs. 供給 vs. 技術進步： 主講人認為消費者與企業對 AI 算力需求未來十年可能成長 100 倍，但消費者口袋、電力基建能否支撐、技術效率提升幅度（可能 5–500 倍）、人形機器人與自駕車普及率等變數範圍極大，「任何預測都只是猜心安」。 AI 生產力變現困難： 他看好 AI 提升生產力，但最容易變現是「裁員」，要靠 AI 創造新營收很難；且若所有公司都用 AI 競爭，很多生產力會以「消費者剩餘」回歸社會而非變成企業獲利。 估值應看十年不只 Forward PE： 台灣投資人開始看 Forward PE 是進步，但科技股估值真正取決於未來 10–20 年獲利總和，短期波動難免。 4. 兩封 AI 公開信：管制派 vs. 開放派對決 Pacing the Frontier 呼籲全球聯合監管： 7/28 由 1,100+ 名 AI 研究員（含 Anthropic CEO Dario Amodei、OpenAI 首席科學家、Meta 首席科學家等）聯署，主張 AI 已進入「自我遞迴進化」、風險超越人類控制能力，呼籲美國政府推動國際合作建立治理工具、放慢開發速度。 Open Weight 公開信主張開放： 週一節目提到的另一封信由 AI 公司聯署，認為風險應靠「讓所有人都擁有強大 AI 能力」而非中央集權管制來化解，兩派立場針鋒相對。 主講人質疑可行性： 他同意 AI 風險存在且研究員善意，但認為「全球 AI 審查中心」不可能實現（中美不可能合作、聯合國 WHO/WTO 前例在前）；退而求其次可能是各國類似 FDA 的寬鬆監管，但「中國不會放棄超越美國野心，美國也不可能單方面減速」。 5. 美國禁中國機器人：台灣供應鏈新機會 禁令涵蓋所有先進聯網機器人： 7/28 美國聯邦通訊委員會將先進機器人與聯網逆變器列入「受限設備清單」，名義上禁外國但實則針對中國（可向國防部申請豁免），涵蓋人形機器人、機械狗、掃地/割草機器人等所有具聯網功能機種。 國安理由： 白宮跨部會小組指這些設備可被遠端操控當間諜、收集資料、甚至攻擊美國設施；所有中國企業依法必須配合政府國安活動，「小米若在美有 100 萬台掃地機器人，中國政府一聲令下全可變監聽器」。 台廠機會浮現： 主講人認為「China's pain is Taiwan's gain」，呼籲 Acer Pure 等台灣品牌應切入掃地機器人等市場，取代中國被禁後的空缺；強調台灣必須支持本土家電品牌與 AI 供應鏈，對抗中國壟斷。 結論與後市展望 主講人認為 AI 基建股這波修正雖然痛（自己部位也受傷），但若以三至五年資本支出回收期來看，科技巨頭 AI CapEx 仍屬健康投資；真正風險在於明年能否再加碼 2,500–3,000 億且市場需求能否跟上，但這些變數太多難以預測。他提醒「左側投資人要能撐過每次犯錯並從中學習」，雖然台股跌破 4 萬他仍分批加碼 0050，但不建議過度槓桿。AI 監管方面，他反對全球中央集權審查、支持市場機制與能力擴散，但也理解需某種程度寬鬆監管；美中競爭下「中國野心是所有災難根源」，台灣應把握機器人禁令等供應鏈轉移機會。整體而言，AI 長線潛力仍巨大，但投資人須接受波動與不確定性。 本筆記為節目內容摘要，非投資建議。",
+          "m": "M觀點"
+        },
+        {
+          "k": "tweet",
+          "t": "觀察到一種新興的設計模式：導航 tab 與複雜下拉選單結合，類似 mega menu 的混合介面。作者認為這反映了應用程式變得更複雜，迫使設計師打破傳統簡約規則。",
+          "b": "A new design pattern that's popping up: tab + dropdown Navigational tabs mixed with complex dropdown behaviour, mimicking a mega menu! Our apps are getting so complex that we're bending traditional simplicity rules Alternatives may include: DropTab PillDrop MegaTab PopTab https://t.co/wmZqaH7R91",
+          "m": "luis. @disco_lu"
+        },
+        {
+          "k": "tweet",
+          "t": "作者將自己過去 10 年收集的 4,000+ 個元件庫以 MCP 格式開放，讓 AI agent 也能具備設計品味，免費供大家使用。",
+          "b": "Give your AI agent design taste✨ I exposed my 4,000+ components library I collected over the last 10 years as MCP. Free to use. Have fun. https://t.co/tDbyeWXM3C",
+          "m": "Danny Postma @dannypostma"
+        },
+        {
+          "k": "tweet",
+          "t": "提供設計工程技巧：若在 Claude 或 Codex 中難以描述按鈕或卡片的 hover 狀態，可參考這些常用的 hover 效果術語清單。",
+          "b": "Design Engineering Tip: If you struggle to describe button or card hover states in Claude or Codex, these commonly used hover effect terms can help. https://t.co/kjKsdXOZe2",
+          "m": "Gabriel @gabriell_lab"
+        },
+        {
+          "k": "tweet",
+          "t": "作者分享自己最喜歡的技能是 /explore-design 指令，能自動生成多個設計選項供挑選或精修，搭配 Fable 使用效果特別好。",
+          "b": "one of my favorite skills is /explore-design based on @trq212 (will link tweet below) it generates a few design options for you which you can then pick or refine especially using fable this is such a win https://t.co/a4YJniyzxE",
+          "m": "Danny Postma @dannypostma"
+        },
+        {
+          "k": "tweet",
+          "t": "設計時如何避免陷入細節？先從簡單開始，建立基礎後探索不同方向，再深化最有潛力的想法。提供免費的 Big, Medium, Small 設計指南下載。",
+          "b": "How do you design without getting lost in the details? Start simple. Build the foundation, explore different directions, then develop the ideas that feel the strongest. 📖 Download the free Big, Medium, Small design guide: https://t.co/G9YWqYXW9p #ConceptArt #DesignTips https://t.co/msSWYw3A42",
+          "m": "Visign @visignacademy"
+        },
+        {
+          "k": "tweet",
+          "t": "分享早期 macOS 圖示設計的有趣文物，展示蘋果圖示設計演進的歷史細節。",
+          "b": "Some fun artifacts of early macOS icon design https://t.co/N0szfxRAiC",
+          "m": "Gavin Nelson @Gavmn"
+        },
+        {
+          "k": "tweet",
+          "t": "作者注意到電話圖示常描繪撥號式電話（他的孩子從未見過），而測速相機圖示更是使用二戰以來沒人見過的相機設計，反思圖示設計與現實脫節的現象。",
+          "b": "I had long noticed that the icon used for a telephone frequently depicts a dial telephone of a kind my children have never seen. Then I realized that the icon for a speed camera features a camera design no one has seen since WW2. https://t.co/bRMSjVFfvw",
+          "m": "Rory Sutherland @rorysutherland"
+        },
+        {
+          "k": "tweet",
+          "t": "介紹 2004 年矽谷工程師 Michael Chu 的發明，其設計哲學是將版面建模成甘特圖或演算法依賴圖，解決傳統散文式內容的「認知負荷」問題。",
+          "b": "Here is why this is actually crazy. It was invented in June 2004 by Silicon Valley computer engineer Michael Chu. Chu design philosophy was to design the layout to model a Gantt chart or an algorithmic dependency graph. It solves the \"cognitive load\" of traditional prose",
+          "m": "Linus ✦ Ekenstam @LinusEkenstam"
+        },
+        {
+          "k": "tweet",
+          "t": "分享作者的 AI 行銷引擎流程：從一個想法（指南、課程、網路研討會或偶然發現的酷東西）開始，通常從單一概念或常青內容發展成完整行銷活動。",
+          "b": "this is my AI marketing engine say I have an idea I want to turn into a campaign. a guide, a cohort, a webinar, something we have been planning for a while, or just something cool I came across and want to build around. it usually starts as one thing, an idea or an evergreen https://t.co/9SvV4SKgGJ",
+          "m": "Shann³ @shannholmberg"
+        },
+        {
+          "k": "tweet",
+          "t": "ElevenLabs 正在打造世代級的設計團隊，分享最新的七月設計成果。",
+          "b": "We're building a generational design team at ElevenLabs. The latest from July. https://t.co/3KzZv3Ojp3",
+          "m": "Nev Flynn @NevFlynn"
+        },
+        {
+          "k": "tweet",
+          "t": "展示來自中國的出色目錄設計作品集。",
+          "b": "Amazing catalog designs from China. https://t.co/722cBDzlCk",
+          "m": "DaVinci @BiancoDavinci"
+        },
+        {
+          "k": "product",
+          "t": "DepthData",
+          "b": "The system of record for your company's AI spend. 為企業提供 AI 支出的集中記錄與管理系統，追蹤所有 AI 相關費用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "witr",
+          "b": "Why is this running? Trace process, port, container or file 追蹤系統中正在運行的進程、端口、容器或文件的工具，幫助開發者快速定位問題來源。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "mectrics",
+          "b": "Your Mac's vitals in the menu bar. Free and open source. 在 Mac 選單列顯示系統效能指標的免費開源工具，讓使用者即時監控電腦狀態。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "MiniMax H3",
+          "b": "Unified video generation for motion design and branding 用於動態設計和品牌視覺的統一影片生成工具，簡化視訊內容創作流程。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Mubert API",
+          "b": "Edit tracks & stems, get consistent music with new engine 提供音軌與音源編輯功能的音樂生成 API，採用新引擎確保音樂風格一致性。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Gemini Robotics 2",
+          "b": "Google's AI brain for the next generation of robots Google 開發的下一代機器人 AI 系統，為機器人提供智能決策與控制能力。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-07-31",
       "dd": "2026 年 07 月 31 日",

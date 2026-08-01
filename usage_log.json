@@ -1822,5 +1822,146 @@
         "cost_usd": 0.07809
       }
     ]
+  },
+  "2026-08-01": {
+    "input_tokens": 83534,
+    "output_tokens": 24179,
+    "audio_seconds": 4296.0,
+    "cost_usd": 0.745748,
+    "calls": [
+      {
+        "label": "tweets-curate",
+        "input_tokens": 5179,
+        "output_tokens": 962,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.029967
+      },
+      {
+        "label": "producthunt",
+        "input_tokens": 389,
+        "output_tokens": 339,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.006252
+      },
+      {
+        "label": "podcast-whisper",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "audio_seconds": 4296.0,
+        "cost_usd": 0.132461
+      },
+      {
+        "label": "podcast-summary",
+        "input_tokens": 23574,
+        "output_tokens": 2168,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.103242
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3019,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031557
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3024,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031572
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3038,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031614
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 1423,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.026769
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 6517,
+        "output_tokens": 1484,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.041811
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 2967,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031401
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3050,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.03165
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3041,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031623
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 2620,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.03036
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 6474,
+        "output_tokens": 1609,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.043557
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 4203,
+        "output_tokens": 1139,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.029694
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3741,
+        "output_tokens": 1166,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.028713
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 2842,
+        "output_tokens": 1163,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.025971
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 4342,
+        "output_tokens": 1037,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.028581
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 4091,
+        "output_tokens": 1112,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.028953
+      }
+    ]
   }
 }
