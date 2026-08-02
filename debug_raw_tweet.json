@@ -1,0 +1,51 @@
+{
+  "_top_level_keys": [
+    "data",
+    "success",
+    "usage"
+  ],
+  "data": [
+    {
+      "id": "2083684372084113447",
+      "text": "honestly a shame this is getting shit on so hard. The quality of animation and art direction is absolutely insane for a solo dev, and even if the game design derivative, KH2 has a distinctly satisfying combat rhythm that the rest of the series has never fully gone back to.",
+      "createdAt": "Sat Aug 01 22:40:41 +0000 2026",
+      "language": "en",
+      "retweetCount": 79,
+      "favoriteCount": 943,
+      "replyCount": 20,
+      "quoteCount": 2,
+      "viewCount": 23932,
+      "userScreenName": "G0ffThew",
+      "userName": "Geoff Thew",
+      "userIdStr": "612990863",
+      "userFollowers": 90727,
+      "userVerified": true,
+      "conversationId": "2083684372084113447",
+      "isQuote": true,
+      "quoteId": "2082990563541094738"
+    },
+    {
+      "id": "2083674641554686455",
+      "text": "Here’s my take on how Roxy’s design can be enhanced https://t.co/IyYGiZnelh",
+      "createdAt": "Sat Aug 01 22:02:02 +0000 2026",
+      "language": "en",
+      "retweetCount": 34,
+      "favoriteCount": 682,
+      "replyCount": 9,
+      "quoteCount": 5,
+      "viewCount": 7327,
+      "userScreenName": "anomalymain",
+      "userName": "Timely Anomaly | I hate Remielle :(",
+      "userIdStr": "1931906104247877632",
+      "userFollowers": 1728,
+      "conversationId": "2083674641554686455",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://x.com/anomalymain/status/2083674641554686455/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HOqzCqPbYAAvhZ3.jpg"
+        }
+      ]
+    }
+  ]
+}
