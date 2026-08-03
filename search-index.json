@@ -1,6 +1,97 @@
 {
-  "generated_at": "2026-08-02T22:58:31+08:00",
+  "generated_at": "2026-08-03T08:58:00+08:00",
   "days": [
+    {
+      "d": "2026-08-03",
+      "dd": "2026 年 08 月 03 日",
+      "no": 109,
+      "items": [
+        {
+          "k": "article",
+          "t": "Open-Sourcing YC's Internal Multiplayer Agent Harness",
+          "b": "一句話總結 YC 開源內部使用的多人協作 Agent 框架「QM」，並展示本週 AI 創業生態在從模型成本優化到實體世界應用的全方位進展。 本週主打——YC 開源多人 Agent 工具： YC 將內部跨部門使用的多代理協作框架「QM」以 MIT 授權開源，作者強調它像 Hermes 或 OpenClaw 一樣易於客製化，但設計給整個公司使用，原生支援 Slack 和網頁介面，已應用於會計、法務、活動與工程等場景。 YC 動態——衛星追蹤與開發者工具獲投資： Array Labs 獲三菱電機領投 2,100 萬美元開發衛星追蹤服務；Tectonic 募得 1,350 萬美元防止開發者過度 tokenization；Anthropic 辦公室的 AI 自動販賣機在一年內演化成 AI 經營的商店與咖啡廳；華爾街日報報導 AI 巨頭透過免費算力搶奪新創市場份額。 新創 launch——從開放模型到實體應用： 本週 YC 新公司集中在「降低 AI 成本」（Tracer 用開放權重模型達 Fable 等級但成本僅 1/3）、「Agent 基礎設施」（machine0 提供一鍵啟動的持久 VM 給 Agent 使用、Hoplite 讓 Agent 在雲端沙盒自主寫程式）、「實體世界 AI」（Mireye 提供實體應用的統一 API、Greypoint 用無人機群定位敵方操作員、Applied Electrodynamics 開發穿牆相機、Marble 用電腦視覺與語音 AI 自動管理餐廳庫存）與「垂直 AI 工具」（Stoa 首月處理超 3 億美元 GPU 採購詢價、Gutgutgoose 用 AI 設計個人化益生菌）。 HN 熱門——隱私與開源基礎設施受關注： 本週討論焦點包括 GrapheneOS 手機在機場搜查時自動清除引發美國公民被起訴（1,336 讚）、Anthropic 發表開放權重模型立場聲明（1,176 讚、1,746 則留言）、開源引擎在 M 系列 Mac 僅用 2 GB RAM 跑 Gemma 4 26B（908 讚），以及 PostgreSQL 運作原理的視覺化教學（927 讚）。 實務資源釋出： YC 公開 Startup School 2026 所有演講影片，講者包括黃仁勳、Sam Altman、Patrick Collison、Jeff Dean 等；8 月 15 日將舉辦實習博覽會，讓學生直接與 50+ YC 公司創辦人面談並現場面試；Paper Club 分享多 GPU 核心優化、每瓦智能效率、異質推理架構等研究。 對設計／產品的啟示 作者透過 QM 開源案例展示「工具要為整個組織設計而非單一團隊」的思維——原生整合溝通平台（Slack）與介面、跨職能可用，是 AI 工具產品化的關鍵。新創 launch 名單顯示市場正從「追求模型能力」轉向「降低成本」與「落地實體場景」，產品團隊應關注如何用開放模型達到接近閉源效果、如何讓 Agent 操作真實基礎設施（VM、相機、餐廳設備），而非只停留在對話介面。HN 高度關注隱私與開源基礎設施，提醒設計者在 AI 產品中必須正視使用者對資料控制權與透明度的期待。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Y Combinator"
+        },
+        {
+          "k": "article",
+          "t": "Hedonic Adaptation: The Same Design Scores Lower Every Year",
+          "b": "一句話總結 作者指出使用者會對好設計產生「享樂適應」（hedonic adaptation），導致相同設計的滿意度每年下降 2–5%，因此團隊必須持續改進才能維持評分水準，且應優先修復反覆出現的摩擦點而非追求新鮮感。 享樂適應的定義與實證： 作者引用 1978 年 Brickman 等人的經典研究，22 位樂透得主的快樂評分（4.0/5）與對照組（3.8/5）無顯著差異，顯示人們會適應好運並重設基準線；Frederick 與 Loewenstein 1999 年的回顧指出，適應對「恆定刺激」最強，對「變動或間歇刺激」最弱。 滿意度逐年下滑： 作者觀察跨越數十年的基準數據，發現即使設計內容完全不變，使用者評分仍會隨時間下降，因為使用者從其他產品習得更高期待（Jakob's Law）；作者估計未改動的設計每年流失 2–5% 滿意度，競爭激烈的類別衰退更快。 追逐新鮮感的三大陷阱： 作者警告「重新設計換新鮮感」只帶來短期愉悅高峰、卻迫使使用者重新學習而造成長期損失；「遊戲化升級」會導致獎勵通膨與使用者倦怠；「變動獎勵機制」（如老虎機式餵食流）雖抗拒適應但屬於劫持注意力的黑暗設計。 投資抗適應的改進點： 作者建議團隊將資源投注於可靠性、速度與移除反覆摩擦，因為使用者「永遠不會適應每三次就失敗一次的列印對話框」等間歇性煩惱，而會迅速適應啟動時的華麗動畫；真正的新鮮感應少量、偶發、可跳過，並透過發行說明宣傳漸進改進。 基準測量的正確解讀： 作者提醒不應將今年分數與自家五年前分數比較並判斷「設計變差」，而應與同週測量的競爭對手比較；在持續開發的產品上，趨勢線持平已是勝利，因為代表改進速度跟上期待膨脹。 八條設計準則： 作者建議預期滿意度漂移並編列預算維持水準、優先修復間歇性煩惱、為第 100 次使用而非展示而設計、小量配給愉悅功能、宣布漸進改進、每年審計獎勵系統以防通膨，以及接受「愉悅會衰減、摩擦會持續」的現實，將最佳人力投入一年後使用者仍會感受到的痛點。 對設計／產品的啟示 作者建議團隊將持續改進視為常態預算，而非錦上添花；在資源分配上應優先消除反覆出現的小摩擦（如載入延遲、錯誤訊息），因為這些間歇性煩惱不會被使用者適應，投資報酬遠高於追求一次性的驚豔效果。對 AI 產品而言，這意味著穩定可靠的回應品質與移除常見失敗模式，比炫目的新功能更能維持長期滿意度。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "tweet",
+          "t": "作者年輕時朋友要他設計洗碗機器人，幾次迭代後發現最佳設計就是⋯洗碗機本身。人形機器人風潮很荒謬，因為人類形態從來不是任何單一任務的最佳機器設計。",
+          "b": "This. When I was younger, a friend wanted me to build a robot to wash dishes. After a few iterations of designs, the obvious optimal design was…. A dishwasher. The humanoid robot fad is idiotic because humans are never the optimum machine for any one task.",
+          "m": "Toby 🛩️ @303SnowWolf"
+        },
+        {
+          "k": "tweet",
+          "t": "提出新的 AI 工作流技巧：讓 AI 長時間思考困難任務，在即將回答時中止，將思考軌跡複製到新提示中，詢問「在推理過程中是否遇到可透過設計層級改變大幅簡化的挑戰或瓶頸」。",
+          "b": "new trick - ask Fable a hard task - let it think for 20 min - when it is about to answer, abort - copy/paste its thinking traces into a new prompt - ask: \"while reasoning about this, did you face challenges or hit walls that would be greatly simplified by design-level changes?\"",
+          "m": "Taelin @VictorTaelin"
+        },
+        {
+          "k": "tweet",
+          "t": "中國在小型住宅設計上已找到訣竅，每平方公尺都經過深思熟慮以兼顧隱私、功能性與美學，值得英美住宅學習。",
+          "b": "China has cracked the code on tiny-home design. Every square metre is thoughtfully planned for privacy, functionality, and beautiful aesthetics. Something many UK and US homes could learn from. https://t.co/Kf6r9fH1LA",
+          "m": "Architect NLA @one_miloo"
+        },
+        {
+          "k": "tweet",
+          "t": "作者用 GPT 5.6 Sol 和 Three.js 打造 3D 人體解剖學互動應用，從單張設計圖開始透過 vibe coding 實現，展示教育科技產品的可能性。",
+          "b": "Only if education could be this interactive ❤️‍🔥 I've had a looong wish to build something genuinely useful through vibe coding, and I finally did it. A 3D human anatomy application built with @threejs using GPT 5.6 Sol. It all started with a single design image that I created https://t.co/vuevYA24Sn",
+          "m": "The Bugged Dev @thebuggeddev"
+        },
+        {
+          "k": "tweet",
+          "t": "能夠複製既有媒體設計語言是極少數人才有的技能。擁有動畫技巧只是一半，試著符合遊戲風格而非盡力炫技才是關鍵，否則只是在堆砌作品集而非做出好模組。",
+          "b": "Proof that being able to replicate an existing piece of media's design language is a skill that very very few people have. Having animation skill is half the battle. Try matching the game instead of showing off as hard as you possibly can. Portfolio Padding &gt; Good Mod.",
+          "m": "Pine Evergrey @pine_evergrey"
+        },
+        {
+          "k": "tweet",
+          "t": "轉發設計作品（由 @mrdarknessart1 設計）。",
+          "b": "Repost (Design by @mrdarknessart1 ) https://t.co/B4KQOPRpLG",
+          "m": "ItsYaBoiVin (COMMS OPEN) @ItsYaBoiVin"
+        },
+        {
+          "k": "tweet",
+          "t": "作者 20 年前想像的關卡設計流程就是這樣（配圖展示）。",
+          "b": "This is how I imagined level design process, some 20 years ago.",
+          "m": "Gleb Alexandrov @gleb_alexandrov"
+        },
+        {
+          "k": "product",
+          "t": "Termexo",
+          "b": "A local Windows workbench for Claude Code and Codex 為 Windows 用戶設計的本地工作台，用於操作 Claude Code 和 Codex。適合需要在 Windows 環境中使用 AI 編程工具的開發者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Capptivo",
+          "b": "Free open-source screen recorder & demo editor 免費開源的螢幕錄影與示範影片編輯工具。適合需要製作產品演示或教學影片的使用者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Finamie",
+          "b": "Speak your expenses and get instant spending insights 透過語音記錄支出，即時獲得消費分析洞察的財務管理工具。適合想要快速追蹤日常開銷的個人用戶。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Bolcho AI",
+          "b": "Build Voice AI agents that actually speak India 專為印度市場打造的語音 AI 代理建置平台，支援印度在地語言與口音。適合需要在印度市場部署語音客服或助理的企業。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Lumichats",
+          "b": "A Claude Code alternative for people who avoid the terminal Claude Code 的替代方案，為不熟悉終端機操作的用戶提供更友善的介面。適合想使用 AI 編程助手但偏好圖形化介面的開發者。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-02",
       "dd": "2026 年 08 月 02 日",

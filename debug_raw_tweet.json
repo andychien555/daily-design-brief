@@ -6,46 +6,45 @@
   ],
   "data": [
     {
-      "id": "2083684372084113447",
-      "text": "honestly a shame this is getting shit on so hard. The quality of animation and art direction is absolutely insane for a solo dev, and even if the game design derivative, KH2 has a distinctly satisfying combat rhythm that the rest of the series has never fully gone back to.",
-      "createdAt": "Sat Aug 01 22:40:41 +0000 2026",
+      "id": "2084047753190019394",
+      "text": "Imagine if he keeps this title design lol https://t.co/kVxApQzAGt",
+      "createdAt": "Sun Aug 02 22:44:38 +0000 2026",
       "language": "en",
-      "retweetCount": 79,
-      "favoriteCount": 943,
-      "replyCount": 20,
-      "quoteCount": 2,
-      "viewCount": 23932,
-      "userScreenName": "G0ffThew",
-      "userName": "Geoff Thew",
-      "userIdStr": "612990863",
-      "userFollowers": 90727,
+      "retweetCount": 32,
+      "favoriteCount": 719,
+      "replyCount": 15,
+      "quoteCount": 4,
+      "viewCount": 24832,
+      "userScreenName": "WrestleFeatures",
+      "userName": "Wrestle Features",
+      "userIdStr": "1060908107541475330",
+      "userFollowers": 159291,
       "userVerified": true,
-      "conversationId": "2083684372084113447",
-      "isQuote": true,
-      "quoteId": "2082990563541094738"
-    },
-    {
-      "id": "2083674641554686455",
-      "text": "Here’s my take on how Roxy’s design can be enhanced https://t.co/IyYGiZnelh",
-      "createdAt": "Sat Aug 01 22:02:02 +0000 2026",
-      "language": "en",
-      "retweetCount": 34,
-      "favoriteCount": 682,
-      "replyCount": 9,
-      "quoteCount": 5,
-      "viewCount": 7327,
-      "userScreenName": "anomalymain",
-      "userName": "Timely Anomaly | I hate Remielle :(",
-      "userIdStr": "1931906104247877632",
-      "userFollowers": 1728,
-      "conversationId": "2083674641554686455",
+      "conversationId": "2084047753190019394",
       "media": [
         {
           "type": "photo",
-          "url": "https://x.com/anomalymain/status/2083674641554686455/photo/1",
-          "thumbUrl": "https://pbs.twimg.com/media/HOqzCqPbYAAvhZ3.jpg"
+          "url": "https://x.com/WrestleFeatures/status/2084047753190019394/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HOwGYi_XAAAdkOY.jpg"
         }
       ]
+    },
+    {
+      "id": "2084042561690456157",
+      "text": "We built an agent that powers our company's internal operations called @𝚟.\n\nEvery day-to-day job at Vercel now involves @𝚟. It's growing exponentially both in daily interactions and token use.\n\nOne can extrapolate to the day AI agents run entire companies from here. It's an",
+      "createdAt": "Sun Aug 02 22:24:01 +0000 2026",
+      "language": "en",
+      "retweetCount": 22,
+      "favoriteCount": 607,
+      "replyCount": 71,
+      "quoteCount": 9,
+      "viewCount": 42001,
+      "userScreenName": "rauchg",
+      "userName": "Guillermo Rauch",
+      "userIdStr": "15540222",
+      "userFollowers": 738157,
+      "userVerified": true,
+      "conversationId": "2084042561690456157"
     }
   ]
 }
