@@ -6,55 +6,62 @@
   ],
   "data": [
     {
-      "id": "2085128819665494138",
-      "text": "This Cynthia design is peak https://t.co/LN7w2QLZb6",
-      "createdAt": "Wed Aug 05 22:20:25 +0000 2026",
+      "id": "2085485231507697904",
+      "text": "So good to see moody tones and retro vibes coming back to corporate interior design https://t.co/z5zQO89ePZ",
+      "createdAt": "Thu Aug 06 21:56:40 +0000 2026",
       "language": "en",
-      "retweetCount": 117,
-      "favoriteCount": 1363,
-      "replyCount": 6,
-      "quoteCount": 2,
-      "viewCount": 8070,
-      "userScreenName": "chunniwa",
-      "userName": "Chunni",
-      "userIdStr": "1424193620790423552",
-      "userFollowers": 25667,
-      "conversationId": "2085128819665494138",
-      "isQuote": true,
-      "quoteId": "2084292921290084456",
+      "retweetCount": 45,
+      "favoriteCount": 516,
+      "replyCount": 10,
+      "quoteCount": 3,
+      "viewCount": 10742,
+      "userScreenName": "luusssso",
+      "userName": "lusso",
+      "userIdStr": "1638491963463725068",
+      "userFollowers": 182838,
+      "userVerified": true,
+      "conversationId": "2085485231507697904",
       "media": [
         {
           "type": "photo",
-          "url": "https://x.com/chunniwa/status/2085128819665494138/photo/1",
-          "thumbUrl": "https://pbs.twimg.com/media/HO_dcQTWMAAmL5T.jpg"
+          "url": "https://x.com/luusssso/status/2085485231507697904/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HPEhw6LWsAASsXE.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://x.com/luusssso/status/2085485231507697904/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HPEhw53WIAAaxsR.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://x.com/luusssso/status/2085485231507697904/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HPEhw51WEAAL47F.jpg"
+        },
+        {
+          "type": "photo",
+          "url": "https://x.com/luusssso/status/2085485231507697904/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HPEhw56XYAA2ZVV.jpg"
         }
       ]
     },
     {
-      "id": "2085128687536803854",
-      "text": "Every Prufrock that leaves the factory has over 1,000 changes from the one before it.\n\nBefore it ships, we put it through a full Porpoise Test (PT) in Bastrop — a short test tunnel (typically under 200 rings) that lets both the design team and the test team gather real data on https://t.co/USaxtztNsb",
-      "createdAt": "Wed Aug 05 22:19:53 +0000 2026",
+      "id": "2085485069226106891",
+      "text": "Vera Rubin NVL72 Compute Tray. Designed to scale.\nAssembled in 1 minute. 100% automated. No cables, no hoses, no fans.\nA revolutionary new design that means faster ramp and faster time to revenue.",
+      "createdAt": "Thu Aug 06 21:56:01 +0000 2026",
       "language": "en",
-      "retweetCount": 47,
-      "favoriteCount": 594,
-      "replyCount": 37,
-      "quoteCount": 2,
-      "viewCount": 17134,
-      "userScreenName": "Mike__Baier",
-      "userName": "Mike Baier",
-      "userIdStr": "1242479335547850755",
-      "userFollowers": 5738,
+      "retweetCount": 71,
+      "favoriteCount": 713,
+      "replyCount": 34,
+      "quoteCount": 6,
+      "viewCount": 50788,
+      "userScreenName": "nvidia",
+      "userName": "NVIDIA",
+      "userIdStr": "61559439",
+      "userFollowers": 2639980,
       "userVerified": true,
-      "conversationId": "2085128687536803854",
-      "media": [
-        {
-          "type": "video",
-          "url": "https://x.com/Mike__Baier/status/2085128687536803854/video/1",
-          "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2085128074723483648/img/yf0Ap4qeT23q3AQJ.jpg",
-          "videoUrl": "https://video.twimg.com/amplify_video/2085128074723483648/vid/avc1/1920x1080/SOSKS493dgC5uClU.mp4?tag=29",
-          "duration": 32981
-        }
-      ]
+      "conversationId": "2085485069226106891",
+      "isQuote": true,
+      "quoteId": "2076700182993854922"
     }
   ]
 }

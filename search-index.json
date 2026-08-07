@@ -1,6 +1,115 @@
 {
-  "generated_at": "2026-08-06T17:50:34+08:00",
+  "generated_at": "2026-08-07T09:00:04+08:00",
   "days": [
+    {
+      "d": "2026-08-07",
+      "dd": "2026 年 08 月 07 日",
+      "no": 113,
+      "items": [
+        {
+          "k": "podcast",
+          "t": "EP326. PLTR 怪物級財報、SPCX 的未來大餅、谷歌 AI 組織調整 | M觀點",
+          "b": "一句話總結 Palantir 以怪物級財報（年增 93%、營業利益率 47%）暫時復仇市場質疑，SpaceX 靠 AI 部門爆發性成長描繪千億營收大餅，而 Google AI 則進行組織重整以應對競爭落後。 1. Palantir 復仇記：Q2 怪物級財報扭轉逆勢 營收年增 93%、連五季加速： 2024 Q2 營收年增率達 92.8%（Q1 已是 84.7%），美國商業客戶業務年增 149%，政府業務年增 90%。 營業利益率史上新高 47%： 超越 Google（34%）與微軟（45%），Net Dollar Retention 達 157%（舊客戶平均多花 57% 預算），證明企業端真實價值創造。 股價從年初 177 美元跌至 6 月 107 美元後反彈： 財報後單日暴漲 29%，目前回到 158 美元附近，主講人認為合理估值約 120–140 美元區間。 Benchmarking 新論述： 主張企業應自建評比標準、針對特定任務選模型並微調，而非盲目追逐通用前沿模型，強化平台競爭力。 2. SpaceX 未來大餅：AI 部門驅動千億營收願景 Q2 營收年增 92% 達 78 億美元： AI 部門從去年 Q2 的 7.3 億暴增至 25.6 億（年增 248%）、Starlink 從 25.9 億成長至 42.9 億（年增 66%）。 虧損急速收窄、Q3 可望損益兩平： Q1 虧損 19.4 億、Q2 收窄至 1.4 億；主講人預估 Q3 AI 部門營收將達 50–60 億，全季可能轉正。 馬斯克喊年底 AR 達 1000 億美元： 意味 Q4 單季營收約 200 億；主講人推估 2027 全年營收可達 1500–2000 億美元（2026 年約 450 億）。 資本支出引發疑慮但主講人不擔心： 2024 下半年 CAPEX 約 360 億美元，但主講人認為算力供不應求、租賃合約穩定，且合理估值約 1 兆美元（現股價對應 1.4–1.5 兆仍偏貴）。 3. Google AI 組織重整：兩大元老異動引關注 Demis Hassabis 升任主席、淡出實戰： 從 Google DeepMind CEO 升為 Alphabet 首席科學家與 DeepMind 主席，專注 AGI 長期研究與 Isomorphic Labs（AI 藥物發現），實戰由 CTO Koray Kavukcuoglu（改任 SVP）接手。 傳奇工程師 Jeff Dean 出走創業： 原 Google Brain 創辦人、首席科學家離開創立 Discovery Loop（AI 加速科學研究），Google 仍參與投資維持關係。 市場反應過度、主講人持平看待： 儘管兩大元老異動，主講人認為「江山代有才人出」、人才流動正常，Google 內部可承接；Hassabis 調至更適合的研究崗位、Jeff Dean 離開不構成致命利空。 Gemini 進度落後但尚未絕望： Gemini 1.5 Pro 仍未發布、市場期待降低；主講人認為 Google 仍有機會追趕，但需觀察新團隊執行力。 4. 市場估值與投資策略思考 估值是機率分布、非絕對預測： 主講人強調 fair value 用於判斷相對高低與加減碼時機（如 Palantir 跌破 120–140 美元時加碼），而非精準預測股價走向。 SpaceX 短期仍有賣壓： 早期股東與員工首波解鎖股數達流通股兩倍，主講人預期股價可能測試 100 美元甚至 90 美元，屆時將加碼至主動部位 4%。 AI 基礎設施與巨頭股同步反彈： 8 月微軟、亞馬逊、Palantir、Google 與 AI Infra 股票罕見齊漲，主講人認為市場對 CAPEX 的恐慌逐漸緩解。 結論與後市展望 主講人認為 Palantir 雖憑財報暫時復仇，但競爭才剛開始（OpenAI、微軟、亞馬逊、Google 皆投入 FDE），需觀察五年後能否維持領先；SpaceX 長線看好但短期估值仍貴、等待更佳買點；Google 組織重整屬正常調整，不構成賣出理由。整體而言，AI 產業進入「從 Token 消費轉向真實企業價值創造」階段，需更關注應用層落地與 ROI 實證。 本筆記為節目內容摘要，非投資建議。",
+          "m": "M觀點"
+        },
+        {
+          "k": "article",
+          "t": "The Framing Effect in UX: Identical Facts, Opposite Decisions",
+          "b": "一句話總結 作者認為「框架效應」會讓邏輯上完全相同的資訊，因為描述方式不同（呈現為得到或失去、正面或負面屬性），導致人們做出截然相反的決定；每個介面都無可避免地設定了框架，設計者應選擇最能幫助使用者理解的框架，而非只是最大化點擊率。 經典實驗與諾貝爾獎： Tversky 與 Kahneman 在 1981 年發表研究，讓受試者選擇疾病防治方案——當描述為「確定救活 200 人」時，72% 選擇確定選項；當相同方案描述為「確定死亡 400 人」時，78% 選擇賭博選項。此研究成為 Kahneman 在 2002 年獲諾貝爾經濟學獎的基礎。同樣效應也出現在專業人士身上：1982 年針對 424 名醫師的研究顯示，當同一個肺癌治療方案以「存活率」框架呈現時，18% 選擇放射治療；改以「死亡率」框架呈現時，44% 選擇放射治療。 三種框架機制： 作者引用 Levin 等人 1998 年研究，將框架效應分為三類——屬性框架（attribute framing，如「75% 瘦肉」vs.「25% 肥肉」，1988 年研究顯示前者被評為更美味）、風險選擇框架（risky-choice framing，影響遷移提示、方案變更）、目標框架（goal framing，影響引導流程與安全提示）。設計者需辨識正在處理哪一種。 演化根源與能量預算規則： 作者指出框架效應並非缺陷，而是演化適應。1980 年鳥類實驗顯示：當能量充足時，鳥類選擇確定獎勵；當能量不足以過夜時，同樣的鳥會選擇賭博（因為確定選項等於死亡）。2006 年研究甚至在卷尾猴身上發現類似行為。人類祖先數百萬年來依賴框架讀取說話者意圖（「還剩 200 頭」vs.「損失 400 頭」在語用上傳達不同訊息），因此一致性從未被選擇壓力測試過。 無所不在的 UI 框架： 作者列舉大量實例——定價（「每年省 120 美元」比「省 17%」更可驗證）、運費門檻（「再加 12 元免運」是得到框架）、評分（「4.3 星」vs.「14% 買家給 3 星以下」描述同一資料）、空狀態（「找不到結果」vs.「0/4812 項產品符合 6 個篩選條件，移除篩選可看到 340 項」）、同意流程（「接受全部」大藍按鈕 vs.「管理偏好」灰色連結，視覺權重本身就是框架）。1998 年 Gourville 研究顯示，將年費改寫為「每日幾分錢」會提高付費意願；2006 年洗車忠誠卡實驗顯示，10 格卡片預蓋 2 格的完成率（34%）遠高於空白 8 格卡片（19%），儘管兩者都需再洗 8 次。 AI 的框架壟斷： 作者警告對話式 AI 只給一個答案，形成「框架壟斷」（framing monopoly），而搜尋結果頁至少給 10 個競爭觀點。2024 年 CHI 研究顯示，即使 ChatGPT 3.5 答案有 52% 包含錯誤資訊，參與者仍有 35% 偏好它（因為「全面且文筆流暢」），且有 39% 忽略錯誤。2023 年 Cornell 研究讓 1,506 人寫短文，暗中給 AI 助手設定立場——結果不只文章被影響，參與者在獨立態度調查中的個人意見也隨之改變。Anthropic 2026 年分析顯示，最長的 Claude Code 代理執行時間在 3 個月內從 25 分鐘增至 45 分鐘；有經驗使用者超過 40% 使用全自動核准，但中斷率（9%）是新手（5%）的近兩倍——代表監督介面已變成「審查代理的進度敘述」而非審查工作本身。 對設計／產品的啟示 作者提供 12 條設計指引，核心原則是「框架為理解而非轉換」：百分比旁永遠附上絕對數字、高風險決策同時呈現兩種框架（「90% 存活」與「10% 死亡」）、風險用自然頻率而非機率（「五分之一」比「20%」好懂）、接受／拒絕選項在語氣、大小、顏色上對稱、僅在可驗證風險時使用損失框架、錯誤訊息改寫為下一步行動。企業應用與 AI 產品更需謹慎：儀表板要同時報告留存率與流失率、AI 信心度用雙向頻率（「12 次中錯 1 次」）而非單向百分比（「92% 信心」）、提示模板應像 UI 文案一樣定期稽核。最實用的建議是「鏡像測試」：寫出每個關鍵選擇的相反框架，問自己「充分知情的使用者會認為哪一種公平」——若答案讓你尷尬，就改文案。歐盟 2022 年研究發現 97% 熱門網站／應用使用至少一種黑暗模式，每年造成消費者損失至少 79 億歐元；2026 年第四季將推出《數位公平法》。作者強調：沒有無框架的事實，設計者的責任是選擇經得起鏡像測試的框架，而非只追求轉換率。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "tweet",
+          "t": "shadcn 釋出新元件後分享幕後：完成品背後是數天的規劃、研究、測試、設計、簡化、捨棄再重來的循環。提醒開發者看到的成品往往只是冰山一角。",
+          "b": "Alright. I want you to read this. Earlier today, I released a new component. What you see is the finished result. What you don’t see are the days of planning, research, testing, designing, simplifying, throwing ideas away, and trying again before I felt it was ready. Within",
+          "m": "shadcn @shadcn"
+        },
+        {
+          "k": "tweet",
+          "t": "香港 M+ 博物館線上典藏開放 19,000+ 件作品，涵蓋藝術、設計、建築、攝影、影像、家具、海報等各類視覺資源，值得設計師探索靈感。",
+          "b": "consider this your intro to Hong Kong's M+ museum online collection. 19k+ works spanning art, design, architecture, photography, film, furniture, posters, and every kind of ephemera. honestly impossible to pick, so i just whipped up a few pages to give you an idea https://t.co/irVbllP6dD",
+          "m": "Holly Blake @hollycurates"
+        },
+        {
+          "k": "tweet",
+          "t": "前 Google 工程師釋出 3 小時免費課程，教你從單一 AI agent 擴展到完整系統，包含人類接手流程、RAG、向量資料庫與變現策略。",
+          "b": "Ex-Google engineer just released a free 3-hour course on building and monetizing AI agents. How to go from one agent to a full system that finds leads and makes money: 00:00 - Design an AI agent system 07:38 - Add human handoffs 19:27 - Understand RAG and vector databases 52:38 https://t.co/etPyDKpRSv",
+          "m": "Lunar @LunarResearcher"
+        },
+        {
+          "k": "tweet",
+          "t": "MiniMax H3 在 Design Arena 的三項影片生成類別（多圖轉影片、圖轉影片、影片編輯）均排名第一，領先 Seedance 2.0 與 Grok Imagine。",
+          "b": "BREAKING: MiniMax H3 by @MiniMax_AI is 1st across 3 Video categories (Multi-Image to Video, Image to Video, and Video Editing) on Design Arena. MiniMax H3’s performance in Video Arena puts it ahead of other top performing models like Seedance 2.0 by @BytePlusGlobal, Grok Imagine https://t.co/Ckeqarhr1m",
+          "m": "Design Arena @DesignArena"
+        },
+        {
+          "k": "tweet",
+          "t": "想精通系統設計，建議學習這 17 個經典案例研究（作者提供清單）。",
+          "b": "If you want to become GOAT-level with system design, then learn these 17 case studies (save now):",
+          "m": "Neo Kim @systemdesignone"
+        },
+        {
+          "k": "tweet",
+          "t": "Andrew Ng 提供完整 AI agentic 工程師養成指南，涵蓋 agent 基礎、工作流程、設計模式與實戰技巧，助你在 2026 年掌握此領域。",
+          "b": "Don't waste 2 years learning to build LLMs like Claude &amp; ChatGPT. Andrew Ng, the godfather of AI, gave the complete playbook to become an AI agentic engineer in 2026. • 00:00 - AI agent basics • 12:12 - AI Agentic workflows &amp; design patterns • 53:27 - Practical tips for https://t.co/f22ti32SSK",
+          "m": "Khairallah AL-Awady @eng_khairallah1"
+        },
+        {
+          "k": "tweet",
+          "t": "每台 Prufrock（隧道鑽掘機）出廠前都相較前一台有超過 1,000 項設計變更，並在 Bastrop 進行完整 Porpoise Test 以蒐集真實數據。展現硬體產品的快速迭代方法論。",
+          "b": "Every Prufrock that leaves the factory has over 1,000 changes from the one before it. Before it ships, we put it through a full Porpoise Test (PT) in Bastrop — a short test tunnel (typically under 200 rings) that lets both the design team and the test team gather real data on https://t.co/USaxtztNsb",
+          "m": "Mike Baier @Mike__Baier"
+        },
+        {
+          "k": "tweet",
+          "t": "作者認為 /caveman + /ponytail + /design-taste-frontend + /writing 是高效技術棧組合，原以為是噱頭但實際體驗後改觀。",
+          "b": "/caveman + /ponytail + /design-taste-frontend + /writing peak efficient stack, thought it was a gimmick.",
+          "m": "rzi @zirachw"
+        },
+        {
+          "k": "tweet",
+          "t": "Tesla 為 Terafab 開放 36 個職缺，涵蓋製程工程師（光刻、蝕刻、電鍍、磊晶）、工業衛生、環境工程、設備等，顯示半導體製造佈局正在擴張。",
+          "b": "Tesla now has 36 job openings listed for Terafab: • Industrial Hygienist • Sr. Process Engineer, Lithography • Sr. Process Engineer, Dry Etch • Sr. Process Engineer, Plating • Sr. Process Engineer, Epitaxy • EHS Manager • Environmental Engineer, Air Quality • Equipment https://t.co/vJM9awJw6s",
+          "m": "Sawyer Merritt @SawyerMerritt"
+        },
+        {
+          "k": "product",
+          "t": "Gesture Synth School",
+          "b": "A practice app for learning to play music with your hands. 透過手勢辨識技術學習演奏音樂的練習應用程式，讓使用者用雙手在空中控制合成器音色。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Shieldstral",
+          "b": "Define safety at runtime for text and images 為文字和圖像內容提供即時安全審核的工具，可在應用程式執行時動態定義安全規則。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Chute",
+          "b": "The fastest way to send anything to your iPhone 快速傳送檔案、連結或文字到 iPhone 的工具，適合需要頻繁跨裝置傳輸內容的使用者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Annotate",
+          "b": "Screen recording as prompts 將螢幕錄製轉換為提示詞的工具，讓使用者透過錄製操作過程來生成指令或說明。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Cloudflare OS",
+          "b": "Build the AI operating system for your company 基於 Cloudflare 基礎設施打造企業專屬 AI 作業系統的平台，整合 AI 工作流程與雲端服務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Aveiro",
+          "b": "Publish sites, newsletters and social posts with AI agents 使用 AI 代理自動發布網站、電子報和社群媒體內容的平台，適合需要管理多渠道內容的團隊。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-06",
       "dd": "2026 年 08 月 06 日",
