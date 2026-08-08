@@ -2328,10 +2328,10 @@
     ]
   },
   "2026-08-08": {
-    "input_tokens": 21037,
-    "output_tokens": 4706,
-    "audio_seconds": 0.0,
-    "cost_usd": 0.133701,
+    "input_tokens": 41613,
+    "output_tokens": 6394,
+    "audio_seconds": 3002.0,
+    "cost_usd": 0.31331,
     "calls": [
       {
         "label": "tweets-curate",
@@ -2367,6 +2367,20 @@
         "output_tokens": 1214,
         "audio_seconds": 0.0,
         "cost_usd": 0.028227
+      },
+      {
+        "label": "podcast-whisper",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "audio_seconds": 3002.0,
+        "cost_usd": 0.092561
+      },
+      {
+        "label": "podcast-summary",
+        "input_tokens": 20576,
+        "output_tokens": 1688,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.087048
       }
     ]
   }
