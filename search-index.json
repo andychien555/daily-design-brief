@@ -1,6 +1,157 @@
 {
-  "generated_at": "2026-08-07T22:48:56+08:00",
+  "generated_at": "2026-08-08T08:58:55+08:00",
   "days": [
+    {
+      "d": "2026-08-08",
+      "dd": "2026 年 08 月 08 日",
+      "no": 114,
+      "items": [
+        {
+          "k": "article",
+          "t": "Dogfooding vs. QA vs. User Research",
+          "b": "一句話總結 作者認為「Dogfooding」（公司內部使用自家產品）雖能協助抓蟲和測試穩定性，但無法取代真正的用戶研究，因為團隊成員知道太多內情，無法代表真實用戶的觀點。 Dogfooding 的定義與目的： 作者指出 Dogfooding 是指內部使用自家產品來改善產品，最早由微軟在 1988 年推廣。其目的是在產品上市前發現 bug、錯誤流程和缺失功能，並在不同環境下進行壓力測試。 三種測試方法的差異： 作者區分了 QA 測試（由專業人員系統性檢查產品功能是否正常運作）、用戶研究（從真實或代表性用戶收集資料，評估易用性與需求滿足度），以及 Dogfooding（員工在半真實情境下提供可靠性與易用性回饋）。這三者各自回答不同問題，無法互相替代。 知識詛咒效應的限制： 作者強調員工因為理解產品的專業術語、資料模型和系統運作方式，無法可靠地模擬「不知道」的狀態。這導致員工的易用性回饋可能與真實用戶研究結果相互矛盾，甚至混淆研究數據。 AI 時代的可靠性挑戰： 作者指出在非確定性的 AI 模型中，可靠性評估變得更複雜，需要確認系統是否持續提供正確答案、是否使用正確資料來源、是否適當考量用戶情境等。Dogfooding 能幫助回答部分問題，但仍無法取代 QA 和用戶研究。 表演性質與真實動機： 作者提到許多當代 Dogfooding 案例（如麥當勞 CEO 試吃新產品的影片）更像是忠誠度表演而非真正的品質控管。他以 McDonald's CEO Chris Kempczinski 小心翼翼咬一口新漢堡的影片為例，說明公眾立刻看穿這不是真實使用行為。 對設計／產品的啟示 作者建議在進行任何回饋活動前，先問清楚「我們要的是誰的觀點？」如果團隊是設計決策的唯一回饋來源，那只是內部意見而非用戶研究。Dogfooding 應與 QA 測試和用戶研究並行使用：Dogfooding 回答「產品能運作嗎？有明顯缺陷嗎？」，QA 回答「有哪些失敗點和 bug？」，用戶研究則回答「不了解產品的人能達成目標嗎？產品如何融入真實情境？」。最終，Dogfooding 只能告訴你團隊的想法，真正的用戶研究才能揭示用戶的實際體驗。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "NN/g Nielsen Norman Group"
+        },
+        {
+          "k": "article",
+          "t": "How to Decide When an AI Tool Is Worth Keeping",
+          "b": "一句話總結 作者提出 PROVE 評估框架（問題適配、風險、輸出品質、速度、體驗），幫助工作者在壓力下判斷特定 AI 工具是否真的值得為特定任務持續使用。 評估失敗的兩種模式： 作者指出團隊常在壓力下犯兩種錯誤——用友善案例試一次就認定工具有用，或用錯任務測試就完全否定工具，兩者都沒回答「相比現有做法，工具產出是否值得採用」這個核心問題。 問題適配（Problem Alignment）先於工具探索： 作者建議先定義重複性、耗時的任務，再檢查工具能力是否匹配，而非一拿到工具就亂試；以作者測試 Gemini Notebooks 撰寫每週研究摘要為例，該任務每週發生、不需出版品質、工具核心功能（上傳來源、跨文件綜合）正好對應需求。 風險評估防範影子 AI： UpGuard 研究顯示約 80% 員工承認使用公司未核准的 AI 工具；作者強調在花時間測試前必須確認工具是否經組織核准、隱私政策是否允許你打算輸入的資料類型（個人資訊、機密研究、專有程式碼等），否則風險可能抵銷所有時間節省。 速度（Velocity）要計算總時間而非生成時間： 作者實測 Gemini Notebooks 將撰寫摘要從 25 分鐘降至約 10 分鐘，但強調必須計入設定、提示、檢查、修正錯誤、重新格式化、跨系統搬移內容等全部時間；三秒生成可能造成三十分鐘編輯工作，反之工具變慢但產出人工無法達成的品質也可能值得。 體驗（Experience）需區分一次性與重複性摩擦： 作者發現 Gemini Notebooks 雖設定簡單，但讓工作流從三步（讀、寫、貼）變六步（讀、上傳、提示、複製、重新格式化、貼），每週多兩次交接；一次性學習成本可接受，但每次都要忍受的笨拙流程會長期累積成本。 將評估轉為可解釋的決策： 作者建議用五分量表（3 分為「與現有做法相當」）對品質、速度、體驗評分，並能回答四個問題——評估了什麼工具與任務、發現什麼證據、打算怎麼做（持續使用／限時試用／擱置／稍後重訪）、主要限制或下一步為何；作者自己的結論是「品質 4/5、速度 4/5、體驗 3/5，進行一個月試用，因初步測試顯示足夠品質與時間節省，但需確認長期時間效益」。 對設計／產品的啟示 作者強調壓力不等於證據——當被要求「多用 AI」時，應以 PROVE 框架測試具體任務並提出明確發現（「這工具對此工作的改善不足以抵銷成本、風險或摩擦」），將模糊要求轉為「哪些流程已測試、哪裡有證據顯示改善」的具體討論；同時警告不要讓懷疑成為反射動作，若工具對任務夠好、省時且符合工作方式就該採用；建議將評估視為暫時決策而非永久結論，數週實際使用後重新檢視，最終目標是保留較少但確實改善工作的可信任工具，而非累積一堆看似厲害卻讓工作變糟的 AI。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "NN/g Nielsen Norman Group"
+        },
+        {
+          "k": "article",
+          "t": "UX Roundup: Simplicity | Fact Flooding | AI Integration | AI Adoption Personas | Tone of Voice | Timelines | Cybersecurity | Agentic E-commerce",
+          "b": "一句話總結 作者透過八個議題指出 AI 正在改變 UX 實務的多個面向：從「事實淹沒」這種新型暗黑模式的出現，到企業必須深度整合 AI 才能獲利，以及 AI 代理人購物流量的快速成長。 事實淹沒（Fact Flooding）是 AI 原生的新暗黑模式： 牛津大學研究發現，frontier AI 模型在 18,978 場對話中擊敗所有人類說服專家（包括世界辯論冠軍）。AI 平均每場對話丟出約 37 個「類事實」陳述，人類只有 3 個；AI 說服力與陳述數量的相關性達 R² = 0.89，但其陳述僅 47% 經得起事實查核（最有說服力的模型準確率更只有 22%）。作者認為這是利用人類無法在短時間驗證大量資訊的弱點來操控使用者，應列入暗黑設計模式清單。 AI 整合必須深入業務流程才有回報，試點專案反而虧損： MIT FutureTech 分析 510 家 S&P 500 企業的 SEC 10-K 文件（2016–2025）發現，45% 企業停留在「試點高原」，這些公司的淨利率比完全不用 AI 的企業低 3 個百分點；只有深度整合 AI 的非科技公司淨利率高出 12.6 個百分點。作者強調 AI 採用遵循 J 曲線：初期成本高於收益，只有重新設計端到端工作流程並撐過低谷期，才能獲得系統性回報。 AI 採用有五種人格典型，需分眾設計： 浙江中醫藥大學訪談 25 位護理實習生（30–60 分鐘深度訪談至飽和），歸納出五種 AI 採用姿態：主動思考型（把 AI 當對練夥伴）、流程適應型（用 IT 嵌入的工具）、任務依賴型（趕時間就跳過驗證）、被動負擔型（AI 增加而非減少工作）、懷疑防禦型（擔心隱私與究責）。作者認為這些類型適用各種知識工作，但比例會隨情境改變；設計時應依 AI 姿態而非職稱分眾。 AI 改寫郵件的語氣會影響收件人行為： 海法大學在六家公司進行三週交叉實驗（121 名員工、16,880 封真實郵件），讓 GPT-5 分別以「活潑」和「正式專業」風格改寫工作郵件。結果發現 AI 確實能精準調整語氣（正面情緒分數從 0.07 升至 0.14 或降至 0.03），且同一寄件人的郵件中，正面情緒每提升 1 分，開信率加倍（OR 2.05）、回信率增為三倍（OR 3.32）。作者提醒「讓它更專業」這種簡化提示詞會降低溫度、抑制回覆，並強調應測量「Level 3 成功」（對收件人行為的影響）而非只看文本改變。 時間軸（Timeline）是將時間空間化的最佳介面： 作者回顧 1765 年 Joseph Priestley 發明的視覺化概念，指出時間軸利用「位置」這個人類解讀最準確的視覺編碼（Cleveland & McGill 1984），讓順序、間隔、叢集自動浮現。加上可拖曳的「scrubber」控制桿後，時間軸從展示變成操控（如影片進度條）。作者列出兩大常見謊言：刻度不成比例（假裝等距其實時間跨度不同）與事件湯（所有事件同等視覺權重），並提供十條設計指引，包括在手機上改用垂直排列、為未來事件加上虛線標示、為長時間軸加入地標（如月份黏性標題）等。 AI 提升而非削弱網路安全： Google 數據顯示，Chrome 瀏覽器在 2026 年 6 月 2 日的版本修復了 516 個內部發現的漏洞，是 2024 年 6 月至 2026 年 3 月 21 個版本總和的三倍以上（每版本修復數成長 68 倍）。作者認為這些漏洞本就存在於程式碼中，AI 只是加速發現與修復；若限制公眾使用先進 AI，反而會讓小型軟體公司無力自保，只有壞人能利用漏洞。 AI 代理人購物流量快速成長，設計必須兼顧人機雙重使用者： Salesforce 分析 15 億購物者行為（2024 Q1–2026 Q1）與調查 3,450 名電商專業人士及 4,689 名消費者（2026 年 4–6 月）發現，以 agentic search 作為購物旅程起點的行為年增 200%，AI 聊天轉介流量季增 150–428%（整體流量僅個位數成長）；傳統站內搜尋使用下降 15%。28% 電商組織已使用 agentic AI，44% 計劃半年內採用。作者提醒電商團隊必須將「機器可讀性」視為第一級設計介面，提供結構化產品資料與可準確引用的描述，並分開追蹤 AI 轉介流量，因為這些使用者「中途到達、已有先備知識、期待不同」。 對設計／產品的啟示 作者建議設計師在 AI 時代必須：（1）對抗事實淹沒——設計 AI 產品時應以「服務而非操控使用者」為目標，提供反方論點、可查證來源與漸進式揭露；（2）深度整合而非試點——企業應重新設計端到端工作流程，並建立清晰的 AI 策略與正向文化；（3）依 AI 姿態分眾——為主動思考、任務依賴、懷疑防禦等不同人格提供對應功能（如內嵌來源、信心提示、diff 檢視），讓驗證比盲目接受更省力；（4）測量 Level 3 成功——評估 AI 寫作工具時，不只看文本改變或寫作者滿意度，更要追蹤對讀者行為的實際影響；（5）尊重時間軸的誠實性——選擇比例刻度或序數刻度需明確標示，給予里程碑視覺權重，未來事件需與過去區別；（6）同時設計給人與 AI——電商網站需兼顧傳統使用者與 AI 代理人，後者需要結構化資料與可摘要內容，且會帶來「中途到達」的新型使用者旅程。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "tweet",
+          "t": "10/10 for the chocolate design https://t.co/IgaMksRkEr",
+          "b": "10/10 for the chocolate design https://t.co/IgaMksRkEr",
+          "m": "ak not ok @KabraAakanksha"
+        },
+        {
+          "k": "tweet",
+          "t": "Happy to announce I just got a graphic design job at Sony! Really excited, today they had me redesign some old Spiderman posters, I think I did a really good job.",
+          "b": "",
+          "m": "Getlucky @Getlucky12341"
+        },
+        {
+          "k": "tweet",
+          "t": "She's so cute!! I'm glad they stayed true to her design 🥹 https://t.co/eOBKaQN0Al",
+          "b": "",
+          "m": "Hideo Fufujima @Hideo_Fufujima"
+        },
+        {
+          "k": "tweet",
+          "t": "Since ronova got her 3D model I decided to update azraels design :D I fixed her hair... finally... https://t.co/nxHO6VvrYw",
+          "b": "",
+          "m": "Tuna @AbyssTuna"
+        },
+        {
+          "k": "tweet",
+          "t": "I mean the only thing near of the design is the red hair https://t.co/15KzcxuDwA",
+          "b": "",
+          "m": "NoOne (COMM OPEN; TALK DM) @NoOneDignus"
+        },
+        {
+          "k": "tweet",
+          "t": "will come back to this design later i'm so pilled up with other works fuck https://t.co/lnUev1cAls",
+          "b": "",
+          "m": "Ray @temporayyy19"
+        },
+        {
+          "k": "tweet",
+          "t": "Hoshino Terror concept design. From Blue Archive Official Artwork 4 #BlueArchive #ブルアカ #블루아카이브 https://t.co/NefeNgl7TT",
+          "b": "",
+          "m": "BlueArchive: Kivotos Warfare @BArchiveWarfare"
+        },
+        {
+          "k": "tweet",
+          "t": "What a magical time to be alive. https://t.co/zzLG6rIHNo",
+          "b": "",
+          "m": "16th Street Design Studio @16StreetDesign"
+        },
+        {
+          "k": "tweet",
+          "t": "Holly is one of my favorite recent follows. She’s infinitely curious about design and art in all its forms, and curates fun/obscure stuff like this every day. It’s like plugging into an inspiration API.",
+          "b": "",
+          "m": "Oliver ೫ @oliverhamrin"
+        },
+        {
+          "k": "tweet",
+          "t": "Still can’t get over this special design ❤️‍🔥 #AudiFCBTour https://t.co/fz6gh7Ps0L",
+          "b": "",
+          "m": "FC Bayern @FCBayernEN"
+        },
+        {
+          "k": "tweet",
+          "t": "Andou complaining about Bones disrespecting his design only to go on and disrespect the entire art community that he's apart of by using ai is so baffling, hypocritical, audacious. (1/3)",
+          "b": "",
+          "m": "valeri 🚯 @valkyrily"
+        },
+        {
+          "k": "tweet",
+          "t": "Knock knock it’s Knuckles. Unlike Sonic he don’t— well you get the point. I know most Knuckles redesigns put him in 110% tribal getup but people seem to forget that he’s also a treasure hunter and adventurer. (Design changes below) https://t.co/XY42hpn1An",
+          "b": "",
+          "m": "Sokudo | COMMS OPEN @ProlifkVelocity"
+        },
+        {
+          "k": "tweet",
+          "t": "Quick doodle of my design on an ipad https://t.co/yRXDY30DXz",
+          "b": "",
+          "m": "IronicnotSavage ⏭️ SUPERNOVA @IronicnotSavage"
+        },
+        {
+          "k": "tweet",
+          "t": "Graphic Design Tips https://t.co/OkTDMOj6iK",
+          "b": "",
+          "m": "Ⓢ @swzydzn"
+        },
+        {
+          "k": "tweet",
+          "t": "Tesla is planning to build a $10.1 billion vertically integrated solar cell manufacturing facility in Fort Bend County, Texas, about 40 minutes from Houston, according to a new public application filing. Tesla is aiming to start construction this year and finish in 2028, with https://t.co/f3HIK5HGST",
+          "b": "",
+          "m": "Sawyer Merritt @SawyerMerritt"
+        },
+        {
+          "k": "product",
+          "t": "Soloop",
+          "b": "Approval-first Agent OS for solo founders 為獨立創業者設計的 Agent 作業系統，所有自動化操作都需經過使用者批准後才執行。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Whop CLI",
+          "b": "Run your entire business from the terminal 讓使用者可以直接透過終端機命令列介面管理整個業務流程的工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Crew",
+          "b": "A tiny crew of monsters for your Claude Code agents 為 Claude Code agents 提供的小型怪物角色團隊，協助開發工作流程。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Blueberry",
+          "b": "Stop Ghosting People You Actually Like 幫助使用者追蹤並提醒聯繫重要聯絡人，避免疏於聯絡真正在意的人。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Prompt Bridge",
+          "b": "Keep AI Context Portable 讓 AI 對話的上下文可以在不同平台間移轉與保存的工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "HAR",
+          "b": "Open Source harness for multi-agent coding workflows 開源的多 agent 協作編程工作流程框架，用於管理 AI 程式開發任務。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-07",
       "dd": "2026 年 08 月 07 日",
