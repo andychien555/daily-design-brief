@@ -1,6 +1,103 @@
 {
-  "generated_at": "2026-08-08T22:26:57+08:00",
+  "generated_at": "2026-08-09T08:57:45+08:00",
   "days": [
+    {
+      "d": "2026-08-09",
+      "dd": "2026 年 08 月 09 日",
+      "no": 115,
+      "items": [
+        {
+          "k": "article",
+          "t": "Progress Indicators Ease the Wait",
+          "b": "一句話總結 作者認為進度指示器是最古老但仍有效的可用性設計，當回應時間超過 10 秒時應顯示百分比進度條，而 AI 代理程式帶來的長時間等待（數小時）更提高了設計誠實、可離開監控的進度指示器的重要性。 回應時間三大門檻： 作者沿用 1993 年提出的準則——0.1 秒內感覺即時、1 秒內使用者注意到延遲但保持流暢、超過 10 秒注意力渙散需顯示進度回饋；這些門檻源自人類感知而非硬體，因此 33 年後仍然適用。2023 年 ChatGPT-4 平均每次回答 41 秒，是注意力門檻的 4 倍，而推理模型與代理程式更將等待時間推至數分鐘甚至數小時。 等待心理學四大定律： 作者引用 David Maister 1985 年研究指出——有事可做的時間感覺較短（經典案例：電梯旁裝鏡子後抱怨消失）、已知有限的等待比不確定等待感覺短（這解釋進度條的核心價值）、有解釋的等待比無解釋短、焦慮的等待比平靜的等待感覺長；此外「勞動幻覺」研究（Harvard 2011）發現顯示工作過程的網站被評為更有價值，即使速度較慢。 不同時長的指示器策略： 作者建議 1 秒以下不顯示任何指示器（閃現的載入動畫只會讓系統顯得更慢）、1–10 秒使用轉圈或骨架屏（僅表示系統運作中）、超過 10 秒必須使用確定性進度條並加上時間估計；骨架屏只在 3 秒內且能誠實預覽熟悉版面時有效，否則比轉圈更糟。Carnegie Mellon 研究發現帶有減速條紋的進度條被認為快 11%，使用者最討厭暫停與卡住。 進度條的三大禁忌： 作者強調絕不讓進度條倒退、停滯或重置——衝到 99% 後卡住數分鐘、無故歸零、「剩餘 1 秒」持續 5 分鐘的安裝程式等都是「進度劇場」，每次失信都讓使用者學會不信任下次顯示；誠實的慢進度條勝過說謊的快進度條。 AI 代理程式重新定義進度顯示： 作者指出 AI 讓「隔夜批次作業」重返——METR 基準測試顯示 Claude Mythos 5 處理人類專家需 16 小時的任務，成功率 50%，且這個時間範圍每 3–4 個月翻倍；傳統百分比進度條在開放式知識工作中失效（代理程式不知道自己完成了 40%），應改為顯示：即時步驟清單（「步驟 3/7：交叉檢查來源」）、以使用者單位敘述活動（「正在讀取 quarterly-report.xlsx」而非「執行工具呼叫 47」）、中期產出物、已耗時間（僅在誠實時顯示剩餘時間）、完成通知（超過 1 分鐘假設使用者已離開）。 Brad Myers 的先驅研究： 作者提到 1985 年 CHI 會議上當時仍是研究生的 Brad Myers 發表百分比進度指示器研究，48 位學生中 86% 偏好有進度條，儘管它沒有縮短任何時間；Myers 當時就預言使用者若知道作業需時多久可決定做其他事——1985 年是去倒咖啡，現在是監督其他 3 個 AI 代理程式。 對設計／產品的啟示 作者提供 12 條設計準則，核心是「將顯示綁定真實測量」——次秒等待不顯示、2–10 秒用轉圈、超過 10 秒用百分比條；關鍵在於以使用者單位計數（上傳的照片數而非副程式里程碑）、保持進度條前進、用一句話解釋長時間等待、對代理程式工作敘述過程並交付中期成果。對 AI 產品特別重要的是：超過 1 分鐘應假設使用者已離開並提供完成通知，讓誠實的慢進度系統成為「注意力契約」——代理程式同意無人監督工作、使用者同意被呼叫時返回，顯示器則寫明條款；同一步驟清單與活動日誌在執行中提供安心感、完成後成為驗證代理程式工作的稽核軌跡。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "tweet",
+          "t": "Grok 團隊正在快速迭代改善寫作品質與設計品味，4.6 版本即將推出，團隊歡迎使用者回饋以持續優化產品體驗。",
+          "b": "We’re making great progress on improving the writing quality and design taste of Grok. Still a lot more to do, but I’m encouraged by how quickly we’re iterating. Please let me know any feedback. Grok 4.6 soon!",
+          "m": "Lee Robinson @leerob"
+        },
+        {
+          "k": "tweet",
+          "t": "使用 Midjourney 一週就能產出高品質作品，顯示現今 AI 工具時代，精煉的品味比多年設計經驗更關鍵。",
+          "b": "my man has been using midjourney for a week &amp; already pumping out back to back bangers goes to show, you don't need years of experience in graphic design, art , or ai tools just being mildly proficient with software and having refined taste is enough. what a time to be alive",
+          "m": "@drishtadyumna @drishtadyumn"
+        },
+        {
+          "k": "tweet",
+          "t": "針對 Coldcard 事件提出新型錢包設計方案，宣稱解決了比特幣自託管的三難困境，已在主網上線並附有完整說明文件。",
+          "b": "Like many, I've barely slept since the Coldcard incident. My mind has been racing on how to stop this from ever happening again. I believe I've come up with a novel wallet design that solves Bitcoin's self-custody trilemma. Live on mainnet. Writeup: https://t.co/w1nF4WWXi2",
+          "m": "Luke Childs ☂️ @lukechilds"
+        },
+        {
+          "k": "tweet",
+          "t": "Motionsites MCP 讓 AI 代理能存取 700+ 個動畫網站、背景、設計提示與模組，解決了 AI 工具會寫程式碼但不知道什麼是好設計的問題。",
+          "b": "Motionsites MCP is insane. your AI agents can now Access 700+ Animated Websites, Backgrounds, design prompts, sections, and apps. ai tools can write code. they just don't know what good looks like. now they do. 👉 https://t.co/fyyo4N5vix https://t.co/rtZIBxXq3N",
+          "m": "Viktor Oddy @viktoroddy"
+        },
+        {
+          "k": "tweet",
+          "t": "Mortdog 觀察到當前遊戲產業的明顯趨勢：大多數遊戲都圍繞著系統設計展開，這是基於他近幾個月廣泛體驗各類遊戲後得出的核心洞察。",
+          "b": "Over the last few months, I've been playing a lot of various titles, spending my time really seeing what all is out there in the industry right now. One thing is very clear to me. Most games right now are about systems. There are a variety of types of systems, and 40 years of",
+          "m": "Mortdog @Mortdog"
+        },
+        {
+          "k": "tweet",
+          "t": "AMG 車主控告賓士，指座椅上的 AMG 金屬 logo 在陽光下過熱導致二級燙傷，凸顯產品設計中材質與使用情境的安全考量缺失。",
+          "b": "AMG drivers are suing Mercedes, alleging that the AMG seat logo heats up so much in the sun that it effectively brands their skin. Plaintiff hopped in his AMG E-Class \"while wearing a tank top en route to the gym.\" The logo burned his back, giving him a second-degree burn https://t.co/ciUMFOcGni",
+          "m": "Rob Freund @RobertFreundLaw"
+        },
+        {
+          "k": "tweet",
+          "t": "Alliance Graphique Internationale 線上資料庫收錄超過 4500 件作品，涵蓋 70 年平面設計史，從海報到字體設計應有盡有，是設計研究的寶貴資源。",
+          "b": "AGI is here. i mean, here’s AGI’s amazing online archive: 4.5k+ works by members of Alliance Graphique Internationale, spanning over 70 years of graphic design. an absolute rabbit hole for anything graphic design related, from posters to typography and everything in between. https://t.co/0JhjKqwEBq",
+          "m": "Holly Blake @hollycurates"
+        },
+        {
+          "k": "tweet",
+          "t": "整理五個專為 Design Engineer 設計的網站資源，提供設計與工程交界的實用工具與參考。",
+          "b": "Websites for Design Engineers 1. https://t.co/KCSRFSCVuk 2. https://t.co/VpCRUEVsep 3. https://t.co/EeSoktVuFx 4. https://t.co/bCeNmGc795 5. https://t.co/2yVYEcQdg3 Save for Later. https://t.co/ELNpHAaHQW",
+          "m": "𝐍𝐨𝐚𝐡 @noahelhadedy"
+        },
+        {
+          "k": "tweet",
+          "t": "角色的身形輪廓能完成一半的角色設計工作，強調 silhouette 在角色識別度上的關鍵作用。",
+          "b": "Body shape does half the character design. https://t.co/cHTo4Seb28",
+          "m": "LUX @oldmanlux"
+        },
+        {
+          "k": "product",
+          "t": "Toolport",
+          "b": "Every tool, one port. One MCP setup for all your AI agents 為 AI agents 提供統一的 MCP 設定介面，讓所有工具可以透過單一入口連接與管理。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Basedash Subscriptions",
+          "b": "Subscribe to any dashboard. Delivered on schedule. 讓使用者訂閱任何儀表板並按設定的時間表自動接收更新，適合需要定期查看數據的團隊。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Rescript for Desktop",
+          "b": "A free, open source, Descript alternative. Runs on-device. 開源免費的 Descript 替代方案，所有音視頻編輯處理都在本地設備上運行。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "AgentOne Desktop",
+          "b": "Automate boring work. Extensible and free desktop AI agent. 可擴展的免費桌面 AI agent，用於自動化重複性工作流程。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Kitesurf",
+          "b": "Browser built for agents, running on Cloudflare Workers 專為 AI agents 設計的瀏覽器，運行在 Cloudflare Workers 上提供自動化網頁操作能力。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-08",
       "dd": "2026 年 08 月 08 日",
