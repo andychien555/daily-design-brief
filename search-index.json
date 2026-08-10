@@ -1,6 +1,79 @@
 {
-  "generated_at": "2026-08-09T22:29:30+08:00",
+  "generated_at": "2026-08-10T08:56:52+08:00",
   "days": [
+    {
+      "d": "2026-08-10",
+      "dd": "2026 年 08 月 10 日",
+      "no": 116,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "指出老式 UI 中底線字母提示快捷鍵的設計，比現今 99% 的 UX 設計更實用且體貼使用者。",
+          "b": "the underlined letter hinting/reminding the hotkey to open a function is one hint that this ui is legitimately better than 99% of modern “ux” design",
+          "m": "ollybot @ollyrobot"
+        },
+        {
+          "k": "tweet",
+          "t": "觀察到軟體工程已逐漸演變成系統設計（systems design）為核心的工作，反映出產業技能需求的轉變。",
+          "b": "It’s kinda crazy how software engineering has turned into systems design",
+          "m": "Demir Eren @demireren_"
+        },
+        {
+          "k": "tweet",
+          "t": "造價 21 億美元的新球場因設計缺陷導致上層看台幾乎每區都有視線遮蔽問題，被評為史上最差體育場設計。這是公共建築設計失敗的經典案例。",
+          "b": "Yikes: The Bills' new $2.1 billion stadium has gone viral for being the \"WORST\" designed stadium of all time. Almost every section in the upper deck of the new Highmark Stadium has obstructed views due to clear design flaws. 😬😬😬 https://t.co/DN3VH2q0F7",
+          "m": "Dov Kleiman @NFL_DovKleiman"
+        },
+        {
+          "k": "tweet",
+          "t": "批評設計不當的水壺倒水時會沿著壺身流下而非從壺嘴倒出，質疑設計師如何讓如此基本的功能性設計出錯。",
+          "b": "Do you know what they should ban? Jugs that don’t pour properly. The ones where the liquid reaches the spout and then just runs straight down the side and all over the table. Someone designed those. That was their job. And they messed it up. Just think… your job is to design a https://t.co/qYRkjYBRdp",
+          "m": "VeryBritishProblems @SoVeryBritish"
+        },
+        {
+          "k": "tweet",
+          "t": "整理了一系列 AI 工具清單（包含 Codex、Hermes Agent、OpenClaw、Gemma 4 等），主張這些工具能幫助使用者提升生產力。",
+          "b": "Every AI tool you need to escape the permanent underclass: • Codex app (5.6 sol medium) • Hermes Agent (powered by Qwen local model) • OpenClaw (ChatGPT 5.6 oauth) • Gemma 4 running on a Mac Mini • ChatGPT Voice to get work done while getting steps in/getting lean af •",
+          "m": "Alex Finn @AlexFinn"
+        },
+        {
+          "k": "product",
+          "t": "Workflo",
+          "b": "Mac workspace automation that never sees your screen Mac 工作空間自動化工具，在不讀取螢幕內容的前提下協助使用者自動化工作流程。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Argos",
+          "b": "The AI that acts as you, right in your browser 在瀏覽器中代替使用者執行操作的 AI 助理，可模擬使用者行為完成任務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "VoiceOS App Store",
+          "b": "The app store for voice native apps that lives in your notch 專為語音原生應用設計的應用商店，整合於裝置的瀏海區域中。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Soup CLI",
+          "b": "Fine-tune an 8B LLM on a 4 GB laptop GPU 讓使用者能在僅有 4GB 顯存的筆電 GPU 上微調 80 億參數 LLM 的命令列工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Grok Imagine 2.0",
+          "b": "Next-gen AI image generator with segmentation editing. 新一代 AI 圖像生成工具，支援分割編輯功能讓使用者精確調整圖像局部。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "DuckDisk",
+          "b": "Table-first storage analysis for Mac, cloud, and SSH 以表格形式呈現的儲存空間分析工具，支援 Mac 本機、雲端與 SSH 遠端儲存。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-09",
       "dd": "2026 年 08 月 09 日",

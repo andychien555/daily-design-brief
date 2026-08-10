@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-10",
+    "date_display": "2026 年 08 月 10 日",
+    "generated_at": "2026-08-10T08:55:54.689335+08:00",
+    "total": 5,
+    "sources": [
+      "Design"
+    ],
+    "headline": "指出老式 UI 中底線字母提示快捷鍵的設計，比現今 99% 的 UX 設計更實用且體貼使用者。",
+    "no": 116
+  },
+  {
     "date": "2026-08-09",
     "date_display": "2026 年 08 月 09 日",
     "generated_at": "2026-08-09T08:55:55.468896+08:00",
@@ -986,17 +997,5 @@
     ],
     "headline": "大型細分領域 subreddit（如 r/accounting、r/dentistry）中每個「有沒有更好方法做這件事」的貼文，都是 AI 產品的潛在機會；單一社群的 startup idea 密度比整個 YC batch 還高。",
     "no": 27
-  },
-  {
-    "date": "2026-05-11",
-    "date_display": "2026 年 05 月 11 日",
-    "generated_at": "2026-05-11T08:47:01.051981+08:00",
-    "total": 4,
-    "sources": [
-      "AI Product",
-      "Design"
-    ],
-    "headline": "品味其實就是設計素養。一句話點出設計鑑賞力的本質，對設計師和 PM 理解如何培養判斷力很有啟發。",
-    "no": 26
   }
 ]
