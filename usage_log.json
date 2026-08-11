@@ -2448,5 +2448,55 @@
         "cost_usd": 0.076956
       }
     ]
+  },
+  "2026-08-11": {
+    "input_tokens": 39681,
+    "output_tokens": 5688,
+    "audio_seconds": 3946.0,
+    "cost_usd": 0.326031,
+    "calls": [
+      {
+        "label": "tweets-curate",
+        "input_tokens": 5153,
+        "output_tokens": 645,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.025134
+      },
+      {
+        "label": "producthunt",
+        "input_tokens": 334,
+        "output_tokens": 243,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.004647
+      },
+      {
+        "label": "podcast-whisper",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "audio_seconds": 3946.0,
+        "cost_usd": 0.121668
+      },
+      {
+        "label": "podcast-summary",
+        "input_tokens": 21901,
+        "output_tokens": 1890,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.094053
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 7544,
+        "output_tokens": 1883,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.050877
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 4749,
+        "output_tokens": 1027,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.029652
+      }
+    ]
   }
 }

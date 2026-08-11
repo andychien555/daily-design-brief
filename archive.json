@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-11",
+    "date_display": "2026 年 08 月 11 日",
+    "generated_at": "2026-08-11T08:56:36.994943+08:00",
+    "total": 9,
+    "sources": [
+      "Design"
+    ],
+    "headline": "社會快速貶低優質平面設計的價值，這是一個令人遺憾的趨勢。",
+    "no": 117
+  },
+  {
     "date": "2026-08-10",
     "date_display": "2026 年 08 月 10 日",
     "generated_at": "2026-08-10T08:55:54.689335+08:00",
@@ -984,18 +995,5 @@
     ],
     "headline": "幕後花絮內容正從「附加素材」升級為「產品本身的延伸」，是對 AI 疲勞的回應。這趨勢反映了使用者對真實製作過程的渴望。",
     "no": 28
-  },
-  {
-    "date": "2026-05-12",
-    "date_display": "2026 年 05 月 12 日",
-    "generated_at": "2026-05-12T08:47:02.783726+08:00",
-    "total": 8,
-    "sources": [
-      "AI Product",
-      "Design",
-      "UX Design"
-    ],
-    "headline": "大型細分領域 subreddit（如 r/accounting、r/dentistry）中每個「有沒有更好方法做這件事」的貼文，都是 AI 產品的潛在機會；單一社群的 startup idea 密度比整個 YC batch 還高。",
-    "no": 27
   }
 ]
