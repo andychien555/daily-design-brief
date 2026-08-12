@@ -130,7 +130,7 @@ PODCASTS = [
 ]
 PODCAST_SHOW_WITHIN_DAYS = 7   # 只顯示近 N 天內的最新集（週更節目也能持續顯示，過舊自動隱藏）
 
-PODCAST_GROQ_MODEL = "whisper-large-v3"
+PODCAST_GROQ_MODEL = "whisper-large-v3-turbo"
 PODCAST_WHISPER_LANGUAGE = "zh"
 PODCAST_AUDIO_SEGMENT_MB = 24       # 超過就先轉 16kHz 單聲道再切段轉錄
 PODCAST_AUDIO_SEGMENT_SECONDS = 1500
@@ -163,7 +163,7 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 ### Groq Whisper（Podcast 轉錄）
 
 - 每台每次最多 1 集（`PODCASTS` 有幾台就最多幾集）；命中 `podcast_state.json` 快取則 0 次。每天檢查兩次（早上 + 22:00），`morning_only` 的台只在早上那次檢查；通常只有新集那次才真的轉錄。
-- 音檔 > `PODCAST_AUDIO_SEGMENT_MB` 會先用 `ffmpeg` 轉 16kHz 單聲道再切段，分段呼叫 `whisper-large-v3`。
+- 音檔 > `PODCAST_AUDIO_SEGMENT_MB` 會先用 `ffmpeg` 轉 16kHz 單聲道再切段，分段呼叫 `whisper-large-v3-turbo`。
 - 沒設 `GROQ_API_KEY` 或沒裝 `groq`／`ffmpeg` → 轉錄回空字串，該台不顯示（不中斷早報）。
 
 ## 失敗 fallback 行為

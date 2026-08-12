@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
 """
 refresh_briefs_shell.py
-Re-applies the current chrome — CSS, archive rail markup, rail script — to every
-briefs/*.html snapshot.
+Re-applies the current chrome — head, masthead, CSS, archive rail, scripts, end
+mark, colophon — to every briefs/*.html snapshot.
 
 Historical briefs are written once and never regenerated (their source data is
 gone), so a change to styles.py / templates.py / scripts.py would otherwise only
-reach the newest page. Anything that must work across the whole archive — the
-keyword search box, ?q= highlighting — needs this. Article content is left
-untouched; only the shell is swapped.
+reach the newest page. Anything that belongs to the publication rather than to the
+day has to come through here: the keyword search box, ?q= highlighting, the
+masthead lockup, the typefaces. Article content is left untouched; only the shell
+is swapped.
 
-Idempotent: safe to re-run after any shell change.
+The markup itself lives in generate_html.py and is imported, never duplicated —
+two copies of the masthead would drift within a week.
+
+Idempotent: safe to re-run after any shell change. Every anchor below must stay
+matchable against its own output, which is why the head and interactive-script
+patterns stop at a lookahead rather than at their own last line.
 """
 
 import re
@@ -18,10 +24,19 @@ import sys
 from pathlib import Path
 
 import config
-from generate_html import load_archive, published_dates
-from scripts import ARCHIVE_RAIL_SCRIPT
+from generate_html import (
+    COLOPHON_CENTER,
+    COLOPHON_LEFT,
+    endmark_block,
+    head_block,
+    issue_stats,
+    load_archive,
+    masthead_block,
+    published_dates,
+)
+from scripts import ARCHIVE_RAIL_SCRIPT, INTERACTIVE_SCRIPT
 from styles import STYLES
-from templates import archive_rail_html
+from templates import archive_rail_html, empty_state
 
 STYLE_RE = re.compile(r"  <style>\n.*?\n  </style>\n", re.DOTALL)
 RAIL_RE = re.compile(
@@ -34,27 +49,87 @@ RAIL_SCRIPT_RE = re.compile(
     r"  var aside = document\.querySelector\('\.archive-rail'\);.*?\n</script>\n",
     re.DOTALL,
 )
-# The masthead issue number is derived from the archive, not from the day's
-# content, so it is shell too — and it went stale once archive.json hit its
-# 90-day cap and stopped growing.
-ISSUE_NO_RE = re.compile(r'(Issue |<div class="meta-left">)№\d{3}')
+# Stops at the theme bootstrap rather than at its own last <link>, so a head that
+# grows or loses a font link still matches on the next run. The indentation is
+# optional because the twelve oldest briefs predate the indented bootstrap.
+HEAD_RE = re.compile(r"  <meta name=\"description\".*?(?=\n[ \t]*<script>)", re.DOTALL)
+# Matches the pre-broadsheet nameplate too, so the 115 archived issues can be
+# lifted onto the current one.
+MASTHEAD_RE = re.compile(
+    r"<header class=\"(?:masthead|bs-head)\">.*?</header>", re.DOTALL
+)
+MAIN_RE = re.compile(r"<main>.*?</main>", re.DOTALL)
+INTERACTIVE_RE = re.compile(
+    r"<script>\n  \(function\(\) \{\n"
+    r"    document\.querySelectorAll\('dialog'\).*?\n</script>",
+    re.DOTALL,
+)
+COLOPHON_LEFT_RE = re.compile(
+    r"(<div class=\"colophon-left\">\n).*?(\n  </div>)", re.DOTALL
+)
+COLOPHON_CENTER_RE = re.compile(
+    r"(<div class=\"colophon-center\">\n).*?(\n  </div>)", re.DOTALL
+)
+# The empty state is shell, not content: it is the same sentence on every empty
+# day, so a copy or publish-hour change has to reach the archived empty days too.
+# Optional — most pages have no empty state — so it stays out of `missing`.
+EMPTY_RE = re.compile(r"<section class=\"empty\">.*?</section>", re.DOTALL)
 
 
 def refresh(path: Path, issue_no: int | None = None) -> bool:
     html = path.read_text(encoding="utf-8")
     original = html
+    date = path.stem
+    issue_no = issue_no or 1
 
-    html, n_style = STYLE_RE.subn(lambda _: STYLES, html, count=1)
-    html, n_rail = RAIL_RE.subn(
-        lambda _: archive_rail_html(path.stem, "../"), html, count=1
+    # The ears report what the issue actually contains, read back out of the page
+    # itself — the day's source data is long gone, and issue_stats() is the same
+    # function generate() uses, so a refreshed page cannot disagree with a fresh one.
+    found_main = MAIN_RE.search(html)
+    stats = issue_stats(found_main.group(0)) if found_main else {}
+
+    html, n_head = HEAD_RE.subn(
+        lambda _: head_block(issue_no, date, "../"), html, count=1
     )
+    html, n_masthead = MASTHEAD_RE.subn(
+        lambda _: masthead_block(issue_no, date, stats, "../"), html, count=1
+    )
+    html, n_style = STYLE_RE.subn(lambda _: STYLES, html, count=1)
+    html, n_rail = RAIL_RE.subn(lambda _: archive_rail_html(date, "../"), html, count=1)
     html, n_script = RAIL_SCRIPT_RE.subn(lambda _: ARCHIVE_RAIL_SCRIPT, html, count=1)
-    if issue_no:
-        html = ISSUE_NO_RE.sub(lambda m: f"{m.group(1)}№{issue_no:03d}", html)
+    html, n_inter = INTERACTIVE_RE.subn(lambda _: INTERACTIVE_SCRIPT, html, count=1)
+    html, n_cl = COLOPHON_LEFT_RE.subn(
+        lambda m: m.group(1) + COLOPHON_LEFT + m.group(2), html, count=1
+    )
+    html, n_cc = COLOPHON_CENTER_RE.subn(
+        lambda m: m.group(1) + COLOPHON_CENTER + m.group(2), html, count=1
+    )
+    html = EMPTY_RE.sub(lambda _: empty_state().strip(), html, count=1)
+
+    # The end mark is new furniture, so on a pre-brand page it has to be inserted
+    # rather than swapped. Guarded so a second run does not stack two of them.
+    if 'class="endmark"' not in html:
+        html = html.replace("</main>\n", "</main>\n\n" + endmark_block() + "\n", 1)
+
+    # Light is canon, so the pre-JS glyph is the sun. Cosmetic only — the
+    # interactive script corrects it on load — so it is not a required anchor.
+    html = html.replace(
+        '<span class="theme-icon">☾</span>', '<span class="theme-icon">☀</span>'
+    )
 
     missing = [
-        name for name, n in
-        (("style", n_style), ("rail", n_rail), ("rail-script", n_script)) if not n
+        name
+        for name, n in (
+            ("head", n_head),
+            ("masthead", n_masthead),
+            ("style", n_style),
+            ("rail", n_rail),
+            ("rail-script", n_script),
+            ("interactive", n_inter),
+            ("colophon-left", n_cl),
+            ("colophon-center", n_cc),
+        )
+        if not n
     ]
     if missing:
         print(f"!! {path.name}: could not locate {', '.join(missing)} — skipped")

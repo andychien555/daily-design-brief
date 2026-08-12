@@ -14,6 +14,16 @@ PODCAST_STATE_FILE = "podcast_state.json"
 ARTICLE_STATE_FILE = "article_state.json"
 BRIEFS_DIR = "briefs"
 
+# Public origin. Only Open Graph needs it: og:image and og:url must be absolute,
+# while every other asset reference stays relative via base_path, because this is a
+# GitHub Pages *project* site and root-absolute paths resolve outside the subpath.
+SITE_URL = "https://andychien555.github.io/daily-design-brief"
+
+# Brand — the masthead lockup is fixed and identical on every issue.
+BRAND_NAME_ZH = "晨刊"
+BRAND_NAME_LATIN = "MATINS"
+PUBLISH_HOUR = "08:00"
+
 # Claude model used for all curation / summarisation calls.
 CLAUDE_MODEL = "claude-sonnet-4-5"
 
@@ -21,8 +31,9 @@ CLAUDE_MODEL = "claude-sonnet-4-5"
 # ⚠️ 換模型時記得一起更新這裡，否則 usage_log 的金額會失準。
 CLAUDE_PRICING = {"input": 3.0, "output": 15.0}
 
-# Groq whisper-large-v3 轉錄計價（USD / 小時音檔）。
-WHISPER_PRICE_PER_HOUR = 0.111
+# Groq whisper-large-v3-turbo 轉錄計價（USD / 小時音檔）。
+# ⚠️ 換 PODCAST_GROQ_MODEL 時記得一起更新這裡，否則 usage_log 的金額會失準。
+WHISPER_PRICE_PER_HOUR = 0.04
 
 # 每日 API token / 轉錄花費的累計記錄（依日期彙整，跨 tweets/PH/podcast 三支腳本）。
 USAGE_LOG_FILE = "usage_log.json"
@@ -100,7 +111,7 @@ PODCASTS = [
 # 只顯示「發布在近 N 天內」的最新一集（股癌週更也能持續顯示，過舊則自動隱藏）。
 PODCAST_SHOW_WITHIN_DAYS = 7
 # Groq Whisper 轉錄設定（podcast 無字幕，一律走 Whisper）。
-PODCAST_GROQ_MODEL = "whisper-large-v3"
+PODCAST_GROQ_MODEL = "whisper-large-v3-turbo"
 PODCAST_WHISPER_LANGUAGE = "zh"
 # 音訊超過此 MB 數 → 用 ffmpeg 切段後逐段轉錄串接。
 PODCAST_AUDIO_SEGMENT_MB = 24

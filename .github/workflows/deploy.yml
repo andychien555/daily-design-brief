@@ -6,10 +6,12 @@ on:
       - main
     paths:
       - "index.html"
-      - "archive.html"
+      - "404.html"
       - "archive.json"
       - "search-index.json"
       - "briefs/**"
+      - "assets/**"
+      - "favicon.svg"
 
   workflow_run:
     workflows: ["Daily Design Brief", "Backfill Translations", "Podcast Check"]

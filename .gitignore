@@ -7,3 +7,11 @@ cookies.txt
 .venv-yttest/
 
 .claude/settings.local.json
+
+# Brand source artwork — multi-MB originals that tools/prepare_assets.py crops and
+# compresses into assets/. Deploy uploads the whole repo root, so committing these
+# would publish 15 MB of working files.
+品牌視覺發想/
+
+# Throwaway homepage prototypes — real data, never deployed.
+prototypes/

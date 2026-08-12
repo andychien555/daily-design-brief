@@ -18,8 +18,9 @@ INTERACTIVE_SCRIPT = """<script>
     document.querySelectorAll('dialog').forEach(function(d) {
       d.addEventListener('click', function(e) { if (e.target === d) d.close(); });
     });
+    // Light is canon: an unset data-theme means light, not dark.
     var icon = document.querySelector('.theme-icon');
-    if (icon) icon.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
+    if (icon) icon.textContent = document.documentElement.dataset.theme === 'dark' ? '☾' : '☀';
 
     var railToggle = document.querySelector('.rail-toggle');
     var railDrawer = document.querySelector('.rail-drawer-toggle');
@@ -81,12 +82,12 @@ INTERACTIVE_SCRIPT = """<script>
     });
   })();
   function toggleTheme() {
-    var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+    var cur = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
     var next = cur === 'light' ? 'dark' : 'light';
     document.documentElement.dataset.theme = next;
     try { localStorage.setItem('theme', next); } catch (e) {}
     document.querySelectorAll('.theme-icon').forEach(function(el) {
-      el.textContent = next === 'light' ? '☀' : '☾';
+      el.textContent = next === 'dark' ? '☾' : '☀';
     });
   }
 </script>"""

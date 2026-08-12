@@ -6,6 +6,8 @@ plain dict and returns the matching HTML fragment.
 
 import re
 
+import config
+
 
 def esc(s: str) -> str:
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -250,6 +252,82 @@ def md_to_html(md: str) -> str:
     return "\n".join(html_parts)
 
 
+def one_liner(md: str, fallback: str) -> str:
+    """The real headline for a brief.
+
+    The pipeline titles podcast episodes 「EP686 | 🕸️」, which says nothing and
+    cannot carry a broadsheet lead. Every summary opens with a 「## 一句話總結」
+    section; that sentence is the headline the editor already wrote.
+    """
+    lines = [ln.strip() for ln in md.split("\n")]
+    for i, ln in enumerate(lines):
+        if ln.startswith("##") and "一句話總結" in ln:
+            for nxt in lines[i + 1 :]:
+                if nxt and not nxt.startswith("#"):
+                    return nxt
+            break
+    return fallback
+
+
+def strip_one_liner(md: str) -> str:
+    """Drop the 「## 一句話總結」 heading and the one sentence under it.
+
+    Only for the lead, whose headline *is* that sentence: printing it again three
+    lines below in body type reads as a template rather than as an edit.
+
+    The heading and that sentence, and nothing else. Article notes put their whole
+    bullet list under the same heading — 「## 一句話總結」 / the sentence / six
+    bullets / 「## 對設計／產品的啟示」 — so skipping to the next `##` deleted
+    most of the brief and left the lead with a single paragraph to fill the page.
+    """
+    lines = md.split("\n")
+    out: list[str] = []
+    i, n = 0, len(lines)
+    while i < n:
+        line = lines[i]
+        if line.strip().startswith("##") and "一句話總結" in line:
+            i += 1
+            while i < n and not lines[i].strip():
+                i += 1
+            # The sentence one_liner() lifted into the headline; a heading here
+            # instead means the section was empty and there is nothing to drop.
+            if i < n and not lines[i].strip().startswith("#"):
+                i += 1
+            continue
+        out.append(line)
+        i += 1
+    return "\n".join(out).lstrip("\n")
+
+
+def _text_len(md: str) -> int:
+    """摘要的實際字數——拿掉 markdown 記號與空白後剩下的內容。"""
+    return len(re.sub(r"[#*\->\s|`]", "", md or ""))
+
+
+def lead_story(brief: dict, kind: str, source: str) -> str:
+    """The front-page lead: kicker, one enormous headline, then the brief itself
+    already open. A lead that opens collapsed is not a lead."""
+    md = brief.get("summary_md") or brief.get("summary") or ""
+    headline = one_liner(md, brief.get("title", ""))
+    body = dict(brief)
+    body["summary_md"] = strip_one_liner(md)
+    card = briefing_section(body) if kind == "財經" else newsletter_card(body)
+    # Insert `open` before the class list, not after a literal one: an article
+    # card carries `class="yt-brief nl-item"`, so matching on the podcast card's
+    # exact opening tag silently left every article lead collapsed.
+    card = card.replace("<details ", "<details open ", 1)
+    # Two tracks need enough text to fill them. Below this the one paragraph a
+    # short brief has gets sliced mid-word across the column rule, and the
+    # balancer decides where — see .bs-lead-compact.
+    compact = " bs-lead-compact" if _text_len(body["summary_md"]) < 700 else ""
+    return f"""
+    <article class="bs-lead{compact}">
+      <div class="bs-kicker">{esc(kind)} · {esc(source)}</div>
+      <h2 class="bs-headline">{esc(headline)}</h2>
+      <div class="bs-lead-body">{card}</div>
+    </article>"""
+
+
 def briefing_section(brief: dict) -> str:
     """財經節目重點 — 渲染在早報最上方的完整結構化筆記區塊。"""
     if not brief or not brief.get("summary_md"):
@@ -354,26 +432,20 @@ def newsletter_card(brief: dict) -> str:
 </details>"""
 
 
-def newsletter_section(briefs: list[dict]) -> str:
-    """Newsletter / 好文精選區塊 — 與財經重點同一種可展開卡片，列表規格。"""
-    briefs = [b for b in (briefs or []) if b and b.get("summary_md")]
-    if not briefs:
-        return ""
-    cards = "\n".join(newsletter_card(b) for b in briefs)
-    return f"""
-<div class="grid-divider nl-divider"><span>📰 好文精選 / Newsletter</span></div>
-<div class="nl-grid">{cards}</div>
-"""
-
 
 def empty_state() -> str:
-    return """
+    """An empty day is published empty.
+
+    The promise is 「今天該知道的，讀得完」, which is falsifiable by the product
+    itself — so padding a thin day is a breach of it, and this state is part of
+    keeping the promise rather than an apology for failing it. Flat sentence, no
+    hedge, no explanation of the crawler, no substitute content.
+    """
+    return f"""
     <section class="empty">
-      <div class="empty-mark">№</div>
-      <h2 class="empty-title">No <em>press</em> today.</h2>
-      <p class="empty-sub">本日無上稿。爬蟲跑了但 X 沒人在聊有趣的設計、AI、產品。<br>明日 09:00 (UTC+8) 重新出刊。</p>
-      <div class="empty-rule"></div>
-      <p class="empty-foot">— Editor</p>
+      <div class="empty-mark" aria-hidden="true"></div>
+      <p class="empty-title">今天沒有抓到值得收的推文。</p>
+      <p class="empty-sub">明天 {config.PUBLISH_HOUR} 再出刊。</p>
     </section>
     """
 
