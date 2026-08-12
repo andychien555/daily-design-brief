@@ -1,6 +1,109 @@
 {
-  "generated_at": "2026-08-11T22:53:49+08:00",
+  "generated_at": "2026-08-12T08:57:19+08:00",
   "days": [
+    {
+      "d": "2026-08-12",
+      "dd": "2026 年 08 月 12 日",
+      "no": 118,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "AI 已經壓縮了許多產品的設計階段，接下來市場會更需要能壓縮「建造階段」的技術；當這些都到位後，最後的關卡將是法規監管。",
+          "b": "Now that AI has compressed the design phase for so many products, there is going to be more demand for technologies that compress the construction phase. After we get those, the final frontier will be regulation.",
+          "m": "Paul Graham @paulg"
+        },
+        {
+          "k": "tweet",
+          "t": "Google Doodles 團隊與美國郵政郵票設計團隊交流時發現共鳴：兩者都在固定框架內為重要時刻創作視覺，作品無處不在卻又被 99% 的人即刻丟棄。",
+          "b": "When I worked on the Google Doodles team we once had a mixer with the USPS Stamp design team. Both groups immediately connected about making art in a fixed frame for meaningful moments and people, that is simultaneously seen everywhere, yet is visually/physically discarded 99%",
+          "m": "michael perusse @mrperusse"
+        },
+        {
+          "k": "tweet",
+          "t": "LLM 產出的 bug 型態已改變：不再是 off-by-one 錯誤，而是系統設計、UI 可用性和缺乏更廣脈絡的問題；某些編碼問題已被解決，但並非全部。",
+          "b": "LLMs still produce bugs, but those bugs are different than what they used to be. It’s less off-by-ones and more about system design, ui usability, missing broader context. Some kinds of coding has been solved, but not all. While models continue to improve, adversarial code",
+          "m": "Boris Cherny @bcherny"
+        },
+        {
+          "k": "tweet",
+          "t": "Metal Gear Solid 的存檔系統要打電話給特定頻率的 Codec 才能存檔，連 Game Over 畫面都充滿個性；作者感嘆現在遊戲 UI 設計少了這種巧思。",
+          "b": "Metal Gear Solid has more personality in its saving system than some games have in their entire UI. 😭 You literally save by calling Mei Ling on a specific Codec frequency. Even the GAME OVER screen has aura. What happened to game design like this? https://t.co/k7LKE0fcuP",
+          "m": "𝑨𝒔𝒉𝒆𝒏 𝑶𝒏𝒆 @AshenOne_VI"
+        },
+        {
+          "k": "tweet",
+          "t": "大多數室內設計出版品令人失望，不是只展示豪宅就是商業導向，每一吋都在推銷商品而非教授設計歷史或原則，就像時尚內容一樣。",
+          "b": "Most interior design publications are disappointing because they only showcase wealthy homes or they're blatantly commercial. Every square inch is about something you should buy instead of teaching you the history or principles of design. Reminds me of fashion content.",
+          "m": "derek guy @dieworkwear"
+        },
+        {
+          "k": "tweet",
+          "t": "三星 Galaxy Z Fold2 的鉸鏈機構是有趣的工程解決方案：使用特殊 CAM 結構與分階段咬合的脊狀零件，協助可摺疊螢幕達到所需曲率以避免螢幕破裂。",
+          "b": "The hinge mechanism in Samsung’s Galaxy Z Fold2 is an interesting engineering solution. The foldable screen needs a certain amount of curvature; otherwise, the screen can break. The hinge uses a special CAM structure with two ridge-shaped parts that interlock in stages, helping https://t.co/8cV8TPZcZL",
+          "m": "Marwa ElDiwiny @MarwaEldiwiny"
+        },
+        {
+          "k": "tweet",
+          "t": "作者用 three.js 製作了互動式建築網站，具備天氣與時段效果；從靜態大圖網站進化到高細節 3D 模型，整站僅 1-2MB，且可請 AI 動態生成內容。",
+          "b": "I made an interactive three.js site that constructs towers with weather and time of day effects. I went from making mostly static sites with huge images to three.js with highly textured, detailed 3D models, and the entire site is under 1-2mb. Because it's 3D, you can ask AI to https://t.co/IhzMy4P76k",
+          "m": "Meng To @MengTo"
+        },
+        {
+          "k": "tweet",
+          "t": "分享了一個對設計工程師打造 AI 介面很有幫助的資源寶庫。",
+          "b": "found a gold mine for design engineers building ai interfaces https://t.co/IxJOkAKf5A",
+          "m": "Aniket Pawar @alaymanguy"
+        },
+        {
+          "k": "tweet",
+          "t": "推薦一個準備系統設計面試的 repo，稱其為金礦級資源。",
+          "b": "This repo is a goldmine if you are preparing forn Systemd Design Interviews https://t.co/GDNl9D7DiR https://t.co/hCYqKOfojL",
+          "m": "Jaydeep @_jaydeepkarale"
+        },
+        {
+          "k": "tweet",
+          "t": "列舉現代開發者需掌握的技能清單：從 DSA、OOP、資料庫到系統設計、雲端/DevOps、CI/CD、全端開發、AI/ML 基礎與 LLM/RAG 等，範疇廣泛。",
+          "b": "You have to be: • Exceptional at DSA • Strong in OOPs • Solid in DBMS + SQL • Good at OS + CN • Know System Design • Know Cloud/DevOps • Know CI/CD &amp; automation • Full-stack development • AI/ML fundamentals • LLMs + RAG + AI agents • Master version controlling • Build",
+          "m": "Kr$na @krishdotdev"
+        },
+        {
+          "k": "product",
+          "t": "Lexi",
+          "b": "The operating system for legal work 專為法律工作設計的作業系統平台，協助法律專業人士整合與管理工作流程。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "AdmitRaven",
+          "b": "Duolingo for college applications 以 Duolingo 遊戲化學習模式設計的大學申請準備工具，幫助學生逐步完成申請流程。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "ScreenMark",
+          "b": "Menu bar app for live annotations, whiteboard overlay + more macOS 選單列工具，提供即時螢幕標註、白板覆蓋層等功能，適合簡報與教學使用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Gotcha",
+          "b": "World's First AI Copilot for Android. You talk. It acts. 全球首款 Android AI 助理，透過語音指令自動執行手機操作任務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Gitar",
+          "b": "AI code review that fixes what it finds AI 程式碼審查工具，不僅指出問題還能自動修復發現的錯誤。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Xirp",
+          "b": "The agentic development environment built by Spotify 由 Spotify 開發的 AI 代理開發環境，提供智能化的程式開發輔助功能。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-11",
       "dd": "2026 年 08 月 11 日",
