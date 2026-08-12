@@ -3,12 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Product & Design 每日早報 — Issue №004 · 2026 年 04 月 19 日" />
-  <title>Product & Design 早報 · 2026-04-19</title>
+  <meta name="description" content="晨刊 MATINS — 財經 · Product · Design 每日早報 — № 004 · 2026 年 04 月 19 日" />
+  <title>晨刊 MATINS · 2026-04-19</title>
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="晨刊 MATINS" />
+  <meta property="og:title" content="晨刊 MATINS · 2026-04-19" />
+  <meta property="og:description" content="晨刊 MATINS — 財經 · Product · Design 每日早報 — № 004 · 2026 年 04 月 19 日" />
+  <meta property="og:image" content="https://andychien555.github.io/daily-design-brief/assets/og.webp" />
+  <meta property="og:url" content="https://andychien555.github.io/daily-design-brief/briefs/2026-04-19.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#faf6ed" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14181e" media="(prefers-color-scheme: dark)" />
   <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script>
     (function() {
       try {
@@ -24,60 +33,77 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --paper:    #1e1915;
-      --paper-2:  #26201a;
-      --paper-3:  #2e2721;
-      --ink:      #f2ecdf;
-      --ink-2:    #cbc1ad;
-      --ink-3:    #8a7f6c;
-      --rule:     #3a3127;
-      --rule-2:   #4a3f32;
-      --accent:   #ff5722;
-      --accent-2: #f6b94a;
-      --sage:     #87a07a;
-      --grain-blend: screen;
-      --grain-opacity: .03;
-      --backdrop: rgba(30, 25, 21, .78);
-      --mark: rgba(255, 87, 34, .32);
-
-      --serif: 'Fraunces', 'DM Serif Display', Georgia, serif;
-      --sans:  'Inter', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
-      --mono:  'JetBrains Mono', ui-monospace, Menlo, monospace;
-
-      --maxw: 1180px;
-    }
-    [data-theme="light"] {
       --paper:    #faf6ed;
-      --paper-2:  #f1ead8;
-      --paper-3:  #e7dec7;
+      --paper-2:  #f2ebda;
+      --paper-3:  #e8dfc9;
       --ink:      #1a1612;
-      --ink-2:    #403629;
+      --ink-2:    #423a2e;
       --ink-3:    #7a6e58;
       --rule:     #dcd3bd;
       --rule-2:   #c6baa0;
-      --accent:   #d14412;
-      --accent-2: #a56a1d;
-      --grain-blend: multiply;
-      --grain-opacity: .04;
-      --backdrop: rgba(40, 30, 18, .45);
-      --mark: rgba(209, 68, 18, .22);
+      --accent:   #2f4a63;
+      --accent-2: #3d5e7c;
+      --dawn:     #c08a3e;
+      --tint:     rgba(47, 74, 99, .06);
+      --hit-bg:   rgba(47, 74, 99, .18);
+      --backdrop: rgba(26, 22, 18, .5);
+      --grain-opacity: .035;
+
+      /* 明體 carries the whole interface. This overrides the art direction's
+         "a single neutral grotesque" rule at the brand owner's direction; mono is
+         kept for the machine layer (№, dates, timestamps) because that is a data
+         notation rather than a typeface choice, and Ming has no tabular figures. */
+      --serif: 'Noto Serif TC', 'Songti TC', 'Source Han Serif TC', 'Georgia', serif;
+      --mono:  'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+      /* A broadsheet needs the width. The engraving is generated at 1672px so it
+         downscales into this frame rather than being upscaled out of its own
+         dither grid — the one asset the brand protects most is never enlarged. */
+      --maxw: 1180px;
+      --measure: 70ch;
+      /* The inset between a desk column's rules and its text. The hover ground
+         fills the whole cell, so this is what keeps the tone off the first and
+         last character. Applied to the tweet deck too, so the deck and the two
+         columns below it share one left edge. */
+      --card-pad: 1rem;
+      --ramp: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20d%3D%22M0%204h1v1h-1zM4%204h1v1h-1zM8%204h1v1h-1zM12%204h1v1h-1zM16%204h1v1h-1zM20%204h1v1h-1zM24%204h1v1h-1zM28%204h1v1h-1zM2%206h1v1h-1zM6%206h1v1h-1zM10%206h1v1h-1zM14%206h1v1h-1zM18%206h1v1h-1zM22%206h1v1h-1zM26%206h1v1h-1zM30%206h1v1h-1zM0%208h1v1h-1zM2%208h1v1h-1zM4%208h1v1h-1zM6%208h1v1h-1zM8%208h1v1h-1zM10%208h1v1h-1zM12%208h1v1h-1zM14%208h1v1h-1zM16%208h1v1h-1zM18%208h1v1h-1zM20%208h1v1h-1zM22%208h1v1h-1zM24%208h1v1h-1zM26%208h1v1h-1zM28%208h1v1h-1zM30%208h1v1h-1zM1%209h1v1h-1zM5%209h1v1h-1zM9%209h1v1h-1zM13%209h1v1h-1zM17%209h1v1h-1zM21%209h1v1h-1zM25%209h1v1h-1zM29%209h1v1h-1zM0%2010h1v1h-1zM2%2010h1v1h-1zM4%2010h1v1h-1zM6%2010h1v1h-1zM8%2010h1v1h-1zM10%2010h1v1h-1zM12%2010h1v1h-1zM14%2010h1v1h-1zM16%2010h1v1h-1zM18%2010h1v1h-1zM20%2010h1v1h-1zM22%2010h1v1h-1zM24%2010h1v1h-1zM26%2010h1v1h-1zM28%2010h1v1h-1zM30%2010h1v1h-1zM3%2011h1v1h-1zM7%2011h1v1h-1zM11%2011h1v1h-1zM15%2011h1v1h-1zM19%2011h1v1h-1zM23%2011h1v1h-1zM27%2011h1v1h-1zM31%2011h1v1h-1zM0%2012h1v1h-1zM2%2012h1v1h-1zM4%2012h1v1h-1zM6%2012h1v1h-1zM8%2012h1v1h-1zM10%2012h1v1h-1zM12%2012h1v1h-1zM14%2012h1v1h-1zM16%2012h1v1h-1zM18%2012h1v1h-1zM20%2012h1v1h-1zM22%2012h1v1h-1zM24%2012h1v1h-1zM26%2012h1v1h-1zM28%2012h1v1h-1zM30%2012h1v1h-1zM1%2013h1v1h-1zM3%2013h1v1h-1zM5%2013h1v1h-1zM7%2013h1v1h-1zM9%2013h1v1h-1zM11%2013h1v1h-1zM13%2013h1v1h-1zM15%2013h1v1h-1zM17%2013h1v1h-1zM19%2013h1v1h-1zM21%2013h1v1h-1zM23%2013h1v1h-1zM25%2013h1v1h-1zM27%2013h1v1h-1zM29%2013h1v1h-1zM31%2013h1v1h-1zM0%2014h1v1h-1zM2%2014h1v1h-1zM4%2014h1v1h-1zM6%2014h1v1h-1zM8%2014h1v1h-1zM10%2014h1v1h-1zM12%2014h1v1h-1zM14%2014h1v1h-1zM16%2014h1v1h-1zM18%2014h1v1h-1zM20%2014h1v1h-1zM22%2014h1v1h-1zM24%2014h1v1h-1zM26%2014h1v1h-1zM28%2014h1v1h-1zM30%2014h1v1h-1zM1%2015h1v1h-1zM3%2015h1v1h-1zM5%2015h1v1h-1zM7%2015h1v1h-1zM9%2015h1v1h-1zM11%2015h1v1h-1zM13%2015h1v1h-1zM15%2015h1v1h-1zM17%2015h1v1h-1zM19%2015h1v1h-1zM21%2015h1v1h-1zM23%2015h1v1h-1zM25%2015h1v1h-1zM27%2015h1v1h-1zM29%2015h1v1h-1zM31%2015h1v1h-1zM0%2016h3v1h-3zM4%2016h3v1h-3zM8%2016h3v1h-3zM12%2016h3v1h-3zM16%2016h3v1h-3zM20%2016h3v1h-3zM24%2016h3v1h-3zM28%2016h3v1h-3zM1%2017h1v1h-1zM3%2017h1v1h-1zM5%2017h1v1h-1zM7%2017h1v1h-1zM9%2017h1v1h-1zM11%2017h1v1h-1zM13%2017h1v1h-1zM15%2017h1v1h-1zM17%2017h1v1h-1zM19%2017h1v1h-1zM21%2017h1v1h-1zM23%2017h1v1h-1zM25%2017h1v1h-1zM27%2017h1v1h-1zM29%2017h1v1h-1zM31%2017h1v1h-1zM0%2018h1v1h-1zM2%2018h3v1h-3zM6%2018h3v1h-3zM10%2018h3v1h-3zM14%2018h3v1h-3zM18%2018h3v1h-3zM22%2018h3v1h-3zM26%2018h3v1h-3zM30%2018h2v1h-2zM1%2019h1v1h-1zM3%2019h1v1h-1zM5%2019h1v1h-1zM7%2019h1v1h-1zM9%2019h1v1h-1zM11%2019h1v1h-1zM13%2019h1v1h-1zM15%2019h1v1h-1zM17%2019h1v1h-1zM19%2019h1v1h-1zM21%2019h1v1h-1zM23%2019h1v1h-1zM25%2019h1v1h-1zM27%2019h1v1h-1zM29%2019h1v1h-1zM31%2019h1v1h-1zM0%2020h32v1h-32zM1%2021h1v1h-1zM3%2021h1v1h-1zM5%2021h1v1h-1zM7%2021h1v1h-1zM9%2021h1v1h-1zM11%2021h1v1h-1zM13%2021h1v1h-1zM15%2021h1v1h-1zM17%2021h1v1h-1zM19%2021h1v1h-1zM21%2021h1v1h-1zM23%2021h1v1h-1zM25%2021h1v1h-1zM27%2021h1v1h-1zM29%2021h1v1h-1zM31%2021h1v1h-1zM0%2022h32v1h-32zM1%2023h1v1h-1zM3%2023h1v1h-1zM5%2023h1v1h-1zM7%2023h1v1h-1zM9%2023h1v1h-1zM11%2023h1v1h-1zM13%2023h1v1h-1zM15%2023h1v1h-1zM17%2023h1v1h-1zM19%2023h1v1h-1zM21%2023h1v1h-1zM23%2023h1v1h-1zM25%2023h1v1h-1zM27%2023h1v1h-1zM29%2023h1v1h-1zM31%2023h1v1h-1zM0%2024h32v1h-32zM0%2025h2v1h-2zM3%2025h3v1h-3zM7%2025h3v1h-3zM11%2025h3v1h-3zM15%2025h3v1h-3zM19%2025h3v1h-3zM23%2025h3v1h-3zM27%2025h3v1h-3zM31%2025h1v1h-1zM0%2026h32v1h-32zM1%2027h3v1h-3zM5%2027h3v1h-3zM9%2027h3v1h-3zM13%2027h3v1h-3zM17%2027h3v1h-3zM21%2027h3v1h-3zM25%2027h3v1h-3zM29%2027h3v1h-3zM0%2028h32v1h-32zM0%2029h32v1h-32zM0%2030h32v1h-32zM0%2031h32v1h-32z%22%2F%3E%3C%2Fsvg%3E");
+      --texture: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%208%208%22%20width%3D%228%22%20height%3D%228%22%3E%3Cpath%20d%3D%22M0%200h1v1h-1zM2%200h1v1h-1zM4%200h1v1h-1zM6%200h1v1h-1zM1%201h1v1h-1zM3%201h1v1h-1zM5%201h1v1h-1zM7%201h1v1h-1zM0%202h1v1h-1zM2%202h1v1h-1zM4%202h1v1h-1zM6%202h1v1h-1zM1%203h1v1h-1zM3%203h1v1h-1zM5%203h1v1h-1zM7%203h1v1h-1zM0%204h1v1h-1zM2%204h1v1h-1zM4%204h1v1h-1zM6%204h1v1h-1zM1%205h1v1h-1zM3%205h1v1h-1zM5%205h1v1h-1zM7%205h1v1h-1zM0%206h1v1h-1zM2%206h1v1h-1zM4%206h1v1h-1zM6%206h1v1h-1zM1%207h1v1h-1zM3%207h1v1h-1zM5%207h1v1h-1zM7%207h1v1h-1z%22%2F%3E%3C%2Fsvg%3E");
     }
-    html { color-scheme: dark; transition: background-color .2s; }
-    html[data-theme="light"] { color-scheme: light; }
+    [data-theme="dark"] {
+      --paper:    #14181e;
+      --paper-2:  #1b2028;
+      --paper-3:  #232a34;
+      --ink:      #ede7da;
+      --ink-2:    #c4bcab;
+      --ink-3:    #8a8172;
+      --rule:     #2a323c;
+      --rule-2:   #3a4450;
+      --accent:   #8fa9c2;
+      --accent-2: #a9bed2;
+      --dawn:     #d9a85c;
+      --tint:     rgba(143, 169, 194, .08);
+      --hit-bg:   rgba(143, 169, 194, .24);
+      --backdrop: rgba(6, 8, 11, .62);
+      --grain-opacity: .05;
+    }
+    html { color-scheme: light; transition: background-color .2s; }
+    html[data-theme="dark"] { color-scheme: dark; }
 
     html { font-size: 16px; -webkit-font-smoothing: antialiased; }
 
     body {
-      font-family: var(--sans);
+      font-family: var(--serif);
       font-feature-settings: 'ss01', 'cv11';
       background: var(--paper);
       color: var(--ink);
       min-height: 100vh;
-      line-height: 1.55;
+      line-height: 1.65;
       position: relative;
       overflow-x: hidden;
     }
-    /* Subtle paper grain */
+    /* The paper itself is dithered. A Bayer 8x8 tile, masked rather than blended,
+       so the grain is --ink in both themes without needing two source files or a
+       blend mode that no-ops against a dark ground. */
     body::before {
       content: '';
       position: fixed;
@@ -85,12 +111,20 @@
       pointer-events: none;
       z-index: 0;
       opacity: var(--grain-opacity);
-      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
-      mix-blend-mode: var(--grain-blend);
+      background-color: var(--ink);
+      -webkit-mask-image: var(--texture);
+      mask-image: var(--texture);
+      -webkit-mask-size: 8px 8px;
+      mask-size: 8px 8px;
     }
     body > * { position: relative; z-index: 1; }
 
     a { color: inherit; text-decoration: none; }
+
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
 
     /* ─────────────── Page shell + Archive rail ─────────────── */
     .page-shell {
@@ -113,7 +147,7 @@
     }
     .archive-rail::-webkit-scrollbar { width: 6px; }
     .archive-rail::-webkit-scrollbar-track { background: transparent; }
-    .archive-rail::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
+    .archive-rail::-webkit-scrollbar-thumb { background: var(--rule-2); }
 
     .rail-heading {
       display: flex;
@@ -143,7 +177,6 @@
       align-items: center;
       justify-content: center;
       padding: 0;
-      border-radius: 2px;
       cursor: pointer;
       font-size: .9rem;
       line-height: 1;
@@ -172,7 +205,6 @@
       align-items: center;
       justify-content: center;
       padding: 0;
-      border-radius: 2px;
       cursor: pointer;
       font-size: 1rem;
       line-height: 1;
@@ -186,7 +218,6 @@
       position: fixed;
       inset: 0;
       background: var(--backdrop);
-      backdrop-filter: blur(2px);
       opacity: 0;
       pointer-events: none;
       transition: opacity .25s ease;
@@ -218,8 +249,7 @@
       align-items: center;
       gap: .15rem;
       margin-bottom: .9rem;
-      border: 1px solid var(--rule);
-      border-radius: 2px;
+      border: 1px solid var(--rule-2);
       background: var(--paper-2);
       transition: border-color .15s;
     }
@@ -237,7 +267,7 @@
       border: none;
       outline: none;
       color: var(--ink);
-      font-family: var(--sans);
+      font-family: var(--serif);
       font-size: .72rem;
       padding: .45rem .3rem;
     }
@@ -284,12 +314,11 @@
     .rail-item-hit .rail-headline { -webkit-line-clamp: 3; }
 
     mark.q-hit {
-      background: var(--mark);
+      background: var(--hit-bg);
       color: inherit;
-      border-radius: 2px;
       padding: 0 .08em;
     }
-    mark.q-hit-active { box-shadow: 0 0 0 1px var(--accent); }
+    mark.q-hit-active { outline: 1px solid var(--accent); }
 
     .rail-list { display: flex; flex-direction: column; }
     .rail-loading {
@@ -311,7 +340,9 @@
     .rail-item:hover { opacity: 1; }
     .rail-item-current { opacity: 1; }
     .rail-item-current .rail-headline { color: var(--ink); }
-    .rail-item-current .rail-meta span:first-child { color: var(--accent); }
+    /* The one place ochre is allowed besides the masthead issue number: this is
+       the "today" marker the brand rations it for. */
+    .rail-item-current .rail-meta span:first-child { color: var(--dawn); }
 
     .rail-meta {
       display: flex;
@@ -326,14 +357,14 @@
     .rail-headline {
       font-family: var(--serif);
       font-weight: 400;
-      font-size: .82rem;
-      line-height: 1.35;
+      font-size: .8rem;
+      line-height: 1.45;
+      letter-spacing: -.005em;
       color: var(--ink-2);
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
-      font-variation-settings: 'opsz' 18, 'SOFT' 30;
       margin-bottom: .3rem;
     }
     .rail-item:hover .rail-headline { color: var(--ink); }
@@ -358,13 +389,12 @@
         max-height: none;
         z-index: 50;
         background: var(--paper);
-        border-right: 1px solid var(--rule);
+        border-right: 1px solid var(--ink);
         border-bottom: none;
         padding: 1.5rem 1.1rem 1.5rem 1.25rem;
         overflow-y: auto;
         transform: translateX(-100%);
         transition: transform .25s ease;
-        box-shadow: 0 0 30px rgba(0, 0, 0, .45);
       }
       body.rail-drawer-open .archive-rail {
         transform: translateX(0);
@@ -395,55 +425,155 @@
       html[data-rail="collapsed"] .rail-search-status { display: revert; }
     }
 
-    /* ─────────────── Masthead ─────────────── */
-    .masthead {
-      max-width: var(--maxw);
-      margin: 0 auto;
-      padding: 2.5rem 1.5rem 1.25rem;
+    /* ─────────────── Masthead — broadsheet nameplate ───────────────
+       Engraving full bleed, then a solid ink plate carrying reversed type, then
+       the ears. Identical on every issue and every archived page; the numbers in
+       the ears are the only thing that changes. Sameness is the ritual. */
+    .bs-head { margin-bottom: 2.75rem; }
+    .bs-art {
+      display: block;
+      width: 100%;
+      height: clamp(190px, 28vh, 290px);
+      object-fit: cover;
+      object-position: 50% 42%;
     }
-    .masthead-row {
-      display: grid;
-      grid-template-columns: 1fr auto 1fr;
-      align-items: center;
+    /* Reversed type on a printed block, not white type floating on a painting.
+       The engraving's sky is bone white, so laying type directly on it would need
+       a scrim, and a scrim means a gradient. */
+    .bs-plate {
+      background: var(--ink);
+      color: var(--paper);
+      max-width: var(--maxw);
+      margin: -3.25rem auto 0;
+      padding: 1.4rem 2rem 1.2rem;
+      position: relative;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
       gap: 1rem;
     }
-    .meta-left, .meta-right {
+    .bs-name {
+      font-family: var(--serif);
+      font-weight: 700;
+      font-size: clamp(2.2rem, 4.6vw, 3.1rem);
+      line-height: 1;
+      letter-spacing: .14em;
+      /* letter-spacing pads the right of the last glyph; pull it back so the two
+         characters sit optically placed rather than measurably placed. */
+      margin-right: -.14em;
+    }
+    .bs-plate-meta {
+      display: flex;
+      gap: 1.5rem;
       font-family: var(--mono);
-      font-size: .72rem;
-      letter-spacing: .12em;
+      font-size: .68rem;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      opacity: .8;
+    }
+    .bs-issue { color: var(--dawn); opacity: 1; }
+    /* The front page's own table of contents. */
+    .bs-ears {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: .7rem 2rem;
+      border-bottom: 2px solid var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      font-family: var(--mono);
+      font-size: .66rem;
+      letter-spacing: .14em;
       text-transform: uppercase;
       color: var(--ink-3);
     }
-    .meta-left { text-align: left; }
-    .meta-right { text-align: right; }
-    .masthead-center { text-align: center; }
-    .masthead-title {
-      font-family: var(--serif);
-      font-weight: 500;
-      font-size: clamp(2.4rem, 6.5vw, 4.8rem);
-      line-height: 1;
-      letter-spacing: -.025em;
-      font-variation-settings: 'opsz' 144, 'SOFT' 30;
-    }
-    .masthead-title em {
-      font-style: italic;
+    .bs-ears b { color: var(--ink); font-weight: 500; }
+    .bs-ears-rule { flex: 1; height: 1px; background: var(--rule); }
+
+    /* ─────────────── Broadsheet lead ─────────────── */
+    .bs-lead { margin-bottom: 3.5rem; }
+    .bs-kicker {
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .16em;
+      text-transform: uppercase;
       color: var(--accent);
-      font-variation-settings: 'opsz' 144, 'SOFT' 80, 'WONK' 1;
-      padding-right: .04em;
+      margin-bottom: 1rem;
+    }
+    /* The one place this page spends everything: a headline big enough that the
+       eye has no choice about where the issue begins. */
+    .bs-headline {
+      font-family: var(--serif);
+      font-weight: 700;
+      font-size: clamp(1.7rem, 3.7vw, 2.7rem);
+      line-height: 1.3;
+      letter-spacing: -.01em;
+      margin-bottom: 1.6rem;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 1.5rem;
+    }
+    .bs-lead-body .yt-brief {
+      background: none;
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+    /* The kicker is already said louder by .bs-kicker directly above it, and the
+       disclosure triangle bought nothing but a 20px indent that pushed the whole
+       card out of line with the headline. (The standfirst goes too, but only once
+       the lead is open — `details[open] .nl-lead` covers that, and archived pages
+       whose lead is still collapsed keep it as their only preview.) */
+    .bs-lead-body .yt-kicker,
+    .bs-lead-body .yt-toggle { display: none; }
+    .bs-lead-body .yt-summary { gap: 0; }
+    /* Specificity, not source order: .nl-item .yt-title is defined further down
+       and would otherwise win, printing the source headline at list size right
+       under a 2.7rem headline that says the same thing. */
+    .bs-lead-body .yt-brief .yt-title {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--ink-3);
+      margin-bottom: .7rem;
+    }
+    .bs-lead-body .yt-brief .yt-title a { color: var(--ink-3); }
+    /* Two columns with a hairline between them — the broadsheet's actual signature. */
+    .bs-lead-body .yt-body {
+      max-width: none;
+      columns: 2;
+      column-gap: 2.75rem;
+      column-rule: 1px solid var(--rule);
+      margin-top: 1.25rem;
+    }
+    .bs-lead-body .yt-body h3,
+    .bs-lead-body .yt-body h4 { break-after: avoid; }
+    /* A bullet split across the rule reads as two bullets: the reader takes the
+       continuation at the top of the right track for a new item. Paragraphs may
+       break — that is what columns do — but a list item may not. */
+    .bs-lead-body .yt-body li { break-inside: avoid; }
+    .bs-lead-body .yt-body > *:first-child { margin-top: 0; }
+    /* A brief with too little text to fill two tracks does not read as columns —
+       CSS slices its one paragraph mid-word across the rule and leaves the
+       balance to chance. Below the threshold in templates.lead_story it gets one
+       track at a normal measure instead. Must stay after the rule above. */
+    .bs-lead-compact .yt-body {
+      columns: 1;
+      column-rule: none;
+      max-width: var(--measure);
     }
 
     /* ─────────────── Body / Layout ─────────────── */
     main {
       max-width: var(--maxw);
       margin: 0 auto;
-      padding: 2.5rem 1.5rem 5rem;
+      padding: 2.5rem 1.5rem 4rem;
     }
 
     .topbar {
       display: flex;
       align-items: center;
       gap: 1rem;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
       font-family: var(--mono);
       font-size: .7rem;
       letter-spacing: .1em;
@@ -481,7 +611,6 @@
       align-items: center;
       justify-content: center;
       cursor: pointer;
-      border-radius: 2px;
       font-size: .9rem;
       line-height: 1;
       transition: color .15s, border-color .15s, background .15s;
@@ -496,24 +625,27 @@
       padding: 0;
       margin: auto;
       inset: 0;
-      border: 1px solid var(--rule-2);
-      background: var(--paper-2);
+      border: 1px solid var(--ink);
+      background: var(--paper);
       color: var(--ink-2);
       width: min(640px, calc(100vw - 3rem));
       max-height: calc(100vh - 4rem);
-      border-radius: 2px;
-      box-shadow: 0 30px 60px -20px rgba(0,0,0,.6);
     }
     .criteria-modal::backdrop {
       background: var(--backdrop);
-      backdrop-filter: blur(3px);
     }
     .criteria-modal[open] {
       animation: modal-in .2s ease;
     }
     @keyframes modal-in {
-      from { opacity: 0; transform: translateY(8px); }
-      to   { opacity: 1; transform: translateY(0); }
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+      }
     }
     .criteria-modal-inner {
       padding: 1.75rem 1.9rem 1.9rem;
@@ -550,7 +682,7 @@
     .modal-close:hover { color: var(--accent); }
     .criteria-body {
       font-size: .85rem;
-      line-height: 1.7;
+      line-height: 1.75;
       color: var(--ink-2);
     }
     .criteria-body p { margin-bottom: .9rem; }
@@ -558,10 +690,11 @@
     .criteria-body ul { padding-left: 1.2rem; margin-bottom: .9rem; }
     .criteria-body li { margin-bottom: .35rem; }
     .criteria-body h4 {
-      font-family: var(--serif);
-      font-style: italic;
-      font-size: 1.05rem;
-      margin: 1.4rem 0 .5rem;
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin: 1.6rem 0 .6rem;
       color: var(--ink);
       font-weight: 500;
     }
@@ -586,10 +719,9 @@
       font-family: var(--mono);
     }
     .criteria-body code {
-      background: rgba(255, 87, 34, 0.1);
+      background: var(--tint);
       color: var(--accent);
       padding: 1px 7px;
-      border-radius: 2px;
       font-family: var(--mono);
       font-size: .76rem;
     }
@@ -598,8 +730,7 @@
       color: var(--ink-3);
       margin-top: 1rem;
       padding-top: .75rem;
-      border-top: 1px dashed var(--rule);
-      font-style: italic;
+      border-top: 1px solid var(--rule);
     }
 
     /* ─────────────── Lead / Hero Card ─────────────── */
@@ -614,11 +745,14 @@
       content: '';
       position: absolute;
       top: -2px; left: 0;
-      width: 80px; height: 4px;
+      width: 80px; height: 2px;
       background: var(--accent);
     }
+    /* Same inset as a card's text, so the deck and the two columns under it read
+       off one left edge. The lead's own rules stay on the outer grid. */
     .lead-anchor {
       display: block;
+      padding-inline: var(--card-pad);
       cursor: pointer;
       transition: opacity .15s;
     }
@@ -651,7 +785,7 @@
       align-items: baseline;
       text-transform: none;
       letter-spacing: 0;
-      font-family: var(--sans);
+      font-family: var(--serif);
       font-size: .82rem;
     }
     .lead-author .author-name { color: var(--ink); font-weight: 500; }
@@ -659,19 +793,19 @@
 
     .lead-summary {
       font-family: var(--serif);
-      font-weight: 400;
-      font-size: clamp(1.7rem, 3.4vw, 2.6rem);
-      line-height: 1.18;
-      letter-spacing: -.01em;
+      font-weight: 600;
+      font-size: clamp(1.45rem, 3vw, 1.95rem);
+      line-height: 1.35;
+      letter-spacing: -.02em;
       color: var(--ink);
       margin-bottom: 1rem;
-      font-variation-settings: 'opsz' 96, 'SOFT' 30;
+      max-width: var(--measure);
     }
     .lead-text {
       font-size: 1rem;
-      line-height: 1.7;
+      line-height: 1.75;
       color: var(--ink-2);
-      max-width: 70ch;
+      max-width: var(--measure);
       margin-bottom: 1.5rem;
       display: -webkit-box;
       -webkit-line-clamp: 4;
@@ -714,18 +848,48 @@
       background: var(--rule);
     }
 
-    /* ─────────────── Cards Grid ─────────────── */
-    .cards-grid {
+    /* ─────────────── The desk — two columns ───────────────
+       好文 and 推文 share one grid below the lead. .nl-grid only appears on
+       archived pages, which predate the shared grid; it gets the same treatment so
+       115 issues read alike. */
+    .cards-grid, .nl-grid {
+      position: relative;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-      gap: 0;
+      grid-template-columns: 1fr 1fr;
+      /* The gutter between the two measures stays 5.5rem: the cells pay
+         --card-pad of it each, the track gap pays the rest. */
+      column-gap: calc(5.5rem - var(--card-pad) * 2);
       border-top: 1px solid var(--rule);
-      border-left: 1px solid var(--rule);
+    }
+    .nl-grid { margin-bottom: 3rem; }
+    /* The column rule is drawn down the centre of the grid instead of hanging off
+       the odd cell's border-right. Hung off the cell it dictated that cell's right
+       padding — half a gutter — so a cell could never hold the same inset on both
+       sides, and the hover ground that fills the cell was lopsided whichever way
+       the gutter was split. Absolutely positioned, so it is not a grid item.
+       Rows still stretch, so the bottom rules line up across a pair, and nothing
+       inside the grid may span both tracks. */
+    .cards-grid::before,
+    .nl-grid::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 1px;
+      background: var(--rule);
+      pointer-events: none;
     }
 
+    /* The hover ground is the column cell itself, so it lands on the rules that
+       are already there: the grid's top rule, the card's own bottom rule and the
+       column rule down the middle. The text carries --card-pad of its own inset
+       instead. Bleeding the tone past the cell to keep the text on the outer grid
+       was worse than the problem it solved — the tone then agreed with no rule on
+       the page and read as a highlight that had slipped sideways. */
     .card {
-      border-right: 1px solid var(--rule);
       border-bottom: 1px solid var(--rule);
+      min-width: 0;
       background: transparent;
       transition: background .15s;
     }
@@ -733,8 +897,8 @@
     .card-anchor {
       display: flex;
       flex-direction: column;
-      gap: .65rem;
-      padding: 1.25rem 1.4rem 1.4rem;
+      gap: .6rem;
+      padding: 1.5rem var(--card-pad) 1.6rem;
       height: 100%;
       cursor: pointer;
       position: relative;
@@ -742,12 +906,15 @@
     .card-anchor::after {
       content: '↗';
       position: absolute;
-      top: 1.1rem;
-      right: 1.2rem;
+      top: 1.4rem;
+      right: var(--card-pad);
       color: var(--ink-3);
       font-size: .95rem;
       transition: transform .2s, color .2s;
     }
+    /* Hover moves the arrow and the ground tone only. An inset that shifts the
+       padding would slide the text sideways under a pointer that is resting on
+       the line someone is reading. */
     .card:hover .card-anchor::after {
       transform: translate(2px, -2px);
       color: var(--accent);
@@ -757,13 +924,13 @@
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .15em;
-      color: var(--accent);
+      color: var(--ink-3);
       margin-bottom: .15rem;
     }
     .card-meta {
       display: flex;
-      flex-direction: column;
-      gap: .1rem;
+      align-items: baseline;
+      gap: .5rem;
       margin-bottom: .25rem;
     }
     .author-name {
@@ -779,33 +946,35 @@
 
     .card-summary {
       font-family: var(--serif);
-      font-weight: 400;
-      font-size: 1.1rem;
-      line-height: 1.35;
+      font-weight: 600;
+      font-size: 1.15rem;
+      line-height: 1.45;
       color: var(--ink);
-      letter-spacing: -.005em;
-      font-variation-settings: 'opsz' 36, 'SOFT' 30;
+      letter-spacing: -.015em;
+      max-width: var(--measure);
     }
 
     .card-text {
-      font-size: .82rem;
-      line-height: 1.65;
+      font-size: .88rem;
+      line-height: 1.75;
       color: var(--ink-2);
       flex: 1;
+      max-width: var(--measure);
       display: -webkit-box;
       -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
 
+    /* No rule above the foot: in a single column each card already ends on one,
+       and two hairlines a few pixels apart read as noise rather than structure. */
     .card-foot {
       display: flex;
       gap: 1rem;
       align-items: center;
       font-size: .72rem;
       color: var(--ink-3);
-      padding-top: .65rem;
-      border-top: 1px dashed var(--rule);
+      padding-top: .4rem;
       flex-wrap: wrap;
     }
 
@@ -816,25 +985,24 @@
       font-family: var(--mono);
     }
     .glyph {
-      color: var(--accent);
+      color: var(--ink-3);
       font-size: .8rem;
     }
     .chip {
       margin-left: auto;
       font-family: var(--mono);
-      font-size: .65rem;
-      letter-spacing: .08em;
+      font-size: .62rem;
+      letter-spacing: .1em;
       text-transform: uppercase;
-      color: var(--ink-2);
-      background: rgba(255, 87, 34, 0.08);
-      border: 1px solid rgba(255, 87, 34, 0.18);
-      padding: 2px 8px;
-      border-radius: 999px;
+      color: var(--ink-3);
+      background: none;
+      border: 1px solid var(--rule-2);
+      padding: 1px 7px;
     }
 
     /* ─────────────── Product Hunt Section ─────────────── */
     .ph-divider {
-      margin-top: 3rem;
+      margin-top: 3.5rem;
     }
     .ph-divider span {
       color: var(--accent);
@@ -844,8 +1012,6 @@
       flex-direction: column;
       gap: 0;
       border-top: 1px solid var(--rule);
-      border-left: 1px solid var(--rule);
-      border-right: 1px solid var(--rule);
       margin-bottom: 3rem;
     }
     .ph-card {
@@ -855,16 +1021,14 @@
     .ph-card:hover { background: var(--paper-2); }
     .ph-anchor {
       display: grid;
-      grid-template-columns: minmax(240px, 38%) 1fr;
+      grid-template-columns: minmax(200px, 34%) 1fr;
       gap: 0;
       cursor: pointer;
       position: relative;
-      min-height: 220px;
+      min-height: 200px;
     }
     .ph-hero {
-      padding: 1.3rem;
-      background: var(--paper);
-      border-right: 1px solid var(--rule);
+      padding: 1.3rem 1.3rem 1.3rem 0;
       display: flex;
     }
     .ph-hero img {
@@ -872,20 +1036,26 @@
       height: 100%;
       object-fit: cover;
       display: block;
-      border-radius: 6px;
       border: 1px solid var(--rule);
-      transition: transform .3s ease;
+      /* Product Hunt's CDN links rot; older issues are full of dead ones. The
+         background shows through when the image fails, so a missing hero reads as
+         a deliberately empty panel instead of a white hole. */
+      background: var(--paper-3);
     }
-    .ph-card:hover .ph-hero img { transform: scale(1.02); }
+    /* No image: show the paper's own dither rather than a placeholder gradient. */
     .ph-hero-empty {
-      background:
-        repeating-linear-gradient(45deg, var(--paper-2) 0 8px, var(--paper) 8px 16px);
+      background-color: var(--paper-3);
+      -webkit-mask-image: var(--texture);
+      mask-image: var(--texture);
+      -webkit-mask-size: 4px 4px;
+      mask-size: 4px 4px;
     }
     .ph-body {
       display: flex;
       flex-direction: column;
       gap: .55rem;
-      padding: 1.3rem 1.5rem 1.4rem;
+      padding: 1.3rem 0 1.4rem 1.5rem;
+      border-left: 1px solid var(--rule);
     }
     .ph-head {
       display: flex;
@@ -902,13 +1072,12 @@
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .15em;
-      color: var(--accent);
+      color: var(--ink-3);
       text-transform: uppercase;
     }
     .ph-thumb {
-      width: 48px;
-      height: 48px;
-      border-radius: 10px;
+      width: 44px;
+      height: 44px;
       object-fit: cover;
       background: var(--paper-2);
       border: 1px solid var(--rule);
@@ -921,31 +1090,33 @@
       }
       .ph-hero {
         aspect-ratio: 16 / 9;
-        padding: 1rem;
-        border-right: none;
-        border-bottom: 1px solid var(--rule);
+        padding: 1rem 0;
+      }
+      .ph-body {
+        padding: 1.2rem 0 1.3rem;
+        border-left: none;
+        border-top: 1px solid var(--rule);
       }
     }
     .ph-title {
       font-family: var(--serif);
-      font-weight: 500;
-      font-size: 1.35rem;
-      line-height: 1.2;
-      letter-spacing: -.01em;
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 1.35;
+      letter-spacing: -.015em;
       color: var(--ink);
-      font-variation-settings: 'opsz' 72, 'SOFT' 30;
     }
     .ph-tagline {
-      font-family: var(--sans);
+      font-family: var(--serif);
       font-size: .82rem;
-      line-height: 1.55;
-      color: var(--ink-2);
-      font-style: italic;
+      line-height: 1.6;
+      color: var(--ink-3);
     }
     .ph-summary {
       font-size: .88rem;
-      line-height: 1.65;
-      color: var(--ink);
+      line-height: 1.75;
+      color: var(--ink-2);
+      max-width: var(--measure);
       flex: 1;
     }
     .ph-foot {
@@ -955,7 +1126,7 @@
       font-size: .7rem;
       color: var(--ink-3);
       padding-top: .65rem;
-      border-top: 1px dashed var(--rule);
+      border-top: 1px solid var(--rule);
       flex-wrap: wrap;
     }
     .ph-author {
@@ -964,9 +1135,6 @@
     }
     .chip-ph {
       margin-left: 0;
-      background: rgba(246, 185, 74, 0.1);
-      border-color: rgba(246, 185, 74, 0.25);
-      color: var(--accent-2);
     }
     .ph-arrow {
       margin-left: auto;
@@ -979,89 +1147,92 @@
       color: var(--accent);
     }
 
-    /* ─────────────── Empty state ─────────────── */
+    /* ─────────────── Empty state ───────────────
+       An empty day is published empty. The mark, a flat sentence, nothing else —
+       no apology, no filler, no substitute content. */
     .empty {
       text-align: center;
-      padding: 5rem 1rem 4rem;
+      padding: 4.5rem 1rem 4rem;
       border-top: 2px solid var(--ink);
       border-bottom: 1px solid var(--rule);
-      position: relative;
-    }
-    .empty::before {
-      content: '';
-      position: absolute;
-      top: -2px; left: 50%;
-      transform: translateX(-50%);
-      width: 80px; height: 4px;
-      background: var(--accent);
     }
     .empty-mark {
-      font-family: var(--serif);
-      font-style: italic;
-      font-size: 4rem;
-      color: var(--accent);
-      line-height: 1;
-      margin-bottom: 1rem;
-      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+      width: 56px;
+      height: 56px;
+      margin: 0 auto 1.75rem;
+      background-color: var(--ink-3);
+      -webkit-mask-image: var(--ramp);
+      mask-image: var(--ramp);
+      -webkit-mask-size: 100% 100%;
+      mask-size: 100% 100%;
     }
     .empty-title {
       font-family: var(--serif);
-      font-weight: 400;
-      font-size: clamp(2rem, 5vw, 3.4rem);
-      line-height: 1.1;
+      font-weight: 500;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      letter-spacing: -.005em;
       color: var(--ink);
-      margin-bottom: 1rem;
-      font-variation-settings: 'opsz' 144, 'SOFT' 30;
-    }
-    .empty-title em {
-      font-style: italic;
-      color: var(--accent);
-      font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+      margin-bottom: .4rem;
     }
     .empty-sub {
-      color: var(--ink-2);
-      font-size: .92rem;
-      line-height: 1.7;
-      max-width: 480px;
-      margin: 0 auto 1.75rem;
-    }
-    .empty-rule {
-      width: 30px;
-      height: 1px;
-      background: var(--rule-2);
-      margin: 0 auto 1rem;
-    }
-    .empty-foot {
-      font-family: var(--serif);
-      font-style: italic;
       color: var(--ink-3);
-      font-size: .9rem;
+      font-family: var(--mono);
+      font-size: .74rem;
+      letter-spacing: .06em;
+    }
+
+    /* ─────────────── End mark ───────────────
+       The promise under the masthead is 「讀得完」. This is that promise as a
+       glyph: the printer's tombstone, set where the reading actually stops. */
+    .endmark {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 0 1.5rem 3.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .6rem;
+    }
+    .endmark-glyph {
+      width: 13px;
+      height: 13px;
+      background-color: var(--ink-3);
+      -webkit-mask-image: var(--ramp);
+      mask-image: var(--ramp);
+      -webkit-mask-size: 100% 100%;
+      mask-size: 100% 100%;
+    }
+    .endmark-label {
+      font-family: var(--mono);
+      font-size: .62rem;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--ink-3);
     }
 
     /* ─────────────── Footer ─────────────── */
     footer {
       max-width: var(--maxw);
       margin: 0 auto;
-      padding: 3rem 1.5rem 4rem;
+      padding: 2.5rem 1.5rem 4rem;
       border-top: 1px solid var(--rule);
       display: grid;
       grid-template-columns: 1fr auto 1fr;
       gap: 1.5rem;
       align-items: end;
-      font-size: .74rem;
+      font-size: .72rem;
+      line-height: 1.7;
       color: var(--ink-3);
     }
     .colophon-left { text-align: left; }
     .colophon-center {
       text-align: center;
-      font-family: var(--serif);
-      font-style: italic;
       color: var(--ink-2);
-      font-size: .9rem;
     }
     .colophon-center em {
       color: var(--accent);
-      font-style: italic;
+      font-style: normal;
     }
     .colophon-right {
       text-align: right;
@@ -1072,26 +1243,77 @@
     .colophon-right a { color: var(--ink-2); border-bottom: 1px solid var(--rule-2); }
     .colophon-right a:hover { color: var(--accent); border-color: var(--accent); }
 
-    /* ─────────────── Responsive ─────────────── */
+    /* ─────────────── 404 ─────────────── */
+    .notfound {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 3.5rem 1.5rem 5rem;
+      text-align: center;
+    }
+    /* Spot-illustration scale, not a hero: small and centred in generous space. */
+    .notfound-art {
+      display: block;
+      width: min(190px, 55%);
+      height: auto;
+      margin: 0 auto 2.25rem;
+      border: 1px solid var(--rule);
+    }
+    .notfound-title {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: var(--ink);
+      margin-bottom: .4rem;
+    }
+    .notfound-sub {
+      font-family: var(--mono);
+      font-size: .74rem;
+      letter-spacing: .06em;
+      color: var(--ink-3);
+      margin-bottom: 2rem;
+    }
+    .notfound-back {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: .5rem 1.1rem;
+      transition: color .15s, background .15s;
+    }
+    .notfound-back:hover { background: var(--accent); color: var(--paper); }
+
+    /* ─────────────── Responsive ───────────────
+       A broadsheet collapses to a single column before the columns get narrower
+       than the text can survive. Two of these tracks at phone width would be
+       roughly twelve Chinese characters per line. */
+    @media (max-width: 900px) {
+      .cards-grid, .nl-grid { grid-template-columns: 1fr; }
+      .cards-grid::before, .nl-grid::before { display: none; }
+      .bs-lead-body .yt-body { columns: 1; column-rule: none; }
+    }
+
     @media (max-width: 720px) {
-      .masthead-row {
-        grid-template-columns: 1fr;
-        text-align: center;
-      }
-      .meta-left, .meta-right { text-align: center; }
+      /* Phones have no hover, so the inset is buying nothing but lost measure at
+         this width. Keep a token amount and give the line its characters back. */
+      :root { --card-pad: .5rem; }
       .lead-meta { flex-wrap: wrap; gap: .5rem; }
       .lead-author { width: 100%; }
-      .cards-grid { grid-template-columns: 1fr; }
       footer {
         grid-template-columns: 1fr;
         text-align: center;
       }
       .colophon-left, .colophon-right { text-align: center; }
 
-      /* 手機版收窄左右留白，讓內容區更寬 */
-      .masthead { padding-left: .9rem; padding-right: .9rem; }
+      .bs-art { height: clamp(150px, 22vh, 220px); }
+      .bs-plate { margin-top: -2rem; padding: 1.1rem 1rem; }
+      .bs-ears { padding: .7rem 1rem; flex-wrap: wrap; gap: .5rem 1.1rem; }
+      .bs-ears-rule { display: none; }
       main { padding-left: .9rem; padding-right: .9rem; }
-      .card-anchor { padding-left: 1rem; padding-right: 1rem; }
+      .endmark, footer, .notfound { padding-left: .9rem; padding-right: .9rem; }
     }
 
     /* ── Tweet context: quoted / replied-to / top replies ── */
@@ -1099,33 +1321,36 @@
       margin: .65rem 0;
       padding: .55rem .75rem;
       border-left: 2px solid var(--accent);
-      background: rgba(232, 90, 26, 0.06);
-      font-size: .78rem;
-      line-height: 1.55;
+      background: var(--tint);
+      font-size: .82rem;
+      line-height: 1.65;
       color: var(--ink);
+      max-width: var(--measure);
     }
     .ctx-quote.ctx-reply {
-      border-left-color: var(--muted);
-      background: rgba(138, 128, 112, 0.08);
+      border-left-color: var(--rule-2);
+      background: var(--paper-2);
     }
     .ctx-label {
       display: block;
-      font-size: .66rem;
-      letter-spacing: .08em;
+      font-family: var(--mono);
+      font-size: .62rem;
+      letter-spacing: .1em;
       text-transform: uppercase;
-      color: var(--muted);
+      color: var(--ink-3);
       margin-bottom: .25rem;
     }
     .ctx-quote p { margin: 0; }
 
     .ctx-replies {
       margin-top: .5rem;
-      font-size: .75rem;
+      font-size: .8rem;
+      max-width: var(--measure);
     }
     .ctx-replies > summary {
       cursor: pointer;
       list-style: none;
-      color: var(--muted);
+      color: var(--ink-3);
       padding: .3rem 0;
       user-select: none;
     }
@@ -1148,8 +1373,7 @@
     }
     .ctx-replies li {
       padding: .45rem .6rem;
-      background: rgba(138, 128, 112, 0.06);
-      border-radius: 3px;
+      background: var(--paper-2);
     }
     .ctx-rep-author {
       color: var(--ink);
@@ -1157,23 +1381,23 @@
       margin-right: .5rem;
     }
     .ctx-rep-likes {
-      color: var(--muted);
-      font-size: .7rem;
+      color: var(--ink-3);
+      font-family: var(--mono);
+      font-size: .68rem;
     }
     .ctx-replies li p {
       margin: .25rem 0 0;
-      color: var(--ink);
-      line-height: 1.5;
+      color: var(--ink-2);
+      line-height: 1.6;
     }
 
-    /* ─────────────── YouTube 財經直播重點（最上方）─────────────── */
+    /* ─────────────── 財經 podcast 重點（最上方，主菜）─────────────── */
     .yt-brief {
       margin: 0 0 3rem;
       padding: 1.75rem 1.75rem 2rem;
       border: 1px solid var(--rule);
-      border-top: 3px solid var(--accent);
+      border-top: 3px solid var(--ink);
       background: var(--paper-2);
-      border-radius: 4px;
       position: relative;
     }
     /* 預設收合：summary 為唯一可見、可點開／隨時收合的標題列 */
@@ -1200,8 +1424,8 @@
       display: inline-block;
       margin-top: .35rem;
       font-family: var(--mono);
-      font-size: .7rem;
-      letter-spacing: .04em;
+      font-size: .68rem;
+      letter-spacing: .06em;
       color: var(--ink-3);
     }
     details[open] .yt-expand-hint { display: none; }
@@ -1209,7 +1433,7 @@
     .yt-summary:hover .yt-expand-hint { color: var(--accent); }
     .yt-kicker {
       font-family: var(--mono);
-      font-size: .72rem;
+      font-size: .68rem;
       letter-spacing: .14em;
       text-transform: uppercase;
       color: var(--accent);
@@ -1217,10 +1441,12 @@
     }
     .yt-title {
       font-family: var(--serif);
-      font-size: 1.5rem;
-      line-height: 1.25;
+      font-size: 1.4rem;
+      line-height: 1.4;
+      letter-spacing: -.02em;
       margin: 0 0 .75rem;
       font-weight: 600;
+      max-width: var(--measure);
     }
     .yt-title a {
       color: var(--ink);
@@ -1238,44 +1464,57 @@
       gap: .5rem .9rem;
       margin-bottom: 0;
       font-family: var(--mono);
-      font-size: .72rem;
+      font-size: .7rem;
       color: var(--ink-3);
     }
     .yt-meta .chip.yt-source {
       margin-left: 0;
     }
 
-    .yt-body { color: var(--ink); line-height: 1.7; margin-top: 1.4rem; }
+    .yt-body {
+      color: var(--ink);
+      line-height: 1.8;
+      margin-top: 1.5rem;
+      max-width: var(--measure);
+    }
     .yt-body h3 {
       font-family: var(--serif);
-      font-size: 1.08rem;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: -.01em;
       color: var(--ink);
-      margin: 1.5rem 0 .6rem;
+      margin: 1.75rem 0 .6rem;
       padding-bottom: .35rem;
       border-bottom: 1px solid var(--rule);
     }
     .yt-body h3:first-child { margin-top: 0; }
     .yt-body h4 {
-      font-family: var(--sans);
-      font-size: .95rem;
-      color: var(--ink-2);
-      margin: 1.1rem 0 .4rem;
-      font-weight: 600;
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      margin: 1.25rem 0 .4rem;
+      font-weight: 500;
     }
     .yt-body p { margin: .55rem 0; color: var(--ink-2); }
     .yt-body ul { margin: .55rem 0 .9rem; padding-left: 1.3rem; }
-    .yt-body li { margin: .3rem 0; color: var(--ink-2); line-height: 1.6; }
-    .yt-body strong { color: var(--ink); }
+    .yt-body li { margin: .3rem 0; color: var(--ink-2); line-height: 1.7; }
+    .yt-body strong { color: var(--ink); font-weight: 600; }
+    /* 明體沒有真正的斜體，瀏覽器只能把筆畫傾斜，出來是歪掉的字不是強調
+       （DESIGN.md 規則 3）。摘要末尾那行固定註記靠字級與顏色退到背景就夠。 */
+    .yt-body em { font-style: normal; }
     .yt-body .yt-rule {
       border: none;
-      border-top: 1px dashed var(--rule-2);
-      margin: 1.25rem 0;
+      border-top: 1px solid var(--rule-2);
+      margin: 1.5rem 0;
     }
+    .yt-body .yt-rule + p { font-size: .8rem; color: var(--ink-3); }
 
     .yt-foot {
-      margin-top: 1.25rem;
+      margin-top: 1.5rem;
       font-family: var(--mono);
-      font-size: .75rem;
+      font-size: .72rem;
     }
     .yt-foot a {
       color: var(--accent);
@@ -1284,9 +1523,9 @@
     }
     .yt-foot a:hover { text-decoration: underline; }
 
-    /* 手機版收窄財經重點橘框卡片的左右留白（須放在 .yt-brief 定義之後才不會被蓋掉） */
+    /* 手機版收窄卡片的左右留白（須放在 .yt-brief 定義之後才不會被蓋掉） */
     @media (max-width: 720px) {
-      .yt-brief { padding: 1.1rem 12px 1.2rem; }
+      .yt-brief { padding: 1.1rem 1rem 1.2rem; }
     }
 
     /* ─────────────── Newsletter / 好文 ───────────────
@@ -1294,38 +1533,64 @@
        (1) .nl-item — 把頭條規格降成列表規格的少數覆寫
        (2) 財經重點沒有的欄位（頭像、handle、導言）
        請不要在這裡重建一套卡片樣式；要調外觀就去改 .yt-brief。 */
-    .nl-divider { margin-top: 3rem; }
+    .nl-divider { margin-top: 3.5rem; }
     .nl-divider span { color: var(--accent); }
 
-    .nl-grid { margin-bottom: 3rem; }
-
-    /* 列表規格：拿掉頭條專屬的 3px 橘頂邊，標題小一級，卡片間距收窄 */
-    .nl-item {
-      margin-bottom: .75rem;
+    .nl-grid {
+      margin-bottom: 3rem;
       border-top: 1px solid var(--rule);
     }
-    .nl-item .yt-title { font-size: 1.2rem; margin-bottom: .6rem; }
+
+    /* 列表規格：拿掉主菜的框與底色，標題小一級，卡片收成一條一條的列 */
+    .nl-item {
+      margin: 0;
+      padding: 1.5rem var(--card-pad) 1.6rem;
+      background: none;
+      border: none;
+      border-bottom: 1px solid var(--rule);
+    }
+    .nl-item .yt-title { font-size: 1.15rem; margin-bottom: .6rem; }
     .nl-item .yt-kicker { margin-bottom: .55rem; }
+    .nl-item .yt-body { margin-top: 1.25rem; }
+    /* 在 desk 上這張卡跟推文卡並排，行首的三角形會把整張卡的左緣往右推 23px，
+       兩種卡片的第一個字就對不齊了。改掛右上角——推文卡的 ↗ 也在那個位置，
+       一格裡只有一種「右上角有東西可以按」。 */
+    .nl-item .yt-summary { position: relative; gap: 0; }
+    .nl-item .yt-toggle {
+      position: absolute;
+      top: .1rem;
+      right: 0;
+      margin-top: 0;
+    }
 
     /* 財經重點沒有的欄位 */
     .nl-avatar {
       flex: none;
-      width: 22px; height: 22px;
-      border-radius: 50%;
+      width: 20px; height: 20px;
       display: inline-grid; place-items: center;
-      font-family: var(--serif);
-      font-size: .72rem; font-weight: 600;
+      font-family: var(--mono);
+      font-size: .62rem; font-weight: 500;
       color: var(--paper);
       background: var(--accent);
       margin-right: -.45rem;
     }
     .nl-verified { color: var(--accent); font-size: .68rem; margin-left: .25rem; }
     .nl-handle { font-family: var(--mono); }
-    /* 導言字級對齊 .yt-body，讓收合與展開讀起來是同一個尺度 */
+    /* 導言字級對齊 .yt-body，讓收合與展開讀起來是同一個尺度。
+       截三行：文章筆記的第一段是整段重點（兩百多字），照登會讓一張收合的卡片
+       比展開的鄰居還高，一排卡片的高度就沒有節奏可言。 */
     .nl-lead {
       margin-top: .7rem;
-      line-height: 1.7; color: var(--ink-2);
+      line-height: 1.75;
+      color: var(--ink-2);
+      max-width: var(--measure);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
     }
+    /* 展開後全文的第一段就是導言本身，一字不差地連著印兩次。 */
+    details[open] .nl-lead { display: none; }
 
   </style>
 </head>
@@ -1352,14 +1617,18 @@
     </aside>
     <div class="rail-backdrop" aria-hidden="true"></div>
   <div class="page-main">
-<header class="masthead">
-  <div class="masthead-row">
-    <div class="meta-left">№004</div>
-    <div class="masthead-center">
-      <h1 class="masthead-title">Product &amp; <em>Design</em></h1>
+<header class="bs-head">
+  <img class="bs-art" src="../assets/masthead-engraving.webp"
+       width="836" height="209" alt="" aria-hidden="true" decoding="async" />
+  <div class="bs-plate">
+    <h1 class="bs-name">晨刊</h1>
+    <div class="bs-plate-meta">
+      <span>MATINS</span>
+      <span class="bs-issue">№ 004</span>
+      <span>2026.04.19</span>
     </div>
-    <div class="meta-right">2026-04-19 · 10 篇</div>
   </div>
+  <div class="bs-ears"><span>推文 <b>10</b></span><span>PRODUCT <b>6</b></span><span class="bs-ears-rule"></span><span>約 5 分鐘</span></div>
 </header>
 
 <main>
@@ -1368,7 +1637,7 @@
     <span>Today's Brief</span>
     <span class="sep"></span>
     <button type="button" class="topbar-link" onclick="document.getElementById(&quot;criteria-modal&quot;).showModal()">編輯方針</button>
-    <button type="button" class="theme-toggle" aria-label="切換主題" onclick="toggleTheme()"><span class="theme-icon">☾</span></button>
+    <button type="button" class="theme-toggle" aria-label="切換主題" onclick="toggleTheme()"><span class="theme-icon">☀</span></button>
   </div>
 
   
@@ -1687,6 +1956,11 @@ They are also using Persona for the verification https://t.co/aQfIVSqx8D</p>
 
 </main>
 
+<div class="endmark">
+  <span class="endmark-glyph" aria-hidden="true"></span>
+  <span class="endmark-label">本期完</span>
+</div>
+
 
 <dialog id="criteria-modal" class="criteria-modal">
   <div class="criteria-modal-inner">
@@ -1716,8 +1990,9 @@ They are also using Persona for the verification https://t.co/aQfIVSqx8D</p>
     document.querySelectorAll('dialog').forEach(function(d) {
       d.addEventListener('click', function(e) { if (e.target === d) d.close(); });
     });
+    // Light is canon: an unset data-theme means light, not dark.
     var icon = document.querySelector('.theme-icon');
-    if (icon) icon.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
+    if (icon) icon.textContent = document.documentElement.dataset.theme === 'dark' ? '☾' : '☀';
 
     var railToggle = document.querySelector('.rail-toggle');
     var railDrawer = document.querySelector('.rail-drawer-toggle');
@@ -1779,23 +2054,23 @@ They are also using Persona for the verification https://t.co/aQfIVSqx8D</p>
     });
   })();
   function toggleTheme() {
-    var cur = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+    var cur = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
     var next = cur === 'light' ? 'dark' : 'light';
     document.documentElement.dataset.theme = next;
     try { localStorage.setItem('theme', next); } catch (e) {}
     document.querySelectorAll('.theme-icon').forEach(function(el) {
-      el.textContent = next === 'light' ? '☀' : '☾';
+      el.textContent = next === 'dark' ? '☾' : '☀';
     });
   }
 </script>
 
 <footer>
   <div class="colophon-left">
-    Set in <strong>Fraunces</strong>, <strong>Inter</strong>, <strong>JetBrains Mono</strong>.<br>
+    Set in <strong>思源宋體</strong>, <strong>Inter</strong>, <strong>Noto Sans TC</strong>, <strong>JetBrains Mono</strong>.<br>
     Filtered &amp; summarised by Claude Sonnet 4.5.
   </div>
   <div class="colophon-center">
-    Daily at <em>09:00</em> UTC+8 · Made with care.
+    Daily at <em>08:00</em> UTC+8.
   </div>
   <div class="colophon-right">
     Source: Anthropic · Claude Design · Design · Vibe Coding · Product Hunt<br>
