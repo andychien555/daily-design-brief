@@ -1,6 +1,109 @@
 {
-  "generated_at": "2026-08-12T22:53:40+08:00",
+  "generated_at": "2026-08-13T08:58:07+08:00",
   "days": [
+    {
+      "d": "2026-08-13",
+      "dd": "2026 年 08 月 13 日",
+      "no": 119,
+      "items": [
+        {
+          "k": "article",
+          "t": "Cognitive Load Is a Budget, Not an Enemy: Design for the Brain’s 4 Chunks",
+          "b": "工作記憶容量僅約 4 組塊，且會快速衰減： 作者引用 Nelson Cowan 2001 年研究指出，成人實際工作記憶容量約為 4 組塊（遠低於過去 Miller 估計的 7±2）；Peterson 夫婦 1959 年實驗更顯示，未經複誦的 3 字母字串在 18 秒內回想率從 80% 跌至 10%——這個「18 秒」在 AI 工具讓使用者等待數小時時會成為嚴重問題。 認知負荷在「感知→理解→決策→行動」四階段皆會洩漏： 作者將 Don Norman 的「執行鴻溝」與「評估鴻溝」展開為四個動詞，指出分離的標籤與欄位（split attention）、完全重複的資訊呈現（redundancy effect）、對專家過度引導（expertise reversal）以及過多選項（Hick's Law）都會在各階段耗費心智資源；他舉出密碼規則後置、跨裝置驗證碼、預訂流程中隱藏已選資訊等 6 個常見設計缺陷作為實例。 AI 重新分配了負荷結構，而非消除負荷： 作者指出現代 AI 雖降低「執行負荷」（不再需要點選選單、填表），卻大幅提高「表達負荷」（空白提示框要求使用者從零生成精準需求，對 OECD 資料顯示約半數成人屬低識字率族群尤其困難）與「驗證負荷」（AI 輸出流暢但偶有錯誤，檢查 20 頁報告屬高內在負荷）；補救方法是提供範例提示、模板與可編輯樣本（worked examples），以及引用來源、顯示 diff 等輔助驗證的設計。 未完成的任務會持續佔用心智資源（Zeigarnik Effect）： 作者引用 Bluma Zeigarnik 1927 年研究指出，中斷的任務被記住的機率是完成任務的兩倍；Masicampo & Baumeister 2011 年實驗更證明未完成目標會干擾無關閱讀與解謎表現，但「制定具體計畫」即可消除干擾——設計啟示是提供可見的「儲存狀態 + 恢復路徑」，讓介面替使用者保管未完成事項，使用者大腦就能放下它。 慢速 AI 將負荷跨時間分散，並收取「利息」： 作者在《Slow AI》一文中指出，AI 代理將互動拉長為 10 分鐘到數日的批次處理，產生三筆帳單：提醒帳單（18 秒內記憶衰減，必須外部化顯示執行狀態與「執行合約」）、脈絡重建帳單（結果送達時是中斷，使用者須重新載入目標與限制條件到 4 組塊記憶中，利息隨延遲複利成長）、驗證帳單（在脈絡最冷時檢查最大交付物）；他預測兩年內「脈絡重建」將成為 AI 產品設計系統的標準章節。 26 條設計指引涵蓋四階段與時間維度： 作者提供具體建議，包括「相關資訊相鄰放置、避免分割注意力」（感知）、「標籤持久可見、避免僅用佔位符」（理解）、「選項少而結構化、預設值明顯但可改」（決策）、「偏好辨識而非回想、專家加速器不妨礙新手」（行動）、「保留狀態與可見恢復點、誠實進度條可歸零、長時 AI 執行前重述需求並在交付時摘要」（跨時間），以及「先依負荷類型分流再刪減、用任務時間與錯誤率實測而非目測」（測量）。 對設計／產品的啟示 作者的核心建議是「把使用者的心智花在使用者的目標上」：設計師應將工作記憶視為固定預算，透過消除無關元素、資訊就近放置、提供範例與預設值、保留脈絡與狀態等手法，將認知成本從介面本身轉移到使用者真正想完成的任務。在 AI 時代，設計挑戰更包括降低空白提示框的表達門檻（用範例與模板）、支援輸出驗證（引用來源、顯示推理步驟）、以及管理長時執行的脈絡重建成本（執行前合約、交付時摘要、全域狀態看板）。他強調應以行為指標（任務時間、錯誤率、回看次數）驗證是否真正降低負荷，而非只看畫面是否「極簡」——極簡若將複雜度推入使用者腦中，就是「負荷漂白」而非簡化。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "tweet",
+          "t": "Superlogical 展示了「tab peek」互動設計：三指下滑可即時預覽其他 session tabs（含分割畫面），繼續拖曳則進入類似 mission control 的檢視模式，所有預覽皆為 Metal 渲染的即時畫面。",
+          "b": "Sharing some more UI previews for Superlogical, this time the \"tab peek.\" If you three-finger swipe down, you can \"peek\" at the other session tabs. These are live-updating, metal-rendered previews including splits. If you keep dragging, you enter a \"mission control\" style mode. https://t.co/4VCZkxsuXr",
+          "m": "Mitchell Hashimoto @mitchellh"
+        },
+        {
+          "k": "tweet",
+          "t": "提倡在每個問題、設計決策、架構與成本分析中採用第一性原理思考，避免「一向如此」或產業共識的慣性思維。",
+          "b": "# Think from First Principles ## Skill Overview This skill forces rigorous first-principles reasoning on every problem, design decision, optimization, architecture, cost analysis, or invention task. It is the antidote to “that’s how it’s always been done,” industry consensus,",
+          "m": "Archie Sengupta @archiexzzz"
+        },
+        {
+          "k": "tweet",
+          "t": "如果專注於簡單的遊戲設計與結構，現在要做出最美的 2D 遊戲其實門檻很低，是任何有品味的人都能把握的機會。",
+          "b": "If you commit to a simple game design &amp; structure, you can pretty easily create one of the most beautiful 2D games ever made right now. Truly a low hanging fruit / easy opportunity for anyone with some taste.",
+          "m": "Tim Soret @timsoret"
+        },
+        {
+          "k": "tweet",
+          "t": "推薦一個適合準備系統設計面試的 GitHub repo，內容豐富實用。",
+          "b": "This repo is a goldmine if you are preparing for System Design interviews https://t.co/inrReiMHIf https://t.co/n4CnHx4vPw",
+          "m": "Khushi @khushiirl"
+        },
+        {
+          "k": "tweet",
+          "t": "CadXStudio 展示了硬體設計的 AI 突破：僅用一句提示就生成完整參數化書架音響外殼（含胡桃木腳架、穿孔鋼網、可製造規格），無需 CAD 軟體或多年經驗。",
+          "b": "Hardware design is having its Chat GPT moment. Typed one prompt. CadXStudio generated this full parametric bookshelf speaker enclosure, walnut legs, perforated steel grille, manufacturing-ready. No CAD software. No 10 years of experience. Just an idea. Built on https://t.co/TA65R6bJcl",
+          "m": "CadX Studio @CadX_Studio"
+        },
+        {
+          "k": "tweet",
+          "t": "認為優秀的戰鬥系統必須有優秀的敵人設計；太多現代遊戲只專注於玩家角色能做什麼，而敵人缺乏趣味性、僅淪為被炫技的對象。",
+          "b": "I think a combat system can’t be good without good enemy design and I think too many modern games focus too much on what your controlled character can do while enemies bring nothing interesting to the table just exist for you to flex on.",
+          "m": "Swillo @PandaKingEX"
+        },
+        {
+          "k": "tweet",
+          "t": "作者用 Three.js 和 Kimi K3 打造了「Empire Atlas」—— 一個 3D 互動式歷史探索工具，涵蓋 8 個帝國，讓歷史學習更生動具象。",
+          "b": "Your our history shouldn’t be taught in a boring way 🫠 I’ve always loved history, but I could never imagine what life actually looked like back then. So I built Empire Atlas, a 3D interactive explorer of 8 historical empires using @threejs and @Kimi_Moonshot K3 🔥 It lets you https://t.co/n53e42dEDA",
+          "m": "The Bugged Dev @thebuggeddev"
+        },
+        {
+          "k": "tweet",
+          "t": "強調「簡潔是最高級的精緻」，展示極簡設計的哲學與美學價值。",
+          "b": "Simplicity is the ultimate sophistication 🤍 https://t.co/xHIIUP24B7",
+          "m": "Chief Architect -design/Build 🏡🏗 @ChiefArchitect_"
+        },
+        {
+          "k": "tweet",
+          "t": "設計師分享為《阿凡達》電影打造氣和島場景的過程，參考多種資料拼湊而成，主要出現在片尾安昂、卡塔拉與新空氣僧侶的場景中。",
+          "b": "Air Temple Island! This was a great set to design for the film, looking at various sources and piecing together as much as I could. We primarily see this at the end of the film with Aang, Katara and the new Air Acolytes. Also a surprise interior at the end we didn't use. https://t.co/VHibinlMgx",
+          "m": "Connor Sheehan @Conpatshe"
+        },
+        {
+          "k": "product",
+          "t": "Media Sharing",
+          "b": "Let AI agents put screenshots and videos on pull requests 讓 AI 代理自動在 pull request 中加入螢幕截圖和影片，協助開發團隊進行程式碼審查與溝通。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "LaraCopilot",
+          "b": "Agentic AI Engineer that builds real apps 一個具備代理能力的 AI 工程師，能夠實際構建完整的應用程式。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Nearfield",
+          "b": "Turn two or more Studio Displays into stereo speakers 將兩台或多台 Studio Display 轉換為立體聲揚聲器系統，提供更好的音訊體驗。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Grok Bot",
+          "b": "AI teammates that you can give real work to 可分配實際工作任務的 AI 團隊成員，協助處理日常業務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "CodeBurn",
+          "b": "See where your AI coding spend actually goes 追蹤與分析 AI 程式碼輔助工具的實際支出分布，幫助開發團隊管理成本。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Click",
+          "b": "Live research context for ChatGPT and Claude 為 ChatGPT 和 Claude 提供即時研究情境資訊，增強 AI 對話的準確性與相關性。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-12",
       "dd": "2026 年 08 月 12 日",
