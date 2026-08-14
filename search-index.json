@@ -1,6 +1,127 @@
 {
-  "generated_at": "2026-08-13T22:52:32+08:00",
+  "generated_at": "2026-08-14T08:58:24+08:00",
   "days": [
+    {
+      "d": "2026-08-14",
+      "dd": "2026 年 08 月 14 日",
+      "no": 120,
+      "items": [
+        {
+          "k": "article",
+          "t": "What Makes a Designer Valuable in the Age of AI",
+          "b": "AI 帶來的雙面效應： 作者指出，2026 年設計領域因 AI 進入兩波浪潮：非設計師覺得自己「現在也能設計」，而專業設計師則同時感受到工作被加速的興奮與被取代的焦慮。這迫使設計師必須更清楚地表述自己的真實價值。 對獨特品味的需求上升： 作者觀察到，由於 AI 工具多基於相似的模型與訓練資料，產出的設計往往趨同。正因如此，市場對「具有獨特觀點、能創造情感共鳴的設計師」需求反而提高——個人化的設計判斷與故事性成為稀缺資源。 品味的養成與敏感度： 作者將品味比喻為個人對美食的偏好——需要長期接觸高品質、多樣化的設計與藝術作品才能培養。她強調，真正有品味的設計師能察覺一般人看不到的細節，並知道如何建立情感連結，這種敏感度是工具熟練度無法取代的。 AI 的根本限制：同理心： 作者認為 AI 最大的缺陷是「它不是人類」——無法真正同理使用者。儘管 AI 能生成好看的通用介面，卻難以連結人類深層的脈絡、情感與意圖，無法產出微妙或獨特的設計。表層容易，實質仍然困難。 Vibe Designing 工作流： 作者提出「Vibe Designing」概念（對應工程領域的「Vibe Coding」），強調在設計早期探索階段利用 AI 快速實驗想法，而不受僵化細節束縛。她認為這適合某些場景，但並非所有產品設計都應採用，仍需平衡更嚴謹的流程。她也提到 Google Stitch 等產品正在探索低摩擦的創意協作方式。 初階設計師的學習路徑不會消失： 作者反駁「AI 自動化初階任務會導致人才斷層」的擔憂，指出線框圖、版面設計等基礎工作並非只屬於初階設計師——資深設計師也做這些，差別在背後的判斷深度。她認為 AI 反而釋放時間讓初階設計師學習產品思維、使用者研究等核心技能，且新一代設計師本身就是「AI 原生代」，具備獨特優勢。 從設計介面到設計系統與行為： 作者指出，當介面從靜態畫面轉為 AI Agent 驅動的對話與行動時，設計師的角色更像「編排者（orchestrator）」——必須理解整個系統如何運作，包括 AI Agent 本身的行為邏輯、決策方式與人機互動的交接點。設計思維因此需擴展到「把 AI Agent 也當成一種使用者」。 Anthropic 招聘設計師的訊號： 作者以 Anthropic（開發 Claude 的公司）積極招募設計師為例，強調即使在最前沿的 AI 公司，設計師仍不可或缺。她以 Claude Code 為例說明，產品的成功不只靠「漂亮 UI」，而在於體驗流程、系統運作與使用感受的整體設計——這些直覺與思考能力難以被 AI 取代。 對設計／產品的啟示 作者建議設計師建立「為何做設計」的核心使命感，以此驅動對工具（包括 AI）的好奇與學習；同時應發展個人觀點與品味，這些才是跨越工具迭代、真正難以取代的價值。對創辦人與產品團隊，她提醒不要因 AI 加速產出而跳過真正的使用者觀察與同理——當表層變容易時，更要守住底層的思考與發現能力。AI 是工具，但設計的本質仍在於理解人、連結人，以及對細節的敏感判斷。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Design with AI"
+        },
+        {
+          "k": "tweet",
+          "t": "面試時要求設計 Spotify，實際工作卻是花兩天說服七位同事支持延後上線以避免 hacky 做法，還要想辦法把這件事包裝成績效亮點。諷刺地點出面試考題與真實 PM/設計工作的巨大落差。",
+          "b": "Interview: * Design Spotify from scratch On the job: * Persuade 7 colleagues to support your decision to delay the project by 2 business days so you can do it in a non-hacky way. Figure out how to turn this into positive quantifiable impact for your next performance review.",
+          "m": "Vasilios Syrakis @vasilios_s"
+        },
+        {
+          "k": "tweet",
+          "t": "Figure 機器人創辦人分享最大工程錯誤：2022 年為 F.01 機器人選擇了腱驅動手部設計。雖然理論上腱式設計能提供更多致動器封裝空間，但實務上帶來更多問題。",
+          "b": "The biggest engineering mistake I made at Figure was building a tendon-based hand Our first hand design in 2022 was a tendon hand for our F.01 robot. At a high level, the tendon approach sounds appealing, which is why I chose it: you get more space for packaging actuators since",
+          "m": "Brett Adcock @adcock_brett"
+        },
+        {
+          "k": "tweet",
+          "t": "諷刺蘋果竟然用這個範例作為平台設計指南，質疑一家市值 4 兆美元公司的設計品質標準。",
+          "b": "imagine using this example for how to design for your platform $4T company btw https://t.co/xKi21loTEB",
+          "m": "cristian rus @CristianRus4"
+        },
+        {
+          "k": "tweet",
+          "t": "Andrew Ng 提供一小時免費課程教你從零開始成為 AI 代理工程師，涵蓋 AI agent 基礎、工作流程與設計模式、實作案例等內容。",
+          "b": "Don't waste 2 years learning to become an AI agentic engineer in 2026. Andrew Ng, the godfather of AI, gave the complete playbook to become one from scratch. 1 hour course. Free: • 00:00 - AI agent basics • 12:12 - AI Agentic workflows &amp; design patterns • 53:27 - Practical https://t.co/w0ZIqCr8vO",
+          "m": "Dhairya @dkare1009"
+        },
+        {
+          "k": "tweet",
+          "t": "整理四個開發者工具資源：AI agents 的高品質 DESIGN.md 範例、vibe coders 工具目錄、React landing page 元件庫、以及開源 JavaScript 整合方案。",
+          "b": "https://t.co/idBsEkFbJV - High-quality DESIGN .md examples for AI agents https://t.co/hsmfpTjoLz - Directory of tools for vibe coders https://t.co/TVD8NVMjHV - React component library for beautiful landing pages https://t.co/Vb9nm8V9wu - Open-source all-in-one JavaScript https://t.co/oPj7PNVs1t",
+          "m": "Csaba Kissi @csaba_kissi"
+        },
+        {
+          "k": "tweet",
+          "t": "認為 Apple 的設計遠遠超前時代。",
+          "b": "Apple design was way ahead of it's time. https://t.co/XJ6gLv8AI4",
+          "m": "Schrödinger @phonefuturist"
+        },
+        {
+          "k": "tweet",
+          "t": "如果 Google 都能發布這種作品，設計師們完全不需要害羞分享自己的設計。暗示 Google 發布的設計品質不佳，藉此鼓勵其他設計師。",
+          "b": "if Google can post this, there’s no reason to be shy to post your design work here",
+          "m": "charlota @0xCharlota"
+        },
+        {
+          "k": "tweet",
+          "t": "Google 發布 Pixel 11 系列，主打精緻設計與硬體、相機升級、更主動的 Gemini 支援，以及搭載最快的 Tensor G6 晶片。",
+          "b": "Meet Google Pixel 11, Pixel 11 Pro, and Pixel 11 Pro XL. 💪 Sophisticated design and refined hardware that’s built to last 📷 Major camera upgrades ✨ More proactive Gemini support 📲 Powered by Google Tensor G6, our fastest, most powerful chip #MadeByGoogle https://t.co/kB4zVtoT1V",
+          "m": "Google @Google"
+        },
+        {
+          "k": "tweet",
+          "t": "認為抽卡遊戲（Gacha games）多年來已徹底破壞了角色設計的美感標準。",
+          "b": "Gacha games have destroyed all sense of character design over the years omg",
+          "m": "Jessica @images_i_hate2"
+        },
+        {
+          "k": "tweet",
+          "t": "批評近期 HUD（遊戲介面）設計過於無聊乏味，質疑是否已忘記如何做好介面設計。",
+          "b": "have we forgotten how to design HUDs bro what is this boring ass shit",
+          "m": "balta 🇦🇷 @BGarcN2"
+        },
+        {
+          "k": "tweet",
+          "t": "質疑為何現在的角色建模不再遵循實際的設計原則。",
+          "b": "Why don’t they model their characters with actual design principles anymore",
+          "m": "PK🍓🍉 @PKontwt"
+        },
+        {
+          "k": "tweet",
+          "t": "質疑廣告主有預算租廣告看板，卻不願付費請專業平面或視覺設計師做設計的邏輯矛盾。",
+          "b": "The economics just don’t make sense to me. If you can afford to pay DDP to rent a billboard for an ad, why not pay a graphic designer or visual communication professional to create the actual design? You’ve got the budget for the billboard but somehow not the budget for the",
+          "m": "Kwadwo Sheldon @kwadwosheldon"
+        },
+        {
+          "k": "product",
+          "t": "Kitbitz",
+          "b": "2K+ free hand-drawn illustrations for your projects, CC0 提供超過 2000 個免費手繪風格插圖素材，採用 CC0 授權可自由用於各類專案。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Kin Health",
+          "b": "Record doctor visits and get clear summaries 記錄看診過程並自動生成清晰摘要，幫助患者更好理解醫療資訊。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Skilldocs",
+          "b": "Figma for markdown 以 Figma 操作邏輯為概念的 Markdown 協作編輯工具，適合團隊文件撰寫。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Human Behavior",
+          "b": "Product analytics told you what happened. We handle it. 不只分析產品數據呈現發生了什麼，更主動協助處理後續行動與優化。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Kivicube",
+          "b": "Create AR experiences with AI, no code required! 透過 AI 技術無需程式碼即可創建 AR 擴增實境體驗，降低開發門檻。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Dishylink",
+          "b": "Open-source Starlink monitoring app for Mac, Windows and Web 開源的 Starlink 衛星網路監控應用程式，支援 Mac、Windows 和網頁版。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-13",
       "dd": "2026 年 08 月 13 日",
