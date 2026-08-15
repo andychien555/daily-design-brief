@@ -3,59 +3,5 @@
     "data",
     "success",
     "usage"
-  ],
-  "data": [
-    {
-      "id": "2088040287793016995",
-      "text": "Conquering the next battlefield: Space.\n\nWe bet our own money to rapidly design, build, test, and fly a fully integrated satellite. Last month, ANDURIL-216 reached orbit. Anduril, alongside a few core partners, went from clean sheet to on orbit in less than two years.\n\nAll https://t.co/0UwzCr2veu",
-      "createdAt": "Thu Aug 13 23:09:33 +0000 2026",
-      "language": "en",
-      "retweetCount": 89,
-      "favoriteCount": 1061,
-      "replyCount": 35,
-      "quoteCount": 19,
-      "viewCount": 30212,
-      "userScreenName": "anduriltech",
-      "userName": "Anduril Industries",
-      "userIdStr": "876836424036659200",
-      "userFollowers": 261835,
-      "conversationId": "2088040287793016995",
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://x.com/anduriltech/status/2088040287793016995/photo/1",
-          "thumbUrl": "https://pbs.twimg.com/media/HPou1Wta8AAhFbE.jpg"
-        }
-      ]
-    },
-    {
-      "id": "2088028096641331290",
-      "text": "Thinking about their design #frostcup #hijack #hiccup #jackfrost https://t.co/jGG3n9YKzr",
-      "createdAt": "Thu Aug 13 22:21:06 +0000 2026",
-      "language": "en",
-      "retweetCount": 276,
-      "favoriteCount": 2123,
-      "replyCount": 7,
-      "quoteCount": 10,
-      "viewCount": 9316,
-      "userScreenName": "samottaaa",
-      "userName": "samota",
-      "userIdStr": "1959720495634333696",
-      "userFollowers": 721,
-      "conversationId": "2088028096641331290",
-      "hashtags": [
-        "frostcup",
-        "hijack",
-        "hiccup",
-        "jackfrost"
-      ],
-      "media": [
-        {
-          "type": "photo",
-          "url": "https://x.com/samottaaa/status/2088028096641331290/photo/1",
-          "thumbUrl": "https://pbs.twimg.com/media/HPoqfFZWQAAoAa9.jpg"
-        }
-      ]
-    }
   ]
 }
