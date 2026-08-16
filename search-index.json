@@ -1,6 +1,85 @@
 {
-  "generated_at": "2026-08-15T22:16:48+08:00",
+  "generated_at": "2026-08-16T08:57:09+08:00",
   "days": [
+    {
+      "d": "2026-08-16",
+      "dd": "2026 年 08 月 16 日",
+      "no": 122,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "「Woke 1 was crazy」是絕妙的溝通設計範例：同時承認錯誤、迴避責任，並為 Woke 2 鋪路，展現了訊息框架的巧妙操作。",
+          "b": "\"Woke 1 was crazy\" is a phenomenal piece of communication design. it simultaneously admits fault, avoids accountability, and primes us for Woke 2",
+          "m": "Richard D. Bartlett @RichDecibels"
+        },
+        {
+          "k": "tweet",
+          "t": "本世代的設計趨勢是「微設計」（micro design）：誠實、微小的設計元素，如麵包標籤周邊、郵票 UI、收據風格專輯等，反映了被資訊淹沒的世代對簡約真實感的渴求。",
+          "b": "the design trend of our decade: micro design. tiny, honest design. it shows up bread tag merch of f1, tech logos designed like care labels, albums designed as receipts, the stamp ui trend, the guest-check poster trend on tiktok, and more. when a generation is overwhelmed with https://t.co/OYGLDvt63a",
+          "m": "cova @covacut"
+        },
+        {
+          "k": "tweet",
+          "t": "關於好的 API 設計的討論文章連結。",
+          "b": "On good API design https://t.co/jMZpaa4Jkq",
+          "m": "Sarim Malik @sarimrmalik"
+        },
+        {
+          "k": "tweet",
+          "t": "使用 antigravity + ChatGPT + Figma 在約 100 分鐘內完成從概念、情緒板、圖像、設計到上線的完整流程，展示 AI 工具加速設計交付的實例。",
+          "b": "built this using antigravity + chatgpt + figma in ~100 mins 👀 (idea → moodboard → images → design → live) https://t.co/QWHz5TJhbB",
+          "m": "Shruti @ShruPosts"
+        },
+        {
+          "k": "tweet",
+          "t": "使用 Cursor Composer 2.5 搭配設計工具快速建構 hero section，展示 AI 輔助前端開發的實作。",
+          "b": "Built this hero section using Cursor Composer 2.5 + my favorite design app. skill: https://t.co/Gs1RT1BZxi https://t.co/KOJbZKMGIe",
+          "m": "Elaya @elayadesigns"
+        },
+        {
+          "k": "tweet",
+          "t": "2026 年設計趨勢整理（視覺圖表形式）。",
+          "b": "Design trends 2026 edition! https://t.co/SYrGnh4NzJ",
+          "m": "Albia @AlbiaHossain"
+        },
+        {
+          "k": "tweet",
+          "t": "系統設計（System Design）學習影片清單推薦，適合週末觀看以建立系統性理解。",
+          "b": "Watch ALL THESE VIDEOS over the weekend. System Design will become ABSOLUTELY EASY:",
+          "m": "Swapna Kumar Panda @swapnakpanda"
+        },
+        {
+          "k": "tweet",
+          "t": "法國 Nantes 的肉鋪與滑板店共用一個巧妙的雙面招牌：一面看是牛排、另一面是滑板，展示情境導向的視覺設計如何為兩個品牌服務。",
+          "b": "In Nantes, France, a butcher shop and a skateboard store sit next to each other and share the same clever sign. From one side it looks like a steak, while from the other it looks like a skateboard, making the design work perfectly for both businesses. https://t.co/l8ottWuvnO",
+          "m": "NO CONTEXT HUMANS @HumansNoContext"
+        },
+        {
+          "k": "product",
+          "t": "GLM-5.3",
+          "b": "Coding leap from scaled post-training on the same base 一個透過規模化後訓練強化程式編寫能力的 AI 語言模型，專為開發者提供更優秀的程式碼生成表現。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Basedash Tasks",
+          "b": "Run your business on autopilot 一個自動化業務流程的工具，讓企業透過設定任務規則來自動執行日常營運工作。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "ChordViz",
+          "b": "Build your own music visualizer for MIDI & audio 一個音樂視覺化工具，讓使用者為 MIDI 檔案或音訊素材建立自訂的視覺化效果。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Theos[RFM]",
+          "b": "Manage facilities in 3D, in the real world, in real time 一個 3D 設施管理平台，讓管理者能即時在真實環境中以三維視角管理與監控設施。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-15",
       "dd": "2026 年 08 月 15 日",
