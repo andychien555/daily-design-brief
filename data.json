@@ -1,119 +1,34 @@
 {
-  "date": "2026-08-16",
-  "date_display": "2026 年 08 月 16 日",
-  "generated_at": "2026-08-16T08:56:00.643413+08:00",
-  "since_date": "2026-08-14",
+  "date": "2026-08-17",
+  "date_display": "2026 年 08 月 17 日",
+  "generated_at": "2026-08-17T08:56:12.820940+08:00",
+  "since_date": "2026-08-15",
   "top_tweets": [
     {
-      "id": "2088181981351702819",
-      "text": "\"Woke 1 was crazy\" is a phenomenal piece of communication design. it simultaneously admits fault, avoids accountability, and primes us for Woke 2",
-      "author": "RichDecibels",
-      "name": "Richard D. Bartlett",
-      "likes": 11113,
-      "retweets": 612,
-      "replies": 90,
-      "created": "Fri Aug 14 08:32:35 +0000 2026",
-      "url": "https://x.com/RichDecibels/status/2088181981351702819",
+      "id": "2088913456594649549",
+      "text": "This is the best design engineering magazine I've seen.\n\nEvery concept is an interactive demo, not a wall of text.\n\nSave it → https://t.co/sMm92HUWNg https://t.co/Sh8n10TOZC",
+      "author": "tranmautritam",
+      "name": "Tran Mau Tri Tam ✪",
+      "likes": 758,
+      "retweets": 48,
+      "replies": 11,
+      "created": "Sun Aug 16 08:59:12 +0000 2026",
+      "url": "https://x.com/tranmautritam/status/2088913456594649549",
       "source": "Design",
-      "summary_zh": "「Woke 1 was crazy」是絕妙的溝通設計範例：同時承認錯誤、迴避責任，並為 Woke 2 鋪路，展現了訊息框架的巧妙操作。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "summary_zh": "推薦一本互動式設計工程雜誌，每個概念都是可互動的 demo 而非純文字說明，對設計工程師很有參考價值。"
     },
     {
-      "id": "2088322183236083970",
-      "text": "the design trend of our decade:\n\nmicro design. tiny, honest design.\n\nit shows up bread tag merch of f1, tech logos designed like care labels, albums designed as receipts, the stamp ui trend, the guest-check poster trend on tiktok, and more.\n\nwhen a generation is overwhelmed with https://t.co/OYGLDvt63a",
-      "author": "covacut",
-      "name": "cova",
-      "likes": 1278,
-      "retweets": 104,
-      "replies": 6,
-      "created": "Fri Aug 14 17:49:42 +0000 2026",
-      "url": "https://x.com/covacut/status/2088322183236083970",
+      "id": "2089106739354304890",
+      "text": "I love when games add FUN and CREATIVE mini games that help progress your character.  This is a INNOAVTIVE \"working\" mini game that helps earn your character extra money if you get the timing down.  Rewarding the player for learning is GOOD game design. https://t.co/Ethw9tllNL",
+      "author": "Windpress",
+      "name": "Windpress",
+      "likes": 1462,
+      "retweets": 35,
+      "replies": 8,
+      "created": "Sun Aug 16 21:47:15 +0000 2026",
+      "url": "https://x.com/Windpress/status/2089106739354304890",
       "source": "Design",
-      "summary_zh": "本世代的設計趨勢是「微設計」（micro design）：誠實、微小的設計元素，如麵包標籤周邊、郵票 UI、收據風格專輯等，反映了被資訊淹沒的世代對簡約真實感的渴求。"
-    },
-    {
-      "id": "2088366530702516489",
-      "text": "On good API design \n\nhttps://t.co/jMZpaa4Jkq",
-      "author": "sarimrmalik",
-      "name": "Sarim Malik",
-      "likes": 1235,
-      "retweets": 86,
-      "replies": 3,
-      "created": "Fri Aug 14 20:45:55 +0000 2026",
-      "url": "https://x.com/sarimrmalik/status/2088366530702516489",
-      "source": "Design",
-      "summary_zh": "關於好的 API 設計的討論文章連結。"
-    },
-    {
-      "id": "2088491372923986107",
-      "text": "built this using antigravity + chatgpt + figma in ~100 mins 👀\n(idea → moodboard → images → design → live) https://t.co/QWHz5TJhbB",
-      "author": "ShruPosts",
-      "name": "Shruti",
-      "likes": 1411,
-      "retweets": 50,
-      "replies": 80,
-      "created": "Sat Aug 15 05:02:00 +0000 2026",
-      "url": "https://x.com/ShruPosts/status/2088491372923986107",
-      "source": "Design",
-      "summary_zh": "使用 antigravity + ChatGPT + Figma 在約 100 分鐘內完成從概念、情緒板、圖像、設計到上線的完整流程，展示 AI 工具加速設計交付的實例。"
-    },
-    {
-      "id": "2088200103719059700",
-      "text": "Built this hero section using Cursor Composer 2.5 + my favorite design app.\n\nskill: https://t.co/Gs1RT1BZxi https://t.co/KOJbZKMGIe",
-      "author": "elayadesigns",
-      "name": "Elaya",
-      "likes": 2110,
-      "retweets": 129,
-      "replies": 55,
-      "created": "Fri Aug 14 09:44:36 +0000 2026",
-      "url": "https://x.com/elayadesigns/status/2088200103719059700",
-      "source": "Design",
-      "summary_zh": "使用 Cursor Composer 2.5 搭配設計工具快速建構 hero section，展示 AI 輔助前端開發的實作。"
-    },
-    {
-      "id": "2088210250235359268",
-      "text": "Design trends 2026 edition! https://t.co/SYrGnh4NzJ",
-      "author": "AlbiaHossain",
-      "name": "Albia",
-      "likes": 1994,
-      "retweets": 298,
-      "replies": 3,
-      "created": "Fri Aug 14 10:24:55 +0000 2026",
-      "url": "https://x.com/AlbiaHossain/status/2088210250235359268",
-      "source": "Design",
-      "summary_zh": "2026 年設計趨勢整理（視覺圖表形式）。"
-    },
-    {
-      "id": "2088311490050982005",
-      "text": "Watch ALL THESE VIDEOS over the weekend. System Design will become ABSOLUTELY EASY:",
-      "author": "swapnakpanda",
-      "name": "Swapna Kumar Panda",
-      "likes": 1461,
-      "retweets": 166,
-      "replies": 26,
-      "created": "Fri Aug 14 17:07:12 +0000 2026",
-      "url": "https://x.com/swapnakpanda/status/2088311490050982005",
-      "source": "Design",
-      "summary_zh": "系統設計（System Design）學習影片清單推薦，適合週末觀看以建立系統性理解。"
-    },
-    {
-      "id": "2088686409620008998",
-      "text": "In Nantes, France, a butcher shop and a skateboard store sit next to each other and share the same clever sign.\n\nFrom one side it looks like a steak, while from the other it looks like a skateboard, making the design work perfectly for both businesses. https://t.co/l8ottWuvnO",
-      "author": "HumansNoContext",
-      "name": "NO CONTEXT HUMANS",
-      "likes": 887,
-      "retweets": 70,
-      "replies": 23,
-      "created": "Sat Aug 15 17:57:00 +0000 2026",
-      "url": "https://x.com/HumansNoContext/status/2088686409620008998",
-      "source": "Design",
-      "summary_zh": "法國 Nantes 的肉鋪與滑板店共用一個巧妙的雙面招牌：一面看是牛排、另一面是滑板，展示情境導向的視覺設計如何為兩個品牌服務。"
+      "summary_zh": "遊戲中加入有趣且有創意的小遊戲來幫助角色成長是好設計，透過學習時機點來獎勵玩家是創新的「打工」系統範例。"
     }
   ],
   "criteria": {
@@ -196,50 +111,29 @@
   },
   "top_products": [
     {
-      "title": "GLM-5.3",
-      "url": "https://www.producthunt.com/products/z-ai",
-      "published": "2026-08-13T23:21:52-07:00",
-      "author": "Zac Zuo",
-      "tagline": "Coding leap from scaled post-training on the same base",
-      "post_id": "1222612",
-      "summary_zh": "一個透過規模化後訓練強化程式編寫能力的 AI 語言模型，專為開發者提供更優秀的程式碼生成表現。",
-      "image_url": "https://ph-files.imgix.net/a66f6162-7d8a-429f-be63-5928828439a3.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/8749749c-b506-4762-9453-1b35e9b04ae6.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Basedash Tasks",
-      "url": "https://www.producthunt.com/products/basedash",
-      "published": "2026-08-13T20:29:11-07:00",
-      "author": "Max Musing",
-      "tagline": "Run your business on autopilot",
-      "post_id": "1222557",
-      "summary_zh": "一個自動化業務流程的工具，讓企業透過設定任務規則來自動執行日常營運工作。",
-      "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/0cbe5de1-8ca4-4556-b5b4-a50c1492f59f.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "ChordViz",
-      "url": "https://www.producthunt.com/products/chordviz",
-      "published": "2026-08-13T18:28:45-07:00",
-      "author": "Charles-Antoine Pouliot",
-      "tagline": "Build your own music visualizer for MIDI & audio",
-      "post_id": "1222530",
-      "summary_zh": "一個音樂視覺化工具，讓使用者為 MIDI 檔案或音訊素材建立自訂的視覺化效果。",
-      "image_url": "https://ph-files.imgix.net/9676d4cd-08a0-4f39-a7f5-5e1d025d2029.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/dff30fc0-a2f1-491b-9e8c-e32cc15a0430.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Theos[RFM]",
-      "url": "https://www.producthunt.com/products/theos-rfm-remote-facility-manager",
-      "published": "2026-08-13T19:57:16-07:00",
-      "author": "Michael Martinez",
-      "tagline": "Manage facilities in 3D, in the real world, in real time",
-      "post_id": "1222549",
-      "summary_zh": "一個 3D 設施管理平台，讓管理者能即時在真實環境中以三維視角管理與監控設施。",
-      "image_url": "https://ph-files.imgix.net/07d83e07-ff70-4916-a108-142200f5bfd6.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/6c7c6c41-57ef-46ff-8765-3b6415509a07.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Chert",
+      "url": "https://www.producthunt.com/products/chert",
+      "published": "2026-08-14T21:01:04-07:00",
+      "author": "Garry Tan",
+      "tagline": "Vapi for FaceTime: AI video agents in a few lines",
+      "post_id": "1223253",
+      "summary_zh": "讓開發者用幾行程式碼就能建立 AI 視訊代理的工具，類似 Vapi 但應用於 FaceTime 等視訊場景。適合需要整合 AI 視訊對話功能的開發團隊。",
+      "image_url": "https://ph-files.imgix.net/e66b9f3a-dc19-436b-b3b4-7c446053582e.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c3d776fa-b38f-4639-b9d5-6d9a45468dc5.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "podcast_briefs": [],
-  "article_briefs": []
+  "article_briefs": [
+    {
+      "title": "The Case For Personal AGI",
+      "url": "https://mailchi.mp/ycombinator/this-week-at-august-16th",
+      "published": "2026-08-17",
+      "author": "Y Combinator",
+      "handle": "ycombinator",
+      "source": "This Week at YC",
+      "label": "創業週報",
+      "summary_md": "## 一句話總結\nYC 總裁 Garry Tan 在 Startup School 2026 提出「個人 AGI」概念，主張創業者應自建 AI 基礎設施而非租用服務，以累積專屬知識並提升建構能力。\n\n- **本週主打：** Garry Tan 認為我們正進入「個人 AGI」時代——AI 代理運行在創業者自有基礎設施上、隨時間累積知識，創業者應「擁有自己的智能」而非向大型服務商租用，他分享了自己每天使用的工具與工作流程。另有 Paper Club 探討機器人技術十年來未突破的原因與最新研究進展；Starcloud CEO Philip Johnston 講述如何將 Nvidia H100 送上軌道、成為首個在太空訓練大型語言模型的公司，該公司自 Demo Day 後 17 個月內估值達 10 億美元、募資 2 億美元並申請發射 88,000 顆衛星。\n\n- **YC 動態：** 直播電商平台 Whatnot 新一輪融資估值達 200 億美元；史上最大電動飛機完成首飛；HappyRobot 估值 12 億美元；AI 程式碼測試新創 Blacksmith 不到一年估值成長近 10 倍；保險數據整合平台 Axle 募資 1,750 萬美元。\n\n- **新創 launch：** 本週上線的 YC S2026 公司聚焦「AI 代理自動化」趨勢——涵蓋貨運經紀（Peer 全自動化從報價到交付）、政府流程自動化（Stratum Industries）、線上市場銷售代理（Palisade 為每位訪客配置專屬代理）、法律事務所 AI 化（Perceptron ML）、將公司內部數據轉為訓練場（Ooak Data）、運算力交易市場（Touchmark、Computable）、機器人世界模型（Moving Atoms）等，顯示「垂直場景 AI 代理」與「運算資源商品化」成為主流方向。\n\n- **HN 熱門：** 本週 Hacker News 熱議大型語言模型新版本（Qwen 3.8 27B、Muse Glimmer 30B、GLM-5.3、DeepSeek V4 Pro、Gemini 3.7 Flash）與「Opus 5 體驗變差」討論，反映社群對模型效能與使用體驗的高度關注；另有 SQLite 16 年老 bug 追蹤、法國禁止未經同意的電話行銷、「AI 是否正在移除軟體工程中產階級」辯論，以及如何用 LLM 學習複雜主題的實務分享。\n\n## 對設計／產品的啟示\n作者（Garry Tan）主張創業者應建立「自有 AI 基礎設施」而非依賴租用服務，這對產品設計者的啟示是：當 AI 能力成為核心競爭力時，「資料主權」與「知識累積」比短期便利更重要——設計 AI 產品時需考慮如何讓使用者擁有並沉澱自己的數據與模型，而非僅提供黑箱 API；本週新創清單也顯示，將 AI 代理深度整合進特定垂直場景（政府、法律、物流、市場）比通用工具更有價值，產品設計應聚焦「工作流程自動化」而非單點功能優化。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-08-17"
+    }
+  ]
 }

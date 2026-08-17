@@ -1,6 +1,37 @@
 {
-  "generated_at": "2026-08-16T22:17:01+08:00",
+  "generated_at": "2026-08-17T08:57:25+08:00",
   "days": [
+    {
+      "d": "2026-08-17",
+      "dd": "2026 年 08 月 17 日",
+      "no": 123,
+      "items": [
+        {
+          "k": "article",
+          "t": "The Case For Personal AGI",
+          "b": "本週主打： Garry Tan 認為我們正進入「個人 AGI」時代——AI 代理運行在創業者自有基礎設施上、隨時間累積知識，創業者應「擁有自己的智能」而非向大型服務商租用，他分享了自己每天使用的工具與工作流程。另有 Paper Club 探討機器人技術十年來未突破的原因與最新研究進展；Starcloud CEO Philip Johnston 講述如何將 Nvidia H100 送上軌道、成為首個在太空訓練大型語言模型的公司，該公司自 Demo Day 後 17 個月內估值達 10 億美元、募資 2 億美元並申請發射 88,000 顆衛星。 YC 動態： 直播電商平台 Whatnot 新一輪融資估值達 200 億美元；史上最大電動飛機完成首飛；HappyRobot 估值 12 億美元；AI 程式碼測試新創 Blacksmith 不到一年估值成長近 10 倍；保險數據整合平台 Axle 募資 1,750 萬美元。 新創 launch： 本週上線的 YC S2026 公司聚焦「AI 代理自動化」趨勢——涵蓋貨運經紀（Peer 全自動化從報價到交付）、政府流程自動化（Stratum Industries）、線上市場銷售代理（Palisade 為每位訪客配置專屬代理）、法律事務所 AI 化（Perceptron ML）、將公司內部數據轉為訓練場（Ooak Data）、運算力交易市場（Touchmark、Computable）、機器人世界模型（Moving Atoms）等，顯示「垂直場景 AI 代理」與「運算資源商品化」成為主流方向。 HN 熱門： 本週 Hacker News 熱議大型語言模型新版本（Qwen 3.8 27B、Muse Glimmer 30B、GLM-5.3、DeepSeek V4 Pro、Gemini 3.7 Flash）與「Opus 5 體驗變差」討論，反映社群對模型效能與使用體驗的高度關注；另有 SQLite 16 年老 bug 追蹤、法國禁止未經同意的電話行銷、「AI 是否正在移除軟體工程中產階級」辯論，以及如何用 LLM 學習複雜主題的實務分享。 對設計／產品的啟示 作者（Garry Tan）主張創業者應建立「自有 AI 基礎設施」而非依賴租用服務，這對產品設計者的啟示是：當 AI 能力成為核心競爭力時，「資料主權」與「知識累積」比短期便利更重要——設計 AI 產品時需考慮如何讓使用者擁有並沉澱自己的數據與模型，而非僅提供黑箱 API；本週新創清單也顯示，將 AI 代理深度整合進特定垂直場景（政府、法律、物流、市場）比通用工具更有價值，產品設計應聚焦「工作流程自動化」而非單點功能優化。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Y Combinator"
+        },
+        {
+          "k": "tweet",
+          "t": "推薦一本互動式設計工程雜誌，每個概念都是可互動的 demo 而非純文字說明，對設計工程師很有參考價值。",
+          "b": "This is the best design engineering magazine I've seen. Every concept is an interactive demo, not a wall of text. Save it → https://t.co/sMm92HUWNg https://t.co/Sh8n10TOZC",
+          "m": "Tran Mau Tri Tam ✪ @tranmautritam"
+        },
+        {
+          "k": "tweet",
+          "t": "遊戲中加入有趣且有創意的小遊戲來幫助角色成長是好設計，透過學習時機點來獎勵玩家是創新的「打工」系統範例。",
+          "b": "I love when games add FUN and CREATIVE mini games that help progress your character. This is a INNOAVTIVE \"working\" mini game that helps earn your character extra money if you get the timing down. Rewarding the player for learning is GOOD game design. https://t.co/Ethw9tllNL",
+          "m": "Windpress @Windpress"
+        },
+        {
+          "k": "product",
+          "t": "Chert",
+          "b": "Vapi for FaceTime: AI video agents in a few lines 讓開發者用幾行程式碼就能建立 AI 視訊代理的工具，類似 Vapi 但應用於 FaceTime 等視訊場景。適合需要整合 AI 視訊對話功能的開發團隊。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-16",
       "dd": "2026 年 08 月 16 日",
