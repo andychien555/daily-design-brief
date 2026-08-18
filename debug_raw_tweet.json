@@ -6,51 +6,51 @@
   ],
   "data": [
     {
-      "id": "2089147785480114328",
-      "text": "First look at the design for the ‘LION KING’ log flume ride coming to Disneyland Paris. https://t.co/Flv2fyDNdE",
-      "createdAt": "Mon Aug 17 00:30:21 +0000 2026",
+      "id": "2089493662572892560",
+      "text": "In Minnesota, noncitizen voting appears to be more of a design feature than a bug",
+      "createdAt": "Mon Aug 17 23:24:44 +0000 2026",
       "language": "en",
-      "retweetCount": 82,
-      "favoriteCount": 1315,
-      "replyCount": 17,
-      "quoteCount": 2,
-      "viewCount": 69425,
-      "userScreenName": "DiscussingFilm",
-      "userName": "DiscussingFilm",
-      "userIdStr": "780460754910732288",
-      "userFollowers": 3160665,
+      "retweetCount": 302,
+      "favoriteCount": 1148,
+      "replyCount": 35,
+      "quoteCount": 10,
+      "viewCount": 18125,
+      "userScreenName": "BasedMikeLee",
+      "userName": "Mike Lee",
+      "userIdStr": "1551266822460162051",
+      "userFollowers": 704213,
       "userVerified": true,
-      "conversationId": "2089147785480114328",
-      "media": [
-        {
-          "type": "video",
-          "url": "https://x.com/DiscussingFilm/status/2089147785480114328/video/1",
-          "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2089147726617354240/img/ul4uKEuv6T5Y-RYN.jpg",
-          "videoUrl": "https://video.twimg.com/amplify_video/2089147726617354240/vid/avc1/1920x1080/WZtjSIe-9JEOB8jk.mp4?tag=29",
-          "duration": 10166
-        }
-      ]
+      "conversationId": "2089493662572892560",
+      "isQuote": true,
+      "quoteId": "2089473325055541546"
     },
     {
-      "id": "2089112207460065633",
-      "text": "earth designgg!!\n🌎 https://t.co/30rwPYozg5",
-      "createdAt": "Sun Aug 16 22:08:58 +0000 2026",
+      "id": "2089484663265918986",
+      "text": "Sadako doodles\nDesign inspired by @Lughostin https://t.co/6fVePrxTGn",
+      "createdAt": "Mon Aug 17 22:48:59 +0000 2026",
       "language": "en",
-      "retweetCount": 159,
-      "favoriteCount": 2466,
-      "replyCount": 27,
-      "quoteCount": 6,
-      "viewCount": 13608,
-      "userScreenName": "torielonepilots",
-      "userName": "ToriOnePilots",
-      "userIdStr": "2041978941670293505",
-      "userFollowers": 8408,
-      "conversationId": "2089112207460065633",
+      "retweetCount": 108,
+      "favoriteCount": 1463,
+      "replyCount": 6,
+      "quoteCount": 2,
+      "viewCount": 7362,
+      "userScreenName": "bazazel1",
+      "userName": "Bazazel1",
+      "userIdStr": "1908205872674951168",
+      "userFollowers": 5716,
+      "conversationId": "2089484663265918986",
       "media": [
         {
           "type": "photo",
-          "url": "https://x.com/torielonepilots/status/2089112207460065633/photo/1",
-          "thumbUrl": "https://pbs.twimg.com/media/HP4EcuGX0AAg05O.jpg"
+          "url": "https://x.com/bazazel1/status/2089484663265918986/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HP9W5LvW0AAvofh.jpg"
+        }
+      ],
+      "mentions": [
+        {
+          "screenName": "Lughostin",
+          "name": "Lughost 🔞",
+          "userId": "1111061683500445698"
         }
       ]
     }

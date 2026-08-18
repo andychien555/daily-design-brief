@@ -1,6 +1,97 @@
 {
-  "generated_at": "2026-08-17T22:21:37+08:00",
+  "generated_at": "2026-08-18T09:00:29+08:00",
   "days": [
+    {
+      "d": "2026-08-18",
+      "dd": "2026 年 08 月 18 日",
+      "no": 124,
+      "items": [
+        {
+          "k": "podcast",
+          "t": "EP328. SPCX Grok 4.6、谷歌 Gemini 3.7 Flash、Anthropic 上市估值 | M觀點",
+          "b": "1. SpaceX Grok 4.6：正式躋身最前沿模型 性能追平 GPT-4o 與 Claude 3.5 Sonnet： Grok 4.6 在 AAI 評分達 61 分，與 GPT-4o SoS 同級，僅次於 Claude Opus 5（63 分）與 Gemini 2.0 Flash（62 分），成為最前沿模型之一。 成本競爭力最強： 每任務成本僅 0.84 美元，比 GPT-4o SoS 便宜 32%、比 Claude Opus 5 便宜 64%、比 Gemini 2.0 Flash 便宜 73%，在最前沿模型中 CP 值最高。 後續 Grok 4.7 值得期待： 預計 9 月中下旬推出，採用 2 trillion 參數基礎模型（較 4.6 的 1.5 trillion 更大），主講人認為有很高機率衝上 AAI 第一名（64–65 分）。 Token 銷售成長三倍： Grok 4.5 推出後每月 Token 銷售量成長 3 倍，4.6 推出後預期成長更快，未來數月月成長率可能達 50%–100%。 2. Google Gemini 3.7 Flash：重返次前沿行列 性能達次前沿標準： AAI 評分 56 分，與 Grok 4.5、GPT-4o Terra、Llama 3.2 同級，雖非最前沿但足以在 95% 以上任務與最前沿模型競爭。 成本與 Llama 3.2 持平： 每任務成本 0.4 美元，與 Llama 3.2 相同，比 GPT-4o Terra 便宜約 20%，但仍比 Grok 4.5 貴 10%。 工作馬模型定位明確： 主講人認為 Flash 系列對標 Claude Sonnet 與 GPT Terra，專攻企業 90% 日常任務，3.7 Flash 推出後有助 Google Cloud Vertex 平台留住客戶。 3.5 Pro 不必期待： 主講人判斷 Gemini 3.5 Pro 可能表現平平、無法獲好評，Google 乾脆不推出，重心改放年底 Gemini 4.0 Pro。 3. 阿里巴巴 Qwen 2.5 27B：首個可在消費級顯卡跑的強模型 記憶體需求極低： 27 billion 參數版本做 4-bit 量化後僅需約 27GB 記憶體，單張 RTX 4090 或 5080（24GB 版）即可跑，是目前 Local 端最好用的模型。 Agentic 能力強化： 在 Agentic Workflow 與 Coding 能力據稱接近今年初 Claude Opus 4.6 水準，適合跑「小龍蝦」等 AI Agent 應用。 開源社群潛力大： 主講人預期大量個人研究者與使用者會採用並微調 Qwen 2.5 27B，成為 Local 端 Agent 應用首選。 4. Anthropic 預計 2 兆美元 IPO：估值略貴但市場可能接受 營收成長驚人： 2024 年 5 月 AR（年化營收速率）為 470 億美元，7 月已達 700 億美元，內部目標年底達 1,000–1,200 億美元（約等同 Google Cloud 目前規模）。 估值從 1 兆跳至 2 兆： 2024 年 5 月 Series H 估值 9,650 億美元，若 10 月以 2 兆 IPO，半年內估值成長 1 兆美元，將超越 SpaceX（1.7 兆）成為史上最大 IPO。 市占率正在下滑： 主講人認為 7 月起 Anthropic 月成長率已低於 20%，OpenAI（GPT-4o 成功）與 xAI（Grok 4.5 後 Token 量三倍成長）成長更快，但因市場總需求強勁，Anthropic 仍能維持絕對金額成長。 合理估值 1–1.5 兆： 主講人個人認為 2 兆略貴（SpaceX 1.7 兆亦然），但預期市場最終可能給出 1.8 兆估值，略高於 SpaceX。 5. 前沿模型競爭格局：從「御三家」到「多強並立」 最前沿陣營（AAI 60 分以上）： Anthropic（Claude Opus 5）、OpenAI（GPT-4o SoS）、xAI（Grok 4.6）三家；中國 Kimi K3 亦稍微觸及最前沿尾巴。 次前沿陣容擴大： Google（Gemini 3.7 Flash）、Meta（Llama 3.2）、阿里（Qwen 2.5）等多家進入次前沿（AAI 56–58 分），在商業應用上已可與最前沿模型競爭。 模型趨向 Commodity 但有摩擦成本： 主講人以 NBA 明星球員類比——頂級模型能力相近可互相取代，但企業若已圍繞某模型建立系統（如戰術、隊友配合），換模型需付出調整成本（如更換配菜、磨合期）。 Google 面臨規模經濟問題： Gemini 目前僅在 Google Cloud 提供，而 OpenAI 與 Anthropic 已上 AWS、Azure 與 GCP 三大雲，主講人認為 Google 未來可能需考慮跨雲部署以擴大市場。 6. Q4 模型大戰預告：多家準備推新旗艦 xAI Grok 4.7（9 月）： 採用 2 trillion 參數基礎模型，主講人預期有高機率成為 AAI 第一（64–65 分）。 OpenAI GPT-6 與 Anthropic 新模型（Q4）： 兩家皆傳出手握更強模型，可能 10–12 月推出；Grok 4.7 若 9 月推出可能短暫登頂，但年底可能被超越。 Google Gemini 4.0 Pro（年底）： 主講人建議不要期待 3.5 Pro，直接等年底 4.0 Pro。 結論與後市展望 主講人認為 AI 模型競爭已從「御三家」（Google、OpenAI、Anthropic）演變為「多強並立」，xAI 與中國廠商快速追上；前沿模型雖趨向通用商品（Commodity），但企業換模型仍有摩擦成本（如系統調整、磨合期），因此各家仍有差異化空間。Anthropic 雖營收成長驚人但市占率正被 OpenAI 與 xAI 侵蝕，2 兆估值略貴但市場可能接受；年底 Q4 將迎來新一波旗艦模型對決，格局仍持續變動。主講人提醒這是對節目內容的摘要，非投資建議。 本筆記為節目內容摘要，非投資建議。",
+          "m": "M觀點"
+        },
+        {
+          "k": "tweet",
+          "t": "Claude Code 推出 /design 功能（研究預覽版），讓開發者可在 CLI 和桌面環境中直接獲得可編輯的 UI artboard，選定後即可請 Claude 實作成程式碼。",
+          "b": "Claude Code can design now. The new /design skill (research preview) brings Claude Design's artboard workflow into the CLI and Desktop, built on artifacts. Run /design to get editable artboards for your UI — pick one, tweak it, then have Claude implement it. https://t.co/uttl4F1G0e",
+          "m": "ClaudeDevs @ClaudeDevs"
+        },
+        {
+          "k": "article",
+          "t": "Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism",
+          "b": "一句話總結 作者認為 AI 已展現初步的科學創造力與自主發現能力，但 Mark Zuckerberg 對「超級智慧發明者」如何與人類共存的關鍵問題避而不談，顯示出一種技術悲觀主義。 DiG-bench 測試創造性直覺： 作者介紹 DiG-bench 基準測試包含 70 個遊戲，要求 AI 透過互動自行發現隱藏規則與目標。目前最強的 Opus 5 和 Fable 5 僅在最高難度（Tier 7）達到 20% 成功率，遠低於人類 100% 表現，但作者預測 2027 年中將達人類水準，屆時遞迴自我改進（RSI）將正式啟動。 Faraday 展現研究品味雛形： 作者描述 AI 新創 Inherent 開發的 Faraday（27B 模型），能監督大型前沿模型進行科學研究。在包含 310 個實驗重現任務的 Replica 資料集上，Faraday 使用 Codex 後，在 73% 機器學習任務和 60% AI 科學任務上超越 GPT-5.5 和 Opus 4.8，顯示 AI 正在獲得「決定研究方向、設計實驗、評估結果」的能力。 RSI 模擬器提供直覺訓練： 作者推薦 Paradigm Research 開發的網頁遊戲，模擬經營 AI 公司並平衡研究人員、算力、資料授權等資源，幫助使用者建立對遞迴自我改進動態的直覺——這對理解 AI 發展的存在性風險至關重要。 Zuckerberg 迴避核心問題： 作者批評 Meta 創辦人 Mark Zuckerberg 發表的《未來屬於每個人》宣言，主張透過大規模開放 AI 來實現個人賦權與發明民主化。但作者指出，Zuckerberg 完全沒有回答：「一個具備超人類發明能力的系統，會單純為能力較弱的人類服務嗎？」這種對權力轉移的忽視，顯示出一種技術悲觀主義——即假設超級智慧不會根本改變現有權力結構。 對設計／產品的啟示 作者暗示，當 AI 具備自主發現與科學創造能力時，產品設計者不能只考慮「如何讓 AI 為使用者服務」，更需思考「當 AI 能力超越人類時，誰來定義目標、誰掌握控制權」。DiG-bench 和 Faraday 的進展提醒我們，遞迴自我改進可能在 2-3 年內成真；此時若仍以「工具」思維設計 AI 產品，將錯失關鍵的權力平衡與安全設計時機。建議設計者現在就該納入「AI 自主性邊界」與「人類監督機制」的思考。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Import AI"
+        },
+        {
+          "k": "article",
+          "t": "UX Roundup: AI Spending Up | Adversarial AI Helps Designers | Design Hypotheses | Generative Accessibility | Skeleton Screens | Pain of Paying",
+          "b": "一句話總結 作者主張設計師應刻意保留「有用的摩擦」——讓 AI 提出反對意見、讓使用者感受到付款的痛感、讓測試能真正推翻設計假說——同時移除那些純粹耗損注意力卻不傳遞資訊的摩擦。 企業 AI 支出正在快速成長： Ramp 信用卡數據顯示，美國企業過去三年 AI 支出年增率中位數為 75%；目前中位數僅每員工每月 12 美元，但前 1% 公司已達每月 7,401 美元，且成長率更高（109%），預計 2031 年可能達每月近 30 萬美元。作者認為這反映 AI 的力量倍增效應，以及未來對 AI 投資的必要性。 「太友善」的 AI 反而妨礙設計進步： 卡內基美隆實驗讓 45 名設計學生改良網站，發現使用「刻意唱反調」AI 代理的組別，比自我檢視組多做了 3.6 倍的修改、刪除了 4 個想法並改寫 6 個；相比之下自我檢視組無人刪除或改寫任何內容（設計固著）。作者強調，AI 應被賦予「懷疑用戶」「被忽略的利害關係人」「嚴格合規審查員」等對抗性角色，才能真正幫助設計師發現盲點。 設計就是假說，應主動試圖推翻它： 作者引用波普爾科學哲學指出，設計本質是「這個版面、標籤、流程能讓人成功」的假說；因此應該原型化後找 5 位使用者測試，並「評分假說而非參與者」。尚未試圖推翻的設計只是「有好看排版的猜測」。 AI 生成無障礙內容應「翻譯」而非「敘述」： 香港科大與哥倫比亞等大學實驗顯示，將視覺內容轉換成空間音效（角色聲音來自其位置、動作配上音效）的 Sonic Stage 系統，讓盲人使用者對角色移動的記憶從 18% 躍升至 86%、位置記憶從 44% 升至 89%；相較之下「全部用語音描述」的基準系統因冗長而失敗。作者指出，當所有事物都被強調時，等於沒有強調，應提供適合該通道的「替代表徵」，而非冗長敘述。 新冠後 AI 曝露職業的年輕勞工就業落後 19%： 史丹佛更新研究顯示，22–25 歲在 AI 曝露度高的職業中，就業量比趨勢線低 19%（一年前為 15%，持續惡化），但有經驗勞工無此落差。機制在於：AI 替代了「可成文的知識」（課程、文件教的內容），但補強了「默會知識」（實踐、師徒制累積的判斷）；企業不裁員，只是停止發 offer 給新人。作者建議學生選課時優先工作室專案與實習，而非純講授課程。 骨架屏（skeleton screen）管理的是感知而非效能： 作者指出，骨架屏（灰色佔位方塊）能讓頁面結構在 0.1 秒內即時顯示，減少累積版面偏移、引導注意力，但不會讓內容下載變快；2017 年 Viget 實驗甚至發現骨架屏在某些情況下讓等待「感覺更久」。使用指引包括：僅用於 1–10 秒等待、必須與最終版面完全一致、內容一到立刻替換、動畫用慢速左右漸層、保持簡潔低對比，並須實測使用者感知。 付款介面設計掌控「付款痛感」強度： 作者引用神經科學與行銷研究指出，現金最痛、信用卡麻痺、一鍵結帳則近乎麻醉；2001 年實驗顯示信用卡付款者出價比現金者高達 100%。設計師可「誠實地降低摩擦」（如預付、包月免除焦慮）或「刻意增加摩擦」（如大額確認、即時通知、可設消費上限），但最糟的是「隱藏旋鈕的麻醉」——儲存卡片 + 一鍵購買 + 先買後付 + 遊戲寶石 + 自動續訂，讓使用者無從感知金錢流失，最終引發退款、負評與立法管制。作者提出 8 條指引，核心是「摩擦應與金額成正比」，並讓使用者自主設定速限。 對設計／產品的啟示 作者認為 2026 年設計師的核心任務是「摩擦分流」：砍掉純粹耗損注意力的摩擦（如 47 個無用按鈕、冗長音訊描述），保留承載資訊的摩擦（對抗性 AI 回饋、可見的購物車總計、能推翻設計的可用性測試）。具體建議包括：給 AI 分配「懷疑論者」「CFO」等對抗角色以獲得真實批評；將設計視為假說並主動用真實使用者測試推翻它；在無障礙設計中優先「翻譯」而非「敘述」，以通訊密度取代敘事完整性；在結帳流程中讓摩擦與金額成正比，並將控制權交還使用者。作者也提醒，美國企業 AI 支出中位數仍極低（每員工每月 12 美元），大部分公司尚未真正起步，而前線公司已每月人均支出數千美元並保持三位數成長率；對想成為 AI-first 公司者，應為明年編列每員工每月 1,450 美元 AI 預算、2031 年達 36,000 美元。最後，作者重申「默會知識」（judgment、說服力）在 AI 時代更形重要，因 AI 能產生 10 個設計變體，但決定該出貨哪一個仍需人類判斷。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "tweet",
+          "t": "整理了四個現成可用的 UI 元件資源庫，包含免費動畫元件、思考球元件、網頁轉場動畫與精緻 UI 套件，適合快速打造產品介面。",
+          "b": "The best UI components ready to use, save this 👇 - https://t.co/reBVrC6Lhr free animated component library - https://t.co/iYyKVCQWE5 Animated thinking orb component - https://t.co/xrq0nyk7IK essential transitions for web apps - https://t.co/qKBCMczxgC crafted UI for https://t.co/0Q4G2t4iNc",
+          "m": "Nero @neropursue"
+        },
+        {
+          "k": "tweet",
+          "t": "Boneyard 工具可自動從真實 UI 中提取版面配置，產生像素完美的骨架屏（skeleton loading screen），開發者與設計師不再需要手動設計載入狀態。",
+          "b": "Brooooooooooooo... this feels like a dream come true for every developer &amp; designer. 🦴 Now you don't have to manually design skeleton screens for your UI. Boneyard automatically extracts the layout from your real UI and generates pixel-perfect skeleton loading screens from it. https://t.co/LqgTP7igcD",
+          "m": "Ram Maheshwari @rammcodes"
+        },
+        {
+          "k": "tweet",
+          "t": "羅馬陶罐底部設計成尖底並非失誤，而是為了在船艙、推車和儲藏架中更穩固地卡位，並方便倒出內容物，是經過深思熟慮的設計。",
+          "b": "Why the Romans gave their amphorae pointed bottoms It looks like a design mistake at first glance. Or they were too dumb to understand flat. Why make a heavy clay vessel that cannot stand on its own when a flat bottom would seem so much more practical? The Romans (and the https://t.co/TIIuNBSrMx",
+          "m": "Brian Roemmele @BrianRoemmele"
+        },
+        {
+          "k": "tweet",
+          "t": "展示了用 MiniMax-H3 生成遊戲角色動作精靈圖的工作流程：先設計角色靜態圖（純色背景），再為每個動作生成 5 秒影片，最後擷取關鍵姿態並去背打包。",
+          "b": "Cool MiniMax-H3 use case unlocked for game sprites creation, here's the workflow: 1. one character design still, on a flat magenta background 2. one 5s H3 clip per move (walk, jump, punch, kick, block...) 3. cut each clip down to its pose extremes 4. key out the magenta, pack https://t.co/AE6Z8mvYu6",
+          "m": "Victor M @victormustar"
+        },
+        {
+          "k": "tweet",
+          "t": "縮圖設計探索過程的視覺分享。",
+          "b": "thumbnail explorations https://t.co/e57kBtIJq0",
+          "m": "cova @covacut"
+        },
+        {
+          "k": "product",
+          "t": "TinyFish",
+          "b": "The web operating layer for AI agents 為 AI agents 提供網頁操作層，讓 AI 代理能夠更有效地與網頁應用程式互動。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Blender Agent Bridge",
+          "b": "Open-source MCP bridge for Blender AI workflows 開源的 MCP 橋接工具，用於串連 Blender 與 AI 工作流程，幫助 3D 創作者整合 AI 功能。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Skriptr",
+          "b": "AI workspace for students 專為學生設計的 AI 工作空間，協助學習與作業管理。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Vendo",
+          "b": "Let your users build their own features inside your product 讓你的用戶在產品內自行建構所需功能的開發平台，提供客製化彈性。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Hansel by Seedling",
+          "b": "Your email, your server, your keys so you're not locked out 自主託管的電子郵件服務，使用者擁有自己的伺服器和金鑰，避免帳號被鎖定的風險。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-17",
       "dd": "2026 年 08 月 17 日",

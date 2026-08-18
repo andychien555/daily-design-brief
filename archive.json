@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-18",
+    "date_display": "2026 年 08 月 18 日",
+    "generated_at": "2026-08-18T08:56:26.451611+08:00",
+    "total": 6,
+    "sources": [
+      "Design"
+    ],
+    "headline": "Claude Code 推出 /design 功能（研究預覽版），讓開發者可在 CLI 和桌面環境中直接獲得可編輯的 UI artboard，選定後即可請 Claude 實作成程式碼。",
+    "no": 124
+  },
+  {
     "date": "2026-08-17",
     "date_display": "2026 年 08 月 17 日",
     "generated_at": "2026-08-17T08:56:12.820940+08:00",
@@ -977,14 +988,5 @@
     ],
     "headline": "Nexu 推出 Open Design 與 Codex 整合功能，讓 AI agent 可以直接操作設計畫布，從設計、程式碼到動畫一次完成，解決 AI 設計過程中保持設計意圖的最大痛點。",
     "no": 35
-  },
-  {
-    "date": "2026-05-19",
-    "date_display": "2026 年 05 月 19 日",
-    "generated_at": "2026-05-19T08:46:59.543043+08:00",
-    "total": 0,
-    "sources": [],
-    "headline": "",
-    "no": 34
   }
 ]
