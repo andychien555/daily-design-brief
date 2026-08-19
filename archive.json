@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-19",
+    "date_display": "2026 年 08 月 19 日",
+    "generated_at": "2026-08-19T08:56:18.139188+08:00",
+    "total": 12,
+    "sources": [
+      "Design"
+    ],
+    "headline": "Anthropic 在 Claude Code 中推出 /design 指令的早期預覽，讓開發者在實作功能前先設計多個視覺方案選項，選定後可直接編輯並實作。",
+    "no": 125
+  },
+  {
     "date": "2026-08-18",
     "date_display": "2026 年 08 月 18 日",
     "generated_at": "2026-08-18T08:56:26.451611+08:00",
@@ -975,18 +986,5 @@
     ],
     "headline": "認為 Google（與 DeepMind）若有產品領導者能大刀闊斧清理整個產品管理官僚體系，就能真正勝出。直指組織結構是 Google 產品力的核心瓶頸。",
     "no": 36
-  },
-  {
-    "date": "2026-05-20",
-    "date_display": "2026 年 05 月 20 日",
-    "generated_at": "2026-05-20T08:46:57.677386+08:00",
-    "total": 10,
-    "sources": [
-      "Design",
-      "Product Management",
-      "UX Design"
-    ],
-    "headline": "Nexu 推出 Open Design 與 Codex 整合功能，讓 AI agent 可以直接操作設計畫布，從設計、程式碼到動畫一次完成，解決 AI 設計過程中保持設計意圖的最大痛點。",
-    "no": 35
   }
 ]

@@ -1,6 +1,121 @@
 {
-  "generated_at": "2026-08-18T22:28:19+08:00",
+  "generated_at": "2026-08-19T08:57:35+08:00",
   "days": [
+    {
+      "d": "2026-08-19",
+      "dd": "2026 年 08 月 19 日",
+      "no": 125,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "Anthropic 在 Claude Code 中推出 /design 指令的早期預覽，讓開發者在實作功能前先設計多個視覺方案選項，選定後可直接編輯並實作。",
+          "b": "Today we’re releasing an early preview of the /design command in Claude Code! from CC Desktop or CLI, try something like \"/design a few options for {feature}\" before you build — pick your fave artboard, edit it and implement. https://t.co/2JKKBnU60Z",
+          "m": "nate parrott @nateparrott"
+        },
+        {
+          "k": "tweet",
+          "t": "推出 Tastelint 工具，可在每個 PR 中自動提供設計回饋。作者認為程式碼問題已大致解決，但設計問題仍待突破。",
+          "b": "Code is mostly solved, but design isn’t. Introducing Tastelint! An agent that runs on every PR and surfaces design feedback. Reply below if you’d like to try it. https://t.co/TqVfT5GFMf",
+          "m": "Sahil Lavingia @shl"
+        },
+        {
+          "k": "tweet",
+          "t": "創辦人分享花費 9 年、11 個原型與所有積蓄，學到所有偉大產品背後都有相同的設計流程，並整理成通用設計流程的 500 字心得與影片。",
+          "b": "It took us 9 years, 11 prototypes, and our life savings to learn that every great product has the same design process. Matic is now decisively the best home robot for families (I'm biased) A 500-word thread and video on the Universal Design Process behind every great product: https://t.co/y3WOeGfYJg",
+          "m": "Mehul @mehul"
+        },
+        {
+          "k": "tweet",
+          "t": "品牌行銷將成為公司最重要的差異化資產，但不是指單純為美感或估值而砸錢，而是真正具備策略價值的品牌建立。",
+          "b": "My hottest take is that brand marketing is going to be THE major differentiator and one of the most prized assets for a company going forward. And, I’m not talking about launch videos or pouring money primarily for “aesthetics” simply to pump the valuation. You still need",
+          "m": "Nikunj Kothari @nikunj"
+        },
+        {
+          "k": "tweet",
+          "t": "軟體工廠應該採用 monorepo 架構，將公司所有脈絡（設計、行銷、銷售、工程、支援等）集中在一處，讓 AI agent 能基於完整資訊進行建置。",
+          "b": "Your software factory should be a monorepo. All your company context (design, marketing, sales, engineering, support…) in one place for agents to build upon",
+          "m": "Guillermo Rauch @rauchg"
+        },
+        {
+          "k": "tweet",
+          "t": "Anthropic 分享藥物開發中分子設計的應用，傳統上需要數週到數月的專家工作來設計能緊密結合目標的分子，AI 可望加速此流程。",
+          "b": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per https://t.co/CGCNTNaKBq",
+          "m": "Anthropic @AnthropicAI"
+        },
+        {
+          "k": "tweet",
+          "t": "Cursor 團隊發文說明如何將 Git 託管基礎設施 Origin 設計成像資料庫一樣運作，以提升可靠性、效能與擴展性，並回顧 20 年 Git 基礎設施演進歷史。",
+          "b": "We're making Git hosting more reliable, performant, and scalable. This post traces 20 years of Git infrastructure and explains how that history led us to design and operate our Git storage, Origin, as if it were a database. https://t.co/UW7jHuItSX",
+          "m": "Cursor @cursor_ai"
+        },
+        {
+          "k": "tweet",
+          "t": "晶片設計師回憶初次聽聞 Cerebras 公司將整片 300mm 晶圓做成單一 AI 晶片的震撼，面積達 46,225 mm²、內含 4 兆電晶體。",
+          "b": "As a chip designer who has spent nearly three decades in Non-memory SoC, I still remember the exact second I first heard about Cerebras. Someone said a Silicon Valley company was trying to turn an entire 300 mm wafer into one single AI chip — 46,225 mm² of silicon, 4 trillion https://t.co/whkUsS6yTg",
+          "m": "Papa Johns @SVTrivo"
+        },
+        {
+          "k": "tweet",
+          "t": "Arcads 開源整套 Marketing OS，聲稱能完成前六位行銷人員的工作，涵蓋定位、定價、競品分析等行銷部門職能。",
+          "b": "We just open-sourced an entire marketing department. Introducing Marketing OS by Arcads. It does the work of your first six marketing hires. 📁 Marketing Department ┃ ┣ 📁 Head of Marketing ┃ ┣ 📁 Positioning ┃ ┣ 📁 Pricing ┃ ┗ 📁 Competitor Teardowns ┃ ┣ 📁 https://t.co/ju02kTGJIj",
+          "m": "Romain Torres @rom1trs"
+        },
+        {
+          "k": "tweet",
+          "t": "推薦一組角色設計迭代作品集，展示如何在單一概念上進行創意性的反覆修改，是很好的設計參考與靈感來源。",
+          "b": "Our feature artist/reference today is this BEAUTIFUL set of CHARACTER DESIGN ITERATIONS, by the talented @kimmy_arts! These wonderful drawings are not only an AMAZINGLY inspirational ref set, but also show just how creative you can get making ITERATIVE changes on a single idea! https://t.co/m3ZwMvHBZZ",
+          "m": "EtheringtonBrothers @EtheringtonBros"
+        },
+        {
+          "k": "tweet",
+          "t": "介紹一位開發者在 MacBook 上默默完成產品數月未發佈，首次在越南展示後眾人驚艷其資訊整理的完整度，稱其為瘋狂天才。",
+          "b": "this guy is crazy genius he had this whole product sitting on his macbook for months and never launched it. first time he showed it to us in vietnam, everyone was like why tf haven't you launched this? the amount of information he's curated for basically everything you want to https://t.co/K28L8XWRa1",
+          "m": "Dhruval @dhruvalgolakiya"
+        },
+        {
+          "k": "tweet",
+          "t": "作者分享自己對羅馬式柱頭裝飾設計的詮釋作品。",
+          "b": "My take on this ornamental Romanesque column design https://t.co/sx41nzPxWG",
+          "m": "milk @wet_foal"
+        },
+        {
+          "k": "product",
+          "t": "ElevenLabs MCP in Claude",
+          "b": "Create and manage ElevenLabs voice agents in your chat 讓使用者在 Claude 對話介面中直接創建和管理 ElevenLabs 的語音代理功能。適合需要整合語音 AI 服務的開發者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Dates by Agenda Hero",
+          "b": "Create a plan for anything. Share it with anyone. 協助使用者為任何事項建立計畫並分享給他人的規劃工具。適合需要協作排程的個人與團隊。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Controller AI",
+          "b": "Build deterministic agents that actually follow your process 提供可建立確定性 AI 代理的平台，確保代理嚴格遵循預設的工作流程。適合需要精確控制自動化流程的企業。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Superflow AI",
+          "b": "AI agents that QA your website before launch 提供 AI 代理在網站上線前自動執行品質檢測的服務。適合網頁開發團隊與 QA 人員使用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Gauge",
+          "b": "Agent Led Growth: Get written into every customer's codebase 透過 AI 代理協助產品整合進客戶的程式碼庫，以驅動產品成長。針對 B2B 開發工具類產品的成長策略工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Shepherd Terminal",
+          "b": "A persistent terminal for Codex and Claude side by side 提供持久化終端機介面，讓 Codex 和 Claude 可並排同時使用。適合需要多個 AI 助手協作編程的開發者。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-18",
       "dd": "2026 年 08 月 18 日",

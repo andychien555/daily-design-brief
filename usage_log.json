@@ -2834,5 +2834,27 @@
         "cost_usd": 0.074532
       }
     ]
+  },
+  "2026-08-19": {
+    "input_tokens": 5921,
+    "output_tokens": 1501,
+    "audio_seconds": 0.0,
+    "cost_usd": 0.040278,
+    "calls": [
+      {
+        "label": "tweets-curate",
+        "input_tokens": 5535,
+        "output_tokens": 1085,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.03288
+      },
+      {
+        "label": "producthunt",
+        "input_tokens": 386,
+        "output_tokens": 416,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.007398
+      }
+    ]
   }
 }

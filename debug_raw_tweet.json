@@ -6,51 +6,57 @@
   ],
   "data": [
     {
-      "id": "2089493662572892560",
-      "text": "In Minnesota, noncitizen voting appears to be more of a design feature than a bug",
-      "createdAt": "Mon Aug 17 23:24:44 +0000 2026",
+      "id": "2089844662924423481",
+      "text": "\"She is one of the most beautiful women in the world, and it took my breath away when I saw her.\" —when Donatella Versace spoke about Beyoncé after seeing her on the Cowboy Carter Tour\n\n\"She very kindly invited me backstage to see her just before she went on stage. She is one of https://t.co/E28e8yMHS4",
+      "createdAt": "Tue Aug 18 22:39:29 +0000 2026",
       "language": "en",
-      "retweetCount": 302,
-      "favoriteCount": 1148,
-      "replyCount": 35,
-      "quoteCount": 10,
-      "viewCount": 18125,
-      "userScreenName": "BasedMikeLee",
-      "userName": "Mike Lee",
-      "userIdStr": "1551266822460162051",
-      "userFollowers": 704213,
+      "retweetCount": 75,
+      "favoriteCount": 868,
+      "replyCount": 3,
+      "quoteCount": 4,
+      "viewCount": 14463,
+      "userScreenName": "beyoncepress",
+      "userName": "BEYPRESS.",
+      "userIdStr": "861302874638299137",
+      "userFollowers": 128113,
       "userVerified": true,
-      "conversationId": "2089493662572892560",
-      "isQuote": true,
-      "quoteId": "2089473325055541546"
-    },
-    {
-      "id": "2089484663265918986",
-      "text": "Sadako doodles\nDesign inspired by @Lughostin https://t.co/6fVePrxTGn",
-      "createdAt": "Mon Aug 17 22:48:59 +0000 2026",
-      "language": "en",
-      "retweetCount": 108,
-      "favoriteCount": 1463,
-      "replyCount": 6,
-      "quoteCount": 2,
-      "viewCount": 7362,
-      "userScreenName": "bazazel1",
-      "userName": "Bazazel1",
-      "userIdStr": "1908205872674951168",
-      "userFollowers": 5716,
-      "conversationId": "2089484663265918986",
+      "conversationId": "2089844662924423481",
       "media": [
         {
           "type": "photo",
-          "url": "https://x.com/bazazel1/status/2089484663265918986/photo/1",
-          "thumbUrl": "https://pbs.twimg.com/media/HP9W5LvW0AAvofh.jpg"
-        }
-      ],
-      "mentions": [
+          "url": "https://x.com/beyoncepress/status/2089844662924423481/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HQCeozQWQAAen0r.jpg"
+        },
         {
-          "screenName": "Lughostin",
-          "name": "Lughost 🔞",
-          "userId": "1111061683500445698"
+          "type": "photo",
+          "url": "https://x.com/beyoncepress/status/2089844662924423481/photo/1",
+          "thumbUrl": "https://pbs.twimg.com/media/HQCepHSWEAA6NQG.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2089842387845804246",
+      "text": "Many drugs work by binding to a specific target in the body and blocking or changing what it does. An important first step in the drug development process is designing a molecule that can bind tightly to its target. Traditionally, that's meant weeks or months of expert work per https://t.co/CGCNTNaKBq",
+      "createdAt": "Tue Aug 18 22:30:27 +0000 2026",
+      "language": "en",
+      "retweetCount": 369,
+      "favoriteCount": 3673,
+      "replyCount": 209,
+      "quoteCount": 185,
+      "viewCount": 299557,
+      "userScreenName": "AnthropicAI",
+      "userName": "Anthropic",
+      "userIdStr": "1353836358901501952",
+      "userFollowers": 1600567,
+      "userVerified": true,
+      "conversationId": "2089842387845804246",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://x.com/AnthropicAI/status/2089842387845804246/video/1",
+          "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2089839233309773824/img/4ZiaAp-kMK30-vJU.jpg",
+          "videoUrl": "https://video.twimg.com/amplify_video/2089839233309773824/vid/avc1/1280x720/nHWgl750hpZfMNMd.mp4?tag=29",
+          "duration": 11000
         }
       ]
     }
