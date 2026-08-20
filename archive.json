@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-20",
+    "date_display": "2026 年 08 月 20 日",
+    "generated_at": "2026-08-20T08:56:00.929853+08:00",
+    "total": 8,
+    "sources": [
+      "Design"
+    ],
+    "headline": "AI 對知識工作的影響類似過去外包對美國重工業的衝擊：頂尖的平面設計與音訊工程仍然存在，但「商業配樂」等中階需求已被 AI 取代。",
+    "no": 126
+  },
+  {
     "date": "2026-08-19",
     "date_display": "2026 年 08 月 19 日",
     "generated_at": "2026-08-19T08:56:18.139188+08:00",
@@ -972,19 +983,5 @@
     "sources": [],
     "headline": "",
     "no": 37
-  },
-  {
-    "date": "2026-05-22",
-    "date_display": "2026 年 05 月 22 日",
-    "generated_at": "2026-05-22T22:07:40.046669+08:00",
-    "total": 9,
-    "sources": [
-      "AI Product",
-      "Design",
-      "Product Management",
-      "UX Design"
-    ],
-    "headline": "認為 Google（與 DeepMind）若有產品領導者能大刀闊斧清理整個產品管理官僚體系，就能真正勝出。直指組織結構是 Google 產品力的核心瓶頸。",
-    "no": 36
   }
 ]
