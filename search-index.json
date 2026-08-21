@@ -1,6 +1,79 @@
 {
-  "generated_at": "2026-08-20T22:30:49+08:00",
+  "generated_at": "2026-08-21T08:59:41+08:00",
   "days": [
+    {
+      "d": "2026-08-21",
+      "dd": "2026 年 08 月 21 日",
+      "no": 127,
+      "items": [
+        {
+          "k": "podcast",
+          "t": "EP329. Anthropic 成長減速、模型二與 Astra、Meta 被兩黨一起告 | M觀點",
+          "b": "1. Anthropic成長放緩：市佔流失與競爭壓力 7月ARR僅650億美元低於預期： 市場原估700億甚至800億，實際65B顯示月增率大幅放緩（主講人推測6月可能+25%、7月僅+10%），較5月的47B雖仍成長38%但遠不及上半年勢頭。 OpenAI與Grok搶走市場： GPT-4o（7月企業用戶月增32%）與Grok-4.5（推出首週Token量翻三倍）等競品更便宜且性能相近，加上Token Maxing風潮結束改為成本優化，企業轉向更划算選擇。 第三方數據更悲觀： Ticker Trends替代數據顯示Claude Code在7月AR零成長（僅6月成長38%），遠比主講人版本（6月+25%、7月+10%）更糟。 算力供給與新模型是轉機： Anthropic將獲得更多xAI租借算力，預計Q3/Q4供給持續擴大；即將推出的Haiku 5（性能據說接近Opus 4.8但更便宜）可望重新搶市。 2. 前沿模型競賽：Model 2與Astra領跑年底四強爭霸 Anthropic的Model 2比Methos更強但不公開： 內部評估有「Noticeable Improvement」（主講人猜AAI可達65分 vs Opus-5的63分），但僅供下一代Methos 5.5/6研發用，9–10月才會對外推出正式版本。 OpenAI的Astra可能就是GPT-6： 規模推測達5 trillion參數（GPT-4o約3T）、解決10個多年數學難題、資安能力進入「超危險」等級，預估10–11月推出並超越現有Fable-5。 年底四強混戰： Anthropic下代模型（~5T參數）、OpenAI Astra（5T）、Google Gemini 4 Pro（5T+）、xAI Grok-5（6T）將同場競技，主講人認為四家各25%機率成為最強。 AI Infra短期受情緒壓制但長線不變： Anthropic數據雖引發AI板塊兩日回調約10%，但主講人認為這只是市佔轉移而非AI整體減速；真正隱憂是「企業AI生產力尚未有效轉換成營收」，未來一年可能成為轉折點。 3. Meta訴訟：兩黨聯手控訴青少年成癮設計 29州檢察長跨黨派起訴： 指控Meta（Facebook/IG）刻意設計無限捲動、按讚、演算法推薦等成癮機制，危害13–17歲青少年心理健康（焦慮、憂鬱、自殺傾向），並違反《兒童線上隱私保護法》未經家長同意收集13歲以下兒童數據。 Meta抗辯稱合理商業設計： 主張產品優化是業界慣例（YouTube、TikTok皆如此）、非針對青少年故意設計、已有安全措施，且無法證明「故意成癮」與「優化使用體驗」的明確界線。 主講人預估部分敗訴： 法官可能認定Meta並非「故意」但仍須改善青少年保護機制（如更強家長管控），判決將為整個注意力經濟產業劃下紅線，影響YouTube、TikTok甚至遊戲業。 下個戰場是AI與青少年： 主講人警告社群網路已是上個時代議題，未來AI（如ChatGPT for Teens）對兒童成長影響更深遠且難以預測，家長應及早讓孩子學習與AI共處。 4. 其他市場動態：公債殖利率與產業風向 10年期公債殖利率升至4.7%： 從3月低點4%大幅上升，主因科技巨頭大量發債籌資買GPU（搶走公債需求、壓低價格推高殖利率），而非通膨擔憂；這對股市估值構成壓力（無風險利率上升→股票要求報酬率提高→估值下修）。 CyberCab即將上路： 特斯拉金色雙人座無人計程車本週將有正式活動，初期限員工試乘，主講人計劃下週詳細討論。 結論與後市展望 主講人認為Anthropic的AR不如預期只是短期市佔流失、非AI整體需求放緩，年底前沿模型四強混戰結果難料；Meta訴訟可能促使整個產業加強青少年保護但不致重罰；真正長線隱憂是企業AI投資若無法轉換為營收增長，未來一年AI Infra估值可能面臨修正——短期情緒波動不改長線趨勢，但「生產力變現」仍是待解難題。 本筆記為節目內容摘要，非投資建議。",
+          "m": "M觀點"
+        },
+        {
+          "k": "tweet",
+          "t": "OpenAI 的 GPT-Image-2 API 現支援透明背景生成，可直接產出可重複使用的素材，適用於產品圖像、平面設計、網站 mockup 與行銷素材等場景。",
+          "b": "Transparent backgrounds are now available in preview for GPT-Image-2 in the API. Generate reusable assets you can place on any background—for product imagery, graphic design, website mockups, and marketing campaigns. https://t.co/yRhBIYh8uP",
+          "m": "OpenAI Developers @OpenAIDevs"
+        },
+        {
+          "k": "article",
+          "t": "Cards: How a 3×5 Rectangle Conquered Screen Design",
+          "b": "一句話總結 作者認為「卡片」（card）這種 UI 模式之所以稱霸螢幕設計，是因為邊框能讓使用者在約 2 秒內將圖片、標題、關鍵資訊與操作打包為「一個物件」來理解，但當所有內容都塞進卡片、或由 AI 自動生成卡片時，資訊密度崩潰與內容同質化的問題會被大規模放大。 卡片的心理學優勢： 作者引用 Stephen Palmer（1992）的「共同區域」原則與 John Duncan（1984）的實驗指出，邊框讓視覺系統將框內元素視為單一物件，使用者能一次抓取整個物件的屬性（如圖片、價格、評分），而不必在不同物件間切換注意力；Nelson Cowan（2001）研究顯示工作記憶僅能處理約 4 個組塊，卡片預先完成組塊，讓一個螢幕顯示 4–6 張卡片時剛好符合使用者能同時比較的數量。 資訊氣味與 2 秒法則： 作者援引 Peter Pirolli 與 Stuart Card 在 1990 年代提出的「資訊覓食理論」（information foraging theory）與 Netflix 的數據：使用者平均花 1.8 秒審視每張卡片、82% 注意力放在圖片上、整體瀏覽時間僅 60–90 秒就會離開；因此卡片必須在 2 秒內透過圖片與標題前幾個字傳遞差異化資訊，否則無法產生「資訊氣味」（information scent）來引導點擊。 卡片濫用（card sprawl）的四大傷害： 作者指出 Material Design（2014）推出後，許多團隊將卡片套用到所有內容，導致（1）資訊密度崩潰——邊框、陰影、留白吞噬近半螢幕，原本一頁顯示 20 列的表格變成跨 5 頁的 20 張卡片；（2）層級消失——所有卡片大小一致，重要與瑣碎資訊看起來同等重要；（3）點擊目標模糊——圖片、標題、按鈕各自可點，造成猶豫與誤點；（4）破壞閱讀流——連續論述被切成卡片後無法連貫閱讀。 AI 生成卡片的新挑戰： 作者觀察到 ChatGPT、Gemini 等 AI 助理在呈現購物結果或旅館選項時仍採用卡片，因為「語言是序列的、選擇是平行的」；但生成式 AI 帶來三大風險：（1）虛假卡片——AI 可能捏造看似真實的標題與價格，破壞信任；（2）點擊誘餌漂移——若優化點擊率，會像 YouTube 縮圖競賽般走向誇大；（3）大規模同質化——模型預設寫出 20 個產品描述語氣雷同，使用者無法區分。作者建議將設計準則寫入卡片結構描述（schema）與自動化評估（evals），讓系統自動拒絕格式錯誤或內容虛假的卡片。 38 條設計準則精華： 作者提出涵蓋版面、互動、文案、圖片、集合層級的 38 條具體準則，例如：「一張卡片 = 一個項目」、「標題前 11 個字元必須包含差異化資訊」（呼應作者 1997 年研究發現使用者掃視時僅讀約 11 字元）、「整張卡片可點、僅一個主要操作」、「縮圖必須在 200–300 像素尺寸下仍能傳遞資訊」、「當集合超過約 20 張卡片時提供篩選器」、「若使用者需比較多個屬性，改用表格而非卡片」等。 何時該用卡片、何時不該： 作者提出判斷規則：瀏覽任務（browsing）用卡片、掃視任務（scanning）用清單、比較任務（comparison）用表格；當使用者打開 6 個瀏覽器分頁來比較項目時，就是設計失敗的證據——應該提供比較表格而非強迫使用者在工作記憶中拼湊資訊。 對設計／產品的啟示 作者建議設計師將卡片視為「承諾」——框內一切屬於同一項目、使用者需要的資訊都在框內；只有當使用者需要瀏覽自成一體的項目集合時才用卡片，並確保標題前幾個字、圖片在小尺寸下仍能傳遞差異化資訊。在 AI 時代，準則必須從人工審查的文件變成系統本身的結構約束（如欄位長度上限、必填欄位、自動驗證）與評估腳本，才能防止生成式 AI 在無人監督下大規模輸出虛假或同質化的卡片。若產品涉及比較決策，應主動提供表格或篩選器，而非讓使用者自己開一堆分頁拼湊資訊——設計的責任是降低認知負荷，而非把負擔推給使用者的工作記憶。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "tweet",
+          "t": "整理了一份針對 Design Engineer 的終極資源清單，提供相關工具與學習素材的集合。",
+          "b": "The Ultimate Resource for Design Engineers Link : https://t.co/vMWBCg1ZEs https://t.co/ZUV2QKnpYz",
+          "m": "Dhruv @dhruvtwt_"
+        },
+        {
+          "k": "tweet",
+          "t": "Harvey 推出 Tenet，首個針對法律領域後訓練的模型，基於 Kimi K3 並使用公開法律資料、合成資料與專家資料進行長時程法律工作模擬訓練。這展示了垂直領域 AI 產品化的典型路徑。",
+          "b": "Introducing Tenet, our first model post-trained for legal. Tenet is a Kimi K3 base that we post-trained with @FireworksAI_HQ on a corpus of publicly available legal data, synthetic data, and human expert data simulating long-horizon legal work. Training increases Tenet's",
+          "m": "Harvey @harvey"
+        },
+        {
+          "k": "product",
+          "t": "Grok 4.6",
+          "b": "Frontier Intelligence for Long-Running Agents 專為長時間運行的 AI 代理設計的前沿智能系統，提供持續性任務執行能力。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Hermai Brand API",
+          "b": "White label your B2B SaaS with every customer's brand 讓 B2B SaaS 產品能根據每個客戶的品牌進行白標客製化的 API 服務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Revy",
+          "b": "The ownership layer for fashion, shopping, and your wardrobe 時尚與衣櫥管理平台，為使用者建立服飾所有權與購物記錄的整合層。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Glasp for Firefox",
+          "b": "Highlight and summarize any page, PDF, or video in Firefox Firefox 瀏覽器擴充功能，可在網頁、PDF 和影片上進行重點標記與摘要整理。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Lifelong",
+          "b": "Your whole family’s health in one place. 整合全家人健康資訊的集中管理平台。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "MeetStream AI",
+          "b": "Unified API & Infra for AI Meeting Agents 為 AI 會議代理提供統一 API 與基礎設施的開發平台。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-20",
       "dd": "2026 年 08 月 20 日",
