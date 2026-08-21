@@ -133,6 +133,9 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 #   - "page"：RSS 只有摘要 → 用 r.jina.ai reader 抓文章頁全文。
 #   - "wix" ：uxtigers.com（Wix server-rendered）專用正文擷取。
 #   （discovery 走 jina 的來源，內文也一律走 jina，故 fulltext 對它們不生效。）
+# only_categories（選填）：只收 RSS <category> 命中清單的文章（不分大小寫）。
+#   給「整站 feed 但只想要其中一個專欄」的來源用；沒填就整個 feed 全收。
+#   只在 discover="direct" 生效（jina 的 markdown 沒有分類資訊）。
 #
 # 為何這樣配（實測結論）：
 #   - Import AI：作者自家 WordPress（jack-clark.net）掛 Cloudflare，curl 過但
@@ -143,6 +146,10 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 #   - Y Combinator：YC 官方週報「This Week at YC」。內容不在 blog 上——blog 的
 #     newsletter tag 是空的，blog RSS 只有零星 YC 公司新聞（一年約 6 篇）。真正
 #     每期全文在 Mailchimp 公開存檔 feed，httpx 直連不被擋 → direct + feed。
+#   - RevenueCat：站在 Vercel、無 Cloudflare，httpx 直連不被擋，content:encoded
+#     已帶完整全文 → direct + feed。/blog/growth 沒有專屬 feed（404），只能訂
+#     全站 RSS 再用 only_categories 濾掉 Engineering（SDK/billing 技術文）與
+#     Company（產品公告、合作公關稿），這兩類跟早報的財經/Product/Design 不合。
 # `topic` 會餵進 Claude 系統提示，讓摘要口吻／取材貼近該來源主題。
 # `label` 是卡片 kicker 上的分類（「📄 {label} / {source}」）。不是每個來源都在
 # 談 UX——Import AI 是 AI 研究、YC 是創業——所以標籤跟著來源走，別統一寫死。
@@ -206,6 +213,23 @@ ARTICLE_FEEDS = [
             "（本週 HN 熱門貼文）。四段都要涵蓋，並直接用「本週主打」「YC 動態」"
             "「新創 launch」「HN 熱門」當重點標籤；名單型的段落請歸納趨勢"
             "（例如題目集中在哪類），不要逐家照抄"
+        ),
+    },
+    {
+        "name": "RevenueCat",
+        "handle": "revenuecat",
+        "rss": "https://www.revenuecat.com/blog/rss.xml",
+        "source": "RevenueCat Blog",
+        "label": "訂閱成長",
+        "discover": "direct",
+        "fulltext": "feed",
+        # 整站約每週 3 篇，濾掉後 Growth 約每週 2 篇 → 7 天窗夠用。
+        "only_categories": ["Growth"],
+        "topic": (
+            "訂閱制 App 的變現、定價、paywall 與留存（RevenueCat 的 Growth 專欄，"
+            "多為 Sub Club podcast 的創辦人訪談與自家跨 App 數據研究）。"
+            "這是廠商經營的部落格，摘要時務必保留具體數字（ARR、CAC/LTV、"
+            "轉換率、留存曲線）與案例，但別把單一 App 的做法寫成通則"
         ),
     },
 ]

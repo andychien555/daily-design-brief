@@ -123,8 +123,11 @@ def _extract_body_text(page_html: str) -> str:
 # ── discovery：取近 N 天文章 metadata（feed 或 jina fallback）─────────
 def _parse_rss(xml_text: str, feed: dict, via_proxy: bool = False) -> list[dict]:
     win = feed.get("show_within_days", ARTICLE_SHOW_WITHIN_DAYS)
+    # 只收特定分類（`only_categories`）。用於「整站 feed 但只想要其中一個專欄」的
+    # 來源——RevenueCat 沒有 /blog/growth 專屬 feed，只能訂全站再濾 <category>。
+    only = {c.strip().lower() for c in feed.get("only_categories", []) if c.strip()}
     root = ET.fromstring(xml_text)
-    out = []
+    out, off_topic = [], 0
     for item in root.findall(".//item"):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
@@ -140,6 +143,11 @@ def _parse_rss(xml_text: str, feed: dict, via_proxy: bool = False) -> list[dict]
             pass
         if published_dt is not None and (datetime.now(TPE) - published_dt) > timedelta(days=win):
             continue
+        if only:
+            cats = {(c.text or "").strip().lower() for c in item.findall("category")}
+            if not (cats & only):
+                off_topic += 1
+                continue
 
         out.append({
             "state_key": f"{feed['name']}:{guid}",
@@ -153,6 +161,11 @@ def _parse_rss(xml_text: str, feed: dict, via_proxy: bool = False) -> list[dict]
             "content_encoded": content_encoded,
             "via_proxy": via_proxy,
         })
+    # 窗內有文章、卻一篇都不符分類：多半是正常的（該專欄本週沒更新），但如果
+    # 長期都這樣，就是來源把分類名稱改掉了 —— 靜默為空看不出差別，故留 log。
+    if only and off_topic and not out:
+        log(f"{feed['name']}：窗內 {off_topic} 篇皆非 "
+            f"{'/'.join(feed['only_categories'])} 分類 → 今日無文章")
     return out
 
 
