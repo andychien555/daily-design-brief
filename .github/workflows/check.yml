@@ -1,0 +1,36 @@
+name: Checks
+
+# Deliberately not part of daily.yml. The shell anchors only move when somebody
+# edits the markup, and the daily run must never be blocked by a failing check —
+# a stale archive shell is not worth a day with no issue, which is why the
+# refresh step there warns instead of failing. This is where the same drift is
+# enforced: on the push that actually changes the code, when nothing is waiting
+# to be published.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.py"
+  pull_request:
+    paths:
+      - "*.py"
+  workflow_dispatch:
+
+jobs:
+  anchors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # No pip install: the check imports only the page-rendering modules, and
+      # those are stdlib-only. Keep it that way — the point is that this runs in
+      # seconds on every code push.
+      - name: Shell anchors still match the markup
+        run: python check_shell_anchors.py
