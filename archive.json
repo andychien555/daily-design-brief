@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-22",
+    "date_display": "2026 年 08 月 22 日",
+    "generated_at": "2026-08-22T08:56:03.544440+08:00",
+    "total": 8,
+    "sources": [
+      "Design"
+    ],
+    "headline": "Gartner 預測軟體工程師角色將轉變為「產品工程師」，需要承擔更多責任。建議工程師學習設計、UX、QA 和 PM 技能，更關注使用者而非語法細節。",
+    "no": 128
+  },
+  {
     "date": "2026-08-21",
     "date_display": "2026 年 08 月 21 日",
     "generated_at": "2026-08-21T08:56:04.317738+08:00",
@@ -974,16 +985,5 @@
     ],
     "headline": "i thought kits design was lacking something so i did some personal adjustments.... https://t.co/dji5Pzz5Mg",
     "no": 39
-  },
-  {
-    "date": "2026-05-24",
-    "date_display": "2026 年 05 月 24 日",
-    "generated_at": "2026-05-24T08:55:38.563495+08:00",
-    "total": 8,
-    "sources": [
-      "Design"
-    ],
-    "headline": "Claude Design 能在 10 分鐘內從粗略想法產出完整響應式高擬真網站設計，但多數使用者跳過前置步驟就直接責怪工具產出太通用。作者強調正確的使用流程至關重要。",
-    "no": 38
   }
 ]
