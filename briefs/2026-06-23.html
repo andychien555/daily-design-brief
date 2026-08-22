@@ -29,7 +29,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="../styles.css?v=7f19f7cd">
+  <link rel="stylesheet" href="../styles.css?v=146415b8">
 </head>
 <body>
 <div class="page-shell">
@@ -575,7 +575,12 @@ https://t.co/WPyHH7wCTo</p>
     }).join('');
   }
 
-  fetch(base + 'archive.json', { cache: 'no-cache' })
+  /* Default cache mode, same as the search index below: Pages serves both with
+     max-age=600, and this one is fetched on every single navigation, so
+     'no-cache' bought a conditional round trip per page view to shave at most
+     ten minutes off how soon the rail lists a new issue. The page the rail sits
+     on is cached the same way, so that wait was never really avoidable. */
+  fetch(base + 'archive.json')
     .then(function(r) { return r.json(); })
     .then(function(data) {
       archive = Array.isArray(data) ? data : [];
@@ -629,12 +634,15 @@ https://t.co/WPyHH7wCTo</p>
 
   function loadIndex() {
     if (!indexPromise) {
-      /* No cache option: the default lets Pages' max-age=600 + ETag do their
-         job. indexPromise only lives as long as this page, and clicking a result
-         is a navigation — so 'no-cache' meant a conditional request for a
-         half-megabyte index on every hop between briefs, even seconds apart.
-         The index is rebuilt daily; ten minutes of staleness costs a reader
-         nothing, and the ETag still catches the day's rebuild. */
+      /* Default cache mode, matching archive.json above. indexPromise only
+         lives as long as this page and clicking a result is a navigation, so
+         'no-cache' meant a conditional request for a megabyte-plus index on
+         every hop between briefs, even seconds apart.
+         Inside Pages' max-age=600 the browser answers from disk without asking
+         — no request, so no ETag either. That is the trade: for up to ten
+         minutes after a rebuild a returning reader searches yesterday's index.
+         The index is rebuilt once a day; the round trip was paid on every
+         search. */
       indexPromise = fetch(base + 'search-index.json')
         .then(function(r) {
           if (!r.ok) throw new Error('HTTP ' + r.status);
