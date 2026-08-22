@@ -276,7 +276,18 @@
       "hero_url": "https://ph-files.imgix.net/9d626d22-a966-4b89-977c-39524217c1e1.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
-  "podcast_briefs": [],
+  "podcast_briefs": [
+    {
+      "episode_id": "8a8c-0fb3-4c46-b2c4-28e2df4be37b",
+      "title": "EP690 | ⛳",
+      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/028c8a8c-0fb3-4c46-b2c4-28e2df4be37b",
+      "published": "2026-08-22",
+      "channel": "股癌 Gooaye",
+      "transcript_source": "Podcast 音檔 · Whisper",
+      "summary_md": "## 一句話總結\n本集主要討論 Google 與 Marvell 的 AI 晶片合作案，顯示 Google 正加速往 COT（Customer Own Tooling）模式轉型，雖對 Broadcom 構成壓力，但對其他 IC 設計夥伴（如聯發科）反而可能帶來更多新案子機會。\n\n## 1. Google–Marvell 合作案：COT 模式成形\n- **合作範圍與股權交換：** Marvell 將提供 Google TPU 生態系周邊產品（AI inference chip、Memory controller、NIC、Near memory compute 等，不含 TPU 主晶片），Google 以約 2.06 億美元認購 Marvell 流通股 7%，成為第五大股東，營收按進度認列至 2033 年底。\n- **COT vs. Turnkey 模式轉變：** Google 從 Broadcom 的 Turnkey（一站式）方案轉向 COT，自行掌握高單價晶片設計、光罩、關鍵料件採購；Turnkey 模式下 Broadcom 可在各環節加價，COT 則由客戶主導成本，設計夥伴僅收 NRE、IP 授權與設計服務費。\n- **Marvell 取得晶片類型：** 主講人考察指出 Marvell 拿到的可能包括 MPU、用於 Search Engine（AI Overview）的 Frozen 晶片、NPU 相關晶片、inference chip 及部分 CPU，但**都不是 TPU V8/V9/V10 等主晶片**（Fish 系列），屬於輔助性質，產量約為中等規模。\n\n## 2. 對 IC 設計廠商影響：利空分歧解讀\n- **Broadcom 面臨壓力合理：** 市場解讀 Broadcom 原本可獨攬的 Turnkey 高毛利業務，現因 Google 推 COT 而被分食（HBM 等高單價料件不再由其加價轉售），加上 Marvell、未來可能的 AMD 加入競爭，Broadcom CEO Hock Tan 過去曾稱其他競爭者為「Ankle Biters（小朋友）」，但 Google 已明確分散供應鏈。\n- **聯發科等夥伴反屬利多：** 主講人認為對聯發科（MTK）、創意等並非利空，因 Marvell 取得的是**新增案子而非從既有玩家手中搶單**；Google 加速 COT 意味未來會開更多晶片專案，MTK 等反而有機會分到更多設計服務訂單（如 TPU ViVA、Visual 的 Zebrafish/Humufish 方案，MTK 提供 IO、SerDes、Memory Interface 與封裝投片）。\n- **市場短線情緒過度：** 部分投資人擔心「未來市場被瓜分」而砍持股，但主講人強調即便不是全拿，**光是既有訂單持續放量就足以獲利豐厚**；且 Google 若需產能仍會與多家設計夥伴合作，並非完全自製。\n\n## 3. 台股近期盤面觀察：收復失土進行中\n- **反彈速度超預期：** 主講人原預估 7 月底急跌（高點回落 2–3 成，部分投資人跌 4–5 成）後要到 Q4 甚至明年才能收復失土，但實際上**許多人已陸續收復過半虧損**，顯示盤面韌性比預期強。\n- **操作節奏轉為盤整：** 4–5 月為 FOMO 追漲行情，現在變成「互相算計」，追漲停隔天易被洗盤；但基本面有數字支撐的標的仍慢慢墊高，「沒有延續性但會漲、休息、再漲」，屬於較健康的盤整上攻。\n- **量化與技術派也能賺：** 主講人提及身邊多位鄰居（住頂級豪宅）**主要看線、看量與動能而非基本面**，照樣獲利豐厚；自己雖堅持基本面為核心，但也融入部分技術分析（如用 20 日線或月線出場），提醒「基本面不是唯一賺錢方式」。\n\n## 4. 個人興趣分享：電影、紅酒與健身\n- **電影推薦：** 強推《極限返航 Project Hail Mary》（華航機上看），認為可與《星際效應 Interstellar》並列，溫馨且結局精彩；另推《尼古貓貓》影集，認為反而有「反抽菸」效果。\n- **紅酒研究：勃艮第黑皮諾成本位：** 主講人目前最愛勃艮第（Burgundy）黑皮諾（Pinot Noir），但價格炒作嚴重（村莊級 8,000–20,000 元、特級園動輒數萬）；米其林葡萄酒榜單中推薦 **Hubert Lamy**（2,000–5,000 元價位、品質直逼高價酒）；新世界高 CP 值選項包括 **Felton Road、Burn Cottage、Stonier、Kooyong**（澳洲，約 1,000–2,000 元）。\n- **健身動作分享：** 最愛三項為 TRX 單手 Superman 撐體、任何帶保加利亞分腿蹲（Bulgarian Split Squat）變化、以及 **Ninja Flow**（用長棍做阻力伸展全身）。\n\n## 結論與後市展望\n主講人認為 Google–Marvell 合作案反映**雲端巨頭加速自研晶片、分散供應鏈成趨勢**，Broadcom 雖面臨 Turnkey 模式獲利壓縮，但其他 IC 設計夥伴（聯發科、創意等）反因 Google 擴大晶片開發而獲更多機會，市場短期利空解讀可能過度。台股盤面雖不如春季狂熱，但收復失土速度快、基本面支撐標的持續墊高，整體仍屬健康；提醒投資人**不必執著單一方法論（基本面 vs. 技術面），找到適合自己的交易節奏更重要**。紅酒、健身等個人興趣分享強調「在合理預算內享受高品質體驗」的理念。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-08-22"
+    }
+  ],
   "article_briefs": [
     {
       "title": "Artificial Intelligence: Glossary",

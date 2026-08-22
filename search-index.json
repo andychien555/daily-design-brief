@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T12:56:06+08:00",
+  "generated_at": "2026-08-22T15:46:07+08:00",
   "days": [
     {
       "d": "2026-08-22",
@@ -7,16 +7,22 @@
       "no": 128,
       "items": [
         {
-          "k": "article",
-          "t": "Artificial Intelligence: Glossary",
-          "b": "Agent（代理）與 Agentic AI： 作者定義 agent 為能使用模型與工具、執行多步驟任務並自行決定下一步的系統，產品層負責控制其工具、權限與審查機制；agentic AI 則描述系統在提示之間的自主程度，但「叫它 agent」本身不代表它有多少自主權。 Context（脈絡）與 Context Window： 作者指出 context 包含單次請求時提供給模型的所有內容（提示、系統提示、對話歷史、檢索文件、工具結果等），而 context window 是模型一次能處理的 token 上限；刻意選擇放入 context 的內容有時稱為「context engineering」。 Hallucination（幻覺）與 Grounding（定錨）： 作者說明幻覺是 AI 產出看似合理但實際錯誤的內容，因為語言模型生成統計上可能的接續而非驗證每個陳述；grounding 是將 AI 輸出連結到選定來源資料（如文件或資料庫），可改善準確度但不保證來源正確或模型使用正確，且顯示來源給使用者是另一個設計決定。 Overreliance（過度依賴）與 Automation Bias（自動化偏誤）： 作者認為 overreliance 是使用者給予 AI 超過其可靠度或風險等級的權威，可能來自 automation bias（偏好自動化系統輸出且較少檢查）、弱驗證支援、時間壓力或錯置信任；在高風險時刻引入摩擦、提供易於驗證或覆寫的方式有助於防止。 Evals（評估）與訓練資料品質： 作者強調 evals 是可重複的測試，將代表性輸入與明確評分標準（參考答案、評分標準、人類偏好判斷或自動指標）配對，用來判斷 AI 功能是否達標、區分改進與退步；模型品質高度仰賴訓練資料的品質、規模與代表性。 AI Slop（AI 垃圾）與 AI Washing： 作者定義 AI slop 為大量生產、表面可信但粗製濫造或未驗證的 AI 生成內容（文字、圖像、程式碼），需用品質門檻與人工審查防範；AI washing 則是對產品是否使用 AI、如何使用或能做什麼做出虛假、誤導或誇大宣稱，會在能力不符承諾時侵蝕使用者信任。 對設計／產品的啟示 作者建議設計與產品團隊在 AI 專案中應建立清晰的術語共識、避免將模型本身與產品層混為一談（如 context、memory、guardrails 多由周邊系統負責）、設計時考慮 Human-in-the-Loop 的實質審查條件（資訊、時間、專業、權限）而非形式確認、透過 evals 持續驗證功能、對 grounding 與來源透明度做出刻意設計決定，並警惕 anthropomorphism 與 sycophancy 對使用者信任的影響；詞彙表中多處連結作者團隊其他深入文章，可作為進階學習指引。 本筆記為文章重點摘要,完整內容請見原文。",
-          "m": "NN/g Nielsen Norman Group"
+          "k": "podcast",
+          "t": "EP690 | ⛳",
+          "b": "1. Google–Marvell 合作案：COT 模式成形 合作範圍與股權交換： Marvell 將提供 Google TPU 生態系周邊產品（AI inference chip、Memory controller、NIC、Near memory compute 等，不含 TPU 主晶片），Google 以約 2.06 億美元認購 Marvell 流通股 7%，成為第五大股東，營收按進度認列至 2033 年底。 COT vs. Turnkey 模式轉變： Google 從 Broadcom 的 Turnkey（一站式）方案轉向 COT，自行掌握高單價晶片設計、光罩、關鍵料件採購；Turnkey 模式下 Broadcom 可在各環節加價，COT 則由客戶主導成本，設計夥伴僅收 NRE、IP 授權與設計服務費。 Marvell 取得晶片類型： 主講人考察指出 Marvell 拿到的可能包括 MPU、用於 Search Engine（AI Overview）的 Frozen 晶片、NPU 相關晶片、inference chip 及部分 CPU，但都不是 TPU V8/V9/V10 等主晶片（Fish 系列），屬於輔助性質，產量約為中等規模。 2. 對 IC 設計廠商影響：利空分歧解讀 Broadcom 面臨壓力合理： 市場解讀 Broadcom 原本可獨攬的 Turnkey 高毛利業務，現因 Google 推 COT 而被分食（HBM 等高單價料件不再由其加價轉售），加上 Marvell、未來可能的 AMD 加入競爭，Broadcom CEO Hock Tan 過去曾稱其他競爭者為「Ankle Biters（小朋友）」，但 Google 已明確分散供應鏈。 聯發科等夥伴反屬利多： 主講人認為對聯發科（MTK）、創意等並非利空，因 Marvell 取得的是新增案子而非從既有玩家手中搶單；Google 加速 COT 意味未來會開更多晶片專案，MTK 等反而有機會分到更多設計服務訂單（如 TPU ViVA、Visual 的 Zebrafish/Humufish 方案，MTK 提供 IO、SerDes、Memory Interface 與封裝投片）。 市場短線情緒過度： 部分投資人擔心「未來市場被瓜分」而砍持股，但主講人強調即便不是全拿，光是既有訂單持續放量就足以獲利豐厚；且 Google 若需產能仍會與多家設計夥伴合作，並非完全自製。 3. 台股近期盤面觀察：收復失土進行中 反彈速度超預期： 主講人原預估 7 月底急跌（高點回落 2–3 成，部分投資人跌 4–5 成）後要到 Q4 甚至明年才能收復失土，但實際上許多人已陸續收復過半虧損，顯示盤面韌性比預期強。 操作節奏轉為盤整： 4–5 月為 FOMO 追漲行情，現在變成「互相算計」，追漲停隔天易被洗盤；但基本面有數字支撐的標的仍慢慢墊高，「沒有延續性但會漲、休息、再漲」，屬於較健康的盤整上攻。 量化與技術派也能賺： 主講人提及身邊多位鄰居（住頂級豪宅）主要看線、看量與動能而非基本面，照樣獲利豐厚；自己雖堅持基本面為核心，但也融入部分技術分析（如用 20 日線或月線出場），提醒「基本面不是唯一賺錢方式」。 4. 個人興趣分享：電影、紅酒與健身 電影推薦： 強推《極限返航 Project Hail Mary》（華航機上看），認為可與《星際效應 Interstellar》並列，溫馨且結局精彩；另推《尼古貓貓》影集，認為反而有「反抽菸」效果。 紅酒研究：勃艮第黑皮諾成本位： 主講人目前最愛勃艮第（Burgundy）黑皮諾（Pinot Noir），但價格炒作嚴重（村莊級 8,000–20,000 元、特級園動輒數萬）；米其林葡萄酒榜單中推薦 Hubert Lamy（2,000–5,000 元價位、品質直逼高價酒）；新世界高 CP 值選項包括 Felton Road、Burn Cottage、Stonier、Kooyong（澳洲，約 1,000–2,000 元）。 健身動作分享： 最愛三項為 TRX 單手 Superman 撐體、任何帶保加利亞分腿蹲（Bulgarian Split Squat）變化、以及 Ninja Flow（用長棍做阻力伸展全身）。 結論與後市展望 主講人認為 Google–Marvell 合作案反映雲端巨頭加速自研晶片、分散供應鏈成趨勢，Broadcom 雖面臨 Turnkey 模式獲利壓縮，但其他 IC 設計夥伴（聯發科、創意等）反因 Google 擴大晶片開發而獲更多機會，市場短期利空解讀可能過度。台股盤面雖不如春季狂熱，但收復失土速度快、基本面支撐標的持續墊高，整體仍屬健康；提醒投資人不必執著單一方法論（基本面 vs. 技術面），找到適合自己的交易節奏更重要。紅酒、健身等個人興趣分享強調「在合理預算內享受高品質體驗」的理念。 本筆記為節目內容摘要，非投資建議。",
+          "m": "股癌 Gooaye"
         },
         {
           "k": "tweet",
           "t": "Gartner 預測軟體工程師角色將轉變為「產品工程師」，需要承擔更多責任。建議工程師學習設計、UX、QA 和 PM 技能，更關注使用者而非語法細節。",
           "b": "Roles are collapsing. If you're a \"Software Engineer\" today, you may be a \"Product Engineer\" soon - with many more responsibilities. So: - Learn design/UX/QA/PM skills. - Focus more on the user, and less on the syntax. Image via Gartner. https://t.co/K5Vlreoo6P",
           "m": "Cory House @housecor"
+        },
+        {
+          "k": "article",
+          "t": "Artificial Intelligence: Glossary",
+          "b": "一句話總結 作者編纂了一份 AI 產品設計與 UX 工作常用術語的白話詞彙表，涵蓋從模型基礎（token、context window）到產品應用（agent、RAG、prompt injection）的關鍵概念，並強調這些定義是以產品與設計實務使用情境為準，而非研究者或供應商的用法。 Agent（代理）與 Agentic AI： 作者定義 agent 為能使用模型與工具、執行多步驟任務並自行決定下一步的系統，產品層負責控制其工具、權限與審查機制；agentic AI 則描述系統在提示之間的自主程度，但「叫它 agent」本身不代表它有多少自主權。 Context（脈絡）與 Context Window： 作者指出 context 包含單次請求時提供給模型的所有內容（提示、系統提示、對話歷史、檢索文件、工具結果等），而 context window 是模型一次能處理的 token 上限；刻意選擇放入 context 的內容有時稱為「context engineering」。 Hallucination（幻覺）與 Grounding（定錨）： 作者說明幻覺是 AI 產出看似合理但實際錯誤的內容，因為語言模型生成統計上可能的接續而非驗證每個陳述；grounding 是將 AI 輸出連結到選定來源資料（如文件或資料庫），可改善準確度但不保證來源正確或模型使用正確，且顯示來源給使用者是另一個設計決定。 Overreliance（過度依賴）與 Automation Bias（自動化偏誤）： 作者認為 overreliance 是使用者給予 AI 超過其可靠度或風險等級的權威，可能來自 automation bias（偏好自動化系統輸出且較少檢查）、弱驗證支援、時間壓力或錯置信任；在高風險時刻引入摩擦、提供易於驗證或覆寫的方式有助於防止。 Evals（評估）與訓練資料品質： 作者強調 evals 是可重複的測試，將代表性輸入與明確評分標準（參考答案、評分標準、人類偏好判斷或自動指標）配對，用來判斷 AI 功能是否達標、區分改進與退步；模型品質高度仰賴訓練資料的品質、規模與代表性。 AI Slop（AI 垃圾）與 AI Washing： 作者定義 AI slop 為大量生產、表面可信但粗製濫造或未驗證的 AI 生成內容（文字、圖像、程式碼），需用品質門檻與人工審查防範；AI washing 則是對產品是否使用 AI、如何使用或能做什麼做出虛假、誤導或誇大宣稱，會在能力不符承諾時侵蝕使用者信任。 對設計／產品的啟示 作者建議設計與產品團隊在 AI 專案中應建立清晰的術語共識、避免將模型本身與產品層混為一談（如 context、memory、guardrails 多由周邊系統負責）、設計時考慮 Human-in-the-Loop 的實質審查條件（資訊、時間、專業、權限）而非形式確認、透過 evals 持續驗證功能、對 grounding 與來源透明度做出刻意設計決定，並警惕 anthropomorphism 與 sycophancy 對使用者信任的影響；詞彙表中多處連結作者團隊其他深入文章，可作為進階學習指引。 本筆記為文章重點摘要,完整內容請見原文。",
+          "m": "NN/g Nielsen Norman Group"
         },
         {
           "k": "article",
