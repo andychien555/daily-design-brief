@@ -11,7 +11,7 @@ from datetime import datetime
 
 import config
 from utils import load_json, save_json
-from styles import STYLES
+from styles import stylesheet_link, write_stylesheet
 from scripts import ARCHIVE_RAIL_SCRIPT, INTERACTIVE_SCRIPT, THEME_BOOTSTRAP_SCRIPT
 from templates import (
     archive_rail_html,
@@ -254,10 +254,11 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
 
     podcast_html = "\n".join(briefing_section(b) for b in podcast_briefs)
 
-    # 好文 and 推文 share one two-up grid — the desk, below the lead story. The
-    # tweet lead stays outside it, full width: the column rule keys off nth-child,
-    # so an element spanning both tracks would knock every rule below it out of
-    # alignment. Front page reads lead → deck → columns.
+    # 好文 and 推文 share one grid — the desk, below the lead story. 好文 takes a
+    # full row each (styles.py: .cards-grid > .nl-item), 推文 pairs up beneath
+    # them; the ordering here is what puts every article above every tweet. The
+    # tweet lead stays outside the grid entirely — it is the deck, not a cell.
+    # Front page reads lead → deck → 好文 → columns.
     desk_cards = [newsletter_card(b) for b in article_briefs]
     desk_cards += [tweet_card(t, i + 2) for i, t in enumerate(top_tweets[1:])]
     desk_html = ""
@@ -302,7 +303,7 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 {head_block(issue_no, data['date'], base_path)}
 {THEME_BOOTSTRAP_SCRIPT}
-{STYLES}</head>
+{stylesheet_link(base_path)}</head>
 <body>
 <div class="page-shell">
   {rail_html}
@@ -350,7 +351,7 @@ def generate_404(archive=None) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 {head_block(issue_no, latest or "", "")}
 {THEME_BOOTSTRAP_SCRIPT}
-{STYLES}</head>
+{stylesheet_link()}</head>
 <body>
 {masthead_block(issue_no, latest or "", {}, "", meta=False)}
 
@@ -373,6 +374,11 @@ def generate_404(archive=None) -> str:
 def main():
     data = load_data()
     archive = load_archive()
+
+    # Before any page, so the <link> the templates emit always has a file to
+    # point at. No-op when the CSS is unchanged.
+    if write_stylesheet():
+        print("OK styles.css written")
 
     Path("index.html").write_text(generate(data, archive), encoding="utf-8")
     print(f"OK index.html generated for {data['date']}")

@@ -14,6 +14,11 @@ is swapped.
 The markup itself lives in generate_html.py and is imported, never duplicated —
 two copies of the masthead would drift within a week.
 
+CSS is no longer inlined: what gets swapped now is the one-line <link> to
+styles.css, whose ?v= hash changes only when the CSS does. So an unchanged
+stylesheet means an untouched archive, and a changed one is 129 one-line diffs
+rather than 129 copies of the whole sheet.
+
 Idempotent: safe to re-run after any shell change. Every anchor below must stay
 matchable against its own output, which is why the head and interactive-script
 patterns stop at a lookahead rather than at their own last line.
@@ -35,10 +40,21 @@ from generate_html import (
     published_dates,
 )
 from scripts import ARCHIVE_RAIL_SCRIPT, INTERACTIVE_SCRIPT
-from styles import STYLES
+from styles import stylesheet_link, write_stylesheet
 from templates import archive_rail_html, empty_state
 
-STYLE_RE = re.compile(r"  <style>\n.*?\n  </style>\n", re.DOTALL)
+# "nothing to write" and "could not find where to write" used to be the same
+# False, so a run where every anchor had gone stale still reported success.
+CHANGED, UNCHANGED, SKIPPED = "changed", "unchanged", "skipped"
+
+# Matches the inline <style> block the archive was written with AND the <link>
+# that replaces it, so this stays runnable on a half-migrated archive and
+# idempotent once every page has been converted.
+STYLE_RE = re.compile(
+    r"  (?:<style>\n.*?\n  </style>"
+    r"|<link rel=\"stylesheet\" href=\"[^\"]*styles\.css\?v=[0-9a-f]+\">)\n",
+    re.DOTALL,
+)
 RAIL_RE = re.compile(
     r"\n    <aside class=\"archive-rail\".*?"
     r"<div class=\"rail-backdrop\" aria-hidden=\"true\"></div>",
@@ -76,7 +92,8 @@ COLOPHON_CENTER_RE = re.compile(
 EMPTY_RE = re.compile(r"<section class=\"empty\">.*?</section>", re.DOTALL)
 
 
-def refresh(path: Path, issue_no: int | None = None) -> bool:
+def refresh(path: Path, issue_no: int | None = None) -> str:
+    """Swap the shell on one brief. Returns CHANGED / UNCHANGED / SKIPPED."""
     html = path.read_text(encoding="utf-8")
     original = html
     date = path.stem
@@ -94,7 +111,7 @@ def refresh(path: Path, issue_no: int | None = None) -> bool:
     html, n_masthead = MASTHEAD_RE.subn(
         lambda _: masthead_block(issue_no, date, stats, "../"), html, count=1
     )
-    html, n_style = STYLE_RE.subn(lambda _: STYLES, html, count=1)
+    html, n_style = STYLE_RE.subn(lambda _: stylesheet_link("../"), html, count=1)
     html, n_rail = RAIL_RE.subn(lambda _: archive_rail_html(date, "../"), html, count=1)
     html, n_script = RAIL_SCRIPT_RE.subn(lambda _: ARCHIVE_RAIL_SCRIPT, html, count=1)
     html, n_inter = INTERACTIVE_RE.subn(lambda _: INTERACTIVE_SCRIPT, html, count=1)
@@ -133,22 +150,40 @@ def refresh(path: Path, issue_no: int | None = None) -> bool:
     ]
     if missing:
         print(f"!! {path.name}: could not locate {', '.join(missing)} — skipped")
-        return False
+        return SKIPPED
 
     if html != original:
         path.write_text(html, encoding="utf-8")
-        return True
-    return False
+        return CHANGED
+    return UNCHANGED
 
 
 def main():
     files = sorted(Path(config.BRIEFS_DIR).glob("*.html"))
     if not files:
         print("no briefs to refresh")
-        return
+        return 0
+    write_stylesheet()  # the <link> below has to resolve even on a solo run
     rank = {d: i + 1 for i, d in enumerate(sorted(published_dates(load_archive())))}
-    changed = sum(refresh(f, rank.get(f.stem)) for f in files)
+    results = [refresh(f, rank.get(f.stem)) for f in files]
+    changed = results.count(CHANGED)
+    skipped = results.count(SKIPPED)
+
+    if skipped:
+        # A skipped page keeps its old shell entirely — the anchors are the
+        # contract between templates.py's markup and this file's regexes, and a
+        # rename on either side breaks it silently. Exiting non-zero is the only
+        # thing standing between "one class renamed" and an archive that quietly
+        # stops receiving CSS while the workflow still commits and deploys.
+        print(
+            f"!! {skipped} of {len(files)} briefs kept their old shell — "
+            f"an anchor above no longer matches the markup it was written for. "
+            f"Fix the pattern in this file, or revert the markup change."
+        )
+        return 1
+
     print(f"OK shell refreshed: {changed} changed / {len(files)} briefs")
+    return 0
 
 
 if __name__ == "__main__":
