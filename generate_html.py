@@ -8,6 +8,7 @@ import json
 import re
 from pathlib import Path
 from datetime import datetime
+from urllib.parse import urlparse
 
 import config
 from utils import load_json, save_json
@@ -26,6 +27,10 @@ from templates import (
 )
 
 WEEKDAY_ZH = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
+
+# The site's path on its host: "/daily-design-brief/" on a project page, "/" once
+# a CNAME moves it to an apex domain. Only 404.html needs it — see generate_404.
+SITE_PATH = (urlparse(config.SITE_URL).path or "").rstrip("/") + "/"
 
 
 def load_data() -> dict:
@@ -339,6 +344,12 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
 def generate_404(archive=None) -> str:
     """GitHub Pages serves /404.html for any unresolved path under the project.
 
+    It serves this body while leaving the requested URL in the address bar, so a
+    miss on /briefs/2020-01-01.html resolves every relative href against
+    /briefs/ — the stylesheet, the engraving, the artwork and the way back all
+    404 in turn. <base> pins them to the site root instead. Every other page
+    knows its own depth and passes base_path; this one cannot.
+
     Kept deliberately quiet: one flat sentence and a way back. No apology, no
     search box, no "you might like" — the same refusal the empty state makes.
     """
@@ -349,6 +360,7 @@ def generate_404(archive=None) -> str:
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="{SITE_PATH}" />
 {head_block(issue_no, latest or "", "")}
 {THEME_BOOTSTRAP_SCRIPT}
 {stylesheet_link()}</head>

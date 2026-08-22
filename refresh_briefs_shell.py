@@ -159,22 +159,35 @@ def refresh(path: Path, issue_no: int | None = None) -> str:
 
 
 def main():
+    # Before the file check, not after: the <link> every page carries has to
+    # resolve even on a run that refreshes nothing, and a fresh checkout with an
+    # empty briefs/ is exactly the case that would otherwise ship no styles.css.
+    write_stylesheet()
+
     files = sorted(Path(config.BRIEFS_DIR).glob("*.html"))
     if not files:
         print("no briefs to refresh")
         return 0
-    write_stylesheet()  # the <link> below has to resolve even on a solo run
     rank = {d: i + 1 for i, d in enumerate(sorted(published_dates(load_archive())))}
     results = [refresh(f, rank.get(f.stem)) for f in files]
     changed = results.count(CHANGED)
     skipped = results.count(SKIPPED)
 
+    # Printed before the verdict: refresh() writes each page as it goes, so on a
+    # partial failure the tree is already half-updated and "how much of it moved"
+    # is the first thing the operator needs.
+    print(f"OK shell refreshed: {changed} changed / {len(files)} briefs")
+
     if skipped:
         # A skipped page keeps its old shell entirely — the anchors are the
         # contract between templates.py's markup and this file's regexes, and a
-        # rename on either side breaks it silently. Exiting non-zero is the only
-        # thing standing between "one class renamed" and an archive that quietly
-        # stops receiving CSS while the workflow still commits and deploys.
+        # rename on either side breaks it silently.
+        #
+        # Non-zero, but the workflow deliberately does not stop on it. Now that
+        # the CSS is one external file, ?v= is only a cache key: a stale page
+        # still links styles.css and still gets the current sheet, so a missed
+        # anchor costs the masthead, the rail and the search box — not the
+        # stylesheet. That is worth a loud warning, not a day with no issue.
         print(
             f"!! {skipped} of {len(files)} briefs kept their old shell — "
             f"an anchor above no longer matches the markup it was written for. "
@@ -182,7 +195,6 @@ def main():
         )
         return 1
 
-    print(f"OK shell refreshed: {changed} changed / {len(files)} briefs")
     return 0
 
 

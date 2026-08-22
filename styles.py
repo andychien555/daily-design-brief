@@ -22,6 +22,7 @@ the rendered HTML by class. Restyle freely; do not rename.
 """
 
 import hashlib
+import textwrap
 from pathlib import Path
 
 from dither_assets import MARK_URI, TEXTURE_URI
@@ -1576,7 +1577,9 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       border-top: 1px solid var(--rule);
     }}
 
-    /* 列表規格：拿掉主菜的框與底色，標題小一級，卡片收成一條一條的列 */
+    /* 列表規格：拿掉主菜的框與底色，卡片收成一條一條的列。
+       標題不再降級——它現在是一整行的標題，壓到 1.15rem 會跟推文正文同級，
+       在自己那一行裡讀不出是標題。字級回到 .yt-title 本來的 1.4rem。 */
     .nl-item {{
       margin: 0;
       padding: 1.5rem var(--card-pad) 1.6rem;
@@ -1584,9 +1587,50 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       border: none;
       border-bottom: 1px solid var(--rule);
     }}
-    .nl-item .yt-title {{ font-size: 1.15rem; margin-bottom: .6rem; }}
+    /* The card owns the whole row, so its contents take the whole row. Capped at
+       --measure they left the right half of a 1132px card empty, which reads as a
+       two-up grid whose second cell failed to render rather than as a wide card.
+       The headline and the standfirst run the full width — that is what a
+       headline and a standfirst do on a broadsheet — and the body, which is the
+       only part long enough to need protecting, gets the measure back as two
+       tracks with a hairline between them, the same signature the lead story
+       uses. */
+    .nl-item .yt-title {{ margin-bottom: .6rem; }}
     .nl-item .yt-kicker {{ margin-bottom: .55rem; }}
     .nl-item .yt-body {{ margin-top: 1.25rem; }}
+
+    /* Scoped to the desk, not to .nl-item: the front-page lead is the same card
+       nested in .bs-lead-body, and a bare .nl-item selector here matches it too —
+       at equal specificity and later in the file, which would quietly beat
+       .bs-lead-compact and put a short lead back into two sliced tracks. */
+    .cards-grid > .nl-item .yt-title,
+    .nl-grid > .nl-item .yt-title,
+    .cards-grid > .nl-item .nl-lead,
+    .nl-grid > .nl-item .nl-lead {{ max-width: none; }}
+    .cards-grid > .nl-item .yt-body,
+    .nl-grid > .nl-item .yt-body {{
+      max-width: none;
+      columns: 2;
+      column-gap: 2.75rem;
+      column-rule: 1px solid var(--rule);
+    }}
+    .cards-grid > .nl-item .yt-body > *:first-child,
+    .nl-grid > .nl-item .yt-body > *:first-child {{ margin-top: 0; }}
+    .cards-grid > .nl-item .yt-body h3,
+    .nl-grid > .nl-item .yt-body h3,
+    .cards-grid > .nl-item .yt-body h4,
+    .nl-grid > .nl-item .yt-body h4 {{ break-after: avoid; }}
+    /* A bullet split across the rule reads as two bullets — the reader takes the
+       continuation at the top of the right track for a new item. */
+    .cards-grid > .nl-item .yt-body li,
+    .nl-grid > .nl-item .yt-body li {{ break-inside: avoid; }}
+    /* Has to live here rather than up in the Responsive block: a media query adds
+       no specificity, so an identical selector further up the file loses to these
+       rules on source order alone and the phone keeps two 150px tracks. */
+    @media (max-width: 900px) {{
+      .cards-grid > .nl-item .yt-body,
+      .nl-grid > .nl-item .yt-body {{ columns: 1; column-rule: none; }}
+    }}
     /* 在 desk 上這張卡跟推文卡並排，行首的三角形會把整張卡的左緣往右推 23px，
        兩種卡片的第一個字就對不齊了。改掛右上角——推文卡的 ↗ 也在那個位置，
        一格裡只有一種「右上角有東西可以按」。 */
@@ -1644,8 +1688,37 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
 STYLESHEET_NAME = "styles.css"
 
 
+def _stylesheet_body() -> str:
+    """What actually lands in styles.css, as opposed to how CSS reads in source.
+
+    @charset first, and first in the file: an external sheet does not inherit the
+    document's <meta charset>, so its encoding comes from the HTTP Content-Type
+    and only then from the sheet itself. GitHub Pages happens to send
+    charset=utf-8, but a local static server or a future host may not, and this
+    sheet carries '↗' and '▸' as content values.
+
+    The dedent drops the four spaces every line carries from having been nested
+    inside a <style> block. Relative indentation survives, so the file still
+    reads; CSS never cared about either.
+    """
+    return '@charset "utf-8";\n' + textwrap.dedent(CSS)
+
+
+# Hashed over what the reader actually downloads, not over CSS: a change to the
+# delivery above — the @charset, the dedent — moves the file, and a cache key
+# that only watched the CSS constant would leave every page pointing at the URL
+# it already had. Computed once here rather than per stylesheet_link() call,
+# which refresh_briefs_shell.py makes once per brief.
+#
+# md5 is the cache key, never a checksum anybody trusts, so it is declared
+# exempt from the FIPS builds that refuse it outright.
+CSS_HASH = hashlib.md5(
+    _stylesheet_body().encode("utf-8"), usedforsecurity=False
+).hexdigest()[:8]
+
+
 def css_hash() -> str:
-    return hashlib.md5(CSS.encode("utf-8")).hexdigest()[:8]
+    return CSS_HASH
 
 
 def stylesheet_link(base_path: str = "") -> str:
@@ -1660,7 +1733,8 @@ def stylesheet_link(base_path: str = "") -> str:
 def write_stylesheet() -> bool:
     """Write styles.css if the CSS changed. Returns True when it did."""
     path = Path(STYLESHEET_NAME)
-    if path.exists() and path.read_text(encoding="utf-8") == CSS:
+    body = _stylesheet_body()
+    if path.exists() and path.read_text(encoding="utf-8") == body:
         return False
-    path.write_text(CSS, encoding="utf-8")
+    path.write_text(body, encoding="utf-8")
     return True
