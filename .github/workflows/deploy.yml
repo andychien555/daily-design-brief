@@ -7,6 +7,7 @@ on:
     paths:
       - "index.html"
       - "404.html"
+      - "styles.css"
       - "archive.json"
       - "search-index.json"
       - "briefs/**"

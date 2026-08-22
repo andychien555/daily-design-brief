@@ -203,7 +203,13 @@ ARCHIVE_RAIL_SCRIPT = r"""
 
   function loadIndex() {
     if (!indexPromise) {
-      indexPromise = fetch(base + 'search-index.json', { cache: 'no-cache' })
+      /* No cache option: the default lets Pages' max-age=600 + ETag do their
+         job. indexPromise only lives as long as this page, and clicking a result
+         is a navigation — so 'no-cache' meant a conditional request for a
+         half-megabyte index on every hop between briefs, even seconds apart.
+         The index is rebuilt daily; ten minutes of staleness costs a reader
+         nothing, and the ETag still catches the day's rebuild. */
+      indexPromise = fetch(base + 'search-index.json')
         .then(function(r) {
           if (!r.ok) throw new Error('HTTP ' + r.status);
           return r.json();

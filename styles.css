@@ -1,34 +1,6 @@
-"""CSS styles for the 晨刊 MATINS HTML output.
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-Visual system: see DESIGN.md, and 品牌視覺發想/確定視覺/ for the source brand
-documents. Four rules govern nearly every value below, so check against them before
-adding anything:
-
-  1. Light is canon. Dark is a derivative, not a co-equal theme.
-  2. Square corners. Nothing floats, glows, or casts a shadow.
-  3. 明體 carries the whole interface, and mono carries the machine layer (№,
-     dates, timestamps). No italics. This replaces the art direction's
-     "a single neutral grotesque" rule, at the brand owner's direction.
-  4. Ochre (--dawn) is rationed to the issue number and the today marker. Red and
-     green are reserved for market data and must never become interface colour.
-  5. Broadsheet: full-bleed engraving, a solid ink nameplate plate, one enormous
-     lead, then the desk — 好文 a full-width row each, 推文 two-up beneath. The
-     column rule is a per-row segment beside the left-hand tweet, so a full-width
-     card is fine; what it keys off is <article> parity, which the <details> of a
-     好文 card does not disturb.
-
-Every card class name here is also a data contract — build_search_index.py parses
-the rendered HTML by class. Restyle freely; do not rename.
-"""
-
-import hashlib
-from pathlib import Path
-
-from dither_assets import MARK_URI, TEXTURE_URI
-
-CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-
-    :root {{
+    :root {
       --paper:    #faf6ed;
       --paper-2:  #f2ebda;
       --paper-3:  #e8dfc9;
@@ -68,10 +40,10 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
          last character. Applied to the tweet deck too, so the deck and the two
          columns below it share one left edge. */
       --card-pad: 1rem;
-      --ramp: url("{MARK_URI}");
-      --texture: url("{TEXTURE_URI}");
-    }}
-    [data-theme="dark"] {{
+      --ramp: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20d%3D%22M0%204h1v1h-1zM4%204h1v1h-1zM8%204h1v1h-1zM12%204h1v1h-1zM16%204h1v1h-1zM20%204h1v1h-1zM24%204h1v1h-1zM28%204h1v1h-1zM2%206h1v1h-1zM6%206h1v1h-1zM10%206h1v1h-1zM14%206h1v1h-1zM18%206h1v1h-1zM22%206h1v1h-1zM26%206h1v1h-1zM30%206h1v1h-1zM0%208h1v1h-1zM2%208h1v1h-1zM4%208h1v1h-1zM6%208h1v1h-1zM8%208h1v1h-1zM10%208h1v1h-1zM12%208h1v1h-1zM14%208h1v1h-1zM16%208h1v1h-1zM18%208h1v1h-1zM20%208h1v1h-1zM22%208h1v1h-1zM24%208h1v1h-1zM26%208h1v1h-1zM28%208h1v1h-1zM30%208h1v1h-1zM1%209h1v1h-1zM5%209h1v1h-1zM9%209h1v1h-1zM13%209h1v1h-1zM17%209h1v1h-1zM21%209h1v1h-1zM25%209h1v1h-1zM29%209h1v1h-1zM0%2010h1v1h-1zM2%2010h1v1h-1zM4%2010h1v1h-1zM6%2010h1v1h-1zM8%2010h1v1h-1zM10%2010h1v1h-1zM12%2010h1v1h-1zM14%2010h1v1h-1zM16%2010h1v1h-1zM18%2010h1v1h-1zM20%2010h1v1h-1zM22%2010h1v1h-1zM24%2010h1v1h-1zM26%2010h1v1h-1zM28%2010h1v1h-1zM30%2010h1v1h-1zM3%2011h1v1h-1zM7%2011h1v1h-1zM11%2011h1v1h-1zM15%2011h1v1h-1zM19%2011h1v1h-1zM23%2011h1v1h-1zM27%2011h1v1h-1zM31%2011h1v1h-1zM0%2012h1v1h-1zM2%2012h1v1h-1zM4%2012h1v1h-1zM6%2012h1v1h-1zM8%2012h1v1h-1zM10%2012h1v1h-1zM12%2012h1v1h-1zM14%2012h1v1h-1zM16%2012h1v1h-1zM18%2012h1v1h-1zM20%2012h1v1h-1zM22%2012h1v1h-1zM24%2012h1v1h-1zM26%2012h1v1h-1zM28%2012h1v1h-1zM30%2012h1v1h-1zM1%2013h1v1h-1zM3%2013h1v1h-1zM5%2013h1v1h-1zM7%2013h1v1h-1zM9%2013h1v1h-1zM11%2013h1v1h-1zM13%2013h1v1h-1zM15%2013h1v1h-1zM17%2013h1v1h-1zM19%2013h1v1h-1zM21%2013h1v1h-1zM23%2013h1v1h-1zM25%2013h1v1h-1zM27%2013h1v1h-1zM29%2013h1v1h-1zM31%2013h1v1h-1zM0%2014h1v1h-1zM2%2014h1v1h-1zM4%2014h1v1h-1zM6%2014h1v1h-1zM8%2014h1v1h-1zM10%2014h1v1h-1zM12%2014h1v1h-1zM14%2014h1v1h-1zM16%2014h1v1h-1zM18%2014h1v1h-1zM20%2014h1v1h-1zM22%2014h1v1h-1zM24%2014h1v1h-1zM26%2014h1v1h-1zM28%2014h1v1h-1zM30%2014h1v1h-1zM1%2015h1v1h-1zM3%2015h1v1h-1zM5%2015h1v1h-1zM7%2015h1v1h-1zM9%2015h1v1h-1zM11%2015h1v1h-1zM13%2015h1v1h-1zM15%2015h1v1h-1zM17%2015h1v1h-1zM19%2015h1v1h-1zM21%2015h1v1h-1zM23%2015h1v1h-1zM25%2015h1v1h-1zM27%2015h1v1h-1zM29%2015h1v1h-1zM31%2015h1v1h-1zM0%2016h3v1h-3zM4%2016h3v1h-3zM8%2016h3v1h-3zM12%2016h3v1h-3zM16%2016h3v1h-3zM20%2016h3v1h-3zM24%2016h3v1h-3zM28%2016h3v1h-3zM1%2017h1v1h-1zM3%2017h1v1h-1zM5%2017h1v1h-1zM7%2017h1v1h-1zM9%2017h1v1h-1zM11%2017h1v1h-1zM13%2017h1v1h-1zM15%2017h1v1h-1zM17%2017h1v1h-1zM19%2017h1v1h-1zM21%2017h1v1h-1zM23%2017h1v1h-1zM25%2017h1v1h-1zM27%2017h1v1h-1zM29%2017h1v1h-1zM31%2017h1v1h-1zM0%2018h1v1h-1zM2%2018h3v1h-3zM6%2018h3v1h-3zM10%2018h3v1h-3zM14%2018h3v1h-3zM18%2018h3v1h-3zM22%2018h3v1h-3zM26%2018h3v1h-3zM30%2018h2v1h-2zM1%2019h1v1h-1zM3%2019h1v1h-1zM5%2019h1v1h-1zM7%2019h1v1h-1zM9%2019h1v1h-1zM11%2019h1v1h-1zM13%2019h1v1h-1zM15%2019h1v1h-1zM17%2019h1v1h-1zM19%2019h1v1h-1zM21%2019h1v1h-1zM23%2019h1v1h-1zM25%2019h1v1h-1zM27%2019h1v1h-1zM29%2019h1v1h-1zM31%2019h1v1h-1zM0%2020h32v1h-32zM1%2021h1v1h-1zM3%2021h1v1h-1zM5%2021h1v1h-1zM7%2021h1v1h-1zM9%2021h1v1h-1zM11%2021h1v1h-1zM13%2021h1v1h-1zM15%2021h1v1h-1zM17%2021h1v1h-1zM19%2021h1v1h-1zM21%2021h1v1h-1zM23%2021h1v1h-1zM25%2021h1v1h-1zM27%2021h1v1h-1zM29%2021h1v1h-1zM31%2021h1v1h-1zM0%2022h32v1h-32zM1%2023h1v1h-1zM3%2023h1v1h-1zM5%2023h1v1h-1zM7%2023h1v1h-1zM9%2023h1v1h-1zM11%2023h1v1h-1zM13%2023h1v1h-1zM15%2023h1v1h-1zM17%2023h1v1h-1zM19%2023h1v1h-1zM21%2023h1v1h-1zM23%2023h1v1h-1zM25%2023h1v1h-1zM27%2023h1v1h-1zM29%2023h1v1h-1zM31%2023h1v1h-1zM0%2024h32v1h-32zM0%2025h2v1h-2zM3%2025h3v1h-3zM7%2025h3v1h-3zM11%2025h3v1h-3zM15%2025h3v1h-3zM19%2025h3v1h-3zM23%2025h3v1h-3zM27%2025h3v1h-3zM31%2025h1v1h-1zM0%2026h32v1h-32zM1%2027h3v1h-3zM5%2027h3v1h-3zM9%2027h3v1h-3zM13%2027h3v1h-3zM17%2027h3v1h-3zM21%2027h3v1h-3zM25%2027h3v1h-3zM29%2027h3v1h-3zM0%2028h32v1h-32zM0%2029h32v1h-32zM0%2030h32v1h-32zM0%2031h32v1h-32z%22%2F%3E%3C%2Fsvg%3E");
+      --texture: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%208%208%22%20width%3D%228%22%20height%3D%228%22%3E%3Cpath%20d%3D%22M0%200h1v1h-1zM2%200h1v1h-1zM4%200h1v1h-1zM6%200h1v1h-1zM1%201h1v1h-1zM3%201h1v1h-1zM5%201h1v1h-1zM7%201h1v1h-1zM0%202h1v1h-1zM2%202h1v1h-1zM4%202h1v1h-1zM6%202h1v1h-1zM1%203h1v1h-1zM3%203h1v1h-1zM5%203h1v1h-1zM7%203h1v1h-1zM0%204h1v1h-1zM2%204h1v1h-1zM4%204h1v1h-1zM6%204h1v1h-1zM1%205h1v1h-1zM3%205h1v1h-1zM5%205h1v1h-1zM7%205h1v1h-1zM0%206h1v1h-1zM2%206h1v1h-1zM4%206h1v1h-1zM6%206h1v1h-1zM1%207h1v1h-1zM3%207h1v1h-1zM5%207h1v1h-1zM7%207h1v1h-1z%22%2F%3E%3C%2Fsvg%3E");
+    }
+    [data-theme="dark"] {
       --paper:    #14181e;
       --paper-2:  #1b2028;
       --paper-3:  #232a34;
@@ -87,13 +59,13 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       --hit-bg:   rgba(143, 169, 194, .24);
       --backdrop: rgba(6, 8, 11, .62);
       --grain-opacity: .05;
-    }}
-    html {{ color-scheme: light; transition: background-color .2s; }}
-    html[data-theme="dark"] {{ color-scheme: dark; }}
+    }
+    html { color-scheme: light; transition: background-color .2s; }
+    html[data-theme="dark"] { color-scheme: dark; }
 
-    html {{ font-size: 16px; -webkit-font-smoothing: antialiased; }}
+    html { font-size: 16px; -webkit-font-smoothing: antialiased; }
 
-    body {{
+    body {
       font-family: var(--serif);
       font-feature-settings: 'ss01', 'cv11';
       background: var(--paper);
@@ -102,11 +74,11 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       line-height: 1.65;
       position: relative;
       overflow-x: hidden;
-    }}
+    }
     /* The paper itself is dithered. A Bayer 8x8 tile, masked rather than blended,
        so the grain is --ink in both themes without needing two source files or a
        blend mode that no-ops against a dark ground. */
-    body::before {{
+    body::before {
       content: '';
       position: fixed;
       inset: 0;
@@ -118,26 +90,26 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       mask-image: var(--texture);
       -webkit-mask-size: 8px 8px;
       mask-size: 8px 8px;
-    }}
-    body > * {{ position: relative; z-index: 1; }}
+    }
+    body > * { position: relative; z-index: 1; }
 
-    a {{ color: inherit; text-decoration: none; }}
+    a { color: inherit; text-decoration: none; }
 
-    :focus-visible {{
+    :focus-visible {
       outline: 2px solid var(--accent);
       outline-offset: 2px;
-    }}
+    }
 
     /* ─────────────── Page shell + Archive rail ─────────────── */
-    .page-shell {{
+    .page-shell {
       display: grid;
       grid-template-columns: 240px minmax(0, 1fr);
       align-items: start;
       transition: grid-template-columns .22s ease;
-    }}
-    .page-main {{ min-width: 0; }}
+    }
+    .page-main { min-width: 0; }
 
-    .archive-rail {{
+    .archive-rail {
       position: sticky;
       top: 0;
       max-height: 100vh;
@@ -146,12 +118,12 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       padding: 2.25rem 1.25rem 2rem 1.5rem;
       font-size: .78rem;
       transition: padding .22s ease;
-    }}
-    .archive-rail::-webkit-scrollbar {{ width: 6px; }}
-    .archive-rail::-webkit-scrollbar-track {{ background: transparent; }}
-    .archive-rail::-webkit-scrollbar-thumb {{ background: var(--rule-2); }}
+    }
+    .archive-rail::-webkit-scrollbar { width: 6px; }
+    .archive-rail::-webkit-scrollbar-track { background: transparent; }
+    .archive-rail::-webkit-scrollbar-thumb { background: var(--rule-2); }
 
-    .rail-heading {{
+    .rail-heading {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -162,14 +134,14 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--ink-3);
       margin-bottom: 1.1rem;
       gap: .5rem;
-    }}
-    .rail-heading a {{
+    }
+    .rail-heading a {
       color: var(--ink-3);
       transition: color .15s;
-    }}
-    .rail-heading a:hover {{ color: var(--accent); }}
+    }
+    .rail-heading a:hover { color: var(--accent); }
 
-    .rail-toggle {{
+    .rail-toggle {
       background: none;
       border: 1px solid var(--rule-2);
       color: var(--ink-3);
@@ -184,20 +156,20 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       line-height: 1;
       transition: color .15s, border-color .15s;
       flex-shrink: 0;
-    }}
-    .rail-toggle:hover {{ color: var(--accent); border-color: var(--accent); }}
-    .rail-toggle-icon {{
+    }
+    .rail-toggle:hover { color: var(--accent); border-color: var(--accent); }
+    .rail-toggle-icon {
       display: inline-block;
       transition: transform .22s ease;
       line-height: 1;
-    }}
-    .rail-close-icon {{
+    }
+    .rail-close-icon {
       display: none;
       line-height: 1;
       font-size: .85rem;
-    }}
+    }
 
-    .rail-drawer-toggle {{
+    .rail-drawer-toggle {
       display: none;
       background: none;
       border: 1px solid var(--rule-2);
@@ -212,10 +184,10 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       line-height: 1;
       transition: color .15s, border-color .15s;
       flex-shrink: 0;
-    }}
-    .rail-drawer-toggle:hover {{ color: var(--accent); border-color: var(--accent); }}
+    }
+    .rail-drawer-toggle:hover { color: var(--accent); border-color: var(--accent); }
 
-    .rail-backdrop {{
+    .rail-backdrop {
       display: none;
       position: fixed;
       inset: 0;
@@ -224,29 +196,29 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       pointer-events: none;
       transition: opacity .25s ease;
       z-index: 49;
-    }}
+    }
 
-    html[data-rail="collapsed"] .page-shell {{
+    html[data-rail="collapsed"] .page-shell {
       grid-template-columns: 52px minmax(0, 1fr);
-    }}
-    html[data-rail="collapsed"] .archive-rail {{
+    }
+    html[data-rail="collapsed"] .archive-rail {
       padding: 2.25rem .5rem 2rem;
-    }}
-    html[data-rail="collapsed"] .rail-heading {{
+    }
+    html[data-rail="collapsed"] .rail-heading {
       justify-content: center;
       margin-bottom: 0;
-    }}
+    }
     html[data-rail="collapsed"] .rail-heading-label,
     html[data-rail="collapsed"] .rail-search,
     html[data-rail="collapsed"] .rail-search-status,
-    html[data-rail="collapsed"] .rail-list {{
+    html[data-rail="collapsed"] .rail-list {
       display: none;
-    }}
-    html[data-rail="collapsed"] .rail-toggle-icon {{
+    }
+    html[data-rail="collapsed"] .rail-toggle-icon {
       transform: rotate(180deg);
-    }}
+    }
 
-    .rail-search {{
+    .rail-search {
       display: flex;
       align-items: center;
       gap: .15rem;
@@ -254,15 +226,15 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       border: 1px solid var(--rule-2);
       background: var(--paper-2);
       transition: border-color .15s;
-    }}
-    .rail-search:focus-within {{ border-color: var(--accent); }}
-    .rail-search-icon {{
+    }
+    .rail-search:focus-within { border-color: var(--accent); }
+    .rail-search-icon {
       padding-left: .5rem;
       font-size: .95rem;
       line-height: 1;
       color: var(--ink-3);
-    }}
-    .rail-search-input {{
+    }
+    .rail-search-input {
       flex: 1;
       min-width: 0;
       background: none;
@@ -272,13 +244,13 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       font-family: var(--serif);
       font-size: .72rem;
       padding: .45rem .3rem;
-    }}
-    .rail-search-input::placeholder {{ color: var(--ink-3); }}
-    .rail-search-input::-webkit-search-cancel-button {{
+    }
+    .rail-search-input::placeholder { color: var(--ink-3); }
+    .rail-search-input::-webkit-search-cancel-button {
       -webkit-appearance: none;
       appearance: none;
-    }}
-    .rail-search-clear {{
+    }
+    .rail-search-clear {
       background: none;
       border: none;
       color: var(--ink-3);
@@ -287,18 +259,18 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       line-height: 1;
       padding: .35rem .5rem;
       transition: color .15s;
-    }}
-    .rail-search-clear:hover {{ color: var(--accent); }}
+    }
+    .rail-search-clear:hover { color: var(--accent); }
 
-    .rail-search-status {{
+    .rail-search-status {
       font-family: var(--mono);
       font-size: .58rem;
       letter-spacing: .1em;
       color: var(--ink-3);
       margin-bottom: .85rem;
-    }}
+    }
 
-    .rail-hit-kind {{
+    .rail-hit-kind {
       display: inline-block;
       font-family: var(--mono);
       font-size: .54rem;
@@ -307,46 +279,46 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--accent);
       margin-right: .35rem;
       vertical-align: .05em;
-    }}
-    .rail-headline mark {{
+    }
+    .rail-headline mark {
       background: none;
       color: var(--accent);
       font-weight: 500;
-    }}
-    .rail-item-hit .rail-headline {{ -webkit-line-clamp: 3; }}
+    }
+    .rail-item-hit .rail-headline { -webkit-line-clamp: 3; }
 
-    mark.q-hit {{
+    mark.q-hit {
       background: var(--hit-bg);
       color: inherit;
       padding: 0 .08em;
-    }}
-    mark.q-hit-active {{ outline: 1px solid var(--accent); }}
+    }
+    mark.q-hit-active { outline: 1px solid var(--accent); }
 
-    .rail-list {{ display: flex; flex-direction: column; }}
-    .rail-loading {{
+    .rail-list { display: flex; flex-direction: column; }
+    .rail-loading {
       padding: .5rem 0;
       font-family: var(--mono);
       font-size: .6rem;
       letter-spacing: .1em;
       color: var(--ink-3);
-    }}
+    }
 
-    .rail-item {{
+    .rail-item {
       display: block;
       padding: .7rem 0 .8rem;
       border-top: 1px solid var(--rule);
       opacity: .72;
       transition: opacity .15s;
-    }}
-    .rail-item:first-child {{ border-top: none; padding-top: 0; }}
-    .rail-item:hover {{ opacity: 1; }}
-    .rail-item-current {{ opacity: 1; }}
-    .rail-item-current .rail-headline {{ color: var(--ink); }}
+    }
+    .rail-item:first-child { border-top: none; padding-top: 0; }
+    .rail-item:hover { opacity: 1; }
+    .rail-item-current { opacity: 1; }
+    .rail-item-current .rail-headline { color: var(--ink); }
     /* The one place ochre is allowed besides the masthead issue number: this is
        the "today" marker the brand rations it for. */
-    .rail-item-current .rail-meta span:first-child {{ color: var(--dawn); }}
+    .rail-item-current .rail-meta span:first-child { color: var(--dawn); }
 
-    .rail-meta {{
+    .rail-meta {
       display: flex;
       justify-content: space-between;
       font-family: var(--mono);
@@ -354,9 +326,9 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: .1em;
       color: var(--ink-3);
       margin-bottom: .35rem;
-    }}
+    }
 
-    .rail-headline {{
+    .rail-headline {
       font-family: var(--serif);
       font-weight: 400;
       font-size: .8rem;
@@ -368,22 +340,22 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       -webkit-box-orient: vertical;
       overflow: hidden;
       margin-bottom: .3rem;
-    }}
-    .rail-item:hover .rail-headline {{ color: var(--ink); }}
+    }
+    .rail-item:hover .rail-headline { color: var(--ink); }
 
-    .rail-date {{
+    .rail-date {
       font-family: var(--mono);
       font-size: .58rem;
       color: var(--ink-3);
       letter-spacing: .06em;
-    }}
+    }
 
-    @media (max-width: 980px) {{
+    @media (max-width: 980px) {
       .page-shell,
-      html[data-rail="collapsed"] .page-shell {{ grid-template-columns: 1fr; }}
+      html[data-rail="collapsed"] .page-shell { grid-template-columns: 1fr; }
 
       .archive-rail,
-      html[data-rail="collapsed"] .archive-rail {{
+      html[data-rail="collapsed"] .archive-rail {
         position: fixed;
         top: 0; left: 0; bottom: 0;
         width: 280px;
@@ -397,52 +369,52 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
         overflow-y: auto;
         transform: translateX(-100%);
         transition: transform .25s ease;
-      }}
-      body.rail-drawer-open .archive-rail {{
+      }
+      body.rail-drawer-open .archive-rail {
         transform: translateX(0);
-      }}
+      }
 
-      .rail-backdrop {{ display: block; }}
-      body.rail-drawer-open .rail-backdrop {{
+      .rail-backdrop { display: block; }
+      body.rail-drawer-open .rail-backdrop {
         opacity: 1;
         pointer-events: auto;
-      }}
-      body.rail-drawer-open {{ overflow: hidden; }}
+      }
+      body.rail-drawer-open { overflow: hidden; }
 
-      .rail-drawer-toggle {{ display: inline-flex; }}
+      .rail-drawer-toggle { display: inline-flex; }
 
       /* On mobile the rail-toggle becomes a close button */
-      .rail-toggle-icon {{ display: none; }}
-      .rail-close-icon {{ display: inline-block; }}
+      .rail-toggle-icon { display: none; }
+      .rail-close-icon { display: inline-block; }
 
       /* Cancel desktop "collapsed" visual state on mobile so the drawer
          always renders fully expanded when opened. */
-      html[data-rail="collapsed"] .rail-heading {{
+      html[data-rail="collapsed"] .rail-heading {
         justify-content: space-between;
         margin-bottom: 1.1rem;
-      }}
+      }
       html[data-rail="collapsed"] .rail-heading-label,
-      html[data-rail="collapsed"] .rail-list {{ display: revert; }}
-      html[data-rail="collapsed"] .rail-search {{ display: flex; }}
-      html[data-rail="collapsed"] .rail-search-status {{ display: revert; }}
-    }}
+      html[data-rail="collapsed"] .rail-list { display: revert; }
+      html[data-rail="collapsed"] .rail-search { display: flex; }
+      html[data-rail="collapsed"] .rail-search-status { display: revert; }
+    }
 
     /* ─────────────── Masthead — broadsheet nameplate ───────────────
        Engraving full bleed, then a solid ink plate carrying reversed type, then
        the ears. Identical on every issue and every archived page; the numbers in
        the ears are the only thing that changes. Sameness is the ritual. */
-    .bs-head {{ margin-bottom: 2.75rem; }}
-    .bs-art {{
+    .bs-head { margin-bottom: 2.75rem; }
+    .bs-art {
       display: block;
       width: 100%;
       height: clamp(190px, 28vh, 290px);
       object-fit: cover;
       object-position: 50% 42%;
-    }}
+    }
     /* Reversed type on a printed block, not white type floating on a painting.
        The engraving's sky is bone white, so laying type directly on it would need
        a scrim, and a scrim means a gradient. */
-    .bs-plate {{
+    .bs-plate {
       background: var(--ink);
       color: var(--paper);
       max-width: var(--maxw);
@@ -454,8 +426,8 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 1rem;
-    }}
-    .bs-name {{
+    }
+    .bs-name {
       font-family: var(--serif);
       font-weight: 700;
       font-size: clamp(2.2rem, 4.6vw, 3.1rem);
@@ -464,8 +436,8 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       /* letter-spacing pads the right of the last glyph; pull it back so the two
          characters sit optically placed rather than measurably placed. */
       margin-right: -.14em;
-    }}
-    .bs-plate-meta {{
+    }
+    .bs-plate-meta {
       display: flex;
       gap: 1.5rem;
       font-family: var(--mono);
@@ -473,10 +445,10 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: .16em;
       text-transform: uppercase;
       opacity: .8;
-    }}
-    .bs-issue {{ color: var(--dawn); opacity: 1; }}
+    }
+    .bs-issue { color: var(--dawn); opacity: 1; }
     /* The front page's own table of contents. */
-    .bs-ears {{
+    .bs-ears {
       max-width: var(--maxw);
       margin: 0 auto;
       padding: .7rem 2rem;
@@ -489,23 +461,23 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: .14em;
       text-transform: uppercase;
       color: var(--ink-3);
-    }}
-    .bs-ears b {{ color: var(--ink); font-weight: 500; }}
-    .bs-ears-rule {{ flex: 1; height: 1px; background: var(--rule); }}
+    }
+    .bs-ears b { color: var(--ink); font-weight: 500; }
+    .bs-ears-rule { flex: 1; height: 1px; background: var(--rule); }
 
     /* ─────────────── Broadsheet lead ─────────────── */
-    .bs-lead {{ margin-bottom: 3.5rem; }}
-    .bs-kicker {{
+    .bs-lead { margin-bottom: 3.5rem; }
+    .bs-kicker {
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .16em;
       text-transform: uppercase;
       color: var(--accent);
       margin-bottom: 1rem;
-    }}
+    }
     /* The one place this page spends everything: a headline big enough that the
        eye has no choice about where the issue begins. */
-    .bs-headline {{
+    .bs-headline {
       font-family: var(--serif);
       /* 400, not 700. The 700 cut of Noto Serif TC is 108 unicode-range shards,
          and a headline is a different Chinese sentence every day — so bold here
@@ -519,64 +491,64 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       margin-bottom: 1.6rem;
       border-bottom: 1px solid var(--rule);
       padding-bottom: 1.5rem;
-    }}
-    .bs-lead-body .yt-brief {{
+    }
+    .bs-lead-body .yt-brief {
       background: none;
       border: none;
       padding: 0;
       margin: 0;
-    }}
+    }
     /* The kicker is already said louder by .bs-kicker directly above it, and the
        disclosure triangle bought nothing but a 20px indent that pushed the whole
        card out of line with the headline. (The standfirst goes too, but only once
        the lead is open — `details[open] .nl-lead` covers that, and archived pages
        whose lead is still collapsed keep it as their only preview.) */
     .bs-lead-body .yt-kicker,
-    .bs-lead-body .yt-toggle {{ display: none; }}
-    .bs-lead-body .yt-summary {{ gap: 0; }}
+    .bs-lead-body .yt-toggle { display: none; }
+    .bs-lead-body .yt-summary { gap: 0; }
     /* Specificity, not source order: .nl-item .yt-title is defined further down
        and would otherwise win, printing the source headline at list size right
        under a 2.7rem headline that says the same thing. */
-    .bs-lead-body .yt-brief .yt-title {{
+    .bs-lead-body .yt-brief .yt-title {
       font-size: 1rem;
       font-weight: 500;
       color: var(--ink-3);
       margin-bottom: .7rem;
-    }}
-    .bs-lead-body .yt-brief .yt-title a {{ color: var(--ink-3); }}
+    }
+    .bs-lead-body .yt-brief .yt-title a { color: var(--ink-3); }
     /* Two columns with a hairline between them — the broadsheet's actual signature. */
-    .bs-lead-body .yt-body {{
+    .bs-lead-body .yt-body {
       max-width: none;
       columns: 2;
       column-gap: 2.75rem;
       column-rule: 1px solid var(--rule);
       margin-top: 1.25rem;
-    }}
+    }
     .bs-lead-body .yt-body h3,
-    .bs-lead-body .yt-body h4 {{ break-after: avoid; }}
+    .bs-lead-body .yt-body h4 { break-after: avoid; }
     /* A bullet split across the rule reads as two bullets: the reader takes the
        continuation at the top of the right track for a new item. Paragraphs may
        break — that is what columns do — but a list item may not. */
-    .bs-lead-body .yt-body li {{ break-inside: avoid; }}
-    .bs-lead-body .yt-body > *:first-child {{ margin-top: 0; }}
+    .bs-lead-body .yt-body li { break-inside: avoid; }
+    .bs-lead-body .yt-body > *:first-child { margin-top: 0; }
     /* A brief with too little text to fill two tracks does not read as columns —
        CSS slices its one paragraph mid-word across the rule and leaves the
        balance to chance. Below the threshold in templates.lead_story it gets one
        track at a normal measure instead. Must stay after the rule above. */
-    .bs-lead-compact .yt-body {{
+    .bs-lead-compact .yt-body {
       columns: 1;
       column-rule: none;
       max-width: var(--measure);
-    }}
+    }
 
     /* ─────────────── Body / Layout ─────────────── */
-    main {{
+    main {
       max-width: var(--maxw);
       margin: 0 auto;
       padding: 2.5rem 1.5rem 4rem;
-    }}
+    }
 
-    .topbar {{
+    .topbar {
       display: flex;
       align-items: center;
       gap: 1rem;
@@ -586,20 +558,20 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: .1em;
       text-transform: uppercase;
       color: var(--ink-3);
-    }}
-    .topbar .sep {{
+    }
+    .topbar .sep {
       flex: 1;
       height: 1px;
       background: var(--rule);
-    }}
+    }
     .topbar a,
-    .topbar .topbar-link {{
+    .topbar .topbar-link {
       color: var(--accent);
       transition: color .15s;
-    }}
+    }
     .topbar a:hover,
-    .topbar .topbar-link:hover {{ color: var(--accent-2); }}
-    .topbar .topbar-link {{
+    .topbar .topbar-link:hover { color: var(--accent-2); }
+    .topbar .topbar-link {
       background: none;
       border: none;
       padding: 0;
@@ -607,8 +579,8 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: inherit;
       text-transform: inherit;
       cursor: pointer;
-    }}
-    .theme-toggle {{
+    }
+    .theme-toggle {
       background: none;
       border: 1px solid var(--rule-2);
       color: var(--ink-3);
@@ -621,14 +593,14 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       font-size: .9rem;
       line-height: 1;
       transition: color .15s, border-color .15s, background .15s;
-    }}
-    .theme-toggle:hover {{
+    }
+    .theme-toggle:hover {
       color: var(--accent);
       border-color: var(--accent);
-    }}
+    }
 
     /* ─────────────── Criteria Modal ─────────────── */
-    .criteria-modal {{
+    .criteria-modal {
       padding: 0;
       margin: auto;
       inset: 0;
@@ -637,29 +609,29 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--ink-2);
       width: min(640px, calc(100vw - 3rem));
       max-height: calc(100vh - 4rem);
-    }}
-    .criteria-modal::backdrop {{
+    }
+    .criteria-modal::backdrop {
       background: var(--backdrop);
-    }}
-    .criteria-modal[open] {{
+    }
+    .criteria-modal[open] {
       animation: modal-in .2s ease;
-    }}
-    @keyframes modal-in {{
-      from {{ opacity: 0; }}
-      to   {{ opacity: 1; }}
-    }}
-    @media (prefers-reduced-motion: reduce) {{
-      *, *::before, *::after {{
+    }
+    @keyframes modal-in {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
         animation-duration: .01ms !important;
         transition-duration: .01ms !important;
-      }}
-    }}
-    .criteria-modal-inner {{
+      }
+    }
+    .criteria-modal-inner {
       padding: 1.75rem 1.9rem 1.9rem;
       max-height: calc(100vh - 4rem);
       overflow-y: auto;
-    }}
-    .criteria-modal-head {{
+    }
+    .criteria-modal-head {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -667,16 +639,16 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       margin-bottom: 1.25rem;
       padding-bottom: .9rem;
       border-bottom: 1px solid var(--rule);
-    }}
-    .criteria-modal-head h3 {{
+    }
+    .criteria-modal-head h3 {
       font-family: var(--mono);
       font-size: .72rem;
       letter-spacing: .15em;
       text-transform: uppercase;
       color: var(--ink);
       font-weight: 500;
-    }}
-    .modal-close {{
+    }
+    .modal-close {
       background: none;
       border: none;
       color: var(--ink-3);
@@ -685,18 +657,18 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       padding: 0;
       line-height: 1;
       transition: color .15s;
-    }}
-    .modal-close:hover {{ color: var(--accent); }}
-    .criteria-body {{
+    }
+    .modal-close:hover { color: var(--accent); }
+    .criteria-body {
       font-size: .85rem;
       line-height: 1.75;
       color: var(--ink-2);
-    }}
-    .criteria-body p {{ margin-bottom: .9rem; }}
-    .criteria-body strong {{ color: var(--ink); font-weight: 500; }}
-    .criteria-body ul {{ padding-left: 1.2rem; margin-bottom: .9rem; }}
-    .criteria-body li {{ margin-bottom: .35rem; }}
-    .criteria-body h4 {{
+    }
+    .criteria-body p { margin-bottom: .9rem; }
+    .criteria-body strong { color: var(--ink); font-weight: 500; }
+    .criteria-body ul { padding-left: 1.2rem; margin-bottom: .9rem; }
+    .criteria-body li { margin-bottom: .35rem; }
+    .criteria-body h4 {
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .14em;
@@ -704,69 +676,69 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       margin: 1.6rem 0 .6rem;
       color: var(--ink);
       font-weight: 500;
-    }}
-    .criteria-body table {{
+    }
+    .criteria-body table {
       width: 100%;
       border-collapse: collapse;
       font-size: .8rem;
       margin-bottom: .75rem;
-    }}
-    .criteria-body th, .criteria-body td {{
+    }
+    .criteria-body th, .criteria-body td {
       text-align: left;
       padding: .5rem .65rem;
       border-bottom: 1px solid var(--rule);
       vertical-align: top;
-    }}
-    .criteria-body th {{
+    }
+    .criteria-body th {
       color: var(--ink-3);
       font-weight: 500;
       font-size: .68rem;
       letter-spacing: .12em;
       text-transform: uppercase;
       font-family: var(--mono);
-    }}
-    .criteria-body code {{
+    }
+    .criteria-body code {
       background: var(--tint);
       color: var(--accent);
       padding: 1px 7px;
       font-family: var(--mono);
       font-size: .76rem;
-    }}
-    .criteria-note {{
+    }
+    .criteria-note {
       font-size: .76rem;
       color: var(--ink-3);
       margin-top: 1rem;
       padding-top: .75rem;
       border-top: 1px solid var(--rule);
-    }}
+    }
 
     /* ─────────────── Lead / Hero Card ─────────────── */
-    .lead {{
+    .lead {
       margin-bottom: 3rem;
       border-top: 2px solid var(--ink);
       border-bottom: 1px solid var(--rule);
       padding: 2rem 0 2.25rem;
       position: relative;
-    }}
-    .lead::before {{
+    }
+    .lead::before {
       content: '';
       position: absolute;
       top: -2px; left: 0;
       width: 80px; height: 2px;
       background: var(--accent);
-    }}
+    }
     /* Same inset as a card's text, so the deck and the two columns under it read
        off one left edge. The lead's own rules stay on the outer grid. */
-    .lead-anchor {{
+    .lead-anchor {
       display: block;
       padding-inline: var(--card-pad);
       cursor: pointer;
       transition: opacity .15s;
-    }}
-    .lead-anchor:hover {{ opacity: .92; }}
-    .lead-anchor:hover .lead-arrow {{ transform: translate(3px, -3px); color: var(--accent); }}
+    }
+    .lead-anchor:hover { opacity: .92; }
+    .lead-anchor:hover .lead-arrow { transform: translate(3px, -3px); color: var(--accent); }
 
-    .lead-meta {{
+    .lead-meta {
       display: flex;
       align-items: center;
       gap: 1rem;
@@ -776,17 +748,17 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: .12em;
       text-transform: uppercase;
       color: var(--ink-3);
-    }}
-    .lead-rank {{
+    }
+    .lead-rank {
       color: var(--accent);
       font-weight: 500;
-    }}
-    .lead-rule {{
+    }
+    .lead-rule {
       flex: 1;
       height: 1px;
       background: var(--rule);
-    }}
-    .lead-author {{
+    }
+    .lead-author {
       display: flex;
       gap: .5rem;
       align-items: baseline;
@@ -794,11 +766,11 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: 0;
       font-family: var(--serif);
       font-size: .82rem;
-    }}
-    .lead-author .author-name {{ color: var(--ink); font-weight: 500; }}
-    .lead-author .author-handle {{ color: var(--ink-3); }}
+    }
+    .lead-author .author-name { color: var(--ink); font-weight: 500; }
+    .lead-author .author-handle { color: var(--ink-3); }
 
-    .lead-summary {{
+    .lead-summary {
       font-family: var(--serif);
       font-weight: 500;
       font-size: clamp(1.45rem, 3vw, 1.95rem);
@@ -807,8 +779,8 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--ink);
       margin-bottom: 1rem;
       max-width: var(--measure);
-    }}
-    .lead-text {{
+    }
+    .lead-text {
       font-size: 1rem;
       line-height: 1.75;
       color: var(--ink-2);
@@ -818,25 +790,25 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
       overflow: hidden;
-    }}
-    .lead-foot {{
+    }
+    .lead-foot {
       display: flex;
       align-items: center;
       gap: 1.25rem;
       font-size: .8rem;
       color: var(--ink-3);
       flex-wrap: wrap;
-    }}
-    .lead-arrow {{
+    }
+    .lead-arrow {
       margin-left: auto;
       font-size: 1.2rem;
       color: var(--ink-3);
       transition: transform .2s ease, color .2s;
       display: inline-block;
-    }}
+    }
 
     /* ─────────────── Section divider ─────────────── */
-    .grid-divider {{
+    .grid-divider {
       display: flex;
       align-items: center;
       gap: 1rem;
@@ -846,14 +818,14 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: .15em;
       text-transform: uppercase;
       color: var(--ink-3);
-    }}
+    }
     .grid-divider::before,
-    .grid-divider::after {{
+    .grid-divider::after {
       content: '';
       flex: 1;
       height: 1px;
       background: var(--rule);
-    }}
+    }
 
     /* ─────────────── The desk — 好文 full width, 推文 two-up ───────────────
        好文 and 推文 share one grid below the lead. .nl-grid only appears on
@@ -867,7 +839,7 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
        arguments at once, and the taller one drags a column of white space behind
        its neighbour every time. Both keep the 70ch measure inside, so the wide row
        costs nothing in line length; it only stops the neighbour competing with it. */
-    .cards-grid, .nl-grid {{
+    .cards-grid, .nl-grid {
       position: relative;
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -876,10 +848,10 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       --desk-gap: calc(5.5rem - var(--card-pad) * 2);
       column-gap: var(--desk-gap);
       border-top: 1px solid var(--rule);
-    }}
-    .nl-grid {{ margin-bottom: 3rem; }}
+    }
+    .nl-grid { margin-bottom: 3rem; }
     .cards-grid > .nl-item,
-    .nl-grid > .nl-item {{ grid-column: 1 / -1; }}
+    .nl-grid > .nl-item { grid-column: 1 / -1; }
     /* The column rule is a segment in the gutter beside each left-hand tweet, not
        one line down the whole grid: 好文 spans both tracks, and a full-height rule
        would run straight through an article that has no second column to be
@@ -894,9 +866,9 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
        Rows still stretch, so each segment is exactly its row's height, the
        segments meet down the pair, and the bottom rules line up across it. */
     .cards-grid > article:nth-of-type(odd),
-    .nl-grid > article:nth-of-type(odd) {{ position: relative; }}
+    .nl-grid > article:nth-of-type(odd) { position: relative; }
     .cards-grid > article:nth-of-type(odd)::after,
-    .nl-grid > article:nth-of-type(odd)::after {{
+    .nl-grid > article:nth-of-type(odd)::after {
       content: '';
       position: absolute;
       top: 0;
@@ -905,7 +877,7 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       width: 1px;
       background: var(--rule);
       pointer-events: none;
-    }}
+    }
 
     /* The hover ground is the column cell itself, so it lands on the rules that
        are already there: the grid's top rule, the card's own bottom rule and the
@@ -913,14 +885,14 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
        instead. Bleeding the tone past the cell to keep the text on the outer grid
        was worse than the problem it solved — the tone then agreed with no rule on
        the page and read as a highlight that had slipped sideways. */
-    .card {{
+    .card {
       border-bottom: 1px solid var(--rule);
       min-width: 0;
       background: transparent;
       transition: background .15s;
-    }}
-    .card:hover {{ background: var(--paper-2); }}
-    .card-anchor {{
+    }
+    .card:hover { background: var(--paper-2); }
+    .card-anchor {
       display: flex;
       flex-direction: column;
       gap: .6rem;
@@ -928,8 +900,8 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       height: 100%;
       cursor: pointer;
       position: relative;
-    }}
-    .card-anchor::after {{
+    }
+    .card-anchor::after {
       content: '↗';
       position: absolute;
       top: 1.4rem;
@@ -937,40 +909,40 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--ink-3);
       font-size: .95rem;
       transition: transform .2s, color .2s;
-    }}
+    }
     /* Hover moves the arrow and the ground tone only. An inset that shifts the
        padding would slide the text sideways under a pointer that is resting on
        the line someone is reading. */
-    .card:hover .card-anchor::after {{
+    .card:hover .card-anchor::after {
       transform: translate(2px, -2px);
       color: var(--accent);
-    }}
+    }
 
-    .card-rank {{
+    .card-rank {
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .15em;
       color: var(--ink-3);
       margin-bottom: .15rem;
-    }}
-    .card-meta {{
+    }
+    .card-meta {
       display: flex;
       align-items: baseline;
       gap: .5rem;
       margin-bottom: .25rem;
-    }}
-    .author-name {{
+    }
+    .author-name {
       font-size: .85rem;
       font-weight: 500;
       color: var(--ink);
-    }}
-    .author-handle {{
+    }
+    .author-handle {
       font-size: .72rem;
       color: var(--ink-3);
       font-family: var(--mono);
-    }}
+    }
 
-    .card-summary {{
+    .card-summary {
       font-family: var(--serif);
       font-weight: 500;
       font-size: 1.15rem;
@@ -978,9 +950,9 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--ink);
       letter-spacing: -.015em;
       max-width: var(--measure);
-    }}
+    }
 
-    .card-text {{
+    .card-text {
       font-size: .88rem;
       line-height: 1.75;
       color: var(--ink-2);
@@ -990,11 +962,11 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       -webkit-line-clamp: 4;
       -webkit-box-orient: vertical;
       overflow: hidden;
-    }}
+    }
 
     /* No rule above the foot: in a single column each card already ends on one,
        and two hairlines a few pixels apart read as noise rather than structure. */
-    .card-foot {{
+    .card-foot {
       display: flex;
       gap: 1rem;
       align-items: center;
@@ -1002,19 +974,19 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--ink-3);
       padding-top: .4rem;
       flex-wrap: wrap;
-    }}
+    }
 
-    .stat {{
+    .stat {
       display: inline-flex;
       align-items: center;
       gap: .3rem;
       font-family: var(--mono);
-    }}
-    .glyph {{
+    }
+    .glyph {
       color: var(--ink-3);
       font-size: .8rem;
-    }}
-    .chip {{
+    }
+    .chip {
       margin-left: auto;
       font-family: var(--mono);
       font-size: .62rem;
@@ -1024,40 +996,40 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       background: none;
       border: 1px solid var(--rule-2);
       padding: 1px 7px;
-    }}
+    }
 
     /* ─────────────── Product Hunt Section ─────────────── */
-    .ph-divider {{
+    .ph-divider {
       margin-top: 3.5rem;
-    }}
-    .ph-divider span {{
+    }
+    .ph-divider span {
       color: var(--accent);
-    }}
-    .ph-grid {{
+    }
+    .ph-grid {
       display: flex;
       flex-direction: column;
       gap: 0;
       border-top: 1px solid var(--rule);
       margin-bottom: 3rem;
-    }}
-    .ph-card {{
+    }
+    .ph-card {
       border-bottom: 1px solid var(--rule);
       transition: background .15s;
-    }}
-    .ph-card:hover {{ background: var(--paper-2); }}
-    .ph-anchor {{
+    }
+    .ph-card:hover { background: var(--paper-2); }
+    .ph-anchor {
       display: grid;
       grid-template-columns: minmax(200px, 34%) 1fr;
       gap: 0;
       cursor: pointer;
       position: relative;
       min-height: 200px;
-    }}
-    .ph-hero {{
+    }
+    .ph-hero {
       padding: 1.3rem 1.3rem 1.3rem 0;
       display: flex;
-    }}
-    .ph-hero img {{
+    }
+    .ph-hero img {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -1067,85 +1039,85 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
          background shows through when the image fails, so a missing hero reads as
          a deliberately empty panel instead of a white hole. */
       background: var(--paper-3);
-    }}
+    }
     /* No image: show the paper's own dither rather than a placeholder gradient. */
-    .ph-hero-empty {{
+    .ph-hero-empty {
       background-color: var(--paper-3);
       -webkit-mask-image: var(--texture);
       mask-image: var(--texture);
       -webkit-mask-size: 4px 4px;
       mask-size: 4px 4px;
-    }}
-    .ph-body {{
+    }
+    .ph-body {
       display: flex;
       flex-direction: column;
       gap: .55rem;
       padding: 1.3rem 0 1.4rem 1.5rem;
       border-left: 1px solid var(--rule);
-    }}
-    .ph-head {{
+    }
+    .ph-head {
       display: flex;
       align-items: center;
       gap: .85rem;
-    }}
-    .ph-head-text {{
+    }
+    .ph-head-text {
       display: flex;
       flex-direction: column;
       gap: .15rem;
       min-width: 0;
-    }}
-    .ph-rank {{
+    }
+    .ph-rank {
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .15em;
       color: var(--ink-3);
       text-transform: uppercase;
-    }}
-    .ph-thumb {{
+    }
+    .ph-thumb {
       width: 44px;
       height: 44px;
       object-fit: cover;
       background: var(--paper-2);
       border: 1px solid var(--rule);
       flex-shrink: 0;
-    }}
-    @media (max-width: 680px) {{
-      .ph-anchor {{
+    }
+    @media (max-width: 680px) {
+      .ph-anchor {
         grid-template-columns: 1fr;
         min-height: 0;
-      }}
-      .ph-hero {{
+      }
+      .ph-hero {
         aspect-ratio: 16 / 9;
         padding: 1rem 0;
-      }}
-      .ph-body {{
+      }
+      .ph-body {
         padding: 1.2rem 0 1.3rem;
         border-left: none;
         border-top: 1px solid var(--rule);
-      }}
-    }}
-    .ph-title {{
+      }
+    }
+    .ph-title {
       font-family: var(--serif);
       font-weight: 500;
       font-size: 1.2rem;
       line-height: 1.35;
       letter-spacing: -.015em;
       color: var(--ink);
-    }}
-    .ph-tagline {{
+    }
+    .ph-tagline {
       font-family: var(--serif);
       font-size: .82rem;
       line-height: 1.6;
       color: var(--ink-3);
-    }}
-    .ph-summary {{
+    }
+    .ph-summary {
       font-size: .88rem;
       line-height: 1.75;
       color: var(--ink-2);
       max-width: var(--measure);
       flex: 1;
-    }}
-    .ph-foot {{
+    }
+    .ph-foot {
       display: flex;
       gap: .75rem;
       align-items: center;
@@ -1154,35 +1126,35 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       padding-top: .65rem;
       border-top: 1px solid var(--rule);
       flex-wrap: wrap;
-    }}
-    .ph-author {{
+    }
+    .ph-author {
       font-family: var(--mono);
       letter-spacing: .04em;
-    }}
-    .chip-ph {{
+    }
+    .chip-ph {
       margin-left: 0;
-    }}
-    .ph-arrow {{
+    }
+    .ph-arrow {
       margin-left: auto;
       font-size: 1rem;
       color: var(--ink-3);
       transition: transform .2s, color .2s;
-    }}
-    .ph-card:hover .ph-arrow {{
+    }
+    .ph-card:hover .ph-arrow {
       transform: translate(2px, -2px);
       color: var(--accent);
-    }}
+    }
 
     /* ─────────────── Empty state ───────────────
        An empty day is published empty. The mark, a flat sentence, nothing else —
        no apology, no filler, no substitute content. */
-    .empty {{
+    .empty {
       text-align: center;
       padding: 4.5rem 1rem 4rem;
       border-top: 2px solid var(--ink);
       border-bottom: 1px solid var(--rule);
-    }}
-    .empty-mark {{
+    }
+    .empty-mark {
       width: 56px;
       height: 56px;
       margin: 0 auto 1.75rem;
@@ -1191,8 +1163,8 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       mask-image: var(--ramp);
       -webkit-mask-size: 100% 100%;
       mask-size: 100% 100%;
-    }}
-    .empty-title {{
+    }
+    .empty-title {
       font-family: var(--serif);
       font-weight: 500;
       font-size: 1.15rem;
@@ -1200,18 +1172,18 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       letter-spacing: -.005em;
       color: var(--ink);
       margin-bottom: .4rem;
-    }}
-    .empty-sub {{
+    }
+    .empty-sub {
       color: var(--ink-3);
       font-family: var(--mono);
       font-size: .74rem;
       letter-spacing: .06em;
-    }}
+    }
 
     /* ─────────────── End mark ───────────────
        The promise under the masthead is 「讀得完」. This is that promise as a
        glyph: the printer's tombstone, set where the reading actually stops. */
-    .endmark {{
+    .endmark {
       max-width: var(--maxw);
       margin: 0 auto;
       padding: 0 1.5rem 3.5rem;
@@ -1219,8 +1191,8 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       align-items: center;
       justify-content: center;
       gap: .6rem;
-    }}
-    .endmark-glyph {{
+    }
+    .endmark-glyph {
       width: 13px;
       height: 13px;
       background-color: var(--ink-3);
@@ -1228,17 +1200,17 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       mask-image: var(--ramp);
       -webkit-mask-size: 100% 100%;
       mask-size: 100% 100%;
-    }}
-    .endmark-label {{
+    }
+    .endmark-label {
       font-family: var(--mono);
       font-size: .62rem;
       letter-spacing: .22em;
       text-transform: uppercase;
       color: var(--ink-3);
-    }}
+    }
 
     /* ─────────────── Footer ─────────────── */
-    footer {{
+    footer {
       max-width: var(--maxw);
       margin: 0 auto;
       padding: 2.5rem 1.5rem 4rem;
@@ -1250,60 +1222,60 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       font-size: .72rem;
       line-height: 1.7;
       color: var(--ink-3);
-    }}
-    .colophon-left {{ text-align: left; }}
+    }
+    .colophon-left { text-align: left; }
     /* The typeface credits are <strong>, which would otherwise inherit the UA's
        bold and pull the 700 shard that carries 思源宋體 — a heavy cut fetched
        for four words in the footer. */
-    .colophon-left strong {{ font-weight: 500; }}
-    .colophon-center {{
+    .colophon-left strong { font-weight: 500; }
+    .colophon-center {
       text-align: center;
       color: var(--ink-2);
-    }}
-    .colophon-center em {{
+    }
+    .colophon-center em {
       color: var(--accent);
       font-style: normal;
-    }}
-    .colophon-right {{
+    }
+    .colophon-right {
       text-align: right;
       font-family: var(--mono);
       letter-spacing: .08em;
       text-transform: uppercase;
-    }}
-    .colophon-right a {{ color: var(--ink-2); border-bottom: 1px solid var(--rule-2); }}
-    .colophon-right a:hover {{ color: var(--accent); border-color: var(--accent); }}
+    }
+    .colophon-right a { color: var(--ink-2); border-bottom: 1px solid var(--rule-2); }
+    .colophon-right a:hover { color: var(--accent); border-color: var(--accent); }
 
     /* ─────────────── 404 ─────────────── */
-    .notfound {{
+    .notfound {
       max-width: var(--maxw);
       margin: 0 auto;
       padding: 3.5rem 1.5rem 5rem;
       text-align: center;
-    }}
+    }
     /* Spot-illustration scale, not a hero: small and centred in generous space. */
-    .notfound-art {{
+    .notfound-art {
       display: block;
       width: min(190px, 55%);
       height: auto;
       margin: 0 auto 2.25rem;
       border: 1px solid var(--rule);
-    }}
-    .notfound-title {{
+    }
+    .notfound-title {
       font-family: var(--serif);
       font-weight: 500;
       font-size: 1.15rem;
       line-height: 1.6;
       color: var(--ink);
       margin-bottom: .4rem;
-    }}
-    .notfound-sub {{
+    }
+    .notfound-sub {
       font-family: var(--mono);
       font-size: .74rem;
       letter-spacing: .06em;
       color: var(--ink-3);
       margin-bottom: 2rem;
-    }}
-    .notfound-back {{
+    }
+    .notfound-back {
       display: inline-block;
       font-family: var(--mono);
       font-size: .68rem;
@@ -1313,42 +1285,42 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       border: 1px solid var(--accent);
       padding: .5rem 1.1rem;
       transition: color .15s, background .15s;
-    }}
-    .notfound-back:hover {{ background: var(--accent); color: var(--paper); }}
+    }
+    .notfound-back:hover { background: var(--accent); color: var(--paper); }
 
     /* ─────────────── Responsive ───────────────
        A broadsheet collapses to a single column before the columns get narrower
        than the text can survive. Two of these tracks at phone width would be
        roughly twelve Chinese characters per line. */
-    @media (max-width: 900px) {{
-      .cards-grid, .nl-grid {{ grid-template-columns: 1fr; }}
+    @media (max-width: 900px) {
+      .cards-grid, .nl-grid { grid-template-columns: 1fr; }
       .cards-grid > article:nth-of-type(odd)::after,
-      .nl-grid > article:nth-of-type(odd)::after {{ display: none; }}
-      .bs-lead-body .yt-body {{ columns: 1; column-rule: none; }}
-    }}
+      .nl-grid > article:nth-of-type(odd)::after { display: none; }
+      .bs-lead-body .yt-body { columns: 1; column-rule: none; }
+    }
 
-    @media (max-width: 720px) {{
+    @media (max-width: 720px) {
       /* Phones have no hover, so the inset is buying nothing but lost measure at
          this width. Keep a token amount and give the line its characters back. */
-      :root {{ --card-pad: .5rem; }}
-      .lead-meta {{ flex-wrap: wrap; gap: .5rem; }}
-      .lead-author {{ width: 100%; }}
-      footer {{
+      :root { --card-pad: .5rem; }
+      .lead-meta { flex-wrap: wrap; gap: .5rem; }
+      .lead-author { width: 100%; }
+      footer {
         grid-template-columns: 1fr;
         text-align: center;
-      }}
-      .colophon-left, .colophon-right {{ text-align: center; }}
+      }
+      .colophon-left, .colophon-right { text-align: center; }
 
-      .bs-art {{ height: clamp(150px, 22vh, 220px); }}
-      .bs-plate {{ margin-top: -2rem; padding: 1.1rem 1rem; }}
-      .bs-ears {{ padding: .7rem 1rem; flex-wrap: wrap; gap: .5rem 1.1rem; }}
-      .bs-ears-rule {{ display: none; }}
-      main {{ padding-left: .9rem; padding-right: .9rem; }}
-      .endmark, footer, .notfound {{ padding-left: .9rem; padding-right: .9rem; }}
-    }}
+      .bs-art { height: clamp(150px, 22vh, 220px); }
+      .bs-plate { margin-top: -2rem; padding: 1.1rem 1rem; }
+      .bs-ears { padding: .7rem 1rem; flex-wrap: wrap; gap: .5rem 1.1rem; }
+      .bs-ears-rule { display: none; }
+      main { padding-left: .9rem; padding-right: .9rem; }
+      .endmark, footer, .notfound { padding-left: .9rem; padding-right: .9rem; }
+    }
 
     /* ── Tweet context: quoted / replied-to / top replies ── */
-    .ctx-quote {{
+    .ctx-quote {
       margin: .65rem 0;
       padding: .55rem .75rem;
       border-left: 2px solid var(--accent);
@@ -1357,12 +1329,12 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       line-height: 1.65;
       color: var(--ink);
       max-width: var(--measure);
-    }}
-    .ctx-quote.ctx-reply {{
+    }
+    .ctx-quote.ctx-reply {
       border-left-color: var(--rule-2);
       background: var(--paper-2);
-    }}
-    .ctx-label {{
+    }
+    .ctx-label {
       display: block;
       font-family: var(--mono);
       font-size: .62rem;
@@ -1370,107 +1342,107 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       text-transform: uppercase;
       color: var(--ink-3);
       margin-bottom: .25rem;
-    }}
-    .ctx-quote p {{ margin: 0; }}
+    }
+    .ctx-quote p { margin: 0; }
 
-    .ctx-replies {{
+    .ctx-replies {
       margin-top: .5rem;
       font-size: .8rem;
       max-width: var(--measure);
-    }}
-    .ctx-replies > summary {{
+    }
+    .ctx-replies > summary {
       cursor: pointer;
       list-style: none;
       color: var(--ink-3);
       padding: .3rem 0;
       user-select: none;
-    }}
-    .ctx-replies > summary::-webkit-details-marker {{ display: none; }}
-    .ctx-replies > summary::before {{
+    }
+    .ctx-replies > summary::-webkit-details-marker { display: none; }
+    .ctx-replies > summary::before {
       content: '▸';
       display: inline-block;
       margin-right: .35rem;
       color: var(--accent);
       transition: transform .15s;
-    }}
-    .ctx-replies[open] > summary::before {{ transform: rotate(90deg); }}
-    .ctx-replies ul {{
+    }
+    .ctx-replies[open] > summary::before { transform: rotate(90deg); }
+    .ctx-replies ul {
       list-style: none;
       padding: 0;
       margin: .35rem 0 0;
       display: flex;
       flex-direction: column;
       gap: .5rem;
-    }}
-    .ctx-replies li {{
+    }
+    .ctx-replies li {
       padding: .45rem .6rem;
       background: var(--paper-2);
-    }}
-    .ctx-rep-author {{
+    }
+    .ctx-rep-author {
       color: var(--ink);
       font-weight: 500;
       margin-right: .5rem;
-    }}
-    .ctx-rep-likes {{
+    }
+    .ctx-rep-likes {
       color: var(--ink-3);
       font-family: var(--mono);
       font-size: .68rem;
-    }}
-    .ctx-replies li p {{
+    }
+    .ctx-replies li p {
       margin: .25rem 0 0;
       color: var(--ink-2);
       line-height: 1.6;
-    }}
+    }
 
     /* ─────────────── 財經 podcast 重點（最上方，主菜）─────────────── */
-    .yt-brief {{
+    .yt-brief {
       margin: 0 0 3rem;
       padding: 1.75rem 1.75rem 2rem;
       border: 1px solid var(--rule);
       border-top: 3px solid var(--ink);
       background: var(--paper-2);
       position: relative;
-    }}
+    }
     /* 預設收合：summary 為唯一可見、可點開／隨時收合的標題列 */
-    .yt-summary {{
+    .yt-summary {
       list-style: none;
       cursor: pointer;
       display: flex;
       gap: .6rem;
       align-items: flex-start;
-    }}
-    .yt-summary::-webkit-details-marker {{ display: none; }}
-    .yt-summary::marker {{ content: ""; }}
-    .yt-head {{ flex: 1; min-width: 0; }}
-    .yt-toggle {{
+    }
+    .yt-summary::-webkit-details-marker { display: none; }
+    .yt-summary::marker { content: ""; }
+    .yt-head { flex: 1; min-width: 0; }
+    .yt-toggle {
       flex-shrink: 0;
       margin-top: .1rem;
       color: var(--accent);
       font-size: .9rem;
       line-height: 1.6;
       transition: transform .18s ease;
-    }}
-    details[open] .yt-toggle {{ transform: rotate(90deg); }}
-    .yt-expand-hint {{
+    }
+    details[open] .yt-toggle { transform: rotate(90deg); }
+    .yt-expand-hint {
       display: inline-block;
       margin-top: .35rem;
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .06em;
       color: var(--ink-3);
-    }}
-    details[open] .yt-expand-hint {{ display: none; }}
+    }
+    details[open] .yt-expand-hint { display: none; }
     .yt-summary:hover .yt-toggle,
-    .yt-summary:hover .yt-expand-hint {{ color: var(--accent); }}
-    .yt-kicker {{
+    .yt-summary:hover .yt-expand-hint { color: var(--accent); }
+    .yt-kicker {
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .14em;
       text-transform: uppercase;
       color: var(--accent);
       margin-bottom: .75rem;
-    }}
-    .yt-title {{
+    }
+    .yt-title {
       font-family: var(--serif);
       font-size: 1.4rem;
       line-height: 1.4;
@@ -1478,17 +1450,17 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       margin: 0 0 .75rem;
       font-weight: 500;
       max-width: var(--measure);
-    }}
-    .yt-title a {{
+    }
+    .yt-title a {
       color: var(--ink);
       text-decoration: none;
       transition: color .15s;
-    }}
-    .yt-title a:hover {{ color: var(--accent); }}
-    .yt-title a:hover .yt-arrow {{ transform: translate(2px, -2px); display: inline-block; }}
-    .yt-arrow {{ color: var(--ink-3); font-size: .85em; transition: transform .15s; }}
+    }
+    .yt-title a:hover { color: var(--accent); }
+    .yt-title a:hover .yt-arrow { transform: translate(2px, -2px); display: inline-block; }
+    .yt-arrow { color: var(--ink-3); font-size: .85em; transition: transform .15s; }
 
-    .yt-meta {{
+    .yt-meta {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -1497,18 +1469,18 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       font-family: var(--mono);
       font-size: .7rem;
       color: var(--ink-3);
-    }}
-    .yt-meta .chip.yt-source {{
+    }
+    .yt-meta .chip.yt-source {
       margin-left: 0;
-    }}
+    }
 
-    .yt-body {{
+    .yt-body {
       color: var(--ink);
       line-height: 1.8;
       margin-top: 1.5rem;
       max-width: var(--measure);
-    }}
-    .yt-body h3 {{
+    }
+    .yt-body h3 {
       font-family: var(--serif);
       font-size: 1rem;
       font-weight: 500;
@@ -1517,9 +1489,9 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       margin: 1.75rem 0 .6rem;
       padding-bottom: .35rem;
       border-bottom: 1px solid var(--rule);
-    }}
-    .yt-body h3:first-child {{ margin-top: 0; }}
-    .yt-body h4 {{
+    }
+    .yt-body h3:first-child { margin-top: 0; }
+    .yt-body h4 {
       font-family: var(--mono);
       font-size: .68rem;
       letter-spacing: .12em;
@@ -1527,79 +1499,79 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--ink-3);
       margin: 1.25rem 0 .4rem;
       font-weight: 500;
-    }}
-    .yt-body p {{ margin: .55rem 0; color: var(--ink-2); }}
-    .yt-body ul {{ margin: .55rem 0 .9rem; padding-left: 1.3rem; }}
-    .yt-body li {{ margin: .3rem 0; color: var(--ink-2); line-height: 1.7; }}
+    }
+    .yt-body p { margin: .55rem 0; color: var(--ink-2); }
+    .yt-body ul { margin: .55rem 0 .9rem; padding-left: 1.3rem; }
+    .yt-body li { margin: .3rem 0; color: var(--ink-2); line-height: 1.7; }
     /* 500 rather than 600: the face ships 400 and 700 only, and 600 matches
        upward to 700 — so every bolded phrase in a summary was reaching for the
        heavy cut. 500 matches down to 400. The colour shift is what marks these
        anyway. */
-    .yt-body strong {{ color: var(--ink); font-weight: 500; }}
+    .yt-body strong { color: var(--ink); font-weight: 500; }
     /* 明體沒有真正的斜體，瀏覽器只能把筆畫傾斜，出來是歪掉的字不是強調
        （DESIGN.md 規則 3）。摘要末尾那行固定註記靠字級與顏色退到背景就夠。 */
-    .yt-body em {{ font-style: normal; }}
-    .yt-body .yt-rule {{
+    .yt-body em { font-style: normal; }
+    .yt-body .yt-rule {
       border: none;
       border-top: 1px solid var(--rule-2);
       margin: 1.5rem 0;
-    }}
-    .yt-body .yt-rule + p {{ font-size: .8rem; color: var(--ink-3); }}
+    }
+    .yt-body .yt-rule + p { font-size: .8rem; color: var(--ink-3); }
 
-    .yt-foot {{
+    .yt-foot {
       margin-top: 1.5rem;
       font-family: var(--mono);
       font-size: .72rem;
-    }}
-    .yt-foot a {{
+    }
+    .yt-foot a {
       color: var(--accent);
       text-decoration: none;
       letter-spacing: .04em;
-    }}
-    .yt-foot a:hover {{ text-decoration: underline; }}
+    }
+    .yt-foot a:hover { text-decoration: underline; }
 
     /* 手機版收窄卡片的左右留白（須放在 .yt-brief 定義之後才不會被蓋掉） */
-    @media (max-width: 720px) {{
-      .yt-brief {{ padding: 1.1rem 1rem 1.2rem; }}
-    }}
+    @media (max-width: 720px) {
+      .yt-brief { padding: 1.1rem 1rem 1.2rem; }
+    }
 
     /* ─────────────── Newsletter / 好文 ───────────────
        卡片本體直接用上面財經重點那組 .yt-* class，這裡只放兩種東西：
        (1) .nl-item — 把頭條規格降成列表規格的少數覆寫
        (2) 財經重點沒有的欄位（頭像、handle、導言）
        請不要在這裡重建一套卡片樣式；要調外觀就去改 .yt-brief。 */
-    .nl-divider {{ margin-top: 3.5rem; }}
-    .nl-divider span {{ color: var(--accent); }}
+    .nl-divider { margin-top: 3.5rem; }
+    .nl-divider span { color: var(--accent); }
 
-    .nl-grid {{
+    .nl-grid {
       margin-bottom: 3rem;
       border-top: 1px solid var(--rule);
-    }}
+    }
 
     /* 列表規格：拿掉主菜的框與底色，標題小一級，卡片收成一條一條的列 */
-    .nl-item {{
+    .nl-item {
       margin: 0;
       padding: 1.5rem var(--card-pad) 1.6rem;
       background: none;
       border: none;
       border-bottom: 1px solid var(--rule);
-    }}
-    .nl-item .yt-title {{ font-size: 1.15rem; margin-bottom: .6rem; }}
-    .nl-item .yt-kicker {{ margin-bottom: .55rem; }}
-    .nl-item .yt-body {{ margin-top: 1.25rem; }}
+    }
+    .nl-item .yt-title { font-size: 1.15rem; margin-bottom: .6rem; }
+    .nl-item .yt-kicker { margin-bottom: .55rem; }
+    .nl-item .yt-body { margin-top: 1.25rem; }
     /* 在 desk 上這張卡跟推文卡並排，行首的三角形會把整張卡的左緣往右推 23px，
        兩種卡片的第一個字就對不齊了。改掛右上角——推文卡的 ↗ 也在那個位置，
        一格裡只有一種「右上角有東西可以按」。 */
-    .nl-item .yt-summary {{ position: relative; gap: 0; }}
-    .nl-item .yt-toggle {{
+    .nl-item .yt-summary { position: relative; gap: 0; }
+    .nl-item .yt-toggle {
       position: absolute;
       top: .1rem;
       right: 0;
       margin-top: 0;
-    }}
+    }
 
     /* 財經重點沒有的欄位 */
-    .nl-avatar {{
+    .nl-avatar {
       flex: none;
       width: 20px; height: 20px;
       display: inline-grid; place-items: center;
@@ -1608,13 +1580,13 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       color: var(--paper);
       background: var(--accent);
       margin-right: -.45rem;
-    }}
-    .nl-verified {{ color: var(--accent); font-size: .68rem; margin-left: .25rem; }}
-    .nl-handle {{ font-family: var(--mono); }}
+    }
+    .nl-verified { color: var(--accent); font-size: .68rem; margin-left: .25rem; }
+    .nl-handle { font-family: var(--mono); }
     /* 導言字級對齊 .yt-body，讓收合與展開讀起來是同一個尺度。
        截三行：文章筆記的第一段是整段重點（兩百多字），照登會讓一張收合的卡片
        比展開的鄰居還高，一排卡片的高度就沒有節奏可言。 */
-    .nl-lead {{
+    .nl-lead {
       margin-top: .7rem;
       line-height: 1.75;
       color: var(--ink-2);
@@ -1623,44 +1595,6 @@ CSS = f"""    *, *::before, *::after {{ box-sizing: border-box; margin: 0; paddi
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
-    }}
+    }
     /* 展開後全文的第一段就是導言本身，一字不差地連著印兩次。 */
-    details[open] .nl-lead {{ display: none; }}
-"""
-
-
-# ─────────────── Delivery ───────────────
-# This used to be inlined into every page, which meant 51KB of identical CSS in
-# each of 127 archived briefs: 46% of a brief's bytes, re-downloaded on every hop
-# between issues, and a 127-file diff every time one colour changed. As one file
-# it is fetched once and cached across the whole archive.
-#
-# The version query is the cache key. GitHub Pages serves this with
-# max-age=600, so without it a CSS change would take ten minutes to reach a
-# reader who already had the old copy; with it, a changed hash is a different URL
-# and lands immediately. It also keeps the shell refresh cheap — when the CSS is
-# untouched the hash is identical, so refresh_briefs_shell.py rewrites nothing.
-
-STYLESHEET_NAME = "styles.css"
-
-
-def css_hash() -> str:
-    return hashlib.md5(CSS.encode("utf-8")).hexdigest()[:8]
-
-
-def stylesheet_link(base_path: str = "") -> str:
-    """The <link> that replaces the old inline <style> block.
-
-    Keeps the two-space indent and trailing newline of what it replaces, so the
-    surrounding template and refresh_briefs_shell.py's anchor both still line up.
-    """
-    return f'  <link rel="stylesheet" href="{base_path}{STYLESHEET_NAME}?v={css_hash()}">\n'
-
-
-def write_stylesheet() -> bool:
-    """Write styles.css if the CSS changed. Returns True when it did."""
-    path = Path(STYLESHEET_NAME)
-    if path.exists() and path.read_text(encoding="utf-8") == CSS:
-        return False
-    path.write_text(CSS, encoding="utf-8")
-    return True
+    details[open] .nl-lead { display: none; }
