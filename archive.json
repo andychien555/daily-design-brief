@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-23",
+    "date_display": "2026 年 08 月 23 日",
+    "generated_at": "2026-08-23T08:56:05.045301+08:00",
+    "total": 10,
+    "sources": [
+      "Design"
+    ],
+    "headline": "設計工程師的核心工作方法：找出一個互動環節，讓它更簡單；再找出一個，讓它更快——持續重複這個流程。",
+    "no": 129
+  },
+  {
     "date": "2026-08-22",
     "date_display": "2026 年 08 月 22 日",
     "generated_at": "2026-08-22T08:56:03.544440+08:00",
@@ -974,16 +985,5 @@
     ],
     "headline": "作者質疑當前主流 app（iPhone 電話、Spotify）是否忽略了最基本的互動設計原則：點擊後的動作不明確、載入狀態缺乏回饋，讓使用者無所適從。",
     "no": 40
-  },
-  {
-    "date": "2026-05-25",
-    "date_display": "2026 年 05 月 25 日",
-    "generated_at": "2026-05-25T08:55:34.983379+08:00",
-    "total": 15,
-    "sources": [
-      "Design"
-    ],
-    "headline": "i thought kits design was lacking something so i did some personal adjustments.... https://t.co/dji5Pzz5Mg",
-    "no": 39
   }
 ]

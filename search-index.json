@@ -1,6 +1,109 @@
 {
-  "generated_at": "2026-08-22T22:16:12+08:00",
+  "generated_at": "2026-08-23T08:57:11+08:00",
   "days": [
+    {
+      "d": "2026-08-23",
+      "dd": "2026 年 08 月 23 日",
+      "no": 129,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "設計工程師的核心工作方法：找出一個互動環節，讓它更簡單；再找出一個，讓它更快——持續重複這個流程。",
+          "b": "Find one interaction. Make it simpler. Find one interaction. Make it faster. Repeat. You’re a design engineer.",
+          "m": "shadcn @shadcn"
+        },
+        {
+          "k": "tweet",
+          "t": "TBC 創辦人 Steve 提出「剪刀測試」：機器設計應該即使被隨意剪斷任何一條線仍能繼續運作，展現冗餘設計的重要性。",
+          "b": "The Scissor Test. Within the first few weeks of me joining TBC, Steve gave me the direction that he wanted to be able to walk around a Prufrock with a pair of scissors, be able to cut any wire, and the machine should still be able to mine. Obviously this was a hypothetical https://t.co/xDTiGSO83R",
+          "m": "Mike Baier @Mike__Baier"
+        },
+        {
+          "k": "tweet",
+          "t": "向 Jacqueline（設計大師）學習視覺平衡、字體運用與克制的力量：把簡單的想法嚴肅對待。",
+          "b": "Jacqueline was a master. Her work will teach you a lot about visual balance, type, and the power of restraint. Take a simple idea and take it seriously. https://t.co/u8LLTsFUbK",
+          "m": "Oliver ೫ @oliverhamrin"
+        },
+        {
+          "k": "tweet",
+          "t": "ChatGPT 本週新功能：iOS 長按可快速附加最近照片（power user 功能）、時間相關功能改進，展現細節打磨的產品思維。",
+          "b": "This week’s ChatGPT feature drop - Aug 21: Another Friday, another roundup of what we shipped this week: 1/ Recent photos: Long press on + menu to quickly attach recents on iOS - this is a fun, power user feature. just beautiful design! also a handy shortcut. 2/ Time: We made https://t.co/ndeIsoCKjg",
+          "m": "Adam Fry @adamhfry"
+        },
+        {
+          "k": "tweet",
+          "t": "Nothing OS 5.0 預告：「細節並非細枝末節，細節成就設計」，強調產品設計中細節的決定性作用。",
+          "b": "The details are not details. They make the design. Nothing OS 5.0 launches on 25 Aug, 11 BST. https://t.co/r0Nmx2JN1X",
+          "m": "Carl Pei @getpeid"
+        },
+        {
+          "k": "tweet",
+          "t": "希望 KH4 中 Cloud 角色採用 KH1 設計風格，展現玩家對經典角色設計一致性的期待。",
+          "b": "If Cloud returns in KH4, I hope they use his KH1 design like this https://t.co/PjaUUg11Sw",
+          "m": "ColossalCake @ColossalCake"
+        },
+        {
+          "k": "tweet",
+          "t": "推薦涵蓋 LLM 系統設計的書籍，填補目前大部分系統設計資源在 LLM 部分的空白。",
+          "b": "My current read for system design is this book. I think most system design resources lack the LLM part, this book covers it. https://t.co/A79wZYGad5",
+          "m": "Mayank Pratap Singh @Mayank_022"
+        },
+        {
+          "k": "tweet",
+          "t": "男友在牆上為貓設計拱形門洞，讓貓自由穿梭房間而無需開門——展現以用戶（寵物）需求為中心的人性化設計思維。",
+          "b": "My boyfriend made this little arched doorway in the wall for my cat so she could move freely between the living room and bedroom without us having to leave doors open all the time. I came home from work three days ago and he's standing there grinning like he just built the https://t.co/Uonm2EmFpi",
+          "m": "Rose 🇬🇧 @NatalyaOba"
+        },
+        {
+          "k": "tweet",
+          "t": "《Modern Warfare 4》的核心問題是缺乏身份認同：試圖同時做到快節奏與 Infinity Ward 風格，結果失去了讓遊戲特別的要素。",
+          "b": "Modern Warfare 4's key issue seems to be that it has no identity. It's trying to be fast paced like non-Infinity Ward games, but also trying to incorporate Infinity Ward design, and you end up with a game that lacks something that makes it special. https://t.co/srxQFzH1rV",
+          "m": "CharlieIntel @charlieINTEL"
+        },
+        {
+          "k": "tweet",
+          "t": "分享使用 GPT 結合幾何美學的提示詞生成高級海報設計，並建議只輸出下半部分可作為 1:2 壁紙使用。",
+          "b": "GPT2 x 几何 x 美学 x 提示词 x 补充 这是我今天最喜欢的这套提示词 忍不住多做了几个样张 其实，不要上半部分，要求只输出下半部分的画面 比如用作1:2的壁纸 也会有惊喜的结果 补充这组提示词的英文版吧： ``` Please turn each photo I upload into a separate premium-designed poster, with https://t.co/80Ptr37vXH",
+          "m": "小小东 @xiaoxiaodong01"
+        },
+        {
+          "k": "product",
+          "t": "Port Radar for macOS",
+          "b": "An AI port manager for your Mac. 為 macOS 設計的 AI 驅動網路連接埠管理工具，協助使用者監控與管理 Mac 上的網路連接埠狀態。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Open Analytics",
+          "b": "AI-Native Google Analytics alternative for the modern web 採用 AI 原生技術的網站分析工具，作為 Google Analytics 的替代方案，專為現代網頁應用設計。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Pocket by Meta",
+          "b": "Vibe-code games, then share them like TikToks 讓使用者透過簡單操作創建遊戲，並像分享 TikTok 影片一樣快速分享給他人的遊戲創作平台。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "AutoClaw",
+          "b": "An AI work agent across desktop, browser, and chat 跨桌面、瀏覽器與聊天介面的 AI 工作助理，協助使用者自動化處理工作任務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Project SKY",
+          "b": "Your ambient AI companion for Windows. 為 Windows 系統設計的環境式 AI 助理，在背景持續提供智能協助。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "ShogunAI",
+          "b": "Your personal AGI on your PC. Built to finish real work. 運行於個人電腦上的 AGI 系統，專注於完成實際工作任務。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-22",
       "dd": "2026 年 08 月 22 日",
