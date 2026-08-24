@@ -1,6 +1,97 @@
 {
-  "generated_at": "2026-08-23T22:17:49+08:00",
+  "generated_at": "2026-08-24T08:57:40+08:00",
   "days": [
+    {
+      "d": "2026-08-24",
+      "dd": "2026 年 08 月 24 日",
+      "no": 130,
+      "items": [
+        {
+          "k": "article",
+          "t": "The Greatest Piece of System Design You’ll Ever Throw Away",
+          "b": "登機證背後的複雜系統： 作者以登機證為例，說明看似簡單的介面背後其實隱藏著極其複雜的全球標準化本體論。登機證上的每個字母和數字都代表著深層的限制規則與關係網絡——例如登機組別 C 不只是排序，還告訴工作人員這些乘客沒有大型手提行李需要放置，系統已將這些行李計入機艙下方。 航空業花了 60 年建立的知識結構： 作者指出航空業從 1953 年開始，歷經 11 年開發出 SABRE 系統（1964 年），花費數百萬美元和數千人力，將過去存在於職員腦中的知識結構化成機器可讀的本體論。這套系統每天安全移動 900 萬至 1400 萬名乘客，而介面可以從實體卡片進化到手機螢幕，但底層系統幾乎不需改變。 AI 讓表層設計接近免費，暴露真正的工作： 作者表示 AI 原型工具的普及讓產出介面、程式碼和 UI 的成本趨近於零，但這反而揭露了過去被「忙碌工作」掩蓋的真正價值——定義深層邏輯。作者提到 2019 年團隊浪費 14 個月做出無用產品的經驗，因為表面的線框圖和會議給了進展的假象，卻迴避了深度思考和決策。 本體論是 AI 準確運作的關鍵： 作者強調沒有本體論的通用 AI 只能基於統計模式猜測，例如航班延誤時只會生成禮貌的道歉信，但無法理解「乘客」需要「旅館」、「行李」需要重新路由等關係。在客戶專案中，給 AI 模型清晰的本體論（包括該領域的語言、法律框架、使用情境）後，輸出準確度顯著提升且成本更低。 設計師已具備定義本體論的技能： 作者認為設計師在繪製使用者旅程圖、服務藍圖時就是在定義流程與目標；進行物件映射時就是在定義實體與屬性；研究行為時就是在定義關係、動作、意義與限制。這些都是定義本體論所需的核心能力。 對設計／產品的啟示 作者建議設計師和產品人員將工作重心從設計表層介面轉向定義系統關係與規則。具體做法包括：萃取公司內部的隱性知識、繪製流程與系統地圖、明確定義決策背後的協議，並帶領團隊一起參與。AI 可以產出登機證，但無法理解或設計登機證背後的意義——例如為什麼小孩不能坐逃生口、為什麼 C 組乘客的行李已在機艙下方。定義本體論這項工作——決定什麼存在、代表什麼意義、系統絕不能做什麼——才是設計師在 AI 時代的真正價值所在。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Design with AI"
+        },
+        {
+          "k": "tweet",
+          "t": "批評某個看起來很酷但實際難用的介面設計，建議把花俏效果留在 landing page，產品本身應遵循標準設計模式。這點出許多設計師過度追求視覺而犧牲可用性的常見問題。",
+          "b": "hot take: this is horrible design looks cool but is very hard to use and understand what is going on. keep the fancy stuff on your landing and follow standard patterns for your actual product. https://t.co/IbR6NapyOQ",
+          "m": "brett goldstein @thatguybg"
+        },
+        {
+          "k": "tweet",
+          "t": "分享一個高品質的 Claude web design skill，作者認為是目前見過最好的網頁設計輔助工具。",
+          "b": "This is by far the best web design Claude skill I've ever used. Linked in the replies. https://t.co/8YfLJJ0nE8",
+          "m": "Nate Herk @nateherk"
+        },
+        {
+          "k": "tweet",
+          "t": "推薦一組設計工程技能集，強調能將 AI 輸出轉化為乾淨 UI 而非制式產出，對設計與開發整合有幫助。",
+          "b": "This is the best design engineering skill set I've seen. Each skill turns AI output into clean UI, not generic slop. Save it → https://t.co/PMQfd0Os5N https://t.co/4jPeTL8oPW",
+          "m": "Tran Mau Tri Tam ✪ @tranmautritam"
+        },
+        {
+          "k": "tweet",
+          "t": "建議 20 多歲時投資硬體 homelab（3D 印表機、焊接站等），將 CAD 轉為實體、自行組裝與修理電子產品，是非金融類但長遠有價值的投資。",
+          "b": "one of the best investments you can make in your 20s is building a hardware homelab. not all investments belong in a portfolio. some belong on your desk. start small: • 3d printer → turn cad into physical parts • soldering station → build and repair electronics • https://t.co/DBhxaVbduF",
+          "m": "Mustafa @oprydai"
+        },
+        {
+          "k": "tweet",
+          "t": "分享用 ChatGPT 生成高質感扁平風格旅遊海報的 prompt，強調 minimalist 與垂直 3:4 格式，適合需要快速產出視覺素材的設計師參考。",
+          "b": "GPT image 2 prompt on chatGpt Prompt 👇 Premium minimalist flat-vector travel poster for [CITY_NAME], 3:4 vertical format. Design an original, sophisticated travel poster that captures the authentic visual personality of [CITY_NAME]. The composition must feel purpose-built for https://t.co/ZmUfJkQ8eK",
+          "m": "Mahnoor Fatima @MahnoorAi12"
+        },
+        {
+          "k": "tweet",
+          "t": "預告 Samsung Galaxy S27 Ultra 的設計可能引發史上最激烈批評，暗示產品設計決策已無法挽回，提醒產品負責人準備面對輿論。",
+          "b": "Samsung MX’s Head of Product Design, Hubert H. Lee, you’d better brace yourself. I know it’s already too late to make any changes to the Galaxy S27 Ultra’s design. Now, you may have to prepare for what could be the most intense wave of criticism in Galaxy history. https://t.co/bAx8mH4r5f",
+          "m": "Ice Universe @UniverseIce"
+        },
+        {
+          "k": "tweet",
+          "t": "整理系統設計面試所需的資源與知識點，對準備 PM 或技術面試的讀者有參考價值。",
+          "b": "All you need for System Design Interviews 📌 https://t.co/4wJ3TEhkad https://t.co/maitiuGrVv",
+          "m": "SCR @SCR01111"
+        },
+        {
+          "k": "tweet",
+          "t": "分享一個角色設計的性別轉換版本，屬於同人創作範疇，對 PM/設計師價值有限。",
+          "b": "surprise ♂️ https://t.co/cGvd5uvLQc",
+          "m": "TaigaxHolic - NEW DESIGN ARC @TaigaxHolic"
+        },
+        {
+          "k": "tweet",
+          "t": "使用 Kimi K3 AI 設計深海研究機器人，生成了仿水母、六角奈米結構觸手的概念，展示 AI 在概念設計階段的應用潛力。",
+          "b": "I asked Kimi K3 to design a robot for deep sea research Here's what it came up with A jellyfish inspired robot with tentacles built from a hexagonal nanostructured lattice, designed to withstand extreme pressure. https://t.co/GazKCRMuAO",
+          "m": "Dilum Sanjaya @DilumSanjaya"
+        },
+        {
+          "k": "tweet",
+          "t": "批評 Fortnite 近十年來幾乎從不在瀑布後設置秘密區域，違反遊戲設計的「神聖法則」，點出遊戲世界建構中玩家期待與設計慣例的重要性。",
+          "b": "After almost 10 years, I think it’s time we talk about Fortnite's biggest, most unforgivable design failure... @JustTeddii @EpicTofuChris Why is there almost never a secret area behind the waterfalls in Fortnite? This violates the sacred laws of video game design. How do you https://t.co/UP04gWs3LB",
+          "m": "Squatingdog @thesquatingdog"
+        },
+        {
+          "k": "tweet",
+          "t": "呼籲讓全球頂尖建築師設計數據中心外觀，使其更美觀，反映對科技基礎設施美學與城市景觀整合的思考。",
+          "b": "We need the world's best architects to design the datacenter exteriors and make them beautiful",
+          "m": "Beff (e/acc) @beffjezos"
+        },
+        {
+          "k": "tweet",
+          "t": "引用 Chris Ray Gun 對 Halo sprint 機制爭議的分析，強調遊戲設計中不同面向的考量，推薦完整影片以深入理解設計決策的複雜性。",
+          "b": "Honestly, the Halo sprint debate was put best by Chris Ray Gun 6 years ago Here’s one snippet, but highly recommend watching the full video. He makes extremely good points covering different areas of game design. Don’t want to just reupload the full thing, but he does go very in https://t.co/dh7xM7Suv0",
+          "m": "Kelski @kelskiYT"
+        },
+        {
+          "k": "product",
+          "t": "OpenLogi",
+          "b": "A local-first alternative to Logitech Options+ 一款本地優先的滑鼠與鍵盤設定工具，作為 Logitech Options+ 的替代方案。適合希望在本機管理 Logitech 裝置設定、不依賴雲端服務的使用者。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-23",
       "dd": "2026 年 08 月 23 日",
