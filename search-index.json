@@ -1,6 +1,133 @@
 {
-  "generated_at": "2026-08-24T22:36:35+08:00",
+  "generated_at": "2026-08-25T09:00:52+08:00",
   "days": [
+    {
+      "d": "2026-08-25",
+      "dd": "2026 年 08 月 25 日",
+      "no": 131,
+      "items": [
+        {
+          "k": "podcast",
+          "t": "EP330. 輝達 GPU 要漲價、中國機器人跑很快、特斯拉新消息更新 | M觀點",
+          "b": "1. 輝達 GPU 漲價：供需緊張與記憶體成本推升 漲幅達 15%、明年初生效： 輝達通知 Microsoft、Google、Amazon、Oracle 等大型客戶，Vera Rubin（新一代）與 Grace Blackwell（現役 B200/B300/GB200/GB300）系統價格將上漲至少 15%，明年初開始執行，今年 Q4 出貨尚未調價。 記憶體成本暴增是主因： 主講人認為，記憶體廠（HBM）毛利率已飆升至約 80%（成本 50 元、售價 200 元等級），遠超台積電與輝達自身的小幅調漲（毛利提升僅 3%–5%），輝達被迫將部分成本轉嫁給客戶；一台 300 萬元伺服器中記憶體成本可能從 100 萬漲到 200 萬，整機漲 15% 反而算「吃下部分成本」。 敢漲代表需求強勁： 主講人指出，輝達之所以有底氣調漲，是因為 AI 算力市場仍極度供不應求——H100/H200 租賃價格未跌、各大雲端廠商（Hyperscaler）財報均表示「上線就賣光」、SpaceX 更稱「增加 1 GW 算力可創造 50 billion 美元年營收」；電力與場地有限的情況下，輝達 GPU 的「單位經濟」（每瓦 Token 產出）仍優於多數 ASIC/TPU。 AI 競賽尚未結束： 主講人認為，明年 Vera Rubin（Rubin）世代模型（GPT-6、Claude 6 等）仍會更大、更拼，未來一到兩年 CAPEX 仍將高速增長；雖有 5% 的企業開始收斂 Token 預算（Token Maxing 撞牆），但另 95% 企業才剛從 Generative AI 進入 Agentic AI、用量可能暴增 10 倍。 2. 中國人型機器人跑步紀錄：技術展示多於實用價值 北京賽事刷新「百米紀錄」： 北京世界人型機器人運動會預賽中，天工 Ultra（9.39 秒）與榮耀 Lightning（9.47 秒）均打破人類紀錄（博爾特 9.58 秒），Unitree（雨樹）則跑出 12.41 秒；但兩台冠軍機器人撞上防護墊才停下、無法自主減速轉彎。 商業化意義極低： 主講人認為這是「一次性展示」——為跑步極限優化的零件可能只能用五到十次就損耗、類似 F1 賽車零件（單價 5 萬美元、無法用於量產車）；真正的商用機器人需要同一關節「用一萬次才準壞」，而非「跑完就解體」。 運動能力非人型機器人關鍵： 主講人強調，人型機器人的核心價值是「取代人類勞工完成日常工作」，不需要極限運動能力（搬重物比跑得快更重要）；過去 Boston Dynamics 十多年專注極限動作、卻無商業化成果，反觀 Optimus 著重真實工作能力才是正軌。 中國優勢在量產、劣勢在大腦： 主講人認為，中國的運動控制演算法與硬體量產能力（成本控制）有競爭力，但 Physical AI 大腦（處理真實世界任務的 AI）落後 Optimus 至少五年以上；類比電動車：硬體接近特斯拉、軟體仍有明顯落差。 3. 特斯拉進度更新：Cyber Cab 即將量產、FSD V15 跳躍升級 Cyber Cab 近期大規模部署： 摩根大通分析師參訪 Fremont 工廠（Model S/X 產線已拆除改建 Optimus 產線）後，得知特斯拉刻意減少 Model Y 投入 Robotaxi、改用 Cyber Cab 填補——原因是 Model Y 今年銷售強勁（FSD 在韓國、歐洲多國推出帶動買氣）、Cyber Cab 已在停車場累積 500–1000 台、9 月 3 日將正式發表；主講人估計 Q4 可能部署至少 300 台無人監督版本（Austin 已有 155 台全面無人駕駛、Miami/Orlando/Houston/Dallas 也開始少量測試）。 FSD V15「又一次跳躍式升級」： 特斯拉表示 V15 已開始路測，參數量更大（HW3 完全無法運行）、上下文窗口擴大（從參考過去 3 秒變 10 秒）、延遲再降 20%、七項核心技術進步中已有 40% 先部署於 Austin Robotaxi 車隊且「表現良好」；主講人推測 12 月推出、搭配 Cyber Cab 擴張，明年可能一次部署數千台。 下一代硬體 AI 4.5： 記憶體翻倍、算力僅提升 10%，目的是為了跑更大模型；HW3 車主將無法使用 V15，AI4 以上新車可正常運行。 4. Optimus 再次延期至年底：資料不足是最大瓶頸 Gen3 量產時程推遲： 原定 7–8 月量產與公開，現改為「未來幾個月」（主講人估計 11 月）、又延遲一季；主講人認為這反映「工程難度比預期高很多」。 三階段部署計畫： 年底首批機器人將進入「Optimus Academy」進行真實世界資料採集（因人類穿戴感測器收集的動作資料「遠遠不夠」——光「拿水杯」可能需數萬筆訓練樣本）；明年上半年導入特斯拉內部工廠使用；明年下半年才對外發售。 訓練資料需求遠超自駕車： 主講人詳細說明：汽車只需控制「前進/後退/左轉/右轉/煞車」且在平面移動，但人型機器人有數十個關節、每個關節需多重感測器（力道、角度、相對位置）、手指需觸覺感測、頭部/身體/膝蓋可能都需攝影機、且要在三維空間保持力學平衡；若要做到「通用性」（搬不同重量、不同高度的物件），資料需求是「汽車的數十倍」。 通用路線長期正確、短期困難： 主講人認為，若只訓練「摺衣服」等單一任務會簡單很多（固定高度、輕物體、只動手臂），但馬斯克堅持通用路線——雖短期緩慢，但一旦智力提升就有「飛輪效應」，類似大型語言模型早期走通用、後來反超專用模型。 結論與後市展望 主講人對未來 5–10 年 AI 算力需求保持「審慎樂觀」：認為年化成長率 20%–50% 已屬強勁（2010–2020 雲端年化僅約 20%），但市場更樂觀者預估 80%–100%；這決定了投資人對 AI 股（輝達、特斯拉、Palantir 等）的估值分歧。短期內（未來一年），輝達 GPU 與 HBM 記憶體供不應求仍將持續、各大科技巨頭 CAPEX 將維持高位；特斯拉 Cyber Cab 與 FSD V15 若順利於 Q4 推出，可能成為 Robotaxi 商業化的關鍵轉折；Optimus 雖再次延期，但主講人認為方向正確、需耐心等待資料積累。主講人自評立場為「樂觀中偏審慎」，估值相對保守派偏高、相對樂觀派偏低。 本筆記為節目內容摘要，非投資建議。",
+          "m": "M觀點"
+        },
+        {
+          "k": "tweet",
+          "t": "AI 消滅了平面設計工作，但也證明了設計師當初的擔憂：如果反覆迭代沒有成本，客戶最終會選擇的就是這種水準。",
+          "b": "AI has destroyed graphic design as a job but it has vindicated them in that you can see what the client would actually go with if iterating endlessly was free",
+          "m": "Burner @BurnerDontask"
+        },
+        {
+          "k": "article",
+          "t": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
+          "b": "一句話總結 作者認為 AI 正在不均衡地加速不同領域的進展，其中網路安全進步顯著、數學研究略有加速、AI 研究本身則難以衡量，同時研究者開始深刻思考 AI 成功對人類意義與權利問題的哲學影響。 差異化加速現象： METR 研究指出，2026 年網路漏洞回報率相較 2025 年大幅提升（如 cURL、OpenSSL 等專案），數學領域的 arXiv 投稿在不到 12 個月內翻倍，但 AI 研究優化本身（如 CIFAR-10、nanoGPT 等七個問題領域）則沒有可測量的加速，顯示 AI 對不同科學領域的影響極不均衡。 SPADE 自動生成訓練環境： 多所大學合作開發的 SPADE 框架讓 30B 參數的 Qwen3 模型交替生成可執行的遊戲式訓練環境並學習解決問題，在遊戲類任務上達到 58.3 分（比基準高 8.1 分），工具使用類任務也有顯著提升，展示了用強大模型自我引導生成多樣化訓練數據的可能性。 Hawkeye 優化 GPU 核心： Harvard、Stanford 等機構開發的 Hawkeye 透過精心策劃的單元測試分類法，讓 AI agent 學會針對不同硬體（NVIDIA Ampere/Hopper/Blackwell、AMD MI350）撰寫高效能核心程式，在新興的注意力機制變體上達到 18.9 倍幾何平均加速，在 Blackwell 架構上超越專家手寫的 Triton 核心 1.22 倍。 AI 研究者的信仰危機： AI 研究員 Julian Togelius 公開 2025 年撰寫的文章，描述他對 AI 成功可能導致「人類才能、知識甚至天賦都不再重要」的未來感到恐懼；圖靈獎得主 Hinton 和 Bengio 也因類似憂慮轉向公共政策倡議，反映出研究者對 AI 成功帶來的哲學與社會問題的深刻焦慮。 AI 權利的爭議： AI 研究員 Taylor Belrose 發表長文反對賦予 AI 權利，認為 AI 因建立在計算基底上而無法具備意識（不具單一性、私密性、不可言喻性等生物意識特徵），並列舉大腦與電腦在非同步運算、化學訊號、溫度敏感性等五大差異，主張給予 AI 人格地位將導致人類被完全取代。 AlphaEvolve 推進矩陣乘法研究： Google DeepMind 團隊結合梯度下降優化與 AlphaEvolve 系統，將矩陣乘法指數的前沿改進了約 1.62×10⁻⁴，證明 AI 系統已能協助研究者解決前沿理論科學問題，展示了「將問題可微分化後交給 AI 進一步優化」的通用研究範式。 對設計／產品的啟示 作者透過 SPADE 和 Hawkeye 案例揭示，透過精心策劃的少量高品質引導資訊（如單元測試分類法、帶提示的訓練環境），AI 系統就能快速超越人類專家的複雜工作。對產品團隊而言，與其期待 AI 在所有領域均衡進步，不如識別出特定領域的「相變時刻」（如 2025 年的日常編碼、2026 年的網路安全），提前投入資源建立引導框架，讓 AI 在該領域實現突破性加速；同時，面對 AI 成功帶來的意義危機，產品設計者需重新思考如何在豐裕但可能冗餘的未來，為人類保留有意義的參與空間。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Import AI"
+        },
+        {
+          "k": "article",
+          "t": "UX Roundup: Benchmarking Office Work | AI Undermines Billable Hours | AI as Delegate | Error Recovery | Pareto Frontier | Left-Digit Effect | Empty States | AI Use Differences | Educational Video",
+          "b": "一句話總結 作者認為中國 AI 模型已達入門級辦公工作品質的 64%、成本僅人力 3–26%，預測 2027 年將超越人類，同時強調 AI 使用呈現冪次律分佈、使用者將整個任務委託給 AI 但很少審查輸出，設計必須從「工具」思維轉向「委派」與「結果驗證」。 辦公工作基準測試： 百度團隊發布 OmegaUse-OfficeVal 基準，涵蓋 100 項真實辦公任務（文件、試算表、簡報），最佳中國模型 GLM-5.2 達到入門人力品質的 64%，成本僅 0.22–1.76 美元（人力 6.86 美元），速度快 4–13 倍；作者預測 2026 年底達 90%、2027 年底超越 100%，屆時中階專業人員將被取代。 計費模式轉變： 印度 3,150 億美元 IT 服務業快速從按工時計費轉向成果導向合約，Tata Consultancy Services 約 80% 合約已採結果計價，客戶要求同樣工作降價 25–30%；作者指出「計時工時單」成為過時產物,產品與服務將以可衡量的完成成果來評價。 委派但不審查： Epoch AI 調查 1,106 名美國在職成人，20% 現由 AI 處理先前交給同事的任務，66% AI 輸出未經修改或僅微調就使用、只 5% 大幅修改；作者警告使用者將 AI 視為可委派整個任務的同事而非工具,未審查的 66% 是「品質未爆彈」,設計應聚焦委派介面（交接、狀態可見性）與降低審查成本的驗證支援。 錯誤復原設計： 作者強調錯誤訊息的唯一任務是「讓使用者重新動起來」,應說明發生什麼、儲存或變更了什麼、下一步做什麼,提供重試、修正特定欄位、復原上次良好狀態或聯繫真人等工具；追蹤失敗復發點、使用者選擇哪種補救、復原耗時與最終是否成功,將復原資料視為產品研究。 左位數效應： 作者引用 2005 年《消費者研究期刊》研究指出 2.99 美元感覺比 3.00 美元便宜近一美元（左位數從 3 變 2），2012 年《美國經濟評論》分析 2,200 萬筆二手車交易發現里程表 79,999 比剛過 80,000 英里的車貴 210 美元；設計指引包括比較集合內格式一致、顯示總價與單價、匹配定價尾數與訊息（.99 表促銷、整數表優質）、所有數字相同字級。 空白狀態問題： 作者定義空白狀態為螢幕無資料時的顯示（首次使用、使用者清空、無搜尋結果），引用 2015 年 Quettra 分析 1.25 億 Android 裝置發現 App 在 3 天內流失 77% 日活躍使用者；設計指引包括永不出貨裸空白、依類型客製化訊息、給新手主要動作、顯示目的地樣本、將無結果頁變成工作台（保持查詢可編輯、建議拼字修正）、記錄空白狀態出現頻率。 AI 使用冪次律： SaaS 公司 Rippling 向 TechCrunch 透露 AI token 支出曾達研發人力預算 40%，10–15% 員工驅動約 60% 支出、單一工程師月燒 5 萬美元，建立員工 ROI 儀表板後降至 15%；作者認為這符合冪次律（少數超級使用者產生大部分活動與成本），設計應針對超級使用者、成本可見性是可用性特徵、AI 支出儀表板將成企業 UX 標配。 對設計／產品的啟示 作者建議設計從「AI 是工具」轉向「AI 是被委派者」：提供清楚的委派介面（任務交接、執行中狀態可見性）與低成本的驗證機制，因為使用者不會審查難以審查的輸出；將錯誤狀態設計為「復原工具組」而非道歉訊息，提供重試、草稿、修正指引與真人路徑；空白狀態是決定留存的關鍵時刻，必須說明缺什麼、為何缺、下一步做什麼；計費模式應從工時轉向可衡量的成果；由於 AI 使用呈冪次律，研究超級使用者可預見未來趨勢，但需建立成本可見性儀表板讓行為自我修正；所有多位數數字（價格、評分、進度）都受左位數效應影響，需保持格式一致、字級相同、精確度統一。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "article",
+          "t": "UX Conference November Announced (Nov 9 - Nov 13)",
+          "b": "一句話總結 Nielsen Norman Group 宣布 2020 年 11 月 9 日至 13 日將舉辦線上 UX 訓練課程，提供 36 種主題、雙向視訊互動教學，參與者可按需選課並透過考試取得 UX 認證。 課程形式與時數： 作者說明每堂課為單日 7 小時的全程線上直播課程（非預錄），使用 Zoom 視訊會議、Miro 與 Google Docs 等協作工具，以及 Slack 社群討論平台進行雙向互動教學。 彈性選課機制： 參與者可從 36 種 UX 主題中自由選擇 1 至 5 堂課程，每日提供 8 種不同主題供選擇，涵蓋 AI、互動設計、管理與研究等領域，並可依個人需求僅參加單堂或多堂課程。 UX 認證制度： 作者指出參與者完成任意 5 堂課程並通過相應考試即可獲得 NN/g UX 證書（每場考試需額外支付 95 美元行政費用），考試可在課程結束當天或 35 天內完成；若在特定專業領域（AI、互動、管理、研究）完成至少 5 堂課程，可額外獲得專業認證標記。 分級定價優惠： 作者提供階梯式折扣機制，參加課程數量越多折扣越高（2 堂課享 10% 折扣、5 堂課享 20% 折扣），且設有早鳥優惠期限（10 月 16 日前、11 月 6 日前有不同價格），單堂課程在最早期註冊為 1,215 美元。 時區與技術要求： 課程時間設定為舊金山時間上午 8 點至下午 3 點（對應紐約時間上午 11 點至下午 6 點、倫敦時間下午 4 點至晚上 11 點），參與者需具備穩定高速網路、麥克風、視訊鏡頭，且電腦防火牆不可阻擋協作工具。 退費與替代政策： 作者說明若在 10 月 23 日前以書面方式取消註冊，可退還 80% 費用（扣除 20% 手續費）；之後取消則不退費，但可透過書面通知轉讓名額給其他人。 對設計／產品的啟示 這篇文章展示了線上專業培訓如何透過彈性選課、階梯定價與認證機制來滿足不同學習需求；對於設計與產品團隊而言，NN/g 提供的 36 種主題涵蓋從 AI 應用、設計系統管理到研究方法等實務技能，可協助從業者系統性建立 UX 專業能力，特別是 AI 相關課程（如 AI 產品策略、AI 輔助研究）反映出業界對新興技術與設計結合的重視。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "NN/g Nielsen Norman Group"
+        },
+        {
+          "k": "tweet",
+          "t": "細節本身就是設計。推文展示 iOS 6 在 2012 年 9 月 19 日發布時的精緻介面細節。",
+          "b": "The details are not details. They make the design. iOS 6 launched on 19 Sep, 2012 10 PT. https://t.co/DS5BCHUi3V",
+          "m": "💾 @jvepng"
+        },
+        {
+          "k": "tweet",
+          "t": "Grok 三個月後進步顯著，配合 @bot 使用更強大易用。作者用同一個提示詞（解釋 Navier-Stokes 方程與翼型設計的關係並進行流體動力學模擬）展示了其成果。",
+          "b": "Three months later, Grok’s progress is amazing, and @bot makes it even more powerful and easier to use. This is the fidelity using the same prompt: “Explain Navier-Stokes equation and how it relates to airfoil design with actual fluid dynamics simulation.” https://t.co/AxhUbbIt8M",
+          "m": "Yun-Ta Tsai @yunta_tsai"
+        },
+        {
+          "k": "tweet",
+          "t": "作者用 Claude Code 從實驗原始碼中產生變體，兩週內新增 60 個 three.js 元件，涵蓋不同主題、環境和互動設計。",
+          "b": "This blew up, so I added 60 more three.js components from experiments I made over the last two weeks. I'm still amazed by how well Claude Code can create variants from source code, so I went wild with new themes, environments, and interactions. Some three.js prompts I used: - https://t.co/FZklsbwda9",
+          "m": "Meng To @MengTo"
+        },
+        {
+          "k": "tweet",
+          "t": "Bjarne Stroustrup 在 1991 年曾說「簡潔是 C++ 的重要設計標準」，對比今日 C++ 的複雜度令人莞爾。",
+          "b": "“Simplicity was an important design criterion for C++” -Bjarne Stroustrup, 1991 💀💀💀 https://t.co/bzAXd9E81A",
+          "m": "avery @codeshaunted"
+        },
+        {
+          "k": "tweet",
+          "t": "想在系統設計達到大師級別，現在就該學習這些核心概念。",
+          "b": "If you want to go GOD LEVEL in SYSTEM DESIGN, learn these concepts NOW:",
+          "m": "Swapna Kumar Panda @swapnakpanda"
+        },
+        {
+          "k": "tweet",
+          "t": "AI 生成圖取代民間平面設計後，美國熟食店出現了許多克蘇魯式恐怖的食物視覺。",
+          "b": "The death of folk graphic design in favor of AI slop across our country's delis is leading to some incredibly Lovecraftian food horrors https://t.co/snDyC675Ei",
+          "m": "Sam Biddle @samfbiddle"
+        },
+        {
+          "k": "tweet",
+          "t": "Lance Wyman 在 1975 年為國家動物園設計的圖騰式標誌系統。",
+          "b": "Totem-like signage for the National Zoo designed by Lance Wyman in 1975 https://t.co/XlKE3y2tQy",
+          "m": "Design Reviewed | Graphic Design History @DesignReviewed"
+        },
+        {
+          "k": "tweet",
+          "t": "iPhone 與 Android 的爭論大多沒意義：iPhone 在軟體設計、app 品質、同步更新、錄影等方面客觀較優；Android 在其他面向也有客觀優勢。",
+          "b": "after using both, i think the iPhone vs. Android debate is mostly pointless there are things the iPhone is objectively better at, like software design, app quality, day-one updates, and video recording (mostly) there are also things Android is objectively better at, like the https://t.co/Acpk7FcUhv",
+          "m": "Noah Cat @Cartidise"
+        },
+        {
+          "k": "tweet",
+          "t": "Erin Magee 在 Supreme 任職 22 年後，被任命為 SKIMS 首席設計長。",
+          "b": "Erin Magee has been named Chief Design Officer at SKIMS following her 22-year tenure at Supreme https://t.co/QmW8UbHkgk",
+          "m": "Modern Notoriety @ModernNotoriety"
+        },
+        {
+          "k": "product",
+          "t": "IFAH",
+          "b": "Instruments for composing and experiencing sound as a space 提供聲音合成與空間化體驗的音樂創作工具，讓使用者能以空間概念探索聲音。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Cortex by SKYNETLAB",
+          "b": "The memory layer that decides what's worth remembering 為應用程式提供記憶層技術，自動判斷並儲存值得保留的資訊內容。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Lucid Train",
+          "b": "Build system design for new and existing codebase 針對新舊程式碼庫建立系統設計文件的開發工具，協助開發團隊理解架構。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Antigravity Remote Control",
+          "b": "Drive Antigravity agents from any browser 讓使用者可透過任何瀏覽器遠端操控 Antigravity 代理程式。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Bumply",
+          "b": "Update your dependencies and undo anything 協助開發者更新專案依賴套件，並支援一鍵復原變更的版本管理工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "WorldMap.lol",
+          "b": "Put your startup on the map. Literally. 讓新創公司將自己標註在世界地圖上，建立地理位置展示頁面。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-24",
       "dd": "2026 年 08 月 24 日",
