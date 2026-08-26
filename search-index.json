@@ -1,6 +1,109 @@
 {
-  "generated_at": "2026-08-25T22:40:14+08:00",
+  "generated_at": "2026-08-26T08:57:06+08:00",
   "days": [
+    {
+      "d": "2026-08-26",
+      "dd": "2026 年 08 月 26 日",
+      "no": 132,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "作者抱怨用 AI 生成前端介面的痛點：Claude、Codex 等工具 30 秒能產出 dashboard，但接下來得花 6 小時修正主按鈕看不見、表格在手機上破版、所有畫面都像同一堆圓角卡片等問題。",
+          "b": "I hate building frontends with AI. Claude, Codex, and Kimi can generate a dashboard in 30 seconds. Then I spend the next six hours explaining that the main button is invisible, the table breaks on mobile, and every screen looks like the same pile of rounded cards. I've",
+          "m": "Aryan Mahajan @aryanXmahajan"
+        },
+        {
+          "k": "tweet",
+          "t": "作者自稱工程師而非藝術家，缺乏設計品味，最後找到用 AI 做前端設計的方法：收集別人的靈感與模組，像樂高一樣組合起來。",
+          "b": "i finally cracked frontend design with AI... without using any skill frontend needs taste to not look like slop, and i'm more of an engineer than an artist, so i'm genuinely bad at it my way around it: collecting inspirations and modules from other people, building a lego of https://t.co/c5PHosjS3s",
+          "m": "Machina @EXM7777"
+        },
+        {
+          "k": "tweet",
+          "t": "前 Anthropic 工程師用月費 6 美元的內部圖譜系統，抓出 30 萬美元評估套件漏掉的問題；僅用 7 個節點和 1 條規則，設計思路與主流相反，已公開完整架構。",
+          "b": "Anthropic ex-engineer runs an internal graph that costs $6 a month and catches what a $300,000 eval suite misses. No retrieval layer. Seven nodes and one rule about who's allowed to change their mind. He published the whole schema. His version starts from the opposite idea. A https://t.co/APITJ5hmDK",
+          "m": "wast3 @0xWast3"
+        },
+        {
+          "k": "tweet",
+          "t": "清楚解說「受控 LLM agent」：兩個 agent 跑相同模型與任務，但其中一個可能因程式碼層的設計差異，耗費近 3 倍 token 才完成任務。",
+          "b": "A harnessed LLM agent, clearly explained! Two agents can run the same model on the same task and finish as expected. But one of them can spend nearly 3x the tokens to complete the task. The extra usage originates from the code wrapped around them, which decides what reaches the https://t.co/ZKrfp2jLSZ",
+          "m": "Avi Chawla @_avichawla"
+        },
+        {
+          "k": "tweet",
+          "t": "團隊開源整套行銷 playbook，將原先在 Grok Bot 上爆紅的 Marketing OS 移植到 Claude，推出「Marketing AGI」，宣稱可取代前 5 名行銷職位。",
+          "b": "We just open-sourced our entire marketing playbook. After huge viral success with our Marketing OS running on Grok Bot, we decided to bring it to Claude. Introducing Marketing AGI by Maxfusion. You no longer need your first 5 marketing hires. 📁 Marketing Department ┃ ┣ 📁 https://t.co/fKBejQ4Cxa",
+          "m": "Ori Silver @OriSilver"
+        },
+        {
+          "k": "tweet",
+          "t": "CD PROJEKT RED 公布新品牌與 logo，保留根源同時更現代、更具適應性，以利全球品牌溝通。",
+          "b": "CD PROJEKT RED has officially revealed a new brand and logo The studio says the new design keeps its roots while giving the brand a more “modern” and adaptable look. “The modernized and more adaptable look allows CD PROJEKT RED to better communicate its brand on a global https://t.co/hVAlEVfW4b",
+          "m": "Pirat_Nation 🔴 @Pirat_Nation"
+        },
+        {
+          "k": "tweet",
+          "t": "Nothing OS 5.0 推出重大設計改版：更自適應的主畫面、新 widget 用法、更快流暢的動畫、改良的 Essential AI 工具，並整合 Android 17 最佳功能；Phone (3) 明天啟動公開測試。",
+          "b": "Nothing OS 5.0 brings a major design refresh, a more adaptive home screen, new ways to use widgets, faster and smoother animations, improved Essential AI tools and the best of Android 17. Open Beta starts tomorrow with Phone (3). https://t.co/W5Hdk9np0S",
+          "m": "Nothing @nothing"
+        },
+        {
+          "k": "tweet",
+          "t": "作者為 WinRAR 製作 30 秒概念廣告，回應社群的趣味簡報挑戰，試圖將網路長年玩笑轉化為實驗性專案。",
+          "b": "Here's my 30-second spec ad for WinRAR (that nobody asked for). Okay, perhaps Rourke Heath did. He shared this fun brief with his GenHQ community last week, and I took it on. In this experimental project, I wanted to turn one of the internet's longest-running jokes into a https://t.co/gw0JuYhRfq",
+          "m": "Burak Tuyan @buraktuyan"
+        },
+        {
+          "k": "tweet",
+          "t": "作者認為 X 上的日本與中國設計社群水準極高，很高興能接觸到這些內容。",
+          "b": "Japanese and Chinese design communities on X are on another level. I’m so glad I stumbled across them.",
+          "m": "Anca-Gabriela 🦋 @ancauix"
+        },
+        {
+          "k": "tweet",
+          "t": "作者發布首篇部落格，介紹用於自我改進的 AI 晶片設計 meta harness，說明強化學習如何應用在晶片設計任務、ASIC 設計如何變成爬山任務，以及最佳生成設計的執行效果。",
+          "b": "sharing my first blog! a meta harness for self-improving AI chip design… check it out if u wanna see how RL could work in chip design task, or how an ASIC design can become a hillclimbing task it introduced ASIC vs. GPU, RL Env setup, and the best generated design can run",
+          "m": "christina @luoluo_ai"
+        },
+        {
+          "k": "product",
+          "t": "session-indexer",
+          "b": "Semantic search over your own Claude Code session history 為 Claude Code 的對話歷史記錄提供語意搜尋功能，幫助開發者快速找到過去的程式碼討論內容。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Keymap",
+          "b": "Every shortcut, one ⌘⌘ away. 集中管理與快速查詢各種應用程式的鍵盤快捷鍵，適合需要頻繁切換軟體的專業使用者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Altar II",
+          "b": "The mechanical keyboard Apple never made 針對 Apple 生態系使用者設計的機械式鍵盤，結合 Mac 美學與機械鍵盤的打字手感。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Splitsense",
+          "b": "Turn user behaviour into higher conversions with AI 運用 AI 分析使用者行為數據，協助產品團隊優化轉換率與使用者體驗。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "ChatGPT Ad Library",
+          "b": "See every ad running inside ChatGPT 彙整並展示所有在 ChatGPT 平台內投放的廣告內容，供行銷人員與研究者參考。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Buddy Visual Tests",
+          "b": "Every UI change, reviewed before merge 自動化 UI 視覺測試工具，在程式碼合併前檢測介面變更，適合開發團隊使用。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-25",
       "dd": "2026 年 08 月 25 日",
