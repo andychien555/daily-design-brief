@@ -440,18 +440,31 @@ def empty_state() -> str:
     itself — so padding a thin day is a breach of it, and this state is part of
     keeping the promise rather than an apology for failing it. Flat sentence, no
     hedge, no explanation of the crawler, no substitute content.
+
+    It used to say 「沒有抓到值得收的推文」 back when an issue was tweets and
+    nothing else. Now that generate_html.py only reaches for it when every
+    section came back empty, naming one of them would be the wrong sentence.
     """
     return f"""
     <section class="empty">
       <div class="empty-mark" aria-hidden="true"></div>
-      <p class="empty-title">今天沒有抓到值得收的推文。</p>
+      <p class="empty-title">今天沒有值得收的內容。</p>
       <p class="empty-sub">明天 {config.PUBLISH_HOUR} 再出刊。</p>
     </section>
     """
 
 
 def criteria_block(criteria: dict) -> str:
-    if not criteria:
+    """The 「編輯方針」 dialog, which describes the tweet search and nothing else.
+
+    Keyed on keyword_pools rather than on `criteria` being non-empty:
+    fetch_producthunt.py writes its own criteria["producthunt"] key, so with X
+    ingestion paused the dict is still truthy and this used to render the whole
+    tweet method — 0 組關鍵字, an empty table, a scoring formula nothing ran —
+    behind a topbar button. No pools, no dialog, and generate_html.py drops the
+    button with it.
+    """
+    if not criteria or not criteria.get("keyword_pools"):
         return ""
     kw_rows = "".join(
         f"<tr><td>{esc(k['label'])}</td><td><code>{esc(k['query'])}</code></td><td>≥ {k['min_likes']}</td></tr>"

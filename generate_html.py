@@ -21,6 +21,7 @@ from templates import (
     lead_card,
     lead_story,
     newsletter_card,
+    one_liner,
     products_section,
     tweet_card,
     briefing_section,
@@ -264,26 +265,47 @@ def generate(data: dict, archive=None, base_path: str = "") -> str:
     # them; the ordering here is what puts every article above every tweet. The
     # tweet lead stays outside the grid entirely — it is the deck, not a cell.
     # Front page reads lead → deck → 好文 → columns.
+    #
+    # Both halves are optional and the divider names only the ones that showed
+    # up. X ingestion is paused (see fetch_tweets.py), so today's data.json has
+    # no top_tweets at all and the desk is 好文 alone — but an archived issue
+    # replayed through this function still has its tweets, and still gets the
+    # 「好文 · 推文」 rule it was published under.
     desk_cards = [newsletter_card(b) for b in article_briefs]
     desk_cards += [tweet_card(t, i + 2) for i, t in enumerate(top_tweets[1:])]
     desk_html = ""
     if desk_cards or top_tweets:
-        desk_html = (
-            '<div class="grid-divider"><span>好文 · 推文 / THE REST OF THE DESK</span></div>\n'
+        label = " · ".join(
+            [l for l in ("好文" if article_briefs else "", "推文" if top_tweets else "") if l]
         )
+        desk_html = f'<div class="grid-divider"><span>{label} / THE REST OF THE DESK</span></div>\n'
         if top_tweets:
             desk_html += lead_card(top_tweets[0])
         if desk_cards:
             desk_html += f'<div class="cards-grid">{"".join(desk_cards)}</div>'
-    if not top_tweets:
-        desk_html += empty_state()
 
     top_products = data.get("top_products") or []
     products_html = products_section(top_products)
+
+    # An issue with nothing in it at all is still published empty — that is the
+    # 「今天該知道的，讀得完」 promise staying falsifiable. What counts as nothing
+    # is every section, not just the tweets: with X ingestion paused, keying the
+    # empty state off top_tweets alone would have printed 「今天沒有內容」 under a
+    # full page of 財經 and 好文 every single day.
+    if not (lead_html or podcast_html or desk_html or products_html):
+        desk_html = empty_state()
+
     sources = sorted({t.get("source", "") for t in top_tweets if t.get("source")})
     if top_products:
         sources = sources + ["Product Hunt"]
-    sources_label = " · ".join(sources) if sources else "X / Twitter"
+    # Falls back to whatever the issue actually drew on. It used to say
+    # 「X / Twitter」 on a thin day, which was true while every issue was built
+    # from tweets and became a lie the day ingestion stopped.
+    if not sources:
+        sources = [b.get("channel", "") for b in (data.get("podcast_briefs") or [])]
+        sources += [b.get("source", "") for b in (data.get("article_briefs") or [])]
+        sources = sorted({s for s in sources if s})
+    sources_label = " · ".join(sources) if sources else config.BRAND_NAME_ZH
 
     main_html = f"""<main>
   <div class="topbar">
@@ -407,16 +429,41 @@ def main():
     # Also append to archive.json for history page
     archive = load_json(config.ARCHIVE_FILE, default=[])
 
+    # The rail (scripts.py) prints `headline`, falling back to the source list
+    # and then to an em dash. Both used to come from the tweets, so with X
+    # ingestion paused every archive entry would have rendered as 「—」. Read the
+    # issue's own lead instead, in the order the page itself leads with:
+    # 財經 → 好文 → 推文.
     top = data.get("top_tweets") or []
+    podcasts = data.get("podcast_briefs") or []
+    articles = data.get("article_briefs") or []
+    products = data.get("top_products") or []
+
+    # Grouped by section rather than globally sorted, so the rail's fallback line
+    # reads in the same order the issue does. dict.fromkeys keeps that order while
+    # dropping a name two sections happen to share.
     sources = sorted({t.get("source", "") for t in top if t.get("source")})
+    sources += sorted({b.get("channel", "") for b in podcasts if b.get("channel")})
+    sources += sorted({b.get("source", "") for b in articles if b.get("source")})
+    sources = list(dict.fromkeys(sources))
+
     headline = ""
-    if top:
+    for lead in (podcasts + articles):
+        # Same sentence the page itself prints as that lead's headline — the
+        # raw title is 「EP690 | ⛳」 and says nothing (templates.one_liner).
+        headline = one_liner(lead.get("summary_md") or "", lead.get("title") or "")
+        if headline:
+            break
+    if not headline and top:
         headline = top[0].get("summary_zh") or top[0].get("text") or ""
+
     entry = {
         "date": data["date"],
         "date_display": data["date_display"],
         "generated_at": data["generated_at"],
-        "total": len(top),
+        # Item count across every section, not just tweets — the field is what
+        # tells a reader how big an issue was.
+        "total": len(top) + len(podcasts) + len(articles) + len(products),
         "sources": sources,
         "headline": headline,
     }

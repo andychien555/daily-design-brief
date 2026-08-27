@@ -47,15 +47,31 @@ jobs:
             echo "full=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Fetch tweets
+      # Starts today's data.json. fetch_tweets.py used to do this on its way past
+      # — it was the only script that replaced the file instead of merging one
+      # key into it — so without this step the fetchers below would merge today's
+      # sections into the last tweet-era file and every issue would carry that
+      # day's date.
+      #
+      # Gated on full, like the fetchers it clears the way for. On a podcast-only
+      # refresh the file is already stamped today (that is what dedup just
+      # matched on) and 好文/PH are skipped, so wiping it here would republish the
+      # 10:00 issue with the morning's articles and launches deleted.
+      - name: Initialise today's brief
         if: steps.dedup.outputs.full == 'true'
-        env:
-          TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # TEMPORARY: dump the first raw API response to debug_raw_tweet.json so
-          # we can check whether 6551.io returns media. Remove once settled.
-          PROBE_RAW_TWEET: "1"
-        run: python fetch_tweets.py
+        run: python init_brief.py
+
+      # X ingestion is paused. Nothing was deleted — fetch_tweets.py still works
+      # and the renderers still draw a 推文 section whenever data.json has one.
+      # To resume, uncomment this step; it must stay above the fetchers below,
+      # because it writes the whole file rather than merging into it.
+      #
+      # - name: Fetch tweets
+      #   if: steps.dedup.outputs.full == 'true'
+      #   env:
+      #     TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
+      #     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      #   run: python fetch_tweets.py
 
       - name: Fetch Product Hunt launches
         if: steps.dedup.outputs.full == 'true'
@@ -84,8 +100,15 @@ jobs:
       - name: Generate index.html and daily brief
         run: python generate_html.py
 
-      - name: Generate daily markdown
-        run: python generate_md.py
+      # Paused with the tweet step above. briefs/*.md holds tweets and nothing
+      # else, and is read back only by fetch_tweets.py (summary cache + 2-day
+      # dedup) and backfill_translations.py — so with ingestion off it writes a
+      # three-line husk into briefs/ every day and nothing ever reads it.
+      # Uncomment together with Fetch tweets. Existing .md files stay put; the
+      # cache picks them up again on the first restored run.
+      #
+      # - name: Generate daily markdown
+      #   run: python generate_md.py
 
       # 歷史 brief 不會重新產生，靠這支把最新的 CSS／側欄／搜尋 JS 補回整個存檔
       - name: Refresh archived brief shells
@@ -117,8 +140,6 @@ jobs:
           [ -f article_state.json ] && git add article_state.json || true
           # usage_log.json：每日 token/轉錄花費累計，存在才加
           [ -f usage_log.json ] && git add usage_log.json || true
-          # debug_raw_tweet.json：TEMPORARY media probe sample，存在才加
-          [ -f debug_raw_tweet.json ] && git add debug_raw_tweet.json || true
           git diff --staged --quiet || git commit -m "chore: daily brief $(date +'%Y-%m-%d')"
           git push
 

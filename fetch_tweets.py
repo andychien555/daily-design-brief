@@ -4,6 +4,12 @@ fetch_tweets.py
 Fetches trending Product & Design tweets via 6551.io API,
 ranks by engagement, summarizes in Traditional Chinese via Claude,
 saves results to data.json.
+
+PAUSED: daily.yml no longer runs this script, so no issue since the pause
+carries a 推文 section. Nothing here was removed — the renderers still draw
+tweets whenever data.json has any, so restoring ingestion is one step in
+daily.yml (see the commented-out block there) and the section comes back on the
+next run. Archived issues keep the tweets they were published with.
 """
 
 import os
@@ -19,7 +25,10 @@ from config import (
     TWEETS_LANGS,
     TWEETS_API_BASE_DEFAULT,
 )
-from utils import shape_tweet, strip_code_fence, save_json, claude_token_cost, record_usage
+from utils import (
+    brief_skeleton, shape_tweet, strip_code_fence, save_json,
+    claude_token_cost, record_usage,
+)
 
 TWITTER_TOKEN = os.environ["TWITTER_TOKEN"]
 API_BASE = os.environ.get("TWITTER_API_BASE", TWEETS_API_BASE_DEFAULT)
@@ -395,8 +404,8 @@ def load_recent_tweet_ids(days: int, today: str) -> set[str]:
 
 def main():
     now = datetime.now(config.TPE)
-    date_str = now.strftime("%Y-%m-%d")
-    date_display = now.strftime("%Y 年 %m 月 %d 日")
+    skeleton = brief_skeleton(now)
+    date_str = skeleton["date"]
 
     since_date = (now - timedelta(days=SINCE_DAYS)).strftime("%Y-%m-%d")
     print(f"📰 Fetching tweets since {since_date} for {date_str} ...")
@@ -456,9 +465,7 @@ def main():
     top = curate_with_claude(candidates, TOP_N)
 
     output = {
-        "date": date_str,
-        "date_display": date_display,
-        "generated_at": now.isoformat(),
+        **skeleton,
         "since_date": since_date,
         "top_tweets": top,
         "criteria": {

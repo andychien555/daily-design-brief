@@ -7,6 +7,21 @@ import json
 import os
 
 
+def brief_skeleton(now) -> dict:
+    """The three fields an issue is keyed on, stamped from one timestamp.
+
+    ``now`` is a tz-aware datetime (the pipeline passes Taipei time). Both
+    init_brief.py and fetch_tweets.py stamp these, and the issue's filename,
+    masthead and archive entry all read them — one formatter here is what stops
+    those three from disagreeing about what day it is.
+    """
+    return {
+        "date": now.strftime("%Y-%m-%d"),
+        "date_display": now.strftime("%Y 年 %m 月 %d 日"),
+        "generated_at": now.isoformat(),
+    }
+
+
 def strip_code_fence(raw: str) -> str:
     """Strip a leading ```/```json markdown code fence from a Claude response.
 

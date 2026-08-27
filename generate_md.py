@@ -3,6 +3,11 @@
 generate_md.py
 Reads data.json and writes a Markdown file to briefs/YYYY-MM-DD.md.
 The MD serves as both human-readable archive and summary cache for future runs.
+
+PAUSED with X ingestion: this file renders top_tweets and the tweet search
+criteria, so a tweetless data.json yields a three-line husk. daily.yml has the
+step commented out next to the fetch step it belongs to; the two come back
+together. Nothing here needs changing to restore it.
 """
 
 import json

@@ -13,16 +13,30 @@
         │
         ▼
 GitHub Actions: Daily Design Brief
-  ├─ fetch_tweets.py        # 6551.io API 抓推 → Claude 篩選翻譯
+  ├─ init_brief.py          # 蓋今天的日期、清掉昨天 → data.json 骨架
+  ├─ (fetch_tweets.py)      # X 抓取已停用，見下方「X 抓取已停用」
   ├─ fetch_producthunt.py   # PH Atom feed + GraphQL → Claude 摘要
   ├─ fetch_podcast.py       # 逐台偵測 podcast 最新集 MP3 → Groq Whisper 轉錄 → Claude 整理（continue-on-error）
+  ├─ fetch_articles.py      # UX 好文 / Newsletter 全文 → Claude 中文重點
   ├─ generate_html.py       # 渲染 index.html / briefs/*.html / archive.json
-  ├─ generate_md.py         # 寫 briefs/*.md（同時是翻譯快取）
+  ├─ (generate_md.py)       # 隨 X 抓取一起停用（briefs/*.md 只裝推文）
   ├─ refresh_briefs_shell.py # 把最新 CSS／側欄／JS 補回所有歷史 briefs/*.html
   ├─ build_search_index.py  # 掃 briefs/*.html → search-index.json（全站關鍵字搜尋）
   └─ git commit & push
         └─ Deploy workflow ─► GitHub Pages
 ```
+
+### X 抓取已停用
+
+推文區塊自 2026-08-27 起不再產生。程式碼一行沒刪——`fetch_tweets.py` 照常可跑，
+模板只要 `data.json` 有 `top_tweets` 就照樣畫推文區。停用只做在 `daily.yml`：
+`Fetch tweets` 與 `Generate daily markdown` 兩個 step 被註解掉，要恢復就把註解拿掉
+（`Fetch tweets` 必須留在其他 fetcher 之前，因為它是整份覆寫 `data.json`）。
+
+`init_brief.py` 是為此補上的：以前是 `fetch_tweets.py` 每天順手重建 `data.json`，
+它一停，日期就沒人蓋、昨天的區塊也沒人清。這支只做那件事。
+
+歷史早報不受影響——`briefs/*.html` 是已產出的靜態頁，推文照常留著也照常被搜尋索引到。
 
 財經 podcast 每天檢查新集（節目更新時間不定，尤其股癌）：
 
@@ -170,10 +184,10 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 
 | 失敗點 | 行為 |
 |---|---|
-| 6551.io 全部 402 | `top_tweets: []`，網站只剩 PH 區塊 |
-| 6551.io 部分 402 | 已抓到的 tweets 照常處理，剩下 query skip |
-| Anthropic quota 滿 | `summary_zh` 留空，按 likes 排序輸出英文原文 |
-| Product Hunt 失敗 | `top_products: []`，僅出 tweets 區塊 |
+| Anthropic quota 滿 | `summary_zh` 留空，按 likes 排序輸出英文原文（推文停用中，僅在恢復後適用） |
+| Product Hunt 失敗 | `top_products: []`，出其餘區塊 |
+| 全部區塊都空 | 出空狀態「今天沒有值得收的內容。」，不補內容 |
+| 6551.io 402（推文停用中不會發生） | `top_tweets: []`，推文區整塊不渲染 |
 | 某台 podcast 失敗 | 單台失敗只略過該台，其他台與整批早報照常（step 亦 `continue-on-error`） |
 | Podcast RSS 主來源失效 | 自動用 iTunes Lookup（該台 `itunes_id`）重新取得 feedUrl 再抓 |
 | 最新集發布超過 `PODCAST_SHOW_WITHIN_DAYS` 天 | 該台自動隱藏，不顯示過舊內容 |
@@ -184,11 +198,13 @@ PODCAST_SUMMARY_CHUNK_CHARS = 12000
 
 | 路徑 | 說明 |
 |---|---|
-| [fetch_tweets.py](fetch_tweets.py) | 6551.io 抓推 → Claude 篩選翻譯 → 寫 `data.json` |
+| [init_brief.py](init_brief.py) | 蓋當天日期、清空昨天區塊 → 每天的 `data.json` 骨架（daily.yml 第一支） |
+| [fetch_tweets.py](fetch_tweets.py) | 6551.io 抓推 → Claude 篩選翻譯 → 寫 `data.json`（**已停用**，見上方） |
 | [fetch_producthunt.py](fetch_producthunt.py) | PH Atom feed + GraphQL → Claude 摘要 → 併入 `data.json` |
+| [fetch_articles.py](fetch_articles.py) | UX 好文 / Newsletter 全文 → Claude 中文重點 → 併入 `data.json["article_briefs"]` |
 | [fetch_podcast.py](fetch_podcast.py) | 逐台偵測 podcast 最新集 MP3 → Groq Whisper 轉錄 → Claude 整理 → 寫 `data.json["podcast_briefs"]`（多台、每台一則） |
 | [generate_html.py](generate_html.py) | 渲染 `index.html`、`briefs/*.html`、更新 `archive.json`（財經重點逐則走 `briefing_section`，置於早報最上方） |
-| [generate_md.py](generate_md.py) | 寫 `briefs/*.md`（也是隔天的翻譯快取） |
+| [generate_md.py](generate_md.py) | 寫 `briefs/*.md`（也是隔天的翻譯快取；**隨推文一起停用**） |
 | [refresh_briefs_shell.py](refresh_briefs_shell.py) | 把當前 CSS／側欄 markup／側欄 JS 重新套進所有 `briefs/*.html`（只換殼、不動內文，可重複執行） |
 | [build_search_index.py](build_search_index.py) | 解析所有 `briefs/*.html` → `search-index.json`，驅動側欄關鍵字搜尋 |
 | [templates.py](templates.py) / [styles.py](styles.py) / [scripts.py](scripts.py) | HTML 模板 / CSS / JS |
