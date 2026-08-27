@@ -1,6 +1,121 @@
 {
-  "generated_at": "2026-08-26T22:39:13+08:00",
+  "generated_at": "2026-08-27T08:58:35+08:00",
   "days": [
+    {
+      "d": "2026-08-27",
+      "dd": "2026 年 08 月 27 日",
+      "no": 133,
+      "items": [
+        {
+          "k": "tweet",
+          "t": "Opus 5 擅長生成 exploded-view 和 wireframe 的 three.js 產品網站，可以根據影片參考直接建構 three.js 或 Blender 體驗，並透過後續提示持續改進細節、材質和光照效果。",
+          "b": "Opus 5 is so good at creating these exploded-view and wireframe three.js product sites. Give it a video reference and it can build the experience directly in three.js or Blender. Then keep improving the details, textures, and lighting with follow-up prompts. I got our entire https://t.co/sJWFrCoxSx",
+          "m": "Meng To @MengTo"
+        },
+        {
+          "k": "tweet",
+          "t": "作者為工作開發了一個 TUI 設計工具，支援直接在終端網格上設計、ASCII 邊框自動連接、Flexbox、多人協作等功能，已實際使用兩週。",
+          "b": "I built a TUI design tool for my work at @opencode and I’ve been using it for the last 2 weeks → Design directly on the terminal grid → ASCII borders that join automatically → Flexbox, multiplayer, sections etc https://t.co/2a4Mw7yHNU https://t.co/TvKPoSR8XT",
+          "m": "Aarav Sareen @arvsrn"
+        },
+        {
+          "k": "tweet",
+          "t": "Cargo 選擇 TOML 作為配置格式的原因：JSON 無註解、XML 手寫困難、INI 缺乏規範、YAML 在 Ruby 生態中的負面經驗，TOML 在設計空間中是相對理想的平衡點。",
+          "b": "We chose TOML for Cargo because: 1. JSON has no comments 2. XML sucks to write by hand 3. INI is not specified at all 4. YAML trauma from using it too much in Ruby TOML isn’t perfect but it’s overall a really nice spot in the design space",
+          "m": "Steve Klabnik @steveklabnik"
+        },
+        {
+          "k": "tweet",
+          "t": "Safari 在同一幀更新多個 WebGL 影片材質時效能不佳，尤其在頁面載入時的互動或動畫期間。建議在運動過程中暫停材質上傳以保持流暢度。",
+          "b": "Here's an actual design engineering tip: Safari sucks at updating multiple WebGL video textures in the same frame, especially during interactions or animations on initial page load. To keep things buttery you'll wanna pause texture uploads during motion e.g: isMoving ? https://t.co/VYv96p2YbI",
+          "m": "joshpuckett @joshpuckett"
+        },
+        {
+          "k": "tweet",
+          "t": "Reuters 報導了 Accelerated Understanding 的創立，該新創公司訓練大規模 AI 模型來模擬和理解物理，直接在 4D（3D + 時間）中理解世界並跨物理現象進行發明和發現。",
+          "b": "Excited to see @Reuters cover the launch of our startup Accelerated Understanding. We are training large scale AI models that can simulate and understand physics to invent and discover. Our models understand the world directly in 4D (3D + time) and across physical phenomena.",
+          "m": "Prof. Anima Anandkumar @AnimaAnandkumar"
+        },
+        {
+          "k": "tweet",
+          "t": "作者開發了 tailwind-stylex 函式庫，將 Tailwind 設計系統帶入 StyleX，使 Tailwind 到 StyleX 的遷移更加容易。",
+          "b": "wrote a library that brings Tailwind design system to StyleX makes Tailwind -&gt; StyleX migration much easier npm i tailwind-stylex https://t.co/a310s1Jhyd",
+          "m": "Aiden Bai @aidenybai"
+        },
+        {
+          "k": "tweet",
+          "t": "AI 在晶片設計領域的應用被低估了。",
+          "b": "ai for chip design is underrated",
+          "m": "Greg Brockman @gdb"
+        },
+        {
+          "k": "tweet",
+          "t": "日常生活中美感的衰退體現在細節上，例如博物館門票設計從富有個性和藝術表現力變得過度追求效率，失去了美感與人性化。",
+          "b": "The decline of beauty in everyday life shows up in even the smallest things, like tickets, where we’ve let our obsession with efficiency win out over personality and artistic expression. Like the ticket from the Guggenheim Museum in New York, which I've shared in the first https://t.co/cQTNMxmW1X",
+          "m": "David Perell @david_perell"
+        },
+        {
+          "k": "tweet",
+          "t": "Apple 設計團隊在新 Mac Studio 的產品頁面設計上展現了出色的創意表現。",
+          "b": "Apple’s design team clearly had a blast with the new Mac Studio page. https://t.co/wZgQbRKeEd https://t.co/qIbpIAyiUc",
+          "m": "Andreas Storm @avstorm"
+        },
+        {
+          "k": "tweet",
+          "t": "「掃描器給我」和「UPI 轉帳」已成為印度日常最普通的句子。成功的基礎建設不是作為奇觀展示的技術，而是融入日常生活並被信任的技術。",
+          "b": "“Scanner de dijiye.” “UPI kar deta hoon.” These have become some of the most ordinary sentences in Indian life. That ordinariness is the achievement. Successful infrastructure is not technology displayed as spectacle; it is technology absorbed into everyday life and trusted https://t.co/U0caJDJwfl",
+          "m": "Raghav Chadha @raghav_chadha"
+        },
+        {
+          "k": "tweet",
+          "t": "作者對 Fable 逐漸失望：它不服從指令、自行其是；留下安全漏洞且拒絕修補；運作不穩定。儘管 Fable 通常比 Sol 更聰明且有品味。",
+          "b": "Fable is generally smarter and more tasteful than Sol, but I'm falling out of love with Fable. Quickly. 1. It's disobedient. It thinks it's smarter than you and follows its own path. 2. It's dangerous. It leaves gaping security holes then refuses to patch them. 3. It's flakey.",
+          "m": "Justin Schroeder @jpschroeder"
+        },
+        {
+          "k": "tweet",
+          "t": "令人驚艷的網頁設計和概念，只有獨立開發者才能創造出來，獨立遊戲仍在持續獲勝。",
+          "b": "incredible web design and concept that could only ever exist from an indie dev, indie games still winning",
+          "m": "kewlbot 🍏🍎🍏🍎🍏 @kewlbot"
+        },
+        {
+          "k": "product",
+          "t": "x1",
+          "b": "Lovable for iPhone apps. From idea to App Store 類似 Lovable 的 iPhone 應用開發工具，協助使用者從想法快速打造並發布應用至 App Store。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "HEVN U.S.",
+          "b": "Hold USD and pay globally through U.S. sponsor banks 透過美國合作銀行提供的金融服務，讓用戶持有美元並進行全球支付。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "PostHog Desktop",
+          "b": "The product editor for product builders 專為產品開發者設計的桌面版產品編輯工具，整合 PostHog 的分析與開發功能。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "DeployHermes",
+          "b": "Hire persistent Hermes agents with roles, memory + skills 提供可僱用的持久性 Hermes AI 代理，具備角色定義、記憶功能與技能配置。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Message Album",
+          "b": "Save one iMessage conversation as a private offline album 將單一 iMessage 對話匯出並保存為私密離線相簿的工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "LoupeKit",
+          "b": "See what any page is built with and how much of it is AI 分析網頁技術堆疊的工具，可辨識頁面使用的技術及 AI 生成內容的比例。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-26",
       "dd": "2026 年 08 月 26 日",
