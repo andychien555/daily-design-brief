@@ -1,333 +1,127 @@
 {
-  "date": "2026-08-27",
-  "date_display": "2026 年 08 月 27 日",
-  "generated_at": "2026-08-27T08:55:58.964128+08:00",
-  "since_date": "2026-08-25",
-  "top_tweets": [
+  "date": "2026-08-28",
+  "date_display": "2026 年 08 月 28 日",
+  "generated_at": "2026-08-28T08:56:05.142040+08:00",
+  "top_products": [
     {
-      "id": "2092275643623109037",
-      "text": "Opus 5 is so good at creating these exploded-view and wireframe three.js product sites.\n\nGive it a video reference and it can build the experience directly in three.js or Blender. Then keep improving the details, textures, and lighting with follow-up prompts.\n\nI got our entire https://t.co/sJWFrCoxSx",
-      "author": "MengTo",
-      "name": "Meng To",
-      "likes": 1783,
-      "retweets": 125,
-      "replies": 56,
-      "created": "Tue Aug 25 15:39:20 +0000 2026",
-      "url": "https://x.com/MengTo/status/2092275643623109037",
-      "source": "Design",
-      "summary_zh": "Opus 5 擅長生成 exploded-view 和 wireframe 的 three.js 產品網站，可以根據影片參考直接建構 three.js 或 Blender 體驗，並透過後續提示持續改進細節、材質和光照效果。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "title": "Sendra",
+      "url": "https://www.producthunt.com/products/sendra",
+      "published": "2026-08-25T20:31:49-07:00",
+      "author": "Joseph Azzi",
+      "tagline": "Design emails in Figma, export HTML that works everywhere",
+      "post_id": "1232526",
+      "summary_zh": "讓設計師在 Figma 中設計電子郵件，並匯出可跨平台使用的 HTML 程式碼。適合需要製作電子報或行銷郵件的設計團隊。",
+      "image_url": "https://ph-files.imgix.net/28b35d6b-3484-4113-9468-61970b2f22e2.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/79e0bcbb-52f9-4c54-bfd9-869826346dc4.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "id": "2092181600658485489",
-      "text": "I built a TUI design tool for my work at @opencode and I’ve been using it for the last 2 weeks\n\n→ Design directly on the terminal grid\n→ ASCII borders that join automatically\n→ Flexbox, multiplayer, sections etc\n\nhttps://t.co/2a4Mw7yHNU https://t.co/TvKPoSR8XT",
-      "author": "arvsrn",
-      "name": "Aarav Sareen",
-      "likes": 1168,
-      "retweets": 69,
-      "replies": 42,
-      "created": "Tue Aug 25 09:25:39 +0000 2026",
-      "url": "https://x.com/arvsrn/status/2092181600658485489",
-      "source": "Design",
-      "summary_zh": "作者為工作開發了一個 TUI 設計工具，支援直接在終端網格上設計、ASCII 邊框自動連接、Flexbox、多人協作等功能，已實際使用兩週。"
+      "title": "IQ Routing",
+      "url": "https://www.producthunt.com/products/iq-routing",
+      "published": "2026-08-26T23:54:14-07:00",
+      "author": "George Avila",
+      "tagline": "Trajectory-aware LLM routing that cuts agent cost",
+      "post_id": "1233752",
+      "summary_zh": "根據任務軌跡智慧分配 LLM 請求的路由工具，可降低 AI 代理的運算成本。主要服務需要優化多模型呼叫成本的開發團隊。",
+      "image_url": "https://ph-files.imgix.net/e9ed142b-13f8-424e-87ec-c211e898656a.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d368a775-a859-4415-a9c2-8df6c72984cc.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "id": "2092622706873184663",
-      "text": "We chose TOML for Cargo because:\n\n1. JSON has no comments\n2. XML sucks to write by hand\n3. INI is not specified at all\n4. YAML trauma from using it too much in Ruby\n\nTOML isn’t perfect but it’s overall a really nice spot in the design space",
-      "author": "steveklabnik",
-      "name": "Steve Klabnik",
-      "likes": 926,
-      "retweets": 36,
-      "replies": 47,
-      "created": "Wed Aug 26 14:38:27 +0000 2026",
-      "url": "https://x.com/steveklabnik/status/2092622706873184663",
-      "source": "Design",
-      "summary_zh": "Cargo 選擇 TOML 作為配置格式的原因：JSON 無註解、XML 手寫困難、INI 缺乏規範、YAML 在 Ruby 生態中的負面經驗，TOML 在設計空間中是相對理想的平衡點。"
+      "title": "Wondering Canvas",
+      "url": "https://www.producthunt.com/products/wondering-2",
+      "published": "2026-08-26T23:40:56-07:00",
+      "author": "Angelica",
+      "tagline": "Visual ChatGPT in Parallel",
+      "post_id": "1233740",
+      "summary_zh": "支援平行多線操作的視覺化 ChatGPT 介面，讓使用者能同時進行多個 AI 對話或任務。適合需要同時處理多項 AI 查詢的專業工作者。",
+      "image_url": "https://ph-files.imgix.net/ae1c1a58-dba1-4b7e-90fa-48c61aaf37c3.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/9fca636b-4e1e-435d-bceb-5c50c249d433.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "id": "2092384622844019089",
-      "text": "Here's an actual design engineering tip:\n\nSafari sucks at updating multiple WebGL video textures in the same frame, especially during interactions or animations on initial page load.\n\nTo keep things buttery you'll wanna pause texture uploads during motion e.g: \n\nisMoving ? https://t.co/VYv96p2YbI",
-      "author": "joshpuckett",
-      "name": "joshpuckett",
-      "likes": 976,
-      "retweets": 30,
-      "replies": 23,
-      "created": "Tue Aug 25 22:52:23 +0000 2026",
-      "url": "https://x.com/joshpuckett/status/2092384622844019089",
-      "source": "Design",
-      "summary_zh": "Safari 在同一幀更新多個 WebGL 影片材質時效能不佳，尤其在頁面載入時的互動或動畫期間。建議在運動過程中暫停材質上傳以保持流暢度。"
+      "title": "HFlow",
+      "url": "https://www.producthunt.com/products/hflow",
+      "published": "2026-08-26T01:01:50-07:00",
+      "author": "Garry Tan",
+      "tagline": "Scalable multimodal data pipelines for robotics",
+      "post_id": "1232707",
+      "summary_zh": "為機器人應用打造的可擴展多模態資料處理管線工具，協助處理影像、感測器等多種資料來源。主要服務機器人開發與研究團隊。",
+      "image_url": "https://ph-files.imgix.net/4bd676e4-2e7b-4550-881f-7beb05fbf8ae.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/41548fe9-f70b-4054-ab6b-9ff1e48358d4.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "id": "2092236528898675014",
-      "text": "Excited to see @Reuters cover the launch of our startup Accelerated Understanding.\n\nWe are training large scale AI models that can simulate and understand physics to invent and discover. Our models understand the world directly in 4D (3D + time) and across physical phenomena.",
-      "author": "AnimaAnandkumar",
-      "name": "Prof. Anima Anandkumar",
-      "likes": 926,
-      "retweets": 108,
-      "replies": 63,
-      "created": "Tue Aug 25 13:03:55 +0000 2026",
-      "url": "https://x.com/AnimaAnandkumar/status/2092236528898675014",
-      "source": "Design",
-      "summary_zh": "Reuters 報導了 Accelerated Understanding 的創立，該新創公司訓練大規模 AI 模型來模擬和理解物理，直接在 4D（3D + 時間）中理解世界並跨物理現象進行發明和發現。"
+      "title": "Pluto",
+      "url": "https://www.producthunt.com/products/pluto-11",
+      "published": "2026-08-26T21:30:47-07:00",
+      "author": "Garry Tan",
+      "tagline": "Your professional profile is now an AI agent",
+      "post_id": "1233649",
+      "summary_zh": "將個人專業檔案轉換為 AI 代理，能自動代表使用者進行互動或回應。適合希望擴展個人品牌影響力的專業人士。",
+      "image_url": "https://ph-files.imgix.net/251f022c-64f5-4011-88a5-0ce12c162674.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/8d63ca1f-0b42-427c-80fa-db6f1a6a9425.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "id": "2092396795859198331",
-      "text": "wrote a library that brings Tailwind design system to StyleX\n\nmakes Tailwind -&gt; StyleX migration much easier\n\nnpm i tailwind-stylex https://t.co/a310s1Jhyd",
-      "author": "aidenybai",
-      "name": "Aiden Bai",
-      "likes": 894,
-      "retweets": 26,
-      "replies": 27,
-      "created": "Tue Aug 25 23:40:45 +0000 2026",
-      "url": "https://x.com/aidenybai/status/2092396795859198331",
-      "source": "Design",
-      "summary_zh": "作者開發了 tailwind-stylex 函式庫，將 Tailwind 設計系統帶入 StyleX，使 Tailwind 到 StyleX 的遷移更加容易。"
-    },
-    {
-      "id": "2092487630218985867",
-      "text": "ai for chip design is underrated",
-      "author": "gdb",
-      "name": "Greg Brockman",
-      "likes": 1639,
-      "retweets": 107,
-      "replies": 80,
-      "created": "Wed Aug 26 05:41:42 +0000 2026",
-      "url": "https://x.com/gdb/status/2092487630218985867",
-      "source": "Design",
-      "summary_zh": "AI 在晶片設計領域的應用被低估了。"
-    },
-    {
-      "id": "2092732617028472987",
-      "text": "The decline of beauty in everyday life shows up in even the smallest things, like tickets, where we’ve let our obsession with efficiency win out over personality and artistic expression.\n\nLike the ticket from the Guggenheim Museum in New York, which I've shared in the first https://t.co/cQTNMxmW1X",
-      "author": "david_perell",
-      "name": "David Perell",
-      "likes": 835,
-      "retweets": 88,
-      "replies": 27,
-      "created": "Wed Aug 26 21:55:11 +0000 2026",
-      "url": "https://x.com/david_perell/status/2092732617028472987",
-      "source": "Design",
-      "summary_zh": "日常生活中美感的衰退體現在細節上，例如博物館門票設計從富有個性和藝術表現力變得過度追求效率，失去了美感與人性化。"
-    },
-    {
-      "id": "2092248879693451525",
-      "text": "Apple’s design team clearly had a blast with the new Mac Studio page.\n\nhttps://t.co/wZgQbRKeEd https://t.co/qIbpIAyiUc",
-      "author": "avstorm",
-      "name": "Andreas Storm",
-      "likes": 1161,
-      "retweets": 50,
-      "replies": 15,
-      "created": "Tue Aug 25 13:52:59 +0000 2026",
-      "url": "https://x.com/avstorm/status/2092248879693451525",
-      "source": "Design",
-      "summary_zh": "Apple 設計團隊在新 Mac Studio 的產品頁面設計上展現了出色的創意表現。"
-    },
-    {
-      "id": "2092625542595953091",
-      "text": "“Scanner de dijiye.”\n“UPI kar deta hoon.”\n\nThese have become some of the most ordinary sentences in Indian life. That ordinariness is the achievement. Successful infrastructure is not technology displayed as spectacle; it is technology absorbed into everyday life and trusted https://t.co/U0caJDJwfl",
-      "author": "raghav_chadha",
-      "name": "Raghav Chadha",
-      "likes": 3036,
-      "retweets": 104,
-      "replies": 396,
-      "created": "Wed Aug 26 14:49:43 +0000 2026",
-      "url": "https://x.com/raghav_chadha/status/2092625542595953091",
-      "source": "Design",
-      "summary_zh": "「掃描器給我」和「UPI 轉帳」已成為印度日常最普通的句子。成功的基礎建設不是作為奇觀展示的技術，而是融入日常生活並被信任的技術。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
-    },
-    {
-      "id": "2092329177999462907",
-      "text": "Fable is generally smarter and more tasteful than Sol, but I'm falling out of love with Fable. Quickly.\n\n1. It's disobedient. It thinks it's smarter than you and follows its own path.\n\n2. It's dangerous. It leaves gaping security holes then refuses to patch them.\n\n3. It's flakey.",
-      "author": "jpschroeder",
-      "name": "Justin Schroeder",
-      "likes": 1213,
-      "retweets": 41,
-      "replies": 141,
-      "created": "Tue Aug 25 19:12:04 +0000 2026",
-      "url": "https://x.com/jpschroeder/status/2092329177999462907",
-      "source": "Design",
-      "summary_zh": "作者對 Fable 逐漸失望：它不服從指令、自行其是；留下安全漏洞且拒絕修補；運作不穩定。儘管 Fable 通常比 Sol 更聰明且有品味。"
-    },
-    {
-      "id": "2092256268433949090",
-      "text": "incredible web design and concept that could only ever exist from an indie dev, indie games still winning",
-      "author": "kewlbot",
-      "name": "kewlbot 🍏🍎🍏🍎🍏",
-      "likes": 6004,
-      "retweets": 579,
-      "replies": 3,
-      "created": "Tue Aug 25 14:22:21 +0000 2026",
-      "url": "https://x.com/kewlbot/status/2092256268433949090",
-      "source": "Design",
-      "summary_zh": "令人驚艷的網頁設計和概念，只有獨立開發者才能創造出來，獨立遊戲仍在持續獲勝。",
-      "context": {
-        "quoted_text": "",
-        "quoted_author": "",
-        "replied_text": "",
-        "replied_author": "",
-        "top_replies": []
-      }
+      "title": "GitNexus (Akon Labs)",
+      "url": "https://www.producthunt.com/products/gitnexus-akon-labs",
+      "published": "2026-08-26T00:30:19-07:00",
+      "author": "Garry Tan",
+      "tagline": "The open-source kernel for coding agents",
+      "post_id": "1232678",
+      "summary_zh": "開源的程式碼代理核心框架，為開發 AI 編程助手提供基礎架構。主要服務需要建構自動化編程工具的開發團隊。",
+      "image_url": "https://ph-files.imgix.net/b5ca1559-c20e-443a-8faf-02dba06629ad.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/adb6a101-c9ef-4ce9-9d77-ae832c7b60b5.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
-    "keyword_pools": [
-      {
-        "label": "Design",
-        "query": "design",
-        "min_likes": 500
-      },
-      {
-        "label": "UX Design",
-        "query": "UX design",
-        "min_likes": 500
-      },
-      {
-        "label": "UX Research",
-        "query": "UX research",
-        "min_likes": 500
-      },
-      {
-        "label": "Product Management",
-        "query": "product management",
-        "min_likes": 500
-      },
-      {
-        "label": "AI Product",
-        "query": "AI product",
-        "min_likes": 500
-      },
-      {
-        "label": "Vibe Coding",
-        "query": "vibe coding",
-        "min_likes": 500
-      },
-      {
-        "label": "Growth",
-        "query": "growth",
-        "min_likes": 500
-      },
-      {
-        "label": "Claude",
-        "query": "claude",
-        "min_likes": 500
-      },
-      {
-        "label": "OpenAI",
-        "query": "openai",
-        "min_likes": 500
-      },
-      {
-        "label": "Gemini",
-        "query": "gemini",
-        "min_likes": 500
-      },
-      {
-        "label": "Tech Hiring",
-        "query": "tech hiring",
-        "min_likes": 2000
-      },
-      {
-        "label": "Job Market",
-        "query": "job market",
-        "min_likes": 2000
-      }
-    ],
-    "since_days": 2,
-    "top_n": 15,
-    "score_formula": "likes（主要）+ Claude 人工過濾廣告/招聘/meme/非設計",
-    "claude_filter_rules": [
-      "排除純廣告、招聘文（有洞見的 JD 除外）",
-      "排除與產品設計/PM 無關（crypto、體育、政治等）",
-      "排除 meme/搞笑但無內容",
-      "偏好有觀點的原創內容"
-    ],
     "producthunt": {
       "source": "Product Hunt Atom feed",
       "window_days": 2,
       "top_n": 6
     }
   },
-  "top_products": [
+  "podcast_briefs": [
     {
-      "title": "x1",
-      "url": "https://www.producthunt.com/products/x1-2",
-      "published": "2026-08-24T22:52:16-07:00",
-      "author": "Manil Lakabi",
-      "tagline": "Lovable for iPhone apps. From idea to App Store",
-      "post_id": "1231551",
-      "summary_zh": "類似 Lovable 的 iPhone 應用開發工具，協助使用者從想法快速打造並發布應用至 App Store。",
-      "image_url": "https://ph-files.imgix.net/24e5fd64-645c-4346-825a-ee9fa5905236.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/b97cff53-6cd1-4c26-b8e2-14fbb42c8411.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "HEVN U.S.",
-      "url": "https://www.producthunt.com/products/hevn-u-s-accounts-for-non-us-companies",
-      "published": "2026-08-25T17:25:56-07:00",
-      "author": "Nik Briuzgin",
-      "tagline": "Hold USD and pay globally through U.S. sponsor banks",
-      "post_id": "1232444",
-      "summary_zh": "透過美國合作銀行提供的金融服務，讓用戶持有美元並進行全球支付。",
-      "image_url": "https://ph-files.imgix.net/44ec9050-883a-440d-bac7-03f55a03e3dc.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/db9297bf-71f2-4533-ac94-5167fc70ffba.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "PostHog Desktop",
-      "url": "https://www.producthunt.com/products/posthog",
-      "published": "2026-08-25T11:55:26-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "The product editor for product builders",
-      "post_id": "1232225",
-      "summary_zh": "專為產品開發者設計的桌面版產品編輯工具，整合 PostHog 的分析與開發功能。",
-      "image_url": "https://ph-files.imgix.net/644b3a24-7a4e-48c9-b9bb-16ada3350013.gif?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/ff678315-cade-4909-97d9-b598b74e9b8f.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "DeployHermes",
-      "url": "https://www.producthunt.com/products/deployhermes",
-      "published": "2026-08-25T12:40:09-07:00",
-      "author": "Akshay Maurya",
-      "tagline": "Hire persistent Hermes agents with roles, memory + skills",
-      "post_id": "1232269",
-      "summary_zh": "提供可僱用的持久性 Hermes AI 代理，具備角色定義、記憶功能與技能配置。",
-      "image_url": "https://ph-files.imgix.net/e17f7685-3376-4794-9eda-db330e907cbe.gif?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/f03d30b6-5c84-4257-aac8-7f2df2482a23.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Message Album",
-      "url": "https://www.producthunt.com/products/message-album",
-      "published": "2026-08-25T08:37:50-07:00",
-      "author": "Aaron Hampton",
-      "tagline": "Save one iMessage conversation as a private offline album",
-      "post_id": "1232073",
-      "summary_zh": "將單一 iMessage 對話匯出並保存為私密離線相簿的工具。",
-      "image_url": "https://ph-files.imgix.net/2b3b505d-be0d-4243-8118-d6eae2c99268.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/dddda5c3-8c14-45c0-b2a1-8a70d592e526.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "LoupeKit",
-      "url": "https://www.producthunt.com/products/loupekit",
-      "published": "2026-08-25T05:48:34-07:00",
-      "author": "Ján Turský",
-      "tagline": "See what any page is built with and how much of it is AI",
-      "post_id": "1231917",
-      "summary_zh": "分析網頁技術堆疊的工具，可辨識頁面使用的技術及 AI 生成內容的比例。",
-      "image_url": "https://ph-files.imgix.net/484e06f1-1bb3-405f-b101-10d5edb3d31a.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c926c87b-894f-41e0-bd36-c846e2839096.png?auto=format&w=960&h=540&fit=crop"
+      "episode_id": "ca8c-5f45-466e-a79b-0d8c4cf262dd",
+      "title": "EP331. OpenAI 的晶片、蘋果 M6 & M5 Ultra、Meta 的和解方案 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/9329ca8c-5f45-466e-a79b-0d8c4cf262dd",
+      "published": "2026-08-27",
+      "channel": "M觀點",
+      "transcript_source": "Podcast 音檔 · Whisper",
+      "summary_md": "## 一句話總結\n主講人認為 OpenAI、蘋果推出新晶片展現 AI 算力競爭白熱化，而 Meta 和解案反映社會對青少年網路成癮的管制共識正在形成。\n\n## 1. OpenAI Halapeño 晶片：推論專用 ASIC 挑戰輝達\n- **效能優於輝達 GB200/GB300：** 每瓦處理量高 50%–90%、端到端延遲低 1.7–3.6 倍（依模型而異），針對 GPT-o3、Deep Seek R1、KIMI K2.5 等模型測試。\n- **今年底少量出貨、明年鋪貨：** 由 Broadcom 主導設計、台積電 2nm 代工，僅做推論（Inference）不做訓練，主攻 OpenAI 自家 API 與 ChatGPT 服務優化。\n- **與其他 ASIC 對標待驗證：** 雖宣稱勝過輝達 GPU，但與 Google TPU、亞馬遜 Trainium 缺乏公開比較數據；主講人認為 OpenAI 未必能立刻超越這些已深耕多年的團隊。\n- **輝達長期挑戰加劇：** 各家 ASIC 都宣稱更省電、更便宜，輝達市占率長期將從 90% 降至約 60%，但絕對營收仍可能成長（假設整體市場年化成長 25%，輝達約 23%–24%）。\n\n## 2. 蘋果 M6 與 M5 Ultra：本地 AI 算力新標竿\n- **M6 首顆 2nm 晶片：** 12 核 CPU（比 M5 多 2 核）、12 核 GPU、雙模組 Neural Engine（共 32 核），搭載 Mac mini 最高 32GB 記憶體，可跑 QWen 3.8 27B 等 4-bit 量化模型。\n- **M5 Ultra 記憶體達 512GB：** 四顆晶片以 UltraFusion 技術連接（4.4TB/s 頻寬）、36 核 CPU、80 核 GPU、32 核 Neural Engine；主講人認為可跑 GLM 5.3 Flash、Deep Seek V4 等「後前沿」開源模型，價格約 65 萬台幣。\n- **跳過 M6 Pro/Max/Ultra 世代：** 主講人推測蘋果將 M6 定位過渡產品，高階機種沿用 M5 系列，把研發資源集中到明年 M7；2nm 良率與成本仍待成熟。\n- **統一記憶體架構優勢：** 主記憶體與 VRAM 共用，無需資料搬移；主講人期待 PC 陣營（AMD、Intel）跟進此架構以提升 AI 應用效能。\n\n## 3. Meta 和解案：防沉迷機制的美國版\n- **罰金 180 億美元分十年支付：** 70% 確定支付，30% 需視 TikTok、YouTube 是否受同等規範而定；若其他平台未被要求同步改進，Meta 可減免部分罰金。\n- **青少年帳號六大限制：** ①每日使用上限 2 小時、②午夜至清晨 6 點禁用、③上課時段靜音、④隱藏按讚數、⑤可關閉 AI 推薦改用時間序、⑥強化身分認證與家長控制（家長可自行放寬限制）。\n- **主講人立場：小政府主義者的折衷支持：** 雖反對政府過度干預私人契約，但認為青少年不具完整行為能力，適度保護合理；此和解方案保留家長自主權、未完全剝奪自由，屬「避險式」政策實驗。\n- **自由與責任相對原則：** 主講人以投資槓桿類比——新手不應開放十倍槓桿，同理青少年需限制高風險行為；強調「自由包含犯錯的自由，但須先具備負責的能力」。\n\n## 結論與後市展望\n主講人認為 ASIC 晶片競爭將持續侵蝕輝達市占率，但輝達憑藉系統整合（Extreme Co-Design）、軟體優化（FP4/FP8）與支持開源模型仍可維持成長；蘋果 M 系列晶片已成本地 AI 最佳選擇之一，512GB 記憶體可跑後前沿模型極具吸引力。Meta 和解案開啟青少年網路使用管制先例，主講人提醒短影音對專注力破壞最大，呼籲社會在擁抱新技術時需「避險式」前進，特別保護腦部發育未成熟族群。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-08-28"
     }
   ],
-  "podcast_briefs": [],
-  "article_briefs": []
+  "article_briefs": [
+    {
+      "title": "Fitts’s Law: Big and Near Beats Small and Far",
+      "url": "https://www.uxtigers.com/post/fitts-law",
+      "published": "2026-08-27",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者認為 Fitts's Law（目標愈大愈近就愈快點到）是 UX 領域最接近物理定律的原則，在 AI 與機器人時代依然適用，只是互動型態從「大量點擊」轉向「少量高風險操作」，設計重點從縮短每次點擊時間變成讓機器承擔移動成本、人類只負責關鍵確認。\n\n- **核心公式與歷史驗證：** Fitts 於 1954 年提出移動時間 MT = a + b log₂(2D/W)，其中 D 是距離、W 是目標寬度；1978 年 Xerox PARC 實驗證實滑鼠勝過搖桿與方向鍵，桌面滑鼠吞吐量約 3.7–4.9 bits/s，這套公式至今仍是 ISO 9241-411 標準的量測基礎。\n\n- **觸控螢幕門檻更高：** 手指接觸面積會晃動，誤觸率比滑鼠高，因此 Apple 規定最小 44 點、Google 規定 48 dp，作者建議至少 1 × 1 公分；當目標縮到手指尺度，失誤會比經典公式預測得更快累積（Google 稱為「FFitts」定律）。\n\n- **VR/AR 效能大降：** 作者引用 119 篇文獻統整，XR 環境中選取平均 1.25 秒、錯誤率 12%、吞吐量僅 3.25 bits/s（遠低於桌面滑鼠），深度軸選取尤其慢且不準；超過半數研究沒按標準測量吞吐量或錯誤率，作者呼籲研究者採用檢核清單。\n\n- **AI 縮小點擊王國但提高單次風險：** 對話式 AI 把「7 步選單導航」濃縮成一句話，語音輸入比手機打字快 3 倍，但點擊不會消失——只是從「大量低風險」變成「少量高風險」（如 Approve、Stop），作者預測 5 年內知識工作者日點擊數減半、單次點擊風險加倍。\n\n- **機器人不受 Fitts 束縛但人類仍受：** 工業機械臂定位精度 ±0.02–0.1 mm、移動時間幾乎與目標大小無關，因為伺服馬達沒有「訊號相依雜訊」；但當機器人不確定物體位置（如視覺伺服）時，對數關係會回來，且精密操作（如插孔）容錯愈小、搜尋時間爆炸愈快。\n\n- **12 條設計指引精華：** 包括觸控目標至少 1 × 1 公分、整個視覺元素（含留白）皆可點、常用控制放在游標所在處（右鍵選單、內嵌編輯）、桌面端把重要按鈕釘在螢幕邊緣／角落（游標撞不出去）、破壞性操作反向應用（小且遠）、向導程式的 Next 按鈕各步驟位置不變、提供鍵盤快捷鍵繞過指標等。\n\n## 對設計／產品的啟示\n作者建議立即稽核產品前 5 大任務中最小的常用目標並放大，同時記住「最好的指標操作就是沒有指標操作」——用 AI 對話取代多層選單；但 AI 時代保留下來的點擊（Approve、Pause、Stop）風險更高，必須用足夠大小、清晰間距與防誤觸機制（如輸入確認字串）來設計。當產品加入機器人／實體 AI 時，應讓機器承擔移動成本（靠近人類、穩定遞交、動作清晰可預測），把緊急停止做成最大最好按的紅色蘑菇鈕，確保人類只需負責低成本的關鍵確認，而非反覆進行高精度操作。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-08-28"
+    },
+    {
+      "title": "Matt Birchler’s Apps folder has 99 folders. Most were never meant to ship.",
+      "url": "https://www.revenuecat.com/blog/growth/matt-birchler-indie-app-dev-launched-podcast-2026",
+      "published": "2026-08-26",
+      "author": "RevenueCat",
+      "handle": "revenuecat",
+      "source": "RevenueCat Blog",
+      "label": "訂閱成長",
+      "summary_md": "## 一句話總結\n作者記錄了科技部落客 Matt Birchler 如何從零基礎開發者，透過解決自身使用痛點、搭配早期 AI 編程工具學習 SwiftUI，最終將 App 開發變成主要收入來源（超過部落格與 YouTube 頻道）的歷程。\n\n- **從設計稿到原生 App：** Matt 原本用 Sketch 手工製作電影評論視覺圖，每次都要在 Mac 上重複複製畫板、替換海報、重打文字；因為太麻煩且想在手機上使用，他決定學習 iOS 原生開發，做出第一款認真發布的 App「Quick Reviews」。\n\n- **AI 工具的低效反而成為學習助力：** Matt 使用早期 Cursor 等 AI 編程工具時體驗很差——AI 只能處理小任務、經常出錯、整個 App 程式碼塞在單一檔案；但正因如此，他被迫閱讀輸出程式碼、理解資料結構與視圖互動，奠定了結構性知識，讓他現在能更有效使用進步後的 AI 工具。\n\n- **$10 年訂閱作為風險保護：** Quick Reviews 從首日就內建年費 $10 訂閱（付費牆包含自動抓取元資料與 Letterboxd 同步），Matt 的動機不是追求成長目標，而是因為 App 仰賴 The Movie Database API 與 RSS 等第三方服務，他想確保「所有專案不會讓我虧錢」——付費機制用來覆蓋未來可能產生的 API 成本。\n\n- **99 個資料夾，多數未發布：** Matt 的 Mac「Apps」資料夾裡有 99 個子資料夾，許多是小工具、放棄的視覺化實驗與未上架專案；他遇到使用摩擦點時會先嘗試能否自己修復，有時答案是肯定的就發布新 App（如 Quick Subtitles、Chapterize、Yearly Run Goals），有時實驗就留在資料夾裡。\n\n- **刻意用「Quick」命名傳達定位：** 作者指出 Matt 在命名時刻意使用「Quick」等字眼，向使用者傳達這些是專注的小工具（focused utilities），而非需要無止境支援的大平台，藉此管理期待與維護成本。\n\n## 對設計／產品的啟示\n作者案例顯示，開發者可以從解決自身反覆遭遇的使用痛點出發（scratch your own itch），將個人工作流程中的手動步驟自動化，既能累積開發能力也能創造實際收入；在仰賴第三方服務的產品設計中，儘早設置付費機制不只為了營利，更是風險管理——確保未來 API 成本變化時不會倒賠；AI 編程工具即便不完美，反而能透過錯誤輸出強迫學習者建立結構性理解，比完全依賴黑盒生成更有長期價值。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-08-28"
+    },
+    {
+      "title": "Cialdini’s 7 Influencing Principles",
+      "url": "https://www.uxtigers.com/post/cialdini-influence-persuasion",
+      "published": "2026-08-26",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "# Cialdini's 7 Influencing Principles\n\n## 一句話總結\n作者認為 Cialdini 的七項影響力原則源自演化心智捷徑，在網路時代容易被濫用成黑暗模式，關鍵區別在於原則是真實存在並被揭示（偵探），還是被偽造（走私者）。\n\n## 核心重點\n\n- **演化錯配與未來重要性：** 作者指出這些說服原則在遠古小型社群中可靠，但在網路時代（陌生人、虛假稀缺性、偽造權威）容易被濫用；作者預測「影響力」將成為 2030 年代最重要工作技能，因為 AI 將提供超級智慧來執行人類決策。\n\n- **互惠原則的實證威力：** Dennis Regan 1971 年康乃爾實驗顯示，實驗助手主動給受試者一罐可樂後，受試者購買抽獎券數量是對照組兩倍，價值超過可樂本身；即使受試者不喜歡贈送者，效果依然存在。Canva、Duolingo、HubSpot 等成功案例均在要求任何東西前數年就提供真正解決問題的免費工具。\n\n- **承諾一致性的四倍放大效果：** Freedman 與 Fraser 1966 年實驗證明，先要求展示 3 英寸小窗貼、兩週後再提出大標誌要求，同意率從 17% 暴增至 76%——微小先前承諾使大承諾接受率增加四倍以上。作者警告免費試用的「付費牆陷阱」：要求信用卡卻未明示第 8 天扣款的設計，利用承諾一致性但違反知情同意。\n\n- **權威是最易偽造的原則：** Milgram 1963 年研究顯示 65% 普通人在穿白袍實驗者指示下，對尖叫者施加標示「危險」的 450 伏特電擊；作者強調權威在網路上最容易偽造（假信任徽章、虛構認證），更危險的是權威設計上就會抑制審查——在使用者最需要防衛時關閉防衛機制。\n\n- **Unity 是最強大也最危險的原則：** 作者指出 Cialdini 2021 年新增的第 7 項原則「Unity」（歸屬感）超越喜好，直接觸發親屬選擇機制；案例顯示當學生能為家長賺取 1 分額外學分時，家長問卷回覆率從 20% 以下暴增至 97%。Peloton、Patagonia、Figma 等品牌建立真實社群，讓認同用戶不只比價格；但作者警告製造的部落主義與虛假社群是最危險的濫用。\n\n- **Cialdini 的三種實踐者框架：** 作者引用 Cialdini 1999 年論文區分：Bungler（笨手笨腳者）浪費真實影響力、Smuggler（走私者）偽造原則、Sleuth（偵探）尋找真實存在的原則並使之浮現。關鍵區別在於原則是真實存在還是被偽造——真實稀缺性是誠實，製造的稀缺性是操弄。\n\n- **質性研究五法與護欄指標：** 作者提出五種偵測說服效果的質性方法（真實決策任務觀察、測試實質理解、次日訪談、詞彙選擇卡、挖掘抱怨資料流），並建議每個說服實驗配對護欄指標（30 天取消率、退款率、客服聯繫數、重複購買率）；若轉換率上升但護欄指標惡化，偵測到的不是說服而是「信任正在離開大樓」。\n\n## 對設計／產品的啟示\n\n作者建議設計師成為「偵探」而非「走私者」：在要求前提供真正有用的價值（能解決問題的工具而非誘餌）、保持條件透明（折扣需訂閱就在按鈕上說明）、只展示可驗證的真實權威（無法驗證的徽章不要展示）、先建立真實社群再邀請加入（空房間上的 Unity 語言是違背承諾）。實務上，作者建議對每次迭代先進行 5 位使用者的質性研究，配合護欄指標追蹤信任債務，而非盲目追求轉換率提升——誠實的說服在使用者完全理解交易時仍有效，操弄則需要誤解才能存續。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-08-28"
+    }
+  ]
 }

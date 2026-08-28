@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-28",
+    "date_display": "2026 年 08 月 28 日",
+    "generated_at": "2026-08-28T08:56:05.142040+08:00",
+    "total": 10,
+    "sources": [
+      "M觀點",
+      "RevenueCat Blog",
+      "UX Tigers"
+    ],
+    "headline": "主講人認為 OpenAI、蘋果推出新晶片展現 AI 算力競爭白熱化，而 Meta 和解案反映社會對青少年網路成癮的管制共識正在形成。",
+    "no": 134
+  },
+  {
     "date": "2026-08-27",
     "date_display": "2026 年 08 月 27 日",
     "generated_at": "2026-08-27T08:55:58.964128+08:00",
@@ -974,16 +987,5 @@
     ],
     "headline": "Design Systems Surf 是一個免費資源，集結了世界頂尖產品團隊的設計系統，涵蓋視覺風格、UI 元件、模式與參考資料，適合 UI/UX 設計師探索學習。",
     "no": 45
-  },
-  {
-    "date": "2026-05-30",
-    "date_display": "2026 年 05 月 30 日",
-    "generated_at": "2026-05-30T08:55:37.206003+08:00",
-    "total": 8,
-    "sources": [
-      "Design"
-    ],
-    "headline": "隨著 Opus 4.8 推出，越來越多設計師進入 Design Engineering 領域。作者分享常用的互動設計模式：利用「接近度」（proximity）而非僅靠 hover，當游標靠近時，附近元素會根據距離微妙地縮放和變暗。",
-    "no": 44
   }
 ]
