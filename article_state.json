@@ -585,5 +585,38 @@
     "label": "訂閱成長",
     "summary_md": "## 一句話總結\n作者記錄了科技部落客 Matt Birchler 如何從零基礎開發者，透過解決自身使用痛點、搭配早期 AI 編程工具學習 SwiftUI，最終將 App 開發變成主要收入來源（超過部落格與 YouTube 頻道）的歷程。\n\n- **從設計稿到原生 App：** Matt 原本用 Sketch 手工製作電影評論視覺圖，每次都要在 Mac 上重複複製畫板、替換海報、重打文字；因為太麻煩且想在手機上使用，他決定學習 iOS 原生開發，做出第一款認真發布的 App「Quick Reviews」。\n\n- **AI 工具的低效反而成為學習助力：** Matt 使用早期 Cursor 等 AI 編程工具時體驗很差——AI 只能處理小任務、經常出錯、整個 App 程式碼塞在單一檔案；但正因如此，他被迫閱讀輸出程式碼、理解資料結構與視圖互動，奠定了結構性知識，讓他現在能更有效使用進步後的 AI 工具。\n\n- **$10 年訂閱作為風險保護：** Quick Reviews 從首日就內建年費 $10 訂閱（付費牆包含自動抓取元資料與 Letterboxd 同步），Matt 的動機不是追求成長目標，而是因為 App 仰賴 The Movie Database API 與 RSS 等第三方服務，他想確保「所有專案不會讓我虧錢」——付費機制用來覆蓋未來可能產生的 API 成本。\n\n- **99 個資料夾，多數未發布：** Matt 的 Mac「Apps」資料夾裡有 99 個子資料夾，許多是小工具、放棄的視覺化實驗與未上架專案；他遇到使用摩擦點時會先嘗試能否自己修復，有時答案是肯定的就發布新 App（如 Quick Subtitles、Chapterize、Yearly Run Goals），有時實驗就留在資料夾裡。\n\n- **刻意用「Quick」命名傳達定位：** 作者指出 Matt 在命名時刻意使用「Quick」等字眼，向使用者傳達這些是專注的小工具（focused utilities），而非需要無止境支援的大平台，藉此管理期待與維護成本。\n\n## 對設計／產品的啟示\n作者案例顯示，開發者可以從解決自身反覆遭遇的使用痛點出發（scratch your own itch），將個人工作流程中的手動步驟自動化，既能累積開發能力也能創造實際收入；在仰賴第三方服務的產品設計中，儘早設置付費機制不只為了營利，更是風險管理——確保未來 API 成本變化時不會倒賠；AI 編程工具即便不完美，反而能透過錯誤輸出強迫學習者建立結構性理解，比完全依賴黑盒生成更有長期價值。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
     "first_shown": "2026-08-28"
+  },
+  "NN/g Nielsen Norman Group:/articles/ai-empathy-mapping/?1787936400": {
+    "title": "AI Can't Replace Real Research in Empathy Mapping",
+    "url": "https://www.nngroup.com/articles/ai-empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "published": "2026-08-29",
+    "author": "NN/g Nielsen Norman Group",
+    "handle": "nngroup",
+    "source": "NN/g",
+    "label": "UX 好文",
+    "summary_md": "很抱歉，我無法完成這個任務。您提供的文章內容顯示「Your request was blocked by this site's web application firewall」（您的請求被網站防火牆阻擋），這表示文章全文並未成功載入，我只收到了一個錯誤訊息而非實際的文章內容。\n\n要完成這個摘要任務，我需要：\n- 文章的實際內容（關於 AI 無法取代同理心地圖中真實研究的論述）\n- 文章中的具體數據、研究結論與案例\n- 作者的觀點與建議\n\n**建議解決方式：**\n1. 重新嘗試存取該文章網頁\n2. 複製完整的文章正文內容\n3. 再次提供給我進行摘要\n\n如果您能提供完整的文章內容，我將很樂意為您整理成結構清楚的中文筆記。",
+    "first_shown": "2026-08-29"
+  },
+  "NN/g Nielsen Norman Group:/articles/ai-ux-debt/?1787936400": {
+    "title": "The Custodial Era of UX: Cleaning Up After AI",
+    "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+    "published": "2026-08-29",
+    "author": "NN/g Nielsen Norman Group",
+    "handle": "nngroup",
+    "source": "NN/g",
+    "label": "UX 好文",
+    "summary_md": "我很抱歉，但您提供的內容顯示「Your request was blocked by this site's web application firewall」（您的請求被網站的防火牆阻擋了）。這表示文章內容並未成功載入，我只收到了一個錯誤訊息，而不是文章的實際內容。\n\n要完成您需要的摘要，我需要文章《The Custodial Era of UX: Cleaning Up After AI》的完整正文內容。\n\n**建議解決方式：**\n1. 嘗試重新載入該網頁\n2. 複製完整的文章內文（而非錯誤訊息）後再貼上\n3. 或者提供文章的另一個來源連結\n\n當您能提供完整文章內容後，我會很樂意為您整理成結構清楚的中文筆記。",
+    "first_shown": "2026-08-29"
+  },
+  "RevenueCat:https://www.revenuecat.com/blog/growth/short-drama-mobile-acquisition-monetization": {
+    "title": "Short drama has cracked mobile acquisition and early monetization",
+    "url": "https://www.revenuecat.com/blog/growth/short-drama-mobile-acquisition-monetization",
+    "published": "2026-08-28",
+    "author": "RevenueCat",
+    "handle": "revenuecat",
+    "source": "RevenueCat Blog",
+    "label": "訂閱成長",
+    "summary_md": "## 一句話總結\n作者認為短劇 App 透過垂直影片、快速生產、績效行銷與即時變現，在中國已創造 500 億人民幣市場，並成功移植到海外，但其高早期轉換率背後藏著極低的續訂率難題。\n\n- **中國市場規模與發展脈絡：** 作者指出截至 2024 年 6 月，中國擁有 5.76 億微短劇觀眾（超過該國網路用戶一半），國內市場達約 500 億人民幣，首度超越電影票房；Omdia 估計 2025 年全球微短劇產值約 110 億美元，中國佔 83%。這個格式源於抖音、快手的垂直影片生態，結合網路小說的劇情節奏（復仇、暴富、身分反轉）與行動支付、績效行銷等基礎建設。\n\n- **極高的早期變現效率：** 根據 RevenueCat 數據，短劇 App 在 35 天內中位數有 5.5% 安裝轉為付費用戶（一般娛樂 App 僅 1.6%）；前 14 天每次安裝平均帶來 0.83 美元營收（一般娛樂 App 為 0.15 美元）；首月每付費用戶實現營收 23.85 美元（一般娛樂 App 為 13.09 美元）。短劇 App 週訂閱佔經常性營收 88.5%（一般娛樂 App 僅 14.3%），最常見定價為週 9.99 美元。\n\n- **極低的續訂留存率：** 作者強調短劇 App 的首次續訂率中位數僅 31.1%（一般娛樂 App 為 44.3%），六個月留存率更只有 1.8%（一般娛樂 App 為 8%）。這個模式在當下非常有效，但一旦那個瞬間過去就失去效力——作者表示數據無法判斷是故事完結、週訂閱定價、獲客來源或其他原因造成，但這個取捨顯而易見。\n\n- **混合變現策略與高行銷支出：** Appfigures 分析 360 個短劇 App 顯示，93% 使用 IAP、86% 提供訂閱、67% 含廣告，超過半數同時採用三種變現方式且創造約 93% 商店營收。MIP London 高層告訴美聯社，部分最大微短劇平台將高達 90% 預算用於行銷；Android 帶來 76% 下載，iOS 則產生 58% 商店營收（不計廣告收入）。\n\n- **快速生產與數據回饋循環：** ReelShort 創辦人 Joey Jia 對 TIME 表示，公司可在約三個月內將概念推到觀眾面前，精確看到觀眾在哪裡停止觀看，並用不同角色重建失敗的概念。作者認為這種回饋循環是傳統製作難以複製的——後者耗時數年且多數預算在觀眾看到任何畫面前就已投入。\n\n- **傳統媒體的跟進與機會：** Omdia 發現 2025 年底 ReelShort 用戶平均每天花 35.7 分鐘（Netflix 手機版為 24.8 分鐘）。迪士尼將 DramaBox 納入 2025 加速器計畫、Fox 入股 My Drama 母公司並承諾兩年內製作超過 200 部垂直影片、Peacock 推出微短劇專區、TikTok 測試獨立 App LimeShorts。作者認為傳統媒體已有影視庫、IP 與節目經驗，能解決短劇 App 的留存弱點。\n\n## 對設計／產品的啟示\n作者建議產品團隊學習短劇 App 如何緊密連結行銷、觀看、付費與製作——能追蹤哪支廣告帶來用戶、觀眾在哪裡停止、什麼說服他們付費、是否回訪。不必複製垂直影片或十億美元投資，而是思考如何在自己的產品裡建立類似的數據回饋循環與「降低門檻＋提高天花板」的混合變現設計，同時利用既有內容資產彌補短劇模式的留存缺陷。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+    "first_shown": "2026-08-29"
   }
 }

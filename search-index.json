@@ -1,6 +1,67 @@
 {
-  "generated_at": "2026-08-29T07:22:00+08:00",
+  "generated_at": "2026-08-29T08:58:40+08:00",
   "days": [
+    {
+      "d": "2026-08-29",
+      "dd": "2026 年 08 月 29 日",
+      "no": 135,
+      "items": [
+        {
+          "k": "article",
+          "t": "AI Can't Replace Real Research in Empathy Mapping",
+          "b": "很抱歉，我無法完成這個任務。您提供的文章內容顯示「Your request was blocked by this site's web application firewall」（您的請求被網站防火牆阻擋），這表示文章全文並未成功載入，我只收到了一個錯誤訊息而非實際的文章內容。 要完成這個摘要任務，我需要： 文章的實際內容（關於 AI 無法取代同理心地圖中真實研究的論述） 文章中的具體數據、研究結論與案例 作者的觀點與建議 建議解決方式： 1. 重新嘗試存取該文章網頁 2. 複製完整的文章正文內容 3. 再次提供給我進行摘要 如果您能提供完整的文章內容，我將很樂意為您整理成結構清楚的中文筆記。",
+          "m": "NN/g Nielsen Norman Group"
+        },
+        {
+          "k": "article",
+          "t": "The Custodial Era of UX: Cleaning Up After AI",
+          "b": "我很抱歉，但您提供的內容顯示「Your request was blocked by this site's web application firewall」（您的請求被網站的防火牆阻擋了）。這表示文章內容並未成功載入，我只收到了一個錯誤訊息，而不是文章的實際內容。 要完成您需要的摘要，我需要文章《The Custodial Era of UX: Cleaning Up After AI》的完整正文內容。 建議解決方式： 1. 嘗試重新載入該網頁 2. 複製完整的文章內文（而非錯誤訊息）後再貼上 3. 或者提供文章的另一個來源連結 當您能提供完整文章內容後，我會很樂意為您整理成結構清楚的中文筆記。",
+          "m": "NN/g Nielsen Norman Group"
+        },
+        {
+          "k": "article",
+          "t": "Short drama has cracked mobile acquisition and early monetization",
+          "b": "一句話總結 作者認為短劇 App 透過垂直影片、快速生產、績效行銷與即時變現，在中國已創造 500 億人民幣市場，並成功移植到海外，但其高早期轉換率背後藏著極低的續訂率難題。 中國市場規模與發展脈絡： 作者指出截至 2024 年 6 月，中國擁有 5.76 億微短劇觀眾（超過該國網路用戶一半），國內市場達約 500 億人民幣，首度超越電影票房；Omdia 估計 2025 年全球微短劇產值約 110 億美元，中國佔 83%。這個格式源於抖音、快手的垂直影片生態，結合網路小說的劇情節奏（復仇、暴富、身分反轉）與行動支付、績效行銷等基礎建設。 極高的早期變現效率： 根據 RevenueCat 數據，短劇 App 在 35 天內中位數有 5.5% 安裝轉為付費用戶（一般娛樂 App 僅 1.6%）；前 14 天每次安裝平均帶來 0.83 美元營收（一般娛樂 App 為 0.15 美元）；首月每付費用戶實現營收 23.85 美元（一般娛樂 App 為 13.09 美元）。短劇 App 週訂閱佔經常性營收 88.5%（一般娛樂 App 僅 14.3%），最常見定價為週 9.99 美元。 極低的續訂留存率： 作者強調短劇 App 的首次續訂率中位數僅 31.1%（一般娛樂 App 為 44.3%），六個月留存率更只有 1.8%（一般娛樂 App 為 8%）。這個模式在當下非常有效，但一旦那個瞬間過去就失去效力——作者表示數據無法判斷是故事完結、週訂閱定價、獲客來源或其他原因造成，但這個取捨顯而易見。 混合變現策略與高行銷支出： Appfigures 分析 360 個短劇 App 顯示，93% 使用 IAP、86% 提供訂閱、67% 含廣告，超過半數同時採用三種變現方式且創造約 93% 商店營收。MIP London 高層告訴美聯社，部分最大微短劇平台將高達 90% 預算用於行銷；Android 帶來 76% 下載，iOS 則產生 58% 商店營收（不計廣告收入）。 快速生產與數據回饋循環： ReelShort 創辦人 Joey Jia 對 TIME 表示，公司可在約三個月內將概念推到觀眾面前，精確看到觀眾在哪裡停止觀看，並用不同角色重建失敗的概念。作者認為這種回饋循環是傳統製作難以複製的——後者耗時數年且多數預算在觀眾看到任何畫面前就已投入。 傳統媒體的跟進與機會： Omdia 發現 2025 年底 ReelShort 用戶平均每天花 35.7 分鐘（Netflix 手機版為 24.8 分鐘）。迪士尼將 DramaBox 納入 2025 加速器計畫、Fox 入股 My Drama 母公司並承諾兩年內製作超過 200 部垂直影片、Peacock 推出微短劇專區、TikTok 測試獨立 App LimeShorts。作者認為傳統媒體已有影視庫、IP 與節目經驗，能解決短劇 App 的留存弱點。 對設計／產品的啟示 作者建議產品團隊學習短劇 App 如何緊密連結行銷、觀看、付費與製作——能追蹤哪支廣告帶來用戶、觀眾在哪裡停止、什麼說服他們付費、是否回訪。不必複製垂直影片或十億美元投資，而是思考如何在自己的產品裡建立類似的數據回饋循環與「降低門檻＋提高天花板」的混合變現設計，同時利用既有內容資產彌補短劇模式的留存缺陷。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "RevenueCat"
+        },
+        {
+          "k": "product",
+          "t": "OpenTag",
+          "b": "AI coworker lives on Slack and Teams 一個運行在 Slack 和 Teams 上的 AI 協作助理，協助團隊處理日常工作任務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Almanac",
+          "b": "The agent with a second brain 具備第二大腦功能的 AI 代理工具，幫助使用者整理與管理知識資訊。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Fide Island",
+          "b": "Make your MacBook notch actually useful 為 MacBook 瀏海區域增加實用功能的工具，讓原本閒置的螢幕空間發揮作用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Spline V2",
+          "b": "Best 3D platform for the agentic era 針對 AI 代理時代設計的 3D 設計平台，提供創作與協作功能。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Gemini Omni 1.1 Flash",
+          "b": "Our newest multimodal model for video generation and editing Google 推出的多模態模型，專注於影片生成與編輯應用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "SnakeRank",
+          "b": "The leaderboard is a snake. Bid your way to the head. 以貪食蛇為視覺呈現的排行榜系統，使用者透過競標方式爭取頂端位置。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-28",
       "dd": "2026 年 08 月 28 日",
