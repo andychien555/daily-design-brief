@@ -240,3 +240,6 @@ ARTICLE_MAX_ITEMS = 4
 # 全文 map-reduce 門檻（字數）— 與 podcast 同策略。
 ARTICLE_SUMMARY_SINGLE_PASS_MAX = 40000
 ARTICLE_SUMMARY_CHUNK_CHARS = 12000
+# 全文健全度下限（字數）：短於此的多半不是文章，而是 WAF 攔截頁或空殼頁。
+# 實測正常全文 8000 字以上，2026-08-29 被 nngroup WAF 擋下那次只有數百字。
+ARTICLE_MIN_FULLTEXT_CHARS = 1200

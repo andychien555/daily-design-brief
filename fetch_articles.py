@@ -7,7 +7,8 @@ fetch_articles.py
 
 全文取得依每個 feed 的 `fulltext` 決定：
 - "feed"：RSS 的 content:encoded 已含整篇全文（WordPress／Substack）→ 直接用。
-- "page"：RSS 只有摘要 → 用 r.jina.ai reader 抓文章頁全文（乾淨 markdown）。
+- "page"：RSS 只有摘要 → 用 r.jina.ai reader 抓文章頁全文（乾淨 markdown），
+          jina 被目標站攔下時直連原站粗抽正文。
 - "wix" ：uxtigers.com（Wix server-rendered）專用正文擷取。
 
 機房 IP 封鎖：Substack 的 feed 會擋 GitHub Actions（403）。標了 proxy_fallback 的
@@ -15,6 +16,8 @@ feed，直連失敗時改用 r.jina.ai 繞過（jina 從自己的 IP 抓），di
 
 設計要點（對齊 fetch_podcast.py）：
 - article_state.json 冪等快取（鍵：feed_name:guid）：同一篇已摘要 → 重用，不重打 Claude。
+- 兩道健全度守門（blocked_reason／summary_reason）：擋「有字但不是文章」的攔截頁與
+  「有字但不是筆記」的拒答文；不合格就不寫快取，隔天自動重試。
 - 跨日去重：同一篇只在首次抓到那天顯示（first_shown），之後不再重複佔版面。
 - 任何失敗只記 log、不丟例外，單一 feed 失敗不影響其他 feed 與整批早報。
 """
@@ -37,6 +40,7 @@ from config import (
     ARTICLE_MAX_ITEMS,
     ARTICLE_SUMMARY_SINGLE_PASS_MAX,
     ARTICLE_SUMMARY_CHUNK_CHARS,
+    ARTICLE_MIN_FULLTEXT_CHARS,
 )
 from utils import load_json, save_json, claude_token_cost, record_usage
 
@@ -79,6 +83,55 @@ def _html_to_text(raw: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", "\n".join(ln for ln in lines if ln)).strip()
 
 
+# ── 健全度守門：擋「有字但不是文章」與「有字但不是摘要」 ─────────────
+# 抓回來的全文有時其實是 WAF／Cloudflare 攔截頁：它有文字，所以過得了「非空」
+# 檢查，卻會被當成文章餵給 Claude，換回一段「很抱歉，我無法完成這個任務」的
+# 道歉文，再被當成正式摘要寫進快取、永久佔住版面（2026-08-29 的 NN/g 兩篇）。
+# 兩道守門各自獨立：抓完檢查像不像文章，摘要完檢查像不像筆記。任一不過就整篇
+# 跳過且不寫快取，隔天自動重試——攔截多半是暫時的。
+_BLOCKED_MARKERS = (
+    "web application firewall",
+    "request was blocked",
+    "access denied",
+    "attention required",
+    "just a moment",
+    "checking your browser",
+    "enable javascript and cookies",
+    "verify you are human",
+    "captcha",
+    "403 forbidden",
+    "429 too many requests",
+)
+
+# 只掃摘要開頭：正常筆記的正文本來就可能出現「無法」二字（「作者認為 AI 無法
+# 取代真實研究」），掃全文會誤殺。拒答一定出現在第一句。
+_REFUSAL_MARKERS = ("抱歉", "無法完成", "我無法", "無法提供", "未成功載入")
+
+
+def blocked_reason(text: str) -> str:
+    """全文看起來不像文章時回傳理由，正常則回空字串。"""
+    if len(text) < ARTICLE_MIN_FULLTEXT_CHARS:
+        return f"全文僅 {len(text)} 字（< {ARTICLE_MIN_FULLTEXT_CHARS}）"
+    head = text[:1500].lower()
+    for m in _BLOCKED_MARKERS:
+        if m in head:
+            return f"疑似攔截頁（命中「{m}」）"
+    return ""
+
+
+def summary_reason(md: str) -> str:
+    """摘要看起來不像筆記時回傳理由，正常則回空字串。"""
+    if not md:
+        return "摘要為空"
+    if "## 一句話總結" not in md:
+        return "缺少「## 一句話總結」段落"
+    head = md[:120]
+    for m in _REFUSAL_MARKERS:
+        if m in head:
+            return f"疑似拒答（開頭出現「{m}」）"
+    return ""
+
+
 # ── r.jina.ai reader：page 模式與 Substack proxy fallback 的通用全文抓取 ──
 def _clean_markdown(md: str) -> str:
     """把 jina reader 的 markdown 收乾淨：去圖片、把 [文字](網址) 收成純文字、
@@ -101,6 +154,29 @@ def _jina_read(url: str) -> tuple[str, str]:
     marker = raw.find("Markdown Content:")
     body = raw[marker + len("Markdown Content:"):] if marker >= 0 else raw
     return title, _clean_markdown(body)
+
+
+def _page_text(url: str) -> tuple[str, str]:
+    """page 模式取全文，回 (jina 補的標題, 全文)。先走 jina reader（乾淨 markdown、
+    省 token），被攔就直連原站粗抽正文。兩條路都留著是因為它們的失敗互不相關：
+    jina 從自家 IP 抓，那組 IP 偶爾整段被目標站的 WAF 擋（2026-08-29 的
+    nngroup.com），而同一時間直連是通的；Substack 則相反，擋機房 IP 只能靠 jina。"""
+    jt, text = "", ""
+    try:
+        jt, text = _jina_read(url)
+    except Exception as e:
+        log(f"[warn] jina 抓全文失敗：{e} → 改直連原站")
+
+    why = blocked_reason(text)
+    if not why:
+        return jt, text
+
+    log(f"[warn] jina 全文不可用（{why}）→ 改直連原站")
+    try:
+        return jt, _html_to_text(_fetch_text(url, BROWSER_UA))
+    except Exception as e:
+        log(f"[warn] 直連原站也失敗：{e}")
+        return jt, text
 
 
 # ── Wix（uxtigers.com）專用正文擷取 ────────────────────────────────
@@ -265,11 +341,11 @@ def article_full_text(art: dict, feed: dict) -> tuple[str, str]:
         ce = art.get("content_encoded") or ""
         if ce:
             return title, _html_to_text(ce)
-        # feed 沒帶全文 → 退回 jina 抓文章頁
-        jt, text = _jina_read(art["url"])
+        # feed 沒帶全文 → 退回抓文章頁
+        jt, text = _page_text(art["url"])
         return (title or jt), text
-    # mode == "page"：RSS 只有摘要 → jina 抓文章頁
-    jt, text = _jina_read(art["url"])
+    # mode == "page"：RSS 只有摘要 → 抓文章頁
+    jt, text = _page_text(art["url"])
     return (title or jt), text
 
 
@@ -369,14 +445,19 @@ def process_one(art: dict, feed: dict, state: dict, force: bool) -> dict | None:
     except Exception as e:
         log(f"[warn] {(art['title'] or art['url'])[:32]} 抓全文失敗：{e}")
         return None
-    if not text:
-        log(f"[warn] {(art['title'] or art['url'])[:32]} 全文為空 → 跳過")
+    why = blocked_reason(text)
+    if why:
+        # 不寫快取：攔截多半是暫時的，留白一天勝過把攔截頁當文章永久留存。
+        log(f"[warn] {(art['title'] or art['url'])[:32]} 全文不可用（{why}）"
+            f"→ 跳過，隔天重試")
         return None
     title = title or art.get("title") or feed["name"]
 
     summary_md = summarize(text, title, feed.get("topic", ""))
-    if not summary_md:
-        log(f"[warn] {title[:32]} 摘要為空 → 跳過")
+    why = summary_reason(summary_md)
+    if why:
+        # 全文過關但 Claude 沒吐出筆記（拒答、被截斷、格式跑掉）→ 同樣不寫快取。
+        log(f"[warn] {title[:32]} 摘要不合格（{why}）→ 跳過，隔天重試")
         return None
 
     brief = {
