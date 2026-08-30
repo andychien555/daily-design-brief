@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-08-30T01:28:35+08:00",
+  "generated_at": "2026-08-30T08:59:03+08:00",
   "days": [
+    {
+      "d": "2026-08-30",
+      "dd": "2026 年 08 月 30 日",
+      "no": 136,
+      "items": [
+        {
+          "k": "article",
+          "t": "UX Roundup: UX Slogans | Improve Google Search Results | Outdated Academic Research | Staff vs. Executive AI Use | Free AI | Bosses Decide AI Culture | Technology Acceptance Model | AI Acceptance",
+          "b": "學術研究的時代落差： CHI 2026 會議的 1,702 篇論文中，僅 9% 使用前沿模型，近 2/3 基於 2-4 年前的 AI，且 84% 至少用一個 OpenAI 模型。作者用兩個前沿 AI agent（各耗費約 50 美元）將論文縮減至 55 篇有價值研究，發現當前研究主要描述 2024 年的 AI 而非當前技術。 AI 已達專業水準但使用者感知失準： 當 GPT-4o 用知名作家完整著作微調後，專家偏好 AI 的比例達 62%；LLM 建議在所有 6 個維度都勝過 Reddit 最高票人類回覆。但諂媚卻虛構的 AI 預測被評為比負面但準確的預測有效 36%；使用 AI 協助時表現提升 21 分，但獨自工作時反降 15 分，顯示依賴與校準問題。 企業 AI 使用的階層倒置： OpenAI 遙測數據（1,500+ 組織、1,700 萬則訊息）顯示早期職涯員工每週比高階主管多發送約 13 則 AI 訊息；Epoch AI 調查發現多數在職者用免費版 AI（除技術工作外僅 33% 使用雇主提供版本）。作者警告制定策略的人 AI 經驗最少，其直覺可能系統性錯誤。 UTAUT 模型診斷導入失敗： 作者引用 2003 年 MIS Quarterly 模型（對使用意圖解釋力達 69%），將「使用者抵制」這種無用診斷轉化為可檢核清單：績效期望、努力期望、社會影響、促進條件。他提出「期望債」概念——誇大展示承諾產品無法兌現的效能，使用者以放棄工具和不信任來償還。 AI 污名化的負面循環： 52% 已使用 AI 的員工不願承認在重要任務中使用；相同作品一旦貼上 AI 標籤就被評為較不可靠。這造成「壁櫥式採用」：隱藏使用→無效益證明→不交換提示詞→雇主不資助政策→循環繼續。作者提出 7 步行動計畫，包括讓受敬重實務者展示案例、建立合法輸出標準等。 滑桿介面的精確度不匹配： 作者引用 Fitts 1954 年研究指出，0–100 的滑桿在 300 像素軌道上每個值僅 3 像素，手機上一根手指覆蓋 30–40 個值。設計師選擇滑桿是因為在設計稿中美觀，但「設計稿沒有手指」——當用粗略控制要求精確數字（如年齡、預算）時，使用者陷入「拖曳－微調」的折磨舞蹈。 對設計／產品的啟示 作者主張「校準成為新的易用性」——1990 年代 UX 靠研究設計師信念與使用者行為的落差建立價值，2026 年版本應研究使用者感知 AI 在做什麼與 AI 實際在做什麼的落差。實務上需要：(1) 停止崇拜使用者評分，改用碼錶測量任務完成；(2) 根據基層員工實際工作流程（而非高階主管直覺）制定 AI 策略；(3) 設計異議機制（單一異議 AI 能恢復使用者判斷力）；(4) 只展示產品可靠做到的功能以避免期望債；(5) 在介面選擇上回歸基本——滑桿僅用於近似、憑感覺的數值，需精確度時提供可編輯數字欄位。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "product",
+          "t": "Cohere Parse 5",
+          "b": "Turn complex docs, tables & images into AI-ready data 將複雜的文件、表格和圖片轉換為 AI 可處理的結構化資料，適合需要進行文件智能化處理的開發者與企業。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "God’s Eye View",
+          "b": "Spy satellite simulator in your browser but the data is real",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Staats",
+          "b": "Ask your coding agent how your site is doing 透過對話式編程助理即時查詢網站運行狀態與數據表現，適合開發者與網站管理者使用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Hy4 preview",
+          "b": "Tencent’s 770B open model for long-horizon work 騰訊推出的 770B 參數開源模型，專為需要長時間推理與複雜任務處理的應用場景設計。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Revalvo",
+          "b": "Run prompts on every model at once. Score. Version. Ship. 同時在多個 AI 模型上執行 prompt 並進行評分與版本管理，協助開發者快速測試與部署最佳模型方案。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-29",
       "dd": "2026 年 08 月 29 日",
