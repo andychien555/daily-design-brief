@@ -379,9 +379,18 @@ def main() -> None:
     # 晚間（22:00）那次檢查只跑「不定時更新」的節目；標記 morning_only 的
     # （規律更新、每天一次即可，如 M觀點）只在早上 daily.yml 那次抓。
     evening = os.environ.get("PODCAST_RUN", "").lower() == "evening"
-    today = datetime.now(TPE).strftime("%Y-%m-%d")
     state = load_json(STATE_PATH)
     data = load_json(DATA_PATH)
+    # "today" must mean the date of the issue being written, not the wall clock.
+    # generate_html.py writes briefs/<data["date"]>.html, and init_brief.py stamps
+    # that date once each morning. The 22:00 podcast check is regularly delayed
+    # past midnight by GitHub's scheduler (2026-08-29 00:45, 2026-08-30 01:28 both
+    # ran after the day rolled over). With a wall-clock date the cross-day dedupe
+    # below saw first_shown != today, dropped the episode from data.json, and then
+    # generate_html.py rewrote *yesterday's* page without it — the episode vanished
+    # from the site entirely, already paid for in Whisper and Claude tokens. Both
+    # timestamps must come from the same source for that to stay impossible.
+    today = data.get("date") or datetime.now(TPE).strftime("%Y-%m-%d")
     prev_briefs = {b.get("channel"): b for b in data.get("podcast_briefs", [])}
 
     def _parse_dt(brief: dict):
