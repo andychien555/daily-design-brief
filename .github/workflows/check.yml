@@ -34,3 +34,11 @@ jobs:
       # seconds on every code push.
       - name: Shell anchors still match the markup
         run: python check_shell_anchors.py
+
+      # Same reasoning, one file over: fetch_podcast.py's dedupe is only correct
+      # while it dates an episode by the issue rather than the clock, and the
+      # difference is invisible until a scheduled run lands after midnight —
+      # in production, hours after the code that broke it was pushed. This
+      # runs it against a frozen clock instead, on the push itself.
+      - name: Podcast dedupe cannot empty a published issue
+        run: python check_podcast_dedupe.py

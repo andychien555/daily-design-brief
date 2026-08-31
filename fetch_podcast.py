@@ -390,7 +390,13 @@ def main() -> None:
     # generate_html.py rewrote *yesterday's* page without it — the episode vanished
     # from the site entirely, already paid for in Whisper and Claude tokens. Both
     # timestamps must come from the same source for that to stay impossible.
-    today = data.get("date") or datetime.now(TPE).strftime("%Y-%m-%d")
+    wall_date = datetime.now(TPE).strftime("%Y-%m-%d")
+    today = data.get("date") or wall_date
+    # True when this run is writing an issue that was published hours ago: the
+    # 22:00 check delayed past midnight, so data.json still holds yesterday's.
+    # Anything that would *change* that issue has to be held back rather than
+    # written, because its readers have already read it.
+    stale_issue = today != wall_date
     prev_briefs = {b.get("channel"): b for b in data.get("podcast_briefs", [])}
 
     def _parse_dt(brief: dict):
@@ -429,6 +435,17 @@ def main() -> None:
                 # 跨日去重：同一集只在「首次出現的那天」顯示，之後不再重複，
                 # 直到該節目釋出新一集。first_shown 記在 state 快取裡（鍵：state_key）。
                 first_shown = brief.get("first_shown")
+                if not first_shown and stale_issue:
+                    # First sighting, and the issue on disk is last night's.
+                    # process_one has already written the transcript and summary
+                    # to podcast_state.json, so leaving it for the morning run
+                    # costs nothing — that run hits the cache. Printing it into
+                    # an issue readers finished hours ago would publish it to
+                    # nobody and stamp first_shown, hiding it in the morning.
+                    log(f"{pod['name']}：{info['title'][:24]}（{info['published']}）"
+                        f"首次抓到，但 data.json 仍是 {today} 那份早報 → "
+                        f"存進快取，留給早上顯示")
+                    continue
                 if not first_shown:
                     brief["first_shown"] = today
                     sk = info["state_key"]
@@ -442,6 +459,19 @@ def main() -> None:
                 collected.append((info["published_dt"], brief))
         except Exception as e:
             log(f"[warn] {pod['name']} 處理失敗（不影響其他節目）：{e}")
+
+    if stale_issue:
+        # This run rewrites an already-published issue, and generate_html.py
+        # rebuilds that page from whatever data.json holds afterwards. Any show
+        # the page already carried that this run did not reproduce — held back
+        # above, aged out of PODCAST_SHOW_WITHIN_DAYS between midnight and now,
+        # or lost to a fetch error — has to be carried over, or the rebuild
+        # deletes a section the issue was published with.
+        reproduced = {b.get("channel") for _, b in collected}
+        for name, prev in prev_briefs.items():
+            if name not in reproduced:
+                log(f"{name}：{today} 那份早報已印出 → 沿用，避免重建時消失")
+                collected.append((_parse_dt(prev), prev))
 
     # 新到舊排序（無日期者排後）
     collected.sort(key=lambda t: t[0] or datetime.min.replace(tzinfo=TPE), reverse=True)
