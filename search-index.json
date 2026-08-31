@@ -1,6 +1,37 @@
 {
-  "generated_at": "2026-08-31T01:52:34+08:00",
+  "generated_at": "2026-08-31T08:56:48+08:00",
   "days": [
+    {
+      "d": "2026-08-31",
+      "dd": "2026 年 08 月 31 日",
+      "no": 137,
+      "items": [
+        {
+          "k": "article",
+          "t": "Legora's Max Junestrand: You Need To Learn Faster Than Anyone Else",
+          "b": "本週主打： YC 推出免費工具 Send a SAFE，可在 2 分鐘內產生、簽署並發送 SAFE 文件（YC 在 2013 年創造的募資標準文件，至今已用於募資超過 150 億美元）；同場分享 Legora 如何在 2024 年 10 月推出後一年內從 100 萬成長到 1 億美元 ARR，目前全球超過 3% 律師使用該服務，創辦人策略包括直接搬進客戶辦公室、甚至凍結銷售六個月以重建產品。 YC 動態： 本週融資集中在硬體與基礎設施領域——REGENT Craft 獲 2.4 億美元 B 輪投資、Tectonic 籌得 4,000 萬美元 A 輪用於建造自動化生物實驗室、Metriport 籌得 2,600 萬美元協助醫生取得病患資料；顯示企業級工具與實體科技正受資本青睞。 新創 launch： S2026 批次公司主題明顯集中在三大領域——(1) AI agent 基礎設施（Agentcard 讓 agent 線上購物、Agentmuxer 提供 agent 工具整合平台）、(2) 機器人與自動化工廠（Tensr 建造生產機器人的機器人工廠、Manifold 提供供應鏈機器人勞力）、(3) 國防與太空科技（Hop Aero 的火箭貨運、Edgerun 的 10 磅軍用外骨骼、Ethos 在月球生產矽晶片）。 HN 熱門： 本週討論焦點包括產業併購（Nvidia 以 130 億美元收購 Hugging Face）、AI 模型經濟學（Anthropic 最佳模型因價格難吸引用戶，小型模型崛起）、開發者工具演進（Htmx 4.0 發布、全鍵盤驅動 GUI 設計討論）以及歐洲創業環境限制（「歐洲如何扼殺創客與微型創業者」獲 1,642 點討論）。 領域專家洞察： 論文俱樂部邀集三位專家探討訓練數據、評測基準與多語言預訓練的新挑戰；Physical Intelligence 共同創辦人 Chelsea Finn 分享強化學習如何讓機器人產能提升 2 倍、系統可自主運行數小時，她認為機器人正進入「GPT 時代」——從專用模型轉向可跨任務、跨機器人、跨環境的通用系統。 對設計／產品的啟示 作者透過 Legora 案例強調「快速學習能力」勝過既有領域知識——願意直接進駐客戶現場、甚至暫停銷售以重建產品，顯示對 B2B 產品而言，深度理解使用情境比預設專業更關鍵。同時 YC 將 SAFE 文件流程壓縮至 2 分鐘，展示如何將複雜流程工具化；本週新創趨勢則提醒產品設計者，AI agent 基礎設施（支付、工具整合）與實體 AI 應用（機器人、國防）正成為新藍海，需思考如何讓 AI 系統在真實世界可靠運作數小時、甚至跨領域遷移能力。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Y Combinator"
+        },
+        {
+          "k": "product",
+          "t": "Prequel",
+          "b": "Create cinematic screen recordings on your Mac 在 Mac 上製作具有電影感的螢幕錄製工具，適合需要高質感畫面呈現的內容創作者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Superagent",
+          "b": "Claude Code for the rest of us 讓一般使用者也能使用類似 Claude Code 功能的 AI 代理工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "oMLX",
+          "b": "Mac LLM server that cuts agent wait times from 90s to 5s 專為 Mac 設計的本地 LLM 伺服器，將 AI 代理的回應等待時間從 90 秒縮短至 5 秒。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-08-30",
       "dd": "2026 年 08 月 30 日",
