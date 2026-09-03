@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-02",
-  "date_display": "2026 年 09 月 02 日",
-  "generated_at": "2026-09-02T08:56:10.831871+08:00",
+  "date": "2026-09-03",
+  "date_display": "2026 年 09 月 03 日",
+  "generated_at": "2026-09-03T08:55:56.674501+08:00",
   "top_products": [
     {
-      "title": "Cosmic Agent Plugins",
-      "url": "https://www.producthunt.com/products/cosmic",
-      "published": "2026-08-31T20:12:53-07:00",
-      "author": "Tony Spiro",
-      "tagline": "Connect Cosmic agents to any service with an MCP server",
-      "post_id": "1238046",
-      "summary_zh": "透過 MCP server 將 Cosmic agents 連接到任何第三方服務的插件系統，適合需要整合多種服務的 AI agent 開發者使用。",
-      "image_url": "https://ph-files.imgix.net/047019b7-0953-4cfc-b8fb-2d363d9ce28e.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/5bc9d313-5a85-4f5d-87a5-b3026950dc21.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Doop",
+      "url": "https://www.producthunt.com/products/doop",
+      "published": "2026-09-01T23:26:19-07:00",
+      "author": "Kevin Goedecke",
+      "tagline": "Design with AI agents - live on the same canvas",
+      "post_id": "1239094",
+      "summary_zh": "讓設計師與 AI agents 在同一個畫布上即時協作的設計工具，適合需要 AI 輔助創作的設計團隊。",
+      "image_url": "https://ph-files.imgix.net/a9e395a7-8da1-41f4-b0ee-a12983f1a5d9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/35a577b7-bc30-4c92-95a6-f039f6e45462.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Happy Shrimp",
-      "url": "https://www.producthunt.com/products/happy-shrimp",
-      "published": "2026-08-30T21:01:50-07:00",
-      "author": "Justin Jincaid",
-      "tagline": "Alibaba's AI music generator for turning ideas into songs",
-      "post_id": "1237043",
-      "summary_zh": "阿里巴巴推出的 AI 音樂生成器，可將使用者的想法或文字描述轉換為完整歌曲。",
-      "image_url": "https://ph-files.imgix.net/3f1817df-0e08-4f44-9d05-55a4c5b1ca72.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/128efebc-866b-40a5-abf0-d2f81ef74f06.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Basedash AI Sources",
+      "url": "https://www.producthunt.com/products/basedash",
+      "published": "2026-09-01T21:29:20-07:00",
+      "author": "Max Musing",
+      "tagline": "Trust every AI answer by seeing what built it",
+      "post_id": "1239033",
+      "summary_zh": "讓使用者查看 AI 答案的來源與建構過程，提升 AI 回應的可信度與透明度。",
+      "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/b049a256-cce7-4077-b4e3-ff85bf99edb1.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "EAS Observe",
-      "url": "https://www.producthunt.com/products/expo",
-      "published": "2026-08-31T10:29:51-07:00",
-      "author": "Dan Kelly",
-      "tagline": "Performance monitoring built for Expo and React Native",
-      "post_id": "1237733",
-      "summary_zh": "專為 Expo 和 React Native 應用程式設計的效能監控工具，幫助開發者追蹤和優化行動應用效能。",
-      "image_url": "https://ph-files.imgix.net/2b778f85-04f1-4620-afe6-4427d84437ca.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d672773e-0bee-4f0e-8ab7-72c185bf2497.png?auto=format&w=960&h=540&fit=crop"
+      "title": "GhostReply",
+      "url": "https://www.producthunt.com/products/ghostreply-2",
+      "published": "2026-08-31T21:35:26-07:00",
+      "author": "Harrison Rampell",
+      "tagline": "AI auto-replier for iMessage on your Mac",
+      "post_id": "1238081",
+      "summary_zh": "在 Mac 上為 iMessage 提供 AI 自動回覆功能的工具。",
+      "image_url": "https://ph-files.imgix.net/791ab86b-7f7a-45ea-8574-04de95224d7c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/4613d5ab-390b-433d-a5fd-7936d0a69ad0.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Nodeterm",
-      "url": "https://www.producthunt.com/products/nodeterm-terminal-manager",
-      "published": "2026-08-31T08:00:07-07:00",
-      "author": "Enes Kırca",
-      "tagline": "A node-based free open source terminal manager",
-      "post_id": "1237589",
-      "summary_zh": "採用節點式介面的開源終端機管理工具，讓使用者以視覺化方式組織和管理多個終端工作階段。",
-      "image_url": "https://ph-files.imgix.net/06b58359-d0e0-493b-b2e0-929f615f06e2.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/83ba89c8-d982-4151-b429-ba90c66698af.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Stitch AI by Dynamic Mockups",
+      "url": "https://www.producthunt.com/products/stitch-ai-by-dynamic-mockups",
+      "published": "2026-09-01T05:39:23-07:00",
+      "author": "Nemanja Kovačević",
+      "tagline": "The first embroidery digitizing agent",
+      "post_id": "1238473",
+      "summary_zh": "首個專為刺繡數位化設計的 AI agent，協助將圖案轉換為刺繡機可讀取的格式。",
+      "image_url": "https://ph-files.imgix.net/b1b55090-43db-4b11-a498-a9e41daf7dc6.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/9180bbeb-2332-4bfd-8c28-1a31f9c9c8da.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Murmell",
-      "url": "https://www.producthunt.com/products/murmell",
-      "published": "2026-08-31T15:39:25-07:00",
-      "author": "Moss’Ab Mirande-Ney",
-      "tagline": "Google docs for AI agents, and you can close your laptop",
-      "post_id": "1237941",
-      "summary_zh": "類似 Google Docs 的協作平台，專為 AI agents 設計，可在使用者離線時由 AI 自動處理文件工作。",
-      "image_url": "https://ph-files.imgix.net/0536077d-456d-48e7-a004-9760a0425971.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/30f15b73-9eba-41a8-93d7-b53bbc9241d1.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Dynamic Edge",
+      "url": "https://www.producthunt.com/products/dynamic-edge",
+      "published": "2026-09-01T03:31:29-07:00",
+      "author": "Eyuel Engida",
+      "tagline": "The Dynamic Island for Windows",
+      "post_id": "1238369",
+      "summary_zh": "在 Windows 系統上模擬 iPhone Dynamic Island 互動介面的工具。",
+      "image_url": "https://ph-files.imgix.net/aa7edfa4-a872-4bff-8054-48c634a28c8c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/8be4817e-9601-4a1d-968a-05fc7616fcd8.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "nOS4",
-      "url": "https://www.producthunt.com/products/nos4",
-      "published": "2026-08-31T15:17:59-07:00",
-      "author": "ege türker",
-      "tagline": "A complete IOS4 experience in your browser!",
-      "post_id": "1237936",
-      "summary_zh": "在瀏覽器中完整重現 iOS 4 作業系統體驗的模擬器，適合懷舊使用者或設計研究者。",
-      "image_url": "https://ph-files.imgix.net/df369b53-e304-42a1-9341-0a9c2313e1d2.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c57d0a6d-5c02-4db3-9174-d98f4b8ff58d.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Roadie",
+      "url": "https://www.producthunt.com/products/roadie-4",
+      "published": "2026-09-01T08:40:57-07:00",
+      "author": "Yash Raj",
+      "tagline": "Keep your Mac on the right microphone and speakers",
+      "post_id": "1238619",
+      "summary_zh": "自動管理 Mac 麥克風與喇叭設定的工具，確保音訊裝置切換正確無誤。",
+      "image_url": "https://ph-files.imgix.net/d5b87b59-3802-4417-b81d-6539bce7344e.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/0525fcb1-c6e1-456e-a1ab-c069146d8543.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,50 +77,40 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "8523446",
-      "title": "EP693 | 🍖",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/8523446e-c80a-4aac-a9cd-34adad88e4c2",
-      "published": "2026-09-02",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人分享首次成功跑完 10 公里的訓練經驗，並討論 NVIDIA 投資聯發科 35 億美元 ECB 的策略意義與 AI 產業競合態勢。\n\n## 1. 個人運動訓練：意外突破 10 公里跑步\n- **首次完成 10K 跑步：** 原計畫用 9-10 月備戰 11 月 New Balance 10 公里賽事，8 月 31 日意外一次跑完全程，耗時 1 小時 10 多分鐘，跑步機速度設定 8（約 7 分半配速）。\n- **關鍵轉折點在 5-7 公里：** 前 3 公里最難熬是無聊感，5-7 公里腿部開始明顯痠痛進入低谷，心跳達 160-180，靠「列祖列宗和兒子會瞧不起我」的心理激勵撐過；8 公里後進入「回光返照」狀態，身體不再感到累且腦筋空白。\n- **訓練後遺症與歸因：** 跑後三天腿部持續痠痛（教練判斷是韌帶壓力），認為成功與近期減重近 10 公斤、體重變輕有高度關聯。\n\n## 2. NVIDIA 投資聯發科：35 億美元 ECB 的策略佈局\n- **史上最大 ECB 案：** NVIDIA 領投聯發科 35 億美元可轉債，Google Alphabet 等策略夥伴跟投，票息 0%、溢價十幾%，這是 NVIDIA 首次投資台灣上市公司。\n- **非單純賣方融資：** 主講人認為聯發科財務健全且獲利穩定，此案應視為長期策略合作而非「seller finance」自體循環；NVIDIA 要的是「選擇權」——若聯發科 XPU 業務成功、股價上漲，可轉換取得股份。\n- **合作範疇：** 雙方已有筆電晶片 N1X（NVIDIA GPU + 聯發科 SoC）、車用座艙等合作經驗，現升級為「NVIDIA AI Platform + 聯發科客製 XPU」深度綁定；Google 投資主要因 TPU 業務（聯發科首次設計 TPU V8T 並有後續 roadmap），但主講人認為 Google 和 NVIDIA 是兩個獨立投資事件，非三方結盟。\n\n## 3. NVIDIA 生態系擴張：從 GPU 壟斷到全方位解決方案\n- **應對 XPU 挑戰的策略：** NVIDIA 意識到無法阻止客戶開發自有 XPU，轉而推出「七種晶片組成的 AI 工廠」概念；除 XPU 外，提供 MGX ETL Rack、Grok 3、Vera CPU Rack、BlueField 4 STX Storage Rack、Spectrum Rack 等周邊方案，讓客戶即使用自家 XPU 仍可搭配 NVIDIA 其他設備。\n- **NVHBM 記憶體佈局：** NVIDIA 推出 NVHBM（比 HBM4E 頻寬多 30%、功耗少 15%），將 controller 從 accelerator 移至 HBM base die，採非 JEDEC 標準的特規；主講人認為此舉可能讓 NVIDIA 從記憶體廠商（SK Hynix、Samsung、Micron）和台積電身上獲取額外價值，Base die 可能由台積電而非記憶體三大廠製造。\n- **對博通的競爭壓力：** 主講人觀察 NVIDIA 近期與 Marvell、聯發科等合作，感覺都在「從博通身上搶肉吃」；雖博通競爭力仍強（如設計出 OpenAI 的 Halapenil 超強晶片），但市場短期可能像之前「光銅之爭」先殺股價再反彈，建議等博通財報電話會議回應後再全面評估。\n\n## 4. 台股與市場觀察：震盪中持續修復\n- **7 月重挫後快速反彈：** 主講人 7 月從高點回檔 30% 時預期「年底才能收復」，未料 8-9 月快速反彈，個人帳戶已接近（但尚未超越）7 月高點；大盤也在新高附近震盪，超出預期。\n- **9 月傳統淡季但不悲觀：** 歷史數據顯示 9 月通常表現不佳、10 月「光輝十月」較強，主講人認為今年 7 月已經歷一次重挫，希望 9 月維持震盪慢漲即可；動能交易者抱怨盤面「垃圾」，但主講人認為震盪盤「好做」，持股不動反而越墊越高。\n- **聯發科消息反應：** NVIDIA 投資消息出來後聯發科拉一根漲停，隔日回平盤，屬「一根漲停的消息行情」；主講人對比當年世芯獲亞馬遜投資（開高後下跌）認為市場反應類似。\n\n## 5. 投資心法與加碼策略\n- **無目標價信仰：** 主講人不設絕對目標價，認為 AI 行情「會漲超出想象、五倍十倍一大堆」；會參考本益比等估值指標但不會因此停止加碼，強調「市場持續變大、大家越吃越飽」。\n- **台股 vs 美股操作差異：** 美股因常有「財報電話會議單日崩 20%」風險，單一部位最多加碼到總資金 3-4 成即停；台股有漲跌停限制且波動較小，願意讓單一部位更大，只要流動性足夠「隨時一鍵清倉」即可。\n- **動能 vs 價值投資：** 以動能/題材為核心者會「看對加碼、越漲越買」；價值投資者則「越漲越減」。主講人偏好前者，但會因個股特性調整（如本夢比股願意持續買、本益比股若脫離過多會小心）。\n\n## 結論與後市展望\n主講人認為 NVIDIA 投資聯發科是「更廣泛生態系佈局」而非單純財務操作，顯示 AI 產業 TAM 持續擴大、各方都有機會受惠；雖然短期市場會因新策略聯盟產生波動（如博通股價可能先被殺），但長期來看「林子大、大家都會吃到肉」。對台股後市不悲觀，建議在震盪中持股、避免過度追逐動能，等待 10 月可能的「光輝行情」。個人運動訓練的突破也印證「人的極限超出想象」，鼓勵聽眾勇於挑戰目標。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-02"
-    },
-    {
-      "episode_id": "2392811673",
-      "title": "2026/9/2(三)高利率炸彈 AI還能撐?亞洲AI行情 迎來大考驗?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-2-ai-ai",
-      "published": "2026-09-02",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "# 早晨財經速解讀 2026/9/2 筆記\n\n## 一句話總結\n主講人認為，高利率壓力源於亞洲經濟韌性與通膨僵固，而非經濟衰退；各國政府與企業已大舉投入 AI 資本支出，如今「頭已經洗下去」無法回頭，市場擔憂融資成本上升速度恐快過 AI 變現能力。\n\n---\n\n## 1. 高利率炸彈：戰爭與通膨推升全球殖利率\n- **美伊衝突升級推動油價：** 美軍對伊朗革命衛隊發動三天內第二波轟炸，布蘭特原油漲至 94.65 美元/桶（+4.6%），西德州漲至 90.36 美元/桶（+5.4%），荷姆茲海峽處於半中斷狀態。\n- **全球殖利率齊創新高：** 美國十年期公債殖利率升至 4.79%（2025 年初以來最高）、日本升破 3%（1996 年來新高）、英國升至 5.23%（2008 年來新高）；30 年期美債重回 5% 以上，2026 年已有 55 個交易日高於 5%（僅次 2006 年的 91 天）。\n- **通膨持續高於目標：** 歐元區 8 月通膨從 7 月 2.9% 升至 3.3%，連續六個月高於歐洲央行 2% 目標；主講人認為幾乎確定 ECB 下周升息一碼至 2.5%。\n\n## 2. 亞洲央行政策分歧：日韓升息、美台按兵\n- **日本 9/18 料升息至 1.25%：** 主講人提到在貝森特敦促下，日央行應至少升息一碼；同時高市早苗政府準備下半年大規模財政刺激與消費減稅，通膨僵固性恐更高。\n- **韓國與歐洲跟進升息：** 韓國央行已升息、歐洲央行下周料升一碼至 2.5%；主講人認為「日本也升了、韓國也升了、歐洲也升了，美國至少不降，台灣央行會怎麼做？」暗示台灣可能升半碼。\n- **高利率非衰退信號：** 主講人強調這波壓力並非經濟疲弱所致，反而是美國、台灣、日本、韓國經濟仍有韌性，台灣出口強勁、日本景氣回溫、韓國景氣非常好，導致央行難以降息甚至須升息。\n\n## 3. AI 資本支出狂潮：投資等級債爆發與市場質疑\n- **發債規模激增：** 2024–2025 年投資等級債與美國公債合計發行近 3 兆美元，2027 年預估升至 4.5 兆美元；AI 資料中心今年資本支出年增從原估 30% 暴增至 80%，明年預估 60% 但可能再上修至 90%。\n- **排擠美國公債空間：** 主講人指出大量發行投資等級債持續排擠公債，市場開始質疑企業「把主觀欲望包裝成客觀需求」——究竟是真實訂單強勁，還是巨頭為搶 GPU、電力而自行創造需求以拖垮對手？\n- **租賃價格與模型降價矛盾：** 資料中心租賃價格緩步下滑，但記憶體、被動元件價格上漲、運算成本上升，GPT 等模型訂閱費卻持續調降，加深市場對需求真實性的懷疑。\n\n## 4. 美股與股債配置困境：小型股率先裂縫\n- **四大指數回檔：** 道瓊跌 419 點（-0.79%）至 52,766 點，回到季線；標普跌 54 點（-0.71%）至 7,631 點；那斯達克跌 271 點（-1.03%）至 26,099 點；費半跌 246 點（-2.14%）至 11,288 點並回到半年線。\n- **小型股承壓最重：** 羅素 2000 近期一路回落至 100 日均線附近，主講人指出高利率對小企業利率壓力最直接，空頭部位相當擁擠。\n- **股債配置失效：** 主講人提到 1986–2020 年持有 100% 股票年化報酬 13%、100% 債券約 8%，波動度平滑；但 2021–2025 年 100% 股票年化 17%、100% 債券負報酬，導致任何股債配置波動度都被放大，台灣壽險業因此痛苦。\n\n## 5. 台日韓製造業與出口景氣：PMI 全面擴張\n- **台灣 PMI 衝破 62.5：** 8 月 PMI 創 2021 年來新高，連續 11 個月在 50 以上，新訂單與生產創五年最快；主講人指出全台缺料、交期拉長、關鍵原物料價格上漲，備貨情緒可能導致 PMI 短線快速拉升。\n- **工業生產指數暴增：** 台灣工業生產指數從 2023 年低點 81 升至 2024 年 90、2025 年 120、2026 年 146；上市櫃企業上半年營收突破 30 兆元、年增 40.2%，今年平均獲利成長 50%（美股僅 30–40%，剔除七巨頭僅 10–20%），年底可能上修至 55–60%。\n- **日本製造業利潤率創 1980 年來新高：** 日本製造業 PMI 從 54.5 升至 54.9，連續八個月擴張；製造業利潤率已達 12%（以往僅 6–9%），創 1980 年來新高。\n- **韓國製造業連九月擴張：** PMI 維持 52–53，連續九個月擴張；記憶體景氣強勁但股市七月投機狂潮後冷卻，80% 散戶今年虧錢（儘管大盤仍漲 40%），8 月單一股票正二槓桿 ETF 流出 10 億美元（史上最大規模）。\n\n## 6. 記憶體價格持續上漲：D-RAM 與 HBM 強勁\n- **DDR5 現貨價大漲：** 8 月 DDR5 價格上漲 6%，現貨價比合約價高 16%；集邦將 2026 Q3 PC DRAM 漲幅預估上調至 18–23%，伺服器與手機 D-RAM 也維持相似漲勢。\n- **產能持續轉向高階：** 主講人指出產能從記憶體往伺服器 D-RAM 與 HBM 傳導，但須觀察手機與 PC 消費市場若疲弱，是否與伺服器需求互相沖銷、價格漲不動。\n\n## 7. 台日韓主權 AI 布局：各國頭已洗下去\n- **韓國：軟硬通吃野心：** 去年啟動「獨立 AI 基礎建設開發計畫」（鱿鱼游戏式淘汰制），2025 年 APEC 取得輝達承諾 26 萬顆先進 GPU（美中外第三大）；李在明三大巨型計畫擬五年內把低階產能提升一倍，模仿台灣多據點半導體走廊。\n- **日本：押注實體 AI 與機器人：** 不拚大模型，專注 Neuralink 式機器人與物理 AI；高市早苗政府針對 17 個戰略領域（AI、半導體、量子、航太、生技、能源、防衛等）全面補貼，效果較分散。\n- **台灣：防守繁中主權 AI：** 主講人指出台灣較少國家級主權 AI 對抗計畫,更多是保護繁中通用模型與產業優勢；趨勢科技與政府合作建立自主 AI 能力,但全球 AI 商業採用率排名台灣落後(美中領先、新加坡第三、韓國第五、日本第十一)。\n- **無法回頭的沉沒成本：** 主講人強調「大家的頭都洗下去了,只能看好 AI」——各國投入大量資源與政治承諾,即便利率上升、融資成本高昂,也無法喊停;「一開始是看好 AI,投到後面變成因為無法重來、頭已經洗下去了,只能繼續看好。」\n\n## 8. 政治民調與經濟信心：股市表現影響執政滿意度\n- **韓國李在明支持率創低：** 上任一年多後大規模改組六個部會首長(財政、國土安全、司法、國防等),支持率降至約 42%(半年來低點);主講人認為根本原因是「股市跌了就怪總統」,7 月投機狂潮後 80% 散戶虧損。\n- **日本高市早苗民調穩定：** 內閣支持率維持 62%,食品消費稅從 2027/4 限時兩年降至 1%、向中低收入戶發現金,50% 受訪者肯定;但 64% 民眾擔心減稅影響社會保障(年金、醫療)。\n- **台灣經",
-      "first_shown": "2026-09-02"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
-      "title": "How to build a design sandbox for your team to prototype with real code",
-      "url": "https://designwithai.substack.com/p/how-to-build-a-design-sandbox-for-your-team-to-prototype-with-real-code",
-      "published": "2026-09-01",
-      "author": "Design with AI",
-      "handle": "designwithai",
-      "source": "Substack",
-      "label": "AI 設計",
-      "summary_md": "## 一句話總結\n作者透過七個步驟詳細說明如何為團隊建立一個「設計沙盒」（design sandbox）——一個讓設計師與產品經理能在真實程式碼與設計系統元件上直接進行高保真原型設計與迭代的輕量化環境。\n\n## 核心重點\n\n- **設計沙盒的定義與價值：** 作者認為設計沙盒是一個內部工具，讓設計師（甚至產品經理）能在真實設計系統元件上探索與迭代高保真設計，而不會影響正式環境程式碼。它是實際產品的精簡版本，只聚焦於核心畫面與體驗，而非涵蓋整個應用程式的數千個畫面。\n\n- **建構步驟與工具：** 作者提出七個步驟：(1) 安裝設計系統元件，(2) 建立元件索引檔（COMPONENTS.md），列出最常用的約 20 個元件及其使用時機，(3) 撰寫規則檔（如 CLAUDE.md）讓 AI 自動讀取並遵循規範，(4) 重建核心產品頁面（如訂單頁面），(5) 新增輔助功能（如內建 AI 聊天面板、檢查工具、變體切換器、分享按鈕），(6) 設定「自訂 UI」開關以彈性允許 AI 在必要時建構非標準元件，(7) 透過 Claude Skills 提升建置與使用效率。作者使用 AWS Cloudscape Design System 作為範例，並以 Claude Code 為主要 AI 編碼工具。\n\n- **解決技術門檻與協作挑戰：** 作者指出許多設計師與產品經理對程式碼經驗有限，直接在真實程式庫工作會感到困難且耗時（例如一位設計師曾花數小時才連接上 AI 工具與程式庫）。設計沙盒透過剝離安全性、認證、資料庫等非設計相關的複雜功能，並搭配 AI 編碼代理（coding agent），降低技術門檻，讓團隊成員能用自然語言進行設計探索。\n\n- **與 Figma 及其他工具的差異：** 作者提到 Figma 難以原型化具複雜互動與分支邏輯的體驗，且 Figma 檔案與實際程式碼之間總有落差；雖然 Magic Patterns 等工具提供直覺介面，但需額外訂閱且彈性受限。設計沙盒則直接基於真實程式碼與設計系統，更接近「真相來源」（source of truth），並可完全客製化以符合團隊需求。\n\n- **維護與團隊支援：** 作者強調這不是一次性專案，而是需要持續維護與迭代的工具。成熟團隊會指派專責小組（至少包含一名設計師與一名工程師）定期檢查沙盒是否與設計系統同步，有些團隊已維護超過一年。工程師的支援（如解釋程式碼慣例、檔案結構）能大幅簡化建置過程。\n\n- **實務功能範例：** 作者在步驟五中展示了多項增強功能，例如內建 AI 聊天面板（減少在終端機與瀏覽器間切換的摩擦）、元素檢查工具（點選頁面元素即可在聊天中引用並編輯）、變體切換器（快速切換不同設計狀態，如空狀態、不同資料複雜度）、分享按鈕（透過 Cloudflare Quick Tunnel 產生公開連結與 QR Code，方便審查）、以及「自訂 UI」開關（預設嚴格模式僅使用現有元件，需要時可開啟允許 AI 建構客製化元件）。\n\n## 對設計／產品的啟示\n\n作者建議團隊將設計沙盒視為長期投資而非一次性專案，初期可由設計師與 AI 自行建立概念驗證（proof of concept），再於團隊內推廣。關鍵在於保持輕量化與聚焦——只重建最需要迭代的核心頁面，而非複製整個產品；並透過清楚的元件索引與規則檔，讓 AI 能精準使用設計系統元件，避免產生自訂樣式元件。此外，透過內建工具（如檢查工具、分享功能）降低使用門檻，能提升團隊採用意願。對於設計系統尚未打包發佈的團隊，作者也提出替代方案，如直接複製元件程式碼、使用 shadcn/ui 等通用元件庫並調整樣式，或透過 Figma MCP 將設計轉為程式碼。最終目標是讓設計探索更貼近真實程式碼，加速從原型到實作的流程。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-02"
-    },
-    {
-      "title": "Curse of the first renewal: how to cure churn for each subscription duration",
-      "url": "https://www.revenuecat.com/blog/growth/first-renewal-churn",
-      "published": "2026-09-01",
+      "title": "Built With Science sends 90% of its traffic to a quiz, not the App Store",
+      "url": "https://www.revenuecat.com/blog/growth/ethan-ethier-build-with-science-sub-club-podcast-2026",
+      "published": "2026-09-02",
       "author": "RevenueCat",
       "handle": "revenuecat",
       "source": "RevenueCat Blog",
       "label": "訂閱成長",
-      "summary_md": "## 一句話總結\n作者指出訂閱制 App 的最大流失點發生在第一次續訂（週訂 42–65%、月訂 39–58%、年訂 60–77% 流失率），核心解法是在各自的啟動窗口內讓用戶達成「價值時刻」，而非到續訂前才補救。\n\n- **第一次續訂是存活測試，之後流失率大幅降低：** 作者引用 State of Subscription Apps 2026 數據，週訂首次續訂流失 42–65%、月訂 39–58%、年訂 60–77%；但撐過第一次續訂的週訂用戶，有 74–91% 會續到第三次，年訂也有類似模式——問題是如何撐過第一關。\n\n- **啟動窗口遠短於訂閱週期，用戶在此期間決定是否續訂：** 作者認為週訂的關鍵窗口是前 5 天、月訂是前 2 週、年訂是第 1 個月；84% 的 3 天試用（常見於週訂）取消發生在 Day 0–1 之間，30% 年訂取消在第一個月內，代表續訂決策早在計費前就已形成。\n\n- **週訂策略：前 5 天內「愛的轟炸」快速建立習慣：** 作者建議 Day 0 強化購買後畫面、引導單一明確行動（如植物照護 App Greg 引導記錄植物），Day 1–3 深化價值、Day 4–7 快速追蹤習慣；Duolingo 測試發現在用戶上次行為後 23.5 小時發送提醒效果最好，並善用連續天數等進度訊息而非「請回來用」式通知。\n\n- **月訂策略：30 天分三階段，重點在 Week 2–3 別消失：** 作者指出多數 App 前 7 天愛的轟炸後就沉默，但 Day 8–21 才是建立例行的關鍵；Alice Muir 在 Sub Club podcast 提到這段期間的生命週期訊息有最高 ROI；Day 22–30 則用進度報告、成就摘要做正向強化（如 Loom 顯示省下多少會議時間），並在首次續訂後引導升級長期方案。\n\n- **年訂策略：前 90 天決定續訂，Month 2–3 別鬼隱：** 作者強調年訂續訂率與價格反相關（低價方案首次續訂約 36%、高價僅 23%），且年訂取消用戶的再激活率僅 5%；Airship 研究顯示前 90 天發送相關推播的 App，留存率是零推播 App 的 3 倍；Month 3 後要持續提供新內容避免產品變無聊（作者自己因此取消 Peloton）。\n\n- **找出「首次續訂預測指標」(FRP) 並優化啟動體驗：** 作者建議比對撐過穩定期（通常是第 2–3 次續訂）與早期流失用戶的行為差異，找出關鍵動作（如 Duolingo 的 7 天連續、某客戶案例中的完成評估），FRP 通常是「品質訊號」（特定核心動作完成 X 次）而非數量訊號（開啟次數）；作者在 RevenueCat 的 Greg 案例中，月訂 12 個月留存 21%（高於中位數），之後 9 個月僅再流失 3%。\n\n## 對設計／產品的啟示\n作者的核心建議是「把第一次續訂問題當作啟動問題來解」：在週／月／年訂的各自窗口內（5 天／2 週／90 天）加速用戶達成價值時刻，而非依賴續訂前的挽留或事後 win-back（後者對未啟動用戶轉換率極低）。實務上需要（1）在 RevenueCat 等工具按訂閱類型拆解首次續訂率，低於類別中位數即代表啟動窗口有問題；（2）逆向工程找出高留存用戶的早期行為，設計流程推動更多人完成該動作；（3）別在前 7 天後就停止溝通，尤其月訂與年訂需要持續但遞減頻率的接觸點，用進度慶祝取代催促使用。Alice Muir 的總結點出關鍵：在首年留存全面下滑的市場，贏的策略不是更嚴格的付費牆或定價調整，而是在第一次續訂決策前加速實現價值。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-02"
+      "summary_md": "## 一句話總結\nBuilt With Science 將 90% 付費流量導向網頁測驗而非 App Store，透過測驗同時完成教育、解決疑慮、客製化訓練計畫與提升轉換，使冷流量在 189 美元年訂閱下仍維持 25% 試用轉付費率。\n\n- **測驗優於直接下載：** 作者透過 A/B 測試發現，將流量導向網頁測驗的轉換率明顯優於直接導向 App Store；測驗在付費前執行三項任務——教育產品、克服疑慮、提升價值感知，且答案會直接建構 app 內的個人化訓練計畫，讓漏斗同時完成 onboarding。Android 重建相同測驗後轉換率與網頁相當，僅 App Store 流量落後。\n\n- **延後廣告、優先產品：** Built With Science 於 2025 年初上線，創辦人 Jeremy Ethier 擁有 700 萬訂閱的 YouTube 頻道，但團隊等了一整年才開始投放 Meta 廣告。作者認為應先提升試用轉付費與留存，「有機流量在你的天花板轉換，付費流量在天花板以下轉換」，等基礎健康後再擴大投放；目前有機流量試用轉付費率 35–40%，Meta 冷流量約 25%。\n\n- **定價頁改版使年訂佔比從 60% 躍升至 80%：** 作者指出團隊最大勝利來自定價頁改版——原本月付（30 美元）與年付（189 美元）並列，年訂佔 60%；新版預設只顯示年付方案，搭配試用期逐日時間軸（第 1 天拿到個人計畫、第 12 天提醒試用將結束可隨時取消），月付藏在「查看所有方案」選項後，年訂佔比躍升至 75–80%。作者強調沒改價格也沒改定位，純 UI 調整就大幅提升 LTV，關鍵在降低開始試用的風險感知。另一實驗發現，在定價頁加入更多價值說明反而降低轉換——作者認為使用者已有動機看價格時，更多資訊是摩擦而非安心。\n\n- **Gym Buddy 方案提升 AOV 與留存：** 作者在網頁測驗中加入「健身夥伴」選項（兩人各享 15% 折扣），約 15% 試用者選擇加入；除了提升平均訂單價值，這些雙人訂閱的留存時間更長，與家庭方案 app 的高留存世代效應相同。由於選項嵌在測驗中，單人使用者的付費牆保持簡潔。\n\n- **70% 實驗會失敗，但失敗是系統的一部分：** 作者表示約 70% 初次實驗會失敗，但團隊視為迭代起點；流程是在 Amplitude 中找出漏斗最大流失點，列出所有可能問題後才討論解方，鎖定最可能的問題再發想方案，並記錄所有實驗。例如「無試用、付費直購享 8 折」實驗初次失敗，事後發現文案讓免費試用看起來像輸家；調整文案讓兩選項都顯得正面後重測，數據明顯提升。\n\n- **創辦人不出現在廣告中：** 作者指出團隊刻意不讓 Jeremy 出現在 Meta 廣告，以 B-roll、用戶見證與靜態素材投放，避免「公車問題」——所有成長依賴單一創辦人頻道。作者認為不依賴創辦人臉孔的廣告管道才真正可規模化。\n\n## 對設計／產品的啟示\n作者的做法顯示，將漏斗前段從 App Store 挪到網頁測驗，能在付費前同步完成教育、客製化與 onboarding，進而提升轉換；定價頁的資訊量與版面配置對轉換率影響巨大——預設單一方案並降低風險感知，比並列選項或增加說明更有效。團隊延後廣告、優先打磨產品與留存的策略，以及系統化記錄實驗失敗以支持迭代的文化，都值得訂閱制產品參考。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-03"
+    },
+    {
+      "title": "Gestalt Principles for Visual UI Design",
+      "url": "https://www.uxtigers.com/post/gestalt-principles",
+      "published": "2026-09-02",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者認為使用者在閱讀畫面時會先進行「第一次閱讀」——視覺系統在意識層面之前就已經根據 Gestalt 原則將版面切分成群組，決定哪些元素屬於同一組，若這個階段出錯，再好的文案也無法挽救使用者將價格、警告或動作綁定到錯誤物件的問題。\n\n- **Gestalt 原則是 UX 最古老的科學基礎之一：** 作者指出 Max Wertheimer 在 1920 年代就描述了接近性、相似性等知覺組織形式，這些原則在互動運算出現數十年前就已存在，至今仍有效是因為它們描述的是人類知覺的恆常特性，而非任何裝置或設計潮流的慣例。研究者後來提出超過 100 種群組化線索，但作者聚焦於在 UI 設計中最具實務價值的 9 個原則。\n\n- **接近性（Proximity）是最便宜卻最被低估的群組工具：** 作者強調關鍵在於空間的「比例」而非絕對量——當表單欄位的標籤與欄位之間的間距明顯小於與下一個欄位的間距時，使用者就會將標籤歸屬給正確的欄位。作者觀察了 40 年的可用性測試，發現當標籤與兩個欄位等距時，約有一半使用者會猜錯。過度壓縮表單會導致「群組崩潰」——所有元素都彼此聚集，等於沒有群組。\n\n- **相似性（Similarity）容易無聲失效，因設計師過度依賴顏色：** 作者引用美國國家眼科研究所數據，約 8% 男性（即 1/12）有紅綠色盲。如果唯一提示一組按鈕「屬於同類」的線索是它們都是綠色，這些使用者就無法感知群組。建議將顏色與第二種共享特徵（形狀、圖示、一致的標籤位置）配對，群組化才能對所有人有效。\n\n- **共同區域（Common Region）是「重量級」線索，會覆蓋接近性和相似性：** 作者引用 Stephen Palmer 1992 年的實驗，顯示邊框可以超越接近性和相似性——即使圓點距離邊框外的圓點更近，畫在邊框內的圓點仍會群組在一起。這種強大的力量常被濫用：將每個小東西都包在卡片裡會產生「卡片湯」，螢幕被切割成太多方框以至於方框失去意義。作者建議邊框應標記真正的邊界，而非裝飾段落。\n\n- **Dark Gestalt 有四種基本手法來誤導使用者：** 作者描述了黑暗模式如何武器化 Gestalt 原則：(1) 綁定不相關的東西（將可選附加項與必填結帳資訊放在同一知覺群組）；(2) 拆分相關的東西（將費用遠離產生費用的按鈕）；(3) 將不同的東西偽裝成相似（贊助內容複製編輯內容的排版與卡片設計）；(4) 將重要資訊推入背景（放大首選動作，同時將成本或取消條款縮小為低對比文字）。Amazon Prime 案例中，FTC 指控其註冊和取消流程讓重要條款難以察覺，Amazon 在 2025 年 9 月以 25 億美元和解。\n\n- **AI 設計工具未必能像人類一樣感知群組：** 作者引用英國布里斯托大學 Valerio Biscione 和 Jeffrey Bowers 的研究，他們測試了 16 個神經網路對在人類中產生強烈 Gestalt 效應的點陣圖案的反應。這些網路偵測到一些低階線索（包括接近性），但效應出現較晚，且有時在中間層會反轉。作者建議使用 AI 生成候選方案和假設，但不要用它來認證知覺清晰度——人類第一次閱讀測試仍是人類介面的標準。\n\n## 對設計／產品的啟示\n作者建議設計師用六個問題稽核畫面：(1) 每個群組內的間距是否明顯小於群組間間距？(2) 最強線索（間距、邊框、顏色、對齊、動作）是否對同一結構達成共識？(3) 每個感知到的物件是否與其行為匹配？(4) 階層是否在手機重排、文字放大、在地化、載入、驗證、展開和停用狀態下仍能存活？(5) 視覺結構、原始碼順序、無障礙名稱和鍵盤序列是否述說同一個故事？(6) 在一秒鐘的第一次閱讀測試中，使用者是否在閱讀文案前就能識別預期的群組、主要動作和標籤對物件的關係？作者強調要設計第一次閱讀，因為視覺系統會強加一個結構，無論你是否規劃過——讓相關的東西看起來相關，不相關的東西看起來不同，最重要的關係應由最強且一致的線索支持。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-03"
+    },
+    {
+      "title": "UX Conference September Announced (Sep 14 - Sep 25)",
+      "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-09-02",
+      "author": "NN/g Nielsen Norman Group",
+      "handle": "nngroup",
+      "source": "NN/g",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\nNielsen Norman Group 宣布將於 2026 年 9 月 14 日至 25 日舉辦線上 UX 培訓活動，提供 35 門不同主題的即時互動課程，並推出「購買兩門課程即贈送第三門課程」的限時促銷。\n\n- **課程時間與格式：** 所有課程均為 100% 即時互動（無預錄內容），每門課程分為兩天、每天 3.5 小時的線上會議（舊金山時間上午 8:00-11:30），學員必須參加兩天完整課程才能參加 UX 認證考試。\n\n- **UX 認證機制：** 參加並通過「任意 5 門課程」的考試即可獲得 UX 證書，學員可選擇在單一活動中完成或分次參加不同活動（課程學分永不過期）；另提供人工智慧、互動設計、管理、研究四個專業領域認證，需通過同領域至少 5 門課程。\n\n- **課程內容與分類：** 活動提供 35 個 UX 主題課程，涵蓋 AI 產品策略、UX 寫作、設計系統、易用性測試、資訊架構、使用者訪談、設計思維、旅程地圖等，分為人工智慧、互動設計、管理、研究四大專業領域。\n\n- **限時促銷方案：** 2026 年 9 月活動限定，單筆交易購買兩門或以上課程即贈送第一門課程（每筆註冊限一門免費課程），免費課程必須在同一活動期間使用且不可轉讓或保留至未來活動，變更註冊可能影響促銷資格。\n\n- **定價與折扣結構：** 9 月 11 日前早鳥價單門課程 $1,255 美元，購買 2 門享 10% 折扣、3 門享 40% 折扣、4 門享 36% 折扣、5 門享 34% 折扣；每門課程的認證考試需額外支付 $95 美元行政費用，考試可在課程結束當天或 35 天內完成。\n\n- **技術與互動要求：** 學員需具備穩定高速網路、麥克風與視訊鏡頭（強烈建議）、能使用 Google Docs 等協作工具的電腦，課程透過 Zoom 視訊會議、線上白板工具及 Slack 社群進行，註冊即可永久加入 NN/G UX Slack 社群與其他數位專業人士交流。\n\n## 對設計／產品的啟示\n作者提供的培訓計畫強調「結構化學習路徑」的重要性——透過認證機制將零散知識整合成系統性技能，並設計專業領域深化選項，這對組織內部 UX 培訓或產品團隊能力建構具參考價值；此外，活動採用「即時互動 + 協作工具 + 長期社群」的混合學習模式，展示了遠距教育如何透過多元互動機制維持學習成效與專業網絡連結。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-03"
     }
   ]
 }
