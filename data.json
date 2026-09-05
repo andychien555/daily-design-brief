@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-04",
-  "date_display": "2026 年 09 月 04 日",
-  "generated_at": "2026-09-04T08:56:14.714735+08:00",
+  "date": "2026-09-05",
+  "date_display": "2026 年 09 月 05 日",
+  "generated_at": "2026-09-05T08:56:00.944109+08:00",
   "top_products": [
     {
-      "title": "Fillo",
-      "url": "https://www.producthunt.com/products/fillo-native-forms-without-the-backend",
-      "published": "2026-09-02T05:06:50-07:00",
-      "author": "Jacob Funch",
-      "tagline": "Build forms into your product with your coding agent",
-      "post_id": "1239382",
-      "summary_zh": "透過 coding agent 協助開發者將表單功能整合到產品中的工具，簡化表單建置流程。",
-      "image_url": "https://ph-files.imgix.net/589bc9bc-b796-44f4-82cc-a3bb34a88ff3.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/01fe2260-5142-4b8c-84ea-bb492c2b7b15.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Thaw",
-      "url": "https://www.producthunt.com/products/thaw-2",
-      "published": "2026-09-02T14:02:22-07:00",
-      "author": "Chris Messina",
-      "tagline": "The only app that owns your whole menu bar, in and out",
-      "post_id": "1239794",
-      "summary_zh": "一款管理 macOS menu bar 的應用程式，提供完整的選單列內外控制功能。",
-      "image_url": "https://ph-files.imgix.net/83fd100a-c684-43d0-a36e-f692740919bb.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/aa5f1329-513d-4843-adc1-4ca35530e9c3.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Higgsfield Genjutsu",
-      "url": "https://www.producthunt.com/products/higgsfield",
-      "published": "2026-09-02T11:56:29-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "Recast motion with your characters, locations & products",
-      "post_id": "1239706",
-      "summary_zh": "讓使用者將動作捕捉套用到自訂角色、場景和產品上的影像重製工具。",
-      "image_url": "https://ph-files.imgix.net/bc2f3698-fbfd-4763-bd59-992b9b529f44.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/30b6ba3e-a7f9-4806-805d-6a8b60c21ac5.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Atlas by World Labs",
-      "url": "https://www.producthunt.com/products/atlas-by-world-labs",
-      "published": "2026-09-01T20:16:17-07:00",
+      "title": "GPT-6 Astra",
+      "url": "https://www.producthunt.com/products/openai",
+      "published": "2026-09-03T13:14:40-07:00",
       "author": "KP",
-      "tagline": "Turn text, pics, video, + 3D into camera-controlled HD video",
-      "post_id": "1238997",
-      "summary_zh": "將文字、圖片、影片和 3D 內容轉換成可控制鏡頭的高畫質影片的 AI 工具。",
-      "image_url": "https://ph-files.imgix.net/713fe256-46d2-4a3b-84b4-fcba4fe59d83.jpeg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/960e2800-433b-48b6-8037-eec83bcd025d.jpeg?auto=format&w=960&h=540&fit=crop"
+      "tagline": "OpenAI's most capable model for end-to-end work",
+      "post_id": "1240758",
+      "summary_zh": "OpenAI 推出的最先進模型，專為端到端工作流程設計。適合需要完整任務處理能力的專業使用者。",
+      "image_url": "https://ph-files.imgix.net/e732bb0f-6a16-4812-9ecd-44b143254587.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c97f8e47-c04f-4eee-80c9-c804a86ddd4b.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Omi",
-      "url": "https://www.producthunt.com/products/open-source-ai-necklace-friend",
-      "published": "2026-09-02T22:25:44-07:00",
-      "author": "Nik Shevchenko",
-      "tagline": "Ask your computer anything you saw or heard",
-      "post_id": "1240025",
-      "summary_zh": "讓使用者查詢電腦上曾經看過或聽過的任何內容的搜尋工具。",
-      "image_url": "https://ph-files.imgix.net/d2d5f236-c299-4a24-8040-72750eb2ee10.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/016bc8ef-65d7-47bf-ab3c-90438dd8796b.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Omarchy",
+      "url": "https://www.producthunt.com/products/omarchy-3",
+      "published": "2026-09-03T06:35:00-07:00",
+      "author": "Zac Zuo",
+      "tagline": "The malleable OS for the age of agents",
+      "post_id": "1240461",
+      "summary_zh": "為 AI agent 時代設計的可塑性作業系統。提供靈活的環境讓多個 AI agent 協同運作。",
+      "image_url": "https://ph-files.imgix.net/a34dd67b-1c4c-4902-bc1a-85ce9cbdcd4d.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/11e88602-e0f0-4fa2-ac4d-36f181b3bdfd.webp?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Causal",
-      "url": "https://www.producthunt.com/products/causal-2",
-      "published": "2026-09-02T04:32:44-07:00",
-      "author": "Rameen Sharif",
-      "tagline": "AI Powered Canvas for planning visual projects",
-      "post_id": "1239349",
-      "summary_zh": "採用 AI 技術的視覺畫布工具，協助使用者規劃和管理視覺專案。",
-      "image_url": "https://ph-files.imgix.net/22b3f598-4cb8-4e35-ae09-4866ef9eff8b.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/e88865ac-0c23-4e2a-8e08-2e106e7a3093.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Clockwork",
+      "url": "https://www.producthunt.com/products/clockwork-5",
+      "published": "2026-09-03T08:55:16-07:00",
+      "author": "Vimox Shah",
+      "tagline": "The calendar where your AI agents show up for work",
+      "post_id": "1240566",
+      "summary_zh": "專為 AI agent 設計的行事曆工具，讓 AI agent 可以排程並執行工作任務。",
+      "image_url": "https://ph-files.imgix.net/5490ea8f-cf86-461e-924e-8b9efaf0dba9.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3a7f53a7-d677-4072-949a-e9aa98f53699.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Chalked for Mac",
+      "url": "https://www.producthunt.com/products/chalked",
+      "published": "2026-09-03T05:47:52-07:00",
+      "author": "Atticus Jackson",
+      "tagline": "Your replies ready with your work's full context",
+      "post_id": "1240413",
+      "summary_zh": "Mac 平台的回覆輔助工具，結合工作情境資訊自動準備回應內容。",
+      "image_url": "https://ph-files.imgix.net/c361ccd6-b659-4718-b677-6e16d6643734.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/f6908f5a-7f09-4969-b3c5-a36f374ed699.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "WeatherNext 3",
+      "url": "https://www.producthunt.com/products/weathernext-3",
+      "published": "2026-09-03T08:17:27-07:00",
+      "author": "Ankit Sharma",
+      "tagline": "Our most advanced and accurate global weather AI model",
+      "post_id": "1240543",
+      "summary_zh": "全球氣象 AI 預測模型，提供進階的天氣預報準確度。",
+      "image_url": "https://ph-files.imgix.net/138214d5-1ce3-4b79-9fe8-940e5acccad2.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/f4afbf89-cf2a-4edf-911f-10e6ac874990.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "cmmnts",
+      "url": "https://www.producthunt.com/products/cmmnts",
+      "published": "2026-09-03T03:49:49-07:00",
+      "author": "Sanjeeb Sahoo",
+      "tagline": "Add a powerful comment section to any website",
+      "post_id": "1240334",
+      "summary_zh": "為網站添加留言區功能的工具，提供完整的評論管理系統。",
+      "image_url": "https://ph-files.imgix.net/9eb21943-549d-42ba-b077-6b323312b4d9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c99bf3e6-cdef-4c1a-9a23-e58e45b4c903.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,39 +77,29 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "2394160935",
-      "title": "2026/9/4(五)沒人接盤 債市要變天?2027兆元帳單來了 美股內部出現裂痕?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-4-2027",
-      "published": "2026-09-04",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為 2027 年起 AI 算力合約將進入首波大規模付款期（年支出逾千億美元），但債市流動性緊縮與幣別錯配壓力正同步削弱股市量能，市場正處於「停看聽」驗證階段。\n\n## 1. 記憶體產業：基本面強勁但股價停滯\n- **合約價持續上漲但股價整理：** 韓國 DRAM 出口單價從 2025 下半年不到 2 萬美元/公斤升至 2026 年 8 月 9.22 萬美元/公斤，創新高；但三星、SK 海力士、美光股價均陷入長短期趨勢線夾殺，50 日均線反壓明顯。\n- **散戶追價意願消退：** 韓國券商存款從高峰 140 兆韓元回落，今年 80% 散戶虧損；韓國股市 VIX 降至 3 月以來低點，顯示波動率與投機熱度雙雙下滑。\n- **中國產能擴張疑慮：** 長鑫存儲 DRAM 市占率從 4% 升至 10%、NAND 從 9% 升至 14%（超越 Sandisk），三星 + SK 海力士 + 美光合計 DRAM 市占從 94% 降至 87%；但主講人認為短期增量市場足以消化，2030 年前供需缺口不會提前。\n\n## 2. 全球流動性緊縮：超額流動性轉負、實質利率攀升\n- **超額流動性 6 月轉負：** 衡量實質貨幣成長與經濟成長的超額流動性指標在 2026 年 6 月中跌至負值，領先風險資產 3–6 個月，正逐步影響股市。\n- **信用市場收縮：** 台灣信貸與質押借貸額度大幅縮減（利率非主因，額度才是瓶頸）；美國實質利率拉升壓低借貸意願，全球金融條件收緊。\n- **通膨傳導壓力：** 川普 9/3 對中國無人機課徵 100% 關稅（大疆占全球商用無人機 70% 以上），台灣、歐盟、日韓稅率僅 15%；9 月底 232 關稅將陸續出爐，台灣赴美投資換取豁免，但美國整體通膨傳導壓力未解。\n\n## 3. 美債殖利率高檔震盪與避險成本下降\n- **10 年期公債殖利率維持高位：** 美國 10 年期公債殖利率在 4.7–4.8% 震盪，日本首度觸及 3%，英國 5.28%、德國 3.39%；但本輪債市跌幅（4.2–7.8%）遠低於 2022 年政府債券 35% 跌幅，屬「利率維持高檔」而非「債券崩跌」。\n- **全球機構投資人美元曝險創低：** 日本、加拿大、台灣、澳洲、丹麥、芬蘭六大市場退休基金與保險機構對外幣資產平均避險比例僅 41%（15 年低點），合計 4.6 兆美元外幣資產多為美債與美股。\n- **避險成本大降：** 日圓投資人 3 個月美元避險成本從 2023 年 10 月 6% 降至 2.75%，歐洲投資人降至 1.32%；若美元急貶，未避險部位將面臨巨大匯兌損失。\n\n## 4. 台灣壽險業幣別錯配風險：金管會出手干預\n- **資產負債幣別嚴重錯配：** 台灣壽險業管理資產約 1.2 兆美元（超過台灣 GDP），其中海外曝險 6,960 億美元（美國公司債 1,620 億美元）；60% 資產為外幣、80% 負債為新台幣，匯率避險比例僅 43%。\n- **新台幣升值壓力：** 若台幣從 31–32 升值、美元貶值，以美元計價資產換回台幣將大幅縮水，形成龐大未實現損失與資本壓力（2025 年曾反映一次）。\n- **金管會三大動作：** (1) 要求降低與新台幣負債不匹配的海外資產；(2) 要求增發美元保單（美元對美元、台幣對台幣）；(3) 設定年度降低幣別錯配目標，增加國內投資。\n- **金融股補漲隱憂：** 國泰、富邦等近期創高主要來自外資買盤與證券、銀行業務景氣改善，但壽險部位（海外債券占 50–67%）的幣別錯配是長期隱患。\n\n## 5. AI 算力合約：2027–2028 年首波付款大考\n- **OpenAI 推出 GPT-6 Astra 模型：** 宣稱軟體工程與科學研究全面領先，意圖在上市前（2027 年初）搶回被 Anthropic（市值 9,650 億美元，OpenAI 約 8,500 億）奪走的技術話語權；但旗艦模型價格未調漲，吸收成本壓力持續累積。\n- **資本支出激增：** OpenAI 2025 年資本支出 110 億美元、2026 年 370 億、2027 年 1,320 億、2028 年 1,690 億、2029 年 2,010 億、2030 年 2,110 億，合計 2026–2030 年約 7,500 億美元；主要為雲端算力合約，基礎設施交付後才全面付款。\n- **首波付款高峰在明後年：** 2027 年剩餘合約明目價格 3,500 億美元、2028 年 3,600 億，2029–2030 年因第一批建置完成而下滑；關鍵考驗是營收、毛利與現金流成長能否追上每年超過 2,000 億美元的算力承諾。\n- **產業鏈共同樂觀假設：** 雲端公司相信模型業者能付錢、模型公司相信營收暴增、晶片商相信算力需求不斷擴大；若明年首批資料中心付款到賬後現金流惡化未扭轉，將引發市場重新評估。\n\n## 6. 美國股市與聯準會：9 月降息預期回落、內部分化加劇\n- **9 月降息機率降至 50%：** 聯準會理事華勒表示通膨仍高於 FOMC 目標，但近期數據顯示降溫跡象，若未來兩週數據延續則 9 月降息可能延後；降息預期從 60% 降至 50%。\n- **市場廣度惡化：** 標普 500 指數 6 月後在高點附近震盪，但資金從科技 AI 轉往景氣循環與價值股，族群輪動感降低、單一個股表現機會增加；量能萎縮，比特幣卡在 7.6–7.7 萬美元關鍵關卡。\n- **昨日反彈：** 道瓊上漲 624 點（+1.18%）至 53,686 點、標普漲 81 點（+1.06%）至 7,747 點、那斯達克漲 366 點（+1.4%）至 26,584 點、費城半導體漲 12 點（+0.1%）至 11,352 點；主要受美債殖利率稍微回落帶動。\n\n## 結論與後市展望\n主講人認為當前市場處於「停看聽」驗證階段：債市流動性緊縮、台灣壽險幣別錯配、AI 算力合約明年首波付款到賬，三大壓力同步出現。記憶體等 AI 供應鏈基本面強勁但股價停滯，反映市場量能不足而非基本面惡化；金融股補漲背後隱藏壽險匯率風險，金管會已啟動干預。若 2027 年 AI 企業能兌現現金流承諾、生產力有效提升，下一輪行情才能延續；否則過去兩年「所有人同時做一件事」的樂觀假設將面臨首波崩解考驗。長期仍看好 AI 趨勢（三星、台積電終將創高），但短期需留意流動性、匯率與算力付款三大風險交集。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-04"
-    },
-    {
-      "episode_id": "cae2-5386-444c-aa89-26e9d00f73e7",
-      "title": "EP333. Fable 5.1 霸氣登場、全美掀反資料中心浪潮、Tim Cook 時代落幕｜M觀點",
-      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/dfb3cae2-5386-444c-aa89-26e9d00f73e7",
-      "published": "2026-09-04",
-      "channel": "M觀點",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\nAnthropic 推出 Fable 5.1 以 66 分（AAII 排行）霸氣奪回最強模型寶座，但美國民眾對 AI 資料中心反對聲浪高漲（75% 反對），Tim Cook 卸任後留下市值成長 13 倍、年化報酬 25% 的亮眼成績。\n\n## 1. Fable 5.1 登場：顯著領先競爭對手\n- **AAII 評分 66 分創新高：** 遠超前任冠軍 OPUS 5 的 63 分與 Fable 5 的 62 分,首次拉開 3 分顯著差距,將 GPT-4.6/Grok 4.6(61 分)明確甩到次前沿梯隊。\n- **科學與企業應用突破：** 在 Terminal Bench Science(52.9%)與 Agentic Coding Terminal Bench 4.0(55.8%)創新高,顯示朝科學研究與企業工作流程優化方向發力。\n- **成本仍高但有降價空間：** 官方宣稱快取讀取降價讓整體成本降 25%,但 AAII 實測每任務成本 3.39 美元仍比 Fable 5 的 3.14 美元更高,遠高於 GPT-4.6 瘦身版(0.95 美元)與 Grok 4.6(0.94 美元)。\n- **企業資料政策鬆綁：** 允許企業將 30 天暫存資料存於自家雲端(AWS/Azure/GCP)而非 Anthropic 伺服器,降低合規疑慮但實質監控權限仍在。\n\n## 2. 競爭對手動態：Meta 異軍突起\n- **Meta Muse Spark 1.3 竄升第二：** AAII 得分 62 分平 Fable 5,擊敗 GPT-4.6(61 分)成為非 Anthropic 陣營最強模型,且成本僅 Fable 5.1 的 1/5–1/6。\n- **Google Gemini 3.8 Flash 重返次前沿：** 59 分與中國 KIMI K3、GLM-5.3 並列,打敗 GPT-4.6 Terra,證明 Google 追回部分失地。\n- **Grok 4.7 與 GPT Astra 壓力陡增：** 馬斯克原訂 10 天後推出 Grok 4.7(預估 63–64 分)已無法奪冠;主講人認為 OpenAI 將加速推出 Astra(預估 65–66 分)應戰。\n\n## 3. 全美反資料中心浪潮：民意從 42% 升至 75% 反對\n- **反對比例飆升：** He-Mac Pro 民調顯示一年內反對在住家附近建資料中心的比例從 42% 暴增至 75%,連德州(共和黨)與賓州(民主黨)州長都轉向謹慎支持。\n- **三大反對理由實為假議題：** 電價影響實測每戶僅約 1 美元/月;用水可靠封閉循環系統解決 99%;低頻噪音影響數百公尺但可透過建材改善。\n- **中國網軍推波助瀾：** 已查獲 200 多個網軍帳號在 Twitter 散布 AI 負面訊息;川普在 Truth Social 痛批反對者「想讓地方變落後貧窮、讓中國超爽」。\n- **解方：發錢收買民心：** 主講人建議科技巨頭直接補貼周邊居民(如 3 公里內每月 50 美元、全郡每年 100 美元),將反對力量轉為支持;SpaceX 等已開始自建發電廠減少對公用電網依賴。\n\n## 4. Tim Cook 時代落幕：15 年市值成長 13 倍\n- **股東報酬驚人：** 2011 年接任時市值 3,500 億美元,卸任時達 4.7 兆(年化 19%);若配息再投入,總報酬率 2,788%(年化 25%),遠超同期 S&P 500 的 15%。\n- **三大成功遺產：** ①細分 iPhone 機型並壓低成本提升獲利;②建立服務營收(高毛利穩定現金流);③打造 Apple Silicon(A/M 系列晶片成為業界標竿)。\n- **三大遺憾：** ①未收購特斯拉(錯失汽車市場);②放棄 Apple Car(主講人認為掛蘋果牌 Rivian 可賣 3–5 倍量);③AI 布局保守落後(Apple Foundation Model 仍非前沿等級)。\n\n## 5. 繼任者 John Ternus 三張考卷\n- **iPhone 成長天花板：** 必須在飽和市場找到新成長動能,這是基本盤但難度高。\n- **AI 裝置市占率門檻：** 主講人設定 10 年後 AI device 市占率若低於 30% 即為失敗(蘋果基本盤應能達成),超過 50% 為成功,最可能落在 30–40%(七八十分成績);蘋果傳聞將推出帶鏡頭的 AirPods 與智慧眼鏡。\n- **前沿模型研發抉擇：** 蘋果目前策略是訓練專用於自家生態的 AFM(智力略遜前沿模型但在蘋果裝置優化最佳),是否投入資源追趕 Anthropic/OpenAI 等級的最強模型仍是未定之天。\n\n## 6. 模型通用商品化趨勢修正\n- **智力趨同但特色分化：** 主講人認為 5 年後各家前沿模型智力將接近(如同台大資工畢業生 IQ 相當),但各有擅長領域(如系統架構 vs. 除錯能力);類比汽車市場——Toyota RAV4/Honda CRV/Hyundai Tucson 功能可互換,但品牌忠誠度與偏好仍存在。\n- **無法收取超額溢價：** 即使 10% 企業偏好特定模型(如 Claude 擅長某應用),競爭壓力使其無法大幅加價,僅能賺取合理利潤;若溢價過高(如多 30 萬)用戶立刻轉向替代方案。\n- **Auto Router 將吃下 60% 市場：** 主講人預估未來 60% 用戶不在意用哪個模型,交由路由器依成本/速度自動選擇;剩餘 40% 分散在 GPT/Claude/Grok/Gemini 等品牌忠誠用戶。\n\n## 結論與後市展望\n主講人認為 Anthropic 透過 Fable 5.1 成功提振士氣並為即將到來的 IPO 拉高估值至少 10%;但資料中心民意反彈若持續,恐拖累美國 AI 基建進度(原訂明年 500 座可能砍到 200 座),中國正透過晶片禁令反制與網軍操作雙管齊下削弱美國優勢。模型戰爭將在 9 月進入白熱化(Grok 4.7/GPT Astra 陸續登場),但最終各家前沿模型將走向「智力趨同、特色分化、合理利潤」的通用商品化格局。投資人應關注能否透過補貼居民化解資料中心阻力,以及蘋果在 AI device 與模型研發的策略選擇。\n\n---\n*本筆記為節目內容摘要,非投資建議。*",
-      "first_shown": "2026-09-04"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
-      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-      "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-09-03",
+      "title": "Using AI for UX Work: Study Guide",
+      "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-09-05",
       "author": "NN/g Nielsen Norman Group",
       "handle": "nngroup",
       "source": "NN/g",
       "label": "UX 好文",
-      "summary_md": "## 一句話總結\nNielsen Norman Group 宣布於 11 月 16-19 日舉辦線上 UX 培訓課程，提供 8 門涵蓋 AI、互動設計與管理的課程，並設有 UX 認證機制。\n\n- **課程形式與時段：** 採用 100% 即時線上互動（無預錄內容），每門課程分兩天進行，每天 3.5 小時。課程時段配合亞洲/澳洲/美國學員，例如新加坡為上午 9 點至中午 12:30，舊金山為下午 5 點至晚上 8:30。\n\n- **課程主題與專業認證：** 提供 8 門課程涵蓋三大領域——人工智慧（AI for Design Workflows、AI Product Strategy 等）、互動設計（Application Design、Web Page UX Design 等）、管理（Customer Journey Management 等）。參加並通過任意 5 門課程考試即可獲得 UX Certificate；若在單一領域完成至少 5 門課程，可額外獲得該專業領域（AI、互動、管理）的認證標記。\n\n- **定價與折扣機制：** 單門課程費用為 1,215-1,315 美元（依註冊時間而定），報名多門課程享有折扣（2 門課程各減 10%）。10 月 23 日前註冊可享早鳥優惠。\n\n- **考試與認證細節：** 每門課程結束後提供線上考試，學員需全程出席才能參加考試。考試可在課程結束當天或 35 天內完成，每次考試需支付 95 美元管理費。課程學分永久有效，可在不同場次累積完成 5 門課程要求。\n\n- **互動工具與社群：** 使用 Zoom 進行視訊會議、Miro 和 Google Docs 等協作工具進行實作練習，並提供永久 NN/g UX Slack 社群會籍供學員交流。參加者需具備穩定高速網路、麥克風、攝影機及不阻擋協作工具的電腦環境。\n\n- **退費政策：** 10 月 30 日前取消可退還 80% 費用（扣除 20% 手續費），之後取消不予退費，但可轉讓名額給他人。\n\n## 對設計／產品的啟示\n本次培訓顯示 UX 專業發展已整合 AI 工具與策略，設計從業者需同時掌握傳統介面設計、AI 產品設計及跨職能管理能力。認證機制的彈性（可跨場次累積學分、永久有效）適合在職進修，建議從業者依職涯方向選擇專業領域深化，或跨領域學習以提升競爭力。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-04"
+      "summary_md": "## 一句話總結\n作者整理了 Nielsen Norman Group 關於 AI 在 UX 工作應用的完整學習資源，認為 AI 不會完全取代 UX 工作，但 UX 從業者應學會將 AI 當作「助手」來提升效率，同時保持批判思考與人本核心技能。\n\n- **AI 作為 UX 助手而非替代者：** 作者認為目前最佳實踐是將 AI 視為「增強工具」，讓從業者扮演策略家角色，用 AI 擴展工作能量——就像戴上一副 AI「手套」，雙手仍在主導，但能做到過去做不到的事。文中提出「AI UX 實習生」比喻，強調 AI 需要監督指導。\n\n- **CARE 提示詞架構與技能演化：** 作者提出好的 AI 提示詞應包含 Context（情境）、Ask（明確要求）、Rules（規則）、Examples（範例）四要素。同時強調 UX 角色正在改變：從「推動像素的 UI 設計」轉向「定義使用者需求與監督旅程」的純 UX 工作，策略思維、說故事能力、判斷力成為核心價值。\n\n- **研究領域的謹慎應用：** 作者指出 AI 在研究規劃與分析階段最有幫助，但強調「不要外包學習」——即使 AI 能產出高品質報告，團隊透過直接觀察使用者獲得的學習無法被取代。AI 生成的「合成使用者」(Synthetic Users) 只能補充而非取代真實使用者研究。\n\n- **寫作與服務設計的平衡點：** 作者提醒雖然 AI 寫作能力出色，但過度依賴會磨損獨特風格與訊息傳達；在語氣控制上，提供現有文案範例比單純描述語氣詞更有效。在服務設計方面，AI 代理(AI Agents)將越來越多代表使用者與組織執行任務，改變服務提供與接收方式，需要新的評估指標。\n\n- **生產力提升的實證數據：** 作者引用多項研究顯示 AI 工具確實提升效率：程式設計師使用 GitHub Copilot 產能提升 126%（2023）、客服人員每小時處理量增加 13.8%（2023）、商業專業人士使用 ChatGPT 寫作更快且品質更高（2023）、團隊搭配 AI 進行創意發想表現優於個人或無 AI 團隊。\n\n- **避免 AI 陷阱與保持價值：** 作者警告要避免「7 項 AI 致命罪」，強調工具不斷變化但基本技能（理解人、提出正確問題）不會消失。UX 通才因能理解多重領域與策略思考而重獲價值。同時提醒 AI 容易陷入類似 VR 的炒作循環，要在樂觀與懷疑之間保持平衡閱讀。\n\n## 對設計／產品的啟示\n作者建議 UX 從業者從小型實驗開始採用 AI，將其定位為受監督的助手而非決策者；應投資培養「品味」與判斷力等難以自動化的核心能力，特別是批判性評估與定義使用者需求的策略技能。對產品團隊而言，要警惕過度依賴 AI 工具導致方法論盲點，在工具採購時要求準確度證明，並確保團隊保有直接接觸使用者、從研究中學習的機會——這是 AI 無法取代的組織知識累積過程。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-05"
+    },
+    {
+      "title": "UX Roundup: Make It Easy | AI Traffic = Best Customers | AI Visibility | Hidden Team Disagreement | AI Attitude Questions | Sunk Costs | Tools Palette",
+      "url": "https://www.uxtigers.com/post/ux-roundup-20260904",
+      "published": "2026-09-04",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者在本期 UX Roundup 中指出，AI 轉介的訪客轉換率比一般流量高 60%，但 AI 引用來源的能見度可在一夜之間變動 46 倍，同時團隊共識背後平均隱藏近 3 個未說出口的分歧。\n\n## 重點摘要\n\n- **AI 轉介流量是最高價值客群：** Adobe 分析超過 1 兆次美國零售網站造訪後發現，AI 轉介的訪客轉換率比非 AI 流量高 60%、每次造訪收益高 53%、跳出率低 34%、停留時間長 59%、加入購物車機率高 28%。作者認為這類訪客已在聊天機器人內完成比較與篩選，帶著明確推薦而來，網站的角色從「說服」降為「確認與結帳」。\n\n- **AI 能見度極不穩定：** Promptwatch 記錄顯示，2026 年 8 月 8 日 GPT-5.6 更新後，ChatGPT Search 針對特定網域的查詢比例從 0.4% 跳升至 17%（增加約 46 倍），同時 Reddit 被引用的比例一週內從 3.8% 暴跌 86% 至 0.52%。作者指出，這種機制變動對使用者完全不可見，卻能讓內容策略一夕崩塌。\n\n- **團隊共識常是假象：** 清華大學研究團隊分析 18 場真實工作會議，發現每場平均隱藏 2.89 個未被發現的分歧（參與者事後確認 95% 為真實歧見）。作者稱之為「共識假象」（illusion of alignment）：人們以為達成一致，但對同一決策（如「簡化儀表板」）實際上有不同理解。研究者設計的 IoA-Prober 系統會在會議後生成具體選擇題讓參與者作答，藉此揪出隱藏分歧。\n\n- **AI 態度調查應使用經驗證工具：** MeasuringU 的 Jim Lewis 與 Jeff Sauro 開發一套 17 題問卷，涵蓋生產力、信任、依賴、焦慮、擬人化、早期採用 6 個構面，經 420 人測試後刪減至每構面 2–3 題，信度達 0.80 以上（與 10 題 SUS 的 0.91 可比）。作者雖偏好單題 SEQ，但認為這是唯一值得推薦的 AI 態度量表，因其經過嚴謹心理計量驗證。\n\n- **沉沒成本陷阱無所不在：** 作者引用經典實驗：54% 受試者選擇花費較高但樂趣較少的滑雪行程，只因已付出更多；全價購票者平均看 4.11 場戲，折扣購票者僅 3.3 場。作者認為設計應尊重而非挾持使用者投入（如自動儲存、允許匯出資料、預先揭露成本），團隊內部也常因「已投入 9 個月」而不願放棄失敗設計——解方是在專案初期定好終止標準、用 5 人測試及早驗證。\n\n- **工具選板讓模式可見：** 作者回顧 1984 年 MacPaint 開創的工具選板設計（持續可見的圖示網格、選中即改變游標模式），認為這是對「模式戰爭」的妥協方案，只要模式保持可見、位置固定、游標即時反映，就能化解 Larry Tesler「NOMODES」的教條。作者批評現代 Photoshop 將三分之二工具藏在長按彈出選單中，犧牲了可見性。\n\n## 對設計／產品的啟示\n\n作者建議將 AI 轉介流量視為「預售」客群，調整落地頁設計：優先確認聊天機器人提到的關鍵訊息（價格、規格）置於首屏，移除註冊彈窗等說服時代的摩擦，並將比較內容寫給機器讀（提升 AI 可解析性）。內容策略不應仰賴單一 AI 平台能見度，因其演算法可無預警劇變。團隊協作應在決策後進行「對齊檢查」：由 AI 生成具體選擇題、讓成員匿名作答、僅將分歧項目拿回討論，避免表面共識掩蓋實質歧見。若必須調查 AI 態度，使用經驗證的 17 題問卷，但更重要的是觀察真實行為。永遠不要摧毀使用者已投入的工作（自動儲存、保留表單），不要用沉沒成本綁架留存（提供資料匯出、暫停而非取消），團隊內部則在專案啟動前定好放棄標準、趁改向成本還低時就測試。工具選板應保持圖示位置固定、游標即時反映模式、提供工具提示與快捷鍵標籤，並限制隱藏層級在一層以內。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-05"
     }
   ]
 }
