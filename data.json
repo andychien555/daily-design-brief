@@ -1,73 +1,40 @@
 {
-  "date": "2026-09-05",
-  "date_display": "2026 年 09 月 05 日",
-  "generated_at": "2026-09-05T08:56:00.944109+08:00",
+  "date": "2026-09-06",
+  "date_display": "2026 年 09 月 06 日",
+  "generated_at": "2026-09-06T08:55:51.298373+08:00",
   "top_products": [
     {
-      "title": "GPT-6 Astra",
-      "url": "https://www.producthunt.com/products/openai",
-      "published": "2026-09-03T13:14:40-07:00",
-      "author": "KP",
-      "tagline": "OpenAI's most capable model for end-to-end work",
-      "post_id": "1240758",
-      "summary_zh": "OpenAI 推出的最先進模型，專為端到端工作流程設計。適合需要完整任務處理能力的專業使用者。",
-      "image_url": "https://ph-files.imgix.net/e732bb0f-6a16-4812-9ecd-44b143254587.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c97f8e47-c04f-4eee-80c9-c804a86ddd4b.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Omarchy",
-      "url": "https://www.producthunt.com/products/omarchy-3",
-      "published": "2026-09-03T06:35:00-07:00",
+      "title": "Ponytail",
+      "url": "https://www.producthunt.com/products/ponytail",
+      "published": "2026-09-04T07:18:13-07:00",
       "author": "Zac Zuo",
-      "tagline": "The malleable OS for the age of agents",
-      "post_id": "1240461",
-      "summary_zh": "為 AI agent 時代設計的可塑性作業系統。提供靈活的環境讓多個 AI agent 協同運作。",
-      "image_url": "https://ph-files.imgix.net/a34dd67b-1c4c-4902-bc1a-85ce9cbdcd4d.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/11e88602-e0f0-4fa2-ac4d-36f181b3bdfd.webp?auto=format&w=960&h=540&fit=crop"
+      "tagline": "Make new code the last resort",
+      "post_id": "1241345",
+      "summary_zh": "幫助開發團隊優先重用現有程式碼，減少撰寫新程式碼的需求，提升開發效率與程式碼一致性。",
+      "image_url": "https://ph-files.imgix.net/8cfb3440-449b-4b91-b73e-8ee4edf607a1.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c582f667-39bd-4d41-8354-b5285cfede85.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Clockwork",
-      "url": "https://www.producthunt.com/products/clockwork-5",
-      "published": "2026-09-03T08:55:16-07:00",
-      "author": "Vimox Shah",
-      "tagline": "The calendar where your AI agents show up for work",
-      "post_id": "1240566",
-      "summary_zh": "專為 AI agent 設計的行事曆工具，讓 AI agent 可以排程並執行工作任務。",
-      "image_url": "https://ph-files.imgix.net/5490ea8f-cf86-461e-924e-8b9efaf0dba9.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/3a7f53a7-d677-4072-949a-e9aa98f53699.png?auto=format&w=960&h=540&fit=crop"
+      "title": "GitWarren",
+      "url": "https://www.producthunt.com/products/gitwarren",
+      "published": "2026-09-03T22:02:54-07:00",
+      "author": "Michał Wrzosek",
+      "tagline": "Review code with your coding agents before committing",
+      "post_id": "1240932",
+      "summary_zh": "在提交程式碼前，透過 AI coding agents 協助進行程式碼審查，提早發現問題並改善程式碼品質。",
+      "image_url": "https://ph-files.imgix.net/e09719a2-f5a4-49eb-ad30-0e1a476e97d8.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/b0f62768-6473-417a-8dfd-22f2c7a98dbd.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Chalked for Mac",
-      "url": "https://www.producthunt.com/products/chalked",
-      "published": "2026-09-03T05:47:52-07:00",
-      "author": "Atticus Jackson",
-      "tagline": "Your replies ready with your work's full context",
-      "post_id": "1240413",
-      "summary_zh": "Mac 平台的回覆輔助工具，結合工作情境資訊自動準備回應內容。",
-      "image_url": "https://ph-files.imgix.net/c361ccd6-b659-4718-b677-6e16d6643734.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/f6908f5a-7f09-4969-b3c5-a36f374ed699.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "WeatherNext 3",
-      "url": "https://www.producthunt.com/products/weathernext-3",
-      "published": "2026-09-03T08:17:27-07:00",
-      "author": "Ankit Sharma",
-      "tagline": "Our most advanced and accurate global weather AI model",
-      "post_id": "1240543",
-      "summary_zh": "全球氣象 AI 預測模型，提供進階的天氣預報準確度。",
-      "image_url": "https://ph-files.imgix.net/138214d5-1ce3-4b79-9fe8-940e5acccad2.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/f4afbf89-cf2a-4edf-911f-10e6ac874990.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "cmmnts",
-      "url": "https://www.producthunt.com/products/cmmnts",
-      "published": "2026-09-03T03:49:49-07:00",
-      "author": "Sanjeeb Sahoo",
-      "tagline": "Add a powerful comment section to any website",
-      "post_id": "1240334",
-      "summary_zh": "為網站添加留言區功能的工具，提供完整的評論管理系統。",
-      "image_url": "https://ph-files.imgix.net/9eb21943-549d-42ba-b077-6b323312b4d9.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c99bf3e6-cdef-4c1a-9a23-e58e45b4c903.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Experiential Labs",
+      "url": "https://www.producthunt.com/products/experiential-labs",
+      "published": "2026-09-03T20:10:57-07:00",
+      "author": "Garry Tan",
+      "tagline": "Open source AI gateway turning traffic into a better model",
+      "post_id": "1240885",
+      "summary_zh": "開源 AI gateway 工具，將實際流量轉化為訓練資料，持續優化 AI 模型表現。",
+      "image_url": "https://ph-files.imgix.net/9f5be045-8554-4dce-b8b6-cf34fc4b8a03.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/4bf714d9-2211-4155-b6cc-0270467a1d49.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,40 +44,6 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "7f30-6031-4eef-a689-16129f261d10",
-      "title": "EP694 | 🥖",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/bfdf7f30-6031-4eef-a689-16129f261d10",
-      "published": "2026-09-05",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為 AI 時代「內容品質」比「數量」更值錢，台灣資本市場已躋身全球前五、應由本地投資人主動投資新創，而非一味期待外資關注；全職交易須設停損底線、近期盤勢偏震盪需更多耐心。\n\n## 1. AI 與內容創作：品質勝過數量\n- **AI 工具未使內容貶值：** 主講人認為雖然 AI 讓大量內容產出（content inflation），但「有靈魂」的創作反而更顯珍貴，劣質速成內容會立刻被識破、損害信用且難以修復。\n- **信用成為核心資產：** 在選擇爆炸的時代，創作者信用一旦毀損幾乎無法重建；玩家與消費者仍會追隨認真打磨作品的工作室與導演。\n- **肖南資本投資案例：** 旗下未公開遊戲在海外獲巨大成功、公開遊戲 Rubonite 獲 3,000+ 壓倒性好評，證明好內容能形成長尾 IP 並持續帶來收益。\n\n## 2. 台灣資本市場與新創投資：本地優先策略\n- **台灣市值排名躍升：** 上市櫃總市值已達全球第四或第五名，資本充沛且投資人應主動向外看、而非單向等待海外資金進場。\n- **肖南資本定位：** 採 evergreen fund 長期持有、做「價值投資」深蹲陪伴團隊成長，與二級市場動能交易形成互補；目前無對外募資需求、股東持續投入且 portfolio 表現良好。\n- **證明 IP 投資可行性：** 希望為台灣資本市場建立「投資內容與新創團隊能獲利」的案例，吸引更多本地資金投入遊戲、動漫等 IP；強調創作者可用低成本租用 AI 工具、引擎與 Steam 等通路，降低進入門檻。\n\n## 3. Broadcom 財報與 AI 供應鏈：需求真實但盤整延續\n- **財報數據強勁但股價未漲：** Broadcom 提出中長期指引多項年增逾 100%、持續受惠 Frontier Lab 需求；CEO Hock Tan 首次公開點名聯發科為競爭對手，主講人認為等於「法說會背書」聯發科地位、對後者構成利多。\n- **客戶融資與需求真實性：** 針對 Seller Financing 與「螺旋互投」質疑，主講人表示每季財報皆確認需求千真萬確；微軟傳聞明年 CapEx 將大幅提高、無停止跡象。\n- **盤勢耐心與動能交易挑戰：** AI 股雖基本面持續改善但短期不易大漲，動能交易在近期震盪中容易虧損；建議聚焦長期獲利趨勢、縮小槓桿、等待明確突破訊號再加碼。\n\n## 4. 軟體與 FDE 趨勢：Router 與信任經濟\n- **Snowflake 的 AI 協作優勢：** 客戶使用預設模式讓平台選擇模型可產生較高毛利（例如客戶付 10 元、實際成本 5 元），指定模型則毛利較薄；資料治理與信任成為核心競爭力。\n- **Forward Deployment Engineer（FDE）崛起：** 結合 PM、工程師與 sales 角色，深入企業流程提供客製解決方案；主講人認為通才型 FDE 將成新興高需求職位，軟體廠商訓練品質成競爭關鍵。\n- **Router 與內容品質類比：** 如同消費者信任好的 AI router 分配請求，企業也信任優秀 FDE 整合需求；「信任」成為 AI 時代最稀缺資產，品質勝過數量的邏輯在軟體與內容領域皆適用。\n\n## 5. 全職交易與生活哲學：設定停損、珍惜注意力\n- **全職交易建議：** 若資產達 2,000 萬並維持 3–4 個月、月交易量 1 億元，可嘗試全職；但須設定明確停損點（例如虧至某金額立刻回職場），避免賠光本金。\n- **注意力管理：** 主講人強調注意力是重要資產，應減少無意義社交與回覆、將能量聚焦在真正有價值的事物；家境優渥者因無須分散心力、試錯成本低，往往能做出更好決策。\n- **育兒帶來新視角：** 主講人分享兒子主動迎接自己的感動時刻，認為孩子帶來過去數十年未曾體驗的幸福感；鼓勵聽眾在「最不期待的地方」尋找生命意義，無須急於填滿所有時間。\n\n## 結論與後市展望\n主講人認為 AI 產業雖處多年牛市、估值已高，但基本面持續改善（Broadcom、Snowflake 等數據強勁）；短期盤勢震盪、動能交易難度提升，建議投資人聚焦獲利持續成長的龍頭股、縮小槓桿並耐心等待突破。台灣資本市場已具全球影響力，應由本地資金主動投資新創與 IP，而非被動等待外資；內容創作在 AI 時代「品質」將更值錢，信用與長期耕耘是核心競爭力。全職交易與人生規劃皆需設定停損、珍惜注意力，在不預期之處保持開放以發現真正的幸福。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-05"
-    }
-  ],
-  "article_briefs": [
-    {
-      "title": "Using AI for UX Work: Study Guide",
-      "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-09-05",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者整理了 Nielsen Norman Group 關於 AI 在 UX 工作應用的完整學習資源，認為 AI 不會完全取代 UX 工作，但 UX 從業者應學會將 AI 當作「助手」來提升效率，同時保持批判思考與人本核心技能。\n\n- **AI 作為 UX 助手而非替代者：** 作者認為目前最佳實踐是將 AI 視為「增強工具」，讓從業者扮演策略家角色，用 AI 擴展工作能量——就像戴上一副 AI「手套」，雙手仍在主導，但能做到過去做不到的事。文中提出「AI UX 實習生」比喻，強調 AI 需要監督指導。\n\n- **CARE 提示詞架構與技能演化：** 作者提出好的 AI 提示詞應包含 Context（情境）、Ask（明確要求）、Rules（規則）、Examples（範例）四要素。同時強調 UX 角色正在改變：從「推動像素的 UI 設計」轉向「定義使用者需求與監督旅程」的純 UX 工作，策略思維、說故事能力、判斷力成為核心價值。\n\n- **研究領域的謹慎應用：** 作者指出 AI 在研究規劃與分析階段最有幫助，但強調「不要外包學習」——即使 AI 能產出高品質報告，團隊透過直接觀察使用者獲得的學習無法被取代。AI 生成的「合成使用者」(Synthetic Users) 只能補充而非取代真實使用者研究。\n\n- **寫作與服務設計的平衡點：** 作者提醒雖然 AI 寫作能力出色，但過度依賴會磨損獨特風格與訊息傳達；在語氣控制上，提供現有文案範例比單純描述語氣詞更有效。在服務設計方面，AI 代理(AI Agents)將越來越多代表使用者與組織執行任務，改變服務提供與接收方式，需要新的評估指標。\n\n- **生產力提升的實證數據：** 作者引用多項研究顯示 AI 工具確實提升效率：程式設計師使用 GitHub Copilot 產能提升 126%（2023）、客服人員每小時處理量增加 13.8%（2023）、商業專業人士使用 ChatGPT 寫作更快且品質更高（2023）、團隊搭配 AI 進行創意發想表現優於個人或無 AI 團隊。\n\n- **避免 AI 陷阱與保持價值：** 作者警告要避免「7 項 AI 致命罪」，強調工具不斷變化但基本技能（理解人、提出正確問題）不會消失。UX 通才因能理解多重領域與策略思考而重獲價值。同時提醒 AI 容易陷入類似 VR 的炒作循環，要在樂觀與懷疑之間保持平衡閱讀。\n\n## 對設計／產品的啟示\n作者建議 UX 從業者從小型實驗開始採用 AI，將其定位為受監督的助手而非決策者；應投資培養「品味」與判斷力等難以自動化的核心能力，特別是批判性評估與定義使用者需求的策略技能。對產品團隊而言，要警惕過度依賴 AI 工具導致方法論盲點，在工具採購時要求準確度證明，並確保團隊保有直接接觸使用者、從研究中學習的機會——這是 AI 無法取代的組織知識累積過程。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-05"
-    },
-    {
-      "title": "UX Roundup: Make It Easy | AI Traffic = Best Customers | AI Visibility | Hidden Team Disagreement | AI Attitude Questions | Sunk Costs | Tools Palette",
-      "url": "https://www.uxtigers.com/post/ux-roundup-20260904",
-      "published": "2026-09-04",
-      "author": "Jakob Nielsen",
-      "handle": "jakobnielsen",
-      "source": "UX Tigers",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者在本期 UX Roundup 中指出，AI 轉介的訪客轉換率比一般流量高 60%，但 AI 引用來源的能見度可在一夜之間變動 46 倍，同時團隊共識背後平均隱藏近 3 個未說出口的分歧。\n\n## 重點摘要\n\n- **AI 轉介流量是最高價值客群：** Adobe 分析超過 1 兆次美國零售網站造訪後發現，AI 轉介的訪客轉換率比非 AI 流量高 60%、每次造訪收益高 53%、跳出率低 34%、停留時間長 59%、加入購物車機率高 28%。作者認為這類訪客已在聊天機器人內完成比較與篩選，帶著明確推薦而來，網站的角色從「說服」降為「確認與結帳」。\n\n- **AI 能見度極不穩定：** Promptwatch 記錄顯示，2026 年 8 月 8 日 GPT-5.6 更新後，ChatGPT Search 針對特定網域的查詢比例從 0.4% 跳升至 17%（增加約 46 倍），同時 Reddit 被引用的比例一週內從 3.8% 暴跌 86% 至 0.52%。作者指出，這種機制變動對使用者完全不可見，卻能讓內容策略一夕崩塌。\n\n- **團隊共識常是假象：** 清華大學研究團隊分析 18 場真實工作會議，發現每場平均隱藏 2.89 個未被發現的分歧（參與者事後確認 95% 為真實歧見）。作者稱之為「共識假象」（illusion of alignment）：人們以為達成一致，但對同一決策（如「簡化儀表板」）實際上有不同理解。研究者設計的 IoA-Prober 系統會在會議後生成具體選擇題讓參與者作答，藉此揪出隱藏分歧。\n\n- **AI 態度調查應使用經驗證工具：** MeasuringU 的 Jim Lewis 與 Jeff Sauro 開發一套 17 題問卷，涵蓋生產力、信任、依賴、焦慮、擬人化、早期採用 6 個構面，經 420 人測試後刪減至每構面 2–3 題，信度達 0.80 以上（與 10 題 SUS 的 0.91 可比）。作者雖偏好單題 SEQ，但認為這是唯一值得推薦的 AI 態度量表，因其經過嚴謹心理計量驗證。\n\n- **沉沒成本陷阱無所不在：** 作者引用經典實驗：54% 受試者選擇花費較高但樂趣較少的滑雪行程，只因已付出更多；全價購票者平均看 4.11 場戲，折扣購票者僅 3.3 場。作者認為設計應尊重而非挾持使用者投入（如自動儲存、允許匯出資料、預先揭露成本），團隊內部也常因「已投入 9 個月」而不願放棄失敗設計——解方是在專案初期定好終止標準、用 5 人測試及早驗證。\n\n- **工具選板讓模式可見：** 作者回顧 1984 年 MacPaint 開創的工具選板設計（持續可見的圖示網格、選中即改變游標模式），認為這是對「模式戰爭」的妥協方案，只要模式保持可見、位置固定、游標即時反映，就能化解 Larry Tesler「NOMODES」的教條。作者批評現代 Photoshop 將三分之二工具藏在長按彈出選單中，犧牲了可見性。\n\n## 對設計／產品的啟示\n\n作者建議將 AI 轉介流量視為「預售」客群，調整落地頁設計：優先確認聊天機器人提到的關鍵訊息（價格、規格）置於首屏，移除註冊彈窗等說服時代的摩擦，並將比較內容寫給機器讀（提升 AI 可解析性）。內容策略不應仰賴單一 AI 平台能見度，因其演算法可無預警劇變。團隊協作應在決策後進行「對齊檢查」：由 AI 生成具體選擇題、讓成員匿名作答、僅將分歧項目拿回討論，避免表面共識掩蓋實質歧見。若必須調查 AI 態度，使用經驗證的 17 題問卷，但更重要的是觀察真實行為。永遠不要摧毀使用者已投入的工作（自動儲存、保留表單），不要用沉沒成本綁架留存（提供資料匯出、暫停而非取消），團隊內部則在專案啟動前定好放棄標準、趁改向成本還低時就測試。工具選板應保持圖示位置固定、游標即時反映模式、提供工具提示與快捷鍵標籤，並限制隱藏層級在一層以內。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-05"
-    }
-  ]
+  "podcast_briefs": [],
+  "article_briefs": []
 }

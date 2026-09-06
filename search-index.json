@@ -1,6 +1,31 @@
 {
-  "generated_at": "2026-09-06T00:29:47+08:00",
+  "generated_at": "2026-09-06T08:56:02+08:00",
   "days": [
+    {
+      "d": "2026-09-06",
+      "dd": "2026 年 09 月 06 日",
+      "no": 143,
+      "items": [
+        {
+          "k": "product",
+          "t": "Ponytail",
+          "b": "Make new code the last resort 幫助開發團隊優先重用現有程式碼，減少撰寫新程式碼的需求，提升開發效率與程式碼一致性。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "GitWarren",
+          "b": "Review code with your coding agents before committing 在提交程式碼前，透過 AI coding agents 協助進行程式碼審查，提早發現問題並改善程式碼品質。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Experiential Labs",
+          "b": "Open source AI gateway turning traffic into a better model 開源 AI gateway 工具，將實際流量轉化為訓練資料，持續優化 AI 模型表現。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-09-05",
       "dd": "2026 年 09 月 05 日",
