@@ -1,6 +1,19 @@
 {
-  "generated_at": "2026-09-07T00:40:26+08:00",
+  "generated_at": "2026-09-07T08:57:02+08:00",
   "days": [
+    {
+      "d": "2026-09-07",
+      "dd": "2026 年 09 月 07 日",
+      "no": 144,
+      "items": [
+        {
+          "k": "article",
+          "t": "Paul Graham on Startups, Ambition, and Great Founders",
+          "b": "本週主打： Paul Graham 在 YC 山景城原址接受訪談，探討創業、AI、野心與偉大創辦人的特質；Heart Aerospace 試飛史上最大電動飛機（翼展 100 英尺、起飛重量 25,000 磅、起飛電費僅 5 美元），展現電動航空商業化潛力；Ollama 執行長 Jeffrey Morgan 觀察到開源模型正快速崛起——驅動力來自程式碼 agent、成本下降與能力逼近前沿實驗室，該公司已被 900 萬開發者與 85% 財星 500 大企業採用。 YC 動態： Forbes 報導 AfterQuery 成為 YC 史上最快獨角獸（估值 32 億美元）；非輝達晶片推理供應商 Wafer 獲收購邀約、估值逾 2 億美元；Conveo 完成 5,000 萬美元 A 輪融資拓展 AI 消費者智慧平台；Arga Labs 則聚焦讓 AI agent 適應真實世界場景。 新創 launch： 本期十家新公司呈現三大趨勢——「AI agent 協作與測試」（Mosaic 共享團隊 agent 記憶、Archal 提供 API 沙盒給 agent）、「推理與運算優化」（OneTriangle 以 KV cache 轉移實現最快最便宜推理、Coarena 打造最大電腦使用眾包基準）、「垂直場景自動化與硬體」（Bernard 為家電維修公司提供 AI 前後台、Nori 推出 1,688 美元 19 自由度人形機器人、Meteoric 用無人機清理太陽能電場上空雲層並削弱颶風、Skymerse 為航班運營打造自動駕駛、Studio 建立市場行為模擬引擎、WonderTx 用外推式 AI 開發首創藥物）。 HN 熱門： 本週討論集中在大型語言模型新版本發布（OpenAI GPT-6 Astra、Claude Fable/Mythos 5.1、Gemini 3.8 Flash）與 AI 技術突破（Anthropic 形式化證明費馬最後定理）；社群工具動態包括 OpenAI agent 留言板被發現（collusion.wiki）、Audacity 4.0 發布、Firefox 使用呼籲與 Fastpotify 專案；技術基礎設施話題則有 .name 網域終止事件引發關注。 對設計／產品的啟示 作者透過 Ollama 案例揭示開源模型正改變 AI 經濟學——當成本與能力差距縮小，企業開始大規模採用自主可控的開源方案。對產品設計者而言，這意味著應思考如何讓使用者「擁有自己的智慧」（own your intelligence）：自己的 agent、模型與記憶系統。本期 YC 新創也印證此趨勢——從共享 agent 記憶、API 測試沙盒到超低成本推理與平價人形機器人，都在降低技術門檻、讓更多團隊能自建 AI 基礎設施，而非完全依賴封閉平台。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Y Combinator"
+        }
+      ]
+    },
     {
       "d": "2026-09-06",
       "dd": "2026 年 09 月 06 日",
