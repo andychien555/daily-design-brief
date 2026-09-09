@@ -1,6 +1,55 @@
 {
-  "generated_at": "2026-09-09T01:42:59+08:00",
+  "generated_at": "2026-09-09T08:57:02+08:00",
   "days": [
+    {
+      "d": "2026-09-09",
+      "dd": "2026 年 09 月 09 日",
+      "no": 146,
+      "items": [
+        {
+          "k": "article",
+          "t": "Start at the finish line: why you should design your activation journey backwards",
+          "b": "硬性付費牆帶來的挑戰： RevenueCat 2026 年報告顯示硬性付費牆轉換率是免費增值模式的近 5 倍，但當用戶在體驗價值前就付費，產品必須在更小容錯空間內完成期望驗證、購買決策合理化與習慣養成——AI App 就常因新鮮感退去而留存不佳，作者認為這是「價值問題」而非 AI 問題。 倒推法（Perfect Customer Loop）： 作者在工作坊中讓團隊想像一位「必備用戶」Maggie 一年後會主動推薦產品，再倒推一小時前、一週前、一個月前她經歷了什麼發現、感受與行為改變——例如某顧問平台團隊原以為賣點是「專家建議」，倒推後發現真正價值是「讓客戶更信任自己的判斷」，整個產品敘事因此改寫。 啟動不只是單一事件： 作者引 Daphne Tideman 的觀點強調別把「完成清單」當啟動指標，應聚焦「首次獲得價值的時間」與「核心價值實現時間」；當採硬性付費牆，啟動體驗從廣告、App Store 頁面、定價到 onboarding 環環相扣，任一環節承諾過大或目標受眾錯誤都會讓首次價值交付失效。 找出「必備用戶」並追蹤其旅程： 作者建議用 Sean Ellis 的產品市場適配度調查找出「失去產品會非常失望」的用戶（非高活躍或高 LTV），訪談他們早期做了什麼、知道什麼、感受如何，再做落差分析——問的不是「哪裡流失」而是「現有體驗哪裡未達成必備用戶的旅程」，讓留存問題轉化為 onboarding 與啟動路線圖。 個案：60 步 onboarding 與 30% MoM ARR 成長的困境： 某 App 創辦人下載破百萬、月增 ARR 達 30%，但年度續訂遠低預期；團隊慣性反應是發送挽回優惠、推播通知，作者認為這些只治標——真正問題在未釐清「什麼旅程創造必備用戶」，若將戰術當策略將永遠無法解決價值斷層。 對設計／產品的啟示 作者建議在 onboarding 設計時別問「如何降低第三步流失」，而是問「新用戶需要知道、感受與相信什麼，才能迎來首次真正價值時刻」；在功能開發前先問「這是否讓更多用戶靠近必備體驗」；在流失分析時追溯「哪個旅程環節若改變能扭轉結果」，將倒推思維內建於整個成長引擎——快速開發已是標配，永續成長仰賴深度理解誰是最佳用戶、他們如何成為最佳用戶，再系統性複製該旅程。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "RevenueCat"
+        },
+        {
+          "k": "product",
+          "t": "bonds",
+          "b": "AI messenger that builds shared apps inside your group chats 一款 AI 訊息工具，可在群組聊天中直接建立共享應用程式，讓團隊協作更即時便利。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Catenary",
+          "b": "Spatial canvas IDE for AI coding agents 專為 AI 編碼代理設計的空間畫布整合開發環境，提供視覺化的程式開發介面。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Knockin'",
+          "b": "Turns your static bio into an AI business card that replies 將靜態個人簡介轉換為可自動回覆的 AI 數位名片，適合需要展示個人品牌的專業人士。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Tables.so",
+          "b": "AI that finds, qualifies and enriches your next customer 使用 AI 自動尋找、篩選並豐富潛在客戶資料，協助企業開發新客戶。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Kopai",
+          "b": "The Cloud for AI Agents 專為 AI Agent 設計的雲端平台，提供運算與部署基礎設施。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Trancy Air",
+          "b": "Translate anything you see, write, or say with one hotkey 透過單一快捷鍵即時翻譯任何看到、書寫或說出的內容，支援多場景語言轉換需求。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-09-08",
       "dd": "2026 年 09 月 08 日",
