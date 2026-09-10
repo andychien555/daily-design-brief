@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-09",
-  "date_display": "2026 年 09 月 09 日",
-  "generated_at": "2026-09-09T08:56:15.478168+08:00",
+  "date": "2026-09-10",
+  "date_display": "2026 年 09 月 10 日",
+  "generated_at": "2026-09-10T08:56:12.689049+08:00",
   "top_products": [
     {
-      "title": "bonds",
-      "url": "https://www.producthunt.com/products/bonds-2",
-      "published": "2026-09-07T20:23:07-07:00",
-      "author": "Juandi Sanchez",
-      "tagline": "AI messenger that builds shared apps inside your group chats",
-      "post_id": "1244325",
-      "summary_zh": "一款 AI 訊息工具，可在群組聊天中直接建立共享應用程式，讓團隊協作更即時便利。",
-      "image_url": "https://ph-files.imgix.net/f2f71579-0763-4cc4-ad3d-fc9b581475e0.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/5f929ec6-5389-4cf8-bbe8-698c0872b6d1.png?auto=format&w=960&h=540&fit=crop"
+      "title": "ChatGPT Images 2.5",
+      "url": "https://www.producthunt.com/products/openai",
+      "published": "2026-09-08T12:47:45-07:00",
+      "author": "Rohan Chaubey",
+      "tagline": "Sharper visuals, faster flow, better creative control",
+      "post_id": "1245108",
+      "summary_zh": "提供更清晰的視覺輸出、更快的生成速度與更好的創作控制功能，適合需要 AI 圖像生成的使用者。",
+      "image_url": "https://ph-files.imgix.net/5de81c86-c98f-416b-8ddf-9866ddb90b26.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/87a919e3-b412-451d-bfd9-48fd2eb37df5.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Catenary",
-      "url": "https://www.producthunt.com/products/catenary",
-      "published": "2026-09-07T19:32:49-07:00",
-      "author": "Giorgio Nícolas",
-      "tagline": "Spatial canvas IDE for AI coding agents",
-      "post_id": "1244310",
-      "summary_zh": "專為 AI 編碼代理設計的空間畫布整合開發環境，提供視覺化的程式開發介面。",
-      "image_url": "https://ph-files.imgix.net/69402c67-4c24-4c41-b3c3-4c6abc52d5c5.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/7eab94cc-e355-4da3-af4b-554ccedd5f86.png?auto=format&w=960&h=540&fit=crop"
+      "title": "AlphaGenome Atlas",
+      "url": "https://www.producthunt.com/products/alphagenome-atlas",
+      "published": "2026-09-08T18:41:57-07:00",
+      "author": "Justin Jincaid",
+      "tagline": "Google's AI map of every possible human DNA mutation",
+      "post_id": "1245256",
+      "summary_zh": "Google 開發的 AI 工具，建立所有可能的人類 DNA 突變圖譜，供基因研究與醫療領域使用。",
+      "image_url": "https://ph-files.imgix.net/3a9246b4-b3c5-422c-8015-3eb8bf06dfe3.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d4a8449a-dd52-4514-8901-4a03bcc1e987.webp?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Knockin'",
-      "url": "https://www.producthunt.com/products/knockin",
-      "published": "2026-09-06T22:02:45-07:00",
-      "author": "Zac Zuo",
-      "tagline": "Turns your static bio into an AI business card that replies",
-      "post_id": "1243318",
-      "summary_zh": "將靜態個人簡介轉換為可自動回覆的 AI 數位名片，適合需要展示個人品牌的專業人士。",
-      "image_url": "https://ph-files.imgix.net/c1f8811e-22c9-4d4a-9a22-247b63b48c23.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/585ca20f-cca4-48eb-990d-71a1c9c498fb.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Ass Auction",
+      "url": "https://www.producthunt.com/products/ass-auction",
+      "published": "2026-09-08T01:30:13-07:00",
+      "author": "Mahdi Farra",
+      "tagline": "Brands outbid each other to put their logo on my ass",
+      "post_id": "1244551",
+      "summary_zh": "讓品牌競標在創作者臀部展示 logo 的廣告平台，提供另類的品牌曝光方式。",
+      "image_url": "https://ph-files.imgix.net/21eb7632-6485-4418-8a10-3b9322d21393.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/9d18b061-e133-4cdc-a052-46411f268a33.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Tables.so",
-      "url": "https://www.producthunt.com/products/tables-so",
-      "published": "2026-09-07T08:50:49-07:00",
-      "author": "Jens Bjerregaard",
-      "tagline": "AI that finds, qualifies and enriches your next customer",
-      "post_id": "1243922",
-      "summary_zh": "使用 AI 自動尋找、篩選並豐富潛在客戶資料，協助企業開發新客戶。",
-      "image_url": "https://ph-files.imgix.net/3ad0465c-f315-44aa-b98b-4b6953667109.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/9df6efa1-8891-444b-9b95-c11ea0aac8e4.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "DuckFightClub",
+      "url": "https://www.producthunt.com/products/duckfightclub",
+      "published": "2026-09-08T10:02:09-07:00",
+      "author": "Nicolas Grenié",
+      "tagline": "Train your MicroDuck and win the Golden Beak Belt",
+      "post_id": "1244990",
+      "summary_zh": "訓練你的 MicroDuck 並參與對戰競賽以贏取 Golden Beak Belt 的遊戲平台。",
+      "image_url": "https://ph-files.imgix.net/2096026f-93b2-437a-8a63-ce3c8cf6690c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/92e241ed-7453-497d-b4d3-6ac8108ef71c.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Kopai",
-      "url": "https://www.producthunt.com/products/kopai-the-marketplace-for-ai-agents",
-      "published": "2026-09-07T10:45:34-07:00",
-      "author": "Surya Sekhar Datta",
-      "tagline": "The Cloud for AI Agents",
-      "post_id": "1244005",
-      "summary_zh": "專為 AI Agent 設計的雲端平台，提供運算與部署基礎設施。",
-      "image_url": "https://ph-files.imgix.net/b8e24549-ef15-49b1-84bb-869b8dddd49e.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/74b0d8f6-376b-4d75-b645-6b8f8e2575cb.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Frigade Assist API",
+      "url": "https://www.producthunt.com/products/frigade",
+      "published": "2026-09-08T15:03:06-07:00",
+      "author": "Christian Mathiesen",
+      "tagline": "Give your AI agent guides that show users where to click",
+      "post_id": "1245183",
+      "summary_zh": "為 AI agent 提供視覺化指引功能，引導使用者在介面上進行正確的操作點擊。",
+      "image_url": "https://ph-files.imgix.net/84ddee6e-8d56-4283-abb1-d7d8f70a5d60.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/43bcbd5f-47ca-4483-b2d9-a068a37014c5.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Trancy Air",
-      "url": "https://www.producthunt.com/products/trancy-air",
-      "published": "2026-09-07T19:16:29-07:00",
-      "author": "Elidi Martin",
-      "tagline": "Translate anything you see, write, or say with one hotkey",
-      "post_id": "1244304",
-      "summary_zh": "透過單一快捷鍵即時翻譯任何看到、書寫或說出的內容，支援多場景語言轉換需求。",
-      "image_url": "https://ph-files.imgix.net/0d13a2bb-7443-4b6e-a36e-ca4029d0cf84.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/3fc72de4-f0a9-4512-96c2-fa1ef17c90c5.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Basedash in Español Français & Português",
+      "url": "https://www.producthunt.com/products/basedash",
+      "published": "2026-09-08T14:43:49-07:00",
+      "author": "Max Musing",
+      "tagline": "Work with your data in your language",
+      "post_id": "1245173",
+      "summary_zh": "Basedash 新增西班牙文、法文與葡萄牙文介面，讓使用者以母語操作資料管理工具。",
+      "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ef009db3-6e9f-42d2-9e81-a38ca092dd78.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,39 +77,29 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "111451",
-      "title": "EP695 | 🍊",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/184c0e0e-4e66-4273-a4ab-111451d2993d",
-      "published": "2026-09-09",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人分享了近期 Google Cloud 在 AI 基礎設施投資上的驚人回報數據（AI 伺服器不到兩年回本、自研晶片僅需一年），認為這驗證了 AI 投資週期仍將持續，同時台股維持震盪格局、隔日沖困難度提高。\n\n## 1. Google Cloud 業務動能：AI 基礎設施印鈔速度驚人\n- **新客獲取與大型交易倍增：** 新客戶獲取速度是一年前的兩倍，超過 1 億美元與 10 億美元的大型交易都有兩倍以上成長，客戶承諾採購 100 美元最終幾乎都會花到 150 美元以上（超額消費超過 50%）。\n- **AI 伺服器回本速度極快：** AI 伺服器整體回收期不到兩年，自研晶片（ASIC/TPU）回收期減半至僅需一年即可回本。\n- **產品線全面成長：** 所有產品線營收都超過 10 億美元且持續成長，營收與營業利益同步改善、市占率持續擴大。\n- **成本優勢明顯：** 訓練效能優於市場 2.7 倍，推論優於 80%，CPU 30% ML 模型資金成本是業界最便宜且為對手的 2.5 倍。\n\n## 2. AI 產業價值鏈分析：前沿模型競爭與基礎設施優勢\n- **前沿模型競爭激烈但週期短：** 市場對 Anthropic 的 Claude 極度看好，但 OpenAI 隨即推出 Astra 反超，顯示前沿模型領先地位變化極快（兩三個月就可能被超越），不宜過早下定論誰勝誰敗。\n- **API 費用持續收斂：** 各家大模型的 API Token 費用出現持續收斂趨勢，模型商為特殊功能收取的溢價（premium）正在下降，市場逐漸趨向商品化（commodity）。\n- **高 CP 值硬體需求上升：** 當模型 API 收入拉平後，選擇成本更低的硬體（如 Google TPU）成為吸引模型商的關鍵，Google 在供應鏈的採購需求持續強勁。\n- **Google 策略轉向基礎設施：** Google 將資源從前沿模型部分移往 AI 基礎設施（infra），因為實際投資回報極高且可快速回本，符合巴菲特投資 Google 的邏輯（從科技想像轉向實際獲利的防守領域）。\n\n## 3. 台股盤勢觀察：震盪格局與操作難度\n- **震盪持續約一個多月：** 大盤已在新高附近（47,000 點）但遲遲未見突破，缺乏讓市場重建信心的「表態突破棒」。\n- **隔日沖地獄：** 鎖得越死的股票隔天越容易開低大逃殺甚至跌停，但幾天後又可能復甦；想要抓快反而容易被震盪成本累積侵蝕獲利（可能吃掉 5%–10% 以上）。\n- **操作策略調整：** 主講人調整為等待回檔再買入、縮小部位或拉長持有時間，避免追高被巴；相信大盤突破新高後題材股表現會改善。\n\n## 4. AI 投資週期展望：循環融資尚未見頂\n- **價值鏈分工：** 晶片商與供應鏈出貨即收現金（台廠扎實獲利）；雲端業者（Google、Oracle、Microsoft）先墊資再用五年合約回收；模型商燒股東的錢但股東多為雲商，形成循環融資結構。\n- **週期可能超出想像：** 主講人認為 AI 投資週期會非常長，只要外部資本持續進入模型商、消費者持續擴大採用，循環就不會破裂；最終供需平衡時會回火（backfire），但目前印鈔速度太快、週期遠未結束。\n- **供應鏈需求持續強勁：** Google 的採購預測（Forecast）與訂單（Backlog）強到「全世界 AI 伺服器供應鏈的特殊零件全部加起來都不夠滿足需求」，雖然相關個股股價未必都有表現，但產業數據持續正向。\n\n## 5. 光通訊供應鏈投資思路：廣撒網、邊走邊看\n- **價值鏈拆解：** 包括 FAU 光纖耦合元件、PIC、高精度主動對位、封裝、台積電 CoWoS 平台整合、Coherent/Lumentum 光引擎等環節。\n- **投資建議全包：** 主講人認為初期無法確定價值最終落在哪個環節（bottleneck 在哪、誰能漲價），建議每個主題挑一兩檔、總共分散 30%–50% 部位，過程中逐步發現價值鏈走向。\n- **題材股不等於漲最多：** 最受惠環節不一定短期漲最多，還要看「漲價夠不夠狠」及是否被搶購；只要方向正確、有包到相關標的，一般都會 outperform 大盤。\n\n## 6. 個人動態分享：遊戲創投與東京電玩展\n- **TGS 誤會與行程：** 主講人一度以為 TGS 是「台北 Game Show」，後來才發現是「Tokyo Game Show」（東京電玩展），緊急安排機票與行程；展場位於千葉（類似南港展覽館的位置）。\n- **肖南資本海外擴張：** 正在物色歐洲與亞洲的遊戲開發團隊進行投資，思考投後管理與國際化運作；與日本遊戲大廠交流時發現許多大廠因內控無法投的團隊，正好適合肖南（無包袱、重視遊戲性）。\n- **邊做邊學心態：** 主講人強調自己雖是遊戲創投創始人但許多事仍在學習（例如不知道 TGS 是東京電玩展），採取「先做再研究」、多問多學、姿態放低的態度，感謝遊戲圈前輩指導。\n\n## 結論與後市展望\n主講人認為 Google Cloud 的財務數據（AI 伺服器一年至兩年回本）強力驗證了 AI 基礎設施投資的高回報，這解釋了為何 Google 持續加大 Capex 投入而非回購股票。雖然台股目前處於震盪、隔日沖困難，但只要產業趨勢持續向上（AI 需求強勁、供應鏈訂單滿載），股價長期仍會跟隨產業成長。投資人應聚焦產業基本面而非短期波動，避免在震盪中被洗出或追高被套；AI 投資週期可能遠超預期，最終會有供需平衡與回火的一天，但現階段仍看不到明顯的壞消息。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-09"
-    },
-    {
-      "episode_id": "2397067656",
-      "title": "2026/9/9(三)油價快破100美元 期中選舉拉警報?道瓊跌費半升!市場大換血?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-9-100",
-      "published": "2026-09-09",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為中東衝突推升油價逼近百元、長天期美債殖利率創高與期中選舉變數，將主導美股短期輪動與Fed政策空間，AI資料中心政策面臨地方反彈成共和黨包袱。\n\n## 1. 油價與通膨：中東衝突推升能源成本\n- **布蘭特原油逼近100美元：** 美軍報復伊朗革命衛隊摧毀五艘郵輪，川普採有限度報復針對資產而非人員，高盛預估本次衝突可能突破7–8月高點100美元關卡。\n- **供給性通膨難以貨幣政策解決：** 主講人認為升息無法解決戰時供給衝擊，若中東戰事結束通膨問題可能立即緩解；8月消費者物價指數（CPI）年增率市場預估達3.4%。\n- **銅價創歷史新高：** 每噸突破14,500美元，短期受美國關稅預期導致7–8月22.5萬噸銅流入美國倉庫、其他地區庫存下滑；長期反映AI資料中心與電網擴建需求。\n\n## 2. 美債市場：財政部回購與殖利率壓力\n- **長天期殖利率創高：** 30年期公債殖利率達5.3%、10年期4.8%，來到2007年以來高點；非農就業數據強勁使9月升息預期回到六成。\n- **財政部本週正式回購：** 9月9日公告回購細節，規模預估至少20億美元、上限可能40億美元以上；主講人認為若回購規模超預期且通膨低於預期，9月升息機會可能消失。\n- **投資等級債發行排擠效應：** 當前長端利率創高並非完全來自通膨，很大部分來自投資等級債大量發行對公債的排擠。\n\n## 3. 期中選舉風險：民主黨勝率上升衝擊AI政策\n- **川普支持率創40年新低：** 距期中選舉兩個月支持率僅35–40%，低於歷屆總統同期53%平均值，可能跌破1994年柯林頓39%成為40年最低。\n- **油價飆漲改變選情：** 兩週內原油逼近100美元，市場預估民主黨拿下國會機率從23%上升，基金經理調查顯示47%預期共和黨保參議院、民主黨拿眾議院。\n- **AI資料中心成選舉包袱：** 民調顯示70%美國人反對資料中心蓋在住家附近，反對聲浪較3月上升12個百分點；民主黨投放1.5萬次、760萬美元廣告攻擊AI資料中心，德州等關鍵州共和黨候選人開始與川普保持距離並提管制方案。\n\n## 4. 核能政策與能源轉型：罕見跨黨派共識\n- **六項核能法案零反對通過：** 眾議院能源委員會以44:0、43:0等壓倒性票數通過核能相關法案，蓋洛普民調顯示61%美國人支持核能，創30年調查史次高紀錄。\n- **鈾礦供給成新瓶頸：** 俄羅斯控制全球25%鈾礦產能（含海外礦產），鈾價從一年前每磅80美元漲至94美元；福島核災後全球鈾礦大量關閉、探勘投資萎縮，僅俄羅斯與中國持續投資。\n- **核電延役優先於新建：** 美、加、英、法、日、中、印推動高強度核電延役（30年延至40年、40年延至50年）與小型模組化反應爐（SMR），以應對供給限制與AI電力需求。\n\n## 5. 美股市場：高位震盪與類股輪動\n- **道瓊創三週最大跌幅：** 週二跌628點（1.18%）收52,786點，標普跌0.58%、那斯達克跌0.38%，但費城半導體指數逆勢漲1.3%收11,887點。\n- **資金轉向低基期晶片股：** 主講人觀察7月回檔後費半估值與股價跌幅較大，資金開始從道瓊、標普流向費半；費半技術面呈現「頭肩底」型態，但需觀察量能能否配合。\n- **台股逼近新高：** 上漲195點收47,301點，距歷史新高不到1,000點；主講人認為若創新高可能靠台積電、聯發科等權值股拉抬，但多數散戶持股分散體感可能不明顯。\n\n## 6. 政府債務危機：利息支出突破兩兆美元\n- **OECD成員國利息支出創高：** 2025年政府利息支出達兩兆美元、佔GDP 3%，美國單年利息已超過國防支出、逼近社會福利支出；美國聯邦債務突破40兆美元。\n- **債務死亡螺旋風險：** 高利率環境下財政赤字擴大迫使政府發更多債，投資人要求更高殖利率使利息支出進一步上升；國會預算辦公室（CBO）預估未來十年美國債務利息可能再翻倍。\n- **尺度效應放大影響：** 主講人以「上帝的一秒」比喻指出，對個人而言利率多1%年付幾千至幾萬元，但對政府40兆債務而言1%就是4,000億美元，足以改變整體預算配置。\n\n## 7. 美加貿易戰：龐巴迪成新目標\n- **川普鎖定加拿大航空巨頭：** 宣布對龐巴迪（Bombardier）課徵50%關稅，雙方已停止談判；加拿大上半年對美出口2,148億美元佔總出口68%，遠高於英國9.2%。\n- **兩個月內需達成協議：** 主講人認為川普必須在期中選舉前談定美加協議作為政績，同時232關稅須於9月底前公布以銜接《國際經濟緊急權利法》（IEEPA）失效。\n\n## 結論與後市展望\n主講人判斷本週CPI與財政部回購將決定Fed 9月升息機率，若回購規模超預期且通膨降溫則升息機會消失；但中東衝突與大宗商品價格（油、銅、鈾）上漲形成通膨僵固性，加上期中選舉後民主黨可能加強監管、提高稅率並延後AI資料中心建設，2027–2030年AI基礎建設時程可能大幅延後。短期美股雖在高位但道瓊、標普、那斯達克仍有創高可能，資金轉向費半反映低基期價值；台股若靠權值股突破新高，散戶體感可能不佳。川普須在關稅戰與AI政策取得平衡以挽救選情，但貝森特已釋出干預匯市訊號壓制美債殖利率。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-09"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
-      "title": "Start at the finish line: why you should design your activation journey backwards",
-      "url": "https://www.revenuecat.com/blog/growth/hard-paywall-activation-journey",
-      "published": "2026-09-08",
+      "title": "Give your next campaign a better path to purchase with RevenueCat Funnels",
+      "url": "https://www.revenuecat.com/blog/growth/give-your-next-campaign-a-better-path-to-purchase-with-revenuecat-funnels",
+      "published": "2026-09-10",
       "author": "RevenueCat",
       "handle": "revenuecat",
       "source": "RevenueCat Blog",
       "label": "訂閱成長",
-      "summary_md": "## 一句話總結\n作者認為當 App 採用硬性付費牆（用戶付費前未完整體驗價值）時，應從「理想用戶一年後為何熱愛產品」倒推設計啟動旅程，而非只盯著流失率修補問題。\n\n- **硬性付費牆帶來的挑戰：** RevenueCat 2026 年報告顯示硬性付費牆轉換率是免費增值模式的近 5 倍，但當用戶在體驗價值前就付費，產品必須在更小容錯空間內完成期望驗證、購買決策合理化與習慣養成——AI App 就常因新鮮感退去而留存不佳，作者認為這是「價值問題」而非 AI 問題。\n\n- **倒推法（Perfect Customer Loop）：** 作者在工作坊中讓團隊想像一位「必備用戶」Maggie 一年後會主動推薦產品，再倒推一小時前、一週前、一個月前她經歷了什麼發現、感受與行為改變——例如某顧問平台團隊原以為賣點是「專家建議」，倒推後發現真正價值是「讓客戶更信任自己的判斷」，整個產品敘事因此改寫。\n\n- **啟動不只是單一事件：** 作者引 Daphne Tideman 的觀點強調別把「完成清單」當啟動指標，應聚焦「首次獲得價值的時間」與「核心價值實現時間」；當採硬性付費牆，啟動體驗從廣告、App Store 頁面、定價到 onboarding 環環相扣，任一環節承諾過大或目標受眾錯誤都會讓首次價值交付失效。\n\n- **找出「必備用戶」並追蹤其旅程：** 作者建議用 Sean Ellis 的產品市場適配度調查找出「失去產品會非常失望」的用戶（非高活躍或高 LTV），訪談他們早期做了什麼、知道什麼、感受如何，再做落差分析——問的不是「哪裡流失」而是「現有體驗哪裡未達成必備用戶的旅程」，讓留存問題轉化為 onboarding 與啟動路線圖。\n\n- **個案：60 步 onboarding 與 30% MoM ARR 成長的困境：** 某 App 創辦人下載破百萬、月增 ARR 達 30%，但年度續訂遠低預期；團隊慣性反應是發送挽回優惠、推播通知，作者認為這些只治標——真正問題在未釐清「什麼旅程創造必備用戶」，若將戰術當策略將永遠無法解決價值斷層。\n\n## 對設計／產品的啟示\n作者建議在 onboarding 設計時別問「如何降低第三步流失」，而是問「新用戶需要知道、感受與相信什麼，才能迎來首次真正價值時刻」；在功能開發前先問「這是否讓更多用戶靠近必備體驗」；在流失分析時追溯「哪個旅程環節若改變能扭轉結果」，將倒推思維內建於整個成長引擎——快速開發已是標配，永續成長仰賴深度理解誰是最佳用戶、他們如何成為最佳用戶，再系統性複製該旅程。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-09"
+      "summary_md": "## 一句話總結\nRevenueCat 推出 Funnels 功能更新，讓開發者能在 App Store 外建立 web-to-app 轉換流程，透過 AI 編輯器、現成互動元件與 Firebase 整合，快速測試引導式網頁旅程能否提升付費轉換。\n\n- **AI 編輯器加速初版設計：** 作者指出開發者可用自然語言描述、截圖或設計規格來生成或修改漏斗頁面，新版編輯器更擅長處理開放式提示、複雜排版、文案改寫與元件重組，讓開發者快速取得可測試的草稿，再透過視覺編輯器調整細節。\n\n- **預設互動元件降低開發成本：** 新增 bottom sheet 元件（含「查看所有方案」範例）與 loader 元件（支援圓形／線性進度動畫、百分比指示、分階段載入、計時器觸發），讓開發者無需從頭配置就能實作方案比較、推薦流程與處理畫面。\n\n- **Firebase Authentication 整合簡化註冊流程：** 作者說明若 App 使用 Firebase Authentication，訪客可在漏斗內直接透過 Google 登入或 Email／密碼註冊，無需跳轉獨立登入頁；已驗證使用者會自動跳過此步驟，確保購買後能以相同帳號登入 App，並在未購買時保留 Email 供後續行銷。\n\n- **自訂元件支援進階互動：** 開發者可上傳包含 HTML、CSS、JavaScript 的 ZIP 檔案建立自訂元件，支援 Lottie／Rive 動畫、互動式比較表、計算機、Canvas／WebGL 體驗等，RevenueCat 負責驗證與託管；購買關鍵元素（package、購買按鈕）仍由 RevenueCat 原生處理，確保核心流程穩定。\n\n- **聚焦廣告與創作者流量轉換測試：** 作者認為付費廣告與創作者合作會在使用者抵達 App Store 前就接觸潛在客戶，web-to-app 漏斗讓開發者能延續該對話、解釋價值、了解訪客需求、引導相關優惠並在開啟 App 前完成購買；RevenueCat Funnels 讓開發者能在不增加完整 web growth stack 的情況下，快速測試引導式網頁旅程能否帶來更多付費客戶。\n\n## 對設計／產品的啟示\n作者建議開發者若已投放廣告或進行創作者合作，Funnels 提供一個聚焦的下一步：將點擊轉為從行銷承諾到購買的引導旅程。這些更新讓非技術團隊也能快速迭代實驗——AI 生成初稿、現成元件處理常見互動、Firebase 接上既有驗證系統、自訂元件擴充特殊需求——核心策略是降低從想法到可測試版本的時間成本，讓團隊專注於驗證「引導式網頁體驗能否提升轉換」這個命題，而非陷入技術實作。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-10"
+    },
+    {
+      "title": "Information Foraging Theory: Why Users Hunt, Snack, Leave, and Farm Content",
+      "url": "https://www.uxtigers.com/post/information-foraging",
+      "published": "2026-09-09",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者認為資訊覓食理論（Information Foraging Theory）是解釋使用者行為最重要的概念——使用者如同覓食動物，追尋資訊氣味、依邊際價值定理決定何時離開，而 AI 時代的「氣味造假」正將網路推向生態崩潰。\n\n## 核心要點\n\n- **理論基礎與預測力：** 1995 年 Xerox PARC 的 Peter Pirolli 和 Stuart Card 提出此理論，源自生物學的最佳覓食理論。作者指出這套理論經歷三次資訊環境革命（早期網路、Google 時代、生成式 AI）核心不變，能從第一原則解釋使用者為何做某些事。1999 年基礎論文已被引用 3,699 次，實務影響遠超學術引用。\n\n- **邊際價值定理的應用：** 作者在 2003 年就預測 Google 會讓使用者更快離開網站——因為找到好網站的成本降至「一次查詢+一次點擊」，環境平均收益率上升，使用者對每個網站的要求門檻提高。2025 年 Pew Research 數據證實：有 AI 摘要時，只有 8% 使用者點擊一般搜尋結果（無摘要時為 15%），26% 直接結束瀏覽（無摘要時為 16%）。\n\n- **資訊氣味決定點擊：** 作者研究顯示使用者根據連結標籤的**前 2 個字**判斷目的地。當氣味與實際內容不符會產生「回力鏢瀏覽」（使用者返回前頁），多次回力鏢導致跳出。2001 年 PARC 研究已能從周圍文字計算每個連結的氣味，預測使用者路徑。\n\n- **演化陷阱與氣味造假：** 作者以生物學類比警告：海洋塑膠對海鳥聞起來像晚餐（因上面生長的藻類釋放二甲基硫），AI 垃圾內容對使用者聞起來像專業知識。生成式 AI 已將流暢散文、自信語氣、註腳等品質線索的成本降至零，進行工業規模的「氣味洗白」。2022 年研究顯示，相信陰謀論的人在覓食任務中會取樣較少資訊就做決定——信念本身是具成癮性的氣味。\n\n- **豐富化與社群覓食：** 作者說明使用者不只被動接受環境，還會投資時間改造資訊環境（標籤、書籤、評分）以提高未來覓食效率——但前提是改善後的收益超過投入時間。就像螞蟻透過費洛蒙軌跡、蜜蜂透過搖擺舞分享覓食資訊，人類透過社群書籤、評論系統進行社群覓食。作者幽默比喻：「我們每個擁有 2000 個未讀書籤的人都是松鼠。」\n\n- **AI Agent 的掠食者危機：** 作者的網站數據顯示，2025 年 10 月 AI 系統每帶來 1 位訪客就爬取了 **207 個頁面**。當掠食者（AI Agent）消耗內容的速度超過創作者產出且零回報時，創作者將停止「耕種」，生態系統將崩潰。作者預測到 2030 年，Agent 執行的開放網路資訊覓食將超過人類的一半，網站必須學會「同時服務人類與機器覓食者」。\n\n## 對設計／產品的啟示\n\n作者提出 15 項實務指引，核心建議包括：(1) **前置氣味** ——將資訊承載詞放在連結標籤前 2 個字；(2) **當零食** ——在首屏 30 秒內交付主要價值，因競爭對手是使用者的下一次搜尋；(3) **提高營養密度** ——獲利性 = 價值 ÷ 處理時間，削減字數與載入時間；(4) **讓可信度與相關性同樣便宜** ——作者、日期、來源必須置於決策點旁，否則會被忽略；(5) **支援試吃** ——提供預覽、可展開摘要，讓使用者在投入完整處理時間前便宜地取樣；(6) **暴露 Agent 覓食軌跡** ——以一目了然的形式（非 40 頁逐字稿）顯示來源、涵蓋範圍與信心度；(7) **設計誠實訊號** ——像蜜導鳥與採蜜人的雙向誠實訊號，必須在 Agent 經濟中找出「付錢給蜜蜂」的機制，否則蜂巢將死。作者警告：氣味造假短期有效但長期致命，生態崩潰前必須設計出新的共生機制。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-10"
     }
   ]
 }
