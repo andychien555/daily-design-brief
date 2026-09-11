@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-10",
-  "date_display": "2026 年 09 月 10 日",
-  "generated_at": "2026-09-10T08:56:12.689049+08:00",
+  "date": "2026-09-11",
+  "date_display": "2026 年 09 月 11 日",
+  "generated_at": "2026-09-11T08:55:56.816375+08:00",
   "top_products": [
     {
-      "title": "ChatGPT Images 2.5",
-      "url": "https://www.producthunt.com/products/openai",
-      "published": "2026-09-08T12:47:45-07:00",
+      "title": "Whip",
+      "url": "https://www.producthunt.com/products/whip",
+      "published": "2026-09-09T08:57:03-07:00",
+      "author": "Agam Jain",
+      "tagline": "Youtube for interactive web experiences",
+      "post_id": "1245936",
+      "summary_zh": "一個用於建立和分享互動式網頁體驗的平台，類似 YouTube 但專注於互動內容而非傳統影片。",
+      "image_url": "https://ph-files.imgix.net/05c7e17c-f497-49e9-b1af-1497ad120f45.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/b5ad1e06-fce2-4eb9-9a07-dbc2ffd9e4e3.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Vibe Eyes",
+      "url": "https://www.producthunt.com/products/vibe-eyes",
+      "published": "2026-09-09T12:08:08-07:00",
+      "author": "Vibe Eyes",
+      "tagline": "Put your pets in your macOS menu bar",
+      "post_id": "1246071",
+      "summary_zh": "將寵物圖示放置在 macOS 選單列的工具，讓使用者在工作時能隨時看到寵物。",
+      "image_url": "https://ph-files.imgix.net/5ed76bca-e3b9-45ac-90d1-3d559c466ab1.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/360d8c1b-c226-42a6-94ea-52d957a06664.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Desert Ant Labs",
+      "url": "https://www.producthunt.com/products/desert-ant-labs",
+      "published": "2026-09-09T12:54:29-07:00",
       "author": "Rohan Chaubey",
-      "tagline": "Sharper visuals, faster flow, better creative control",
-      "post_id": "1245108",
-      "summary_zh": "提供更清晰的視覺輸出、更快的生成速度與更好的創作控制功能，適合需要 AI 圖像生成的使用者。",
-      "image_url": "https://ph-files.imgix.net/5de81c86-c98f-416b-8ddf-9866ddb90b26.jpeg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/87a919e3-b412-451d-bfd9-48fd2eb37df5.png?auto=format&w=960&h=540&fit=crop"
+      "tagline": "Small specialized AI models for speech, text, vision",
+      "post_id": "1246107",
+      "summary_zh": "提供專門針對語音、文字和視覺處理的小型 AI 模型，適合需要輕量化 AI 解決方案的開發者。",
+      "image_url": "https://ph-files.imgix.net/14d7a8d6-272a-4bbe-98dc-238db9119518.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/48ad1b82-b262-4b6d-9a82-c11c675d5474.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "AlphaGenome Atlas",
-      "url": "https://www.producthunt.com/products/alphagenome-atlas",
-      "published": "2026-09-08T18:41:57-07:00",
-      "author": "Justin Jincaid",
-      "tagline": "Google's AI map of every possible human DNA mutation",
-      "post_id": "1245256",
-      "summary_zh": "Google 開發的 AI 工具，建立所有可能的人類 DNA 突變圖譜，供基因研究與醫療領域使用。",
-      "image_url": "https://ph-files.imgix.net/3a9246b4-b3c5-422c-8015-3eb8bf06dfe3.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d4a8449a-dd52-4514-8901-4a03bcc1e987.webp?auto=format&w=960&h=540&fit=crop"
+      "title": "hob",
+      "url": "https://www.producthunt.com/products/hob-2",
+      "published": "2026-09-09T13:07:52-07:00",
+      "author": "fmerian",
+      "tagline": "The professional workspace for your whole agent stack",
+      "post_id": "1246116",
+      "summary_zh": "為 AI agent 工作流程設計的專業工作空間，整合管理多個 agent 的開發與部署環境。",
+      "image_url": "https://ph-files.imgix.net/5a297741-8d43-45c9-8fcb-0e45d5c67d5a.x-icon?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/520ba4a6-f741-441e-945e-e5f5726ef6fc.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Ass Auction",
-      "url": "https://www.producthunt.com/products/ass-auction",
-      "published": "2026-09-08T01:30:13-07:00",
-      "author": "Mahdi Farra",
-      "tagline": "Brands outbid each other to put their logo on my ass",
-      "post_id": "1244551",
-      "summary_zh": "讓品牌競標在創作者臀部展示 logo 的廣告平台，提供另類的品牌曝光方式。",
-      "image_url": "https://ph-files.imgix.net/21eb7632-6485-4418-8a10-3b9322d21393.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/9d18b061-e133-4cdc-a052-46411f268a33.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Drive",
+      "url": "https://www.producthunt.com/products/drive-gforce-telemetry",
+      "published": "2026-09-09T09:20:28-07:00",
+      "author": "Andy Kim",
+      "tagline": "Vehicle telemetry for your next weekend drive with LPR alert",
+      "post_id": "1245959",
+      "summary_zh": "提供車輛行駛數據追蹤與車牌辨識警示功能，適合週末駕駛愛好者使用的工具。",
+      "image_url": "https://ph-files.imgix.net/cc478bfa-e362-4c3e-a040-b8fc620d4ce4.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/6df19b5e-729c-4154-9ae5-9fafa926757a.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "DuckFightClub",
-      "url": "https://www.producthunt.com/products/duckfightclub",
-      "published": "2026-09-08T10:02:09-07:00",
-      "author": "Nicolas Grenié",
-      "tagline": "Train your MicroDuck and win the Golden Beak Belt",
-      "post_id": "1244990",
-      "summary_zh": "訓練你的 MicroDuck 並參與對戰競賽以贏取 Golden Beak Belt 的遊戲平台。",
-      "image_url": "https://ph-files.imgix.net/2096026f-93b2-437a-8a63-ce3c8cf6690c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/92e241ed-7453-497d-b4d3-6ac8108ef71c.jpeg?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Frigade Assist API",
-      "url": "https://www.producthunt.com/products/frigade",
-      "published": "2026-09-08T15:03:06-07:00",
-      "author": "Christian Mathiesen",
-      "tagline": "Give your AI agent guides that show users where to click",
-      "post_id": "1245183",
-      "summary_zh": "為 AI agent 提供視覺化指引功能，引導使用者在介面上進行正確的操作點擊。",
-      "image_url": "https://ph-files.imgix.net/84ddee6e-8d56-4283-abb1-d7d8f70a5d60.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/43bcbd5f-47ca-4483-b2d9-a068a37014c5.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Basedash in Español Français & Português",
-      "url": "https://www.producthunt.com/products/basedash",
-      "published": "2026-09-08T14:43:49-07:00",
-      "author": "Max Musing",
-      "tagline": "Work with your data in your language",
-      "post_id": "1245173",
-      "summary_zh": "Basedash 新增西班牙文、法文與葡萄牙文介面，讓使用者以母語操作資料管理工具。",
-      "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/ef009db3-6e9f-42d2-9e81-a38ca092dd78.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Gojo",
+      "url": "https://www.producthunt.com/products/gojo",
+      "published": "2026-09-08T20:41:05-07:00",
+      "author": "Roshan D",
+      "tagline": "Local dictation and everyday Mac tools in your notch",
+      "post_id": "1245327",
+      "summary_zh": "整合本地語音聽寫與常用工具的 Mac 應用程式,直接顯示在 MacBook 的瀏海區域。",
+      "image_url": "https://ph-files.imgix.net/12cb0e30-b039-4ad4-9c30-e488fc5f06c9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3d7cb94b-6079-46ec-abe4-e4b698dc4a41.jpeg?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -79,38 +79,27 @@
   },
   "podcast_briefs": [
     {
-      "episode_id": "2397649311",
-      "title": "2026/9/10(四)摺疊機登場 蘋果救美股? 市場飽和 蘋果能創造 下一個換機潮？【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-10",
-      "published": "2026-09-10",
-      "channel": "游庭皓的財經皓角",
+      "episode_id": "038842234375",
+      "title": "EP335. 蘋果摺疊手機登場、大 Agent 時代來了、Vibe Coding 101 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/095e9e51-2984-458c-81d7-038842234375",
+      "published": "2026-09-11",
+      "channel": "M觀點",
       "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為蘋果推出折疊機iPhone Duo與iPhone 18 Pro系列，試圖以高階化策略對抗記憶體成本通膨，但全球手機與汽車市場已進入存量市場，增長動能遠不及AI基礎建設，投資人應留意相關股票報酬率可能落後AI產業。\n\n## 1. 蘋果秋季發表會：折疊機正式登場，價格策略差異大\n- **iPhone Duo首款折疊機亮相：** 展開7.6吋、外螢幕5.4吋，搭載A20 Pro與雙電池鈦金屬機身，美國售價1,999美元起，但台灣售價74,900–118,900元台幣（換算匯率約36–37）。\n- **iPhone 18 Pro系列漲價幅度溫和：** Pro起跳44,900元、Pro Max 49,900元，美國售價較前代上漲約100美元；搭載台積電2nm製程A20 Pro晶片、可變光圈相機，取消基本款改推三級產品線（Pro / Pro Max / Duo）。\n- **發表會重點聚焦折疊機：** 80分鐘發表會中折疊機占30分鐘，蘋果視為戰略重點而非實驗性產品；折疊機厚度展開5.2mm（比iPhone Air的5.64mm更薄）、折起11.3mm。\n- **市場定位與競爭：** 蘋果折疊機售價低於市場預期（原估2,500–3,000美元），可能對三星（Galaxy Z Flow 8售1,199美元）、華為（三折機XT2）等品牌形成壓力。\n\n## 2. 科技通膨全面來襲：記憶體漲價推升消費電子產品成本\n- **記憶體價格成為通膨主因：** 電腦零組件PPI（生產者物價指數）2026年7月年增87%，電腦價格消費端年增7.5%（台灣8月CPI整體2.04%、外食費3.17%），成本向下游傳導持續進行中。\n- **多數3C產品大幅漲價：** Steam Deck OLED 1TB漲45%、Xbox 1TB漲32%、PlayStation 5 Pro漲20%、Switch 2漲11%、MacBook Pro/Neo漲15–18%；相較之下iPhone漲幅溫和。\n- **蘋果以高階化對抗成本壓力：** 蘋果研發費用占毛利約17%（低於Amazon 30%、Google 25%、Meta 34%），透過推出高單價折疊機與提升產品組合（Pro系列、AirPods等周邊）維持毛利率，而非單純衝高出貨量。\n\n## 3. 全球手機市場陷入衰退：iPhone 17逆勢表現成贏家\n- **手機市場大幅萎縮：** 2024年全球手機銷售12.1億支、2025年12.5億支，2026年預估暴跌至10.8億支（年減14%）；蘋果iPhone出貨預估2026年2.34億支（年減1%）、2027年2.26億支，相對抗跌。\n- **iPhone 17上半年銷售強勁：** 按Counterpoint統計，i17上市首年全球批發營收1,700億美元、較i16成長11%，2026上半年全球最暢銷前三名均為i17系列；中國市場營收較前代成長35%，華為重返中國市占第一（23%）但蘋果以18%居次且年增23%。\n- **小米等中低價品牌受創：** 小米中國出貨年減21%跌幅最大，因其低毛利策略無法吸收記憶體成本；相較下蘋果擁有品牌溢價與約50%毛利率，可犧牲部分毛利維持競爭力。\n- **折疊機市場快速成長：** 2024年全球折疊機出貨2,670萬支、2025年3,800萬支、2026年預估4,700萬支（年增43%）、2027年5,900萬支，蘋果進場將加速市場接受度。\n\n## 4. 全球汽車市場同陷存量競爭：中國品牌席捲歐洲、歐系車廠大裁員\n- **中國電動車攻占歐洲：** 比亞迪、小米、理想、華為問界加速進軍歐洲；2026上半年中國品牌在歐洲市占9%（2020年為零）、英國15%，5月一度每10輛新車就有1輛來自中國；比亞迪全球市占21%超越特斯拉（7.5%）。\n- **歐系豪華車廠獲利崩潰：** 福斯預估2030年前裁減5萬間接職位（最終可能達10萬人）、BMW裁8,000人、保時捷裁5,000人、捷豹裁4,000人；BMW將2026年汽車事業營益率從4–6%下修至1–3%，保時捷2025年營益率僅1%（法拉利超過20%）。\n- **大幅降價求生存：** BMW中國IX3最高優惠16.69萬人民幣（降47%）、賓士EQA腰斬降23.9萬人民幣（降50%）、保時捷全球銷量2025年下滑10%且營收要到2028年才能回到2024年的400億歐元水準。\n- **全球車市高點已過：** 2018年全球汽車銷量達9,500萬輛高峰後再未突破，2026年即便下半年銷量與上半年持平也無法創新高，市場完全飽和。\n\n## 5. 存量市場投資困境：蘋果市值被Nvidia超越，AI基建才是增量戰場\n- **蘋果失去市值龍頭地位：** 蘋果自2015年起長居全美市值第一，但Nvidia以5.4兆美元市值超越蘋果（4.5兆）已超過一年；主講人認為手機存量市場增長遠不及AI基礎建設，未來Nvidia、Alphabet、微軟、Amazon、台積電市值翻倍機率均高於蘋果。\n- **台灣靠AI伺服器獲勝：** 台灣不依賴手機或汽車零組件，而是AI伺服器供應鏈，因此在本輪科技股行情中表現較佳（儘管台股2026/9/10下跌347點至46,848點）。\n- **存量市場報酬率有限：** 主講人強調任何存量市場股票（手機、汽車）中長期資本報酬率都會落後AI產業，即便企業在存量競爭中勝出（如蘋果i17銷售佳、比亞迪市占第一），但整體市場萎縮下難有超額報酬。\n\n## 結論與後市展望\n主講人認為2026年投資必須區分「增量市場」與「存量市場」：全球手機與汽車已完全進入存量競爭（手機2026年銷量年減14%、汽車高點停留在2018年），即便蘋果推出折疊機、比亞迪攻占歐洲，也只是在有限市場中重新分配市占率。相較下AI基礎建設（伺服器、晶片）仍處增量爆發期，台灣供應鏈因專注此領域而受益。主講人建議投資人留意：在存量市場中長期持有龍頭股（如蘋果、BMW），其報酬率可能顯著落後AI產業；記憶體通膨將持續壓縮消費電子與汽車廠商毛利率，唯有具備品牌溢價與規模優勢者（蘋果、三星）能透過高階化策略生存，中低價品牌（小米、歐系平價車廠）將加速淘汰。後續需追蹤AI伺服器出貨量能否帶動自駕車落地與3C產品轉型，這將決定存量市場能否重啟成長動能。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-10"
+      "summary_md": "## 一句話總結\n主講人認為蘋果 iPhone Duo 折疊機雖未帶來驚喜但會在折疊機市場中最成功，並深入探討大 Agent 時代的三大工具（Grokbot、MetaMuse、Project OPPO）以及 Vibe Coding 如何從「玩具」進化為真正可商業化的開發典範。\n\n## 1. 蘋果 iPhone Duo 折疊手機：高價但具市場潛力\n- **產品定位與規格：** 7.6 吋展開螢幕、A20 Pro 晶片、厚度 5.2mm（展開）/11.3mm（折疊），採護照型設計而非瘦長型。\n- **定價策略：** 美國 1,999–3,199 美元，台灣 74,900–118,900 元（匯率約 1:37.4，高於市場但符合蘋果慣例）。\n- **市場預測：** 主講人認為雖折疊機僅佔整體手機出貨 2%，但 iPhone Duo 可能單機銷量超越其他品牌折疊機總和，IDC 預估首年 1,000 萬台，主講人估 1,200–1,300 萬台；果粉經濟實力強且將其視為「接近首富的消費體驗」。\n- **標準版 iPhone 18 延後：** 因記憶體供應緊張，優先供應毛利更高的 Pro 系列，可能延至 2026 Q1 春季發布。\n\n## 2. 大 Agent 時代 2.0：從本地部署到雲端常駐\n- **Grokbot（X 推出）：** 主講人過去兩週重度使用，每月 30 美元可設定多個雲端 AI 員工（科技新聞整理、Email 回覆提醒、行程助理、M 觀點數據助理等），透過 Telegram Botfather 整合實現 24 小時自動執行；Premium Plus 會員已可使用。\n- **MetaMuse（Meta 推出）：** 針對日常生活任務優化（訂票、訂餐廳、購物刷卡），提供每週 1 億 Token 免費額度，目前僅美國推出但主講人預估 10 月底前台灣可用；強調 end-to-end 加密且與 Meta 智能眼鏡整合。\n- **Project OPPO（微軟推出）：** 為 Copilot 配備 Windows 365 雲端電腦，專為企業資安環境設計，內建權限控管（authorization/authentication），解決企業內部 AI Agent 部署難題；主講人認為雖技術不最強但能真正進入大型企業造成改變。\n- **與 2025 年初差異：** 從需自行準備電腦跑 OpenCloud/Codex/Cloud Code，進化為雲端廠商直接提供運算資源，使用者只需下達命令。\n\n## 3. Vibe Coding 現況與挑戰：從玩具到商業產品的鴻溝\n- **定義演變：** 2025 年初 Andrej Karpathy 定義為「不看 code、純 prompting 交給 AI」的週末專案典範，2026 年已成軟體工程師主流工作方式；Anthropic Cloud Code 創辦人 Boris Cherney 表示「大部分軟體工程已被解決」。\n- **核心挑戰：** 一般人雖能用 AI 生成可運作程式，但缺乏軟體工程基本功（前後端架構、API 概念、雲端部署、資安防濫用、金流串接等），導致無法通過正式營運考驗；哈利強調「能驗證成果」比「AI 能做什麼」更關鍵。\n- **商業化路徑：** 哈利建議瞄準利基市場（niche market）而非通用工具，因市場破碎、競爭分散，只要成為「使用者第一個發現的產品」即可生存（如其團隊的「竹字寶」字幕工具已獲利但非市場最佳）。\n- **必修知識優先級：** 若只能選一項，哈利認為「部署概念」最關鍵，因這是從「自己能用」到「所有人能用」的第一道牆；其課程涵蓋 8 模組（軟體演變、前端、後端、現代工具、Vibe Coding 實操、部署、資安、商業定價）。\n\n## 4. 職場衝擊與人才需求：T 型通才成趨勢\n- **職能邊界模糊：** Meta、Anthropic 等 AI 前線公司已出現 Designer/PM 直接寫 code 貢獻 codebase 現象，Boris Cherney 明確表示在找「PM + 技術底子」的人才。\n- **專業工程師仍存在：** 哈利認為大規模複雜系統（上千萬用戶、進階資安、GPU Kernel 優化等）仍需專業軟體工程師，但一般 web 開發會成為「所有人都會的技能」（如 Excel/Office）。\n- **Builder 分工新模式：** 有企業開始按「0→1 Pilot 建造者」、「1→10 規模化工程師」、「客戶對接者」分類而非傳統 PM/Designer/工程師劃分。\n- **學習投資報酬率：** 哈利強調非技術人員學軟體工程基本功是當前 ROI 最高的學習，因可跨越「會用工具」與「做出可用產品」之間的鴻溝。\n\n## 5. 氛圍學院課程特色：AI 時代的互動式教學\n- **開發背景：** 哈利與前 Google 矽谷 8 年工程師 Kai 共同打造，耗時 8 個月，整個產品無任何一行 code 是人工撰寫（完全 Vibe Coding 產出）。\n- **互動式設計：** 80% 內容為互動體驗，如模擬 LINE 界面讓學員操作時即時看到前後端資料傳輸過程，突破傳統影片課程的抽象感；內建 AI 助教掌握所有學習脈絡可即時解答。\n- **市場驗證：** 上架一週已超過 2,700 人購課、評分 4.9，提供 10 個免費單元試用，購課即解鎖前三模組（前端、後端、軟體演變）全部內容。\n- **成本革命：** 主講人認為過去製作 3D 人體器官互動教材需 10–20 萬美元，AI 時代可低成本大量生成，類比 YouTube 讓影片製作民主化。\n\n## 結論與後市展望\n主講人認為 iPhone Duo 將憑藉果粉購買力與品牌象徵意義在折疊機市場勝出；大 Agent 時代已從「自己架設伺服器」進入「雲端廠商提供運算資源」的 2.0 階段，Grokbot/MetaMuse/Project OPPO 各有擅場；Vibe Coding 雖已能產出可運作程式，但「軟體工程基本功」仍是從玩具邁向商業化的關鍵門檻，且至少在未來 2–3 年（起點來臨前）此知識不會過時。主講人強調職場將走向 T 型通才，非技術人員需補強軟體概念、工程師需跨足 PM/設計思維，而利基市場策略（如巷口牛肉湯邏輯）可讓小團隊在 AI 民主化浪潮中生存獲利。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-09-11"
     }
   ],
   "article_briefs": [
     {
-      "title": "Give your next campaign a better path to purchase with RevenueCat Funnels",
-      "url": "https://www.revenuecat.com/blog/growth/give-your-next-campaign-a-better-path-to-purchase-with-revenuecat-funnels",
+      "title": "Filling the silence: the post-subscription mistake that quietly causes churn",
+      "url": "https://www.revenuecat.com/blog/growth/premium-win-lifecycle-messaging",
       "published": "2026-09-10",
       "author": "RevenueCat",
       "handle": "revenuecat",
       "source": "RevenueCat Blog",
       "label": "訂閱成長",
-      "summary_md": "## 一句話總結\nRevenueCat 推出 Funnels 功能更新，讓開發者能在 App Store 外建立 web-to-app 轉換流程，透過 AI 編輯器、現成互動元件與 Firebase 整合，快速測試引導式網頁旅程能否提升付費轉換。\n\n- **AI 編輯器加速初版設計：** 作者指出開發者可用自然語言描述、截圖或設計規格來生成或修改漏斗頁面，新版編輯器更擅長處理開放式提示、複雜排版、文案改寫與元件重組，讓開發者快速取得可測試的草稿，再透過視覺編輯器調整細節。\n\n- **預設互動元件降低開發成本：** 新增 bottom sheet 元件（含「查看所有方案」範例）與 loader 元件（支援圓形／線性進度動畫、百分比指示、分階段載入、計時器觸發），讓開發者無需從頭配置就能實作方案比較、推薦流程與處理畫面。\n\n- **Firebase Authentication 整合簡化註冊流程：** 作者說明若 App 使用 Firebase Authentication，訪客可在漏斗內直接透過 Google 登入或 Email／密碼註冊，無需跳轉獨立登入頁；已驗證使用者會自動跳過此步驟，確保購買後能以相同帳號登入 App，並在未購買時保留 Email 供後續行銷。\n\n- **自訂元件支援進階互動：** 開發者可上傳包含 HTML、CSS、JavaScript 的 ZIP 檔案建立自訂元件，支援 Lottie／Rive 動畫、互動式比較表、計算機、Canvas／WebGL 體驗等，RevenueCat 負責驗證與託管；購買關鍵元素（package、購買按鈕）仍由 RevenueCat 原生處理，確保核心流程穩定。\n\n- **聚焦廣告與創作者流量轉換測試：** 作者認為付費廣告與創作者合作會在使用者抵達 App Store 前就接觸潛在客戶，web-to-app 漏斗讓開發者能延續該對話、解釋價值、了解訪客需求、引導相關優惠並在開啟 App 前完成購買；RevenueCat Funnels 讓開發者能在不增加完整 web growth stack 的情況下，快速測試引導式網頁旅程能否帶來更多付費客戶。\n\n## 對設計／產品的啟示\n作者建議開發者若已投放廣告或進行創作者合作，Funnels 提供一個聚焦的下一步：將點擊轉為從行銷承諾到購買的引導旅程。這些更新讓非技術團隊也能快速迭代實驗——AI 生成初稿、現成元件處理常見互動、Firebase 接上既有驗證系統、自訂元件擴充特殊需求——核心策略是降低從想法到可測試版本的時間成本，讓團隊專注於驗證「引導式網頁體驗能否提升轉換」這個命題，而非陷入技術實作。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-10"
-    },
-    {
-      "title": "Information Foraging Theory: Why Users Hunt, Snack, Leave, and Farm Content",
-      "url": "https://www.uxtigers.com/post/information-foraging",
-      "published": "2026-09-09",
-      "author": "Jakob Nielsen",
-      "handle": "jakobnielsen",
-      "source": "UX Tigers",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為資訊覓食理論（Information Foraging Theory）是解釋使用者行為最重要的概念——使用者如同覓食動物，追尋資訊氣味、依邊際價值定理決定何時離開，而 AI 時代的「氣味造假」正將網路推向生態崩潰。\n\n## 核心要點\n\n- **理論基礎與預測力：** 1995 年 Xerox PARC 的 Peter Pirolli 和 Stuart Card 提出此理論，源自生物學的最佳覓食理論。作者指出這套理論經歷三次資訊環境革命（早期網路、Google 時代、生成式 AI）核心不變，能從第一原則解釋使用者為何做某些事。1999 年基礎論文已被引用 3,699 次，實務影響遠超學術引用。\n\n- **邊際價值定理的應用：** 作者在 2003 年就預測 Google 會讓使用者更快離開網站——因為找到好網站的成本降至「一次查詢+一次點擊」，環境平均收益率上升，使用者對每個網站的要求門檻提高。2025 年 Pew Research 數據證實：有 AI 摘要時，只有 8% 使用者點擊一般搜尋結果（無摘要時為 15%），26% 直接結束瀏覽（無摘要時為 16%）。\n\n- **資訊氣味決定點擊：** 作者研究顯示使用者根據連結標籤的**前 2 個字**判斷目的地。當氣味與實際內容不符會產生「回力鏢瀏覽」（使用者返回前頁），多次回力鏢導致跳出。2001 年 PARC 研究已能從周圍文字計算每個連結的氣味，預測使用者路徑。\n\n- **演化陷阱與氣味造假：** 作者以生物學類比警告：海洋塑膠對海鳥聞起來像晚餐（因上面生長的藻類釋放二甲基硫），AI 垃圾內容對使用者聞起來像專業知識。生成式 AI 已將流暢散文、自信語氣、註腳等品質線索的成本降至零，進行工業規模的「氣味洗白」。2022 年研究顯示，相信陰謀論的人在覓食任務中會取樣較少資訊就做決定——信念本身是具成癮性的氣味。\n\n- **豐富化與社群覓食：** 作者說明使用者不只被動接受環境，還會投資時間改造資訊環境（標籤、書籤、評分）以提高未來覓食效率——但前提是改善後的收益超過投入時間。就像螞蟻透過費洛蒙軌跡、蜜蜂透過搖擺舞分享覓食資訊，人類透過社群書籤、評論系統進行社群覓食。作者幽默比喻：「我們每個擁有 2000 個未讀書籤的人都是松鼠。」\n\n- **AI Agent 的掠食者危機：** 作者的網站數據顯示，2025 年 10 月 AI 系統每帶來 1 位訪客就爬取了 **207 個頁面**。當掠食者（AI Agent）消耗內容的速度超過創作者產出且零回報時，創作者將停止「耕種」，生態系統將崩潰。作者預測到 2030 年，Agent 執行的開放網路資訊覓食將超過人類的一半，網站必須學會「同時服務人類與機器覓食者」。\n\n## 對設計／產品的啟示\n\n作者提出 15 項實務指引，核心建議包括：(1) **前置氣味** ——將資訊承載詞放在連結標籤前 2 個字；(2) **當零食** ——在首屏 30 秒內交付主要價值，因競爭對手是使用者的下一次搜尋；(3) **提高營養密度** ——獲利性 = 價值 ÷ 處理時間，削減字數與載入時間；(4) **讓可信度與相關性同樣便宜** ——作者、日期、來源必須置於決策點旁，否則會被忽略；(5) **支援試吃** ——提供預覽、可展開摘要，讓使用者在投入完整處理時間前便宜地取樣；(6) **暴露 Agent 覓食軌跡** ——以一目了然的形式（非 40 頁逐字稿）顯示來源、涵蓋範圍與信心度；(7) **設計誠實訊號** ——像蜜導鳥與採蜜人的雙向誠實訊號，必須在 Agent 經濟中找出「付錢給蜜蜂」的機制，否則蜂巢將死。作者警告：氣味造假短期有效但長期致命，生態崩潰前必須設計出新的共生機制。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-10"
+      "summary_md": "## 一句話總結\n作者認為多數訂閱制 App 在用戶付費後就停止溝通，導致用戶找不到付費功能、忘記訂閱價值，最終在首月就流失——應將轉換視為留存旅程的起點，用「付費再導引」（premium re-onboarding）引導用戶在前七天內體驗到第一個「付費勝利時刻」。\n\n- **早期流失集中在付費當下：** 根據《2026 訂閱 App 現況報告》，84% 的三天試用取消與 64% 的七天試用取消發生在第 0–1 天之間；近半月訂用戶與多數年訂用戶連一次續訂都沒有。作者指出這不是產品品質問題，而是「用戶期待」與「實際體驗」之間的落差，加上訂閱疲勞（許多人付費後就立刻關閉自動續訂以求心安）。\n\n- **付費後的沉默是流失主因：** 作者觀察到三種常見問題：(1) 升級用戶找不到付費功能（freemium 模式下尤其明顯，因沒人告訴他們「解鎖了什麼」）；(2) 多數 App 在轉換後就停止生命週期訊息；(3) 團隊誤以為「已導引過了就不需再管」，忽略付費用戶與產品的關係已完全改變，需要重新歡迎與指引。\n\n- **付費再導引的三大任務：** 作者建議用一封歡迎訊息回答三個問題：付費功能在哪裡、如何使用、我的決定對嗎。Slack 與 Monday.com 的案例示範了如何在試用開始時立刻列出解鎖功能、指向第一步行動（如「建立第一個工作區」），而非只說「歡迎訂閱」。\n\n- **定義你的「付費勝利時刻」：** 作者建議留存團隊先找出自家產品的 premium win——例如 Strava 是看到訓練分析、Calm 是完成睡眠故事、Quizlet 是用到測驗模式——然後設計七天旅程：第 0 天歡迎並指向第一步，第 1–2 天推向勝利時刻，第 3 天慶祝進度並指引下一步，第 5–6 天依使用行為推薦功能。\n\n- **長期生命週期訊息需「重新浮現價值」：** 作者舉四個例子：Lifesum 在功能改版時通知用戶、Netflix 用個人化推薦降低決策疲勞、Dropbox 依使用情境推薦未用過的功能、Strava 用 Local Legend 徽章強化用戶身份認同。作者強調不是每天都發訊息，而是在「價值可能被遺忘」的時刻出現（付費後、互動下滑、續訂前）。\n\n- **別在活躍用戶身上過度打擾：** 作者提醒成熟的留存計畫是「在對的時刻說對的話」，若用戶已養成健康習慣就別干擾；只在轉換後、互動下滑、續訂將至等價值風險浮現時介入。「付費後的沉默才是早期流失的溫床。」\n\n## 對設計／產品的啟示\n作者建議將轉換當作關係的開始，而非漏斗終點。具體做法：(1) 設計一個簡單的七天付費歡迎旅程（歡迎訊息 + 第一個行動提示 + 第一週檢查點）；(2) 追蹤前 30 天的取消率與首週付費功能觸及率；(3) 定義自家產品的「付費勝利時刻」，並在前幾天內引導用戶達成。這套框架對 freemium、試用制與零接觸購買（instant buyer）的產品都適用，但需依用戶類型調整訊息深度。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-11"
     }
   ]
 }
