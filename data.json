@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-11",
-  "date_display": "2026 年 09 月 11 日",
-  "generated_at": "2026-09-11T08:55:56.816375+08:00",
+  "date": "2026-09-12",
+  "date_display": "2026 年 09 月 12 日",
+  "generated_at": "2026-09-12T08:55:57.670413+08:00",
   "top_products": [
     {
-      "title": "Whip",
-      "url": "https://www.producthunt.com/products/whip",
-      "published": "2026-09-09T08:57:03-07:00",
-      "author": "Agam Jain",
-      "tagline": "Youtube for interactive web experiences",
-      "post_id": "1245936",
-      "summary_zh": "一個用於建立和分享互動式網頁體驗的平台，類似 YouTube 但專注於互動內容而非傳統影片。",
-      "image_url": "https://ph-files.imgix.net/05c7e17c-f497-49e9-b1af-1497ad120f45.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/b5ad1e06-fce2-4eb9-9a07-dbc2ffd9e4e3.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Cadenya",
+      "url": "https://www.producthunt.com/products/cadenya-the-agent-runtime",
+      "published": "2026-09-10T16:21:08-07:00",
+      "author": "Robert Ross",
+      "tagline": "A hosted agentic loop to bring agentic possibilities to life",
+      "post_id": "1247121",
+      "summary_zh": "提供託管式 agentic loop 服務，協助開發者實現 AI 代理應用場景。",
+      "image_url": "https://ph-files.imgix.net/42e3f2fc-c900-4210-b947-452adee9167c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/2a00643b-72ca-4645-a024-4ba6a3390379.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Vibe Eyes",
-      "url": "https://www.producthunt.com/products/vibe-eyes",
-      "published": "2026-09-09T12:08:08-07:00",
-      "author": "Vibe Eyes",
-      "tagline": "Put your pets in your macOS menu bar",
-      "post_id": "1246071",
-      "summary_zh": "將寵物圖示放置在 macOS 選單列的工具，讓使用者在工作時能隨時看到寵物。",
-      "image_url": "https://ph-files.imgix.net/5ed76bca-e3b9-45ac-90d1-3d559c466ab1.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/360d8c1b-c226-42a6-94ea-52d957a06664.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Jackalope",
+      "url": "https://www.producthunt.com/products/jackalope",
+      "published": "2026-09-10T15:46:57-07:00",
+      "author": "Caden Sumner",
+      "tagline": "Codex, Claude Code, Grok, + OpenCode in one shared workspace",
+      "post_id": "1247107",
+      "summary_zh": "整合 Codex、Claude Code、Grok 與 OpenCode 的共享工作空間，讓開發者在單一平台使用多種 AI 編碼工具。",
+      "image_url": "https://ph-files.imgix.net/f42f8a0c-3d1d-4bb4-9eba-0cb57d89eddf.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/eb469ba7-0dc4-4ee7-9d31-c26e15cd29b1.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Desert Ant Labs",
-      "url": "https://www.producthunt.com/products/desert-ant-labs",
-      "published": "2026-09-09T12:54:29-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "Small specialized AI models for speech, text, vision",
-      "post_id": "1246107",
-      "summary_zh": "提供專門針對語音、文字和視覺處理的小型 AI 模型，適合需要輕量化 AI 解決方案的開發者。",
-      "image_url": "https://ph-files.imgix.net/14d7a8d6-272a-4bbe-98dc-238db9119518.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/48ad1b82-b262-4b6d-9a82-c11c675d5474.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "GLYPH Immersive",
+      "url": "https://www.producthunt.com/products/glyph-immersive",
+      "published": "2026-09-10T13:57:20-07:00",
+      "author": "Kate Andersen",
+      "tagline": "a free tool for modular grid lettering",
+      "post_id": "1247047",
+      "summary_zh": "免費的模組化網格字體設計工具，適合進行字母排版創作。",
+      "image_url": "https://ph-files.imgix.net/280ecd6f-fa64-4f6c-a21f-a863903632d4.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ece774b5-30b0-43a1-b712-74549a3c5f00.gif?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "hob",
-      "url": "https://www.producthunt.com/products/hob-2",
-      "published": "2026-09-09T13:07:52-07:00",
-      "author": "fmerian",
-      "tagline": "The professional workspace for your whole agent stack",
-      "post_id": "1246116",
-      "summary_zh": "為 AI agent 工作流程設計的專業工作空間，整合管理多個 agent 的開發與部署環境。",
-      "image_url": "https://ph-files.imgix.net/5a297741-8d43-45c9-8fcb-0e45d5c67d5a.x-icon?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/520ba4a6-f741-441e-945e-e5f5726ef6fc.png?auto=format&w=960&h=540&fit=crop"
+      "title": "chat-recall",
+      "url": "https://www.producthunt.com/products/chat-recall",
+      "published": "2026-09-10T10:39:29-07:00",
+      "author": "darkkraft",
+      "tagline": "Ctrl+F for every conversation you've had with an AI",
+      "post_id": "1246911",
+      "summary_zh": "為所有 AI 對話提供搜尋功能，讓使用者快速找到過往與 AI 的交流內容。",
+      "image_url": "https://ph-files.imgix.net/9adbeb3c-3ec5-4cb5-8dfa-8d6c0d0a9236.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/96dfb5de-3f9a-40a7-8c94-a8637104f8c7.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Drive",
-      "url": "https://www.producthunt.com/products/drive-gforce-telemetry",
-      "published": "2026-09-09T09:20:28-07:00",
-      "author": "Andy Kim",
-      "tagline": "Vehicle telemetry for your next weekend drive with LPR alert",
-      "post_id": "1245959",
-      "summary_zh": "提供車輛行駛數據追蹤與車牌辨識警示功能，適合週末駕駛愛好者使用的工具。",
-      "image_url": "https://ph-files.imgix.net/cc478bfa-e362-4c3e-a040-b8fc620d4ce4.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/6df19b5e-729c-4154-9ae5-9fafa926757a.png?auto=format&w=960&h=540&fit=crop"
+      "title": "sizeless",
+      "url": "https://www.producthunt.com/products/sizeless",
+      "published": "2026-09-10T10:55:17-07:00",
+      "author": "Cornelius von Einem",
+      "tagline": "Spatial AI for underground infrastructure",
+      "post_id": "1246922",
+      "summary_zh": "運用空間 AI 技術分析地下基礎設施，協助工程與都市規劃領域進行管理。",
+      "image_url": "https://ph-files.imgix.net/c1c80884-83ae-41c5-9b59-847023851583.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/f364a108-f9d6-45de-8f2f-d1b210a6b0ee.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Gojo",
-      "url": "https://www.producthunt.com/products/gojo",
-      "published": "2026-09-08T20:41:05-07:00",
-      "author": "Roshan D",
-      "tagline": "Local dictation and everyday Mac tools in your notch",
-      "post_id": "1245327",
-      "summary_zh": "整合本地語音聽寫與常用工具的 Mac 應用程式,直接顯示在 MacBook 的瀏海區域。",
-      "image_url": "https://ph-files.imgix.net/12cb0e30-b039-4ad4-9c30-e488fc5f06c9.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/3d7cb94b-6079-46ec-abe4-e4b698dc4a41.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Formesign",
+      "url": "https://www.producthunt.com/products/formesign",
+      "published": "2026-09-10T05:26:06-07:00",
+      "author": "Mani Doraisamy",
+      "tagline": "Add legally binding signature to your Google Form",
+      "post_id": "1246712",
+      "summary_zh": "為 Google Form 加入具法律效力的電子簽名功能。",
+      "image_url": "https://ph-files.imgix.net/99283b15-c470-4c66-b783-728f8a7aea3e.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/bfeb49c7-c04a-4bb6-83cd-b18c5ffddda6.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,39 +77,40 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "2398406793",
-      "title": "2026/9/11(五)油價破百 債券失火!股市撿便宜?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-11",
-      "published": "2026-09-11",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為債券市場因 AI 投資搶錢、油價破百與財政壓力而「失火」，但股市僅「降溫」未崩盤，若出現大跌反而是 AI 樂觀論者的布局良機。\n\n## 1. 油價突破與通膨壓力：能源推升生產者物價\n- **布蘭特原油突破 100 美元：** 昨日上漲 6.42 美元（漲幅 6.34%）收 107 美元，西德州原油漲至 102.48 美元，創 5 個月新高;主因胡塞武裝攻擊與中東局勢升溫。\n- **生產者物價指數 (PPI) 攀升：** 美國 8 月 PPI 月增 0.4%、年增 5.4%,其中能源價格單月大漲 4.2%、柴油暴增 24%,貢獻三分之一商品價格漲幅。\n- **通膨預期與升息壓力：** 市場開始預期下週聯準會可能升息,儘管主講人認為仍有變數,但油價突破 100 美元關卡已讓市場迫使聯準會表態。\n\n## 2. 美債市場危機：財政部回購無效、殖利率飆升\n- **10 年期公債殖利率逼近 5%：** 從 4.8% 一路衝向 4.9%,20 年期與 30 年期殖利率同步走高;財政部宣布首輪回購 60 億美元反成「利多出盡」。\n- **回購規模杯水車薪：** 60 億美元僅佔美債總額 0.02%,且僅將流動性差的舊債換成新債,未真正釋放資金;財長貝森特「不要跟我對做」論調遭市場考驗。\n- **AI 投資債搶走買盤：** 2026 年 AI 相關投資等級債發行規模達 3,200 億美元（2024 年不到 100 億）,大量吸走原本應流向美國公債的資金,且 2027 年發債需求仍強勁。\n\n## 3. 實質利率上升與資金稀缺：根本原因是 AI 搶錢\n- **實質利率從 1.72% 升至 2.43%：** 美國 10 年期實質殖利率（扣除通膨）今年持續走高,但主講人強調這次不是聯準會暴力升息,而是 AI 資本支出與企業互相競爭資金。\n- **全球資本競爭激烈：** AI 資料中心、晶片投資需求龐大,讓資本本身變貴;解釋了為何油價大漲、通膨升溫時實質利率仍上升（正常應下降）。\n- **對沖基金仍追逐 AI：** 儘管股市高位震盪,多數對沖基金持續追逐 AI 與半導體,量能雖不及 5–6 月高點但比 7 月好;美銀統計基金手上仍有 1,630 億美元現金,顯示市場「不是沒錢,是不敢進場」。\n\n## 4. 全球債務壓力與財政風險：日本、法國成重災區\n- **日本執行史上最大外匯干預：** 上月動用 15.4 兆日元（986 億美元）支撐日元;10 年期公債殖利率突破 3%（1990 年代中期以來新高）,日本央行從去年開始縮表、持有公債已減少 47.8 兆日元（1997 年來最大降幅）。\n- **法國成歐洲最脆弱國家：** 10 年期公債殖利率衝至 2008 年來新高;2027 年財政赤字佔 GDP 5.1%、政府債務佔比 116%,56% 國債由海外投資人持有,若遭狙擊風險極高。\n- **美國赤字是日本 4–5 倍：** 美國今年預算赤字佔 GDP 7.5%（日本僅 2%）,且 10 年期殖利率接近 5%,遠高於日本;全球政府 2024 年債務利息已超過 2 兆美元（佔 GDP 3%）。\n\n## 5. 歐洲政治右轉與經濟困境：德國「去工業化」警訊\n- **歐洲央行升息至 2.5%：** 昨日決定升息以對抗通膨（8 月 CPI 年增從 2.9% 升至 3.3%）,但總裁拉加德表示 9 月升息後不一定繼續。\n- **德國另類選擇黨 (AfD) 躍升第一大黨：** 東部議會選舉拿下 44% 選票（2021 年翻倍）,推動反移民、德國優先政策;瑞典民主黨民調支持率也達 30–35%,歐洲政治版圖明顯右轉。\n- **德國工業產出比 2010 年還低：** 主講人指出德國因綠色轉型、高監管、高能源成本導致「去工業化」;中國工業自動化龍頭匯川科技預估 2026–2027 年將取代西門子成全球最大工業巨頭,歐洲既錯過 AI 列車、又在傳統工業被中國碾壓。\n\n## 6. 股市評估與投資啟示：降溫非崩盤、大跌反成機會\n- **股市僅「降溫」未「失火」：** 道瓊跌 316 點（-0.6%）、標普跌 44 點（-0.58%）、費半跌 317 點（-2.6%）,但仍在高位盤旋;VIX 恐慌指數仍處低位,市場幾乎無避險情緒。\n- **標普美股盈餘 2026 年 Q2 成長 30%：** 主講人強調基本面強勁,基金手上現金充裕,若出現大跌反而是「存股族」與 ETF 買盤進場時機。\n- **高利率可與高估值並存：** 主講人認為當前並非「高估值」,從實質本益比看甚至是「低估值」;債券失火不代表股市泡沫破滅,泡沫破滅唯一理由是「AI 算力過剩、無法提升生產力」,而非利率或油價。\n- **川普急推「普發 5,000 美元」：** 宣布若共和黨期中選舉守住參眾兩院,將對每位成年公民發放 5,000 美元「川普紅利」(約 15 萬台幣),財政成本恐破 1 兆美元;支持率跌至執政以來低點,眾議院預估難守住、參議院五五波。\n\n## 結論與後市展望\n主講人強調「市場不是線性關係」:債券失火不必然引發股市崩盤,反而可能因 AI 生產力爆發救回國債市場。當前美債殖利率飆升、油價破百的根本原因是「AI 投資搶走資金、讓資本變貴」,而非單純通膨或財政失控。對 AI 科技樂觀論者而言,若股市因債市壓力出現大跌,反而是難得的中期布局良機——前提是 AI 算力未過剩、仍能持續提升生產力。投資人應理解多重因子交錯的複雜性,避免提早為市場「寫好劇本」,保持開放觀察並善用「減法哲學」(刪減不必要部位與雜訊)。\n\n---\n*本筆記為節目內容摘要,非投資建議。*",
-      "first_shown": "2026-09-11"
-    },
-    {
-      "episode_id": "038842234375",
-      "title": "EP335. 蘋果摺疊手機登場、大 Agent 時代來了、Vibe Coding 101 | M觀點",
-      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/095e9e51-2984-458c-81d7-038842234375",
-      "published": "2026-09-11",
-      "channel": "M觀點",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為蘋果 iPhone Duo 折疊機雖未帶來驚喜但會在折疊機市場中最成功，並深入探討大 Agent 時代的三大工具（Grokbot、MetaMuse、Project OPPO）以及 Vibe Coding 如何從「玩具」進化為真正可商業化的開發典範。\n\n## 1. 蘋果 iPhone Duo 折疊手機：高價但具市場潛力\n- **產品定位與規格：** 7.6 吋展開螢幕、A20 Pro 晶片、厚度 5.2mm（展開）/11.3mm（折疊），採護照型設計而非瘦長型。\n- **定價策略：** 美國 1,999–3,199 美元，台灣 74,900–118,900 元（匯率約 1:37.4，高於市場但符合蘋果慣例）。\n- **市場預測：** 主講人認為雖折疊機僅佔整體手機出貨 2%，但 iPhone Duo 可能單機銷量超越其他品牌折疊機總和，IDC 預估首年 1,000 萬台，主講人估 1,200–1,300 萬台；果粉經濟實力強且將其視為「接近首富的消費體驗」。\n- **標準版 iPhone 18 延後：** 因記憶體供應緊張，優先供應毛利更高的 Pro 系列，可能延至 2026 Q1 春季發布。\n\n## 2. 大 Agent 時代 2.0：從本地部署到雲端常駐\n- **Grokbot（X 推出）：** 主講人過去兩週重度使用，每月 30 美元可設定多個雲端 AI 員工（科技新聞整理、Email 回覆提醒、行程助理、M 觀點數據助理等），透過 Telegram Botfather 整合實現 24 小時自動執行；Premium Plus 會員已可使用。\n- **MetaMuse（Meta 推出）：** 針對日常生活任務優化（訂票、訂餐廳、購物刷卡），提供每週 1 億 Token 免費額度，目前僅美國推出但主講人預估 10 月底前台灣可用；強調 end-to-end 加密且與 Meta 智能眼鏡整合。\n- **Project OPPO（微軟推出）：** 為 Copilot 配備 Windows 365 雲端電腦，專為企業資安環境設計，內建權限控管（authorization/authentication），解決企業內部 AI Agent 部署難題；主講人認為雖技術不最強但能真正進入大型企業造成改變。\n- **與 2025 年初差異：** 從需自行準備電腦跑 OpenCloud/Codex/Cloud Code，進化為雲端廠商直接提供運算資源，使用者只需下達命令。\n\n## 3. Vibe Coding 現況與挑戰：從玩具到商業產品的鴻溝\n- **定義演變：** 2025 年初 Andrej Karpathy 定義為「不看 code、純 prompting 交給 AI」的週末專案典範，2026 年已成軟體工程師主流工作方式；Anthropic Cloud Code 創辦人 Boris Cherney 表示「大部分軟體工程已被解決」。\n- **核心挑戰：** 一般人雖能用 AI 生成可運作程式，但缺乏軟體工程基本功（前後端架構、API 概念、雲端部署、資安防濫用、金流串接等），導致無法通過正式營運考驗；哈利強調「能驗證成果」比「AI 能做什麼」更關鍵。\n- **商業化路徑：** 哈利建議瞄準利基市場（niche market）而非通用工具，因市場破碎、競爭分散，只要成為「使用者第一個發現的產品」即可生存（如其團隊的「竹字寶」字幕工具已獲利但非市場最佳）。\n- **必修知識優先級：** 若只能選一項，哈利認為「部署概念」最關鍵，因這是從「自己能用」到「所有人能用」的第一道牆；其課程涵蓋 8 模組（軟體演變、前端、後端、現代工具、Vibe Coding 實操、部署、資安、商業定價）。\n\n## 4. 職場衝擊與人才需求：T 型通才成趨勢\n- **職能邊界模糊：** Meta、Anthropic 等 AI 前線公司已出現 Designer/PM 直接寫 code 貢獻 codebase 現象，Boris Cherney 明確表示在找「PM + 技術底子」的人才。\n- **專業工程師仍存在：** 哈利認為大規模複雜系統（上千萬用戶、進階資安、GPU Kernel 優化等）仍需專業軟體工程師，但一般 web 開發會成為「所有人都會的技能」（如 Excel/Office）。\n- **Builder 分工新模式：** 有企業開始按「0→1 Pilot 建造者」、「1→10 規模化工程師」、「客戶對接者」分類而非傳統 PM/Designer/工程師劃分。\n- **學習投資報酬率：** 哈利強調非技術人員學軟體工程基本功是當前 ROI 最高的學習，因可跨越「會用工具」與「做出可用產品」之間的鴻溝。\n\n## 5. 氛圍學院課程特色：AI 時代的互動式教學\n- **開發背景：** 哈利與前 Google 矽谷 8 年工程師 Kai 共同打造，耗時 8 個月，整個產品無任何一行 code 是人工撰寫（完全 Vibe Coding 產出）。\n- **互動式設計：** 80% 內容為互動體驗，如模擬 LINE 界面讓學員操作時即時看到前後端資料傳輸過程，突破傳統影片課程的抽象感；內建 AI 助教掌握所有學習脈絡可即時解答。\n- **市場驗證：** 上架一週已超過 2,700 人購課、評分 4.9，提供 10 個免費單元試用，購課即解鎖前三模組（前端、後端、軟體演變）全部內容。\n- **成本革命：** 主講人認為過去製作 3D 人體器官互動教材需 10–20 萬美元，AI 時代可低成本大量生成，類比 YouTube 讓影片製作民主化。\n\n## 結論與後市展望\n主講人認為 iPhone Duo 將憑藉果粉購買力與品牌象徵意義在折疊機市場勝出；大 Agent 時代已從「自己架設伺服器」進入「雲端廠商提供運算資源」的 2.0 階段，Grokbot/MetaMuse/Project OPPO 各有擅場；Vibe Coding 雖已能產出可運作程式，但「軟體工程基本功」仍是從玩具邁向商業化的關鍵門檻，且至少在未來 2–3 年（起點來臨前）此知識不會過時。主講人強調職場將走向 T 型通才，非技術人員需補強軟體概念、工程師需跨足 PM/設計思維，而利基市場策略（如巷口牛肉湯邏輯）可讓小團隊在 AI 民主化浪潮中生存獲利。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-11"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
-      "title": "Filling the silence: the post-subscription mistake that quietly causes churn",
-      "url": "https://www.revenuecat.com/blog/growth/premium-win-lifecycle-messaging",
-      "published": "2026-09-10",
-      "author": "RevenueCat",
-      "handle": "revenuecat",
-      "source": "RevenueCat Blog",
-      "label": "訂閱成長",
-      "summary_md": "## 一句話總結\n作者認為多數訂閱制 App 在用戶付費後就停止溝通，導致用戶找不到付費功能、忘記訂閱價值，最終在首月就流失——應將轉換視為留存旅程的起點，用「付費再導引」（premium re-onboarding）引導用戶在前七天內體驗到第一個「付費勝利時刻」。\n\n- **早期流失集中在付費當下：** 根據《2026 訂閱 App 現況報告》，84% 的三天試用取消與 64% 的七天試用取消發生在第 0–1 天之間；近半月訂用戶與多數年訂用戶連一次續訂都沒有。作者指出這不是產品品質問題，而是「用戶期待」與「實際體驗」之間的落差，加上訂閱疲勞（許多人付費後就立刻關閉自動續訂以求心安）。\n\n- **付費後的沉默是流失主因：** 作者觀察到三種常見問題：(1) 升級用戶找不到付費功能（freemium 模式下尤其明顯，因沒人告訴他們「解鎖了什麼」）；(2) 多數 App 在轉換後就停止生命週期訊息；(3) 團隊誤以為「已導引過了就不需再管」，忽略付費用戶與產品的關係已完全改變，需要重新歡迎與指引。\n\n- **付費再導引的三大任務：** 作者建議用一封歡迎訊息回答三個問題：付費功能在哪裡、如何使用、我的決定對嗎。Slack 與 Monday.com 的案例示範了如何在試用開始時立刻列出解鎖功能、指向第一步行動（如「建立第一個工作區」），而非只說「歡迎訂閱」。\n\n- **定義你的「付費勝利時刻」：** 作者建議留存團隊先找出自家產品的 premium win——例如 Strava 是看到訓練分析、Calm 是完成睡眠故事、Quizlet 是用到測驗模式——然後設計七天旅程：第 0 天歡迎並指向第一步，第 1–2 天推向勝利時刻，第 3 天慶祝進度並指引下一步，第 5–6 天依使用行為推薦功能。\n\n- **長期生命週期訊息需「重新浮現價值」：** 作者舉四個例子：Lifesum 在功能改版時通知用戶、Netflix 用個人化推薦降低決策疲勞、Dropbox 依使用情境推薦未用過的功能、Strava 用 Local Legend 徽章強化用戶身份認同。作者強調不是每天都發訊息，而是在「價值可能被遺忘」的時刻出現（付費後、互動下滑、續訂前）。\n\n- **別在活躍用戶身上過度打擾：** 作者提醒成熟的留存計畫是「在對的時刻說對的話」，若用戶已養成健康習慣就別干擾；只在轉換後、互動下滑、續訂將至等價值風險浮現時介入。「付費後的沉默才是早期流失的溫床。」\n\n## 對設計／產品的啟示\n作者建議將轉換當作關係的開始，而非漏斗終點。具體做法：(1) 設計一個簡單的七天付費歡迎旅程（歡迎訊息 + 第一個行動提示 + 第一週檢查點）；(2) 追蹤前 30 天的取消率與首週付費功能觸及率；(3) 定義自家產品的「付費勝利時刻」，並在前幾天內引導用戶達成。這套框架對 freemium、試用制與零接觸購買（instant buyer）的產品都適用，但需依用戶類型調整訊息深度。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-11"
+      "title": "Test Complex Interactions Earlier with AI Prototyping",
+      "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-09-12",
+      "author": "NN/g Nielsen Norman Group",
+      "handle": "nngroup",
+      "source": "NN/g",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者認為 AI 工具讓設計團隊能在開發前就快速建立複雜介面的全互動原型，提早進行使用者測試並發現原本難以察覺的問題。\n\n## 重點摘要\n\n- **複雜介面的原型困境：** 作者指出過去篩選器、儀表板、對話式 AI 等複雜介面有大量狀態變化，手工製作原型耗時且不切實際，多數團隊只能測試少數「快樂路徑」，要等到開發後才能看到使用者真實互動情形。\n\n- **Ramp 的費用政策編輯器案例：** 設計師 Pavan Garidipuri 用 Cursor 在三週內完成對話式編輯介面原型，載入使用者自己的匿名資料進行測試；作者提到團隊因此發現編輯追蹤與顯示方式令人困惑的易用性問題，這是靜態原型無法發現的，最終影響了全年產品路線圖。\n\n- **普渡大學交通資料篩選介面研究：** 研究團隊先用 Figma 手繪靜態線框稿，使用者只能評論視覺設計；後來改用 v0 和 Bolt 生成互動式原型（資料集有 27 個屬性且含巢狀子屬性），作者觀察到使用者對互動原型提供更具體的回饋，能辨識出靜態原型無法測試的邊緣案例。\n\n- **AI 原型製作流程：** 作者建議五步驟流程——(1) 決定原型需支援的互動程度來回答研究問題；(2) 先做好設計決策（版面、階層、互動、錯誤狀態等）；(3) 收集真實或 AI 生成的資料集；(4) 撰寫詳細提示詞描述設計並附上資料；(5) 用 Cursor、v0 等工具產生原型後迭代修正。\n\n- **設計決策仍由人主導：** 作者強調 AI 工具缺乏對內容編排、視覺階層的理解，需要設計師提供詳細指引；AI 的價值在於快速執行設計決策，而非替代設計思考。\n\n- **避免「精緻度陷阱」：** 作者警告 AI 生成的原型看起來完整且能運作，但可能包含錯誤的設計模式、混亂階層或不必要的重複元素，不應直接上線；必須由具設計專業的人審核才能進入生產階段。\n\n## 對設計／產品的啟示\n作者建議設計與產品團隊運用 AI 工具將複雜介面（如篩選器、對話式 AI）的原型製作時間從數週縮短至數天，讓使用者測試提早到開發前進行，更頻繁迭代並發現邊緣案例；但必須記住 AI 只是執行工具，設計決策、階層規劃與品質把關仍需由專業設計師主導，不可因原型看起來精緻就誤以為可直接上線。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-12"
+    },
+    {
+      "title": "AI Can Help Write an Article, but It Can’t Stand Behind It",
+      "url": "https://www.nngroup.com/articles/ai-editorial-process/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-09-12",
+      "author": "NN/g Nielsen Norman Group",
+      "handle": "nngroup",
+      "source": "NN/g",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者說明 Nielsen Norman Group 在編輯流程中使用 AI 輔助，但所有文章的編輯判斷與責任仍由具備專業的人類編輯承擔，AI 無法取代這項核心工作。\n\n- **人類保有編輯責任：** 作者強調 NN/G 雖在編輯過程中使用 AI，但人類專家仍需評估、審核並為發布內容負責；這符合歐盟 2024 年 AI 法案的規定，經過「人類審查或編輯控制」的內容可豁免於 AI 生成內容的揭露要求。\n\n- **AI 協助文字潤飾與格式：** 作者（自 2013 年起擔任 NN/G 編輯）表示 AI 工具（如 Copilot、Grammarly）能幫助將段落改寫得更簡潔清晰，並自動產生符合嚴格字數限制（例如 160 字元摘要）的文字，減少編輯的重複性工作。\n\n- **AI 輔助內容改編與事實查核：** 當需要將報告、課程或影片內容改寫成文章時，AI 能協助提取相關資訊並調整格式；AI 也可協助檢查引用的研究或法律條文是否有誤述或過度推論，但最終仍需編輯回到原始資料確認。\n\n- **AI 作為論證批判夥伴：** 作者會請 AI（如 ChatGPT）挑戰自己的論點，找出邏輯矛盾或未明說的假設；例如本文早期草稿強調「不應外包思考給 AI」，但 AI 指出文中也提到 AI 可參與推理，促使作者更精確地重新表述論點。\n\n- **嚴謹的編輯流程未改變：** NN/G 的文章通常經過 2–3 輪（有時更多）審稿，由兩位編輯檢查邏輯連貫性、UX 準確性與文字，所有作者（無論資歷）都須遵循相同標準；AI 的加入僅是讓編輯工作更有效率，並未改變這套流程。\n\n- **思考可在寫作之外發生：** 作者認為雖然許多人警告「把寫作交給 AI 等於外包思考」，但思考也能透過討論、草圖或向 AI 工具口述想法等方式進行；重要的是人類專家完成理解、評估並願意為文章背書的智識工作。\n\n## 對設計／產品的啟示\n作者建議團隊在使用 AI 輔助內容產出時，應明確保留人類的編輯判斷與最終責任：AI 可用於潤飾文字、檢查格式、改編內容或挑戰論點，但不應取代專業人員對內容品質與準確性的把關。這種做法不僅符合法規要求（如歐盟 AI 法案），也確保組織能為發布的內容負責，維持專業信譽。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-12"
+    },
+    {
+      "title": "UX Roundup: Employers Value Experience Over Skills | Exponential Growth in AI Use | AI Dependence | Undo | Disappointing Suno | AI’s Economic Scenarios | Reflective Design | Mini Maps | GPT Image 2.5",
+      "url": "https://www.uxtigers.com/post/ux-roundup-20260911",
+      "published": "2026-09-11",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者認為 AI 時代僱主招聘從「看技能」轉向「看經驗」，因為可編碼的技能正被 AI 快速取代，而判斷力、方向感與組織內交付能力等默會知識才是真正的商業價值來源。\n\n---\n\n- **技能要求驟降、經驗要求上升：** Revelio Labs 分析 7,500 萬筆科技職缺發現，2025 年 1 月起技能要求數量下降 25%（從 28.8 項降至 21.6 項），但經驗要求增加 5%（從 4.62 年增至 4.85 年）。作者提出「技能過時」概念——AI 掌握某項可編碼技能後，該技能在 2–3 年內會失去大部分市場價值。\n\n- **OpenAI 內部 AI agent 使用呈指數成長：** 2025 年 1 月至 2026 年 8 月，OpenAI 員工的 AI agent 與人類工作日比例達 3:1，推理成本中位數從每天 2 美元飆升至 600 美元（第 90 百分位數超過 7,000 美元），月複合成長率 129%。但超過半數長任務仍需人工介入，顯示聊天介面無法擴展至多 agent 管理，成本控制與檢查點設計成為核心 UX 挑戰。\n\n- **撤銷功能是探索的前提：** 作者強調撤銷不只是事後修正錯誤，更重要的是「事前預防恐懼」——使用者只有在犯錯成本低時才會大膽探索功能。原則是「絕不懲罰好奇心」，建議將撤銷功能延伸至 AI 代理操作。\n\n- **反思設計是「別讓我思考」的刻意例外：** 作者引用 Phoebe Sengers 的理論，指出反思設計刻意將無意識行為帶入使用者意識層面，適用於三種情境：不可逆行動、緩慢累積的模式、應具實質意義的同意。螢幕使用時間儀表板、月度支出摘要等「鏡像時刻」能預防後悔，減少流失——但濫用會淪為嘮叨與道德說教。\n\n- **迷你地圖需符合 8 項準則才有效：** 作者提出經驗法則：只在 4–5 個螢幕畫面以上的大空間使用，必須顯示視口指示器、雙向耦合主視圖、顯示空間結構並疊加搜尋結果，保持小巧且可關閉，永遠不能是唯一導航途徑。在小螢幕上，地圖的「定向稅」（切換成本）可能超過好處。\n\n- **AI 經濟預測與現實落差：** Anthropic 研究團隊預測 2030 年三種情境（GDP 成長 0.7%–3.4%），但作者認為報告遺漏機器人技術的影響——類人機器人（如 Optimus）將在約 10 年內執行大部分體力工作，打破「未受 AI 影響職業」的假設。作者最佳預測：2030 年達溫和情境，2040 年達極端情境。\n\n---\n\n## 對設計／產品的啟示\n作者建議設計師重新思考 AI 時代的價值來源：累積「判斷哪個方案能通過真實客戶考驗」的經驗，比掌握特定工具技能更重要。在 agent 管理介面設計上，應優先考慮檢查點、成本即時顯示與可靠的停止按鈕，而非沿用聊天介面。對於撤銷、反思設計與迷你地圖等經典 UX 模式，需在 AI 擴大操作規模的脈絡下重新校準——撤銷範圍應擴大、鏡像時刻應節制使用、空間導航工具應對應更大的工作區。新鮮人應優先累積實務經驗（即使低薪），因為默會知識無法從教程中學得。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-12"
     }
   ]
 }
