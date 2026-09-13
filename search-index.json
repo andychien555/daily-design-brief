@@ -1,6 +1,37 @@
 {
-  "generated_at": "2026-09-13T00:41:18+08:00",
+  "generated_at": "2026-09-13T08:56:34+08:00",
   "days": [
+    {
+      "d": "2026-09-13",
+      "dd": "2026 年 09 月 13 日",
+      "no": 150,
+      "items": [
+        {
+          "k": "product",
+          "t": "SUDARI",
+          "b": "A pixel otter desktop pet that reacts to how you work 一個像素風格的水獺桌面寵物，會根據你的工作狀態做出反應。適合想為工作環境增添趣味的使用者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "DockFix 5.0",
+          "b": "Replace the macOS Dock with one that is truly yours. macOS Dock 的替代工具，讓使用者能完全自訂 Dock 的外觀與行為。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "LiveGrid",
+          "b": "Watch multiple live streams at once, never miss a thing 同時觀看多個直播串流的工具，適合需要監看多個頻道的使用者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Moji",
+          "b": "Open Markdown files like PDFs. 將 Markdown 檔案以類似 PDF 的方式開啟閱讀，簡化 Markdown 文件的瀏覽體驗。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-09-12",
       "dd": "2026 年 09 月 12 日",

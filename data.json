@@ -1,73 +1,51 @@
 {
-  "date": "2026-09-12",
-  "date_display": "2026 年 09 月 12 日",
-  "generated_at": "2026-09-12T08:55:57.670413+08:00",
+  "date": "2026-09-13",
+  "date_display": "2026 年 09 月 13 日",
+  "generated_at": "2026-09-13T08:55:52.618012+08:00",
   "top_products": [
     {
-      "title": "Cadenya",
-      "url": "https://www.producthunt.com/products/cadenya-the-agent-runtime",
-      "published": "2026-09-10T16:21:08-07:00",
-      "author": "Robert Ross",
-      "tagline": "A hosted agentic loop to bring agentic possibilities to life",
-      "post_id": "1247121",
-      "summary_zh": "提供託管式 agentic loop 服務，協助開發者實現 AI 代理應用場景。",
-      "image_url": "https://ph-files.imgix.net/42e3f2fc-c900-4210-b947-452adee9167c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/2a00643b-72ca-4645-a024-4ba6a3390379.png?auto=format&w=960&h=540&fit=crop"
+      "title": "SUDARI",
+      "url": "https://www.producthunt.com/products/sudari",
+      "published": "2026-09-10T23:18:58-07:00",
+      "author": "Jacob",
+      "tagline": "A pixel otter desktop pet that reacts to how you work",
+      "post_id": "1247276",
+      "summary_zh": "一個像素風格的水獺桌面寵物，會根據你的工作狀態做出反應。適合想為工作環境增添趣味的使用者。",
+      "image_url": "https://ph-files.imgix.net/101edf18-26ff-400d-88cd-8abfcdc4d077.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3693175d-12a5-4489-9af4-3b1e51948088.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Jackalope",
-      "url": "https://www.producthunt.com/products/jackalope",
-      "published": "2026-09-10T15:46:57-07:00",
-      "author": "Caden Sumner",
-      "tagline": "Codex, Claude Code, Grok, + OpenCode in one shared workspace",
-      "post_id": "1247107",
-      "summary_zh": "整合 Codex、Claude Code、Grok 與 OpenCode 的共享工作空間，讓開發者在單一平台使用多種 AI 編碼工具。",
-      "image_url": "https://ph-files.imgix.net/f42f8a0c-3d1d-4bb4-9eba-0cb57d89eddf.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/eb469ba7-0dc4-4ee7-9d31-c26e15cd29b1.png?auto=format&w=960&h=540&fit=crop"
+      "title": "DockFix 5.0",
+      "url": "https://www.producthunt.com/products/dockfix",
+      "published": "2026-09-11T12:26:15-07:00",
+      "author": "Gustav Lübker",
+      "tagline": "Replace the macOS Dock with one that is truly yours.",
+      "post_id": "1247937",
+      "summary_zh": "macOS Dock 的替代工具，讓使用者能完全自訂 Dock 的外觀與行為。",
+      "image_url": "https://ph-files.imgix.net/8be3023e-a53d-4084-914f-3e53977e6ccc.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/76aff051-2332-4968-a63b-1b4aed5d702d.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "GLYPH Immersive",
-      "url": "https://www.producthunt.com/products/glyph-immersive",
-      "published": "2026-09-10T13:57:20-07:00",
-      "author": "Kate Andersen",
-      "tagline": "a free tool for modular grid lettering",
-      "post_id": "1247047",
-      "summary_zh": "免費的模組化網格字體設計工具，適合進行字母排版創作。",
-      "image_url": "https://ph-files.imgix.net/280ecd6f-fa64-4f6c-a21f-a863903632d4.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/ece774b5-30b0-43a1-b712-74549a3c5f00.gif?auto=format&w=960&h=540&fit=crop"
+      "title": "LiveGrid",
+      "url": "https://www.producthunt.com/products/livegrid-4",
+      "published": "2026-09-10T21:01:14-07:00",
+      "author": "LUCAS ANDRADE",
+      "tagline": "Watch multiple live streams at once, never miss a thing",
+      "post_id": "1247211",
+      "summary_zh": "同時觀看多個直播串流的工具，適合需要監看多個頻道的使用者。",
+      "image_url": "https://ph-files.imgix.net/31b32603-9953-4d41-b045-2ecb5d0a5b8c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/566d94b7-4ebb-492b-a87a-577320e0fc10.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "chat-recall",
-      "url": "https://www.producthunt.com/products/chat-recall",
-      "published": "2026-09-10T10:39:29-07:00",
-      "author": "darkkraft",
-      "tagline": "Ctrl+F for every conversation you've had with an AI",
-      "post_id": "1246911",
-      "summary_zh": "為所有 AI 對話提供搜尋功能，讓使用者快速找到過往與 AI 的交流內容。",
-      "image_url": "https://ph-files.imgix.net/9adbeb3c-3ec5-4cb5-8dfa-8d6c0d0a9236.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/96dfb5de-3f9a-40a7-8c94-a8637104f8c7.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "sizeless",
-      "url": "https://www.producthunt.com/products/sizeless",
-      "published": "2026-09-10T10:55:17-07:00",
-      "author": "Cornelius von Einem",
-      "tagline": "Spatial AI for underground infrastructure",
-      "post_id": "1246922",
-      "summary_zh": "運用空間 AI 技術分析地下基礎設施，協助工程與都市規劃領域進行管理。",
-      "image_url": "https://ph-files.imgix.net/c1c80884-83ae-41c5-9b59-847023851583.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/f364a108-f9d6-45de-8f2f-d1b210a6b0ee.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Formesign",
-      "url": "https://www.producthunt.com/products/formesign",
-      "published": "2026-09-10T05:26:06-07:00",
-      "author": "Mani Doraisamy",
-      "tagline": "Add legally binding signature to your Google Form",
-      "post_id": "1246712",
-      "summary_zh": "為 Google Form 加入具法律效力的電子簽名功能。",
-      "image_url": "https://ph-files.imgix.net/99283b15-c470-4c66-b783-728f8a7aea3e.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/bfeb49c7-c04a-4bb6-83cd-b18c5ffddda6.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Moji",
+      "url": "https://www.producthunt.com/products/moji-2",
+      "published": "2026-09-10T19:58:28-07:00",
+      "author": "Alex Ishida",
+      "tagline": "Open Markdown files like PDFs.",
+      "post_id": "1247185",
+      "summary_zh": "將 Markdown 檔案以類似 PDF 的方式開啟閱讀，簡化 Markdown 文件的瀏覽體驗。",
+      "image_url": "https://ph-files.imgix.net/603fb51b-a838-4407-ab6f-dda7739f4cb8.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/f5528531-eb1f-4a71-9044-b03c89e08392.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,51 +55,6 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "cf1a-4104-4db2-b349-447f2866da76",
-      "title": "EP696 | 🎖️",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/8001cf1a-4104-4db2-b349-447f2866da76",
-      "published": "2026-09-12",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n本集主軸為 Apple 新品（iPhone Duo 折疊機）與 AI 基礎建設瓶頸：主講人認為 Duo 定價實惠、體驗優異，銷量可望超預期；Oracle 靠融資魔術快速擴張，但電力與政治阻力正成為 Data Center 的關鍵變數。\n\n## 1. Apple iPhone Duo 折疊機：定價策略與市場潛力\n- **售價低於市場預期：** 原先市場共識預估更高價，實際僅比 Fold 系列稍貴一點，頂規約十幾萬台幣；主講人認為此舉將帶動銷量超出預期。\n- **軟硬整合與 UI/UX 優勢：** Apple 等到技術成熟才推出，折痕處理良好；操作直覺、觸控體驗遠勝安卓系，雙螢幕設計可同時切換多工作介面。\n- **中國市場為驗證關鍵：** 折疊機在中國需求強勁，但當前消費降溫（精品銷售、華為等花香北整形機銷量走軟）；能否在該市場熱賣將決定全球銷量能否大幅上修。\n- **台系供應鏈參與有限：** 鉸鏈主要由新日興（3376）與美系安費諾供應，但 Apple 毛利管控嚴格，供應商獲利空間不如預期；折疊面板元件廠在美股已提前反應題材。\n\n## 2. Apple 生態系護城河：垂直整合與客戶黏性\n- **自研晶片削弱高通地位：** 已走到 C2（Cellular）晶片，逐步取代高通 Modem；供應鏈優勢與利潤集中在 Apple 手中。\n- **記憶體漲價反成優勢：** 其他品牌因 DRAM/NAND 漲價毛利承壓，Apple 仍能維持不錯毛利並以相對實惠價格吸引新客，長期有利平台黏著與轉換效應。\n- **AI 應用走 Commodity 路線：** 主講人認為日常應用（食譜查詢、單車路線、看盤追劇）不需頂尖模型，掌握通路者（如 Apple）可用成熟 Foundation Model 或自研模型獲取價值分配。\n\n## 3. Oracle 財報亮點與融資魔術：成長背後的槓桿遊戲\n- **營收年增 30%、RPO 達 6,600 億：** 未履約合約快速累積，全年展望上修；但市場震盪、利多不一定上漲。\n- **不出錢的魔術：客戶預付 + BYOH + 供應商融資：** 由客戶預付款項、自帶硬體（Bring Your Own Hardware），並向 NVIDIA 等設備商借貸；一筆生意收兩次錢，需求旺盛時無問題，但若反轉可能出現虛胖與融資風險。\n- **舊卡漲價 20% 驗證 Fungible/Durable/Rentable：** 四年舊 GPU 不跌反漲，打臉空方「高速折舊論」；但主講人提醒反轉後折舊可能加速，需留意週期風險。\n\n## 4. AI 基礎建設的政治與電力瓶頸\n- **電力與許可成關鍵卡關點：** 17 英里管線被否決兩次；某州要求 70 億美元信用狀、大量選民反對興建 Data Center。\n- **民主黨政治人物施壓：** Bernie Sanders、AOC 等人大力反對 AI Data Center，宣稱污染、耗電、圖利少數人；若民主黨選舉得勢，Data Center 建置可能遭遇更多法規阻礙。\n- **替代方案：表後供電、自建電廠、太陽能：** 企業轉向活塞式發電、燃氣機組、太陽能（Tesla 大量太陽能訂單傳聞），繞過公用電網與政治關卡。\n\n## 5. 開源 vs. 閉源模型經濟：Meta Llama 主管的寡頭論\n- **Park（Meta Llama 負責人）預測閉源寡頭勝出：** 投 1,000 億可賺 1,300 億（閉源），開源僅賺 300 億；懷疑開源權重模型經濟可行性。\n- **主講人不同調：雙頭或多模型共存更可能：** Anthropic 與 OpenAI 輪流超車是常態；各領域會有特化模型（醫療、法律、日常應用等），不會只剩一家贏者全拿。\n- **開源模型價值將在應用層體現：** 日常簡單應用（食譜、聊天、看盤）可交給開源模型，硬體建置成本趨平後，開源端產值將拉升；目前閉源廠商壓力大（募資、燒錢、需持續 Capex），若有一家爆炸將衝擊整體市場信心。\n\n## 6. 群聯 Adaptive：地端 AI 降本方案的先行者\n- **用 NAND Flash 降低推論成本：** 將 KV Cache 從昂貴的 HBM/SRAM/DRAM 移至 NAND 或 Storage，兩三百萬台幣投入可省下 50M 成本，適合中小企業先期導入。\n- **垂直整合與夥伴合作：** 群聯擁有 NAND Controller 與顆粒，早在一兩年前已布局地端推論；可能與研華（Advantech）等 SI 夥伴合作推廣，自身專注設備開發。\n- **呼應企業 AI 落地趨勢：** 非尖端應用無需頻繁上雲（避免帳單爆炸如 Uber 案例），地端運算 + 降本增效組合具吸引力；概念領先但客戶採用速度需時間驗證。\n\n## 7. 投資心法與風險管理：從 300% 暴跌至 15% 的警示\n- **高報酬伴隨高風險：** 有聽眾 YTD 從 300% 跌至 15%，雖仍正報酬但 Draw Down 過大；主講人提醒長期用高槓桿、高波動策略終將趨近爆炸。\n- **防守姿態隨 YTD 調整：** 主講人自身策略會依當年累積報酬動態調整；今年已大賺故能容忍較深回檔，若報酬僅 10%–20% 則立刻轉防守。\n- **不建議散戶頻繁放空或 Pair Trade：** 2020 年後多頭狂噴，避險常越避越險、雙巴掉；除非明確看到初始訊號（如 2022 Q1–Q2），否則以多軍為主、耐心等待才是核心。\n- **投資本質：找好公司、買進並等待：** 真正賺錢的波段都是「等」出來的；不要迷信完美閃過下跌或摸頭放空，資產階級與投資大老也無法空手，抱緊核心持股才是王道。\n\n## 結論與後市展望\n主講人看好 iPhone Duo 折疊機因定價策略與卓越體驗將帶動銷量超預期，但整體消費性題材難敵 AI 成長爆發力，資金不會大舉湧入；Oracle 靠融資魔術快速擴張，需留意電力瓶頸與民主黨政治阻力正成為 Data Center 建置變數，若選舉情勢不利共和黨，法規卡關風險上升。AI 模型經濟方面，主講人不認同「寡頭通吃」論，預期閉源雙雄（OpenAI、Anthropic）與各領域開源特化模型將共存；地端 AI（如群聯 Adaptive）概念領先但商業化需時間。投資策略上強調「多軍為主、耐心等待、動態調整防守力道」，避免過度槓桿與頻繁放空；市場震盪中利多不一定上漲，但長期仍看好 AI 與科技巨頭護城河優勢。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-12"
-    }
-  ],
-  "article_briefs": [
-    {
-      "title": "Test Complex Interactions Earlier with AI Prototyping",
-      "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-09-12",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為 AI 工具讓設計團隊能在開發前就快速建立複雜介面的全互動原型，提早進行使用者測試並發現原本難以察覺的問題。\n\n## 重點摘要\n\n- **複雜介面的原型困境：** 作者指出過去篩選器、儀表板、對話式 AI 等複雜介面有大量狀態變化，手工製作原型耗時且不切實際，多數團隊只能測試少數「快樂路徑」，要等到開發後才能看到使用者真實互動情形。\n\n- **Ramp 的費用政策編輯器案例：** 設計師 Pavan Garidipuri 用 Cursor 在三週內完成對話式編輯介面原型，載入使用者自己的匿名資料進行測試；作者提到團隊因此發現編輯追蹤與顯示方式令人困惑的易用性問題，這是靜態原型無法發現的，最終影響了全年產品路線圖。\n\n- **普渡大學交通資料篩選介面研究：** 研究團隊先用 Figma 手繪靜態線框稿，使用者只能評論視覺設計；後來改用 v0 和 Bolt 生成互動式原型（資料集有 27 個屬性且含巢狀子屬性），作者觀察到使用者對互動原型提供更具體的回饋，能辨識出靜態原型無法測試的邊緣案例。\n\n- **AI 原型製作流程：** 作者建議五步驟流程——(1) 決定原型需支援的互動程度來回答研究問題；(2) 先做好設計決策（版面、階層、互動、錯誤狀態等）；(3) 收集真實或 AI 生成的資料集；(4) 撰寫詳細提示詞描述設計並附上資料；(5) 用 Cursor、v0 等工具產生原型後迭代修正。\n\n- **設計決策仍由人主導：** 作者強調 AI 工具缺乏對內容編排、視覺階層的理解，需要設計師提供詳細指引；AI 的價值在於快速執行設計決策，而非替代設計思考。\n\n- **避免「精緻度陷阱」：** 作者警告 AI 生成的原型看起來完整且能運作，但可能包含錯誤的設計模式、混亂階層或不必要的重複元素，不應直接上線；必須由具設計專業的人審核才能進入生產階段。\n\n## 對設計／產品的啟示\n作者建議設計與產品團隊運用 AI 工具將複雜介面（如篩選器、對話式 AI）的原型製作時間從數週縮短至數天，讓使用者測試提早到開發前進行，更頻繁迭代並發現邊緣案例；但必須記住 AI 只是執行工具，設計決策、階層規劃與品質把關仍需由專業設計師主導，不可因原型看起來精緻就誤以為可直接上線。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-12"
-    },
-    {
-      "title": "AI Can Help Write an Article, but It Can’t Stand Behind It",
-      "url": "https://www.nngroup.com/articles/ai-editorial-process/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-09-12",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者說明 Nielsen Norman Group 在編輯流程中使用 AI 輔助，但所有文章的編輯判斷與責任仍由具備專業的人類編輯承擔，AI 無法取代這項核心工作。\n\n- **人類保有編輯責任：** 作者強調 NN/G 雖在編輯過程中使用 AI，但人類專家仍需評估、審核並為發布內容負責；這符合歐盟 2024 年 AI 法案的規定，經過「人類審查或編輯控制」的內容可豁免於 AI 生成內容的揭露要求。\n\n- **AI 協助文字潤飾與格式：** 作者（自 2013 年起擔任 NN/G 編輯）表示 AI 工具（如 Copilot、Grammarly）能幫助將段落改寫得更簡潔清晰，並自動產生符合嚴格字數限制（例如 160 字元摘要）的文字，減少編輯的重複性工作。\n\n- **AI 輔助內容改編與事實查核：** 當需要將報告、課程或影片內容改寫成文章時，AI 能協助提取相關資訊並調整格式；AI 也可協助檢查引用的研究或法律條文是否有誤述或過度推論，但最終仍需編輯回到原始資料確認。\n\n- **AI 作為論證批判夥伴：** 作者會請 AI（如 ChatGPT）挑戰自己的論點，找出邏輯矛盾或未明說的假設；例如本文早期草稿強調「不應外包思考給 AI」，但 AI 指出文中也提到 AI 可參與推理，促使作者更精確地重新表述論點。\n\n- **嚴謹的編輯流程未改變：** NN/G 的文章通常經過 2–3 輪（有時更多）審稿，由兩位編輯檢查邏輯連貫性、UX 準確性與文字，所有作者（無論資歷）都須遵循相同標準；AI 的加入僅是讓編輯工作更有效率，並未改變這套流程。\n\n- **思考可在寫作之外發生：** 作者認為雖然許多人警告「把寫作交給 AI 等於外包思考」，但思考也能透過討論、草圖或向 AI 工具口述想法等方式進行；重要的是人類專家完成理解、評估並願意為文章背書的智識工作。\n\n## 對設計／產品的啟示\n作者建議團隊在使用 AI 輔助內容產出時，應明確保留人類的編輯判斷與最終責任：AI 可用於潤飾文字、檢查格式、改編內容或挑戰論點，但不應取代專業人員對內容品質與準確性的把關。這種做法不僅符合法規要求（如歐盟 AI 法案），也確保組織能為發布的內容負責，維持專業信譽。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-12"
-    },
-    {
-      "title": "UX Roundup: Employers Value Experience Over Skills | Exponential Growth in AI Use | AI Dependence | Undo | Disappointing Suno | AI’s Economic Scenarios | Reflective Design | Mini Maps | GPT Image 2.5",
-      "url": "https://www.uxtigers.com/post/ux-roundup-20260911",
-      "published": "2026-09-11",
-      "author": "Jakob Nielsen",
-      "handle": "jakobnielsen",
-      "source": "UX Tigers",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為 AI 時代僱主招聘從「看技能」轉向「看經驗」，因為可編碼的技能正被 AI 快速取代，而判斷力、方向感與組織內交付能力等默會知識才是真正的商業價值來源。\n\n---\n\n- **技能要求驟降、經驗要求上升：** Revelio Labs 分析 7,500 萬筆科技職缺發現，2025 年 1 月起技能要求數量下降 25%（從 28.8 項降至 21.6 項），但經驗要求增加 5%（從 4.62 年增至 4.85 年）。作者提出「技能過時」概念——AI 掌握某項可編碼技能後，該技能在 2–3 年內會失去大部分市場價值。\n\n- **OpenAI 內部 AI agent 使用呈指數成長：** 2025 年 1 月至 2026 年 8 月，OpenAI 員工的 AI agent 與人類工作日比例達 3:1，推理成本中位數從每天 2 美元飆升至 600 美元（第 90 百分位數超過 7,000 美元），月複合成長率 129%。但超過半數長任務仍需人工介入，顯示聊天介面無法擴展至多 agent 管理，成本控制與檢查點設計成為核心 UX 挑戰。\n\n- **撤銷功能是探索的前提：** 作者強調撤銷不只是事後修正錯誤，更重要的是「事前預防恐懼」——使用者只有在犯錯成本低時才會大膽探索功能。原則是「絕不懲罰好奇心」，建議將撤銷功能延伸至 AI 代理操作。\n\n- **反思設計是「別讓我思考」的刻意例外：** 作者引用 Phoebe Sengers 的理論，指出反思設計刻意將無意識行為帶入使用者意識層面，適用於三種情境：不可逆行動、緩慢累積的模式、應具實質意義的同意。螢幕使用時間儀表板、月度支出摘要等「鏡像時刻」能預防後悔，減少流失——但濫用會淪為嘮叨與道德說教。\n\n- **迷你地圖需符合 8 項準則才有效：** 作者提出經驗法則：只在 4–5 個螢幕畫面以上的大空間使用，必須顯示視口指示器、雙向耦合主視圖、顯示空間結構並疊加搜尋結果，保持小巧且可關閉，永遠不能是唯一導航途徑。在小螢幕上，地圖的「定向稅」（切換成本）可能超過好處。\n\n- **AI 經濟預測與現實落差：** Anthropic 研究團隊預測 2030 年三種情境（GDP 成長 0.7%–3.4%），但作者認為報告遺漏機器人技術的影響——類人機器人（如 Optimus）將在約 10 年內執行大部分體力工作，打破「未受 AI 影響職業」的假設。作者最佳預測：2030 年達溫和情境，2040 年達極端情境。\n\n---\n\n## 對設計／產品的啟示\n作者建議設計師重新思考 AI 時代的價值來源：累積「判斷哪個方案能通過真實客戶考驗」的經驗，比掌握特定工具技能更重要。在 agent 管理介面設計上，應優先考慮檢查點、成本即時顯示與可靠的停止按鈕，而非沿用聊天介面。對於撤銷、反思設計與迷你地圖等經典 UX 模式，需在 AI 擴大操作規模的脈絡下重新校準——撤銷範圍應擴大、鏡像時刻應節制使用、空間導航工具應對應更大的工作區。新鮮人應優先累積實務經驗（即使低薪），因為默會知識無法從教程中學得。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-12"
-    }
-  ]
+  "podcast_briefs": [],
+  "article_briefs": []
 }
