@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-14",
+    "date_display": "2026 年 09 月 14 日",
+    "generated_at": "2026-09-14T08:56:12.396889+08:00",
+    "total": 1,
+    "sources": [
+      "This Week at YC"
+    ],
+    "headline": "同一個 AI 模型在 ARC-AGI 測驗的表現可從 30% 躍升至 95%，關鍵差異在於「harness」（代理框架）的設計，顯示如何運用模型比模型本身更重要。",
+    "no": 151
+  },
+  {
     "date": "2026-09-13",
     "date_display": "2026 年 09 月 13 日",
     "generated_at": "2026-09-13T08:55:52.618012+08:00",
@@ -1003,16 +1014,5 @@
     ],
     "headline": "People obsessed with engineering, computer science, robotics, AI, AGI, machine learning, deep learning, neural networks, LLMs, SLMs, transformers, RAG systems, vector databases, agents, automation, DevOps, MLOps, distributed systems, backend architecture, scalable systems, Linux,",
     "no": 62
-  },
-  {
-    "date": "2026-06-16",
-    "date_display": "2026 年 06 月 16 日",
-    "generated_at": "2026-06-16T08:55:35.914097+08:00",
-    "total": 4,
-    "sources": [
-      "Design"
-    ],
-    "headline": "Open Design 發布全新官網，整合了 265 套視覺模板、150 多套 Design Systems 及 50 多套精選教程，全站本身即以 Open Design 設計完成。",
-    "no": 61
   }
 ]

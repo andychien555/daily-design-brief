@@ -4176,5 +4176,20 @@
         "cost_usd": 0.00453
       }
     ]
+  },
+  "2026-09-14": {
+    "input_tokens": 2110,
+    "output_tokens": 1260,
+    "audio_seconds": 0.0,
+    "cost_usd": 0.02523,
+    "calls": [
+      {
+        "label": "article-summary",
+        "input_tokens": 2110,
+        "output_tokens": 1260,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.02523
+      }
+    ]
   }
 }

@@ -1,53 +1,8 @@
 {
-  "date": "2026-09-13",
-  "date_display": "2026 年 09 月 13 日",
-  "generated_at": "2026-09-13T08:55:52.618012+08:00",
-  "top_products": [
-    {
-      "title": "SUDARI",
-      "url": "https://www.producthunt.com/products/sudari",
-      "published": "2026-09-10T23:18:58-07:00",
-      "author": "Jacob",
-      "tagline": "A pixel otter desktop pet that reacts to how you work",
-      "post_id": "1247276",
-      "summary_zh": "一個像素風格的水獺桌面寵物，會根據你的工作狀態做出反應。適合想為工作環境增添趣味的使用者。",
-      "image_url": "https://ph-files.imgix.net/101edf18-26ff-400d-88cd-8abfcdc4d077.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/3693175d-12a5-4489-9af4-3b1e51948088.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "DockFix 5.0",
-      "url": "https://www.producthunt.com/products/dockfix",
-      "published": "2026-09-11T12:26:15-07:00",
-      "author": "Gustav Lübker",
-      "tagline": "Replace the macOS Dock with one that is truly yours.",
-      "post_id": "1247937",
-      "summary_zh": "macOS Dock 的替代工具，讓使用者能完全自訂 Dock 的外觀與行為。",
-      "image_url": "https://ph-files.imgix.net/8be3023e-a53d-4084-914f-3e53977e6ccc.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/76aff051-2332-4968-a63b-1b4aed5d702d.jpeg?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "LiveGrid",
-      "url": "https://www.producthunt.com/products/livegrid-4",
-      "published": "2026-09-10T21:01:14-07:00",
-      "author": "LUCAS ANDRADE",
-      "tagline": "Watch multiple live streams at once, never miss a thing",
-      "post_id": "1247211",
-      "summary_zh": "同時觀看多個直播串流的工具，適合需要監看多個頻道的使用者。",
-      "image_url": "https://ph-files.imgix.net/31b32603-9953-4d41-b045-2ecb5d0a5b8c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/566d94b7-4ebb-492b-a87a-577320e0fc10.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Moji",
-      "url": "https://www.producthunt.com/products/moji-2",
-      "published": "2026-09-10T19:58:28-07:00",
-      "author": "Alex Ishida",
-      "tagline": "Open Markdown files like PDFs.",
-      "post_id": "1247185",
-      "summary_zh": "將 Markdown 檔案以類似 PDF 的方式開啟閱讀，簡化 Markdown 文件的瀏覽體驗。",
-      "image_url": "https://ph-files.imgix.net/603fb51b-a838-4407-ab6f-dda7739f4cb8.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/f5528531-eb1f-4a71-9044-b03c89e08392.png?auto=format&w=960&h=540&fit=crop"
-    }
-  ],
+  "date": "2026-09-14",
+  "date_display": "2026 年 09 月 14 日",
+  "generated_at": "2026-09-14T08:56:12.396889+08:00",
+  "top_products": [],
   "criteria": {
     "producthunt": {
       "source": "Product Hunt Atom feed",
@@ -56,5 +11,17 @@
     }
   },
   "podcast_briefs": [],
-  "article_briefs": []
+  "article_briefs": [
+    {
+      "title": "Why The Harness Matters More Than The Model",
+      "url": "https://mailchi.mp/ycombinator/this-week-at-september-13th",
+      "published": "2026-09-14",
+      "author": "Y Combinator",
+      "handle": "ycombinator",
+      "source": "This Week at YC",
+      "label": "創業週報",
+      "summary_md": "## 一句話總結\n同一個 AI 模型在 ARC-AGI 測驗的表現可從 30% 躍升至 95%，關鍵差異在於「harness」（代理框架）的設計，顯示如何運用模型比模型本身更重要。\n\n- **本週主打：** 作者強調 harness（讓 AI 模型運作的外層框架）常被誤認為只是提示工程或鷹架，但實際上同一組模型權重搭配更好的 harness，在 ARC-AGI 測試中可從 30% 提升到 95%；YC 將舉辦 Paper Club 深入討論 harness 設計原則，並分享為公司每位員工打造 agent 的經驗。作者另提供創辦人主導銷售（founder-led sales）的八大實務建議，來自 OneSchema 創辦人 Christina Gilbert 透過 outbound 創造數百萬美元營收的經驗。\n\n- **YC 動態：** 本週 YC 公司新聞聚焦航太與企業軟體——Stoke Space 募得 10 億美元開發完全可重複使用火箭、Inversion 獲 NASA 選中推進星際任務技術；企業工具類則有 Blee 募得 2,700 萬美元做行銷合規軟體、PostEra 的口服生育藥物分子被默克收購，顯示 YC 生態在深科技與 B2B SaaS 雙軌並進。\n\n- **新創 launch：** 新上線公司幾乎全圍繞「AI agent 取代人類工作流程」主題——包括 Real-SWE 用私有程式碼庫建立編碼基準測試 agent 能否做真實工程工作、Rational 打造零人力會計事務所、Dock 提供多人協作 agent 工作區讓團隊效率提升 3 倍、Ami by AiSDR 訓練自 27 產業 2 萬場會議數據的 GTM agent，以及 Orchestra 自優化推論雲端號稱降低 AI 成本 100 倍。\n\n- **HN 熱門：** 本週 Hacker News 熱門貼文橫跨數學突破與科技爭議——Navier-Stokes 方程式相關論文引發 2,000+ 討論、OpenAI 發表關於 Navier-Stokes 千禧年大獎難題的文章獲 1,340 分、Apple 推出 iPhone Duo 引來 2,500+ 留言；另有 LG 智慧電視被揭露 2.16 億台「間諜電視」問題、Claude 可直接修改網頁元素（如改按鈕顏色）的展示，以及 DeepSeek v4.1 Flash 發布等 AI 進展話題。\n\n- **YC 生態活動：** YC 推出兩項針對 AI agent 浪潮的活動——10 月 17–18 日在舊金山舉辦「Make Something Agents Want」黑客松，主題為多數產品仍為人類設計，但 agent 正取代人類成為使用者與決策者；以及 YC Early Access Network 秋季場（10 月 22 日），這是邀請制網絡，讓資深技術主管提前看到 YC 企業級 AI 公司並透過 pilot 影響產品路線圖。\n\n## 對設計／產品的啟示\n作者指出當 AI agent 逐漸取代人類成為產品的主要使用者時，產品設計典範需要根本性轉變——不只是介面優化，而是重新思考「誰在使用」以及如何讓 agent 能有效操作你的產品。對於正在打造 AI 工具或 agent 的團隊，投資在 harness（如何編排、測試、優化模型的外層框架）的重要性不亞於模型本身；從 30% 到 95% 的效能差距證明，工程設計與整合策略才是讓 AI 真正發揮價值的關鍵，而非單純追逐最新模型。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-14"
+    }
+  ]
 }
