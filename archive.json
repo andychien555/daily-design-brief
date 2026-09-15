@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-15",
+    "date_display": "2026 年 09 月 15 日",
+    "generated_at": "2026-09-15T08:56:02.156713+08:00",
+    "total": 6,
+    "sources": [
+      "UX Tigers"
+    ],
+    "headline": "作者認為 AI 正在根本改變 UX 研究與產品開發的成本結構，使得過去因資源限制而做出的妥協（如單一平台架構、放棄開放式問卷、手動調優參數）現在都應重新檢視。",
+    "no": 152
+  },
+  {
     "date": "2026-09-14",
     "date_display": "2026 年 09 月 14 日",
     "generated_at": "2026-09-14T08:56:12.396889+08:00",
@@ -1005,16 +1016,5 @@
     ],
     "headline": "Claude Design 新功能：可跨專案維持設計系統一致性、支援畫布直接編輯、與 Claude Code 同步，並整合更多第三方工具。",
     "no": 63
-  },
-  {
-    "date": "2026-06-17",
-    "date_display": "2026 年 06 月 17 日",
-    "generated_at": "2026-06-17T08:55:39.280596+08:00",
-    "total": 1,
-    "sources": [
-      "UX Design"
-    ],
-    "headline": "People obsessed with engineering, computer science, robotics, AI, AGI, machine learning, deep learning, neural networks, LLMs, SLMs, transformers, RAG systems, vector databases, agents, automation, DevOps, MLOps, distributed systems, backend architecture, scalable systems, Linux,",
-    "no": 62
   }
 ]
