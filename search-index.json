@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-09-16T01:54:05+08:00",
+  "generated_at": "2026-09-16T08:56:06+08:00",
   "days": [
+    {
+      "d": "2026-09-16",
+      "dd": "2026 年 09 月 16 日",
+      "no": 153,
+      "items": [
+        {
+          "k": "product",
+          "t": "PeekPaste",
+          "b": "Your clipboard, within reach 一款剪貼簿管理工具，讓使用者快速存取和管理複製的內容。適合需要頻繁處理多項剪貼內容的工作者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "OpenAI Agents API",
+          "b": "Cloud agents, run on OpenAI's Codex harness 基於 OpenAI Codex 架構的雲端 AI 代理服務，讓開發者能在雲端運行自動化代理程式。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Kodro",
+          "b": "Code robots in an offline Python learning simulator 一個離線 Python 學習模擬器，讓使用者透過編寫機器人程式來學習程式設計。適合初學者練習 Python 語法與邏輯。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "FATHER",
+          "b": "A Mac dashboard for site traffic, deploys, uptime, and SEO Mac 平台的網站監控儀表板，整合流量、部署、運行時間和 SEO 數據。提供網站管理者統一的監控介面。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Mailyte",
+          "b": "Email for your team, your app, and your customers. 為團隊、應用程式和客戶提供的電子郵件解決方案，整合內部溝通與客戶信件管理功能。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "The Minimalist Entrepreneur Skills",
+          "b": "Book playbook as Claude Code slash skills 將《極簡創業》一書轉化為 Claude Code 可用的技能指令集，讓 AI 助手能執行書中的創業方法論。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-09-15",
       "dd": "2026 年 09 月 15 日",
