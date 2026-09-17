@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-16",
-  "date_display": "2026 年 09 月 16 日",
-  "generated_at": "2026-09-16T08:55:51.854197+08:00",
+  "date": "2026-09-17",
+  "date_display": "2026 年 09 月 17 日",
+  "generated_at": "2026-09-17T08:55:58.592876+08:00",
   "top_products": [
     {
-      "title": "PeekPaste",
-      "url": "https://www.producthunt.com/products/lucidbit",
-      "published": "2026-09-14T17:44:31-07:00",
-      "author": "Sulochanal Chellian",
-      "tagline": "Your clipboard, within reach",
-      "post_id": "1250802",
-      "summary_zh": "一款剪貼簿管理工具，讓使用者快速存取和管理複製的內容。適合需要頻繁處理多項剪貼內容的工作者。",
-      "image_url": "https://ph-files.imgix.net/f530577e-25fe-4519-a7e4-655a0ce4b93c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/b0841e4d-f51c-42f8-b7e7-45b98e768818.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Expand Board for macOS",
+      "url": "https://www.producthunt.com/products/expand-board-for-macos",
+      "published": "2026-09-15T09:28:05-07:00",
+      "author": "Gabriel",
+      "tagline": "Expand ideas, concepts, and plans across limitless boards",
+      "post_id": "1251550",
+      "summary_zh": "macOS 平台上的無限畫布工具，用於展開和整理想法、概念與計劃。",
+      "image_url": "https://ph-files.imgix.net/98046bf1-5ddb-4f1f-bd1c-d4b8132024e9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/2787b390-5484-476e-8577-80f49bf3640a.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "OpenAI Agents API",
-      "url": "https://www.producthunt.com/products/openai",
-      "published": "2026-09-13T19:33:24-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "Cloud agents, run on OpenAI's Codex harness",
-      "post_id": "1249781",
-      "summary_zh": "基於 OpenAI Codex 架構的雲端 AI 代理服務，讓開發者能在雲端運行自動化代理程式。",
-      "image_url": "https://ph-files.imgix.net/f89d5215-fa19-4021-928b-bcc353ed6c0b.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/e50ffc22-7004-4164-a119-86873f25d5d7.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Appwrite 2.0",
+      "url": "https://www.producthunt.com/products/appwrite",
+      "published": "2026-09-15T02:56:57-07:00",
+      "author": "Eldad Fux",
+      "tagline": "The open-source cloud for agents and developers",
+      "post_id": "1251186",
+      "summary_zh": "開源雲端平台，為 AI 代理和開發者提供後端服務與基礎架構。",
+      "image_url": "https://ph-files.imgix.net/cb6b1427-7788-4784-a221-7eadc645da7a.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5b00dbe3-773c-44f6-ae0b-b9f3dc4c30af.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Kodro",
-      "url": "https://www.producthunt.com/products/kodro",
-      "published": "2026-09-14T11:14:09-07:00",
-      "author": "Vaibhav Lalwani",
-      "tagline": "Code robots in an offline Python learning simulator",
-      "post_id": "1250562",
-      "summary_zh": "一個離線 Python 學習模擬器，讓使用者透過編寫機器人程式來學習程式設計。適合初學者練習 Python 語法與邏輯。",
-      "image_url": "https://ph-files.imgix.net/56f36633-6766-4b97-bc3e-91d276a32dc7.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/6816dac9-5c8c-4ec4-9d73-8afddf81a57c.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "PhraseVault 3.0",
+      "url": "https://www.producthunt.com/products/phrasevault",
+      "published": "2026-09-15T06:45:29-07:00",
+      "author": "Gerhard Petermeir",
+      "tagline": "Now lock one sensitive phrase at a time with a PIN",
+      "post_id": "1251397",
+      "summary_zh": "支援以 PIN 碼單獨鎖定敏感詞組的密碼管理工具，強化隱私保護。",
+      "image_url": "https://ph-files.imgix.net/b460fcc8-adfa-4646-8c68-ac996acca1c9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/59f60d5f-1741-4a77-a416-57ba63b3e306.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "FATHER",
-      "url": "https://www.producthunt.com/products/father-web-monitoring",
-      "published": "2026-09-14T13:10:06-07:00",
-      "author": "Richard Rogers",
-      "tagline": "A Mac dashboard for site traffic, deploys, uptime, and SEO",
-      "post_id": "1250659",
-      "summary_zh": "Mac 平台的網站監控儀表板，整合流量、部署、運行時間和 SEO 數據。提供網站管理者統一的監控介面。",
-      "image_url": "https://ph-files.imgix.net/7c885fcb-78b4-4f59-87e4-a11304f05bcf.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/55836757-76ad-4d77-9740-e0367aebe09e.png?auto=format&w=960&h=540&fit=crop"
+      "title": "ZeroClick",
+      "url": "https://www.producthunt.com/products/zeroclick",
+      "published": "2026-09-15T17:01:56-07:00",
+      "author": "Jamie Barton",
+      "tagline": "Sell your product to AI agents",
+      "post_id": "1251841",
+      "summary_zh": "協助企業將產品銷售給 AI 代理的平台，針對 AI 驅動的採購場景。",
+      "image_url": "https://ph-files.imgix.net/8e1873a0-c390-4398-86f6-59fcd7dec6ef.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/e29635e3-a0c3-4c43-ba95-cb70f6d33075.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Mailyte",
-      "url": "https://www.producthunt.com/products/mailyte",
-      "published": "2026-09-14T00:20:35-07:00",
-      "author": "David Asiru",
-      "tagline": "Email for your team, your app, and your customers.",
-      "post_id": "1249963",
-      "summary_zh": "為團隊、應用程式和客戶提供的電子郵件解決方案，整合內部溝通與客戶信件管理功能。",
-      "image_url": "https://ph-files.imgix.net/bf7c1d5a-7d7b-45fd-ad3c-30a7184a210e.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c8cf2aab-94b0-4104-a222-9a9da009a227.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Thread",
+      "url": "https://www.producthunt.com/products/thread-ai-journal-memory",
+      "published": "2026-09-15T03:27:07-07:00",
+      "author": "Md. Jamilur Rahman",
+      "tagline": "AI journal that connects your thoughts into something bigger",
+      "post_id": "1251215",
+      "summary_zh": "AI 日誌工具，自動連結使用者的思緒片段，形成結構化的想法網絡。",
+      "image_url": "https://ph-files.imgix.net/d3ddf868-f1a8-4887-a663-92001858a2e4.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/700057e9-7ef2-4f13-835d-0dfb9333678d.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "The Minimalist Entrepreneur Skills",
-      "url": "https://www.producthunt.com/products/the-minimalist-entrepreneur-skills",
-      "published": "2026-09-13T18:20:09-07:00",
-      "author": "KP",
-      "tagline": "Book playbook as Claude Code slash skills",
-      "post_id": "1249747",
-      "summary_zh": "將《極簡創業》一書轉化為 Claude Code 可用的技能指令集，讓 AI 助手能執行書中的創業方法論。",
-      "image_url": "https://ph-files.imgix.net/352cd855-af2e-4dc6-922b-cf927ed10419.jpeg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/42e8b2cc-512c-46f5-9966-11e61e1161d7.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Gemini 3.8 & 3.8 Live Extended Thinking",
+      "url": "https://www.producthunt.com/products/gemini-3-8-3-8-live-extended-thinking",
+      "published": "2026-09-15T11:28:06-07:00",
+      "author": "Ankit Sharma",
+      "tagline": "Our most advanced Gemini Audio models yet",
+      "post_id": "1251643",
+      "summary_zh": "Google 推出的進階 Gemini 音訊模型，提升語音理解與即時互動能力。",
+      "image_url": "https://ph-files.imgix.net/ac9c11d5-31a1-4247-b32e-a7460522312d.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/13b64edd-4f6e-4a50-bb20-0bc6fce1905f.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,27 +77,40 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
+  "podcast_briefs": [],
+  "article_briefs": [
     {
-      "episode_id": "99a6-5fd2-4191-a7ae-b7ab77ec2358",
-      "title": "EP697 | 🔥",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/eb3399a6-5fd2-4191-a7ae-b7ab77ec2358",
-      "published": "2026-09-16",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為 Anthropic CEO Dario 等人要求 AI 監管其實各懷鬼胎（排擠競爭者或爭取追趕時間），但諷刺的是監管與驗證過程反而會大幅增加算力需求，對硬體供應鏈可能是利多。\n\n## 1. AI 監管論戰：三巨頭罕見同調但動機存疑\n- **Anthropic 發文引發震盪：** Dario Amodei 上週六發 3,800 字文章呼籲 AI 前沿模型監管，週一 Nvidia 跌 6%、自然星漲 13%，台股亦受波及。\n- **馬斯克、Altman 罕見背書：** 三人過往恩怨不斷，這次卻站同一陣線；主講人認為 Anthropic / OpenAI 想透過「監管捕獲」（提高合規成本）擠掉新競爭者，馬斯克則希望對手減速好讓 xAI 彎道超車。\n- **OpenAI 超級對齊團隊縮編：** 原承諾 20% 預算做 AI 安全，實際只給 1–2%、用舊晶片；主講人質疑這些公司真實意圖並非人類福祉，而是卸責與鞏固市佔。\n\n## 2. 監管反而增加算力需求：硬體需求不降反升\n- **驗證與監控環節新增：** 若真按 Dario 提議，模型需經第三方評估、對齊考試（重跑 1,000 次抓作弊）、可解釋性掃描（FMRI）、推理監考等，每階段都耗費大量算力。\n- **訓練 vs. 推理負擔挪移：** 訓練可能稍減速，但推理（inference）用量不變甚至增加，外加新增驗證層，主講人估計可能多用掉 15–20% 以上算力。\n- **短期情緒衝擊後可能反轉：** 週一硬體股不跌反漲邏輯矛盾；主講人認為市場未來幾週可能意識到監管其實推升算力總需求，對 Nvidia、台積電等為利多。\n\n## 3. 台股盤面與焊錫 IPO 抽籤潮\n- **低波動膠著等活水：** 大盤持續低迷，超多散戶抽焊錫新股、資金遭凍；主講人引 2023 年 7769 案例，認為今日（抽籤截止）後可能釋出活水，但仍需觀察美股 Nasdaq 是否走弱。\n- **國際盤疲弱：** Nasdaq 逼近盤整下緣，台股即便有資金回流也難獨強。\n\n## 4. 個人近況：出差、運動與育兒感悟\n- **首次商務出差：** 前往慕尼黑看展，出發前四歲大兒子大哭不捨，讓主講人深刻體會「孩子的純粹的愛勝過一切刻骨銘心感情」。\n- **功能訓練新突破：** 教練引進滑輪組訓練（類似保加利亞袋但更變態），主講人形容「用生命拉、回饋生命力量」，做完血糖偏低、食量暴增但體重不增，三個月來完全無倦怠感。\n- **健檢指標漂亮：** 儘管經歷數月「紅酒探險之旅」，抽血結果肝膽、三酸甘油脂、血壓、心率皆佳，證實運動對身體有「翻天覆地」改善。\n\n## 5. 中國 A 股與投資心態\n- **近年不再關注：** 主講人 2018 年前會做滬深 300、滬港通，現已停手；認為中國市場環境不佳。\n- **被動元件行情回顧：** 今年上半年江海因被動元件漲價噴出，主講人提醒「不要把節目當爆料台」，聽到風聲仍需自行判斷，套牢別回來抱怨。\n\n## 結論與後市展望\n主講人認為 AI 三巨頭的監管呼籲是「各懷鬼胎、伪善演戲」，真正目的在排擠競爭者或爭取追趕時間，而非人類福祉；但諷刺的是，若真落實第三方驗證與對齊監控，反而會大幅推升算力總需求（訓練 + 推理 + 驗證），中長期對 Nvidia、台積電等硬體供應鏈可能構成利多。短期台股因焊錫抽籤資金凍結、美股 Nasdaq 疲弱而膠著，需觀察本週是否出現活水與國際盤轉機；投資人應理性看待產業動態，不盲目跟單也不過度恐慌。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-16"
+      "title": "Why would someone pay for your app when AI does it for free?",
+      "url": "https://www.revenuecat.com/blog/growth/differentiator-against-ai",
+      "published": "2026-09-17",
+      "author": "RevenueCat",
+      "handle": "revenuecat",
+      "source": "RevenueCat Blog",
+      "label": "訂閱成長",
+      "summary_md": "## 一句話總結\n作者認為 AI 聊天機器人雖是免費競爭者，但訂閱制 App 若能在結構、記憶、習慣、精準度、連結感與實體整合這六個面向建立差異化，仍能留住付費用戶——問題不在「為何付費」而在「為何持續付費」。\n\n- **AI App 變現優於非 AI，但留存更差：** RevenueCat《State of Subscription Apps 2026》顯示 AI 功能 App 的單用戶營收高 41%、試用轉換率高 52%，但 12 個月留存僅 21.1%（非 AI 為 30.7%）、退款率高約 20%；OpenAI 的影片 App Sora 下載破 1,200 萬，但 Day 30 留存僅 8% 左右，遠低於業界 30% 標準，最終停止營運。\n\n- **Chegg 與 Duolingo 的對比案例：** 作業輔助服務 Chegg 因 ChatGPT 衝擊，2023 年財報會議後股價跌 50%、2025 年裁員 45%；相對地，Duolingo 在 2026 Q2 營收成長 18%、DAU 達 5,870 萬（+23%）、付費訂閱 1,270 萬（+17%）——作者認為差異在於 Duolingo 花了 14 年建立遊戲化與習慣養成機制，而 Chegg 本質只是「一次性查答案」體驗。\n\n- **六大 LLM 聊天無法取代的優勢（Blank Box Test）：** 作者提出結構（Structure，如 Runna 跑步 App 的完整行事曆與即時指導）、記憶（Memory，如 Rosebud 日記 App 累積數據後提供更好反思）、習慣（Habit，Duolingo 加入排行榜後學習時間增 17%、高參與學習者數三倍成長）、精準度（Precision，Cal AI 靠 MyFitnessPal 2,000 萬食品資料庫提供更準確熱量追蹤）、連結感（Connection，AI 伴侶 App 預計創造 1.2 億美元營收）、實體與數位整合（如植物照護 App Willow 結合感測器）。\n\n- **App 市場仍在成長但分配集中：** 2022 年以來 App 月均發布量從 2,000 成長至 14,700+（7 倍），但 69% 訂閱營收仍由 2020 年前 App 取得，2025–2026 新 App 僅占 3%；作者引述 Eric Seufert 與 Rik Haandrikman 觀點：建造成本降低但分發成本上升，分發管道本身成為護城河。\n\n- **定價策略與標籤建議：** Irrational Labs 針對 767 名軟體用戶研究顯示「AI-powered」標籤反而降低感知價值、無助於高價合理化；高價位組 LTV 是低價位組 6 倍（State of Subscription Apps 報告），作者建議別與免費 LLM 比價、應強調結果而非技術；免費層也要展現同樣差異化優勢，因其同樣在與「空白對話框」競爭。\n\n- **LLM 既是競爭者也是分發管道：** 作者指出 LLM 聊天機器人幫助競爭者快速開發，但也可能推薦你的 App，建議（引 Brian Balfour）盡早整合 LLM 生態系統、讓其認識你的 App，同時在產品層戰略性建立差異化。\n\n## 對設計／產品的啟示\n作者建議進行「兩分鐘 Blank Box Test」：在 LLM 聊天中用用戶語言描述問題，對比自家 App 能提供的六項差異化優勢（結構、記憶、習慣、精準度、連結、實體整合），若無法明確指出優勢則產品可被取代。設計與產品策略應專注於讓 App 在第六個月仍不可取代：投資在引導用戶累積數據（記憶）、建立儀式感與問責機制（習慣）、打造有觀點的工作流程（結構），並利用既有用戶作為護城河；溝通上應聚焦「幫用戶達成的成果」而非 AI 技術本身，定價不與免費工具競爭、用高價位訊號傳達差異化價值。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-17"
     },
     {
-      "episode_id": "2401223802",
-      "title": "2026/9/16(三)股市還在撐 債市先崩?2026最難一局 Fed升息後 誰先投降？【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-16-2026-fed",
+      "title": "The 100 Most Common UX Design Methods, Ranked by Value",
+      "url": "https://www.uxtigers.com/post/100-uxd-methods",
       "published": "2026-09-16",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為美債殖利率突破 5% 反映財政壓力與海外買盤退卻，聯準會面臨升息與否的兩難，而投資人已從「無條件信任美國」轉為「只信企業、不信政府」的選邊站局面。\n\n## 1. 美債殖利率飆升與供需失衡：5% 成為新常態起點\n- **10 年期殖利率突破 5.04%、20 年期達 5.42%：** 分別創 2007 年以來與 2020 年重啟 20 年債以來最高；主講人指出這是能源（油價近 110 美元）、財政赤字擴大、AI 融資需求三股力量共同推升。\n- **標售冷清、外資不接：** 20 年債標售尾差達 2 個基點（2024 年最大）、投標倍數 2.57 倍低於均值 2.65 倍；間接得標（外國央行／機構）比重僅 52.465%，為有紀錄以來最低。\n- **貝森特財長淡化問題：** 在眾院聽證會強調「全球債市都有壓力、美債仍具競爭力」，將財政赤字壓至 GDP 3% 列為目標，但本屆預算與國防支出皆創高。\n- **5% 殖利率的矛盾：** 投資人嘴上說愛高利率，但真要鎖 20 年只拿 5% 報酬又不願意——股市與企業債的相對吸引力更高，顯示市場正重新定價所有資產。\n\n## 2. 聯準會決策兩難：升息或不升都有風險\n- **市場押注暴力升息：** 摩根大通調查顯示 9/14 後美債空頭部位增 10 個百分點；市場已 price in 升息，若不升反而釋出「過度鳩派」訊號、讓人懷疑經濟有問題。\n- **供給性通膨難解：** 中東戰爭推高油價、關稅增加進口成本、AI 搶購零組件，ISM 8 月調查顯示 12 個製造業產業回報原料漲價、無一降價；未加工中間材年增 13%、已加工中間材 11.5%、最終商品 6.5%。\n- **貨運與物流成本回升：** 2026 年每批貨物運輸支出已增 15–17%，接近 2022 年中旬水準；油價、燃料、物流重新進入企業成本結構。\n- **華許首秀的考驗：** 主講人認為若在消費市場疲弱下貿然升息，恐加劇需求萎縮；聯準會須在「全面數據」與「市場溫度」間取捨。\n\n## 3. 資金流轉向：外資棄債擁股、只信企業不信政府\n- **外資買美股超越美債：** 過去一年流入美股相當於 GDP 2.8%、高於美債的 2%，為 1980–2020 年以來首見；標普連四年雙位數報酬、Q2 企業獲利暴增 52%。\n- **美國資產「拆解論」：** 主講人強調投資人已不再把「美國」當單一標的——相信蘋果、微軟、Google 勝過美國政府，寧願承擔企業違約風險也不鎖 20 年 5% 美債。\n- **投資等級債同樣受青睞：** 資金流向美企債而非公債，反映對企業競爭力的信心與對財政前景的懷疑。\n\n## 4. 川普民調下滑與期中選戰壓力：高油價成致命傷\n- **支持率跌至 33%、共和黨內部僅 72%：** 蓋洛普調查顯示 57% 民眾認為財務狀況變差（月增 4%）；三分之二選民認為經濟走錯方向。\n- **關稅戰反噬：** 56% 反對對加拿大商品徵 50% 關稅，包含六成獨立選民與三分之一共和黨選民；川普背書反成「死亡之吻」——43% 表示若川普支持某候選人就不投、僅 23% 因背書而投。\n- **實質薪資與體感落差：** 總體數據顯示實質平均薪資比疫情前增 2.8%，但 30% 勞工漲幅未追上通膨、逾一成年損失超 3.5%；民眾將加薪歸功自己、物價上漲怪罪政府。\n- **共和黨資金優勢：** 川普勝利聯盟已募得約 63 億美元，馬斯克超級政治行動委員會投入 1000 萬美元廣告費；科技巨頭（包括過去偏民主黨者）大舉捐助。\n\n## 5. 消費與信貸警訊：高利率下信用卡借貸激增\n- **7 月消費信貸增 181 億美元：** 高於 6 月 146 億與市場預估 117 億；信用卡循環信用增 28 億、總額達 1.357 兆美元，為增速最快項目。\n- **借貸成本極高：** 房貸利率接近 7%、信用卡平均利率 22.15%，且違約率創高；主講人質疑這是「被迫應急」而非對未來樂觀。\n- **財富效應撐場但基礎脆弱：** 消費情緒仍正值主因股市高位帶來財富效應，但「經濟好減經濟差」比例自 2020 年轉負、25 年底快速惡化；AI 榮景掩蓋消費疲憊。\n\n## 6. 輝達與 AI 生態投資：融資循環與金融化風險\n- **黃仁勳反對 AI 監管放緩：** 在 OINPACET 演講中強調「創新速度與安全非二選一」、企業自行確保安全即可；川普致電表態支持，主講人認為 OpenAI / Anthropic / 馬斯克陣營的放緩呼聲「不了了之」。\n- **輝達股權投資暴增 13 倍至 991 億美元：** 其中 480 億為上市公司／可交易證券、480 億為未上市資產；投資 OpenAI、Anthropic、xAI 等，主動「培養客戶」。\n- **融資循環疑慮：** 外界質疑「輝達投資 AI 公司 → AI 公司買回輝達晶片」形成自我循環；主講人認為邏輯是「我賺你的錢、也投資你、讓你繼續買我產品擴大生態系」，本身無大問題。\n- **金融化包裝風險：** GPU 可抵押、資料中心可做 CMBS、私募信貸與租賃合約快速拉升；主講人類比 2008 年次貸——「產品越混越多、名字越取越簡單」，最後投資人不知道底層資產為何，值得警惕。\n\n## 結論與後市展望\n主講人認為當前市場核心矛盾不在「AI 放緩論」，而是流動性與聯準會決策預期——5% 美債殖利率能否站穩、FOMC 會議能否取得共識（或票委進一步分裂），將在今晚至明晨揭曉。投資人須理解「美國」已非單一標的：可看多美股／美企競爭力，同時看空美債／財政前景；消費市場表面數據尚可，但高利率信貸激增、體感溫度惡化，中期選舉壓力與油價走勢將牽動政策；AI 融資生態蓬勃但金融化包裝加速，需留意重蹈 2008 年覆轍的尾部風險。主講人強調「深入理解需把大名詞拆解」，才能在複雜局勢中做出精準判斷。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-16"
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n\n作者針對 100 種常見 UX 設計方法進行價值排名，發現**定義問題的框架方法（如問題陳述、JTBD）遠比製作解決方案的方法更有價值**，而 AI 原型製作以 20 分大幅領先，顯示 AI 正在重構設計方法的成本結構與價值排序。\n\n---\n\n- **價值公式與成本門檻：** 作者以「廣度 + 高度 + 說服力 - 2×成本」計算價值，成本計算雙倍是因為花費一週的方法必須提供接近最高效益才能排進中段；結果顯示只有 3 個成本≥3 分的方法進入前 22 名，**前 10 名中只有 1 個成本超過 2 分**，證明「贏家用小時數買到大決策」。\n\n- **框架方法主導前段排名：** 問題陳述（第 3 名）、JTBD 框架（第 4 名）、設計簡報（第 6 名）、HMW 框架（第 9 名）都進入前 12 名，作者指出**花 1 小時決定解決什麼問題，勝過花 1 週美化解決方案**，但多數設計行事曆的時間配置恰好相反。\n\n- **AI 原型製作獨佔鰲頭：** 以 20 分排名第 1，領先第 2 名 4 分（全榜最大差距）。作者認為過去工程師需 2 週完成的，設計師現在 2 小時甚至 2 分鐘即可完成，**產出真實按鈕而非點陣圖**，讓設計師能在點擊時觀察真實行為，並在遇到限制時重新思考流程本身。\n\n- **劇場化是最大風險：** 作者警告設計工件容易從說服工具變成展示道具，尤其 **AI 讓看似完美的研究報告能在沒有真實用戶數據下生成（Vaporesearch）**。他提供三項測試：牆面測試（主要工作是被拍照嗎）、回顧測試（說出它改變的一項決策）、刪除測試（誰的下一個 sprint 會因它消失而改變）。\n\n- **AI 改變成本但無法決策：** 20 種方法標註「高 AI 槓桿效應」，集中在生成類（原型、發想、線框圖）、檢查編目類（啟發式檢視、內容清單）與文件製作類。但作者強調 **AI 無法提升方法的「高度」（決策層級），因為決策屬於對結果負責的人，而沒有模型對任何事負責**。\n\n- **保真度階梯將崩解為流動保真度：** 傳統的草圖→線框圖→模型→原型階梯存在是因為每層成本遞增。作者預測當生成近乎免費，階梯將崩解為「流動保真度」（fluidelity）：**一個持續的對話，隨意在保真度間移動**，早上畫流程草圖、11 點就能跑成可用程式碼、中午因程式碼暴露結構缺陷而回到灰盒。階梯將以檢查點（人類決策的時刻）而非活動（人類生產的數週）形式存活。\n\n## 對設計／產品的啟示\n\n作者建議設計團隊重新配置時間：將更多預算投入前期框架方法（問題陳述、JTBD、設計簡報），因為這些低成本方法能在數小時內防止數週漂移。面對 AI 工具，應將模型產出視為「原礦」而非終點，用機器處理數量和範圍、自己保留判斷力與品味。最重要的是建立**來源追溯機制**——每個工件都必須說明其事實從何而來，無法說出來源的就是套用精美模板的虛構作品。對於基礎建設類方法（設計系統、無障礙評估），不應因低分而放棄，因為公式無法捕捉其複利式效益與道德／法律必要性。最終，設計的價值不在產出多少工件，而在**工件是否真正改變了決策**。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-17"
+    },
+    {
+      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
+      "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-09-16",
+      "author": "NN/g Nielsen Norman Group",
+      "handle": "nngroup",
+      "source": "NN/g",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\nNielsen Norman Group 宣布於 12 月 2 日至 15 日舉辦線上 UX 培訓活動，提供 36 門涵蓋 AI、互動設計、管理與研究四大專業領域的即時課程，參加者可依自身進度累積學分取得 UX 認證。\n\n- **即時互動線上課程：** 活動提供 36 門不同主題的 UX 課程，採 100% 即時互動形式（無預錄內容），每門課程於兩天內各進行 3.5 小時的即時會議（紐約時間上午 11 點至下午 2 點 30 分），參加者需出席完整兩天才符合考試資格。\n\n- **彈性認證機制：** 參加者可選擇參加 1 至 5 門課程並僅支付所選課程費用；若完成任意 5 門課程並通過相關考試（每場考試管理費 95 美元），即可獲得 UX 認證；學分永久有效，可分次於不同活動累積完成。\n\n- **專業認證方向（選修）：** 活動提供人工智慧、互動設計、管理、研究四個專業方向，若在同一專業領域通過至少 5 門課程，認證證書將註明該專業專長（但取得 UX 認證本身並不強制選擇專業方向）。\n\n- **分級優惠定價：** 採早鳥優惠機制，報名 1 門課程費用為 1,220 至 1,320 美元（視報名時間而定），報名 5 門課程可享 20% 折扣，每增加一門課程折扣遞增（2 門 10%、3 門 15%、4 門 18%）；若於 11 月 17 日前取消可退款但扣除 20% 手續費，之後不退款但可轉讓名額。\n\n- **技術與社群支援：** 課程使用 Zoom 視訊會議、Google Docs 等協作工具及 Slack 社群平台進行，參加者需具備穩定高速網路、麥克風與視訊鏡頭（強烈建議）；註冊即可永久加入 NN/G UX Slack 社群，與其他數位專業人士交流。\n\n## 對設計／產品的啟示\n主辦方設計了兼具彈性與專業深度的培訓架構——參加者可依個人時程與預算自由選擇單一或多門課程，並透過累積學分制度（無期限限制）逐步取得認證，這種模式降低了專業進修的門檻；對於希望系統性提升 UX 能力或在特定領域（如 AI 應用、研究方法、團隊管理）建立專業聲譽的設計師與產品經理而言，這類結構化且具認證效力的培訓提供了明確的學習路徑與職涯發展支援。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-17"
     }
-  ],
-  "article_briefs": []
+  ]
 }

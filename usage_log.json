@@ -4333,5 +4333,90 @@
         "cost_usd": 0.08139
       }
     ]
+  },
+  "2026-09-17": {
+    "input_tokens": 39769,
+    "output_tokens": 14594,
+    "audio_seconds": 0.0,
+    "cost_usd": 0.338217,
+    "calls": [
+      {
+        "label": "producthunt",
+        "input_tokens": 395,
+        "output_tokens": 388,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.007005
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3001,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031503
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 2897,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031191
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 2949,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031347
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3110,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.03183
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3070,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.03171
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3003,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.031509
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 2043,
+        "output_tokens": 1500,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.028629
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 10980,
+        "output_tokens": 1355,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.053265
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 3565,
+        "output_tokens": 929,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.02463
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 4756,
+        "output_tokens": 1422,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.035598
+      }
+    ]
   }
 }
