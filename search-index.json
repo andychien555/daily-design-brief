@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-09-20T00:59:08+08:00",
+  "generated_at": "2026-09-20T08:56:12+08:00",
   "days": [
+    {
+      "d": "2026-09-20",
+      "dd": "2026 年 09 月 20 日",
+      "no": 157,
+      "items": [
+        {
+          "k": "product",
+          "t": "Mise",
+          "b": "The meal planner that gets all your dishes ready at once 一款餐點規劃工具，幫助使用者安排烹飪時程，讓多道菜餚能同時完成上桌。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Punch",
+          "b": "Save your group chat's important stuff 為群組聊天設計的工具，用於儲存和整理對話中的重要訊息與內容。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Steam Frame",
+          "b": "Your Steam library, now on a wearable PC 一款可穿戴式 PC 裝置，讓使用者能隨身攜帶並存取自己的 Steam 遊戲庫。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Basedash Models",
+          "b": "Define it once. Query it like a table. 資料建模工具，讓開發者定義一次資料結構後，即可像查詢資料表一樣進行操作。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Mantle",
+          "b": "Describe your logic. Generate Admin UI, MCP & WebMCP. 透過描述業務邏輯自動生成管理介面、MCP 和 WebMCP 的開發工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Stile.iD",
+          "b": "A private identity verification API to verify real users 提供隱私保護的身分驗證 API，用於確認使用者為真實人士。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-09-19",
       "dd": "2026 年 09 月 19 日",
