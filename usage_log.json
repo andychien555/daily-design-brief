@@ -4624,5 +4624,27 @@
         "cost_usd": 0.006066
       }
     ]
+  },
+  "2026-09-21": {
+    "input_tokens": 2165,
+    "output_tokens": 1260,
+    "audio_seconds": 0.0,
+    "cost_usd": 0.025395,
+    "calls": [
+      {
+        "label": "producthunt",
+        "input_tokens": 367,
+        "output_tokens": 315,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.005826
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 1798,
+        "output_tokens": 945,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.019569
+      }
+    ]
   }
 }

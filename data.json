@@ -1,8 +1,52 @@
 {
-  "date": "2026-09-20",
-  "date_display": "2026 年 09 月 20 日",
-  "generated_at": "2026-09-20T08:55:57.966168+08:00",
+  "date": "2026-09-21",
+  "date_display": "2026 年 09 月 21 日",
+  "generated_at": "2026-09-21T08:56:20.635687+08:00",
   "top_products": [
+    {
+      "title": "Epismo OS",
+      "url": "https://www.producthunt.com/products/epismo",
+      "published": "2026-09-19T13:05:33-07:00",
+      "author": "Hiroki",
+      "tagline": "Keep your work when you switch AI tools",
+      "post_id": "1255756",
+      "summary_zh": "讓使用者在切換不同 AI 工具時保留工作內容與進度的系統，適合需要同時使用多種 AI 服務的專業人士。",
+      "image_url": "https://ph-files.imgix.net/5cb3afa4-cb7f-4010-8feb-ee1cd7aa9f34.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/a8a7ae87-a01d-45ad-8032-243fa1f856e8.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Launchie 1.6.1",
+      "url": "https://www.producthunt.com/products/launchie",
+      "published": "2026-09-18T23:59:49-07:00",
+      "author": "Nick Friedrich",
+      "tagline": "Launchpad Replacement for MacOS 27 Golden Gate",
+      "post_id": "1255249",
+      "summary_zh": "適用於 macOS 27 Golden Gate 的 Launchpad 替代工具，提供應用程式啟動與管理功能。",
+      "image_url": "https://ph-files.imgix.net/84921c00-fead-4e11-a5e9-1bdbc1c33a34.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/8fd2d6d9-675e-4e22-ba68-5bce1b2a5767.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "The 101 Plays Itself",
+      "url": "https://www.producthunt.com/products/the-101-plays-itself",
+      "published": "2026-09-19T22:59:42-07:00",
+      "author": "Chris Messina",
+      "tagline": "Five lanes of LA highway turned into an instrument",
+      "post_id": "1255982",
+      "summary_zh": "將洛杉磯 101 高速公路的五條車道轉化為音樂樂器的互動裝置或應用程式。",
+      "image_url": "https://ph-files.imgix.net/03408f83-560e-4de6-8091-c78b2ca95362.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/cde039e0-75c6-49f4-93b8-03a1f511a2db.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Answers by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "published": "2026-09-19T01:54:55-07:00",
+      "author": "Ely",
+      "tagline": "Give it a research task + the JSON shape you want back.",
+      "post_id": "1255292",
+      "summary_zh": "接受研究任務並以指定 JSON 格式回傳結構化答案的開發工具，適合需要自動化資料整理的開發者。",
+      "image_url": "https://ph-files.imgix.net/c8d5e1f0-dc0a-4ba5-85ac-954d7da0aef4.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/1f01a455-861f-4e5b-8427-793a4fe201d6.png?auto=format&w=960&h=540&fit=crop"
+    },
     {
       "title": "Mise",
       "url": "https://www.producthunt.com/products/robot-recipes",
@@ -10,64 +54,9 @@
       "author": "Andrew Tye",
       "tagline": "The meal planner that gets all your dishes ready at once",
       "post_id": "1255234",
-      "summary_zh": "一款餐點規劃工具，幫助使用者安排烹飪時程，讓多道菜餚能同時完成上桌。",
+      "summary_zh": "幫助使用者規劃多道料理並確保所有菜餚同時完成的餐點計畫工具。",
       "image_url": "https://ph-files.imgix.net/08920c10-1be8-4bf9-8982-57e678171845.gif?auto=format&w=160&h=160&fit=crop",
       "hero_url": "https://ph-files.imgix.net/c39e45f2-b4e4-487e-a2fc-fc0ee5b38df1.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Punch",
-      "url": "https://www.producthunt.com/products/punch-4",
-      "published": "2026-09-18T06:56:07-07:00",
-      "author": "Paul Kim",
-      "tagline": "Save your group chat's important stuff",
-      "post_id": "1254739",
-      "summary_zh": "為群組聊天設計的工具，用於儲存和整理對話中的重要訊息與內容。",
-      "image_url": "https://ph-files.imgix.net/00860593-fe80-4c3e-aa15-9b448465dff4.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/f4583748-dfd1-4522-8cdc-ec7ee9ccf899.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Steam Frame",
-      "url": "https://www.producthunt.com/products/steam-machine",
-      "published": "2026-09-18T06:28:57-07:00",
-      "author": "Zac Zuo",
-      "tagline": "Your Steam library, now on a wearable PC",
-      "post_id": "1254713",
-      "summary_zh": "一款可穿戴式 PC 裝置，讓使用者能隨身攜帶並存取自己的 Steam 遊戲庫。",
-      "image_url": "https://ph-files.imgix.net/09e0c399-455a-490c-9a84-22921454e773.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a34d1bdd-5b11-4201-9cde-5b753c1ba461.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Basedash Models",
-      "url": "https://www.producthunt.com/products/basedash",
-      "published": "2026-09-18T09:18:15-07:00",
-      "author": "Max Musing",
-      "tagline": "Define it once. Query it like a table.",
-      "post_id": "1254873",
-      "summary_zh": "資料建模工具，讓開發者定義一次資料結構後，即可像查詢資料表一樣進行操作。",
-      "image_url": "https://ph-files.imgix.net/ad69657e-ce7f-4798-a63e-9dd437b9ca23.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/e33fe2b1-3ebd-4fb0-a5b4-773148ff77e6.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Mantle",
-      "url": "https://www.producthunt.com/products/mantle-f52466f6-7b01-4f3c-b7de-a2e445d1f2e3",
-      "published": "2026-09-17T20:44:43-07:00",
-      "author": "Peng-Han Su",
-      "tagline": "Describe your logic. Generate Admin UI, MCP & WebMCP.",
-      "post_id": "1254197",
-      "summary_zh": "透過描述業務邏輯自動生成管理介面、MCP 和 WebMCP 的開發工具。",
-      "image_url": "https://ph-files.imgix.net/c9344d5e-6aff-4efa-aa7e-2c57864209c4.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/eed174eb-d64e-49b8-a699-e07faed76525.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Stile.iD",
-      "url": "https://www.producthunt.com/products/stile-id",
-      "published": "2026-09-17T20:10:28-07:00",
-      "author": "Alex Marinov",
-      "tagline": "A private identity verification API to verify real users",
-      "post_id": "1254162",
-      "summary_zh": "提供隱私保護的身分驗證 API，用於確認使用者為真實人士。",
-      "image_url": "https://ph-files.imgix.net/c497bcf6-60b4-49b2-9377-6ea0a4164d8c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/daaf4d2f-bb20-41ab-b7aa-cc0f3674f942.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -78,5 +67,17 @@
     }
   },
   "podcast_briefs": [],
-  "article_briefs": []
+  "article_briefs": [
+    {
+      "title": "The State of Startups in 2026",
+      "url": "https://mailchi.mp/ycombinator/this-week-at-september-20th",
+      "published": "2026-09-21",
+      "author": "Y Combinator",
+      "handle": "ycombinator",
+      "source": "This Week at YC",
+      "label": "創業週報",
+      "summary_md": "## 一句話總結\n作者觀察到 2026 年新創正從軟體轉向硬體、近五分之一 YC 公司只有單一創辦人、且公司達成有意義營收的速度比以往更快，主要驅動力來自 AI 讓小團隊能處理更複雜問題。\n\n- **本週主打：** 作者在 The Lightcone podcast 中指出三大趨勢——新創從「bits to atoms」（軟體轉硬體）、單人創辦人比例達近 20%、營收成長加速，並認為 AI 降低了技術門檻，使有經驗的創辦人能以更小團隊解決更大問題，「知道該做什麼」比「知道怎麼做」更關鍵。\n\n- **YC 動態：** 本週新聞聚焦於 AI 應用落地——健康保險新創 Angle Health 獲 6 億美元、估值達 27 億；多家公司推出 AI agent 的安全層、銀行信任方案與程序記憶系統；航太公司 Astro Mechanica 發表無人機雷射概念；零售合規平台 Complir 獲 1,100 萬美元種子輪，顯示 AI 基礎設施與垂直應用並進。\n\n- **新創 launch：** 本週 8 家新公司涵蓋機器人雲端推理（Dreamscale Labs）、AI 健身教練（HYBRD）、agent 程序記憶（Memorable，聲稱減少 60% tool calls 與 40% 延遲）、飯店需求分析（Anana）、mRNA 遞送平台（Nanograb）、交易工具（Conviction）、agent 優化（Papaya）與 Claude 成本削減方案（Quotient Labs 稱省 47% 費用），集中在 AI agent 效能與成本優化、垂直產業應用。\n\n- **HN 熱門：** 熱門貼文分散多元——e-ink 鳥類辨識畫框（2,373 分）、新 AI 模型 System One（1,924 分）、AI 生成海報設計討論（1,745 分）、非自回歸決策模型（1,277 分）、370 年古密碼破解（1,216 分）、巴布亞紐幾內亞遊記（1,149 分）、Nvidia 支援 Rust GPU 程式（967 分）、監控隱私（953 分）與 passkeys 批評（827 分），技術、設計與社會議題並存。\n\n## 對設計／產品的啟示\n作者強調「knowing what to build」勝過「knowing how to build it」，對產品人意味著在 AI 降低執行門檻的時代，問題定義與市場洞察變得更關鍵；同時單人創辦人比例上升與營收加速，顯示小團隊可透過 AI 工具快速驗證想法，設計者應善用這些基礎設施專注於解決真實痛點，而非僅追求技術複雜度。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-21"
+    }
+  ]
 }
