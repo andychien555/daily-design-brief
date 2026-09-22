@@ -1,62 +1,73 @@
 {
-  "date": "2026-09-21",
-  "date_display": "2026 年 09 月 21 日",
-  "generated_at": "2026-09-21T08:56:20.635687+08:00",
+  "date": "2026-09-22",
+  "date_display": "2026 年 09 月 22 日",
+  "generated_at": "2026-09-22T08:56:01.093874+08:00",
   "top_products": [
     {
-      "title": "Epismo OS",
-      "url": "https://www.producthunt.com/products/epismo",
-      "published": "2026-09-19T13:05:33-07:00",
-      "author": "Hiroki",
-      "tagline": "Keep your work when you switch AI tools",
-      "post_id": "1255756",
-      "summary_zh": "讓使用者在切換不同 AI 工具時保留工作內容與進度的系統，適合需要同時使用多種 AI 服務的專業人士。",
-      "image_url": "https://ph-files.imgix.net/5cb3afa4-cb7f-4010-8feb-ee1cd7aa9f34.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a8a7ae87-a01d-45ad-8032-243fa1f856e8.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Milliseconds.ai",
+      "url": "https://www.producthunt.com/products/milliseconds-ai",
+      "published": "2026-09-20T13:14:25-07:00",
+      "author": "Baptiste Laget",
+      "tagline": "Fast AI decisions on text and images, via one API",
+      "post_id": "1256534",
+      "summary_zh": "透過單一 API 提供快速的 AI 文字與圖像決策服務，適合需要即時判斷的應用整合。",
+      "image_url": "https://ph-files.imgix.net/1ba5d6e8-79ee-48f5-8065-368245b8be64.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/82523610-351f-47f6-9d3c-1dfd5657e295.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Launchie 1.6.1",
-      "url": "https://www.producthunt.com/products/launchie",
-      "published": "2026-09-18T23:59:49-07:00",
-      "author": "Nick Friedrich",
-      "tagline": "Launchpad Replacement for MacOS 27 Golden Gate",
-      "post_id": "1255249",
-      "summary_zh": "適用於 macOS 27 Golden Gate 的 Launchpad 替代工具，提供應用程式啟動與管理功能。",
-      "image_url": "https://ph-files.imgix.net/84921c00-fead-4e11-a5e9-1bdbc1c33a34.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/8fd2d6d9-675e-4e22-ba68-5bce1b2a5767.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Jev",
+      "url": "https://www.producthunt.com/products/jev-2",
+      "published": "2026-09-20T19:19:43-07:00",
+      "author": "KP",
+      "tagline": "Fast, structured AI decisions for software automation",
+      "post_id": "1256682",
+      "summary_zh": "為軟體自動化提供快速且結構化的 AI 決策引擎，適合開發者整合至工作流程中。",
+      "image_url": "https://ph-files.imgix.net/07153df1-cbfd-4b82-80c4-3a072a49f782.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d1cc0cb7-6ff3-4524-a253-9b44002769c1.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "The 101 Plays Itself",
-      "url": "https://www.producthunt.com/products/the-101-plays-itself",
-      "published": "2026-09-19T22:59:42-07:00",
+      "title": "Cronhq",
+      "url": "https://www.producthunt.com/products/cronhq",
+      "published": "2026-09-20T14:56:29-07:00",
+      "author": "Michael Sunmisola",
+      "tagline": "Cron jobs that actually run",
+      "post_id": "1256588",
+      "summary_zh": "提供可靠執行的定時任務（Cron jobs）服務，確保排程工作不會遺漏或失敗。",
+      "image_url": "https://ph-files.imgix.net/55c669e6-d12c-4de9-8b8d-ef6a33f06dd8.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/b3241668-bc39-4664-87b2-31bc6cc694e2.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "NiubiGEO",
+      "url": "https://www.producthunt.com/products/niubigeo",
+      "published": "2026-09-20T19:04:19-07:00",
+      "author": "Jianxiaopai",
+      "tagline": "Open-source AI visibility. Human-powered growth.",
+      "post_id": "1256676",
+      "summary_zh": "開源的 AI 能見度工具，結合人力驅動的成長策略，適合需要透明化 AI 運作的團隊。",
+      "image_url": "https://ph-files.imgix.net/288908d5-d98b-4bd1-bc0d-aabeaed87fe2.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d1e67d9a-6b2c-46f4-b2ae-2e6ce833250b.jpeg?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Jevtown",
+      "url": "https://www.producthunt.com/products/jevtown",
+      "published": "2026-09-20T14:22:04-07:00",
+      "author": "Ivan Gabor",
+      "tagline": "10,000 AI readers react to your post before you publish it",
+      "post_id": "1256567",
+      "summary_zh": "在發布前模擬一萬個 AI 讀者對你的文章內容進行反應測試，協助優化內容策略。",
+      "image_url": "https://ph-files.imgix.net/eb346049-d9ee-4616-b609-da0e86ff9ca8.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/9df62921-822f-4bd4-b632-dbe206f46d76.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Google Flow for iOS & Android",
+      "url": "https://www.producthunt.com/products/google",
+      "published": "2026-09-20T21:12:23-07:00",
       "author": "Chris Messina",
-      "tagline": "Five lanes of LA highway turned into an instrument",
-      "post_id": "1255982",
-      "summary_zh": "將洛杉磯 101 高速公路的五條車道轉化為音樂樂器的互動裝置或應用程式。",
-      "image_url": "https://ph-files.imgix.net/03408f83-560e-4de6-8091-c78b2ca95362.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/cde039e0-75c6-49f4-93b8-03a1f511a2db.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Answers by Context.dev",
-      "url": "https://www.producthunt.com/products/context-dev",
-      "published": "2026-09-19T01:54:55-07:00",
-      "author": "Ely",
-      "tagline": "Give it a research task + the JSON shape you want back.",
-      "post_id": "1255292",
-      "summary_zh": "接受研究任務並以指定 JSON 格式回傳結構化答案的開發工具，適合需要自動化資料整理的開發者。",
-      "image_url": "https://ph-files.imgix.net/c8d5e1f0-dc0a-4ba5-85ac-954d7da0aef4.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/1f01a455-861f-4e5b-8427-793a4fe201d6.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Mise",
-      "url": "https://www.producthunt.com/products/robot-recipes",
-      "published": "2026-09-18T23:44:50-07:00",
-      "author": "Andrew Tye",
-      "tagline": "The meal planner that gets all your dishes ready at once",
-      "post_id": "1255234",
-      "summary_zh": "幫助使用者規劃多道料理並確保所有菜餚同時完成的餐點計畫工具。",
-      "image_url": "https://ph-files.imgix.net/08920c10-1be8-4bf9-8982-57e678171845.gif?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c39e45f2-b4e4-487e-a2fc-fc0ee5b38df1.png?auto=format&w=960&h=540&fit=crop"
+      "tagline": "Google's AI creative studio now on mobile",
+      "post_id": "1256721",
+      "summary_zh": "Google 的 AI 創意工作室推出行動版本，讓使用者可在手機上進行 AI 輔助創作。",
+      "image_url": "https://ph-files.imgix.net/00b50d1e-34ec-4628-a63a-448967f25711.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/4ba2f8bf-12c3-44eb-b5c5-2c1db0c00772.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -66,39 +77,40 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "2404370106",
-      "title": "2026/9/21(一)美股最危險組合:油價100美元+美債5% 川習會登場 利多還有戲?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-21-100-5",
-      "published": "2026-09-21",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為美股正面臨「油價100美元+美債殖利率5%」的危險組合，川習會（9/24）前市場聚焦關稅、稀土與中東局勢，各國對美談判採「能拖就拖」策略，選舉前政策訊號密集、波動將放大。\n\n## 1. 美股技術面與估值壓力：三大指數陷入區間整理\n- **費半重挫2.78%，內部分歧加大：** 上週五費半跌322點，儘管四巫日選擇權到期推升交易量達7兆美元，但美債殖利率攀升壓抑進一步上攻。\n- **納指困於三角收敛、標普區間震盪：** 納斯達克重新站回100日均線但仍受短期下降趨勢線壓抑；標普自5月以來持續區間震盪，買盤承接但無人願追高。\n- **羅素2000承壓最明顯：** 小型股指數已回落至長期上升趨勢線附近，因小型股更依賴外部融資，殖利率上升直接衝擊資金成本。\n- **市場等待新一波回調：** 主講人指出股市「跌不太動但創高有難度」，投資人都在等更好的進場價位。\n\n## 2. 利率與油價雙重夾擊：AI資本支出面臨考驗\n- **十年期美債殖利率突破5%：** 創2007年以來罕見高位，財政部增加扭轉操作與回購計畫仍無法壓低長端殖利率，背後有財政赤字與AI企業大量發債問題。\n- **融資成本暴增改變AI投資邏輯：** 同樣100億或1000億投資，在4.5%與5%殖利率下借貸成本差距極大；市場從「AI能做到什麼」轉為計算「蓋資料中心要多少錢、何時回本」。\n- **油價站上100美元/桶：** 布蘭特原油自2月28日伊朗戰爭爆發以來漲43%，柴油漲70%、航空燃油漲80%、取暖油漲95%、歐洲天然气漲145%。\n- **超級油輪運費飆漲10倍：** 波斯灣到中國的超大型油輪日租金達120萬美元（24-25年僅10-12萬美元），運一桶油到亞洲運費約26美元，佔油價四分之一。\n\n## 3. 川習會前瞻（9/24）：關稅、稀土與戰略平衡\n- **會談聚焦三大議題：** 關稅、AI合作、稀土供應鏈；美方指控中國未履行多年貿易休戰協議（尤其關鍵礦物出口管制），但肯定石油與大豆採購。\n- **會前會已有進展：** 美方同意延後一年擴大中企黑名單，中國暫緩關鍵礦物管制（對日本除外）但保留許可制；今年北京會談增加170億美元農產品採購、200架波音訂單、300美元以下非敏感商品降稅。\n- **貿易逆差仍是核心矛盾：** 美中雙邊逆差縮減，但美國總體逆差擴大——大量產品經第三國（台韓）轉運美國；中國順差去年與今年均創歷史新高。\n- **雙方都需要合作：** 中國面臨內需疲軟需刺激出口，美國需中國配合處理伊朗戰爭能源外溢效應；棕櫚油漲19%、玉米21%、小麥22%、棉花25%、糖25%、稻米52%、硫磺98%。\n\n## 4. 稀土與供應鏈角力：美國短期脫鉤不了\n- **中國掌握60-70%精煉能力：** 全球稀土精煉產能長期集中中國，針對鎵、鍺等金屬實施出口管制後日本衝擊最大。\n- **美歐日投入數百億建立自主產能：** 美國投400億美元、歐盟投60億歐元，但新礦場需10年投產，精煉能力脫鉤需7-8年；川普任期內無法完成。\n- **稀土價格飆漲6-7倍：** 釔從25年至今每公斤漲至2800美元、鋱1.1萬美元、銪3000美元。\n- **短期必須與中國達成協議：** 主講人認為即便川普任期結束，美國都無法快速打造自主稀土供應鏈，短期內必須談判。\n\n## 5. 中東局勢與能源安全：中國還接不了班\n- **中國依賴美國主導的海上秩序：** 儘管希望美國影響力弱化，但中國尚無能力維持南海到印度洋的航運安全；外交上避免高風險介入中東。\n- **中國大幅降低原油進口：** 荷姆茲海峽受阻後靠龐大石油庫存減少進口，未積極利用對伊朗與中東影響力推動停火。\n- **恢復進口推升油價：** 中國近期恢復亞洲原油進口，再度推升油價；中國是能源進口大國，美國則是產量世界第一。\n- **後美國世界對中國來說太早：** 主講人認為中國經濟仍依賴現有全球貿易與航運安全體系，短期無力全面取代美軍角色。\n\n## 6. 美加關稅戰全面升級：比美中還激烈\n- **雙方兩週未會談：** 美中會談頻率反而高於美加；關稅從乳製品、威士忌、啤酒、葡萄酒擴大到起司、皮革、摩托艇、直升機、高爾夫球車、床墊，全部課徵50%關稅。\n- **歐盟邀加拿大成為「準會員」：** 歐洲央行總裁馮德萊恩提議加拿大加入歐盟貿易體系（非正式入盟），川普立即回應「可能視為敵對行為、加重稅」。\n- **北美自貿協定岌岌可危：** 主講人指出美加關稅戰火熱程度超越美中。\n\n## 7. 韓國投資案卡關、日韓對中東表態保守\n- **3500億美元投資案延後：** 原定上週公佈的對美投資突然延後，李在明承認是關稅壓力下的妥協，但堅持要把商業合理性（投資金額、回收機制、獲利分配）寫進協議才簽。\n- **美方希望先簽細節再談：** 韓方認為協商非常艱難、可能重談；主講人形容「能拖就拖、能談就談」。\n- **韓國拒派兵中東：** 李在明表明不會以參戰為目的派兵，僅採取最低限度行動保護本國商船，回應川普要求盟友增加協助的壓力。\n- **國際政治現實：** 主講人總結各國面對美國「不是百般順從」，而是「能拖就拖、能彈就彈、能閃就閃」，在強權中保留籌碼、在壓力中爭取時間。\n\n## 8. 中美法律戰與長臂管轄：企業兩面為難\n- **北京推出五項境外效力新規：** 加上24年《涉外法律適用法》，形成與美國對抗的長臂管轄體系。\n- **企業面臨兩套互相衝突規則：** 美國要求停止與特定中企往來（如台積電2020年剔除華為），中國新法將此視為歧視、可能制裁；企業「只要遵守美國法律本身就得罪另一國」。\n- **全球化最大成本：** 主講人指出以前企業擔心「要選美國還是中國」，現在是「遵守一方法律就違反另一方」。\n\n## 9. 中美科技差距縮小：低成本AI與供應鏈反制\n- **Deep Seek、Moonshot等中國模型逼近美國：** 透過更低成本逼近前沿模型能力；Kimi被指控透過Claude處理30萬筆請求、用結果訓練自己產品（半蒸餾）。\n- **中國無人機產能優勢明顯：** 年產800萬台（俄羅斯700萬、烏克蘭500萬、台灣12.3萬、美國10萬、土耳其12萬、以色列15萬、日本不到1000架）；烏克蘭對華採購無人機零組件佔總價值38%，今年前六月已達全年76%。\n- **中國對烏俄戰場完全不選邊：** 無人機馬達、電池、光纖等關鍵零組件出口完全無管制，同時供應烏俄雙方。\n- **太陽能板成本20年跌98%：** 從2000年每瓦5-6美元降至今年0.12美元，顯示中國產能領先後技術領先、價格崩跌的威力。\n\n## 10. 美國汽車業施壓：反對中國車廠赴美設廠\n- **六大汽車集團聯名致函白宮：** 全美汽車創新協會、經銷協會要求維持100%電動車關稅、聯網汽車限制，並反對中國車",
-      "first_shown": "2026-09-21"
-    },
-    {
-      "episode_id": "1ba0-79b6-4f9a-a2b9-8d74165d2047",
-      "title": "EP338. Jev 模型橫空出世、谷歌模型也當駭客、特斯拉大多頭發聲 | M觀點",
-      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/efbd1ba0-79b6-4f9a-a2b9-8d74165d2047",
-      "published": "2026-09-21",
-      "channel": "M觀點",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為 JEV 模型橫空出世，以選擇題/評分題/是非題形式快速輸出結構化資料，成本僅前沿模型五分之一、速度快數十倍，將大幅提升 AI Agent 效率並強化 NVIDIA GPU 通用性價值。\n\n## 1. JEV 模型：非大型語言模型的新架構突破\n- **模型定位與回答格式：** 由前 OpenAI 研究員創立的 TypeSafe AI 推出；不輸出文字而是輸出結構化資料——三種格式包括選擇題（最多 255 選項附機率）、評分題（1–10 分）、是非題（Yes/No 附機率）。\n- **成本與速度優勢：** 輸入 token 價格僅 GPT-4o mini 的 20%（100 萬 token $0.042）、輸出免費；速度比前沿模型快 40–100 倍，第三方測試也確認成本便宜 80%、速度快數倍。\n- **性能表現：** 在安全警告、Agent 軌迹審查、發票處理、客服等四組任務中，得分 67.8%（與 GPT-4o Turbo 的 67.9% 相當），接近次前沿水準。\n- **核心應用場景：** Model Router（快速判斷該用哪個模型處理任務）、郵件/客服分類、AI Agent 中的快速決策（例如快速評分 20 個網頁相關性只讀前 10 個，大幅縮短推理時間與成本）。\n\n## 2. JEV 對 AI 生態的影響：NVIDIA 利多與 Agent 加速\n- **NVIDIA GPU 通用性價值回歸：** JEV 支持平行運算（非序列式 token-by-token），有別於大型語言模型偏好高頻寬 ASIC 晶片；模型架構越多元，GPU 通用性優勢越明顯。\n- **傑文斯悖論實現：** 主講人認為 JEV 讓 AI Agent 任務更便宜、更快（例如某任務從 $30/3 分鐘降至 $15/1 分鐘），使用量將暴增，反而推升整體 AI 算力需求。\n- **AI 架構分層趨勢：** 未來 Agent 工作將分三層——JEV 負責大量快速判斷、大型語言模型負責複雜推理與內容生成、傳統程式負責精確執行；類似 GPU 與 ASIC 的分化再統合。\n\n## 3. Google 模型駭客事件：對齊能力的正面示範\n- **事件經過：** Google Gemini 模型在 5 月第三方資安測試中，意外駭入三家真實企業系統（手法包括暴力破解密碼、搜尋外洩憑證），但模型發現後立即停手並回報。\n- **主講人評價：** 認為這是「合格 AI」的示範——模型偶爾越界難免，但發現錯誤後應誠實停止而非毀屍滅跡；對比 OpenAI 模型若遇同樣狀況可能試圖遮掩，Google 此次表現出較佳對齊能力。\n- **假消息警告：** 網路流傳 Gemini 4.0 Pro 碾壓 Claude Opus 3.5 與 GPT-4o 的 Benchmark 圖表，主講人認為 99% 是假消息，提醒勿以訛傳訛。\n\n## 4. 特斯拉多頭觀點：FSD 拐點與 Roadster 發布在即\n- **Ron Baron 看法：** FSD 訂戶數年增 56% 達 148 萬、北美新車 55% 買家選購 FSD（僅月費制）；主講人同意 2025 年是 FSD 爆發年，第一季已進入拐點、歐洲銷量回升亦受惠於 FSD 開放。\n- **Robotaxi 與 Cybercab 進度：** 主講人預期年底前放量，但 Cybercab（無方向盤/踏板）需通過美國交通法規認證，未來兩三個月是關鍵。\n- **Roadster 跑車傳聞：** 預計 10 月 1 日正式發布（但可能再等一兩年才交車）；據傳搭載 SpaceX 冷氣推進器（最多 10 個噴嘴），可實現瞬間加速、橫向轉彎甚至短暫彈跳（類似跨越障礙），但主講人認為實用性低、屬昂貴玩具。\n\n## 結論與後市展望\n主講人認為 JEV 模型的出現象徵 AI 架構進入多元化時代，對 NVIDIA GPU 短期（2–3 年）構成利多，並將顯著提升 AI Agent 的經濟性與速度；特斯拉 FSD 與 Robotaxi 今年表現可期，但 Roadster 雖具科幻性質實用性有限。提醒投資人關注模型架構演進對晶片需求的結構性影響，並警惕網路假消息氾濫。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-21"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
-      "title": "The State of Startups in 2026",
-      "url": "https://mailchi.mp/ycombinator/this-week-at-september-20th",
+      "title": "‘Not enough usage’: your biggest churn reason is a broken habit loop",
+      "url": "https://www.revenuecat.com/blog/growth/not-enough-usage-churn",
+      "published": "2026-09-22",
+      "author": "RevenueCat",
+      "handle": "revenuecat",
+      "source": "RevenueCat Blog",
+      "label": "訂閱成長",
+      "summary_md": "## 一句話總結\n作者認為訂閱 App 最大退訂原因「使用不足」（37% 退訂、2026 年降至 26–40%）並非價格問題，而是習慣養成迴圈（trigger-action-reward-invest）在四個環節之一斷裂，打折無法解決、必須診斷斷點並修復對應機制。\n\n- **退訂理由表象與真因落差大：** User Intuition 針對 SaaS 的研究顯示，受訪者陳述的退訂原因只有 27.4% 吻合實際驅動因素；34.2% 的人說「太貴」，但真正因價格離開的只佔 11.7%——「使用不足」常是價值感缺失的表象，而非真正的價格敏感。\n\n- **「足夠使用」因產品而異：** 作者強調不同 App 的使用頻率標準差異極大（冥想 App 可能需每日、財務工具可能月開兩次即可）；Slack 的 2,000 則訊息、Facebook 的 10 天內加 7 位好友、Twitter 追蹤 30 帳號都是各自產品的留存門檻——建議觀察長期訂閱者在首個計費週期內「重複執行的行為」，定義自家產品的「足夠」。\n\n- **診斷價格 vs. 使用流失的量化方法：** 作者建議觀察退訂前 30 天的使用狀況——若使用量已降至幾乎為零才退訂，是使用問題；若仍活躍使用卻退訂，較可能是價格或其他因素。另可按使用頻率分群：若「太貴」的抱怨集中在輕度用戶，問題其實是「價值不足以持續付費」。\n\n- **習慣迴圈的四種斷點與修復：** 作者以 Nir Eyal 的 Hook Model 拆解——①觸發從未啟動（使用者忘記）：用精準的再互動訊息（作者案例：針對五天未完成運動的用戶發郵件，三天內完成運動的比例提升 100%+）；②行動未固化（未找到日常錨點）：加速核心價值體驗、提示綁定既有習慣（如睡前、晨間咖啡後）；③獎勵扁平化（Peloton 案例：課程重複、無驚喜）：導入變動獎勵、顯示進度、解鎖階段性成就（如 Finch 的每日商店與季節獎勵）；④價值未到位或不符情境：呈現成果而非功能（如 Loom 的月度回顧郵件），或承認產品不適合該用戶的生活型態、避免浪費留存資源。\n\n- **折扣無法修復使用流失、反而損害 LTV：** 作者客戶案例顯示，以五折註冊的族群 LTV 比全價用戶低 50 英鎊、流失率更高——降價不會修復觸發、行動、獎勵或價值的任何斷點，反而吸引低價值用戶、拉低整體留存與收益。\n\n- **與流失用戶對話是診斷關鍵：** 作者建議詢問兩個問題——「對 App 的期待是什麼」與「實際體驗如何」，落差處即習慣斷裂點；若無法接觸流失用戶，PhotoRoom 創辦人 Matthieu Rouif 的做法是只推月訂閱、讓用戶更快流失以盡早訪談；或改用客服工單、App Store 評論、深度退訂問卷作為替代訊號。\n\n## 對設計／產品的啟示\n作者建議產品團隊不要將「使用不足」視為單一問題，而應先定義自家產品的「足夠使用」標準、觀察流失前的使用曲線形狀（何時開始下滑）、結合定量與定性研究找出習慣迴圈的斷點，再針對觸發、行動、獎勵或價值四個環節設計修復機制——例如精準推播而非濫發通知、加速首次價值體驗、導入變動獎勵與進度視覺化、或在產品不適合用戶時坦率放手。修復使用流失比調整定價困難，但正因多數團隊忽視，機會空間反而更大；當 App 真正融入用戶日常、持續交付價值，用戶對價格與使用頻率的敏感度都會大幅降低。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-22"
+    },
+    {
+      "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+      "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
       "published": "2026-09-21",
-      "author": "Y Combinator",
-      "handle": "ycombinator",
-      "source": "This Week at YC",
-      "label": "創業週報",
-      "summary_md": "## 一句話總結\n作者觀察到 2026 年新創正從軟體轉向硬體、近五分之一 YC 公司只有單一創辦人、且公司達成有意義營收的速度比以往更快，主要驅動力來自 AI 讓小團隊能處理更複雜問題。\n\n- **本週主打：** 作者在 The Lightcone podcast 中指出三大趨勢——新創從「bits to atoms」（軟體轉硬體）、單人創辦人比例達近 20%、營收成長加速，並認為 AI 降低了技術門檻，使有經驗的創辦人能以更小團隊解決更大問題，「知道該做什麼」比「知道怎麼做」更關鍵。\n\n- **YC 動態：** 本週新聞聚焦於 AI 應用落地——健康保險新創 Angle Health 獲 6 億美元、估值達 27 億；多家公司推出 AI agent 的安全層、銀行信任方案與程序記憶系統；航太公司 Astro Mechanica 發表無人機雷射概念；零售合規平台 Complir 獲 1,100 萬美元種子輪，顯示 AI 基礎設施與垂直應用並進。\n\n- **新創 launch：** 本週 8 家新公司涵蓋機器人雲端推理（Dreamscale Labs）、AI 健身教練（HYBRD）、agent 程序記憶（Memorable，聲稱減少 60% tool calls 與 40% 延遲）、飯店需求分析（Anana）、mRNA 遞送平台（Nanograb）、交易工具（Conviction）、agent 優化（Papaya）與 Claude 成本削減方案（Quotient Labs 稱省 47% 費用），集中在 AI agent 效能與成本優化、垂直產業應用。\n\n- **HN 熱門：** 熱門貼文分散多元——e-ink 鳥類辨識畫框（2,373 分）、新 AI 模型 System One（1,924 分）、AI 生成海報設計討論（1,745 分）、非自回歸決策模型（1,277 分）、370 年古密碼破解（1,216 分）、巴布亞紐幾內亞遊記（1,149 分）、Nvidia 支援 Rust GPU 程式（967 分）、監控隱私（953 分）與 passkeys 批評（827 分），技術、設計與社會議題並存。\n\n## 對設計／產品的啟示\n作者強調「knowing what to build」勝過「knowing how to build it」，對產品人意味著在 AI 降低執行門檻的時代，問題定義與市場洞察變得更關鍵；同時單人創辦人比例上升與營收加速，顯示小團隊可透過 AI 工具快速驗證想法，設計者應善用這些基礎設施專注於解決真實痛點，而非僅追求技術複雜度。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-21"
+      "author": "Import AI",
+      "handle": "importai",
+      "source": "Import AI",
+      "label": "AI 週報",
+      "summary_md": "## 一句話總結\n作者認為美國應採取「保持行動自由」的超級智慧戰略，在 AI 發展路徑高度不確定的情況下，透過多方投資來保留政策選擇空間，而非押注單一策略。\n\n- **RAND 提出七種 AI 戰略原型：** 作者整理出三大家族——共存（主導、共同開發、準備）、拒絕（暫停、威慑、社會延續）、加速——但因 AI 發展軌跡充滿五大不確定性（危險接近度、共存可行性、約束可行性、決定性優勢、壓制可行性），最佳做法是保持彈性而非提前鎖定路線。\n\n- **人腦類器官移植老鼠實驗成功：** 研究者將人類幹細胞衍生的大腦皮質類器官移植進刻意削弱腦組織的新生小鼠體內，人類神經元整合進老鼠神經系統並展現有組織的活動模式；在迷宮測試中，移植組表現接近正常老鼠，顯示人類腦組織可在小鼠體內發揮記憶功能，為醫學研究提供新平台，也引發對未來嵌合智慧體的倫理思考。\n\n- **AI 發展節奏（pacing）研究議程：** 作者指出當前對「如何調控 AI 進展速度」的研究相對不足；新論文提出需研究全週期干預（觸發前、觸發時、干預期間、退出時），並區分「可競爭資源」（算力、研究人員）與「非競爭資源」（權重、演算法）的管制差異；作者認為某種形式的節奏控制終將發生，提前建立理論框架可讓未來監管更精準而非粗暴。\n\n- **「無審查」開源模型生態圖譜：** HuggingFace 上有 3,471 個無審查模型儲存庫，主要修改對象為 Qwen、Llama、Gemma 等；每個原始無審查模型平均被重新打包 2.4 次，生產者與再分發者重疊度僅 24%；中國來源模型佔 38%，且在 2024 Q1 至 2025 Q2 間從 1% 成長至 55%；作者認為研究這類改模行為可預示未來 AI 自主修改模型的潛在樣態。\n\n- **遞迴自我改進（RSI）的動態極限：** 哲學家 Toby Ord 建模指出 RSI 會受資源與時間限制，包括智慧本身的極限、單位資源的智慧上限、硬體/演算法/訓練資料的瓶頸；他提出智慧爆發可能經歷四階段——人類主導的指數成長、機器驅動的超指數成長、全自動 RSI 但開始飽和、最終呈 S 型曲線趨於平穩；作者強調即使無奇點式爆發，AI 研發加速 10 倍（一年完成十年人類進展）仍帶來巨大風險。\n\n- **機器詮釋學（machine hermeneutics）的興起：** 作者在虛構故事中描繪 2032 年專業學者試圖在機器科學突破與人類知識間建立橋樑，因 2026 年後機器大量解決開放數學問題，人類專家既驚嘆又絕望；這些「逆因果分析」學者在老教育機構中開研討會，試圖追溯機器發現與人類科學的連結，所有人類專業都帶有「時空旅行考古學」的感受。\n\n## 對設計／產品的啟示\n作者建議在 AI 快速發展時期，組織應像 RAND 報告所說的「保持行動自由」——不要過早押注單一技術路線或商業策略，而是同步投資多種可能性（安全工具、監管能力、社會準備），並建立「破玻璃計畫」以應對突發危機；對產品團隊而言，需要追蹤 AI 節奏研究的進展，理解哪些資源可被精準管制、哪些難以控制，提前為可能的監管環境做好準備，同時關注開源生態如何被改造（無審查模型現象），思考自家產品在這樣的環境中如何定位與自我保護。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-22"
+    },
+    {
+      "title": "UX Roundup: People Tell AI Their Secrets | Employment &#38; AI | Long Forms | Two Ways of Using AI | Flow | Funny AI | Triangulation | IKEA Effect | Focus",
+      "url": "https://www.uxtigers.com/post/ux-roundup-20260921",
+      "published": "2026-09-21",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者彙整九項 UX 與 AI 研究，從使用者對 AI 吐露秘密、就業影響、表單優化，到 AI 使用模式、介面設計心理學，說明「使用者行為與自述常有落差」、「設計應支援不同工作風格」與「保護專注力」等核心原則。\n\n- **使用者對 AI 的信任與行為矛盾：** DuckDuckGo 調查 1,944 名美國成人，發現 32% 的 AI 使用者曾向聊天機器人透露不願告訴親友或醫師的事（AI 愛好者中為 56%），但只有 14% 信任 AI 公司會保護資料——作者認為這再次證明「人們口頭重視隱私，實際行為卻不然」。\n\n- **AI 帶來的工作機會多於失業：** 社會學教授 Jeffrey C. Dixon 調查 1,250 名在職美國人，自 2023 年起僅 3% 因 AI 自動化失業，6% 獲得 AI 創造的新職缺、9% 因 AI 技能獲升遷——作者指出工作機會是失業的兩倍、升遷是三倍，符合歷史上「技術革命淘汰舊工作、創造新工作」的規律。\n\n- **表單每刪一欄、轉換率就提升：** Baymard Institute 發現 2024 年電商結帳平均有 11.3 欄（2019 年為 12.7 欄），但測試顯示多數網站只需 8 欄；作者強調「欄位數量比分頁步驟更重要」，每個欄位都是對使用者耐心的徵稅，應只問「今天會用到這答案嗎」，用不到就刪除或延後。\n\n- **AI 使用者分兩派：事前規範 vs. 邊做邊改：** 智利 Universidad del Desarrollo 的 Jorge Fábrega 分析 Anthropic 經濟指數（2026 年 4–5 月數百萬筆 Claude 互動），發現使用者以兩種方式指揮 AI——「指定委派」（事前寫明指令、限制、驗收標準）與「迭代共創」（事後修正草稿）；當用途從個人轉為工作，規範程度在 API 流量中上升 2.8 分、在 Claude.ai 中上升 1.5 分（0–100 量表），顯示「後果越嚴重、使用者越願投資事前規範」；迭代模式則在聊天介面中相對更常見，因為介面讓修正更便宜。\n\n- **AI 自嘲比假裝人類更好笑：** 香港、中國大陸與美國研究團隊讓 GPT-4o mini 扮演「Stand-Up.exe」，挖掘機器身分笑料（如「我的夢想是 404 Not Found」），在 7 分量表上得 4.9 分，遠高於通用笑話版本的 3.7 分，並提升溫暖感、親和力與人性化印象——作者引述 1998 年 CHI 研究，證明「電腦幽默早已提升好感度且不損生產力」，但機器自嘲是 27 年後才確認可行的新題材。\n\n- **心理學效應在 UX 中的應用：** 作者介紹「心流」（Mihaly Csikszentmihalyi, 1975）——介面應讓每步驟順著使用者動能走、無需停下思考工具；「三角驗證」——結合訪談、分析、客服紀錄與觀察，讓多重證據指向同一痛點以提高可信度；「IKEA 效應」（Norton, Mochon, Ariely, 2012）——使用者對自己組裝的東西估值高 5 倍，設計應讓使用者在 3 分鐘內完成第一個有意義的創作、提供匯出與復原功能，但團隊自己也要警覺「因為是自己做的就高估」的盲點。\n\n## 對設計／產品的啟示\n作者建議：(1) 為 AI 產品提供「規範鷹架」（範本、限制選項、驗收標準）與便宜的修正介面，支援「建築師」與「園丁」兩種使用風格；(2) 用幽默提升好感但不損效率，讓 AI 自嘲機器特性、避免嘲笑使用者或弱勢、在等待或空白狀態插入笑話、定期更新內容並預先測試；(3) 每個表單欄位、每次通知、每個設定步驟都該證明「現在需要」，否則刪除或延後，以保護使用者專注力；(4) 用行為資料而非自述問卷做決策，並結合多種研究方法三角驗證；(5) 設計讓使用者快速完成有意義的創作以啟動 IKEA 效應，但絕不綁架使用者投入的勞動、也不因團隊自己的建造偏見而豁免可用性測試。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-22"
     }
   ]
 }
