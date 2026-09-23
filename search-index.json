@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-09-23T01:53:58+08:00",
+  "generated_at": "2026-09-23T08:56:20+08:00",
   "days": [
+    {
+      "d": "2026-09-23",
+      "dd": "2026 年 09 月 23 日",
+      "no": 160,
+      "items": [
+        {
+          "k": "product",
+          "t": "Plane Agents",
+          "b": "Assign work to AI agents, like any teammate 讓你能像分配工作給團隊成員一樣，將任務指派給 AI 代理人執行的協作工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "WZRD",
+          "b": "AI-native documents, slides, forms and sheets that talk back 具備 AI 互動能力的文件、簡報、表單與試算表工具，使用者可與文件進行對話式互動。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Hola AI",
+          "b": "An AI voicemail assistant that answers calls when you can’t. 當你無法接聽電話時，由 AI 語音助理代為接聽並處理來電的服務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "MiMo-V2.6",
+          "b": "Open omnimodal intelligence, trained in public 一個開源的全模態 AI 智慧模型，採用公開資料訓練並對外開放使用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Googlebook",
+          "b": "The laptop your Android phone has been waiting for 專為 Android 手機設計的筆記型電腦，提供深度整合的跨裝置使用體驗。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Valori",
+          "b": "The deterministic memory layer for AI 為 AI 系統提供確定性記憶層的技術方案，確保資料存取的可預測性與一致性。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-09-22",
       "dd": "2026 年 09 月 22 日",
