@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-25",
+    "date_display": "2026 年 09 月 25 日",
+    "generated_at": "2026-09-25T08:56:03.035546+08:00",
+    "total": 7,
+    "sources": [
+      "M觀點"
+    ],
+    "headline": "主講人認為 Grok 4.7 與 GPT-6 系列模型更新未達預期，但 Anthropic Opus 5.5 表現優異；AI 模型競爭已從單純智力比拼轉向「模型 + Harness」的產品化整合；Meta Muse 被亞馬逊封殺反映出電商巨頭利用物流與 Prime 會員護城河對抗 AI Agent 購物威脅。",
+    "no": 162
+  },
+  {
     "date": "2026-09-24",
     "date_display": "2026 年 09 月 24 日",
     "generated_at": "2026-09-24T08:56:31.988197+08:00",
@@ -1026,16 +1037,5 @@
     ],
     "headline": "Hypixel 開放遊戲設計師職缺（戰鬥與成長系統），強調現階段重心放在新內容與核心玩法：武器、敵人、Boss、道具化、技能系統及其整合設計。",
     "no": 73
-  },
-  {
-    "date": "2026-06-27",
-    "date_display": "2026 年 06 月 27 日",
-    "generated_at": "2026-06-27T08:55:55.989967+08:00",
-    "total": 4,
-    "sources": [
-      "Design"
-    ],
-    "headline": "Google AI Studio 推出 Design Variations 功能，只需單擊即可生成、探索並應用不同的 UI 佈局方案，簡化了設計稿的視覺探索流程。",
-    "no": 72
   }
 ]

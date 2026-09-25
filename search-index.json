@@ -1,6 +1,55 @@
 {
-  "generated_at": "2026-09-25T02:08:37+08:00",
+  "generated_at": "2026-09-25T08:57:57+08:00",
   "days": [
+    {
+      "d": "2026-09-25",
+      "dd": "2026 年 09 月 25 日",
+      "no": 162,
+      "items": [
+        {
+          "k": "podcast",
+          "t": "EP339. Grok 4.7 失敗了嗎、模型大戰趨勢觀察、Muse 爆紅後影響 | M觀點",
+          "b": "1. Grok 4.7 模型評測：有限進步、成本暴增 整體分數微幅提升： 在 AAI 評分從 44 分進步到 46 分，但落後 GPT-6 Soul（47 分）與 Meta Llama 3（48 分），更遠遜於 Fable 5.1、GPT-6 Astra 與 Opus 5.5。 成本大增削弱競爭力： 使用 token 量為 Grok 4.6 的 2–3 倍，甚至比 GPT-6 Astra 更貴，CP 值極差。 特定領域表現突出： 在 Agentic Coding（Terminal Bench 4.0 達 37.6%）與知識型工作（GDP Val 1695 分）明顯領先，但僅限於 Grok Build 與 Cursor 開發環境。 商業策略偏防守： 主講人認為 Grok 4.7 是針對既有用戶強化，難以擴散到生態系外；可能受後訓練時間不足影響，未來 Grok 4.8（2.5T 模型）需在成本與智力間取得平衡。 2. GPT-6 Soul/Luna 與 Opus 5.5：低價與高分的兩極策略 GPT-6 系列主打低成本： Soul 與 Luna 智力與前代相當（AAI 分數僅高 1 分），但 Luna 成本僅 DeepSeek V4.1 Flash 的 1/4，Soul 成本為前代一半；主講人推測 Soul 可能是強化版 Terra 模型。 Opus 5.5 奪回評分王座： AAI 得分 58 分，領先 Fable 5.1 與 GPT-6 Astra 5 分，並在多項 Benchmark（Turbino Bench、Cursor Bench、GPT Vail）勝出。 實際使用仍有爭議： 社群反應顯示 Fable 5.1 在未知或困難任務中仍更聰明，Opus 5.5 優勢主要來自更完善的後訓練（Post Training）。 3. AI 模型競爭新趨勢：從算力比拼到產品整合 模型 + Harness 成為核心競爭力： Grok 4.7 在 Grok Build 與 Cursor 環境中表現大幅提升，顯示未來 AI 公司將把模型與開發工具打包為產品（如 Grok Bot、Meta Muse），而非單純出售 API。 各家差異化路線明確： SpaceX 強化企業 Agentic 工作（Coding + Knowledge Work），OpenAI 主打低成本工作馬模型，Anthropic 持續鞏固前沿智力評分；主講人預測企業將針對不同部門採用不同模型組合。 AI 安全測試走向合作： Anthropic 與 OpenAI 同意彼此測試對方模型以降低風險，但主講人擔心可能形成「監管壟斷」（Regulation Capture），建議未來應由多家機構（如 AAI、Palantir、學術單位）混合認證。 4. Meta Muse 遭亞馬逊封殺：電商護城河對決 AI Agent 封殺四大理由： 亞馬逊指 Meta 未事先告知、AI Agent 隱藏身份（未在 HTTP Header 標示）、涉及用戶帳密隱私、未尊重第三方店家的 opt-out 設定。 亞馬遜真正考量是商業利益： AI Agent 購物將減少推薦消費與隨機購買，降低廣告收入，並可能改變「先開亞馬遜網站」的消費習慣；亞馬遜希望用戶使用自家 AI Agent（Alexa for Shopping）。 實體護城河無法取代： 亞馬遜的當日/隔日快速配送與 Prime 會員免運優惠讓北美消費者難以離開平台；主講人認為 Meta 最終會在登入方式、API 使用、廣告整合與交易抽成等方面讓步。 Meta 壓力巨大： 若無法盡快與亞馬遜達成協議，競爭對手的 AI Agent 將趁機搶佔市場；主講人認為 Meta Muse 目前算力不足，短期難以推廣至台灣等更多國家。 5. 產業觀察：算力需求與前沿實驗室競爭態勢 CPU 需求將大增： AI Agent 執行任務時（如網頁操作、下單）主要使用 CPU，主講人預測未來 CPU 與 GPU 用量比可能回到 1:1。 SpaceX 第三季轉虧為盈： AI 營收將較第二季翻 2–3 倍；主講人認為 SpaceX 擁有算力（GPU）、資料（Twitter）與人才（Cursor 團隊），長期仍可追上競爭對手。 Anthropic 為 IPO 衝刺： 自 Fable 5.1 推出後聲勢不如 GPT-6 Astra，此次推出 Opus 5.5 旨在企業市場反攻並美化 IPO 數字。 結論與後市展望 主講人認為 AI 模型競爭已進入「減速假象」階段——雖有實驗室宣稱減速，實際上各家仍持續推出新模型；未來勝負關鍵不在單一模型智力，而是模型與應用場景（Harness）的整合能力。Grok 4.7 雖讓人失望，但若能在 Grok Bot 中顯著提升效能並降低成本，仍有機會在企業市場站穩。Meta Muse 爆紅後面臨亞馬遜的強硬封殺，反映出實體世界的物流與會員體系在 AI 時代反而成為難以攻破的護城河；Meta 需盡快與亞馬遜達成妥協，否則競爭對手將趁隙而入。整體而言，AI 產業已從「誰的模型最聰明」轉向「誰的產品最好用」，實體基礎設施（如亞馬遜物流）與生態系整合將成為新的競爭焦點。 本筆記為節目內容摘要，非投資建議。",
+          "m": "M觀點"
+        },
+        {
+          "k": "product",
+          "t": "LockLines",
+          "b": "Design Mac lock screen messages that fit 用於設計 Mac 鎖定畫面訊息的工具，確保文字能完整適配顯示。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Subscrr",
+          "b": "Build a financial plan and ask what to cancel 協助使用者建立財務計畫，並分析建議可取消哪些訂閱服務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Floot MCP",
+          "b": "Build and ship web and mobile apps inside Claude or ChatGPT 讓開發者直接在 Claude 或 ChatGPT 內建構與部署網頁和行動應用程式。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Storytailor®",
+          "b": "A personal world built around your child’s imagination 根據孩子的想像力打造個人化故事世界的服務，適合家長為兒童使用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "NotchPop",
+          "b": "The Dynamic Island your MacBook notch was missing 為 MacBook 瀏海區域帶來類似 Dynamic Island 的互動功能。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "jev-seo",
+          "b": "Free Rust CLI SEO/GEO auditor, no subscription needed 基於 Rust 開發的免費 CLI 工具，用於 SEO 與 GEO 網站稽核，無需訂閱。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-09-24",
       "dd": "2026 年 09 月 24 日",

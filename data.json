@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-24",
-  "date_display": "2026 年 09 月 24 日",
-  "generated_at": "2026-09-24T08:56:31.988197+08:00",
+  "date": "2026-09-25",
+  "date_display": "2026 年 09 月 25 日",
+  "generated_at": "2026-09-25T08:56:03.035546+08:00",
   "top_products": [
     {
-      "title": "Claude Opus 5.5",
-      "url": "https://www.producthunt.com/products/claude-fable-5-1",
-      "published": "2026-09-22T09:36:09-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "Anthropic's first model in their new Claude 5.5 family",
-      "post_id": "1258400",
-      "summary_zh": "Anthropic 推出的全新 Claude 5.5 系列首款模型，為開發者與企業提供進階 AI 能力。",
-      "image_url": "https://ph-files.imgix.net/8c1c1deb-2da7-42fc-9bca-d45c505dd4ed.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/7828634b-3a45-4f28-940b-5ec899dfc3dd.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "LockLines",
+      "url": "https://www.producthunt.com/products/locklines",
+      "published": "2026-09-23T13:09:03-07:00",
+      "author": "Ighor July",
+      "tagline": "Design Mac lock screen messages that fit",
+      "post_id": "1259576",
+      "summary_zh": "用於設計 Mac 鎖定畫面訊息的工具，確保文字能完整適配顯示。",
+      "image_url": "https://ph-files.imgix.net/577490c7-d139-485c-940e-d234c17f0264.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/0e375ee2-d6f3-4b01-91cc-f3d4dab2b0b0.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Speechka",
-      "url": "https://www.producthunt.com/products/speechka",
-      "published": "2026-09-22T11:07:06-07:00",
-      "author": "Dmytro Ivanchenko",
-      "tagline": "Real-time voice translation that sounds like you",
-      "post_id": "1258470",
-      "summary_zh": "即時語音翻譯工具，能保留使用者原本的聲音特質進行跨語言溝通。",
-      "image_url": "https://ph-files.imgix.net/1d6ec5dd-48e6-463c-bdbc-609daeafd12a.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/afb1ddc1-4ff0-417f-b311-855084a2c2c2.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Subscrr",
+      "url": "https://www.producthunt.com/products/subscrrr",
+      "published": "2026-09-23T05:37:30-07:00",
+      "author": "Artur Mineev",
+      "tagline": "Build a financial plan and ask what to cancel",
+      "post_id": "1259179",
+      "summary_zh": "協助使用者建立財務計畫，並分析建議可取消哪些訂閱服務。",
+      "image_url": "https://ph-files.imgix.net/2cfc7ced-6dea-42a2-a255-3807824430c4.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/68b3790b-ae65-4d6c-bfef-fb9d1f2286af.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Lightmeter",
-      "url": "https://www.producthunt.com/products/lightmeter-2",
-      "published": "2026-09-21T21:06:00-07:00",
-      "author": "Aakash Goel",
-      "tagline": "Film Camera designed for everyday moments",
-      "post_id": "1257763",
-      "summary_zh": "專為日常拍攝設計的底片相機，讓使用者能輕鬆記錄生活瞬間。",
-      "image_url": "https://ph-files.imgix.net/e8d1cd79-3a87-453c-8af8-a128b75dfd47.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a3671590-be6c-45fa-9782-f7bdec049e42.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Floot MCP",
+      "url": "https://www.producthunt.com/products/floot",
+      "published": "2026-09-23T13:54:45-07:00",
+      "author": "Yuj Yao",
+      "tagline": "Build and ship web and mobile apps inside Claude or ChatGPT",
+      "post_id": "1259609",
+      "summary_zh": "讓開發者直接在 Claude 或 ChatGPT 內建構與部署網頁和行動應用程式。",
+      "image_url": "https://ph-files.imgix.net/11e2e51b-0936-47c1-a2b8-2281d2927129.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/2fe69a40-f6c5-4483-ac40-f31ba1cf755a.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Dub Program Marketplace",
-      "url": "https://www.producthunt.com/products/dub",
-      "published": "2026-09-22T07:30:21-07:00",
-      "author": "fmerian",
-      "tagline": "Browse and apply to the best SaaS affiliate programs",
-      "post_id": "1258292",
-      "summary_zh": "提供 SaaS 聯盟行銷計畫的瀏覽與申請平台，協助行銷人員找到合適的合作機會。",
-      "image_url": "https://ph-files.imgix.net/e9fdb502-48c4-4f89-ad63-72cdfcc6b5d1.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/bb655b9d-bb64-467d-9e94-43bd131feaae.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Storytailor®",
+      "url": "https://www.producthunt.com/products/storytailor",
+      "published": "2026-09-22T23:09:39-07:00",
+      "author": "JQ Sirls",
+      "tagline": "A personal world built around your child’s imagination",
+      "post_id": "1258838",
+      "summary_zh": "根據孩子的想像力打造個人化故事世界的服務，適合家長為兒童使用。",
+      "image_url": "https://ph-files.imgix.net/4c740190-1d17-4f80-a626-ac89339aff11.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/b4b6751c-41a1-4309-ac3d-ee8a3f7a93b5.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Jev State",
-      "url": "https://www.producthunt.com/products/jev-state",
-      "published": "2026-09-22T11:53:46-07:00",
-      "author": "Priyankar Kumar",
-      "tagline": "Turn AI conversations into tests and runnable code",
-      "post_id": "1258501",
-      "summary_zh": "將 AI 對話內容轉換為可執行的測試程式碼，幫助開發者加速開發流程。",
-      "image_url": "https://ph-files.imgix.net/ba06578d-76e2-4f1f-9b1f-fb7d05ef3dbd.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/cb3b2b4d-1f23-4b2d-b4e7-81a8e09486d9.png?auto=format&w=960&h=540&fit=crop"
+      "title": "NotchPop",
+      "url": "https://www.producthunt.com/products/notchpop",
+      "published": "2026-09-23T23:32:47-07:00",
+      "author": "Tejas Telkar",
+      "tagline": "The Dynamic Island your MacBook notch was missing",
+      "post_id": "1259856",
+      "summary_zh": "為 MacBook 瀏海區域帶來類似 Dynamic Island 的互動功能。",
+      "image_url": "https://ph-files.imgix.net/9a1a38ff-5c3d-4d38-9c21-9069191dc944.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/867b29d0-86b6-4b4c-b87a-ccf6ba6d935c.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Alexandria by Firecrawl",
-      "url": "https://www.producthunt.com/products/extract-by-firecrawl",
-      "published": "2026-09-22T10:16:10-07:00",
-      "author": "Eric Ciarla",
-      "tagline": "The knowledge library for superintelligence",
-      "post_id": "1258428",
-      "summary_zh": "為超級智慧系統設計的知識庫平台，用於組織與管理大規模資訊。",
-      "image_url": "https://ph-files.imgix.net/aef98daa-8581-4d0a-b628-c546adfa4d35.vnd.microsoft.icon?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d04dd177-0d67-4d15-a1af-6baa012360b7.webp?auto=format&w=960&h=540&fit=crop"
+      "title": "jev-seo",
+      "url": "https://www.producthunt.com/products/jev-seo",
+      "published": "2026-09-22T22:02:48-07:00",
+      "author": "Akash Priyadarshi",
+      "tagline": "Free Rust CLI SEO/GEO auditor, no subscription needed",
+      "post_id": "1258796",
+      "summary_zh": "基於 Rust 開發的免費 CLI 工具，用於 SEO 與 GEO 網站稽核，無需訂閱。",
+      "image_url": "https://ph-files.imgix.net/5c835b07-bb4f-4732-8b42-54a07c8ba7ce.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/44ccc965-100d-4ec1-a166-601e276ac86a.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -79,38 +79,15 @@
   },
   "podcast_briefs": [
     {
-      "episode_id": "2406000699",
-      "title": "2026/9/24(四) 台灣富到流油!為何大家喊窮?AI爆發下一步 去哪找人?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-24-ai",
-      "published": "2026-09-24",
-      "channel": "游庭皓的財經皓角",
+      "episode_id": "756635",
+      "title": "EP339. Grok 4.7 失敗了嗎、模型大戰趨勢觀察、Muse 爆紅後影響 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/7dc2a5f2-a116-4884-801e-28e756635e3a",
+      "published": "2026-09-25",
+      "channel": "M觀點",
       "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為台灣正經歷 AI 帶動的罕見經濟繁榮（2026 年經濟成長率預估達 11.48%、外銷訂單破千億美元），但成長高度集中於半導體與資本支出，薪資追不上、內需疲弱、人口快速萎縮與缺工嚴重等結構性問題正在累積。\n\n## 1. AI 浪潮推動出口與經濟爆發：台股創新高但成長集中\n- **外銷訂單史上首破千億美元：** 8 月接單 1,029 億美元，年增 71%，已連續 19 個月成長；前 8 月累計 7,049 億美元、年增 55%，主要來自 AI 高效能運算需求。\n- **經濟成長率上看雙位數：** 央行上修 2026 年經濟成長率至 11.48%（原 9.45%），四分之三靠出口與投資貢獻（國外淨需求 4.28 個百分點、資本形成 4.4 個百分點），民間消費僅貢獻 2.15 個百分點。\n- **台股領漲全球：** 台灣加權指數今年以來本地貨幣計價漲幅約 68%，遠勝標普 500（14%）、那斯達克（17%）、日經（30%）與韓國（6%），外資今年賣超 1.35 兆、投信買超 7,600 億，其餘買盤來自內資大戶與股票回購。\n- **貿易順差與回台生產：** 今年 1–8 月出口年增 44%、進口年增 40%，貿易順差成長速度更快（50%–60%）；對美順差達 1,407 億美元，其中資通訊產品約 1,400 億；台灣外銷訂單在台生產比重從 18 年 47% 升至 52%，中國大陸生產比重從 46% 降至 26%。\n\n## 2. 台日韓 AI 供應鏈分工：台灣守「神山」、日韓補上下游\n- **台灣主導晶片實體化與伺服器組裝：** 台灣是全球最大 AI 伺服器出口國，負責將設計轉為可量產晶片並打團體戰；台積電市值佔台股 57.1%，遠高於韓國前兩大（三星 + 海力士）與日本分散格局。\n- **日本供應材料設備、韓國壟斷記憶體：** 台灣對日本貿易入超 195 億美元（半導體設備、精密機械、材料），對韓國入超更大（記憶體需經台灣組裝進入美國）；台日韓成為今年全球增速最快經濟體。\n\n## 3. 財富累積與超額儲蓄：錢進來太快、投資追不上\n- **超額儲蓄創歷史新高：** 2026 年超額儲蓄預估達 8.46 兆台幣、超額儲蓄率 26.03%（過去 14%–15%），意味國內投資遠追不上財富累積速度。\n- **人均 GDP 與淨資產超越日韓：** 2025 年人均 GDP 約 4 萬美元，2026 年預估 4.5 萬、2027 年挑戰 5 萬（五年前僅 2.8 萬）；去年人均淨資產 31.2 萬美元（全球第 15）、中位數 11.5 萬美元，均高於日本（20.5 萬 / 10.2 萬）與韓國（25.1 萬 / 10.4 萬）。\n- **民調首現黃金交叉：** 戴立安民調顯示 48.3% 民眾認為經濟現況良好（10.5% 很好、37.8% 還算好），創 2006 年以來新高，首次正面評價超過負面。\n\n## 4. 薪資落後與勞資矛盾：產出暴增但所得分配失衡\n- **薪資追不上人均 GDP：** 台灣月薪中位數約 4.6–4.8 萬台幣、時薪約 190–200 元（今明年可破 200），仍低於日本時薪 216、韓國 238、法國 422、德國 455、英美 500+ 元；人均產值明年將達 150 萬台幣（5 萬美元），但薪資增速遠不及 GDP。\n- **勞資爭議頻傳：** 美光發放史上最高 68 個月年終、乖乖中壢廠因土地出售引發罷工投票（149 票同意 vs. 2 票反對）、積體電路與海力士等企業勞資談判持續；主講人認為缺工加劇下員工要求加薪合理。\n\n## 5. 內需與消費：零售餐飲成長但政府高度補貼壓抑通膨\n- **零售餐飲雙位數成長：** 今年 1–8 月金色三麒營收年增 37%、91APP 增 32%、三商家購 28%；餐飲業六角年增 29%、王品路易莎等雙位數成長；大型百貨如台北 101、大遠百、漢神巨蛋等營收創高。\n- **政府補貼壓抑物價：** 10 月電價暫不調整，但按台電成本需漲 12.83% 才能損益兩平，目前由政府預算補貼；主講人認為今年經濟成長 11% 但通膨僅 2%–2.5% 是「史上最強經濟奇蹟」，背後是政府高強度補貼油電價格。\n- **財政壓力浮現：** 社會福利支出已超越教育成為中央最大支出項目，22 縣市中 6 個社福支出超過總支出 20%（嘉義縣、屏東、澎湖、台南、彰化、基隆），七年前無一縣市超越；地方 70% 預算用於人事與教育，加上社福後長期建設空間被壓縮。\n\n## 6. 人口危機與缺工：生育率崩跌、各行業嚴重缺人\n- **人口預估腰斬：** 國發會預估 2045 年總人口跌破 2,000 萬（1,998 萬），2075 年降至 1,215 萬（50 年內少一半）；65 歲以上人口占比將從今年 20% 升至 2075 年 52.9%。\n- **生育率墊底且持續惡化：** 主要都會區生育意願低，僅連江縣、台中縣、澎湖縣、彰化縣等地較高；主講人認為高房價、生活壓力、智慧型手機普及、貧富差距擴大、女性經濟自主等多重因素導致生育率快速下滑。\n- **全行業缺工嚴重：** 教師甄試錄取率創新高、國軍編現比從 87%–88% 降至 76%–78%（「槍比人多」）、社工缺額率新北 36.9%、桃園 27.2%、台北 22%；高科技業高薪挖角理工人才，傳產與服務業留不住人，甚至理化老師被挖去當工程師。\n\n## 結論與後市展望\n主講人認為台灣正創造「史上最賺錢但人最少的一代」，AI 讓企業與股東大賺、超額儲蓄爆增，但薪資追不上、內需疲弱、政府財政被社福與補貼壓縮、人口快速萎縮且各行業缺工嚴重。真正挑戰是「經濟做大後要用來幹嘛」——能否趁現在最有錢時把資源投入解決未來最缺的人力問題。主講人暗示台灣可能必須走向移民社會（「台日韓東南亞化、歐洲伊斯蘭化、美國拉丁化」），以基層外來勞動力填補缺口；同時提醒 AI 資本支出若放緩，稅收與財政規劃將面臨重大調整壓力。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-24"
+      "summary_md": "## 一句話總結\n主講人認為 Grok 4.7 與 GPT-6 系列模型更新未達預期，但 Anthropic Opus 5.5 表現優異；AI 模型競爭已從單純智力比拼轉向「模型 + Harness」的產品化整合；Meta Muse 被亞馬逊封殺反映出電商巨頭利用物流與 Prime 會員護城河對抗 AI Agent 購物威脅。\n\n## 1. Grok 4.7 模型評測：有限進步、成本暴增\n- **整體分數微幅提升：** 在 AAI 評分從 44 分進步到 46 分，但落後 GPT-6 Soul（47 分）與 Meta Llama 3（48 分），更遠遜於 Fable 5.1、GPT-6 Astra 與 Opus 5.5。\n- **成本大增削弱競爭力：** 使用 token 量為 Grok 4.6 的 2–3 倍，甚至比 GPT-6 Astra 更貴，CP 值極差。\n- **特定領域表現突出：** 在 Agentic Coding（Terminal Bench 4.0 達 37.6%）與知識型工作（GDP Val 1695 分）明顯領先，但僅限於 Grok Build 與 Cursor 開發環境。\n- **商業策略偏防守：** 主講人認為 Grok 4.7 是針對既有用戶強化，難以擴散到生態系外；可能受後訓練時間不足影響，未來 Grok 4.8（2.5T 模型）需在成本與智力間取得平衡。\n\n## 2. GPT-6 Soul/Luna 與 Opus 5.5：低價與高分的兩極策略\n- **GPT-6 系列主打低成本：** Soul 與 Luna 智力與前代相當（AAI 分數僅高 1 分），但 Luna 成本僅 DeepSeek V4.1 Flash 的 1/4，Soul 成本為前代一半；主講人推測 Soul 可能是強化版 Terra 模型。\n- **Opus 5.5 奪回評分王座：** AAI 得分 58 分，領先 Fable 5.1 與 GPT-6 Astra 5 分，並在多項 Benchmark（Turbino Bench、Cursor Bench、GPT Vail）勝出。\n- **實際使用仍有爭議：** 社群反應顯示 Fable 5.1 在未知或困難任務中仍更聰明，Opus 5.5 優勢主要來自更完善的後訓練（Post Training）。\n\n## 3. AI 模型競爭新趨勢：從算力比拼到產品整合\n- **模型 + Harness 成為核心競爭力：** Grok 4.7 在 Grok Build 與 Cursor 環境中表現大幅提升，顯示未來 AI 公司將把模型與開發工具打包為產品（如 Grok Bot、Meta Muse），而非單純出售 API。\n- **各家差異化路線明確：** SpaceX 強化企業 Agentic 工作（Coding + Knowledge Work），OpenAI 主打低成本工作馬模型，Anthropic 持續鞏固前沿智力評分；主講人預測企業將針對不同部門採用不同模型組合。\n- **AI 安全測試走向合作：** Anthropic 與 OpenAI 同意彼此測試對方模型以降低風險，但主講人擔心可能形成「監管壟斷」（Regulation Capture），建議未來應由多家機構（如 AAI、Palantir、學術單位）混合認證。\n\n## 4. Meta Muse 遭亞馬逊封殺：電商護城河對決 AI Agent\n- **封殺四大理由：** 亞馬逊指 Meta 未事先告知、AI Agent 隱藏身份（未在 HTTP Header 標示）、涉及用戶帳密隱私、未尊重第三方店家的 opt-out 設定。\n- **亞馬遜真正考量是商業利益：** AI Agent 購物將減少推薦消費與隨機購買，降低廣告收入，並可能改變「先開亞馬遜網站」的消費習慣；亞馬遜希望用戶使用自家 AI Agent（Alexa for Shopping）。\n- **實體護城河無法取代：** 亞馬遜的當日/隔日快速配送與 Prime 會員免運優惠讓北美消費者難以離開平台；主講人認為 Meta 最終會在登入方式、API 使用、廣告整合與交易抽成等方面讓步。\n- **Meta 壓力巨大：** 若無法盡快與亞馬遜達成協議，競爭對手的 AI Agent 將趁機搶佔市場；主講人認為 Meta Muse 目前算力不足，短期難以推廣至台灣等更多國家。\n\n## 5. 產業觀察：算力需求與前沿實驗室競爭態勢\n- **CPU 需求將大增：** AI Agent 執行任務時（如網頁操作、下單）主要使用 CPU，主講人預測未來 CPU 與 GPU 用量比可能回到 1:1。\n- **SpaceX 第三季轉虧為盈：** AI 營收將較第二季翻 2–3 倍；主講人認為 SpaceX 擁有算力（GPU）、資料（Twitter）與人才（Cursor 團隊），長期仍可追上競爭對手。\n- **Anthropic 為 IPO 衝刺：** 自 Fable 5.1 推出後聲勢不如 GPT-6 Astra，此次推出 Opus 5.5 旨在企業市場反攻並美化 IPO 數字。\n\n## 結論與後市展望\n主講人認為 AI 模型競爭已進入「減速假象」階段——雖有實驗室宣稱減速，實際上各家仍持續推出新模型；未來勝負關鍵不在單一模型智力，而是模型與應用場景（Harness）的整合能力。Grok 4.7 雖讓人失望，但若能在 Grok Bot 中顯著提升效能並降低成本，仍有機會在企業市場站穩。Meta Muse 爆紅後面臨亞馬遜的強硬封殺，反映出實體世界的物流與會員體系在 AI 時代反而成為難以攻破的護城河；Meta 需盡快與亞馬遜達成妥協，否則競爭對手將趁隙而入。整體而言，AI 產業已從「誰的模型最聰明」轉向「誰的產品最好用」，實體基礎設施（如亞馬遜物流）與生態系整合將成為新的競爭焦點。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-09-25"
     }
   ],
-  "article_briefs": [
-    {
-      "title": "César Pinto Castillo's $150 Mac could not build iPhone apps",
-      "url": "https://www.revenuecat.com/blog/growth/cesar-pinto-castillo-sofia-larsson-ambre-launched-podcast-2026",
-      "published": "2026-09-23",
-      "author": "RevenueCat",
-      "handle": "revenuecat",
-      "source": "RevenueCat Blog",
-      "label": "訂閱成長",
-      "summary_md": "## 一句話總結\n作者透過訪談瑞典食譜 App Ambre 的兩位創辦人，記錄了一位紡織工程師如何從 iPad 上的 Swift Playgrounds 起步、透過 Apple Entrepreneur Camp 建立信心，並在 AI 工具普及的今天主張「體驗設計」將成為 App 差異化的關鍵。\n\n- **從零開始的共同創辦人養成：** César 原本用 CloudKit 做了一個食譜 App「Cooking」後就擱置，後來 Sofia 想學寫程式，César 建議她「重寫所有 view」來學 SwiftUI；Sofia 最大的障礙不是邏輯而是「沒有術語、連 modifier 這個詞都不知道，要用描述的方式 Google」，但她持續改寫 view 至今，Cooking 也改名為 Ambre 並多次獲 App Store 推薦。\n\n- **Apple Entrepreneur Camp 的信心建立：** Sofia 原本計畫學到能被聘為開發者的程度，César 看到 Apple Entrepreneur Camp 招募後建議她申請；她以為會是五分鐘歡迎電話，結果是兩小時技術面試；入選後在九小時時差下參加為期兩週的虛擬訓練（DTS 工程師支援、設計 session、pitch 培訓），她認為最大收穫是「信心」——進去前覺得自己是冒牌者、每場會議都怕被拆穿，但環境給了相反的支持，之後她接下第一個客戶專案。\n\n- **設計導向的社群差異化：** 作者觀察到 Ambre 的行銷很輕（主要靠 Instagram 聯繫用戶），真正成長的是 Sofia 的個人影響力；她在社群發文偏向 UI 與設計（「這個配色超棒、這樣排版閱讀更好」），而當時多數人發的是程式碼（新 API／SDK 試用），成為「程式碼海中少數談設計的人」形成差異化；Charlie 回憶在 Apple Park 訪客中心屋頂，Sofia 給他一張卡片、QR code 開啟 Ambre 的 App Clip、裡面又有 QR code 連到瑞典魚軟糖食譜，接著她拿出真的瑞典魚軟糖——「我看你對其他人做一樣的事，大家反應都一樣」。\n\n- **AI 時代「程式碼細節是否重要」的辯論：** César 主張「今天用 AI 可以做出很多東西，讓你產品脫穎而出的是你提供的體驗」，功能集做不到差異化、設計反而更重要；他借用 Linux 圈的類比：抱怨不知道 AI 生成的程式在做什麼，就像抱怨你不讀組合語言——「我們擁有的是 UX 和 App 品質，客戶不會讀程式碼」；Sofia 把 AI 比作工具箱裡的新工具（Procreate、iPad、鉛筆、水彩都是工具），讓設計師「腦中有想法但沒辦法實作」的人得以動手，今年她「直接跟 Claude 對話、幾分鐘或幾小時內看到想法成真」；César 的收尾提問是：「如果你確保 QA 很棒、App 看起來很讚、解決真實問題，程式碼細節真的重要嗎？」\n\n## 對設計／產品的啟示\n作者記錄的案例顯示，在 AI 能快速生成功能的時代，體驗設計（UX）、視覺品質與解決真實問題將成為 App 差異化的核心；對設計師而言，AI 工具（如 Claude）降低了從想法到實作的門檻，讓非工程背景者也能快速驗證概念；對產品團隊而言，投資在細節打磨、QA 品質與使用者體驗的價值將超越單純堆疊功能，而在社群經營上，專注於「別人不談的面向」（如設計而非程式碼）也能形成有效的差異化。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-24"
-    },
-    {
-      "title": "Default Dominance: Most Users Never Change the Setting You Ship",
-      "url": "https://www.uxtigers.com/post/defaults",
-      "published": "2026-09-23",
-      "author": "Jakob Nielsen",
-      "handle": "jakobnielsen",
-      "source": "UX Tigers",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為預設值（default）是影響使用者行為最強大的力量之一——多數使用者永遠不會改變你出廠時設定的選項，因此預設值既決定了大多數人的實際體驗，也無聲地教導他們什麼是「正常」。\n\n- **預設值主導效應（Default Dominance）極為強大：** 作者引用 2001 年研究指出，當美國一家大公司將 401(k) 退休計畫從「選擇加入」改為「自動加入」時，新進員工參與率從 37% 暴增至 86%——財務條款完全相同，只是改變了「使用者什麼都不做時會發生什麼事」。Google 在 2022 年支付蘋果 200 億美元，只為了成為 Safari 的預設搜尋引擎，凸顯預設位置的市場價值。\n\n- **使用者將預設值視為專業建議：** Jared Spool 在 2011 年的研究發現，數百名 Microsoft Word 使用者中，不到 5% 曾更改過任何設定；當時版本預設「關閉自動儲存」，超過 95% 使用者因此在程式當機時失去安全網。受訪者解釋：「微軟一定知道他們在做什麼。」作者強調，使用者會把你的預設值當成你品牌的專業背書。\n\n- **預設值不僅決定結果，也在教學：** 作者指出，預設值會教導新手什麼是合理、主流的選擇（相機的自動模式教典型設定、預設隱私等級教人們通常分享什麼）。McKenzie 等人在 UC San Diego 的 4 項實驗證明，人們會將預設值詮釋為推薦做法。但預設值也可能形成錨定效應（anchoring）——Madrian & Shea 的研究顯示，自動加入雖提升參與率，卻也讓員工集中於 3% 的預設提撥率，可能儲蓄不足。\n\n- **好的預設值 = 最可能的選擇 + 最低後悔：** 作者建議不要只看「最多人選的」（mode），而要評估「選錯的代價」。假設 60% 使用者要 A、40% 要 B，但選錯 A 會讓人損失 1 小時，選錯 B 只損失 5 秒，那麼預設 B 總後悔成本更低。更好的做法是設計「選錯時會發生什麼」——例如自動儲存 + 版本歷史既保護工作又允許復原。\n\n- **何時不該有預設值：** Carroll 等人研究顯示，強制新員工明確選擇「是否加入 401(k)」（無預設），比標準 opt-in 提升 28 個百分點初始參與率。作者建議在 4 種情況採用主動選擇（active choice）：(1) 安全關鍵資料（血型、過敏、藥物劑量）；(2) 未建立同意或支出授權；(3) 偏好明顯分裂且決策重要；(4) 參與本身就是目的（如設定受益人）。\n\n- **AI 與代理人（agentic AI）讓預設值問題放大且隱藏更深：** 作者指出，AI 回應其實是一疊預設值（長度、語氣、結構、閱讀程度、模型、謹慎度），多數藏在系統提示（system prompt）或訓練中。代理 AI 在執行一項任務（如訂機票、重構程式碼）時可能做出數百個小決定；這些預設值可能藏在「技能檔」（skills）裡，變成「深層預設」（deepfault），使用者根本看不見。作者預測未來十年的反壟斷戰場將從瀏覽器預設轉向代理人內建的預設服務與採購決策。\n\n## 對設計／產品的啟示\n作者提出 17 條設計指引，核心原則包括：(1) 只要有安全預設值就提供，減少使用者決策負擔；(2) 預設值應以使用者最佳利益為準，即使與商業利益衝突——被背叛的使用者會流失；(3) 讓覆寫（override）變得簡單明顯，一步到位；(4) 測量結果而非沉默——當超過 1/4 使用者改變預設值時就該調查；(5) AI 應明示可能改變結果的假設，並在執行前界定代理人的授權範圍（允許動作、支出上限、需重新決策的條件）。作者強調，預設值需要有負責人為其品質負責，否則「最容易寫程式的選擇」就會變成數百萬人必須接受的決定。無論你是否有意為之，你的預設值就是替大多數使用者做的決定——也是你無聲教給他們的一課。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-24"
-    }
-  ]
+  "article_briefs": []
 }
