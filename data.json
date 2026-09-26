@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-25",
-  "date_display": "2026 年 09 月 25 日",
-  "generated_at": "2026-09-25T08:56:03.035546+08:00",
+  "date": "2026-09-26",
+  "date_display": "2026 年 09 月 26 日",
+  "generated_at": "2026-09-26T08:56:22.828822+08:00",
   "top_products": [
     {
-      "title": "LockLines",
-      "url": "https://www.producthunt.com/products/locklines",
-      "published": "2026-09-23T13:09:03-07:00",
-      "author": "Ighor July",
-      "tagline": "Design Mac lock screen messages that fit",
-      "post_id": "1259576",
-      "summary_zh": "用於設計 Mac 鎖定畫面訊息的工具，確保文字能完整適配顯示。",
-      "image_url": "https://ph-files.imgix.net/577490c7-d139-485c-940e-d234c17f0264.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/0e375ee2-d6f3-4b01-91cc-f3d4dab2b0b0.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Perfect Slice",
+      "url": "https://www.producthunt.com/products/perfect-slice",
+      "published": "2026-09-24T05:50:06-07:00",
+      "author": "Ron Demiri",
+      "tagline": "You have one cut to get a perfect slice",
+      "post_id": "1260153",
+      "summary_zh": "一款挑戰玩家在一次切割中完美分割物件的休閒遊戲。",
+      "image_url": "https://ph-files.imgix.net/dc181967-6ad6-4fa4-9a40-4054e1b824aa.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/dcd121a3-e6ba-4533-8abe-232043352f7a.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Subscrr",
-      "url": "https://www.producthunt.com/products/subscrrr",
-      "published": "2026-09-23T05:37:30-07:00",
-      "author": "Artur Mineev",
-      "tagline": "Build a financial plan and ask what to cancel",
-      "post_id": "1259179",
-      "summary_zh": "協助使用者建立財務計畫，並分析建議可取消哪些訂閱服務。",
-      "image_url": "https://ph-files.imgix.net/2cfc7ced-6dea-42a2-a255-3807824430c4.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/68b3790b-ae65-4d6c-bfef-fb9d1f2286af.png?auto=format&w=960&h=540&fit=crop"
+      "title": "DEV·TV",
+      "url": "https://www.producthunt.com/products/dev-tv",
+      "published": "2026-09-24T07:29:20-07:00",
+      "author": "Souvik Palit",
+      "tagline": "A retro TV for GitHub, HN, Hugging Face & more: 10 channels",
+      "post_id": "1260239",
+      "summary_zh": "以復古電視介面呈現 GitHub、Hacker News、Hugging Face 等開發者平台內容的聚合工具，提供 10 個不同頻道。",
+      "image_url": "https://ph-files.imgix.net/7e7072c0-1444-4579-9e54-4fa34b07a22d.gif?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/f1da0054-67ef-46e7-9d7b-1f74a928fc7f.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Floot MCP",
-      "url": "https://www.producthunt.com/products/floot",
-      "published": "2026-09-23T13:54:45-07:00",
-      "author": "Yuj Yao",
-      "tagline": "Build and ship web and mobile apps inside Claude or ChatGPT",
-      "post_id": "1259609",
-      "summary_zh": "讓開發者直接在 Claude 或 ChatGPT 內建構與部署網頁和行動應用程式。",
-      "image_url": "https://ph-files.imgix.net/11e2e51b-0936-47c1-a2b8-2281d2927129.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/2fe69a40-f6c5-4483-ac40-f31ba1cf755a.png?auto=format&w=960&h=540&fit=crop"
+      "title": "10xJoy",
+      "url": "https://www.producthunt.com/products/10xjoy",
+      "published": "2026-09-24T23:47:02-07:00",
+      "author": "Philip Loyd",
+      "tagline": "Discover desired outcomes + connect w/ builders who can help",
+      "post_id": "1260751",
+      "summary_zh": "協助使用者探索期望成果並媒合能實現目標的開發者或服務提供者的平台。",
+      "image_url": "https://ph-files.imgix.net/0b8d189c-f177-452d-a19e-381be0285502.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c56c3421-e23c-441f-bd8a-41bb5aa248ff.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Storytailor®",
-      "url": "https://www.producthunt.com/products/storytailor",
-      "published": "2026-09-22T23:09:39-07:00",
-      "author": "JQ Sirls",
-      "tagline": "A personal world built around your child’s imagination",
-      "post_id": "1258838",
-      "summary_zh": "根據孩子的想像力打造個人化故事世界的服務，適合家長為兒童使用。",
-      "image_url": "https://ph-files.imgix.net/4c740190-1d17-4f80-a626-ac89339aff11.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/b4b6751c-41a1-4309-ac3d-ee8a3f7a93b5.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Quiver GTM",
+      "url": "https://www.producthunt.com/products/quiver-gtm",
+      "published": "2026-09-23T18:50:08-07:00",
+      "author": "fmerian",
+      "tagline": "Run developer marketing like an engineering system",
+      "post_id": "1259740",
+      "summary_zh": "為開發者工具產品提供系統化行銷管理框架，以工程化方式執行 GTM 策略。",
+      "image_url": "https://ph-files.imgix.net/be797103-5ec0-47f0-9087-0b05151c9b0e.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5edbe351-73d9-4df1-8085-ca927cdb8bb9.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "NotchPop",
-      "url": "https://www.producthunt.com/products/notchpop",
-      "published": "2026-09-23T23:32:47-07:00",
-      "author": "Tejas Telkar",
-      "tagline": "The Dynamic Island your MacBook notch was missing",
-      "post_id": "1259856",
-      "summary_zh": "為 MacBook 瀏海區域帶來類似 Dynamic Island 的互動功能。",
-      "image_url": "https://ph-files.imgix.net/9a1a38ff-5c3d-4d38-9c21-9069191dc944.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/867b29d0-86b6-4b4c-b87a-ccf6ba6d935c.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "DokBot",
+      "url": "https://www.producthunt.com/products/dokbot",
+      "published": "2026-09-24T05:39:35-07:00",
+      "author": "Lautaro Silva",
+      "tagline": "Turn your docs into a support chatbot for your website",
+      "post_id": "1260145",
+      "summary_zh": "將產品文件轉換為網站客服聊天機器人的自動化工具。",
+      "image_url": "https://ph-files.imgix.net/c11c2661-340a-4c4c-87b3-a4ae02139fc1.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/df58bd9e-561f-4ab0-97dd-bbf9f356665a.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "jev-seo",
-      "url": "https://www.producthunt.com/products/jev-seo",
-      "published": "2026-09-22T22:02:48-07:00",
-      "author": "Akash Priyadarshi",
-      "tagline": "Free Rust CLI SEO/GEO auditor, no subscription needed",
-      "post_id": "1258796",
-      "summary_zh": "基於 Rust 開發的免費 CLI 工具，用於 SEO 與 GEO 網站稽核，無需訂閱。",
-      "image_url": "https://ph-files.imgix.net/5c835b07-bb4f-4732-8b42-54a07c8ba7ce.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/44ccc965-100d-4ec1-a166-601e276ac86a.png?auto=format&w=960&h=540&fit=crop"
+      "title": "UIDCaption",
+      "url": "https://www.producthunt.com/products/uidcaption",
+      "published": "2026-09-24T10:15:54-07:00",
+      "author": "Raul Binar",
+      "tagline": "Automatic and animated captions, completely offline",
+      "post_id": "1260359",
+      "summary_zh": "提供完全離線運作的自動字幕生成與動畫效果工具。",
+      "image_url": "https://ph-files.imgix.net/5c4441b3-1f6e-49e6-b159-dfb4dbe17c8e.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/13fabe3a-58ff-4951-919a-c4e63a60858b.jpeg?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,17 +77,51 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
+  "podcast_briefs": [],
+  "article_briefs": [
     {
-      "episode_id": "756635",
-      "title": "EP339. Grok 4.7 失敗了嗎、模型大戰趨勢觀察、Muse 爆紅後影響 | M觀點",
-      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/7dc2a5f2-a116-4884-801e-28e756635e3a",
+      "title": "How long should your free trial be? Data from 17,000+ apps",
+      "url": "https://www.revenuecat.com/blog/growth/free-trial-length",
+      "published": "2026-09-28",
+      "author": "RevenueCat",
+      "handle": "revenuecat",
+      "source": "RevenueCat Blog",
+      "label": "訂閱成長",
+      "summary_md": "## 一句話總結\n作者透過分析 17,000+ 款訂閱制 App 發現，較長的免費試用期（5–32 天）通常帶來更高的轉換率與留存率，但最佳時長取決於訂閱週期、App 類別、使用者所在地區與產品本身的價值傳遞速度。\n\n- **訂閱週期影響最佳試用期長度：** 作者發現週訂閱 App 多採用 4 天以下試用期（81–100 款高流量 App 如此），但 5–9 天試用期的首次續訂率達 65.9%，高於 4 天以下的 57.9%；月訂閱在 10–16 天試用期達到最佳平衡（轉換率 46.6%、續訂率 72%）；年訂閱則隨試用期拉長而持續提升（17–32 天試用期轉換率 44.6%、續訂率 47.5%，皆為最高）。\n\n- **取消試用期未必是好主意：** 作者比較無試用期與有試用期訂閱後發現，週訂閱與月訂閱的無試用期首次續訂率明顯較低（週訂閱 35.9% vs. 5–9 天試用期的 65.9%；月訂閱 49.5% vs. 10–16 天試用期的 72%），僅年訂閱的無試用期續訂率（26.6%）略高於短試用期，但低於長試用期。\n\n- **AI App 的試用期不宜過長：** 作者針對有推論／生成成本的 AI App 分析指出，月訂閱 AI App 在 10–16 天試用期已達到最佳表現（轉換率 38.5%、續訂率 64.2%），延長至 17–32 天反而使轉換率降至 31.8%、續訂率未再提升（64.1%），顯示過長試用期增加成本卻無明顯效益。\n\n- **地區與類別差異顯著：** 作者發現北美與西歐在年訂閱上隨試用期拉長而轉換率持續上升，但亞太地區在 10–16 天後反降；中東非洲、印度東南亞、拉美則在月訂閱的 5–9 天試用期達到最高轉換率（如中東非洲 38.3%），17–32 天反降至 27.4%。不同類別也有差異：串流媒體在 10–16 天試用期最佳（轉換率 58.9%、續訂率 79.4%），健身 App 在 5–9 天轉換率最高（46.8%），但續訂率隨試用期拉長而提升（17–32 天達 77.1%）。\n\n- **轉換率與續訂率未必同步：** 作者指出工具類 App（Utilities）的月訂閱在 10–16 天試用期達到最高轉換率（47.4%），但續訂率在 17–32 天試用期最高（77.9%），顯示「快速判斷價值」與「建立使用習慣」是兩回事；健身類 App 也呈現類似張力，較長試用期雖能建立習慣，但也可能讓動機在付費前消退。\n\n## 對設計／產品的啟示\n作者建議不要直接套用市場慣例或競品的試用期長度，而應根據自家 App 的四個特性決定：（1）**價值傳遞時間**——使用者需要多久才能公平評估付費價值；（2）**習慣 vs. 動機**——工具類 App 可能需要更長時間建立使用習慣，但健身類 App 的動機可能在過長試用期中消退；（3）**受眾情境**——不同地區使用者對價格敏感度、訂閱信任度與免費替代方案的權衡不同；（4）**成本結構**——較長試用期延後營收回收、拉長付費獲客回本週期，AI App 尤其需考量每次免費使用的實際成本。作者推薦使用 RevenueCat Experiments 進行 A/B 測試，以自家數據驗證最適試用期長度。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-26"
+    },
+    {
+      "title": "How AI Works and How Users Think About It: Study Guide",
+      "url": "https://www.nngroup.com/articles/ai-functionality-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-09-26",
+      "author": "NN/g Nielsen Norman Group",
+      "handle": "nngroup",
+      "source": "NN/g",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者整理了一系列關於 AI 運作原理與使用者心智模型的學習資源，幫助設計師與產品人員建立正確的 AI 理解框架，以便更有效地設計與使用 AI 工具。\n\n- **不需完全理解也能使用：** 作者認為使用者（包括設計師）不需要完全理解 AI 的內部運作機制就能使用它，就像使用電腦一樣；但建立更準確的心智模型能提升效率並避免問題。\n\n- **AI 帶來全新互動典範：** 作者指出 AI 引入了「基於意圖的互動」（intent-based interaction）這個 60 年來首見的第三種 UI 典範，使用者只需陳述目標而非具體指令。\n\n- **幻覺與討好傾向是設計考量：** 作者強調 LLM 容易產生「幻覺」（hallucinations）且難以改變，同時具有「討好性」（sycophancy）——優先取悅使用者而非驗證回應準確性，這些特性應影響產品設計決策。\n\n- **使用者有明確的提示模式：** 作者的研究發現使用者與 AI 互動時遵循清楚可預測的模式，包括六種對話類型（搜尋查詢、漏斗式、探索式、琢磨式、擴展式、精準定位式）以及常見的提示結構元素。\n\n- **擬人化影響信任但有風險：** 作者發現使用者快速將類人特質投射到 AI 系統上（ELIZA 效應），在四個層次上擬人化 AI（禮貌、強化、角色扮演、陪伴）；人們更信任「看起來聰明」而非「看起來有情感」的 AI，過度人性化會增加錯置信任的風險。\n\n- **職場採用率仍低：** 作者引用研究數據指出，在約 5,000 名美國工作者中，81% 表示他們在工作中不使用 AI；AI 素養需要提示流暢度與批判性評估輸出的能力，頻繁使用不等於熟練使用。\n\n## 對設計／產品的啟示\n作者建議設計師與產品人員應：（1）理解 AI 的核心機制（如幻覺、討好傾向）以做出更明智的設計決策；（2）支援新手使用者建立正確的心智模型；（3）在追求擬人化與維持信任之間取得平衡，避免過度情感化設計；（4）針對不同資訊尋求情境（探索 vs. 精確事實）提供適當的工具選擇；（5）降低錯誤檢查的互動成本，因為 AI 輸出的精緻外觀會阻礙使用者發現錯誤。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-26"
+    },
+    {
+      "title": "When Should You Disclose AI Use? The PACED Framework",
+      "url": "https://www.nngroup.com/articles/disclose-ai-paced/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-09-26",
+      "author": "NN/g Nielsen Norman Group",
+      "handle": "nngroup",
+      "source": "NN/g",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者指出，AI 揭露對讀者反應的影響並非一致，而是取決於受眾、內容性質、AI 參與程度等因素，並提出 PACED 框架協助判斷是否揭露 AI 使用。\n\n- **AI 揭露效果無一致性：** 作者回顧 47 項研究發現，讀者對 AI 揭露的反應並不一致——有些情況下會降低信任度與真實性評分，有些則無明顯影響；甚至在陌生人間的信任遊戲實驗中，AI 揭露對信任的態度評分與實際金錢轉移行為都沒有負面影響。\n\n- **AI 角色與參與程度影響反應：** 研究顯示，當 AI「生成全文」時，讀者對議論文和創意故事的品質評分都下降；但若 AI「僅編輯」文本，只有創意故事評分下降，議論文不受影響。另一項研究發現，隨著揭露的 AI 參與比例增加，讀者對作者的評分也隨之下降。\n\n- **人類貢獻重要時更易受懲罰：** 作者指出，當讀者期待內容展現人類判斷、真誠或連結時（如創意寫作、人際溝通、社群媒體貼文），揭露 AI 使用會顯著降低真實性、可信度與品牌形象評分；相較之下，議論性或資訊性內容較不受影響，顯示讀者會在 AI 取代有意義的人類貢獻時給予負面評價。\n\n- **受眾態度決定反應強度：** 對科技持正面態度、認為 AI 準確的受眾，以及寫作信心較低的讀者，對 AI 揭露的負面反應較小；但寫作信心高的讀者在看到 AI 揭露後，傾向更大幅降低品質評分。對 ChatGPT 的熟悉度也會影響接受度，但效果不一致。\n\n- **揭露悖論與第三方揭露風險：** 作者描述「揭露悖論」現象——讀者表示希望看到 AI 揭露，卻對有揭露的內容評價較低；而人們希望別人揭露 AI 使用的程度，遠超過自己願意揭露的程度。更重要的是，Schilke 與 Reimann 的多項實驗發現，被第三方揭露 AI 使用的信任度，比主動揭露或不說明都更低，因此主動揭露可能是較安全的選擇。\n\n- **PACED 框架協助決策：** 作者提出五個評估因素——政策（Policy，法律或平台是否強制揭露）、受眾（Audience，受眾對 AI 的態度）、情境（Context，人類貢獻的重要性）、期望（Expectations，讀者是否預期被告知）、參與程度（Degree of AI use，AI 貢獻多少），協助創作者在不同情境下判斷是否揭露 AI 使用。\n\n## 對設計／產品的啟示\n作者建議，在 AI 揭露要求日益普遍的環境下，組織應使用 PACED 框架評估揭露決策，權衡 AI 效率與可能的信任損失。特別是在強調人類創意、真誠或個人連結的內容（如社群媒體、創意寫作）中，揭露可能帶來較大負面影響；但若 AI 使用可能被第三方揭露，主動揭露仍是較安全的策略。對於例行性、交易性或純資訊性內容（如預約提醒），揭露的負面影響較小。設計者應考慮受眾特性與內容性質，在透明度與品牌聲譽間做出平衡決策。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-26"
+    },
+    {
+      "title": "UX Roundup: AI Agents Help Blind Users | Style Exploration | Recognition: Show Options | Synthetic Users Help Designers Reflect | Local Optimization | Fail Early | Before–After Sliders | Error Message",
+      "url": "https://www.uxtigers.com/post/ux-roundup-20260925",
       "published": "2026-09-25",
-      "channel": "M觀點",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為 Grok 4.7 與 GPT-6 系列模型更新未達預期，但 Anthropic Opus 5.5 表現優異；AI 模型競爭已從單純智力比拼轉向「模型 + Harness」的產品化整合；Meta Muse 被亞馬逊封殺反映出電商巨頭利用物流與 Prime 會員護城河對抗 AI Agent 購物威脅。\n\n## 1. Grok 4.7 模型評測：有限進步、成本暴增\n- **整體分數微幅提升：** 在 AAI 評分從 44 分進步到 46 分，但落後 GPT-6 Soul（47 分）與 Meta Llama 3（48 分），更遠遜於 Fable 5.1、GPT-6 Astra 與 Opus 5.5。\n- **成本大增削弱競爭力：** 使用 token 量為 Grok 4.6 的 2–3 倍，甚至比 GPT-6 Astra 更貴，CP 值極差。\n- **特定領域表現突出：** 在 Agentic Coding（Terminal Bench 4.0 達 37.6%）與知識型工作（GDP Val 1695 分）明顯領先，但僅限於 Grok Build 與 Cursor 開發環境。\n- **商業策略偏防守：** 主講人認為 Grok 4.7 是針對既有用戶強化，難以擴散到生態系外；可能受後訓練時間不足影響，未來 Grok 4.8（2.5T 模型）需在成本與智力間取得平衡。\n\n## 2. GPT-6 Soul/Luna 與 Opus 5.5：低價與高分的兩極策略\n- **GPT-6 系列主打低成本：** Soul 與 Luna 智力與前代相當（AAI 分數僅高 1 分），但 Luna 成本僅 DeepSeek V4.1 Flash 的 1/4，Soul 成本為前代一半；主講人推測 Soul 可能是強化版 Terra 模型。\n- **Opus 5.5 奪回評分王座：** AAI 得分 58 分，領先 Fable 5.1 與 GPT-6 Astra 5 分，並在多項 Benchmark（Turbino Bench、Cursor Bench、GPT Vail）勝出。\n- **實際使用仍有爭議：** 社群反應顯示 Fable 5.1 在未知或困難任務中仍更聰明，Opus 5.5 優勢主要來自更完善的後訓練（Post Training）。\n\n## 3. AI 模型競爭新趨勢：從算力比拼到產品整合\n- **模型 + Harness 成為核心競爭力：** Grok 4.7 在 Grok Build 與 Cursor 環境中表現大幅提升，顯示未來 AI 公司將把模型與開發工具打包為產品（如 Grok Bot、Meta Muse），而非單純出售 API。\n- **各家差異化路線明確：** SpaceX 強化企業 Agentic 工作（Coding + Knowledge Work），OpenAI 主打低成本工作馬模型，Anthropic 持續鞏固前沿智力評分；主講人預測企業將針對不同部門採用不同模型組合。\n- **AI 安全測試走向合作：** Anthropic 與 OpenAI 同意彼此測試對方模型以降低風險，但主講人擔心可能形成「監管壟斷」（Regulation Capture），建議未來應由多家機構（如 AAI、Palantir、學術單位）混合認證。\n\n## 4. Meta Muse 遭亞馬逊封殺：電商護城河對決 AI Agent\n- **封殺四大理由：** 亞馬逊指 Meta 未事先告知、AI Agent 隱藏身份（未在 HTTP Header 標示）、涉及用戶帳密隱私、未尊重第三方店家的 opt-out 設定。\n- **亞馬遜真正考量是商業利益：** AI Agent 購物將減少推薦消費與隨機購買，降低廣告收入，並可能改變「先開亞馬遜網站」的消費習慣；亞馬遜希望用戶使用自家 AI Agent（Alexa for Shopping）。\n- **實體護城河無法取代：** 亞馬遜的當日/隔日快速配送與 Prime 會員免運優惠讓北美消費者難以離開平台；主講人認為 Meta 最終會在登入方式、API 使用、廣告整合與交易抽成等方面讓步。\n- **Meta 壓力巨大：** 若無法盡快與亞馬遜達成協議，競爭對手的 AI Agent 將趁機搶佔市場；主講人認為 Meta Muse 目前算力不足，短期難以推廣至台灣等更多國家。\n\n## 5. 產業觀察：算力需求與前沿實驗室競爭態勢\n- **CPU 需求將大增：** AI Agent 執行任務時（如網頁操作、下單）主要使用 CPU，主講人預測未來 CPU 與 GPU 用量比可能回到 1:1。\n- **SpaceX 第三季轉虧為盈：** AI 營收將較第二季翻 2–3 倍；主講人認為 SpaceX 擁有算力（GPU）、資料（Twitter）與人才（Cursor 團隊），長期仍可追上競爭對手。\n- **Anthropic 為 IPO 衝刺：** 自 Fable 5.1 推出後聲勢不如 GPT-6 Astra，此次推出 Opus 5.5 旨在企業市場反攻並美化 IPO 數字。\n\n## 結論與後市展望\n主講人認為 AI 模型競爭已進入「減速假象」階段——雖有實驗室宣稱減速，實際上各家仍持續推出新模型；未來勝負關鍵不在單一模型智力，而是模型與應用場景（Harness）的整合能力。Grok 4.7 雖讓人失望，但若能在 Grok Bot 中顯著提升效能並降低成本，仍有機會在企業市場站穩。Meta Muse 爆紅後面臨亞馬遜的強硬封殺，反映出實體世界的物流與會員體系在 AI 時代反而成為難以攻破的護城河；Meta 需盡快與亞馬遜達成妥協，否則競爭對手將趁隙而入。整體而言，AI 產業已從「誰的模型最聰明」轉向「誰的產品最好用」，實體基礎設施（如亞馬遜物流）與生態系整合將成為新的競爭焦點。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-25"
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者認為 AI 代理已達到與傳統螢幕閱讀器相當的無障礙輔助能力（完成率約 53%），且以每年 30 個百分點的速度改善，遠超過傳統無障礙技術每年 1–3 個百分點的進展，預估 2028 年將超越明眼用戶的基準表現。\n\n## 重點摘要\n\n- **AI 代理為視障者完成過半任務：** 在一項為期 3 週的田野研究中，8 名視障用戶共委派 1,258 個真實桌面任務給 AI 代理（使用 GPT-5），代理完全成功執行了 53%、部分完成 34%、完全失敗 13%。相較之下，過去 20 年的研究顯示螢幕閱讀器的任務成功率僅 25–55%，且改善速度極慢（WebAIM 調查顯示網頁無障礙問題在 7 年間僅改善 2 個百分點）。\n\n- **改善速度差異懸殊：** 在 OSWorld 桌面操作基準測試中，AI 代理從 2024 年 4 月的 12% 進步到 2026 年 6 月的 85%，平均每年提升 33 個百分點，並已於 2026 年 2 月超越 72% 的人類基準；而傳統無障礙技術每年僅進步 0.3–3 個百分點。作者預測視障用戶將在 2028 年透過 AI 代理達到與明眼用戶相同的任務成功率。\n\n- **藝術家需要可拆解的風格元素而非一鍵生成：** 一項針對專業插畫師與概念藝術家的研究（UIST 2026）顯示，創作者希望將參考風格拆解成構圖、線條、色彩、光影、渲染和形狀語言等可選擇的組成元素，而非接受 AI 的「完成品」。使用提供拆解功能的 AER 系統後，藝術家報告的自主感、創作自我效能和反思程度均大幅提升（Cohen's d = 0.85–0.92），且在 2 週田野研究中，藝術家花了 65% 時間在實驗元素組合、26% 在分析風格、僅 9.4% 在聽取模擬觀眾意見。\n\n- **模擬使用者有助反思但無法取代真人測試：** 在兩項研究（藝術家的模擬粉絲、博物館設計師的模擬訪客）中，AI 模擬的使用者或觀眾確實幫助設計者反思設計選擇，但無法提供真實使用者行為的證據。藝術家認為模擬觀眾過於討好、不可信；博物館設計師給模擬訪客的行為可信度僅評 4.8 分（7 點量表）。作者強調真實使用者測試仍是最可靠的方法，因為 AI 難以產生「令人驚訝的發現」——而這些發現往往最有價值。\n\n- **局部最佳化破壞整體體驗：** 作者以一個同時彈出 8 個對話框的網頁為例，指出每個彈窗可能都通過了各自的 A/B 測試（例如電子報訂閱、通知許可），但沒有人測試它們的組合效果。結果是「局部最佳化、整體敵意」——使用者在讀到內容前就面臨重重阻礙。作者建議測量從抵達到內容的完整旅程，並將干擾預算限制在一次以內。\n\n- **識別優於回憶、原型優於返工、滑桿優於並排比較：** 作者重申多項經典可用性原則：(1) 顯示選項讓使用者選擇（識別）比要求他們憑記憶輸入（回憶）更好;(2) 在設計仍是紙板原型時發現問題（「廉價失敗」）遠勝於產品上線後修補;(3) 前後對照滑桿讓使用者在同一位置看到變化，克服「變化盲視」（change blindness）——1997 年研究顯示人們需要 10 秒以上才能發現並排圖片的明顯差異，而滑桿將比較從記憶任務轉為感知任務。\n\n## 對設計／產品的啟示\n\n作者提供多項實務建議：(1) **為 AI 工具設計無障礙介面**——無障礙元數據（accessibility metadata）現在同時服務螢幕閱讀器和 AI 代理，且後者成長快速，應優先彌補鍵盤操作與滑鼠操作間的 36 個百分點落差；(2) **拆解而非直接生成**——無論是 AI 風格轉換或任何設計工具，都應將元素暴露為可選、可組合的組件，並解釋每個變化的原理，讓使用者保有控制權；(3) **保護已完成的工作**——錯誤訊息應說明問題、保留使用者已完成的輸入，並提供實際可行的復原路徑，而非要求「重試」後遭遇同樣失敗；(4) **建立自我效能**——透過 5 分鐘內的真實成功（mastery experience）、可逆操作與比例適當的慶祝，讓使用者相信自己能成功，而非用過度讚美或責備式錯誤訊息破壞信心；(5) **用自己的任務測試 AI**——在採購前選擇 5 個代表性任務實測，包括麻煩的輸入和必要的修正，因為精心準備的展示無法代表真實工作條件。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-26"
     }
-  ],
-  "article_briefs": []
+  ]
 }
