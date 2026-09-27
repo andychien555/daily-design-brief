@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-09-27T01:35:19+08:00",
+  "generated_at": "2026-09-27T08:56:20+08:00",
   "days": [
+    {
+      "d": "2026-09-27",
+      "dd": "2026 年 09 月 27 日",
+      "no": 164,
+      "items": [
+        {
+          "k": "product",
+          "t": "GoodSocials",
+          "b": "AI social media manager for LinkedIn. Only authentic content 專為 LinkedIn 設計的 AI 社群媒體管理工具，強調產出真實且符合個人風格的內容。適合需要經營 LinkedIn 個人品牌的專業人士。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "MakerMap",
+          "b": "A living map of makers and what they’re building 一個即時更新的地圖平台，展示各地創作者的位置及他們正在開發的專案。讓創作者社群能互相發現與連結。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "10xJoy",
+          "b": "Discover desired outcomes + connect w/ builders who can help 幫助使用者釐清期望成果，並媒合能實現這些目標的開發者或建造者。適合有專案需求但需要找到合適執行者的人。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Jango",
+          "b": "Test multi-user apps with AI agents that act like real users 使用 AI 代理模擬真實使用者行為，用於測試多人協作應用程式的工具。適合需要進行使用者體驗測試的開發團隊。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Token Forecaster",
+          "b": "Forecast how long an LLM reply will run, before Enter 在送出提示前，預測 LLM 回應所需的 token 數量與執行時間。幫助使用者更有效控制 API 成本與等待時間。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Tellwe",
+          "b": "Your coffee cup tells its story. 透過咖啡杯講述產品或品牌故事的創意行銷工具或服務。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-09-26",
       "dd": "2026 年 09 月 26 日",
