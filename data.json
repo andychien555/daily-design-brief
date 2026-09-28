@@ -1,75 +1,8 @@
 {
-  "date": "2026-09-27",
-  "date_display": "2026 年 09 月 27 日",
-  "generated_at": "2026-09-27T08:56:03.982219+08:00",
-  "top_products": [
-    {
-      "title": "GoodSocials",
-      "url": "https://www.producthunt.com/products/goodsocials",
-      "published": "2026-09-25T03:43:48-07:00",
-      "author": "Pavel Kucherbaev",
-      "tagline": "AI social media manager for LinkedIn. Only authentic content",
-      "post_id": "1260932",
-      "summary_zh": "專為 LinkedIn 設計的 AI 社群媒體管理工具，強調產出真實且符合個人風格的內容。適合需要經營 LinkedIn 個人品牌的專業人士。",
-      "image_url": "https://ph-files.imgix.net/b9406b24-d77d-4223-8e5c-c51057804c19.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/cc47313e-648e-424a-acdb-4cd5fad87013.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "MakerMap",
-      "url": "https://www.producthunt.com/products/makermap",
-      "published": "2026-09-25T16:58:29-07:00",
-      "author": "Martijn Verbove",
-      "tagline": "A living map of makers and what they’re building",
-      "post_id": "1261392",
-      "summary_zh": "一個即時更新的地圖平台，展示各地創作者的位置及他們正在開發的專案。讓創作者社群能互相發現與連結。",
-      "image_url": "https://ph-files.imgix.net/b57f658d-92d0-4cac-9ff6-bef59fcfa50c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d9701f1c-1a2b-448b-9494-4a40b96c04d4.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "10xJoy",
-      "url": "https://www.producthunt.com/products/10xjoy",
-      "published": "2026-09-24T23:47:02-07:00",
-      "author": "Philip Loyd",
-      "tagline": "Discover desired outcomes + connect w/ builders who can help",
-      "post_id": "1260751",
-      "summary_zh": "幫助使用者釐清期望成果，並媒合能實現這些目標的開發者或建造者。適合有專案需求但需要找到合適執行者的人。",
-      "image_url": "https://ph-files.imgix.net/0b8d189c-f177-452d-a19e-381be0285502.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c56c3421-e23c-441f-bd8a-41bb5aa248ff.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Jango",
-      "url": "https://www.producthunt.com/products/jango",
-      "published": "2026-09-24T19:16:38-07:00",
-      "author": "Emmanuel Adesola",
-      "tagline": "Test multi-user apps with AI agents that act like real users",
-      "post_id": "1260637",
-      "summary_zh": "使用 AI 代理模擬真實使用者行為，用於測試多人協作應用程式的工具。適合需要進行使用者體驗測試的開發團隊。",
-      "image_url": "https://ph-files.imgix.net/760fd8e7-dab5-40fd-a973-5b737eff5dbd.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/4da276c9-e8db-493f-8731-a6ed2b5daddb.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Token Forecaster",
-      "url": "https://www.producthunt.com/products/token-forecaster",
-      "published": "2026-09-24T21:40:57-07:00",
-      "author": "Luis Pinto",
-      "tagline": "Forecast how long an LLM reply will run, before Enter",
-      "post_id": "1260685",
-      "summary_zh": "在送出提示前，預測 LLM 回應所需的 token 數量與執行時間。幫助使用者更有效控制 API 成本與等待時間。",
-      "image_url": "https://ph-files.imgix.net/23b3193e-105f-4051-a0fc-9107cb95945c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/327df8cf-8664-41dc-8e97-ad35f73184ef.png?auto=format&w=960&h=540&fit=crop"
-    },
-    {
-      "title": "Tellwe",
-      "url": "https://www.producthunt.com/products/tellwe",
-      "published": "2026-09-24T22:54:02-07:00",
-      "author": "serkan uslu",
-      "tagline": "Your coffee cup tells its story.",
-      "post_id": "1260722",
-      "summary_zh": "透過咖啡杯講述產品或品牌故事的創意行銷工具或服務。",
-      "image_url": "https://ph-files.imgix.net/26e00756-2161-477f-97d1-af273484fec7.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/df5372b9-6ac2-4fca-be11-fd89963f255d.png?auto=format&w=960&h=540&fit=crop"
-    }
-  ],
+  "date": "2026-09-28",
+  "date_display": "2026 年 09 月 28 日",
+  "generated_at": "2026-09-28T08:55:57.189470+08:00",
+  "top_products": [],
   "criteria": {
     "producthunt": {
       "source": "Product Hunt Atom feed",
@@ -77,6 +10,17 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [],
+  "podcast_briefs": [
+    {
+      "episode_id": "2408774559",
+      "title": "2026/9/28(一) 導讀 國家為什麼會失敗/自由的窄廊台灣",
+      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-28",
+      "published": "2026-09-28",
+      "channel": "游庭皓的財經皓角",
+      "transcript_source": "Podcast 音檔 · Whisper",
+      "summary_md": "## 一句話總結\n主講人透過《國家為什麼會失敗》和《自由的窄廊》兩書，說明國家長期繁榮來自「包容性制度」與「國家—社會力量的動態平衡」，而非地理、文化或資源稟賦。\n\n## 1. 地理與文化決定論的侷限：制度才是關鍵\n- **地理無法解釋差異：** 新加坡與周邊鄰國、南北韓同一民族在不同制度下數十年後形成巨大所得和生活差距，證明地理並非決定性因素。\n- **文化難以單獨解釋繁榮：** 過去認為儒家文化歧視商人不利資本主義發展，但日本、南韓、台灣、新加坡等東亞經濟體的崛起顯示文化影響有限。\n- **政策知識不是障礙：** 貧困國家的掌權者並非不知道正確政策，而是有利整體社會的改革往往損害既得利益者的權力維持。\n\n## 2. 經濟制度的兩種型態：包容性 vs. 榨取性\n- **包容性經濟制度的特徵：** 讓廣泛人口擁有財產、進入市場、選擇職業、創業投資、接受教育，努力後有合理機會保留創造成果；財產受保障、契約有法院保障，市場允許新人挑戰舊企業，促進持續創新。\n- **榨取性經濟制度的核心：** 制度設計讓少數人從多數人身上取得資源，掌權者控制土地、產業執照、金融資源、貿易權利等，經濟成果集中於少數人；農民增產即被剝奪、企業成功即被沒收，導致無人願意投資或創業。\n- **榨取性制度也能短期成長：** 蘇聯推動工業化時將大量農業資源轉移到工業部門，快速提高重工業產能，但缺乏分散式創新與創造性破壞，長期面臨創新瓶頸。\n\n## 3. 創造性破壞與權力再分配：改革的政治代價\n- **創造性破壞不只是技術進步：** 新企業、新產業、新技術、新財富持有人的出現，會淘汰舊有精英的經濟地位和政治控制力，例如鐵路改變城市與地方權力、工業化創造新企業家與工人階級、網路改變資訊控制。\n- **掌權者的理性選擇：** 若經濟現代化威脅自身權力，阻止現代化反而成為理性的政治選擇；許多國家長期停滯並非缺少聰明人、資本或技術，而是政治制度讓有權者能夠阻止威脅自己的改變。\n- **制度自我強化的惡性循環：** 掌權者利用政治權力建立有利自己的經濟制度，從中獲得財富再維持政治權力；包容性制度則形成良性循環，權力分布廣泛時社會更有能力限制權力集中。\n\n## 4. 政治制度的包容性：權力分布與國家能力缺一不可\n- **政治權力的廣泛分布與執行能力：** 真正重要的是政治權力是否受限制、分布在相對廣泛的社會群體，以及國家是否有足夠能力執行共同規則；民主國家不一定富裕，專制國家也不一定貧窮。\n- **中央集權與行政能力的必要性：** 若政府無法維持治安和執行法律，再多政治參與也可能淪為內戰，難以建立穩定市場；英國從大憲章到議會發展、17世紀光榮革命，王權逐漸受限，是長期權力衝突後重新分配的結果。\n- **制度移植的困境：** 表面複製成功國家政策（如證券市場、競爭法、AI政策、中央銀行、反貪腐機構）到另一國，若政治權力仍高度集中，制度仍會被既得利益者控制。\n\n## 5. 自由的窄廊：國家與社會的動態平衡\n- **三種利維坦形態：** (1) 缺席的利維坦：國家能力不足，規則由家族、部落、地方勢力提供，個人受私人權力束縛；(2) 專制的利維坦：國家強大但社會無力限制，行政效率高但人民缺乏阻止政府濫權的機制；(3) 被束縛的利維坦：國家有充分執法與公共服務能力，社會也有組織、監督、抗議、訴訟能力限制國家，雙方維持動態平衡。\n- **自由需要國家能力：** 自由不是政府越弱越好，需要有能力壟斷暴力、執行法律、維持治安、提供公共服務的政府，才能把個人從私人權力支配中解放；沒有足夠國家能力，現代個人自由難以存在。\n- **紅皇后效應的持續競爭：** 國家變強時社會須提高組織與監督能力，社會提出更多公共需求時國家須提高治理能力回應；自由並非一次性平衡後停止，而是國家與社會永遠互相追趕，政府擴張新行政權力、社會建立新監督機制的動態過程。\n\n## 6. 權力的多元競爭：避免任何一方不受約束\n- **權力不會消失只會轉移：** 把權力從政府拿走不代表權力消失，只是轉移到企業、家族、地方勢力或其他利益集團；真正問題是誰擁有權力、權力受到什麼限制。\n- **社會力量也需制衡：** 社會不是越強越好，若家族、部落、企業、宗教勢力過大，個人同樣可能失去自由；企業需要市場競爭但也需法律限制，政府需要法院、議會、媒體、公民社會限制。\n- **三層理論架構：** 第一層是經濟制度（人民有無財產權、教育、市場與創新機會），第二層是政治制度（誰有權制定經濟規則），第三層是力量平衡（什麼樣的力量防止政治權力重新集中）。\n\n## 結論與後市展望\n主講人認為這兩本書的核心洞見在於：好的制度並非要消滅權力，而是讓權力永遠無法停止競爭。國家要夠強才能保護自由（提供法治與公共服務），社會也要夠強才能保護自己不被國家吞併（監督與制衡）。自由的窄廊是一條「很窄又很難走但永遠不會停下來」的動態平衡之路，任何單方面過強或過弱都會導致專制或失能。對投資者而言，理解制度背後的權力結構與動態平衡，比單純關注經濟政策更能判斷一國長期繁榮的可能性。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-09-28"
+    }
+  ],
   "article_briefs": []
 }
