@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-29",
+    "date_display": "2026 年 09 月 29 日",
+    "generated_at": "2026-09-29T08:56:04.320963+08:00",
+    "total": 9,
+    "sources": [
+      "M觀點",
+      "Substack",
+      "UX Tigers"
+    ],
+    "headline": "本集主講人認為，川習會未達成實質突破、Meta Connect 展示 AI 眼鏡與 Agent 商業化潛力、資料中心電力瓶頸凸顯 SpaceX 太空算力優勢。",
+    "no": 166
+  },
+  {
     "date": "2026-09-28",
     "date_display": "2026 年 09 月 28 日",
     "generated_at": "2026-09-28T08:55:57.189470+08:00",
@@ -1027,16 +1040,5 @@
     ],
     "headline": "The Pirate Bay 網站設計從 2005 到 2026 年幾乎沒有變化，呈現出 21 年來網頁設計趨勢的演變對比。這則貼文引發討論，反映出簡約設計的持久性與網頁設計潮流的變遷。",
     "no": 77
-  },
-  {
-    "date": "2026-07-01",
-    "date_display": "2026 年 07 月 01 日",
-    "generated_at": "2026-07-01T08:55:53.759294+08:00",
-    "total": 5,
-    "sources": [
-      "Design"
-    ],
-    "headline": "「Loop engineering」成為 AI agent 開發的熱門技術，由 Claude Code 與 OpenClaw 創辦人推廣後爆紅，現已是讓 AI 長時間迭代建構軟體的核心方法。作者將在信中深入探討這項技術。",
-    "no": 76
   }
 ]

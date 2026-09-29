@@ -1,8 +1,75 @@
 {
-  "date": "2026-09-28",
-  "date_display": "2026 年 09 月 28 日",
-  "generated_at": "2026-09-28T08:55:57.189470+08:00",
-  "top_products": [],
+  "date": "2026-09-29",
+  "date_display": "2026 年 09 月 29 日",
+  "generated_at": "2026-09-29T08:56:04.320963+08:00",
+  "top_products": [
+    {
+      "title": "Lattice",
+      "url": "https://www.producthunt.com/products/lattice-11",
+      "published": "2026-09-27T07:59:30-07:00",
+      "author": "Aryan Rastogi",
+      "tagline": "Reshape your text across languages while preserving meaning",
+      "post_id": "1262593",
+      "summary_zh": "跨語言文字重組工具,在轉換語言時保留原文意義。適合需要多語言內容改寫的使用者。",
+      "image_url": "https://ph-files.imgix.net/3b6c18c6-6cd8-48dc-87d7-74824de7b61d.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/02628a29-36ff-4a0e-a80c-2c7e8b2b3d31.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "MuM",
+      "url": "https://www.producthunt.com/products/mum-multi-project-markdown",
+      "published": "2026-09-27T22:04:26-07:00",
+      "author": "IceskYsl",
+      "tagline": "A reading-first Markdown engine for macOS",
+      "post_id": "1263042",
+      "summary_zh": "為 macOS 設計的 Markdown 編輯器,強調閱讀體驗優先。適合需要專注閱讀與編輯 Markdown 文件的用戶。",
+      "image_url": "https://ph-files.imgix.net/22bf5700-2799-4e91-92fd-3a2dde160b9a.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/17f5df4c-4159-45b9-8fa2-5558f6244634.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Ryu Journal",
+      "url": "https://www.producthunt.com/products/ryu-journal",
+      "published": "2026-09-26T21:28:31-07:00",
+      "author": "Chris Messina",
+      "tagline": "A journal to help busy minds let go",
+      "post_id": "1262216",
+      "summary_zh": "針對忙碌人士設計的日記工具,協助整理思緒與情緒釋放。",
+      "image_url": "https://ph-files.imgix.net/0c4e266b-593b-4eda-9e44-73ee81d58009.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/30ba5526-9b3e-473b-93ad-9ee0e3d295b7.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Sayble",
+      "url": "https://www.producthunt.com/products/sayble",
+      "published": "2026-09-27T12:46:24-07:00",
+      "author": "Alexis Perez",
+      "tagline": "AI copilot for calls that tells you what to say next",
+      "post_id": "1262791",
+      "summary_zh": "AI 通話助理,即時提供對話建議與回應提示。適合需要通話輔助的商務或客服場景。",
+      "image_url": "https://ph-files.imgix.net/61a53e09-c84b-443e-b77b-777b87a4ad07.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ba212b52-90ef-46ac-b126-bb5583d66886.png?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "FaveNest",
+      "url": "https://www.producthunt.com/products/favenest",
+      "published": "2026-09-27T14:25:00-07:00",
+      "author": "Dion Purushotham",
+      "tagline": "Bookmarks that organize themselves with Apple Intelligence",
+      "post_id": "1262853",
+      "summary_zh": "整合 Apple Intelligence 的書籤管理工具,自動分類與整理收藏內容。",
+      "image_url": "https://ph-files.imgix.net/67e5772b-2487-47fc-9ee2-2dfe2e7d5140.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d2fc2f08-bce2-4ae5-b5df-f4669f8f63a4.jpeg?auto=format&w=960&h=540&fit=crop"
+    },
+    {
+      "title": "Arc",
+      "url": "https://www.producthunt.com/products/arc-ai-screen-assistant",
+      "published": "2026-09-27T10:11:05-07:00",
+      "author": "Mamata",
+      "tagline": "Your mobile AI assistant on any screen",
+      "post_id": "1262686",
+      "summary_zh": "跨裝置的行動 AI 助理,可在任何螢幕上使用。提供日常任務協助與資訊查詢功能。",
+      "image_url": "https://ph-files.imgix.net/9dfe8fe5-da30-4178-bd8e-8d6f5c612d22.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/e62af2ae-4aff-4599-b4d0-8e419c13a7de.png?auto=format&w=960&h=540&fit=crop"
+    }
+  ],
   "criteria": {
     "producthunt": {
       "source": "Product Hunt Atom feed",
@@ -12,15 +79,38 @@
   },
   "podcast_briefs": [
     {
-      "episode_id": "2408774559",
-      "title": "2026/9/28(一) 導讀 國家為什麼會失敗/自由的窄廊台灣",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-28",
-      "published": "2026-09-28",
-      "channel": "游庭皓的財經皓角",
+      "episode_id": "93996196",
+      "title": "EP340. 川習會台灣怎麼看、Meta Connect 大會、資料中心搶電大戰 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/a7e2f7cb-f0ec-42e9-ac0c-b93996196d81",
+      "published": "2026-09-29",
+      "channel": "M觀點",
       "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人透過《國家為什麼會失敗》和《自由的窄廊》兩書，說明國家長期繁榮來自「包容性制度」與「國家—社會力量的動態平衡」，而非地理、文化或資源稟賦。\n\n## 1. 地理與文化決定論的侷限：制度才是關鍵\n- **地理無法解釋差異：** 新加坡與周邊鄰國、南北韓同一民族在不同制度下數十年後形成巨大所得和生活差距，證明地理並非決定性因素。\n- **文化難以單獨解釋繁榮：** 過去認為儒家文化歧視商人不利資本主義發展，但日本、南韓、台灣、新加坡等東亞經濟體的崛起顯示文化影響有限。\n- **政策知識不是障礙：** 貧困國家的掌權者並非不知道正確政策，而是有利整體社會的改革往往損害既得利益者的權力維持。\n\n## 2. 經濟制度的兩種型態：包容性 vs. 榨取性\n- **包容性經濟制度的特徵：** 讓廣泛人口擁有財產、進入市場、選擇職業、創業投資、接受教育，努力後有合理機會保留創造成果；財產受保障、契約有法院保障，市場允許新人挑戰舊企業，促進持續創新。\n- **榨取性經濟制度的核心：** 制度設計讓少數人從多數人身上取得資源，掌權者控制土地、產業執照、金融資源、貿易權利等，經濟成果集中於少數人；農民增產即被剝奪、企業成功即被沒收，導致無人願意投資或創業。\n- **榨取性制度也能短期成長：** 蘇聯推動工業化時將大量農業資源轉移到工業部門，快速提高重工業產能，但缺乏分散式創新與創造性破壞，長期面臨創新瓶頸。\n\n## 3. 創造性破壞與權力再分配：改革的政治代價\n- **創造性破壞不只是技術進步：** 新企業、新產業、新技術、新財富持有人的出現，會淘汰舊有精英的經濟地位和政治控制力，例如鐵路改變城市與地方權力、工業化創造新企業家與工人階級、網路改變資訊控制。\n- **掌權者的理性選擇：** 若經濟現代化威脅自身權力，阻止現代化反而成為理性的政治選擇；許多國家長期停滯並非缺少聰明人、資本或技術，而是政治制度讓有權者能夠阻止威脅自己的改變。\n- **制度自我強化的惡性循環：** 掌權者利用政治權力建立有利自己的經濟制度，從中獲得財富再維持政治權力；包容性制度則形成良性循環，權力分布廣泛時社會更有能力限制權力集中。\n\n## 4. 政治制度的包容性：權力分布與國家能力缺一不可\n- **政治權力的廣泛分布與執行能力：** 真正重要的是政治權力是否受限制、分布在相對廣泛的社會群體，以及國家是否有足夠能力執行共同規則；民主國家不一定富裕，專制國家也不一定貧窮。\n- **中央集權與行政能力的必要性：** 若政府無法維持治安和執行法律，再多政治參與也可能淪為內戰，難以建立穩定市場；英國從大憲章到議會發展、17世紀光榮革命，王權逐漸受限，是長期權力衝突後重新分配的結果。\n- **制度移植的困境：** 表面複製成功國家政策（如證券市場、競爭法、AI政策、中央銀行、反貪腐機構）到另一國，若政治權力仍高度集中，制度仍會被既得利益者控制。\n\n## 5. 自由的窄廊：國家與社會的動態平衡\n- **三種利維坦形態：** (1) 缺席的利維坦：國家能力不足，規則由家族、部落、地方勢力提供，個人受私人權力束縛；(2) 專制的利維坦：國家強大但社會無力限制，行政效率高但人民缺乏阻止政府濫權的機制；(3) 被束縛的利維坦：國家有充分執法與公共服務能力，社會也有組織、監督、抗議、訴訟能力限制國家，雙方維持動態平衡。\n- **自由需要國家能力：** 自由不是政府越弱越好，需要有能力壟斷暴力、執行法律、維持治安、提供公共服務的政府，才能把個人從私人權力支配中解放；沒有足夠國家能力，現代個人自由難以存在。\n- **紅皇后效應的持續競爭：** 國家變強時社會須提高組織與監督能力，社會提出更多公共需求時國家須提高治理能力回應；自由並非一次性平衡後停止，而是國家與社會永遠互相追趕，政府擴張新行政權力、社會建立新監督機制的動態過程。\n\n## 6. 權力的多元競爭：避免任何一方不受約束\n- **權力不會消失只會轉移：** 把權力從政府拿走不代表權力消失，只是轉移到企業、家族、地方勢力或其他利益集團；真正問題是誰擁有權力、權力受到什麼限制。\n- **社會力量也需制衡：** 社會不是越強越好，若家族、部落、企業、宗教勢力過大，個人同樣可能失去自由；企業需要市場競爭但也需法律限制，政府需要法院、議會、媒體、公民社會限制。\n- **三層理論架構：** 第一層是經濟制度（人民有無財產權、教育、市場與創新機會），第二層是政治制度（誰有權制定經濟規則），第三層是力量平衡（什麼樣的力量防止政治權力重新集中）。\n\n## 結論與後市展望\n主講人認為這兩本書的核心洞見在於：好的制度並非要消滅權力，而是讓權力永遠無法停止競爭。國家要夠強才能保護自由（提供法治與公共服務），社會也要夠強才能保護自己不被國家吞併（監督與制衡）。自由的窄廊是一條「很窄又很難走但永遠不會停下來」的動態平衡之路，任何單方面過強或過弱都會導致專制或失能。對投資者而言，理解制度背後的權力結構與動態平衡，比單純關注經濟政策更能判斷一國長期繁榮的可能性。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-28"
+      "summary_md": "## 一句話總結\n本集主講人認為，川習會未達成實質突破、Meta Connect 展示 AI 眼鏡與 Agent 商業化潛力、資料中心電力瓶頸凸顯 SpaceX 太空算力優勢。\n\n---\n\n## 1. 川習會：台灣怎麼看——以拖待變、小禮物交換\n- **無實質讓步，關稅戰延長兩個月：** 原定 11 月到期的休兵期延至明年 1 月，雙方各自調降 300 億美元項目關稅，但中國未在台灣議題、AI 監管或經貿核心條款上讓步。\n- **中國策略是拖過川普任期：** 主講人認為習近平採「以拖待變」，期待川普連任失敗或四年後政策轉向；川普短期缺乏強力手段（關稅被最高法院限制、稀土反制牽制美國），目前 MP Materials 僅能滿足美國約 30% 稀土需求。\n- **台灣軍售料將放行：** 主講人預測原先卡住的 140 億美元軍售案會在川習會後釋出多數或全數，因為「籌碼要用出去才有用」、拉高對中談判壓力更符合賽局理論；並建議台灣加強與 Rubio、JD Vance 及 Palantir、Anduril 等共和黨反共派系的關係。\n- **川普對中長期戰略不變：** 主講人強調川普在西太平洋軍事部署、制裁委內瑞拉與伊朗（切斷中國便宜石油）等動作持續，整體壓制中國的戰略目標未改，只是戰術上短期內不會撕破臉全面開戰。\n\n---\n\n## 2. Meta Connect：AI 眼鏡 + Muse Agent 生態成形\n- **三款硬體亮相——Ray-Ban Meta Gen3、VR Glasses、Muse Champ：** AI 眼鏡（Ray-Ban Meta Gen3）預計年底推出 100 款；VR Glasses 僅 100 公克、外接運算 PAC（300 公克），價格約 4 萬台幣（Apple Vision Pro 三分之一），主講人預測會大賣；Muse Champ 是手持式 AI 裝置，前後鏡頭可呼叫 Muse Agent，作為眼鏡無電或不便配戴時的備援。\n- **Muse Agent 商業模式——省錢與抽成：** 主講人提到 Muse 可幫用戶退訂閒置訂閱（案例：每月省 3,000 台幣）、代為殺價（車險月費從 100 美元砍到 50 美元）；Meta 未來將透過 Muse 掌握消費金流並抽成（例如 1%），不單純仰賴廣告。\n- **市場信心轉折：** 主講人認為過去兩年 Meta AI（Llama）表現平平，市場對「AI 眼鏡」故事有斷點；但 Muse 8 (1.3) 與 Muse Agent 今年大紅，硬體 + AI 整合故事已無斷點，投資人開始相信 Meta 能實現「眼鏡是最佳 AI 載體」的願景。\n\n---\n\n## 3. 資料中心搶電大戰：Oracle 卡關 vs. SpaceX 狂擴\n- **Oracle Project Jupiter 延宕：** 原定在新墨西哥州建 2.45 GW 資料中心（為 Stargate 計畫一部分），因州政府土地局否決天然氣管路用地而發出「Force Majeure（不可抗力）」通知；主講人強調這是電力供應卡關、非 AI 需求泡沫化。\n- **SpaceX Colossus 系列暴衝：** 馬斯克推文稱 Colossus 1 已有 23 萬張 GPU（15 萬 H100、5 萬 H200、3 萬 GB200）全租給 Anthropic；Colossus 2 現有 55 萬張（11 萬 GB200 + 44 萬 GB300），10–12 月預計再加 66 萬張 GB300（需 1.6 GW 電力，約台灣核三廠兩機組總發電量），若順利年底總數達 121 萬張。\n- **電力才是關鍵：** 主講人指出 SpaceX 搞定電力（大量購買天然氣渦輪發電機），Oracle 未搞定；地面資料中心電力障礙越多，太空資料中心（衛星 AI 算力）吸引力越高；Google 10 月發射 TPU 測試衛星、SpaceX 2027 年與輝達合作 AI 衛星上線，未來 5–10 年太空算力市占將逐步提升（5%→10%→20%）。\n- **SpaceX 財務展望：** 主講人預測今年第三、第四季 XAI（含資料中心出租）將成為 SpaceX 最賺錢部門，「這是印鈔機」；個人持股已增至 3% 多，計畫持股上限 4%。\n\n---\n\n## 結論與後市展望\n主講人認為川普政府在台海、軍售與對中壓制的長期戰略未變，短期戰術調整不代表「賣台」；Meta 硬體 + Muse Agent 生態已成形，眼鏡將是 AI 最佳載體；資料中心電力瓶頸將加速太空算力布局，SpaceX 領先優勢明顯。提醒市場短期隨時可能回調，長期投資者可把握波動機會分批布局。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-09-29"
     }
   ],
-  "article_briefs": []
+  "article_briefs": [
+    {
+      "title": "How I work more efficiently across multiple Claude Code sessions",
+      "url": "https://designwithai.substack.com/p/how-i-work-more-efficiently-across-multiple-claude-code-sessions",
+      "published": "2026-09-28",
+      "author": "Design with AI",
+      "handle": "designwithai",
+      "source": "Substack",
+      "label": "AI 設計",
+      "summary_md": "## 一句話總結\n作者分享如何透過 Claude Code 的 Agent View、聲音通知與手機同步三項功能，有效管理多個 AI 專案並行執行的工作流。\n\n---\n\n- **Agent View 統整多專案進度：** 作者同時處理三個專案（3D 房屋、網站、設計沙盒），過去需在多視窗間切換確認進度。透過 `claude agents` 指令可在單一終端機列表查看所有進行中的專案，並依「需要輸入」、「執行中」、「已完成」排序，解決頻繁切換的麻煩。\n\n- **聲音通知即時提醒狀態：** 作者設計兩種不同音效——明亮鈴聲代表任務完成、尖銳聲響代表等待使用者回應，讓使用者不需盯著螢幕也能掌握 Claude 的執行狀態。這需要額外設定，作者在文末提供了技能腳本協助一鍵安裝。\n\n- **手機同步遠端操作：** 作者曾在離開電腦後才發現 Claude 因提問而暫停，浪費一小時等待時間。透過 `/rc` 指令可將專案同步至手機版 Claude app，讓使用者在外出時也能批准執行步驟、下達指令，回到電腦時所有操作紀錄同步呈現。\n\n- **技能腳本自動化設定：** 作者將整套工作流打包成可重複使用的「技能」（skill），使用者只需在終端機執行一次安裝指令，之後便能透過輸入技能名稱快速啟用整個工作流程，降低設定門檻。\n\n---\n\n## 對設計／產品的啟示\n作者認為多代理（multi-agent）管理將成為未來常態，過去習慣單視窗、單專案的工作方式需要調整為「平行工作流」。對設計與產品團隊而言，建立統一的監控介面、即時通知機制與跨裝置同步能力，將成為提升 AI 協作效率的關鍵。這套方法也在作者為 Microsoft 設計研究團隊的演講中分享，顯示大型組織已開始關注此類工作流優化議題。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-29"
+    },
+    {
+      "title": "UX Roundup: Bogus Deskilling Research | Jargon Alienates | AI Exposure Improves AI Attitudes | Interruptions | Prioritizing > Everything | Paper Prototyping | Unsupportive Support | Resizable Panes",
+      "url": "https://www.uxtigers.com/post/ux-roundup-20260928",
+      "published": "2026-09-28",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者認為當前多數「AI 去技能化」研究設計錯誤——它們測量人們在 AI 被沒收後的表現，卻忽略了現實中工具會一直留在手邊，真正該衡量的是人們**與 AI 協作時的高階駕馭能力**。\n\n---\n\n- **AI 去技能化研究的根本缺陷：** 作者指出，加州大學爾灣分校 Shang Wu 等人的邏輯謎題實驗（124 人）發現使用 AI 的人在 AI 被收回後表現更差，但這種「沒收研究」（confiscation study）測量的是不會再發生的情境——現實中沒人會沒收工具，就像不會在木匠學徒結業後沒收鋸子和鎚子，要他們用石頭釘釘子。\n\n- **計算機恐慌的歷史教訓：** 作者回憶 1970 年代對口袋型計算機的擔憂（會不會毀掉數學能力），但 50 年後所有商業計算都在電腦上進行；真正重要的技能上移到「能否讀懂預算、發現錯誤、產出更好版本」這類高階數字素養，而非手算六位數加法。\n\n- **正確的研究方向：** 作者呼籲研究者應假設「所有人都有 AI」，永不測量無 AI 時的表現，並區分 AI 使用方式——當 AI 代勞練習時學習下降，但當 AI 擔任個別導師時學習加速（一項奈及利亞 800 名學生研究顯示，6 週內獲得相當於 2 年學力的進步）。\n\n- **AI 曝光療法改變態度：** 倫敦帝國學院、哈佛、MIT 與 Ben-Gurion 大學的 Yaoxi Shi 等人研究（1,951 人實驗 + 981 人 28 天田野研究）發現，單次 5 分鐘對話後，被分配給 AI 的人有 70% 未來選擇 AI（對照組 46%）；28 天每日對話後，偏好與 AI 分享私事的比例從 25% 升至 32%——良好的初次體驗能轉化 AI 懷疑者。\n\n- **中斷的隱性成本：** 作者引用 Gloria Mark 研究指出，被打斷的任務平均 23 分 15 秒後恢復（通常插入兩個其他任務），但 2008 年實驗更顯示中斷者雖完成更快（扣除中斷時間），卻回報更高的工作負荷、壓力、時間壓力與挫折——彈出視窗徵收的是「全程任務的壓力稅」。Shamsi Iqbal 與 Brian Bailey 研究證實，在自然中斷點（子任務間的停頓）延遲通知可減少挫折與反應時間。\n\n- **可調整窗格的設計準則：** 作者詳述可調整窗格（resizable panes）的 9 條設計指引，包括：提供 8 像素以上的抓取區（而非 1 像素髮絲）、強制最小窗格尺寸、記住使用者調整、雙擊復原預設、支援鍵盤操作，以及避免超過 5 個窗格（否則介面變「飛機駕駛艙」）。\n\n## 對設計／產品的啟示\n作者建議將 AI 融入產品時，應讓使用者的初次接觸就能完成有用任務或獲得可用結果——良好首次體驗是最佳推銷；同時，團隊應將研究資源從「沒收 AI 後的表現」轉向「與 AI 協作時的高階決策與修正能力」，因為那才是新常態下的關鍵技能。在介面設計上，應遵守「說使用者的語言」這條最古老卻最常被違反的原則，並在中斷點而非任意時刻顯示通知；資深研究者的職責是篩選與綜合，報告 3 項能改變決策的發現勝過 30 項裝飾附錄的觀察。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-09-29"
+    }
+  ]
 }
