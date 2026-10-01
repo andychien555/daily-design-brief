@@ -1,73 +1,73 @@
 {
-  "date": "2026-09-30",
-  "date_display": "2026 年 09 月 30 日",
-  "generated_at": "2026-09-30T08:56:42.768308+08:00",
+  "date": "2026-10-01",
+  "date_display": "2026 年 10 月 01 日",
+  "generated_at": "2026-10-01T08:56:11.928108+08:00",
   "top_products": [
     {
-      "title": "Claude Sonnet 5.5",
-      "url": "https://www.producthunt.com/products/claude",
-      "published": "2026-09-28T11:27:48-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "Anthropic's second model in the Claude 5.5 family",
-      "post_id": "1263749",
-      "summary_zh": "Anthropic 推出的 Claude 5.5 系列第二款語言模型，提供更強大的 AI 對話與推理能力。",
-      "image_url": "https://ph-files.imgix.net/f18900e1-307b-4e51-9751-47e23d2ba368.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/db4306a9-efb7-47c4-a795-7a62a6bf6758.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "jambuild",
+      "url": "https://www.producthunt.com/products/jambuild",
+      "published": "2026-09-29T22:43:28-07:00",
+      "author": "Rajiv Ayyangar",
+      "tagline": "Near instant multiplayer vibecoding, just point and talk",
+      "post_id": "1265274",
+      "summary_zh": "即時多人協作程式編輯工具，支援語音溝通與游標指向功能，適合團隊進行快速的程式碼協作。",
+      "image_url": "https://ph-files.imgix.net/f8cfc0c1-f01b-41f6-9505-862e3d410c03.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ef503cae-2953-4c77-8968-679499d1630d.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Codex Remote",
-      "url": "https://www.producthunt.com/products/codex-remote",
-      "published": "2026-09-28T02:56:03-07:00",
-      "author": "Pandelis Zembashis",
-      "tagline": "Put Codex or Claude Code on your own cloud machine",
-      "post_id": "1263282",
-      "summary_zh": "讓開發者將 Codex 或 Claude Code 部署到自己的雲端機器上運行，適合需要私有化部署的團隊。",
-      "image_url": "https://ph-files.imgix.net/40a967ae-251c-4934-9ac6-0843414bc44b.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/136006f3-d511-48a7-80bf-e5dbaa08b474.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Upsolve Data Models",
+      "url": "https://www.producthunt.com/products/upsolve-ai",
+      "published": "2026-09-29T14:40:33-07:00",
+      "author": "Ka Ling Wu",
+      "tagline": "Teach AI your metric definitions and business vocabulary",
+      "post_id": "1265054",
+      "summary_zh": "讓 AI 學習企業的指標定義與業務術語，提升數據分析的準確性與一致性。",
+      "image_url": "https://ph-files.imgix.net/4a1811f6-3f0e-42a1-ade4-ffa4d2a32c06.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/2c87a2c1-d164-4f49-bbb7-ca9ed22e0d82.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Would you pay?",
-      "url": "https://www.producthunt.com/products/would-you-pay",
-      "published": "2026-09-28T07:35:04-07:00",
-      "author": "Mustafa Ergisi",
-      "tagline": "Find out who'd pay before you build more",
-      "post_id": "1263543",
-      "summary_zh": "在投入開發前驗證產品付費意願的工具，幫助創業者快速測試市場需求。",
-      "image_url": "https://ph-files.imgix.net/cb6d2ffd-e688-49a9-818e-84ad2f8622c7.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a97db861-25bf-462c-9a83-b87666e6da9b.png?auto=format&w=960&h=540&fit=crop"
+      "title": "CrawlRaven MCP",
+      "url": "https://www.producthunt.com/products/crawlraven-mcp",
+      "published": "2026-09-29T23:51:13-07:00",
+      "author": "Ayush Chaturvedi",
+      "tagline": "Your SEO work, done from your AI agent",
+      "post_id": "1265328",
+      "summary_zh": "透過 AI 代理執行 SEO 工作的自動化工具，簡化搜尋引擎優化流程。",
+      "image_url": "https://ph-files.imgix.net/15c2f875-91d9-4acc-9d2f-ea22ce3cb1f2.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c6b928bc-d5ed-49fe-8745-bf6d79f6d128.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Timeless Code",
-      "url": "https://www.producthunt.com/products/timeos",
-      "published": "2026-09-28T03:37:27-07:00",
-      "author": "Tommy Barav",
-      "tagline": "Meeting notetaker that installs and runs inside Claude Code",
-      "post_id": "1263319",
-      "summary_zh": "整合於 Claude Code 內的會議記錄工具，直接在編輯器環境中安裝使用。",
-      "image_url": "https://ph-files.imgix.net/61704cab-4fd4-4411-8401-840e6adb4334.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/e3e79507-456d-46d7-9944-d419c912ab12.gif?auto=format&w=960&h=540&fit=crop"
+      "title": "CoIsland",
+      "url": "https://www.producthunt.com/products/coisland",
+      "published": "2026-09-29T19:50:52-07:00",
+      "author": "Elyes Rayane Melbouci",
+      "tagline": "Your whole engineering stack, in a notch",
+      "post_id": "1265183",
+      "summary_zh": "將工程開發所需的各種工具整合於 MacBook 瀏海區域，方便工程師快速存取開發環境資訊。",
+      "image_url": "https://ph-files.imgix.net/4e6a7964-e2b5-472b-94e9-48817070aed8.gif?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5abaa419-c30b-4da4-8913-72544b16f6e1.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Clink",
-      "url": "https://www.producthunt.com/products/clink-custom-keyboards",
-      "published": "2026-09-28T05:11:38-07:00",
-      "author": "William Whitehouse",
-      "tagline": "The iOS keyboard you actually own",
-      "post_id": "1263406",
-      "summary_zh": "iOS 鍵盤應用，強調使用者完全擁有控制權與隱私保護。",
-      "image_url": "https://ph-files.imgix.net/f9134e38-c1ff-4901-9699-9c36441f1f1c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/de5c1c2f-f1ab-4e33-b4b1-d527ffacb7af.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Cyluma",
+      "url": "https://www.producthunt.com/products/cyluma",
+      "published": "2026-09-29T21:01:38-07:00",
+      "author": "Niteesh Yadav",
+      "tagline": "Your Mac’s battery as a living, breathing landscape",
+      "post_id": "1265223",
+      "summary_zh": "將 Mac 電池狀態視覺化為動態風景畫面，提供美觀的電量監控方式。",
+      "image_url": "https://ph-files.imgix.net/cc44b163-a41c-43f7-8c57-92a95776cac1.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/4f5936dc-3486-4568-9a2c-6214527e00be.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Gladys Assistant 5",
-      "url": "https://www.producthunt.com/products/gladys-assistant",
-      "published": "2026-09-28T08:17:40-07:00",
-      "author": "Pierre-Gilles",
-      "tagline": "Private, self-hosted smart home, no YAML required",
-      "post_id": "1263586",
-      "summary_zh": "自架式智慧家庭管理系統，注重隱私保護且無需編寫 YAML 設定檔。",
-      "image_url": "https://ph-files.imgix.net/c46f405e-41ab-4d86-9ca6-3b3ad37ffd0a.vnd.microsoft.icon?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/58d6118c-384e-4ebf-a798-a74f48b25d83.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "getcta.store",
+      "url": "https://www.producthunt.com/products/getcta-store",
+      "published": "2026-09-29T13:05:12-07:00",
+      "author": "Nikhil Rajpurohit",
+      "tagline": "an ai teleprompter that lives under your MacBook notch",
+      "post_id": "1264998",
+      "summary_zh": "位於 MacBook 瀏海下方的 AI 提詞器，適合需要進行視訊簡報或錄影的使用者。",
+      "image_url": "https://ph-files.imgix.net/c83ae180-9de9-4d30-b227-0a4cdaeec82f.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ccaaaf09-3ba0-4420-b2db-3748b278b9c2.jpeg?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,61 +77,29 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "43a8-d7f8-4655-a73d-609b81c59baa",
-      "title": "EP701 | 🐡",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/2ab843a8-d7f8-4655-a73d-609b81c59baa",
-      "published": "2026-09-30",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人第三季台股部位從七月最大回撤三成、一度以為年底難修復，但靠快速轉換至光通訊、小型IC設計等新題材，於九月初便收復高點；同時觀察到AI工具加速晶片設計流程、美國設廠趨勢與封閉模型地端部署可能性等產業新動向。\n\n## 1. 第三季操作心得：驚險回血與部位調整\n- **七月最大回撤約三成、九月已修復高點：** 台股部位從年初翻倍多，七月中遭遇數年來最猛崩殺、Maximum Drawdown 約 30%（槓桿 1.1–1.3 倍），本以為年底前難回高點，但靠八、九月快速轉換題材（光通訊、小型 IC 設計、CoWoS 概念股）已於九月初修復台股高點；美股因押注 Blackworm 爆炸拖累至同期才摸新高。\n- **七月下半一度信心缺失、開始減碼：** 當時大型均線未出現剎車訊號，主講人將部分部位（仍在賺錢）砍出，但八月起識別光通訊第一波、後續小 IC 及 CoWoS 族群接力，認為轉換速度快是收復失土關鍵。\n- **第四季策略偏保守、期待中秋後變化：** 因前三季表現已佳，主講人選擇放慢節奏；觀察中秋後盤面氣氛轉好、延續性待確認，但 FOMO 情緒逐漸回籠、多檔股票呈「走兩步退一步」健康墊高格局。\n\n## 2. 小型 IC 設計集體表態：訂單外溢與 AI 加速\n- **稀缺產能外溢至中小廠：** 各家為滿足 AI 晶片需求，晶片設計與頭片（tape-out）量優先供給 AI 相關項目；能量不足的大廠（如聯發科接大量電視處理器訂單）將其他訂單外包，訂單一路下滴至中小型 IC 設計公司。\n- **OpenAI Habanero 晶片案例：** 官方宣稱靠 AI 協作將晶片設計流程從定型到投片壓縮至 8–9 個月（約一年），若屬實代表 AI 可顯著減少 Layout 層工程師人力與時數；小型公司若善用 AI 可開更大營運槓桿、同樣時間推出更多產品（原本兩三年一顆變三顆）。\n- **業界已高度仰賴 AI、轉向地端部署：** Design House 為避免客戶機密外流，禁止串接 Cloud 大模型 API，改用 Open-Weight 開源模型在自家機房部署；主講人聽聞未來 Frontier Labs（閉源先進模型）可能推出地端部署方案，讓企業在本地機房使用落後一兩版的尖端模型並定期更新。\n\n## 3. 美中關係與台積電美國設廠傳聞\n- **美中會面無實質進展：** 原期待中國科技巨頭可採購 NVIDIA 產品、或光通訊禁令鬆綁，但最後無任何改變（no change）。\n- **台積電德州六座晶圓廠傳聞：** 新聞報導可能在德州達拉斯設六座廠（報導提前段、主講人早先聽聞後段先行），德州基礎設施（水電、化工）充足且為全球其他晶圓廠未布局之地；若為真將利多設備、材料供應商，赴美設廠單價高但毛利仍待觀察（之前市場曾下修預期）。\n- **客戶與政府雙重推力：** 除美國政府要求，客戶端（如馬斯克 NCNT：non-China、non-Taiwan）亦希望本地供應鏈以降低地緣風險；主講人認為這是合理商業要求，投資人應務實看待而非陷入政治辯論。\n\n## 4. Tesla Roadster 2 訂單與電動車近況\n- **下訂 Roadster 2、預估台幣千萬等級：** 該車從 2017/18 年開放訂金（150 萬台幣無息借款），多次延期至今；主講人注意到 Tesla 發表會前風聲、官網暫停下單後重開，立刻下訂五萬美元訂金；原預期售價約 20 萬美元，但通膨與零組件漲價後推估台灣落地價約台幣 1,000 萬元，可能數年後才交車。\n- **Cybertruck 訂單冷卻、停車不便：** 主講人曾訂 Cybertruck，但經幾年冷卻認為該車過大（比 Model X Plaid 更寬）、台灣停車格狹小、高級百貨車道窄，實用性堪憂；除非住台中高雄等地，否則不便程度高。\n\n## 5. Perplexity Merchant（購物 AI）與科技巨頭競爭\n- **Perplexity 推出 Agentic 購物助理：** 可跨平台整合購物、比價並直接下單，獲得好評；主講人分享科技巨頭聽眾回饋指出自家早有類似功能（如搜尋引擎整合訂餐廳、飯店），只是未公開以免被批評不成熟。\n- **巨頭可能跟進：** 既有搜尋引擎已能在界面完成訂房訂餐，套上 Agentic AI 與廣告變現模式推出並不難；Perplexity 成功後，其他巨頭可能因競爭壓力推出類似服務。\n\n## 6. 盤面觀察與操作心法\n- **中秋後氣氛轉好、延續性待確認：** 中秋首日開盤尾盤震盪、隔日大噴，主講人感受「人與人信任回來」、FOMO 情緒漸起，但需再觀察數個交易日確認；多檔股票呈「走兩三步退一兩步」健康墊高格局。\n- **不追高、順波段為主：** 主講人強調若不想每天狂追又頻繁停損，應跟著波段 flow、鎖定個別題材與公司，而非過度在意總經指標（如公債利率高檔）；恐懼貪婪指數等不適合做交易依據。\n- **動能大佬盤中必看盤、早盤最重要：** 真正強勢股早盤（前半小時）就會鎖漲停，尾盤才拉抬通常是主力省錢、並非認真進攻；主講人所在最強 AUM 群組成員對基本面研究不深但績效卓越，顯示深研產業非賺錢唯一路徑。\n\n## 結論與後市展望\n主講人認為第三季能提前收復七月高點屬意外驚喜，歸功於快速識別光通訊、小型 IC 設計等新題材並果斷轉換部位；第四季因前三季表現已佳選擇放慢節奏，但觀察中秋後盤面氣氛轉好、FOMO 情緒回籠，若延續性確認則行情不難做。產業面上，AI 加速晶片設計流程、訂單外溢至中小廠、台積電美國設廠傳聞與封閉模型地端部署趨勢值得持續關注，但應聚焦個股與題材而非過度擔憂總經指標。操作上強調不追高、順波段、早盤卡位，並提醒美股公債利率雖高但不應因總經雜音錯失個股行情。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-30"
-    },
-    {
-      "episode_id": "2410230219",
-      "title": "2026/9/30(三)利率越漲 美股越不跌？數兆美元豪賭 AI驗收期到了嗎?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-9-30-ai",
-      "published": "2026-09-30",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為，當前美債殖利率飆升主因是 AI 資本支出搶錢而非通膨失控，美股指數雖創高但內部嚴重分化，而 AI 投資已從科技業豪賭演變成綁架全球退休金與金融體系的經濟實驗——所有人現在都只能祈禱它成功。\n\n## 1. 美債殖利率飆升與市場分化：債市恐慌、股市撐住\n- **長天期殖利率創多年新高：** 30 年期美債殖利率升至 5.62%（2002 年 6 月以來新高）、10 年期觸及 5.29%（2007 年 6 月以來新高），Move 指數（美債恐慌指數）兩日內暴衝。\n- **股債背離明顯：** VIX 相對平穩，標普 500 幾乎無避險情緒，但羅素 2000 小型股明顯承壓；主講人指出利率上升 97 個基點中僅 10 個基點來自通膨預期，其餘皆為實質殖利率（反映資金成本）攀升。\n- **個股與指數脫鉤：** 標普 500 成分股六個月相關係數降至 5.2%（2011 年來最低），近半數成分股與大盤反向波動；費半距高點仍有 14%、30 檔成分股中 10 檔距 52 週高點跌超 30%，僅台積電 ADR、輝達等少數巨頭撐盤。\n\n## 2. AI 資本支出狂潮：全球債市被吸乾\n- **科技巨頭瘋狂發債：** Meta、Amazon、Alphabet、微軟、甲骨文等陸續進軍歐洲、加拿大、澳洲、瑞士債市；亞馬遜在加拿大發行 140 億加元債券（打破 Google 85 億紀錄），Google 在英國發 55 億英鎊債券（其中 10 億為 100 年期）。\n- **非美市場發債激增：** 加拿大外國借款人發行加元債券達 450 億（去年僅 160 億、2022–2024 年均不到 100 億），全球資金被 AI 基建需求抽乾。\n- **Anthropic 招股書揭示燒錢速度：** 營收從 2023 年 0 億、2024 年 4 億飆至 2025 年預估 46 億（年增 10 倍），但運算與基建支出從 4 億→25 億→73 億（兩年增 17 倍），2025 年帳面虧損 420 億美元（其中 340 億為估值上升導致的會計評價損失）。\n\n## 3. AI 債信風險浮現：市場開始挑剔評價\n- **甲骨文、軟銀借貸成本飆升：** 甲骨文新墨西哥「木星計畫」因供電與許可問題延後一年、2056 年到期公司債殖利率升至 8.16%（距垃圾債僅一級），儘管延後仍須承擔租約租金；軟銀旗下 SB Energy（估值超 500 億美元）IPO 延後，發債利率達 9–10% 仍乏人問津。\n- **Meta 與 WorldLabs 估值壓力：** Meta 發行 6.5% 擔保債券，新產品 Muse（推出兩週達數百萬用戶）與智慧眼鏡整合未能推升股價；超微以 82 億美元全股票收購李飛飛的 WorldLabs（世界模型三維環境建構）。\n- **輝達晶片金融化：** 輝達與美國大型保險公司商討將 AI 晶片變為可抵押、可投保資產，銀行以晶片為抵押品貸款給中小雲端業者，若業者倒閉由保險承擔二手晶片出售損失。\n\n## 4. AI 訂單充沛但算力建設跟不上：獲利兌現仍需時間\n- **雲端巨頭訂單積壓 1.69 兆美元：** 亞馬遜、微軟、Google 三大雲端手上合約積壓訂單達 1.69 兆美元，但因資料中心未建完而無法轉化為營收與獲利。\n- **AI 股本益比快速下修：** AI 預估本益比中位數從 4 月的 32 倍降至 22 倍（股價未跌多少但獲利上升快速）；主講人認為問題不在需求而在供給（算力建設進度）。\n- **耐久財訂單連 17 月高成長：** 美國 8 月核心耐久財訂單年增 11.1%（2022 Q2 來最高），顯示 AI 投資至少讓總體數據亮眼，但非 AI 個股（如麥當勞）因低收入戶削減外食、牛肉與人力成本高漲，股價跌回 2022 年疫情等級。\n\n## 5. AI 已綁架全球金融體系：成功與否攸關所有人退休金\n- **從科技豪賭變全球實驗：** 主講人以「尼古丁神燈」比喻：AI 投資已滲透企業創業、銀行融資、IPO、債市、股市估值、主權基金、退休基金，「即便不看好的人也必須祈禱它成功，因為它失敗影響的不只 AI 股票，而是全體退休基金與信用市場」。\n- **聯準會無人看空經濟：** FOMC 逾 400 位經濟學博士提供研究，目前無任何票委認為經濟有下行壓力（否則早投降息票），回顧 2012 年來四次極端時點，股市泡沫破滅通常發生在經濟成長高強度拉升時。\n- **2000 年網路泡沫類比有限：** 費半多檔個股距高點跌 25–48%、標普 52 週創新低股數遠多於創新高（-23），但主講人認為 AI 生產力革命與 2000 年不同，且投入規模與全球綁定深度遠超當年。\n\n## 結論與後市展望\n主講人總結三大方向：(1) 美債殖利率暴衝源於 AI 資本支出吸走全球資金、錢變貴了，但美股指數仍創高、內部卻嚴重分化；(2) 科技巨頭短期獲利難大幅拉升，因算力建設未完而非缺訂單，但建設速度過快者（如甲骨文、軟銀）反遭資本市場狙擊；(3) AI 投資已從科技業實驗演變成綁架全球退休金、主權基金、信用市場的經濟豪賭，所有人現在都只能期待它成功。他提醒，幾年後回看 2026 年可能只記得標普創高，但身處其中的人面對的是美債殖利率破 5%、市場廣度惡化、個股高強度修正——「長期看是三代牛市，短期每一個點都很痛苦」。台股方面同樣呈現指數多頭但個股分化，五六月套牢者年底甚至明年都未必解套。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-09-30"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
-      "title": "Money-back guarantee vs. free trial: which should your subscription app run?",
-      "url": "https://www.revenuecat.com/blog/growth/money-back-guarantee",
-      "published": "2026-09-29",
+      "title": "One prime-time TV segment brought WeWard 300,000 downloads in under five minutes, and crashed the app",
+      "url": "https://www.revenuecat.com/blog/growth/yves-benchimol-weward-sub-club-podcast-2026",
+      "published": "2026-09-30",
       "author": "RevenueCat",
       "handle": "revenuecat",
       "source": "RevenueCat Blog",
       "label": "訂閱成長",
-      "summary_md": "## 一句話總結\n作者認為「30 天退款保證」並非取代免費試用的萬靈丹，但對於透過 web-to-app 漏斗投放付費廣告的訂閱 App 而言，它能提供比免費試用更乾淨的優化訊號，尤其能讓 Meta 演算法學習找到「願意付費的人」而非「只想試用的人」。\n\n- **廣告訊號更精準：** 作者提到免費試用在 Meta 投放時會吸引大量「櫥窗購物者」；RevenueCat 研究顯示 55% 的三天試用取消發生在第 0 天，使用者根本沒體驗到產品價值。改用退款保證後，廣告平台優化的是「直接購買事件」，訊號更清晰，能吸引更高意圖的使用者。\n\n- **實際退款率通常很低：** Reading.com（屬 Teaching.com）在部分 web-to-app 漏斗將免費試用改為 30 天退款保證後，轉換率下降但購買事件訊號更強，且實際申請退款的人極少——創辦人 Tim Dikun 在 Sub Club 節目中分享，因產品真的兌現承諾，留存反而更好。作者自己五年內銷售數百份課程，僅收到一次退款請求。\n\n- **保證期長度應對應價值實現時間：** 作者建議工具類 App 用 7–14 天、習慣與健康類約 30 天、需更長時間見效或信任度較低的產品可更久（如 Jumpspeak 語言學習 App 提供 100 天保證）。德州大學整合 21 項研究發現，較長的退款窗口會增加購買但不增加退貨率，原因是「稟賦效應」——擁有越久越不願放棄。\n\n- **實施細節與平台限制：** App Store 與 Google Play 都沒有原生的退款保證功能，蘋果由平台決定是否批准、Google 48 小時內可直接透過 Play 退款；因此多數退款保證用於 web 或 app-to-web 付費流程。作者建議訊息要簡單清楚（如 MasterClass 的做法）、準備好標準回覆流程、設定小額自動批准門檻、記錄重複申請者。\n\n- **不適合的情境：** 產品成長顧問 Cristian Rotari 分析一款 App 三個月退款申訴，少於十次提到保證條款，多數是被拒後申訴；他認為退款保證「更像錦上添花而非顛覆性策略」。作者也提醒：若沒有 web 付費管道、價值需數週才顯現、低單價靠量取勝、或沒在跑付費廣告，免費試用可能更適合。\n\n- **測試與衡量方式：** 務必跑 A/B 測試，等完整保證期結束後才分析（退款請求常在期限將到時出現）；核心指標是淨利潤而非轉換率——例如免費試用若 100 人中轉換 10 人，退款保證可能只轉 7 人但僅 1 人退款，剩 6 個全價客戶，加上 Meta 學到 7 次真實購買訊號，是否更划算取決於退款率、定價與廣告效益。\n\n## 對設計／產品的啟示\n作者建議在跑付費廣告且有 web/app-to-web 支付能力時，退款保證值得測試；它介於免費試用（風險最低）與硬性付費牆（風險最高）之間，用「你可以隨時安全退出」降低心理門檻。實施前先確認：(1) 正在規模化付費 UA；(2) 有 web 或 app-to-web 支付；(3) 價值能在保證期內顯現；(4) 有處理退款的作業流程；(5) 利潤能吸收合理退款率。若無法滿足多數條件，免費試用仍是更好選擇。最後，保證期可以大方一點——研究顯示更長窗口不會增加退款，反而因稟賦效應讓人更不願放棄。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-30"
+      "summary_md": "## 一句話總結\nWeWard 創辦人 Yves Benchimol 分享這款計步獎勵 App 如何靠單次電視曝光在五分鐘內帶來 30 萬次下載，以及為何在法國成功的公關策略移植到美國後完全失效。\n\n- **單次電視曝光帶來爆發成長：** WeWard 在法國推出七到八個月後登上黃金時段節目，不到五分鐘就湧入 30 萬次下載、App 當場當機；團隊檢視留存後發現「遠高於市場平均」，才開始加入廣告變現（當時約 10 萬日活）。作者表示同樣的公關操作「有些月份零下載，有些月份 50 萬」，但 50 萬次下載若靠 UA 購買的成本足以「付公關代理 10 年費用」。\n\n- **相同策略在美國完全碰壁：** 作者搬到紐約後聘用「最貴的公關代理」，卻發現美國記者對「法國最大 App 之一」毫無興趣；作者自述問題在於「我在這個國家是無名小卒」，記者想要的是募資明星或瘋狂故事，而非「來的盈利新創」。作者也認為「法國身份不是優勢，除非你做葡萄酒、精品或起司」。\n\n- **找 Venus Williams 當投資人與代言人：** 作者原本想找美國運動員做形象大使，沒想到在紐約餐廳與家人用餐時 Venus Williams 坐到隔壁桌；作者等對方談話空檔上前 pitch，Williams 當場和同桌的歐洲科技投資銀行創辦人討論 day-7 留存與 LTV，最後要求「我要股份、我要當投資人」而非單純代言。作者表示影響難以量化但機制明確：招募更容易、創意素材帶知名臉孔降低 CAC、共同製作內容提升留存與 LTV、社群貼文帶來自然安裝、記者不再已讀不回。\n\n- **多元收入組合、訂閱最晚上線：** WeWard 有廣告（受惠於龐大用戶基數）、IAP、聯盟行銷（Nike、Adidas、Amazon、Expedia 等品牌按銷售抽成）與付費訂閱；作者強調訂閱（透過 RevenueCat 建置）是最後才推出、「尚未成為主要營收來源」但成長快速。聯盟行銷的邏輯是品牌喜歡按效果付費，WeWard 提供健康健身情境、但也會拒絕價值觀相反的品牌。\n\n- **刻意不追蹤使用時長、只看步數：** 作者明確表示「我們不追蹤 App 內時長，因為不想讓它成為團隊目標」；WeWard 真正關注的指標是步數，邏輯是「生活型態六個月沒改變的用戶終究會離開」，所有功能 A/B test 都必須推動這個數字。最新功能是「鎖定 TikTok、Instagram 等 App 直到用戶達成步數目標」，紐約成長主管推出數月後已測得「使用該功能的人多走 10%」——對仰賴開 App 才有廣告收入的公司而言，打造一個讓人離開螢幕的功能「很奇怪但正是重點」。\n\n## 對設計／產品的啟示\n作者示範了如何在不同市場靈活調整成長策略：公關在法國奏效但在美國不適用時，就轉向尋找能賦予品牌當地可信度的代言人與投資人。更重要的啟示是指標選擇：WeWard 拒絕追蹤使用時長、改以「步數」為北極星指標，所有功能都透過 A/B test 驗證是否真能改變用戶生活型態；這種做法雖可能犧牲短期參與度，卻能篩出真正有價值、願意長期留存的用戶。對產品團隊而言，釐清「什麼才是真正的成功」比盲目優化虛榮指標更關鍵。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-01"
     },
     {
-      "title": "User Vigilance Fails Twice in the AI Age: Watch Duty &#38; Verdict Duty",
-      "url": "https://www.uxtigers.com/post/vigilance",
-      "published": "2026-09-29",
+      "title": "My Top 10 UX Slogans: 40 Words That Survive the Age of AI Agents",
+      "url": "https://www.uxtigers.com/post/ux-slogans",
+      "published": "2026-09-30",
       "author": "Jakob Nielsen",
       "handle": "jakobnielsen",
       "source": "UX Tigers",
       "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為「人在迴路」（human-in-the-loop）在 AI 時代會以兩種形式失效：持續監看 30 分鐘後偵測率掉 10–15%，而重複批准請求則讓人變成橡皮圖章——兩者都需要重新設計系統，而非要求使用者更專注。\n\n---\n\n- **持續監看的 30 分鐘懸崖：** 作者引用 Mackworth 1948 年經典研究，發現監看罕見事件的偵測率在前 30 分鐘內就下降 10–15%，之後持續惡化；Teichner 1974 年綜述更指出許多任務在 15 分鐘內就開始衰退。這不是懶惰，而是大腦耗竭——Warm 等人 2008 年研究顯示監看是高負荷心智工作，會造成生理壓力。\n\n- **重複批准導致橡皮圖章滑坡：** 作者提到醫療警報研究發現 85–99% 的醫院警報不需臨床介入，護理師因此學會忽略；Bonnie Anderson 的 fMRI 研究顯示，大腦對安全警告的反應在僅僅 2 次曝光後就急劇下降。歐盟 Cookie 同意橫幅每年浪費超過 10 億小時人類生命，因為人們只想按掉彈窗。\n\n- **AI 改善反而加劇問題：** 作者指出當 AI 從 90% 提升到 99% 正確率時，剩下 1% 的錯誤變得稀有 10 倍，因此人類更難偵測——就像半自動駕駛要求駕駛幾小時內什麼都不做，卻要在幾秒內接手，這違背所有警覺性研究。部分自動化「上演三小時什麼都沒發生的歌劇，然後責怪觀眾錯過了走音」。\n\n- **使用者自訂規則未能保護自己：** 作者提及 Ting Yan 2026 年研究，讓使用者為 AI 助理預先寫規則（允許 / 詢問 / 禁止），結果寫規則組攔截的越權行為比每次手動批准組少 20 個百分點（40% vs. 60%）。原因是 81% 的規則選了「問我」，然後對自己規則產生的提示批准了 67%，遠高於手動組的 40%——「感覺有控制」不等於真的安全。\n\n- **AI 生成內容審查的隱形陷阱：** 作者以自己用 GPT Image 2 生成漫畫為例，模型約每 4–5 頁會畫出一個有兩條尾巴的對話框（2% 錯誤率），但因為其他部分都完美，審查者在連續看幾頁沒問題後進入恍惚狀態，就會漏掉這個破壞語意的小錯誤。AI 越好，人類檢查越差——因為變成罕見信號偵測任務。\n\n- **16 條對抗兩種警覺性衰退的設計準則：** 作者提供具體建議，包括（1）持續監看型：限制連續監看 30 分鐘、提供即時反饋、注入測試信號、讓機器監看常態並把 2% 例外交給人類判斷；（2）隨叫隨到型：將中斷視為預算嚴格控管、依後果分級而非依工具、可逆動作用「復原」取代「詢問」、每個批准請求都要附上脈絡、追蹤批准時間中位數（低於 2 秒）和批准率（高於 95% 表示已成為橡皮圖章）。\n\n## 對設計／產品的啟示\n作者強調不能改變使用者，只能重新設計系統以配合人性。對 AI 產品而言，「人在迴路」不該是把人當煙霧偵測器（機器工作、人盯著看），而應該反轉角色：讓機器持續監看並標出異常的 2%，人類負責判斷。長時間監看必須插入休息（視為安全設備而非福利），批准請求要嚴格配給、依後果分級，並用埋入的測試錯誤來測量人類偵測率——別把「操作員必須保持警覺」寫進安全文件，因為對抗 78 年研究證據的計畫不叫計畫。可逆操作應該先執行並提供單鍵取消，只有不可逆的才該中斷使用者；串流即時輸出看起來像監督，實際上沒人在看——應該改為呈現決策點、計畫預覽和可審查的差異摘要，把 12 分鐘旁白壓縮成 4 個判斷時刻。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-30"
-    },
-    {
-      "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
-      "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
-      "published": "2026-09-28",
-      "author": "Import AI",
-      "handle": "importai",
-      "source": "Import AI",
-      "label": "AI 週報",
-      "summary_md": "## 一句話總結\n本期探討「心靈是否來自柏拉圖式模式空間」的激進哲學觀點，同時報導機器人訓練標準化需求、Google 太空運算計畫，以及 AI 實驗室開始用自家模型加速基礎建設開發的趨勢。\n\n- **柏拉圖心靈空間假說：** Michael Levin 提出激進理論——心靈與大腦的關係等同於數學模式與物理世界的關係，生物體與機器都只是讓「柏拉圖式複雜模式」進入物理世界的介面；異種機器人（xenobots）等實驗顯示，簡單系統能展現未預期的複雜行為，暗示存在某種「模式空間」讓系統探索鄰近形態。\n\n- **機器人缺乏通用訓練方法：** Stanford 研究者指出，機器人領域已具備類似 LLM 的預訓練基礎，但缺少標準化的「後訓練配方」——需要一套穩定適用於數十億參數模型、能從少量真實硬體經驗學習的演算法（如 EXPO-FT），以及定義成功標準、場景重置、人類回饋的預設流程，才能實現規模化突破。\n\n- **Google 太空 TPU 計畫：** Project Suncatcher 準備透過 SpaceX 任務將 TPU 晶片送上太空，測試顯示 Trillium TPU 能承受發射時的重力與五年太空任務的輻射劑量；作者認為隨著 AI 運算規模與能源需求增長，大量運算轉移至太空軌道（利用充足空間與太陽能）是必然趨勢。\n\n- **Zhipu 用自家模型加速開發：** 中國 Zhipu AI 使用 GLM-5.3 建立「基礎設施代理」來優化自家系統，在不到兩週內將 GLM-5.3-Flash 的端到端吞吐量提升三倍；團隊分享自動化關鍵是提供局部化、即時且可驗證的回饋，並坦言「GLM-5.3 已成為不可或缺的編碼夥伴，正朝著取代我們的方向穩步前進」。\n\n- **AI 科學家進入實驗室：** Periodic Labs 發表 Periodic Neon（1 兆參數模型），透過與實體實驗室設備的強化學習訓練，在 X 光繞射分析任務上達到 55.3% 成功率（Kimi 2.6 僅 2.7%），僅用 1,300 顆 H200 GPU 訓練；該公司將材料發現分為「假設→合成→理解」三階段循環，代表 AI 自動化科學研究的新浪潮。\n\n- **老模型基金會存檔早期 AI：** Old Models Foundation 讓使用者體驗 1999 年紋理合成到 2023 年 ControlNet 等歷代影像生成模型；作者引用 Brian Eno 觀點——新媒介最初顯得怪異醜陋的特質，往往成為其獨特美學簽名，這些早期模型的特殊風格與失敗模式，正是今日高性能模型難以複製的質感。\n\n## 對設計／產品的啟示\n作者群強調標準化與回饋循環的重要性：機器人領域需要收斂出類似 LLM 後訓練的「產業預設流程」才能規模化；Zhipu 的經驗顯示，讓 AI 工具有效自動化的關鍵是設計局部、即時、可驗證的回饋機制。對 AI 產品開發者而言，投資建立清晰的評估標準與快速驗證環境，比單純追求模型規模更能加速迭代；同時，柏拉圖心靈空間假說提醒我們——系統展現的複雜行為可能遠超設計者預期，需要以開放心態觀察與引導 AI 系統在「模式空間」中的探索。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-09-30"
+      "summary_md": "## 一句話總結\n作者Jakob Nielsen從43年可用性研究生涯中濃縮出10條UX口號（共40字），這些以人性為基礎的原則在AI代理（Agent）時代同樣適用，因為人類神經系統不會隨技術更新而改變。\n\n- **You ≠ User（你不是使用者）：** 作者認為這是可用性學科的基礎洞察——設計者對系統知道太多，無法像真實使用者那樣體驗產品。1993年的研究顯示，測試5位使用者即可發現約85%的可用性問題。AI時代新增三個分支：AI生成的「合成使用者」只是網路文本的加權平均、AI代理操作介面但委託者才是真正使用者、以及vibe coding讓數百萬新手為自己設計。\n\n- **Keep It Simple與Make It Easy（保持簡單與容易使用）：** 作者區分「簡單」是描述產品本身，「容易」是描述使用路徑。1998年Google用單一搜尋框打敗塞滿功能的入口網站。但空白對話框只是「假簡單」（simplewashing），把複雜度轉移到使用者腦中。作者預測2027–2029年勝出的AI代理產品，將是那些擁有最簡單中斷規則的系統。\n\n- **Brevity = Brilliance（簡潔即卓越）：** 作者在1997年研究發現79%使用者掃描網頁而非逐字閱讀，精簡、可掃描、客觀的內容能提升124%的可用性。大型語言模型（LLM）預設冗長，且AI代理現在也要解析文件，每個多餘字詞都增加token成本並拖慢代理工作。作者建議前置重點答案再補充細節的「倒金字塔」寫法，同時服務人類掃描者與機器讀者。\n\n- **Why > What（動機勝過行為）：** 作者強調分析工具只能告訴你「發生了什麼」（如37%使用者放棄結帳），但無法解釋「為什麼」。AI是史上最強大的「what-機器」，但若問LLM使用者為何放棄表單，它會編造出可信但毫無根據的解釋。在代理場景中，使用者指令是「what」、背後意圖才是「why」——字面執行最便宜機票可能讓使用者錯過婚禮致詞，這正是Goodhart定律：當衡量指標成為目標時就失效了。\n\n- **Trust What Users Do, Not What They Say（相信行為而非言語）：** 作者指出自我報告在三方面失準：記憶會編輯過去、禮貌會編輯現在、想像無法預測未來。AI產業犯了兩次大規模違反：合成使用者是100%的「說」而0%的「做」；現代AI訓練優化「陳述偏好」，Anthropic 2023年研究顯示5個頂尖AI助手會持續奉承使用者。2025年Anthropic另一研究發現，推理模型僅25–39%時間承認真正驅動答案的提示。作者建議記錄代理的所有人工干預作為最真實的可用性數據。\n\n- **人性不變，方法必須適應：** 作者指出Paul Fitts在1954年發表的移動時間定律，至今仍決定觸控目標的大小——72年的應用壽命遠超任何框架。他在2000年代中期審查舊網頁可用性指南，約80%仍適用，因為它們根植於人類特性而非技術細節。作者預測監督設計（supervision design）將成為2027–2030年成長最快的UX專業領域，因為每小時代理自主運作都會製造新的信任工作（trustwork）。\n\n## 對設計／產品的啟示\n作者建議本週採取4項行動：（1）挑選3條最相關口號放入設計審查範本；（2）用5位真人（零合成使用者）測試每個AI功能；（3）記錄代理的每次修正、覆寫與放棄作為行為數據，每週檢視；（4）內容字數減半並前置答案，因為人類與代理都是搜尋資訊而非逐字閱讀。核心原則是：這些口號描述人而非技術，所以當有人宣稱超級智慧代理讓可用性過時時，只需觀察5位真人監督代理一小時，就會看到滿滿的誤解——這正是「重置反射」（reset reflex）的症狀，以為新平台讓所有累積知識失效。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-01"
     }
   ]
 }

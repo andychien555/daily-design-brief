@@ -5061,5 +5061,34 @@
         "cost_usd": 0.099816
       }
     ]
+  },
+  "2026-10-01": {
+    "input_tokens": 10464,
+    "output_tokens": 3179,
+    "audio_seconds": 0.0,
+    "cost_usd": 0.079077,
+    "calls": [
+      {
+        "label": "producthunt",
+        "input_tokens": 384,
+        "output_tokens": 351,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.006417
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 8100,
+        "output_tokens": 1471,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.046365
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 1980,
+        "output_tokens": 1357,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.026295
+      }
+    ]
   }
 }
