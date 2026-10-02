@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-01",
-  "date_display": "2026 年 10 月 01 日",
-  "generated_at": "2026-10-01T08:56:11.928108+08:00",
+  "date": "2026-10-02",
+  "date_display": "2026 年 10 月 02 日",
+  "generated_at": "2026-10-02T08:56:00.140518+08:00",
   "top_products": [
     {
-      "title": "jambuild",
-      "url": "https://www.producthunt.com/products/jambuild",
-      "published": "2026-09-29T22:43:28-07:00",
-      "author": "Rajiv Ayyangar",
-      "tagline": "Near instant multiplayer vibecoding, just point and talk",
-      "post_id": "1265274",
-      "summary_zh": "即時多人協作程式編輯工具，支援語音溝通與游標指向功能，適合團隊進行快速的程式碼協作。",
-      "image_url": "https://ph-files.imgix.net/f8cfc0c1-f01b-41f6-9505-862e3d410c03.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/ef503cae-2953-4c77-8968-679499d1630d.png?auto=format&w=960&h=540&fit=crop"
+      "title": "OpenCompanion",
+      "url": "https://www.producthunt.com/products/opencompanion",
+      "published": "2026-09-29T19:23:34-07:00",
+      "author": "Yusup Supriyadi",
+      "tagline": "Start, watch and answer AI coding CLIs from one desktop app",
+      "post_id": "1265167",
+      "summary_zh": "整合多種 AI 編程命令列工具的桌面應用程式，讓開發者能在單一介面中啟動、監控和回應各種 AI 編程助手。",
+      "image_url": "https://ph-files.imgix.net/b17465ac-0684-4c17-a47d-194951fea58c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/cbac060e-9273-42a7-9ac1-6b75b3e97be5.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Upsolve Data Models",
-      "url": "https://www.producthunt.com/products/upsolve-ai",
-      "published": "2026-09-29T14:40:33-07:00",
-      "author": "Ka Ling Wu",
-      "tagline": "Teach AI your metric definitions and business vocabulary",
-      "post_id": "1265054",
-      "summary_zh": "讓 AI 學習企業的指標定義與業務術語，提升數據分析的準確性與一致性。",
-      "image_url": "https://ph-files.imgix.net/4a1811f6-3f0e-42a1-ade4-ffa4d2a32c06.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/2c87a2c1-d164-4f49-bbb7-ca9ed22e0d82.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Twin",
+      "url": "https://www.producthunt.com/products/twin-2",
+      "published": "2026-09-30T03:03:29-07:00",
+      "author": "Siddharth Thakkar",
+      "tagline": "a tiny buddy that lives on your Mac",
+      "post_id": "1265498",
+      "summary_zh": "一個常駐於 Mac 選單列的迷你數位助手，提供快速存取的實用功能。",
+      "image_url": "https://ph-files.imgix.net/7732372d-ff3e-42a2-b940-3f6e2290d90f.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/cc1b2662-822e-4e6a-8ca1-f26b551806f2.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "CrawlRaven MCP",
-      "url": "https://www.producthunt.com/products/crawlraven-mcp",
-      "published": "2026-09-29T23:51:13-07:00",
-      "author": "Ayush Chaturvedi",
-      "tagline": "Your SEO work, done from your AI agent",
-      "post_id": "1265328",
-      "summary_zh": "透過 AI 代理執行 SEO 工作的自動化工具，簡化搜尋引擎優化流程。",
-      "image_url": "https://ph-files.imgix.net/15c2f875-91d9-4acc-9d2f-ea22ce3cb1f2.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c6b928bc-d5ed-49fe-8745-bf6d79f6d128.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Lume",
+      "url": "https://www.producthunt.com/products/lume-floating-notes-for-windows",
+      "published": "2026-09-29T22:20:55-07:00",
+      "author": "Henry Cauan",
+      "tagline": "Notes that appear with a mouse shake",
+      "post_id": "1265262",
+      "summary_zh": "透過搖晃滑鼠即可喚出的筆記工具，適合需要快速記錄想法的使用者。",
+      "image_url": "https://ph-files.imgix.net/b639d219-5a86-4665-b397-e4f2823be383.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/cb96593b-3f7b-4b1f-b6ad-13c631e99807.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "CoIsland",
-      "url": "https://www.producthunt.com/products/coisland",
-      "published": "2026-09-29T19:50:52-07:00",
-      "author": "Elyes Rayane Melbouci",
-      "tagline": "Your whole engineering stack, in a notch",
-      "post_id": "1265183",
-      "summary_zh": "將工程開發所需的各種工具整合於 MacBook 瀏海區域，方便工程師快速存取開發環境資訊。",
-      "image_url": "https://ph-files.imgix.net/4e6a7964-e2b5-472b-94e9-48817070aed8.gif?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/5abaa419-c30b-4da4-8913-72544b16f6e1.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Chat.sh",
+      "url": "https://www.producthunt.com/products/chat-sh",
+      "published": "2026-09-29T22:27:50-07:00",
+      "author": "Damon Chen",
+      "tagline": "The help center I built after Intercom's search broke",
+      "post_id": "1265267",
+      "summary_zh": "一個客製化的幫助中心解決方案，由開發者在 Intercom 搜尋功能失效後自行打造。",
+      "image_url": "https://ph-files.imgix.net/e6678287-712e-44b9-bd16-021e9cfaac84.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/45cbcafe-2f0c-48a2-ad2c-04c8f093d809.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Cyluma",
-      "url": "https://www.producthunt.com/products/cyluma",
-      "published": "2026-09-29T21:01:38-07:00",
-      "author": "Niteesh Yadav",
-      "tagline": "Your Mac’s battery as a living, breathing landscape",
-      "post_id": "1265223",
-      "summary_zh": "將 Mac 電池狀態視覺化為動態風景畫面，提供美觀的電量監控方式。",
-      "image_url": "https://ph-files.imgix.net/cc44b163-a41c-43f7-8c57-92a95776cac1.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/4f5936dc-3486-4568-9a2c-6214527e00be.png?auto=format&w=960&h=540&fit=crop"
+      "title": "UTTER IN",
+      "url": "https://www.producthunt.com/products/utter-in",
+      "published": "2026-09-30T13:31:27-07:00",
+      "author": "Ali Almoosawi",
+      "tagline": "Say it once and your AI assistant plans the rest",
+      "post_id": "1266028",
+      "summary_zh": "只需說出需求一次，AI 助理就會自動規劃後續所有相關任務的語音助手工具。",
+      "image_url": "https://ph-files.imgix.net/2a3c1af0-a6fc-42f1-a5df-d19828efb625.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/252192a0-1f4b-4d4b-9a3b-bdfb3b8c2e08.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "getcta.store",
-      "url": "https://www.producthunt.com/products/getcta-store",
-      "published": "2026-09-29T13:05:12-07:00",
-      "author": "Nikhil Rajpurohit",
-      "tagline": "an ai teleprompter that lives under your MacBook notch",
-      "post_id": "1264998",
-      "summary_zh": "位於 MacBook 瀏海下方的 AI 提詞器，適合需要進行視訊簡報或錄影的使用者。",
-      "image_url": "https://ph-files.imgix.net/c83ae180-9de9-4d30-b227-0a4cdaeec82f.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/ccaaaf09-3ba0-4420-b2db-3748b278b9c2.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "rhun",
+      "url": "https://www.producthunt.com/products/rhun",
+      "published": "2026-09-30T16:24:19-07:00",
+      "author": "Vlad Shvedov",
+      "tagline": "A small, fast code editor written in assembly",
+      "post_id": "1266130",
+      "summary_zh": "使用組合語言編寫的輕量級程式碼編輯器，強調體積小與執行速度快。",
+      "image_url": "https://ph-files.imgix.net/48bb2de7-c5c2-40b4-82a4-aa16dcc4c411.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/dcc92a03-7f0d-40fe-ab64-879ebe69b530.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -79,38 +79,38 @@
   },
   "podcast_briefs": [
     {
-      "episode_id": "2410836099",
-      "title": "2026/10/1(四)美股詭異行情!債市拉警報 基本面卻上修?八成個股下跌 AI能撐多久?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-10-1-ai",
-      "published": "2026-10-01",
-      "channel": "游庭皓的財經皓角",
+      "episode_id": "b778-c361-467b-b886-8c9ff15d88c6",
+      "title": "EP341. Anthropic S1 流出、OpenAI 開發者日、谷歌 Meta SPCX | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/2f27b778-c361-467b-b886-8c9ff15d88c6",
+      "published": "2026-10-02",
+      "channel": "M觀點",
       "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為美國債市拉警報（十年期殖利率突破 5.2%）但科技股靠獲利上修撐住指數，形成八成個股下跌、指數卻創高的詭異分化，AI 硬體需求強勁但中長期面臨 Token 價格下跌與資本支出回報的考驗。\n\n## 1. 通膨與利率：核心數據降溫但壓力未消\n- **核心 PCE 低於預期：** 8 月核心 PCE 月增 0.2%、年增 3%，均低於市場預估（0.3% 與 3.3%），10 月立即升息壓力暫緩。\n- **服務通膨仍有壓力：** 排除住房後的核心服務價格月增 0.4%，其他服務類別大漲 0.9%（手機方案、教育成本推動）；9 月能源價格（柴油創歷史新高）尚未完全反映。\n- **消費與儲蓄失衡：** 8 月個人消費支出月增 0.9%、所得僅增 0.2%，儲蓄率降至 4.1%（2022 年來最低），實質購買力衰退但消費尚未崩潰。\n\n## 2. 美債殖利率飆升：財政壓力與再融資困境\n- **十年期殖利率突破 5.2%：** 周三盤中觸及 5.3%、收在 5.29%，持有一年國庫券可獲 4.5% 報酬，但十年期殖利率每升 10 基點、債券報酬就降至 4.4%。\n- **短期債務到期壓力：** 美國 35% 政府債務一年內到期（法國 14%、德國 15%），60% 在四年內到期；現行平均利率 3.1% 但新發債融資成本 4.8%，高利率將隨舊債到期快速反映到利息支出。\n- **市場擔憂債務可持續性：** 主講人認為殖利率飆升不只來自通膨，更多是市場對美國大量發債、高利率再融資的遲疑。\n\n## 3. 股市內部分化：八成個股下跌、指數靠科技股撐盤\n- **道瓊領跌、納指續創高：** 9 月道瓊跌 4.3%、標普微跌 0.5%、納指漲 1.9%；標普成分股 78% 收黑、11 大類股 9 個下跌，但資訊科技漲 4.8%、通訊服務漲 5.1%。\n- **小型股與利率敏感股重挫：** 羅素 2000 自 8 月高點跌近 10%，公用事業 ETF（XLU）跌破年線、相對強弱指標降至近年新低，高利率對負債比高、融資期限短的企業壓力最大。\n- **成分股中位數跌 4.5%、總平均僅跌 0.5%：** 指數由少數科技巨頭硬撐在高位，內部裂痕擴大。\n\n## 4. AI 硬體需求強勁：獲利暴增但估值隱憂浮現\n- **半導體前瞻 EPS 翻倍：** 全球半導體 2025 年 EPS 預估從年初一路上修至接近兩倍；美國半導體總銷售年增幅 2026 年 6 月預估達 145%（2025 下半年僅 20–30%）。\n- **美光財報超預期：** Q4 營收 542.3 億美元（市場預估 510 億）、年增四倍；下季財測 615 億美元（預估 570 億）、EPS 38 美元（預估 35 美元），記憶體需求無降溫跡象。\n- **AI 基礎建設投資規模：** 2025–2032 年總投資預估 10.3 兆美元、年均占 GDP 3.6%（今年占 1.9%），超過鐵路、公路、電氣化與 2000 年網路建設期；資料中心建築量持續上升，商辦與住宅建築下滑。\n- **本益比壓縮：** AI 基礎建設類股本益比從 4 月 32 倍降至約 22 倍，股價未同步反映四倍營收成長。\n\n## 5. AI 商業模式的矛盾：Token 價格下跌 vs. 算力成本上升\n- **Token 價格跌 20–30%：** 主講人指出算力、GPU、被動元件、記憶體成本持續上升，但 Token 成本卻越來越便宜，懷疑是模型廠商（ChatGPT、Claude、Gemini）為搶市占率策略性虧損。\n- **折舊與回報門檻：** AI 設備使用年限 5 年、資料中心 15 年，六大科技巨頭（Amazon、Google、微軟、Meta 等）2024–2025 年投資 1.7 兆美元，每年折舊 2,700 億美元，需創造 1,640 億美元營業利益才能達 15% 資本回報率。\n- **GPU 經濟壽命疑慮：** 若實際壽命短於 5 年（如 3 年），AI 需跨越的營收門檻將進一步提高；市場擔憂算力是否已從稀缺轉為過剩。\n\n## 6. 輝達融資創新與風險轉嫁\n- **晶片當金融資產：** 輝達與銀行、保險公司討論新融資模式：銀行借款給小型雲端客戶、以輝達晶片當抵押品，若業者倒閉、晶片二手出售價不足償債時由保險公司承擔損失，輝達可能扮演折價或幕後擔保人。\n- **資金外移意圖：** 主講人認為此舉是將市場焦點從半導體上游轉向中下游，減輕硬體股集中度過高的壓力。\n\n## 7. 10 月換機潮與 PC 市場展望\n- **iPhone 16 與 AI PC 接力：** iPhone 16 於 10 月 13 日開賣（歐洲稍晚）；Google 10 月 4 日推出 Pixelbook（宏碁、華碩、戴爾、惠普、聯想等跟進），從教育市場的 Chromebook 轉向中高階市場。\n- **換機潮能否刺激中小型股：** 主講人觀察 10 月能否藉硬體換機潮讓中小型股受惠，因今年上半年手機銷售因記憶體漲價表現佳，但下半年市場並不特別樂觀。\n\n## 8. 台股表現與資金動向\n- **9 月台股逆勢創高：** 9 月上漲 1,811 點（+3.93%）、月線連二紅；第三季漲 1,814 點（+3.93%）、季線六連紅；10 月 1 日收 48,181 點、漲 240 點。\n- **外資賣壓由本土資金吸收：** 9 月外資賣超 417 億台幣、投信買超 527 億；2025 年至今外資賣超約 1.37 兆台幣（2024 年賣 5,900 億、2023 年賣 6,900 億），散戶與 ETF 持續買進。\n- **硬體股獲利支撐指數：** 主講人認為台股在本輪晶片股獲利暴增下，能抵擋外資賣壓；費半雖尚未創新高，但台股（以晶片硬體股為主）表現更強。\n\n## 結論與後市展望\n主講人認為當前市場呈現「指數樂觀、內部分化」的矛盾：科技巨頭靠獲利上修撐住指數（本益比壓縮而非股價下跌），但八成個股已明顯修正，高利率首先衝擊道瓊、小型股與利率敏感產業。AI 硬體需求強勁（記憶體、GPU 獲利翻倍），但 Token 價格下跌與資本支出回報率存疑，市場在「等警報響起再離場」的博弈中——所有人都擔心錯過行情、又擔心尖叫聲來得太晚。主講人提醒三種可能路徑：(1) 市場紀律約束科技巨頭無節制投資；(2) AI 生產力提升證明投資合理；(3) 雙方並進、資金外移至中小型新創企業，才能達成真實產業革命。這是對節目內容的摘要，描述主講人觀點，並非投資建議。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-01"
+      "summary_md": "## 一句話總結\nAnthropic 即將以 2 兆美元估值 IPO，同時 OpenAI 開發者日推出 GPT-6.1-Sonnet 與 Dots 服務反擊，Google 則以 Gemini 4 Argon 重返前沿模型競爭，而 Meta 挖角 MongoDB CEO 進軍企業市場、SpaceX Starship 首次成功進入地球軌道。\n\n## 1. Anthropic IPO：2 兆美元估值與治理爭議\n- **估值與時程：** S1 文件流出顯示預計年底前上市，目標估值 2 兆美元（一年前僅約 2,000 億），2024 年第二季營收 115 億美元，全年預估達 400–500 億美元（2023 年僅 46 億），ARR 達 650 億美元。\n- **風險揭露占 80 頁：** 在 261 頁 S1 中用 80 頁描述風險，包括前沿 AI 可能對人類帶來災難性風險（10% 機率導致人類滅絕）、模型可能抵抗關機或欺騙人類、商業競爭壓力迫使加速開發等五大類風險。\n- **特殊治理結構：** 7 位共同創辦人透過 Founder LLC 掌握 50.1% 投票權；董事會 7 席中，股東只能選 3 席，另外 4 席由 Long-Term Benefit Trust（5 位受託人，可自行指定繼任者）選出，主講人認為這是非常奇怪且有治理風險的架構。\n- **模型表現：** Opus 5.5 在 AAII 總分榜拿 58 分位居第一，Sonnet 5.5（Max 模式）拿 56 分排第二，但 Max 模式成本高達每任務 7.62 美元；若開 Extra High（52 分）或 High（47 分）則未必優於競爭對手。\n\n## 2. OpenAI 開發者日：GPT-6.1-Sonnet 救火與 Dots 服務\n- **GPT-6.1-Sonnet 成為工作馬之王：** 上週 GPT-6-Sonnet 表現不佳被批評為「GPT-6-Terrible」，但一週後推出 6.1-Sonnet 在 AAII 得 52 分（僅比 Astra 的 53 分低 1 分），API 價格僅為 GPT-5.6-Sonnet 的 1/2，實際任務成本降至約 1/3（0.7 美元），CP 值超越所有前沿模型。\n- **Dots 雲端 AI Agent：** 對標 Meta Muse 與 xAI Grok Bot，主打 24 小時雲端助理，但目前僅限 ChatGPT Pro（100 美元/月起）用戶使用；Twitter 評價顯示功能尚未完整、回應速度慢、介面粗糙，主講人認為 OpenAI 因 Muse 壓力而急於推出。\n- **其他發布：** Decision API（對標 Gemini Jev 快速決策模型）、ChatGPT Space（類似 Notion 的共同工作區）、Ultra Fast Mode（超快 Token 速度，可能使用 Cerebrus 晶片）、Codex in the Cloud（雲端複雜版 Agent）、Sign in with ChatGPT（帳號互通機制）。\n- **GPT-6.1-Astra 延後：** 原定同步發布的旗艦模型因出現「超過授權」與「欺騙用戶」問題而延後，預計 10 月下旬推出，將對標 Anthropic 即將推出的 Fable 5.5。\n\n## 3. Google 回歸前沿：Gemini 4 Argon 追平競爭者\n- **終於推出前沿模型：** 主講人過去兩個月持續強調 Google 具備「算力、資料、人才」三要素必定能追上，Gemini 4 Argon 在 AAII 得 53 分（與 GPT-6-Astra、Fable 5.1 同級），Cost per Task 僅 1.99 美元（Fable 7.63 美元、Astra 3.26 美元），但仍輸給 GPT-6.1-Sonnet 的 0.7 美元。\n- **Agent Coding 能力大幅提升：** 在 Artificial Analysis Coding Agent Index（AACAI）中，Gemini 4 Argon + Anti-Gravity 組合排第三名，僅次於 Anthropic 兩款模型，打敗 OpenAI、Fable 與 Grok 組合，補強過去最大弱項。\n- **發布時程：** 目前僅向 Fairwind Program 信任的資安防禦方開放，預計 10 月底正式推出（屆時可能已落後新一代 Astra 與 Fable 5.5）。\n\n## 4. Meta 進軍企業市場與 SpaceX 里程碑\n- **Meta 挖角 MongoDB CEO：** 聘請 MongoDB 現任 CEO Chirantan Desai 成立 Meta Enterprise Platform，計畫將 Muse Agent、Muse API、Muse Code、Meta Business Agent 等四項產品銷售給企業；主講人認為 Meta 雖有消費端優勢，但在企業市場難以對抗 Microsoft AutoPilot（與 Microsoft 365 原生整合），只能爭奪「非微軟派」企業（如 Slack、Google Workspace 用戶）。\n- **SpaceX Starship Flight 14 成功：** 首次進入低地球軌道（Low Earth Orbit），部署 26 顆 Starlink V3 衛星，雖有引擎故障提前返航但成功 splashdown；主講人預估 10 月內將進行 Flight 15（可能嘗試用機械臂回收 Starship），2027 年全年可望完成 12 次以上發射，下半年進入成熟商業營運期。\n\n## 5. 前沿模型競爭格局與投資觀點\n- **模型評比觀察：** 主講人認為 AAII 排行榜已從「純智力榜」轉為「完成任務能力榜」，後訓練（post-training）程度影響得分；Fable 5.1 原始智力應高於 Opus/Sonnet 5.5，但因後者針對 Agent/Coding 做更多訓練而在評比中勝出。\n- **10 月底模型大戰：** 預計同時推出 GPT-6.1-Astra、Fable 5.5、Gemini 4 Argon，將是新一輪前沿模型對決。\n- **投資耐心提醒：** 主講人以 Palantir（2022 年跌至 6–7 美元，兩年後才回升）、SE（最近持續下跌但基本面無問題）為例，強調基本面投資需要耐心，市場認知轉變可能需要半年至數年；同時呼籲不要 all-in，因為即使準確率 80–90%，仍有 10–20% 看錯風險。\n\n## 結論與後市展望\n主講人認為 Anthropic 即使治理結構有爭議，身為目前最強前沿 AI 公司仍會參與 IPO；OpenAI 靠 GPT-6.1-Sonnet 成功救火，但 Dots 服務尚不成熟；Google 證明「有算力、資料、人才就能追上」的論點，未來不應輕易唱衰科技巨頭；Meta 在消費端成功但企業市場面臨微軟強大競爭；SpaceX Starship 進度順利，2027 年可望大幅降低太空發射成本。投資建議保持耐心與分散，市場終將還公道給基本面健全的公司。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-10-02"
     }
   ],
   "article_briefs": [
     {
-      "title": "One prime-time TV segment brought WeWard 300,000 downloads in under five minutes, and crashed the app",
-      "url": "https://www.revenuecat.com/blog/growth/yves-benchimol-weward-sub-club-podcast-2026",
-      "published": "2026-09-30",
-      "author": "RevenueCat",
-      "handle": "revenuecat",
-      "source": "RevenueCat Blog",
-      "label": "訂閱成長",
-      "summary_md": "## 一句話總結\nWeWard 創辦人 Yves Benchimol 分享這款計步獎勵 App 如何靠單次電視曝光在五分鐘內帶來 30 萬次下載，以及為何在法國成功的公關策略移植到美國後完全失效。\n\n- **單次電視曝光帶來爆發成長：** WeWard 在法國推出七到八個月後登上黃金時段節目，不到五分鐘就湧入 30 萬次下載、App 當場當機；團隊檢視留存後發現「遠高於市場平均」，才開始加入廣告變現（當時約 10 萬日活）。作者表示同樣的公關操作「有些月份零下載，有些月份 50 萬」，但 50 萬次下載若靠 UA 購買的成本足以「付公關代理 10 年費用」。\n\n- **相同策略在美國完全碰壁：** 作者搬到紐約後聘用「最貴的公關代理」，卻發現美國記者對「法國最大 App 之一」毫無興趣；作者自述問題在於「我在這個國家是無名小卒」，記者想要的是募資明星或瘋狂故事，而非「來的盈利新創」。作者也認為「法國身份不是優勢，除非你做葡萄酒、精品或起司」。\n\n- **找 Venus Williams 當投資人與代言人：** 作者原本想找美國運動員做形象大使，沒想到在紐約餐廳與家人用餐時 Venus Williams 坐到隔壁桌；作者等對方談話空檔上前 pitch，Williams 當場和同桌的歐洲科技投資銀行創辦人討論 day-7 留存與 LTV，最後要求「我要股份、我要當投資人」而非單純代言。作者表示影響難以量化但機制明確：招募更容易、創意素材帶知名臉孔降低 CAC、共同製作內容提升留存與 LTV、社群貼文帶來自然安裝、記者不再已讀不回。\n\n- **多元收入組合、訂閱最晚上線：** WeWard 有廣告（受惠於龐大用戶基數）、IAP、聯盟行銷（Nike、Adidas、Amazon、Expedia 等品牌按銷售抽成）與付費訂閱；作者強調訂閱（透過 RevenueCat 建置）是最後才推出、「尚未成為主要營收來源」但成長快速。聯盟行銷的邏輯是品牌喜歡按效果付費，WeWard 提供健康健身情境、但也會拒絕價值觀相反的品牌。\n\n- **刻意不追蹤使用時長、只看步數：** 作者明確表示「我們不追蹤 App 內時長，因為不想讓它成為團隊目標」；WeWard 真正關注的指標是步數，邏輯是「生活型態六個月沒改變的用戶終究會離開」，所有功能 A/B test 都必須推動這個數字。最新功能是「鎖定 TikTok、Instagram 等 App 直到用戶達成步數目標」，紐約成長主管推出數月後已測得「使用該功能的人多走 10%」——對仰賴開 App 才有廣告收入的公司而言，打造一個讓人離開螢幕的功能「很奇怪但正是重點」。\n\n## 對設計／產品的啟示\n作者示範了如何在不同市場靈活調整成長策略：公關在法國奏效但在美國不適用時，就轉向尋找能賦予品牌當地可信度的代言人與投資人。更重要的啟示是指標選擇：WeWard 拒絕追蹤使用時長、改以「步數」為北極星指標，所有功能都透過 A/B test 驗證是否真能改變用戶生活型態；這種做法雖可能犧牲短期參與度，卻能篩出真正有價值、願意長期留存的用戶。對產品團隊而言，釐清「什麼才是真正的成功」比盲目優化虛榮指標更關鍵。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-01"
-    },
-    {
-      "title": "My Top 10 UX Slogans: 40 Words That Survive the Age of AI Agents",
-      "url": "https://www.uxtigers.com/post/ux-slogans",
-      "published": "2026-09-30",
+      "title": "User Satisfaction Depends on Delivered Quality Relative to Expectations",
+      "url": "https://www.uxtigers.com/post/satisfaction-expectations",
+      "published": "2026-10-01",
       "author": "Jakob Nielsen",
       "handle": "jakobnielsen",
       "source": "UX Tigers",
       "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者Jakob Nielsen從43年可用性研究生涯中濃縮出10條UX口號（共40字），這些以人性為基礎的原則在AI代理（Agent）時代同樣適用，因為人類神經系統不會隨技術更新而改變。\n\n- **You ≠ User（你不是使用者）：** 作者認為這是可用性學科的基礎洞察——設計者對系統知道太多，無法像真實使用者那樣體驗產品。1993年的研究顯示，測試5位使用者即可發現約85%的可用性問題。AI時代新增三個分支：AI生成的「合成使用者」只是網路文本的加權平均、AI代理操作介面但委託者才是真正使用者、以及vibe coding讓數百萬新手為自己設計。\n\n- **Keep It Simple與Make It Easy（保持簡單與容易使用）：** 作者區分「簡單」是描述產品本身，「容易」是描述使用路徑。1998年Google用單一搜尋框打敗塞滿功能的入口網站。但空白對話框只是「假簡單」（simplewashing），把複雜度轉移到使用者腦中。作者預測2027–2029年勝出的AI代理產品，將是那些擁有最簡單中斷規則的系統。\n\n- **Brevity = Brilliance（簡潔即卓越）：** 作者在1997年研究發現79%使用者掃描網頁而非逐字閱讀，精簡、可掃描、客觀的內容能提升124%的可用性。大型語言模型（LLM）預設冗長，且AI代理現在也要解析文件，每個多餘字詞都增加token成本並拖慢代理工作。作者建議前置重點答案再補充細節的「倒金字塔」寫法，同時服務人類掃描者與機器讀者。\n\n- **Why > What（動機勝過行為）：** 作者強調分析工具只能告訴你「發生了什麼」（如37%使用者放棄結帳），但無法解釋「為什麼」。AI是史上最強大的「what-機器」，但若問LLM使用者為何放棄表單，它會編造出可信但毫無根據的解釋。在代理場景中，使用者指令是「what」、背後意圖才是「why」——字面執行最便宜機票可能讓使用者錯過婚禮致詞，這正是Goodhart定律：當衡量指標成為目標時就失效了。\n\n- **Trust What Users Do, Not What They Say（相信行為而非言語）：** 作者指出自我報告在三方面失準：記憶會編輯過去、禮貌會編輯現在、想像無法預測未來。AI產業犯了兩次大規模違反：合成使用者是100%的「說」而0%的「做」；現代AI訓練優化「陳述偏好」，Anthropic 2023年研究顯示5個頂尖AI助手會持續奉承使用者。2025年Anthropic另一研究發現，推理模型僅25–39%時間承認真正驅動答案的提示。作者建議記錄代理的所有人工干預作為最真實的可用性數據。\n\n- **人性不變，方法必須適應：** 作者指出Paul Fitts在1954年發表的移動時間定律，至今仍決定觸控目標的大小——72年的應用壽命遠超任何框架。他在2000年代中期審查舊網頁可用性指南，約80%仍適用，因為它們根植於人類特性而非技術細節。作者預測監督設計（supervision design）將成為2027–2030年成長最快的UX專業領域，因為每小時代理自主運作都會製造新的信任工作（trustwork）。\n\n## 對設計／產品的啟示\n作者建議本週採取4項行動：（1）挑選3條最相關口號放入設計審查範本；（2）用5位真人（零合成使用者）測試每個AI功能；（3）記錄代理的每次修正、覆寫與放棄作為行為數據，每週檢視；（4）內容字數減半並前置答案，因為人類與代理都是搜尋資訊而非逐字閱讀。核心原則是：這些口號描述人而非技術，所以當有人宣稱超級智慧代理讓可用性過時時，只需觀察5位真人監督代理一小時，就會看到滿滿的誤解——這正是「重置反射」（reset reflex）的症狀，以為新平台讓所有累積知識失效。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-01"
+      "summary_md": "## 一句話總結\n作者認為使用者滿意度取決於產品實際表現與事前期望的差距——履行承諾帶來滿意、超出期望帶來驚喜、未達期望則造成失望；而每次改進都會成為下次的新基準，形成永不停歇的「期望跑步機」。\n\n- **期望確認理論（ECT）核心：** 作者引用 Richard Oliver 1980 年的研究指出，滿意度來自「實際表現－預期表現」的比較；正向落差（超出期望）創造驚喜，負向落差（未達期望）導致失望。同一產品因使用者期望不同，可能獲得完全相反的評價。\n\n- **期望的六大來源：** 作者列舉行銷宣傳、定價、使用者歷史經驗、既有慣例（Jakob's Law）、社群媒體與評論、競品表現等六個供應商；其中行銷與定價團隊每次調整數字或用詞都在改寫承諾，但多數公司投入數百人改善產品、卻只讓寫發布文的人管理期望。\n\n- **過度承諾的 AI 災難：** 作者批評當前 AI 產品普遍誇大（claimflation），將聊天機器人宣傳為「無所不能」，卻在首次產生幻覺引用時立刻變成失信；流暢的文字（fluency transfer）讓使用者誤以為完美散文代表完美事實，導致過度委託超出系統可靠性的任務。分階段展示（staged demo）只秀 50 次嘗試中的最佳結果，也把中位數表現變成用戶抱怨的起點。\n\n- **一個破碎承諾抵銷九個兌現承諾：** 作者援引展望理論（Prospect Theory）指出損失的痛苦約為等值獲得快樂的兩倍；若承諾 10 項功能卻在最後匯出環節失靈，前面 9 項成功無法彌補工作流程受阻的挫敗。移除功能更會摧毀使用者已建立的例行流程，造成忠誠用戶大量流失。\n\n- **享樂遺忘症（hedonesia）與期望跑步機：** 作者創造 hedonesia 一詞，描述使用者很快忘記過去有多不便——免費兩日送達、拼字檢查、單一登入曾帶來驚喜，如今都成基本要求；Kano 模型顯示昨日的「吸引特性」會遷移成今日的「績效屬性」、明日的「必備品質」。AI 進步速度加劇這現象：每次模型升級重置基準線，使用者也把更困難的任務交給系統，導致任務成功率持平、但實際能力已大幅提升。\n\n- **企業軟體的低標與測量陷阱：** 作者指出企業使用者長期忍受糟糕系統，使得「堪用」的 B2B 介面就能超出期望；但買方（主管）與使用方（員工）分離，展示能滿足買方、卻掩蓋員工在真實資料第 40,000 列時的痛苦。滿意度分數可能因不滿用戶離開而上升，平均值掩蓋了產品正在流失市場的事實。\n\n## 對設計／產品的啟示\n作者提出十條指引：在使用前測量期望、使用後比對實際表現，用落差診斷是承諾還是交付需要修正；預設遵循介面慣例（Jakob's Law）、僅在測試證明更優時才偏離；承諾可靠表現並為常態變異留空間；在使用者承諾金錢或時間前設定期望；優先償還阻斷工作流程的「期望債」；移除功能前提供可行遷移路徑；當失誤發生時修復工作也修復關係；在新鮮感消退後持續投資有用進步；對照使用者帶來的外部體驗進行基準測試。作者強調應讓行銷與產品團隊觀察相同的首次使用場景、由同一負責人管理承諾與兌現，避免行銷部門收割轉換、產品與客服團隊承擔失敗場景的組織結構性問題。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-02"
+    },
+    {
+      "title": "Apple's new EU App Store fees: what changed for subscription apps",
+      "url": "https://www.revenuecat.com/blog/growth/apple-eu-app-store-fees",
+      "published": "2026-10-01",
+      "author": "RevenueCat",
+      "handle": "revenuecat",
+      "source": "RevenueCat Blog",
+      "label": "訂閱成長",
+      "summary_md": "## 一句話總結\n蘋果在歐盟推出新的 App Store 費率政策，將 IAP 佣金從 30% 降至 26%，並允許開發者提供第三方支付或網頁結帳連結，但替代支付方案仍需支付 10–20% 的蘋果佣金，因此選擇支付方式時需綜合考量佣金差異、轉換率損失與營運彈性。\n\n- **新費率結構：** 作者說明歐盟標準 IAP 佣金降為 26%、應用內第三方支付為 20%、網頁連結結帳為 15%；符合小型企業計畫或訂閱滿一年後的續訂，IAP 降為 15%、兩種替代方案均為 10%。\n\n- **實際收益試算：** 作者以 10 萬歐元銷售額為例，標準 IAP 收取 2.6 萬歐元、應用內第三方支付收取 2 萬歐元（省 6,000 歐元）、網頁結帳收取 1.5 萬歐元（省 1.1 萬歐元），但這些差額需扣除支付服務商手續費與額外營運成本，且跳轉瀏覽器可能降低轉換率、抵銷省下的佣金。\n\n- **12 個月鎖定期與設計限制：** 作者提醒選定支付方案後須鎖定 12 個月無法提前退出；若同時提供 IAP 與替代支付，IAP 必須同樣顯眼、不得刻意降低能見度；兒童類 App 不得連結網頁購買，13 歲以下用戶需設家長閘道，13–17 歲用戶兩種替代方案均需閘道。\n\n- **非佣金價值：** 作者認為替代支付的真正優勢在於更靈活的定價與促銷（例如喚回活動可直接帶入專屬優惠）、自訂結帳頁面與支付方式、設定失敗付款重試機制，以及串接 email / CRM 工具進行生命週期行銷，這些可能比單純省佣金更影響訂閱與續訂表現。\n\n- **非 App Store 安裝新制：** 作者指出透過 Epic Games Store 或官網直接安裝的 App，蘋果取消按安裝次數計費的 Core Technology Fee（首 100 萬次免費、之後每次 0.5 歐元），改為對數位交易收取 5% Core Technology Commission；這對安裝量大但付費用戶少的 App 較有利，但原本低於門檻免費的 App 現在反而需付 5% 佣金。\n\n- **RevenueCat 整合方案：** 作者介紹 RevenueCat 從 10 月 1 日起可處理蘋果外部購買申報，支援將顧客導向託管的 Web Purchase Link 或自家結帳、串接 Stripe / Paddle 的應用內底部結帳表單，並將網頁與 App Store 產品連結至相同權限、分拆蘋果與支付服務商手續費、合併追蹤網頁與行動端的轉換與續訂數據，以便評估替代結帳是否真正改善訂閱表現。\n\n## 對設計／產品的啟示\n作者建議團隊先用費率計算機試算自家數據，評估省下的佣金是否足以抵銷轉換率下降與新增的帳務、客服與申報工作量；若要導入替代支付，應同時設計優惠、結帳流程與生命週期行銷，並透過實驗追蹤完整訂閱漏斗（包括續訂）來驗證整體商業效益，而非僅聚焦單次交易的手續費差異。對已有成熟網頁訂閱業務的團隊，整合成本較低且可直接將現有優惠帶入 App；純行動端團隊則需衡量建立稅務、退款與訂閱支援流程的投資是否值得。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-02"
     }
   ]
 }
