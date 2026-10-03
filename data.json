@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-02",
-  "date_display": "2026 年 10 月 02 日",
-  "generated_at": "2026-10-02T08:56:00.140518+08:00",
+  "date": "2026-10-03",
+  "date_display": "2026 年 10 月 03 日",
+  "generated_at": "2026-10-03T08:56:05.996017+08:00",
   "top_products": [
     {
-      "title": "OpenCompanion",
-      "url": "https://www.producthunt.com/products/opencompanion",
-      "published": "2026-09-29T19:23:34-07:00",
-      "author": "Yusup Supriyadi",
-      "tagline": "Start, watch and answer AI coding CLIs from one desktop app",
-      "post_id": "1265167",
-      "summary_zh": "整合多種 AI 編程命令列工具的桌面應用程式，讓開發者能在單一介面中啟動、監控和回應各種 AI 編程助手。",
-      "image_url": "https://ph-files.imgix.net/b17465ac-0684-4c17-a47d-194951fea58c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/cbac060e-9273-42a7-9ac1-6b75b3e97be5.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Communicate",
+      "url": "https://www.producthunt.com/products/communicate",
+      "published": "2026-10-01T00:51:46-07:00",
+      "author": "Udit Goenka",
+      "tagline": "AI support agents grounded in your knowledge, with handoff",
+      "post_id": "1266380",
+      "summary_zh": "基於企業知識庫的 AI 客服代理工具,支援人工接手功能。適合需要自動化客戶支援並保留人工介入選項的團隊。",
+      "image_url": "https://ph-files.imgix.net/5c6fe3ac-a9f2-4825-937e-669b72dd30d7.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/6b26400b-1448-4125-98f7-627f381421b2.webp?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Twin",
-      "url": "https://www.producthunt.com/products/twin-2",
-      "published": "2026-09-30T03:03:29-07:00",
-      "author": "Siddharth Thakkar",
-      "tagline": "a tiny buddy that lives on your Mac",
-      "post_id": "1265498",
-      "summary_zh": "一個常駐於 Mac 選單列的迷你數位助手，提供快速存取的實用功能。",
-      "image_url": "https://ph-files.imgix.net/7732372d-ff3e-42a2-b940-3f6e2290d90f.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/cc1b2662-822e-4e6a-8ca1-f26b551806f2.png?auto=format&w=960&h=540&fit=crop"
+      "title": "GitSync",
+      "url": "https://www.producthunt.com/products/gitsync",
+      "published": "2026-10-01T14:29:07-07:00",
+      "author": "Parth Sanepara",
+      "tagline": "Sync branches between GitHub repos, right from Chrome",
+      "post_id": "1267063",
+      "summary_zh": "Chrome 瀏覽器擴充功能,讓開發者直接在瀏覽器中同步不同 GitHub 儲存庫之間的分支。",
+      "image_url": "https://ph-files.imgix.net/46132154-6dbd-4e2c-8e5d-2313d1c8af0a.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/21e8610d-10f6-47ac-ac54-0661b0f0565e.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Lume",
-      "url": "https://www.producthunt.com/products/lume-floating-notes-for-windows",
-      "published": "2026-09-29T22:20:55-07:00",
-      "author": "Henry Cauan",
-      "tagline": "Notes that appear with a mouse shake",
-      "post_id": "1265262",
-      "summary_zh": "透過搖晃滑鼠即可喚出的筆記工具，適合需要快速記錄想法的使用者。",
-      "image_url": "https://ph-files.imgix.net/b639d219-5a86-4665-b397-e4f2823be383.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/cb96593b-3f7b-4b1f-b6ad-13c631e99807.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Pastily",
+      "url": "https://www.producthunt.com/products/pastily",
+      "published": "2026-10-01T03:09:16-07:00",
+      "author": "Mohammad Ashfaque",
+      "tagline": "Your clipboard but better",
+      "post_id": "1266528",
+      "summary_zh": "增強型剪貼簿管理工具,提供比系統原生剪貼簿更豐富的功能。",
+      "image_url": "https://ph-files.imgix.net/55e5c911-245b-447a-bb6e-30412505d8e6.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/b0505922-4533-42c0-8934-98a28bc17154.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Chat.sh",
-      "url": "https://www.producthunt.com/products/chat-sh",
-      "published": "2026-09-29T22:27:50-07:00",
-      "author": "Damon Chen",
-      "tagline": "The help center I built after Intercom's search broke",
-      "post_id": "1265267",
-      "summary_zh": "一個客製化的幫助中心解決方案，由開發者在 Intercom 搜尋功能失效後自行打造。",
-      "image_url": "https://ph-files.imgix.net/e6678287-712e-44b9-bd16-021e9cfaac84.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/45cbcafe-2f0c-48a2-ad2c-04c8f093d809.png?auto=format&w=960&h=540&fit=crop"
+      "title": "ShipHQ",
+      "url": "https://www.producthunt.com/products/shiphq",
+      "published": "2026-10-01T09:57:17-07:00",
+      "author": "Rıdvan Uyan",
+      "tagline": "Build your own app studio, powered by your real apps",
+      "post_id": "1266859",
+      "summary_zh": "讓開發者基於現有應用程式建立自己的 app studio 平台,整合與管理多個應用。",
+      "image_url": "https://ph-files.imgix.net/b475da35-086e-4738-b000-65752f1ca40c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/13573d5b-1670-4a6c-99f2-4fc5de572658.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "UTTER IN",
-      "url": "https://www.producthunt.com/products/utter-in",
-      "published": "2026-09-30T13:31:27-07:00",
-      "author": "Ali Almoosawi",
-      "tagline": "Say it once and your AI assistant plans the rest",
-      "post_id": "1266028",
-      "summary_zh": "只需說出需求一次，AI 助理就會自動規劃後續所有相關任務的語音助手工具。",
-      "image_url": "https://ph-files.imgix.net/2a3c1af0-a6fc-42f1-a5df-d19828efb625.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/252192a0-1f4b-4d4b-9a3b-bdfb3b8c2e08.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Never Boring AI",
+      "url": "https://www.producthunt.com/products/never-boring-ai",
+      "published": "2026-10-01T03:21:53-07:00",
+      "author": "Maxence VROILANT",
+      "tagline": "The AI agent that writes your LinkedIn posts in your voice",
+      "post_id": "1266544",
+      "summary_zh": "AI 寫作工具,學習使用者的個人語調後自動生成 LinkedIn 貼文內容。",
+      "image_url": "https://ph-files.imgix.net/6b02a8f5-56d0-4284-986c-b6745801f68b.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/026a6ff7-fa1c-46e9-995f-ee411c1edaa5.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "rhun",
-      "url": "https://www.producthunt.com/products/rhun",
-      "published": "2026-09-30T16:24:19-07:00",
-      "author": "Vlad Shvedov",
-      "tagline": "A small, fast code editor written in assembly",
-      "post_id": "1266130",
-      "summary_zh": "使用組合語言編寫的輕量級程式碼編輯器，強調體積小與執行速度快。",
-      "image_url": "https://ph-files.imgix.net/48bb2de7-c5c2-40b4-82a4-aa16dcc4c411.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/dcc92a03-7f0d-40fe-ab64-879ebe69b530.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Earlyn",
+      "url": "https://www.producthunt.com/products/earlyn",
+      "published": "2026-10-01T19:00:35-07:00",
+      "author": "Earlyn",
+      "tagline": "Searchable memory of your screen and meetings, on your Mac",
+      "post_id": "1267170",
+      "summary_zh": "Mac 平台的螢幕與會議記錄工具,提供可搜尋的視覺記憶功能,幫助使用者回顧過往內容。",
+      "image_url": "https://ph-files.imgix.net/d3777e1b-3367-4e9a-9b0f-b957e4693497.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c8d5b7a3-8341-4e8e-83e8-9c0fac445ace.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,50 +77,40 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "2411629311",
-      "title": "2026/10/2(五)台股創新高 下一棒換誰?利空鈍化?大賣空喊AI 為了人類該跌!【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-10-2-ai",
-      "published": "2026-10-02",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為全球已進入「高利率常態化」時代，美國與台灣經濟數據雖強勁但民調與民眾感受脫節，關鍵在於AI紅利尚未平均分配到多數人手中。\n\n## 1. 美債市場：十大利空推升殖利率\n- **殖利率回落有限：** 美國2年期公債殖利率下滑10個基點至4.78%，10年期下降5個基點至5.24%；聯準會副主席傑伯生表示正評估是否進一步升息，緩解10月升息擔憂。\n- **全球債市壓力互相傳染：** 法國財政問題引發法債拋售，為美債提供短暫喘息空間，但全球10年期公債殖利率在第三季快速衝高。\n- **十大利空因素：** 主講人整理包括全球經濟過強、能源通膨（原油外溢至食品價格）、央行緊縮循環、AI軍備競賽導致投資等級債發行超過4000億美元、美國財政赤字超過40兆、全球軍費暴增、日本從資金提供者變賣家（升息後套利交易逆轉）、貿易戰推升結構性通膨、聯準會與外國央行不再大量買美債、全球儲蓄不再充沛（資金需求遠超供給）。\n\n## 2. 美國能源與通膨：戰略儲備拉警報\n- **庫存創歷史新低：** 商業原油庫存增加92.2萬桶，但汽油庫存減少168.4萬桶；中西部汽油庫存創有紀錄以來最低，SPR戰略原油儲備快速下滑。\n- **柴油價格飆漲：** 每加侖已超過6.5美元，白宮正討論暫停柴油出口以壓低國內價格，並要求歐洲在未來6個月釋放1.2億桶庫存。\n- **歐洲態度保留：** 歐洲帳面有1.95億桶柴油戰略庫存，但不願一次大量釋放；美國已盡力釋放SPR，現在要求歐洲表達態度。\n\n## 3. 美國經濟：AI投資撐住高利率衝擊\n- **經濟韌性超預期：** 高盛估算第三季年化成長率3.4%，第四季年成長2.2%；9月製造業PMI 54.5創2022年5月以來新高，初領失業救濟金僅19.7萬人。\n- **科技業獲利爆發：** 過去8季科技業獲利成長平均180%–280%，AI相關投資年化成長26%；AI投資足以抵銷高油價對消費力的侵蝕。\n- **政治代價顯現：** 高利率與高物價並未擊垮經濟，卻透過房貸、車貸、信用卡利率與生活成本壓力，讓川普淨支持度降至負22.7個百分點，創任期新低。\n\n## 4. 台灣景氣與財富：科學園區與金融資產雙創高\n- **台股與景氣強勁：** 10月首個交易日台股收盤創新高48,353點，成交8,374億；國發會景氣對策信號連續3個月維持41分（高度擴張），多項指標連續9個月紅燈。\n- **三大科學園區營收破紀錄：** 2026年上半年合計營收3.54兆元（歷史同期新高）；南科1兆7,739億（年增28%）、竹科1兆1,195億（年增36%）、中科6,436億（年增20.63%），就業人數合計34萬人。\n- **人均金融淨資產全球第五：** 安聯2026年報告顯示，台灣去年底人均金融資產16.4萬歐元（折合594萬台幣），僅次於美國、瑞士、丹麥、新加坡，遠超日本（8.9萬歐元）；家庭總金融資產4.5兆歐元，扣除負債後淨資產3.8兆歐元（年增9.1%）。\n\n## 5. 台灣薪資與財富分配：紅利未均分與銀行錢荒\n- **薪資結構改變：** 去年全體平均勞動報酬88.3萬元（年增3萬），但經常性薪資占比降至65%（比10年前少3個百分點），獎金加班費占比升至21%（比10年前增3個百分點）；企業更傾向發一次性奬金而非調高底薪。\n- **銀行流動性緊張：** 銀行流動覆蓋率從年初130%降至115%，甚至有銀行10月中旬一度跌破100%法定底線；主因是資金快速移轉至股市，以及企業赴美投資規模龐大（錢直接落地亞利桑那、熊本設廠）。\n- **普發現金政策：** 行政院規劃2027年每人普發1萬元（總額2,357億），國民黨團主張加碼至2萬元；主講人指出朝野都不考慮退稅，而是將超徵稅收用於財富重分配以緩解K型分化。\n\n## 6. 市場警示：大賣空看空AI與高估值風險\n- **Michael Burry警告：** 大賣空主角發文稱若OpenAI與Anthropic順利上市，將從資本市場吸收數兆美元資金，可能引發全人類金融崩盤；主講人認為Burry依循過去庫存循環、資本支出、估值標準判斷，但AI時代可能需要不同標準。\n- **時代認知差異：** 主講人以弗洛伊德晚年流亡、中國最後一個太監等故事類比，強調人們常用過去經驗預測未來，但環境改變速度遠超想像；過去20年習慣的低利率、全球化、廉價能源時代已翻頁，高利率社會正在成為新常態。\n\n## 結論與後市展望\n主講人認為高利率時代已到來，美國與台灣經濟在AI投資帶動下維持韌性，但財富效應與民眾感受存在巨大落差——美國川普民調創新低、台灣薪資增長遠不及資產增值速度。台股受惠於AI供應鏈紅利持續創高，但企業更傾向發獎金而非調高固定薪資，反映對AI繁榮持續性的不確定。全球債市壓力、能源通膨、財政赤字等十大利空短期難解，但真正挑戰在於如何讓多數人感受到經濟成長紅利。投資人需適應新的高利率環境，並留意財富分配政策對後市的影響。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-02"
-    },
-    {
-      "episode_id": "b778-c361-467b-b886-8c9ff15d88c6",
-      "title": "EP341. Anthropic S1 流出、OpenAI 開發者日、谷歌 Meta SPCX | M觀點",
-      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/2f27b778-c361-467b-b886-8c9ff15d88c6",
-      "published": "2026-10-02",
-      "channel": "M觀點",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\nAnthropic 即將以 2 兆美元估值 IPO，同時 OpenAI 開發者日推出 GPT-6.1-Sonnet 與 Dots 服務反擊，Google 則以 Gemini 4 Argon 重返前沿模型競爭，而 Meta 挖角 MongoDB CEO 進軍企業市場、SpaceX Starship 首次成功進入地球軌道。\n\n## 1. Anthropic IPO：2 兆美元估值與治理爭議\n- **估值與時程：** S1 文件流出顯示預計年底前上市，目標估值 2 兆美元（一年前僅約 2,000 億），2024 年第二季營收 115 億美元，全年預估達 400–500 億美元（2023 年僅 46 億），ARR 達 650 億美元。\n- **風險揭露占 80 頁：** 在 261 頁 S1 中用 80 頁描述風險，包括前沿 AI 可能對人類帶來災難性風險（10% 機率導致人類滅絕）、模型可能抵抗關機或欺騙人類、商業競爭壓力迫使加速開發等五大類風險。\n- **特殊治理結構：** 7 位共同創辦人透過 Founder LLC 掌握 50.1% 投票權；董事會 7 席中，股東只能選 3 席，另外 4 席由 Long-Term Benefit Trust（5 位受託人，可自行指定繼任者）選出，主講人認為這是非常奇怪且有治理風險的架構。\n- **模型表現：** Opus 5.5 在 AAII 總分榜拿 58 分位居第一，Sonnet 5.5（Max 模式）拿 56 分排第二，但 Max 模式成本高達每任務 7.62 美元；若開 Extra High（52 分）或 High（47 分）則未必優於競爭對手。\n\n## 2. OpenAI 開發者日：GPT-6.1-Sonnet 救火與 Dots 服務\n- **GPT-6.1-Sonnet 成為工作馬之王：** 上週 GPT-6-Sonnet 表現不佳被批評為「GPT-6-Terrible」，但一週後推出 6.1-Sonnet 在 AAII 得 52 分（僅比 Astra 的 53 分低 1 分），API 價格僅為 GPT-5.6-Sonnet 的 1/2，實際任務成本降至約 1/3（0.7 美元），CP 值超越所有前沿模型。\n- **Dots 雲端 AI Agent：** 對標 Meta Muse 與 xAI Grok Bot，主打 24 小時雲端助理，但目前僅限 ChatGPT Pro（100 美元/月起）用戶使用；Twitter 評價顯示功能尚未完整、回應速度慢、介面粗糙，主講人認為 OpenAI 因 Muse 壓力而急於推出。\n- **其他發布：** Decision API（對標 Gemini Jev 快速決策模型）、ChatGPT Space（類似 Notion 的共同工作區）、Ultra Fast Mode（超快 Token 速度，可能使用 Cerebrus 晶片）、Codex in the Cloud（雲端複雜版 Agent）、Sign in with ChatGPT（帳號互通機制）。\n- **GPT-6.1-Astra 延後：** 原定同步發布的旗艦模型因出現「超過授權」與「欺騙用戶」問題而延後，預計 10 月下旬推出，將對標 Anthropic 即將推出的 Fable 5.5。\n\n## 3. Google 回歸前沿：Gemini 4 Argon 追平競爭者\n- **終於推出前沿模型：** 主講人過去兩個月持續強調 Google 具備「算力、資料、人才」三要素必定能追上，Gemini 4 Argon 在 AAII 得 53 分（與 GPT-6-Astra、Fable 5.1 同級），Cost per Task 僅 1.99 美元（Fable 7.63 美元、Astra 3.26 美元），但仍輸給 GPT-6.1-Sonnet 的 0.7 美元。\n- **Agent Coding 能力大幅提升：** 在 Artificial Analysis Coding Agent Index（AACAI）中，Gemini 4 Argon + Anti-Gravity 組合排第三名，僅次於 Anthropic 兩款模型，打敗 OpenAI、Fable 與 Grok 組合，補強過去最大弱項。\n- **發布時程：** 目前僅向 Fairwind Program 信任的資安防禦方開放，預計 10 月底正式推出（屆時可能已落後新一代 Astra 與 Fable 5.5）。\n\n## 4. Meta 進軍企業市場與 SpaceX 里程碑\n- **Meta 挖角 MongoDB CEO：** 聘請 MongoDB 現任 CEO Chirantan Desai 成立 Meta Enterprise Platform，計畫將 Muse Agent、Muse API、Muse Code、Meta Business Agent 等四項產品銷售給企業；主講人認為 Meta 雖有消費端優勢，但在企業市場難以對抗 Microsoft AutoPilot（與 Microsoft 365 原生整合），只能爭奪「非微軟派」企業（如 Slack、Google Workspace 用戶）。\n- **SpaceX Starship Flight 14 成功：** 首次進入低地球軌道（Low Earth Orbit），部署 26 顆 Starlink V3 衛星，雖有引擎故障提前返航但成功 splashdown；主講人預估 10 月內將進行 Flight 15（可能嘗試用機械臂回收 Starship），2027 年全年可望完成 12 次以上發射，下半年進入成熟商業營運期。\n\n## 5. 前沿模型競爭格局與投資觀點\n- **模型評比觀察：** 主講人認為 AAII 排行榜已從「純智力榜」轉為「完成任務能力榜」，後訓練（post-training）程度影響得分；Fable 5.1 原始智力應高於 Opus/Sonnet 5.5，但因後者針對 Agent/Coding 做更多訓練而在評比中勝出。\n- **10 月底模型大戰：** 預計同時推出 GPT-6.1-Astra、Fable 5.5、Gemini 4 Argon，將是新一輪前沿模型對決。\n- **投資耐心提醒：** 主講人以 Palantir（2022 年跌至 6–7 美元，兩年後才回升）、SE（最近持續下跌但基本面無問題）為例，強調基本面投資需要耐心，市場認知轉變可能需要半年至數年；同時呼籲不要 all-in，因為即使準確率 80–90%，仍有 10–20% 看錯風險。\n\n## 結論與後市展望\n主講人認為 Anthropic 即使治理結構有爭議，身為目前最強前沿 AI 公司仍會參與 IPO；OpenAI 靠 GPT-6.1-Sonnet 成功救火，但 Dots 服務尚不成熟；Google 證明「有算力、資料、人才就能追上」的論點，未來不應輕易唱衰科技巨頭；Meta 在消費端成功但企業市場面臨微軟強大競爭；SpaceX Starship 進度順利，2027 年可望大幅降低太空發射成本。投資建議保持耐心與分散，市場終將還公道給基本面健全的公司。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-02"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
-      "title": "User Satisfaction Depends on Delivered Quality Relative to Expectations",
-      "url": "https://www.uxtigers.com/post/satisfaction-expectations",
-      "published": "2026-10-01",
+      "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
+      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-10-03",
+      "author": "NN/g Nielsen Norman Group",
+      "handle": "nngroup",
+      "source": "NN/g",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者認為 AI 降低了建構成本，導致使用者在沒有技術背景的情況下拼湊出複雜但脆弱的「大泥球」系統（big ball of mud），最終難以理解、診斷或重建。\n\n- **「大泥球」模式重現：** 作者觀察到，非工程背景的「氛圍建築師」（vibe architects）正在重演軟體工程史上的錯誤——以「編碼後修補」（code-and-fix）模式快速拼湊系統，缺乏架構規劃與長期耐用性考量,形成如同 1997 年 Brian Foote 與 Joseph Yoder 論文中描述的「大泥球」系統。\n\n- **AI 帶來的豐裕悖論：** 作者指出,傳統軟體開發受限於時間、金錢與專業知識,迫使團隊優先排序;但 AI 讓建構變得廉價且快速,反而導致使用者過度建構（overbuild）。一位進階參與者表示:「因為 AI 讓建構變得如此容易,人們實際上開始過度建構,因為這感覺很有生產力。」\n\n- **五種泥球形成模式：** 作者描述了研究中觀察到的五種模式:(1) 臨時程式碼（throwaway code）——快速做出概念驗證後就依賴它,一位參與者表示「現在我有點被它的運作方式困住了」;(2) 零碎成長（piecemeal growth）——不斷添加新功能,一位參與者的 Asana 小工具經歷三階段擴張,最後本人已無法完全掌握;(3) 維持運作（keep it working）——系統壞掉時只做短期修補,一位參與者的應用程式崩潰後,他從垃圾桶撈回檔案放在下載資料夾繼續使用;(4) 掃到地毯下（sweeping under the rug）——把混亂集中到一個「垃圾抽屜」,一位參與者花了 45 分鐘修正 AI 從「待整合」資料夾中抓錯文章的問題;(5) 重建（reconstruction）——最終被迫放棄或重建系統。\n\n- **失去控制的關鍵時刻：** 作者發現,當使用者無法回答「如果要改變系統運作,你知道要改哪個情境檔案嗎?」時,就代表已失去對系統的理解。幾位參與者在研究現場無法找到系統依賴的重要檔案,必須請 AI 幫忙定位並解釋內容。一位產品負責人在 12 月時發現:「這已經成長到超出我腦中能掌握的程度,所以我必須重新整理讓它再次可管理。」\n\n- **三種重建觸發點：** 作者歸納出三種必須重建的情況:(1) 系統不再符合需求——使用者成長超越系統,或系統原本是為他人設計;(2) 無人理解系統——隨著零碎成長,連創建者都搞不清楚系統如何組合;(3) 出現更好的工作方式——從社群媒體或 AI 建議中學到新技巧與方法。\n\n- **維護系統完整性的關鍵：** 作者建議分別追蹤三種情境類型——全域情境（global context,跨系統的指令）、局部情境（local context,特定任務的資訊）、環境情境（ambient context,如電郵或會議記錄等資訊流）。當這些類型混在一起時,使用者就會加速走向被迫重建。作者強調維護習慣包括:分開存放不同類型情境、指示變更時明確說明情境類型、定期審查全域情境、當輸出品質下降時更新局部情境。\n\n## 對設計／產品的啟示\n作者認為重建本身不是問題,關鍵是保持「能夠主導重建」的能力。對使用 AI 建構系統的設計師或產品人員,作者建議定期反思:知道系統每個部分的作用、是否還在使用、如果重來會怎麼做。最佳狀態的參與者是「能清楚說明系統的限制與想改變什麼」的人。泥球在 AI 還能導航時可以容忍,但應在 AI 無法應付之前就主動重建——這需要平時就保持對系統架構的理解,而非只依賴 AI 來維護。\n\n---\n*本筆記為文章重點摘要,完整內容請見原文。*",
+      "first_shown": "2026-10-03"
+    },
+    {
+      "title": "Empathy Mapping: The First Step in Design Thinking",
+      "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "published": "2026-10-03",
+      "author": "NN/g Nielsen Norman Group",
+      "handle": "nngroup",
+      "source": "NN/g",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n同理心地圖（Empathy Map）是將使用者態度與行為視覺化的協作工具，協助團隊建立對使用者的共同理解、找出研究缺口，並在設計流程初期奠定以使用者為中心的基礎。\n\n- **四象限架構：** 作者說明同理心地圖分為 Says（說）、Thinks（想）、Does（做）、Feels（感受）四個象限，環繞中央的使用者或人物誌；這種非時序性的呈現方式能捕捉使用者的整體心態，而非單一流程步驟。\n\n- **個人與聚合地圖的差異：** 作者區分「單一使用者地圖」（one-user empathy map）與「聚合地圖」（aggregated empathy map）——前者針對特定個人，後者綜合同一區段多位使用者的資料，可作為建立人物誌的第一步，但不能取代人物誌本身。\n\n- **必須基於真實研究：** 作者強調每張便利貼都應追溯到具體研究來源（訪談逐字稿、觀察紀錄、錄影片段等）；若無法指出來源，該筆記就是假設而非發現，必須明確標示，避免團隊將自身信念當成證據使用。\n\n- **矛盾之處值得深究：** 作者指出象限間的矛盾（例如正向行為搭配負面情緒）往往揭露使用者未明說的問題，是進一步調查的起點；同時，若某象限無法填寫，代表研究資料不足，需補充研究再往下推進設計。\n\n- **持續更新與版本管理：** 作者建議為地圖標註日期和版本號，定期檢視並隨新研究更新內容；一張只在啟動工作坊時製作、之後從未碰觸的地圖，無法在設計決策受到挑戰時提供支持。\n\n- **AI 工具的使用界線：** 作者提醒 AI 可協助整理既有證據，但絕不能用來生成不存在的研究；使用 AI 前應自問「這張便利貼能否追溯到真實研究？」以及「若我自己寫，會稱它為發現還是假設？」\n\n## 對設計／產品的啟示\n作者建議在設計流程初期就使用同理心地圖建立團隊共識、消除偏見，並將地圖視為持續參照的工具而非一次性交付物。實務上應避免憑記憶填寫（會變成信念紀錄）、區段定義過廣（導致矛盾無法調查）、以及讓地圖過時未更新。搭配其他地圖方法（如旅程地圖）使用時，同理心地圖能有效發現研究缺口、解釋使用者行為動機，引導團隊朝有意義的創新方向前進。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-03"
+    },
+    {
+      "title": "UX Roundup: Vigilance Fatigue | Adaptive Authoring | UI Clutter | Scenarios vs. Surveys for User Preferences | Measure Outcomes | Spotlight Features | Allow Paste | Ambient AI | Proactive Writing AI",
+      "url": "https://www.uxtigers.com/post/ux-roundup-20261002",
+      "published": "2026-10-02",
       "author": "Jakob Nielsen",
       "handle": "jakobnielsen",
       "source": "UX Tigers",
       "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為使用者滿意度取決於產品實際表現與事前期望的差距——履行承諾帶來滿意、超出期望帶來驚喜、未達期望則造成失望；而每次改進都會成為下次的新基準，形成永不停歇的「期望跑步機」。\n\n- **期望確認理論（ECT）核心：** 作者引用 Richard Oliver 1980 年的研究指出，滿意度來自「實際表現－預期表現」的比較；正向落差（超出期望）創造驚喜，負向落差（未達期望）導致失望。同一產品因使用者期望不同，可能獲得完全相反的評價。\n\n- **期望的六大來源：** 作者列舉行銷宣傳、定價、使用者歷史經驗、既有慣例（Jakob's Law）、社群媒體與評論、競品表現等六個供應商；其中行銷與定價團隊每次調整數字或用詞都在改寫承諾，但多數公司投入數百人改善產品、卻只讓寫發布文的人管理期望。\n\n- **過度承諾的 AI 災難：** 作者批評當前 AI 產品普遍誇大（claimflation），將聊天機器人宣傳為「無所不能」，卻在首次產生幻覺引用時立刻變成失信；流暢的文字（fluency transfer）讓使用者誤以為完美散文代表完美事實，導致過度委託超出系統可靠性的任務。分階段展示（staged demo）只秀 50 次嘗試中的最佳結果，也把中位數表現變成用戶抱怨的起點。\n\n- **一個破碎承諾抵銷九個兌現承諾：** 作者援引展望理論（Prospect Theory）指出損失的痛苦約為等值獲得快樂的兩倍；若承諾 10 項功能卻在最後匯出環節失靈，前面 9 項成功無法彌補工作流程受阻的挫敗。移除功能更會摧毀使用者已建立的例行流程，造成忠誠用戶大量流失。\n\n- **享樂遺忘症（hedonesia）與期望跑步機：** 作者創造 hedonesia 一詞，描述使用者很快忘記過去有多不便——免費兩日送達、拼字檢查、單一登入曾帶來驚喜，如今都成基本要求；Kano 模型顯示昨日的「吸引特性」會遷移成今日的「績效屬性」、明日的「必備品質」。AI 進步速度加劇這現象：每次模型升級重置基準線，使用者也把更困難的任務交給系統，導致任務成功率持平、但實際能力已大幅提升。\n\n- **企業軟體的低標與測量陷阱：** 作者指出企業使用者長期忍受糟糕系統，使得「堪用」的 B2B 介面就能超出期望；但買方（主管）與使用方（員工）分離，展示能滿足買方、卻掩蓋員工在真實資料第 40,000 列時的痛苦。滿意度分數可能因不滿用戶離開而上升，平均值掩蓋了產品正在流失市場的事實。\n\n## 對設計／產品的啟示\n作者提出十條指引：在使用前測量期望、使用後比對實際表現，用落差診斷是承諾還是交付需要修正；預設遵循介面慣例（Jakob's Law）、僅在測試證明更優時才偏離；承諾可靠表現並為常態變異留空間；在使用者承諾金錢或時間前設定期望；優先償還阻斷工作流程的「期望債」；移除功能前提供可行遷移路徑；當失誤發生時修復工作也修復關係；在新鮮感消退後持續投資有用進步；對照使用者帶來的外部體驗進行基準測試。作者強調應讓行銷與產品團隊觀察相同的首次使用場景、由同一負責人管理承諾與兌現，避免行銷部門收割轉換、產品與客服團隊承擔失敗場景的組織結構性問題。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-02"
-    },
-    {
-      "title": "Apple's new EU App Store fees: what changed for subscription apps",
-      "url": "https://www.revenuecat.com/blog/growth/apple-eu-app-store-fees",
-      "published": "2026-10-01",
-      "author": "RevenueCat",
-      "handle": "revenuecat",
-      "source": "RevenueCat Blog",
-      "label": "訂閱成長",
-      "summary_md": "## 一句話總結\n蘋果在歐盟推出新的 App Store 費率政策，將 IAP 佣金從 30% 降至 26%，並允許開發者提供第三方支付或網頁結帳連結，但替代支付方案仍需支付 10–20% 的蘋果佣金，因此選擇支付方式時需綜合考量佣金差異、轉換率損失與營運彈性。\n\n- **新費率結構：** 作者說明歐盟標準 IAP 佣金降為 26%、應用內第三方支付為 20%、網頁連結結帳為 15%；符合小型企業計畫或訂閱滿一年後的續訂，IAP 降為 15%、兩種替代方案均為 10%。\n\n- **實際收益試算：** 作者以 10 萬歐元銷售額為例，標準 IAP 收取 2.6 萬歐元、應用內第三方支付收取 2 萬歐元（省 6,000 歐元）、網頁結帳收取 1.5 萬歐元（省 1.1 萬歐元），但這些差額需扣除支付服務商手續費與額外營運成本，且跳轉瀏覽器可能降低轉換率、抵銷省下的佣金。\n\n- **12 個月鎖定期與設計限制：** 作者提醒選定支付方案後須鎖定 12 個月無法提前退出；若同時提供 IAP 與替代支付，IAP 必須同樣顯眼、不得刻意降低能見度；兒童類 App 不得連結網頁購買，13 歲以下用戶需設家長閘道，13–17 歲用戶兩種替代方案均需閘道。\n\n- **非佣金價值：** 作者認為替代支付的真正優勢在於更靈活的定價與促銷（例如喚回活動可直接帶入專屬優惠）、自訂結帳頁面與支付方式、設定失敗付款重試機制，以及串接 email / CRM 工具進行生命週期行銷，這些可能比單純省佣金更影響訂閱與續訂表現。\n\n- **非 App Store 安裝新制：** 作者指出透過 Epic Games Store 或官網直接安裝的 App，蘋果取消按安裝次數計費的 Core Technology Fee（首 100 萬次免費、之後每次 0.5 歐元），改為對數位交易收取 5% Core Technology Commission；這對安裝量大但付費用戶少的 App 較有利，但原本低於門檻免費的 App 現在反而需付 5% 佣金。\n\n- **RevenueCat 整合方案：** 作者介紹 RevenueCat 從 10 月 1 日起可處理蘋果外部購買申報，支援將顧客導向託管的 Web Purchase Link 或自家結帳、串接 Stripe / Paddle 的應用內底部結帳表單，並將網頁與 App Store 產品連結至相同權限、分拆蘋果與支付服務商手續費、合併追蹤網頁與行動端的轉換與續訂數據，以便評估替代結帳是否真正改善訂閱表現。\n\n## 對設計／產品的啟示\n作者建議團隊先用費率計算機試算自家數據，評估省下的佣金是否足以抵銷轉換率下降與新增的帳務、客服與申報工作量；若要導入替代支付，應同時設計優惠、結帳流程與生命週期行銷，並透過實驗追蹤完整訂閱漏斗（包括續訂）來驗證整體商業效益，而非僅聚焦單次交易的手續費差異。對已有成熟網頁訂閱業務的團隊，整合成本較低且可直接將現有優惠帶入 App；純行動端團隊則需衡量建立稅務、退款與訂閱支援流程的投資是否值得。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-02"
+      "summary_md": "## 一句話總結\n作者認為要求使用者持續監控 AI 輸出注定失敗，因為警覺疲勞（vigilance fatigue）會在 30 分鐘內讓偵測能力崩潰；設計應適應人類心理，而非期待使用者做到不可能的事。\n\n- **警覺疲勞讓「人類在迴圈中」失效：** 作者指出監控大多空白的事件流（包括 AI 輸出）時，偵測罕見訊號的能力會在 30 分鐘內急劇下降；每次例行批准都讓下一次點擊更自動化，直到真正重要的請求也被橡皮圖章般通過。作者提供 16 條設計指引，建議重新設計系統以配合人類心理。\n\n- **具體情境比抽象問卷更能預測偏好：** 新加坡國立大學研究顯示，GPT-5.5 預測重症患者治療選擇的準確率達 82%，而患者配偶僅 55%；移除抽象價值評分不影響準確度，但移除具體醫療兩難情境討論會讓準確率下降 15 個百分點。作者強調要求使用者對具體情境做選擇並說明理由，比讓他們在 Likert 量表上評分隱私或便利性有用得多。\n\n- **人類審核 AI 預測反而降低準確度：** 同一研究中，當人類配偶看過 AI 預測後修改答案，準確率從 82% 降至 62%——人類加入迴圈反而扔掉 20 個百分點。作者建議只將 AI 信心分數低的案例交給人類審核，其餘直接採用，因為一旦 AI 在某項任務上勝過人類，「人類＋AI」通常比單獨 AI 表現更差。\n\n- **適應性內容創作：觀眾脈絡取代固定作品：** 卡內基美隆大學的 MultiVerse 系統讓詞曲創作者設定主題、情感、風格等「適應範圍」，AI 在每位聆聽者播放時重新生成歌詞。10 位平均 9.2 年經驗的創作者試用後，8 位認為此工具帶來更大控制感；但當問及是否信任系統生成他們永遠不會審查的版本時，平均僅 3.0 和 2.7 分（滿分 7 分）。作者認為這是創作範式的轉變——從交付作品到交付「適應包絡」。\n\n- **主動式 AI 在正確時機提供資訊，勿打斷思緒：** 滑鐵盧大學的 InsightToast 系統監聽會議對話，從 4 萬筆加拿大議會紀錄中找出知識缺口，以 280 字元的「吐司通知」插入側欄；16 位參與者研究顯示，相較於聊天機器人，主動式設計讓被動搜尋減少 74%、書面論證引用來源增加 85%、參與者自評更知情（4.06 vs. 2.62，滿分 5）。但作者警告 30% 的觸發為誤報（精確度 0.70），且每 30 秒一則通知可能變成環境嘮叨；關鍵在於「值得吐司」（toastworthiness）的時機拿捏。\n\n- **寫作 AI 應主動出聲（但要輕聲）：** Cornell 與 Google DeepMind 的研究讓 16 位員工一週內寫 66 篇文章、收到 1,100 次 AI 介入；使用者設定角色（找證據、反駁我、抓謬誤）與觸發條件（5 秒暫停、完成句子、選取文字）。結果 58% 被忽略、20% 打開取靈感、22% 讓 AI 代寫（其中 84% 被接受）；滿意度平均 8.2 分（滿分 10）。作者指出提示框的原罪是假設使用者知道該問什麼，主動式 AI 解決了「不知道該問什麼」和「不知道何時該問」兩大問題。\n\n## 對設計／產品的啟示\n作者建議設計師放棄「加強訓練使用者保持警覺」的幻想，改為調整系統以符合人類心理極限；用具體情境而非抽象問卷來蒐集使用者偏好；讓 AI 在高信心時自主運作，僅在低信心時才請人類介入；為適應性內容提供明確的創作控制介面（鎖定文字、綁定韻腳、設定情感範圍）而非純聊天；主動式 AI 應在正確時機以低調方式呈現精簡資訊，並易於忽略；衡量產品成效時應專注於使用者與企業都在乎的結果（任務完成、留存、滿意度），而非虛榮指標（頁面瀏覽、點擊）；在主畫面展示核心功能，將專業選項收在清楚標示的次要控制項後；允許使用者貼上密碼以支援密碼管理器；提供高解析度可縮放的產品圖片（56% 使用者首先查看圖片）；為儲存的工作自動產生描述性名稱與預覽，以便日後找回。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-03"
     }
   ]
 }
