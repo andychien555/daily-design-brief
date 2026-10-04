@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-10-04T01:43:43+08:00",
+  "generated_at": "2026-10-04T08:56:55+08:00",
   "days": [
+    {
+      "d": "2026-10-04",
+      "dd": "2026 年 10 月 04 日",
+      "no": 171,
+      "items": [
+        {
+          "k": "product",
+          "t": "Reassign",
+          "b": "Your day, shaped into a story. The planner for makers 針對創作者設計的日程規劃工具，將每日任務整理成故事化的形式呈現。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Muse Gadgets",
+          "b": "Meta's open-source kit for building your own AI gadgets Meta 推出的開源工具包，讓使用者可以自行打造 AI 智慧裝置。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "eu/jev",
+          "b": "The first Jev-like model hosted in the EU 首個託管於歐盟地區的 Jev 類型 AI 模型，符合歐盟數據規範。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Kindle 2026",
+          "b": "A smaller, faster Kindle with a flush-front display Amazon 推出的新款 Kindle 電子書閱讀器，配備平面顯示螢幕，體積更小且運行速度更快。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Sapien",
+          "b": "AI market research with synthetic populations 利用合成人口數據進行 AI 市場研究的工具，協助企業進行消費者洞察分析。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Yubi",
+          "b": "Talk to your Mac and let Yubi do the typing Mac 語音輸入助手，透過語音指令自動完成文字輸入工作。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-10-03",
       "dd": "2026 年 10 月 03 日",

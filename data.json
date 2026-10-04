@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-03",
-  "date_display": "2026 年 10 月 03 日",
-  "generated_at": "2026-10-03T08:56:05.996017+08:00",
+  "date": "2026-10-04",
+  "date_display": "2026 年 10 月 04 日",
+  "generated_at": "2026-10-04T08:56:10.274802+08:00",
   "top_products": [
     {
-      "title": "Communicate",
-      "url": "https://www.producthunt.com/products/communicate",
-      "published": "2026-10-01T00:51:46-07:00",
-      "author": "Udit Goenka",
-      "tagline": "AI support agents grounded in your knowledge, with handoff",
-      "post_id": "1266380",
-      "summary_zh": "基於企業知識庫的 AI 客服代理工具,支援人工接手功能。適合需要自動化客戶支援並保留人工介入選項的團隊。",
-      "image_url": "https://ph-files.imgix.net/5c6fe3ac-a9f2-4825-937e-669b72dd30d7.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/6b26400b-1448-4125-98f7-627f381421b2.webp?auto=format&w=960&h=540&fit=crop"
+      "title": "Reassign",
+      "url": "https://www.producthunt.com/products/reassign",
+      "published": "2026-10-02T15:49:04-07:00",
+      "author": "Leo Spanovic",
+      "tagline": "Your day, shaped into a story. The planner for makers",
+      "post_id": "1268072",
+      "summary_zh": "針對創作者設計的日程規劃工具，將每日任務整理成故事化的形式呈現。",
+      "image_url": "https://ph-files.imgix.net/c762dff8-1ca8-4c88-93e2-aa279767dbe0.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/54b9fd46-e750-4d4c-90b9-5acaef414b1e.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "GitSync",
-      "url": "https://www.producthunt.com/products/gitsync",
-      "published": "2026-10-01T14:29:07-07:00",
-      "author": "Parth Sanepara",
-      "tagline": "Sync branches between GitHub repos, right from Chrome",
-      "post_id": "1267063",
-      "summary_zh": "Chrome 瀏覽器擴充功能,讓開發者直接在瀏覽器中同步不同 GitHub 儲存庫之間的分支。",
-      "image_url": "https://ph-files.imgix.net/46132154-6dbd-4e2c-8e5d-2313d1c8af0a.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/21e8610d-10f6-47ac-ac54-0661b0f0565e.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Muse Gadgets",
+      "url": "https://www.producthunt.com/products/muse-22",
+      "published": "2026-10-02T19:07:11-07:00",
+      "author": "Justin Jincaid",
+      "tagline": "Meta's open-source kit for building your own AI gadgets",
+      "post_id": "1268160",
+      "summary_zh": "Meta 推出的開源工具包，讓使用者可以自行打造 AI 智慧裝置。",
+      "image_url": "https://ph-files.imgix.net/f79f1415-f9d1-4073-bbb2-3cf23acc7e13.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/73609543-4268-4072-8958-bc3154547f5d.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Pastily",
-      "url": "https://www.producthunt.com/products/pastily",
-      "published": "2026-10-01T03:09:16-07:00",
-      "author": "Mohammad Ashfaque",
-      "tagline": "Your clipboard but better",
-      "post_id": "1266528",
-      "summary_zh": "增強型剪貼簿管理工具,提供比系統原生剪貼簿更豐富的功能。",
-      "image_url": "https://ph-files.imgix.net/55e5c911-245b-447a-bb6e-30412505d8e6.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/b0505922-4533-42c0-8934-98a28bc17154.png?auto=format&w=960&h=540&fit=crop"
+      "title": "eu/jev",
+      "url": "https://www.producthunt.com/products/bevel-software",
+      "published": "2026-10-02T06:47:50-07:00",
+      "author": "fmerian",
+      "tagline": "The first Jev-like model hosted in the EU",
+      "post_id": "1267705",
+      "summary_zh": "首個託管於歐盟地區的 Jev 類型 AI 模型，符合歐盟數據規範。",
+      "image_url": "https://ph-files.imgix.net/755885cc-74b1-4c1c-9f60-ede33e5dadbc.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/7761691d-f266-4a60-adc5-5810ac72ab28.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "ShipHQ",
-      "url": "https://www.producthunt.com/products/shiphq",
-      "published": "2026-10-01T09:57:17-07:00",
-      "author": "Rıdvan Uyan",
-      "tagline": "Build your own app studio, powered by your real apps",
-      "post_id": "1266859",
-      "summary_zh": "讓開發者基於現有應用程式建立自己的 app studio 平台,整合與管理多個應用。",
-      "image_url": "https://ph-files.imgix.net/b475da35-086e-4738-b000-65752f1ca40c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/13573d5b-1670-4a6c-99f2-4fc5de572658.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Kindle 2026",
+      "url": "https://www.producthunt.com/products/kindle-2026",
+      "published": "2026-10-02T09:02:19-07:00",
+      "author": "Zac Zuo",
+      "tagline": "A smaller, faster Kindle with a flush-front display",
+      "post_id": "1267818",
+      "summary_zh": "Amazon 推出的新款 Kindle 電子書閱讀器，配備平面顯示螢幕，體積更小且運行速度更快。",
+      "image_url": "https://ph-files.imgix.net/0fec436e-2417-4f4c-835f-33986c10e9e6.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d57fa15b-f5ce-44cf-a146-559f24340332.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Never Boring AI",
-      "url": "https://www.producthunt.com/products/never-boring-ai",
-      "published": "2026-10-01T03:21:53-07:00",
-      "author": "Maxence VROILANT",
-      "tagline": "The AI agent that writes your LinkedIn posts in your voice",
-      "post_id": "1266544",
-      "summary_zh": "AI 寫作工具,學習使用者的個人語調後自動生成 LinkedIn 貼文內容。",
-      "image_url": "https://ph-files.imgix.net/6b02a8f5-56d0-4284-986c-b6745801f68b.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/026a6ff7-fa1c-46e9-995f-ee411c1edaa5.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Sapien",
+      "url": "https://www.producthunt.com/products/sapien-4",
+      "published": "2026-10-02T19:30:10-07:00",
+      "author": "Sulayman Bowles",
+      "tagline": "AI market research with synthetic populations",
+      "post_id": "1268165",
+      "summary_zh": "利用合成人口數據進行 AI 市場研究的工具，協助企業進行消費者洞察分析。",
+      "image_url": "https://ph-files.imgix.net/3385933a-3a4f-4caa-a28c-66710da08bbb.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/f2cfe036-66cc-40d6-9e8a-e291069c4f50.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Earlyn",
-      "url": "https://www.producthunt.com/products/earlyn",
-      "published": "2026-10-01T19:00:35-07:00",
-      "author": "Earlyn",
-      "tagline": "Searchable memory of your screen and meetings, on your Mac",
-      "post_id": "1267170",
-      "summary_zh": "Mac 平台的螢幕與會議記錄工具,提供可搜尋的視覺記憶功能,幫助使用者回顧過往內容。",
-      "image_url": "https://ph-files.imgix.net/d3777e1b-3367-4e9a-9b0f-b957e4693497.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/c8d5b7a3-8341-4e8e-83e8-9c0fac445ace.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Yubi",
+      "url": "https://www.producthunt.com/products/yubi-2",
+      "published": "2026-10-02T09:37:26-07:00",
+      "author": "Ken Tanaka",
+      "tagline": "Talk to your Mac and let Yubi do the typing",
+      "post_id": "1267846",
+      "summary_zh": "Mac 語音輸入助手，透過語音指令自動完成文字輸入工作。",
+      "image_url": "https://ph-files.imgix.net/1886817c-5f59-41d3-8ff1-063bd8e20100.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/1f975c61-ac8f-43d7-87a1-1cc545cc78c3.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,51 +77,6 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "42301381",
-      "title": "EP702 | 🐉",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/42301381-6003-4b54-a28d-290a3fd2e258",
-      "published": "2026-10-03",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為十月台股如期轉強並創新高，AI 供應鏈持續缺貨漲價，美國可能對中國光模組下禁令反而鞏固美系廠商優勢，但台廠受惠有限且多屬想像空間。\n\n## 1. AI 應用成本與企業管理：聯發科限縮 Token 額度引發內部反彈\n- **用量擴張導致成本失控：** 聯發科因 AI 使用量大，月支出約 1–2 億元，為降低費用自建 Data Center，但伺服器負荷不堪導致速度變慢，工程師抗議「不讓我花錢」。\n- **企業兩難與解方探索：** 主講人認為即便預算充裕者都會想控制 Token Maxing（因尖端模型單次提問可達數千元），企業需在成本與生產力間平衡，未來可能出現「私服 + 尖端模型落地」方案，但開源模型與頂尖模型表現仍有明顯差距。\n- **供應鏈回歸成本考量：** 強調所有供應鏈討論最終都是成本問題，不能用「上帝視角」想像無限預算，實際布局需考量企業治理與股東責任。\n\n## 2. 台股盤面與選股策略：大盤新高、族群輪動加速\n- **光輝十月兌現、全面轉強：** 本週期貨與 NQ 皆創新高，被動元件與功率元件（上半年最慢上漲者）終於啟動，市場出現 7 月前「各題材輪動」的態勢。\n- **主講人持股以光通訊為主：** 身邊「勇者」快速換倉被動元件，但主講人因手上標的（以光學為主）表現良好，未追高輪動；強調「大盤根本沒轉弱」，提早放空如 Michael Burry 般會被軋到不認得。\n- **選股不佳才抱怨大盤：** 若大盤走好但個股不動，問題在選股；盤勢已回到「不需頻繁換股」的多頭格局，CPU、光學等族群連日上漲。\n\n## 3. 美國擬對中國光模組下禁令：65% 美國 BoM 門檻鞏固現狀\n- **摩根士丹利傳聞內容：** 10 月 1 日報告稱美商務部擬規定光收發模組（Transceiver）需 65% BoM 為美國製才可出貨，且暫不限制 800G/1.6T 交換器模組；報告屬傳聞非正式條款。\n- **光模組架構拆解：** 一顆 800G EML DR8 模組 ASP 約 315 美元，內含 DSP（數位訊號處理器，如 Marvell、Broadcom）、Driver/TIA（放大器，如 Semtech）、EML 雷射（如 Lumentum、Coherent）、透鏡/隔離器/光纖陣列（台/日/中廠商）；**目前美系元件已占 60%+ BoM**，故 65% 門檻等同「維持現狀」。\n- **對各方影響：** \n  - **美系核心受惠：** DSP、Driver/TIA、雷射廠（Marvell、Broadcom、Coherent）股價週五上漲，但實質利多有限，市場押注未來可能收緊。\n  - **中國受限 cost down：** 禁令阻斷中國未來用自製 DSP/雷射降成本的路徑（其瓶頸本就是缺乏先進製程），但現階段他們本就用美系產品，影響不大。\n  - **台廠轉單屬想像：** 組裝、被動光學件、EML 封裝轉單台灣「有可能但屬間接想像」；聯發科旗下譜發 DSP 目前鎖定 400G、LAN 50–100G，距 3.2T 尚需數代，且為台灣製不算美國 BoM，直接受惠不明顯，但若中國去美化可能受惠。\n\n## 4. 光通訊產業趨勢：缺貨漲價持續、中國擴產恐遭圍堵\n- **缺貨與漲價集中 AI 相關：** 被動元件、功率元件漲價主要在 AI 領域，非 AI 部分賭「排擠效應」風險較高，主講人視為 Tier 2 故事。\n- **中國擴產隱憂與禁令意義：** 海外傳聞中國光通關鍵零組件大擴產可能「玩壞價格」，但此禁令若要求 Non-China 或美國 BoM 占比，中國只能「卷自己」，無法破壞全球市場。\n- **台廠 Non-China 布局：** 美系光模組廠已多次在電話會議提及往東南亞、台灣發展組裝，去中化動機明確，但因中國掌握上游材料，短期不會「趕盡殺絕」以免對方反制。\n\n## 5. 被動元件與功率族群：輪動啟動但需慎選標的\n- **上週啟動、勇者手速快：** 被動元件與功率元件為 7 月前最後一波上漲族群，本週終於再度啟動，市場「裝滿被動元件」者眾。\n- **涨價與缺貨邏輯延續：** 預期未來數季漲價與缺貨情形持續，但主講人提醒「排擠效應」故事（非 AI 應用）較不確定，需謹慎。\n- **SSD 個股波動：** 有 SSD 相關個股因 HDD 廠擴產傳聞大跌，但主講人認為 HDD 產能基期低，擴產影響有限；市場常因小事件過度反應，如 3037（億光？）曾因「良率」疑慮下跌後又反彈。\n\n## 6. 個人生活哲學：信仰、身體覺察與時間管理\n- **信仰的心理寄託：** 主講人從不信到因家人健康問題轉向觀音信仰，認為在無助時「有對象可許願與感謝」帶來內心平靜；強調工具中性，有人用得好、有人浪費錢算命。\n- **功能性訓練帶來身體覺察：** 透過單邊訓練（單腳蹲、單手推拉）發現左右不平衡，學會察覺「下背用力」等錯誤發力模式，甚至刷牙、久坐姿勢都能調整；分享「坐太挺反而下背持續用力」導致痠痛，需臀腿平衡。\n- **時間分配與家庭優先：** 固定早睡早起（11 點睡）、避免晚上應酬，擠出陪小孩時間；對吃穿無執念（衣服、餐廳都由太太決定），但一旦產生興趣就「推到極限」（如紅酒）。\n\n## 結論與後市展望\n主講人判斷台股已進入「不需頻繁換股」的多頭格局，大盤創新高且族群全面轉強，建議持有表現良好標的即可，不必追逐輪動。光模組禁令雖為傳聞，但反映美國意圖鞏固高毛利環節（DSP、雷射），台廠受惠多屬轉單想像，直接利多有限；產業缺貨漲價趨勢未變，但需留意中國去美化與成本競爭風險。操作上勿提早放空、勿與大盤對做，選股若不佳應檢討而非抱怨盤勢。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-03"
-    }
-  ],
-  "article_briefs": [
-    {
-      "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
-      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-10-03",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為 AI 降低了建構成本，導致使用者在沒有技術背景的情況下拼湊出複雜但脆弱的「大泥球」系統（big ball of mud），最終難以理解、診斷或重建。\n\n- **「大泥球」模式重現：** 作者觀察到，非工程背景的「氛圍建築師」（vibe architects）正在重演軟體工程史上的錯誤——以「編碼後修補」（code-and-fix）模式快速拼湊系統，缺乏架構規劃與長期耐用性考量,形成如同 1997 年 Brian Foote 與 Joseph Yoder 論文中描述的「大泥球」系統。\n\n- **AI 帶來的豐裕悖論：** 作者指出,傳統軟體開發受限於時間、金錢與專業知識,迫使團隊優先排序;但 AI 讓建構變得廉價且快速,反而導致使用者過度建構（overbuild）。一位進階參與者表示:「因為 AI 讓建構變得如此容易,人們實際上開始過度建構,因為這感覺很有生產力。」\n\n- **五種泥球形成模式：** 作者描述了研究中觀察到的五種模式:(1) 臨時程式碼（throwaway code）——快速做出概念驗證後就依賴它,一位參與者表示「現在我有點被它的運作方式困住了」;(2) 零碎成長（piecemeal growth）——不斷添加新功能,一位參與者的 Asana 小工具經歷三階段擴張,最後本人已無法完全掌握;(3) 維持運作（keep it working）——系統壞掉時只做短期修補,一位參與者的應用程式崩潰後,他從垃圾桶撈回檔案放在下載資料夾繼續使用;(4) 掃到地毯下（sweeping under the rug）——把混亂集中到一個「垃圾抽屜」,一位參與者花了 45 分鐘修正 AI 從「待整合」資料夾中抓錯文章的問題;(5) 重建（reconstruction）——最終被迫放棄或重建系統。\n\n- **失去控制的關鍵時刻：** 作者發現,當使用者無法回答「如果要改變系統運作,你知道要改哪個情境檔案嗎?」時,就代表已失去對系統的理解。幾位參與者在研究現場無法找到系統依賴的重要檔案,必須請 AI 幫忙定位並解釋內容。一位產品負責人在 12 月時發現:「這已經成長到超出我腦中能掌握的程度,所以我必須重新整理讓它再次可管理。」\n\n- **三種重建觸發點：** 作者歸納出三種必須重建的情況:(1) 系統不再符合需求——使用者成長超越系統,或系統原本是為他人設計;(2) 無人理解系統——隨著零碎成長,連創建者都搞不清楚系統如何組合;(3) 出現更好的工作方式——從社群媒體或 AI 建議中學到新技巧與方法。\n\n- **維護系統完整性的關鍵：** 作者建議分別追蹤三種情境類型——全域情境（global context,跨系統的指令）、局部情境（local context,特定任務的資訊）、環境情境（ambient context,如電郵或會議記錄等資訊流）。當這些類型混在一起時,使用者就會加速走向被迫重建。作者強調維護習慣包括:分開存放不同類型情境、指示變更時明確說明情境類型、定期審查全域情境、當輸出品質下降時更新局部情境。\n\n## 對設計／產品的啟示\n作者認為重建本身不是問題,關鍵是保持「能夠主導重建」的能力。對使用 AI 建構系統的設計師或產品人員,作者建議定期反思:知道系統每個部分的作用、是否還在使用、如果重來會怎麼做。最佳狀態的參與者是「能清楚說明系統的限制與想改變什麼」的人。泥球在 AI 還能導航時可以容忍,但應在 AI 無法應付之前就主動重建——這需要平時就保持對系統架構的理解,而非只依賴 AI 來維護。\n\n---\n*本筆記為文章重點摘要,完整內容請見原文。*",
-      "first_shown": "2026-10-03"
-    },
-    {
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-10-03",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n同理心地圖（Empathy Map）是將使用者態度與行為視覺化的協作工具，協助團隊建立對使用者的共同理解、找出研究缺口，並在設計流程初期奠定以使用者為中心的基礎。\n\n- **四象限架構：** 作者說明同理心地圖分為 Says（說）、Thinks（想）、Does（做）、Feels（感受）四個象限，環繞中央的使用者或人物誌；這種非時序性的呈現方式能捕捉使用者的整體心態，而非單一流程步驟。\n\n- **個人與聚合地圖的差異：** 作者區分「單一使用者地圖」（one-user empathy map）與「聚合地圖」（aggregated empathy map）——前者針對特定個人，後者綜合同一區段多位使用者的資料，可作為建立人物誌的第一步，但不能取代人物誌本身。\n\n- **必須基於真實研究：** 作者強調每張便利貼都應追溯到具體研究來源（訪談逐字稿、觀察紀錄、錄影片段等）；若無法指出來源，該筆記就是假設而非發現，必須明確標示，避免團隊將自身信念當成證據使用。\n\n- **矛盾之處值得深究：** 作者指出象限間的矛盾（例如正向行為搭配負面情緒）往往揭露使用者未明說的問題，是進一步調查的起點；同時，若某象限無法填寫，代表研究資料不足，需補充研究再往下推進設計。\n\n- **持續更新與版本管理：** 作者建議為地圖標註日期和版本號，定期檢視並隨新研究更新內容；一張只在啟動工作坊時製作、之後從未碰觸的地圖，無法在設計決策受到挑戰時提供支持。\n\n- **AI 工具的使用界線：** 作者提醒 AI 可協助整理既有證據，但絕不能用來生成不存在的研究；使用 AI 前應自問「這張便利貼能否追溯到真實研究？」以及「若我自己寫，會稱它為發現還是假設？」\n\n## 對設計／產品的啟示\n作者建議在設計流程初期就使用同理心地圖建立團隊共識、消除偏見，並將地圖視為持續參照的工具而非一次性交付物。實務上應避免憑記憶填寫（會變成信念紀錄）、區段定義過廣（導致矛盾無法調查）、以及讓地圖過時未更新。搭配其他地圖方法（如旅程地圖）使用時，同理心地圖能有效發現研究缺口、解釋使用者行為動機，引導團隊朝有意義的創新方向前進。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-03"
-    },
-    {
-      "title": "UX Roundup: Vigilance Fatigue | Adaptive Authoring | UI Clutter | Scenarios vs. Surveys for User Preferences | Measure Outcomes | Spotlight Features | Allow Paste | Ambient AI | Proactive Writing AI",
-      "url": "https://www.uxtigers.com/post/ux-roundup-20261002",
-      "published": "2026-10-02",
-      "author": "Jakob Nielsen",
-      "handle": "jakobnielsen",
-      "source": "UX Tigers",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為要求使用者持續監控 AI 輸出注定失敗，因為警覺疲勞（vigilance fatigue）會在 30 分鐘內讓偵測能力崩潰；設計應適應人類心理，而非期待使用者做到不可能的事。\n\n- **警覺疲勞讓「人類在迴圈中」失效：** 作者指出監控大多空白的事件流（包括 AI 輸出）時，偵測罕見訊號的能力會在 30 分鐘內急劇下降；每次例行批准都讓下一次點擊更自動化，直到真正重要的請求也被橡皮圖章般通過。作者提供 16 條設計指引，建議重新設計系統以配合人類心理。\n\n- **具體情境比抽象問卷更能預測偏好：** 新加坡國立大學研究顯示，GPT-5.5 預測重症患者治療選擇的準確率達 82%，而患者配偶僅 55%；移除抽象價值評分不影響準確度，但移除具體醫療兩難情境討論會讓準確率下降 15 個百分點。作者強調要求使用者對具體情境做選擇並說明理由，比讓他們在 Likert 量表上評分隱私或便利性有用得多。\n\n- **人類審核 AI 預測反而降低準確度：** 同一研究中，當人類配偶看過 AI 預測後修改答案，準確率從 82% 降至 62%——人類加入迴圈反而扔掉 20 個百分點。作者建議只將 AI 信心分數低的案例交給人類審核，其餘直接採用，因為一旦 AI 在某項任務上勝過人類，「人類＋AI」通常比單獨 AI 表現更差。\n\n- **適應性內容創作：觀眾脈絡取代固定作品：** 卡內基美隆大學的 MultiVerse 系統讓詞曲創作者設定主題、情感、風格等「適應範圍」，AI 在每位聆聽者播放時重新生成歌詞。10 位平均 9.2 年經驗的創作者試用後，8 位認為此工具帶來更大控制感；但當問及是否信任系統生成他們永遠不會審查的版本時，平均僅 3.0 和 2.7 分（滿分 7 分）。作者認為這是創作範式的轉變——從交付作品到交付「適應包絡」。\n\n- **主動式 AI 在正確時機提供資訊，勿打斷思緒：** 滑鐵盧大學的 InsightToast 系統監聽會議對話，從 4 萬筆加拿大議會紀錄中找出知識缺口，以 280 字元的「吐司通知」插入側欄；16 位參與者研究顯示，相較於聊天機器人，主動式設計讓被動搜尋減少 74%、書面論證引用來源增加 85%、參與者自評更知情（4.06 vs. 2.62，滿分 5）。但作者警告 30% 的觸發為誤報（精確度 0.70），且每 30 秒一則通知可能變成環境嘮叨；關鍵在於「值得吐司」（toastworthiness）的時機拿捏。\n\n- **寫作 AI 應主動出聲（但要輕聲）：** Cornell 與 Google DeepMind 的研究讓 16 位員工一週內寫 66 篇文章、收到 1,100 次 AI 介入；使用者設定角色（找證據、反駁我、抓謬誤）與觸發條件（5 秒暫停、完成句子、選取文字）。結果 58% 被忽略、20% 打開取靈感、22% 讓 AI 代寫（其中 84% 被接受）；滿意度平均 8.2 分（滿分 10）。作者指出提示框的原罪是假設使用者知道該問什麼，主動式 AI 解決了「不知道該問什麼」和「不知道何時該問」兩大問題。\n\n## 對設計／產品的啟示\n作者建議設計師放棄「加強訓練使用者保持警覺」的幻想，改為調整系統以符合人類心理極限；用具體情境而非抽象問卷來蒐集使用者偏好；讓 AI 在高信心時自主運作，僅在低信心時才請人類介入；為適應性內容提供明確的創作控制介面（鎖定文字、綁定韻腳、設定情感範圍）而非純聊天；主動式 AI 應在正確時機以低調方式呈現精簡資訊，並易於忽略；衡量產品成效時應專注於使用者與企業都在乎的結果（任務完成、留存、滿意度），而非虛榮指標（頁面瀏覽、點擊）；在主畫面展示核心功能，將專業選項收在清楚標示的次要控制項後；允許使用者貼上密碼以支援密碼管理器；提供高解析度可縮放的產品圖片（56% 使用者首先查看圖片）；為儲存的工作自動產生描述性名稱與預覽，以便日後找回。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-03"
-    }
-  ]
+  "podcast_briefs": [],
+  "article_briefs": []
 }
