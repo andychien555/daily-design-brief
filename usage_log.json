@@ -5226,5 +5226,27 @@
         "cost_usd": 0.005973
       }
     ]
+  },
+  "2026-10-05": {
+    "input_tokens": 2427,
+    "output_tokens": 1527,
+    "audio_seconds": 0.0,
+    "cost_usd": 0.030186,
+    "calls": [
+      {
+        "label": "producthunt",
+        "input_tokens": 385,
+        "output_tokens": 345,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.00633
+      },
+      {
+        "label": "article-summary",
+        "input_tokens": 2042,
+        "output_tokens": 1182,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.023856
+      }
+    ]
   }
 }
