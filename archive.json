@@ -3,11 +3,13 @@
     "date": "2026-10-05",
     "date_display": "2026 年 10 月 05 日",
     "generated_at": "2026-10-05T08:55:55.632611+08:00",
-    "total": 7,
+    "total": 9,
     "sources": [
+      "M觀點",
+      "游庭皓的財經皓角",
       "This Week at YC"
     ],
-    "headline": "YC 宣布兩位新任 GP 加入、探討 GPU 之外的 AI 運算可能性，同時本週有 Hubble Network 以 16 億美元估值融資 2 億美元等多家 YC 公司獲得重大進展。",
+    "headline": "AI 基礎建設進入財務工程階段（亞馬遜擬售後回租 80 億美元 GPU、台積電主動洽談加入特斯拉 TerraFab），同時 AI Agent 產品呈現兩大哲學：單一特助窗口（Meta Muse）vs. 部門經理制（Grok Bot）。",
     "no": 172
   },
   {
