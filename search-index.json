@@ -1,6 +1,55 @@
 {
-  "generated_at": "2026-10-06T05:25:22+08:00",
+  "generated_at": "2026-10-06T08:57:45+08:00",
   "days": [
+    {
+      "d": "2026-10-06",
+      "dd": "2026 年 10 月 06 日",
+      "no": 173,
+      "items": [
+        {
+          "k": "article",
+          "t": "UX Roundup: AI Errors Halve Every 5 Months | Muse Charm | Synthetic Users in Exploratory Design | Context | AI-Simulated Users Are Biased | Price Comparisons | Perceived Affordance | Consistency | Tab",
+          "b": "關鍵重點 AI 錯誤率每 5 個月減半： 作者引述 Mercor 研究，讓 12 名會計師與 Claude Opus 5 執行月結任務，AI 達成 100% 評分標準且成本僅為人類的 1/49、速度快 10 倍以上；frontier 模型的錯誤率從 2024 年 5 月的 96% 降至 2026 年 7 月的 0%，約每 5 個月減半（年降幅 81%），顯示 AI 在單一正確答案的分析任務上已形成「有限超智能」。 Meta Muse Charm 與 AI 隨身裝置： 作者認為 Meta 推出的 Muse 穿戴式 AI 助理（可透過語音與情境感知操作）具有潛力，並讚揚 Mark Zuckerberg 讓 Meta 從元宇宙失敗轉型為 AI 領導者、拒絕監管捕獲的呼籲，認為延遲 AI 進展將阻礙醫療與教育的進步。 合成使用者適合探索、不適合評估： 史丹佛與 KAIST 團隊的 FocusGen 研究顯示，由 1,000 個 AI persona 組成的虛擬焦點團體比通用 AI 多產生 58% 視覺多樣性，但僅為真人的一半；作者建議將合成使用者用於設計探索階段的「合成參與設計」（syntheticipation）以激發分歧思考，但評估階段必須回歸真人，因為另一篇研究（中國 4 所大學）證實 18 個對齊模型都呈現「仁慈偏見」（benevolence bias）——AI 反饋過於友善、低估用戶的固執、自私與挫折感，即使要求扮演負面角色也無法產生真實的批判性回饋。 可用性取決於真實情境： 作者強調測試必須在使用者實際工作的環境中進行（如倉庫工人戴手套、噪音干擾、使用手持掃描器），因為情境決定了何謂「可用」；在理想條件下（大螢幕、安靜、專注）測試職場軟體，會遺漏最重要的可用性問題。 定價頁面必須可比較、單一主動作原則與 von Restorff 效應： 作者批評常見定價頁將不同單位（月費／每人月費／談價）、重新命名功能、附加「最受歡迎」徽章等做法破壞比較性；同時提出每個畫面只應有一個主要動作（von Restorff 效應），並引用 1933 年 Hedwig von Restorff 的分離效應研究——當一件物品與眾不同時會被記住，但若所有元素都強調則等於沒有強調。 目錄（TOC）已有 2,100 年歷史仍有效、為老年人測試 AI： 作者指出公元 77 年 Pliny the Elder 在《自然史》中首次使用目錄並說明「不讓皇帝必須讀完所有內容」，證明資訊覓食理論（Pirolli & Card, 1999）：使用者追隨「資訊氣味」而非逐字閱讀；Wikipedia 在 Vector 2022 改版後讓 TOC 保持可見，導致跳轉次數增加 50%。另一項復旦大學研究（ElderBench）則顯示 9 個 AI 模型對 59–84 歲中國老年人的 249 項手機請求只有約 50% 成功率，因為老年人描述困難而非明確操作（「聲音太小聽不見」vs.「調高音量」），將請求改寫後成功率提升至 61%；作者強調必須招募真實老年使用者測試，讓 AI 承擔理解負擔而非強迫用戶學習「專家提示技巧」。 對設計／產品的啟示 作者建議設計與產品團隊採取「矽碳分工」策略：在探索階段利用 AI 合成使用者（synthetic personas）快速產生多元設計方向、打破固有思維，但在評估與驗證階段必須回到真實使用者測試，尤其要在實際工作情境中觀察（而非理想化實驗室），並納入老年等多元族群。同時應重新審視基本設計原則：讓定價頁可比較、每頁維持單一視覺焦點（von Restorff）、為長文加入目錄、讓 CTA 回答「我會得到什麼、去哪裡、接下來如何」三個問題，以及讓 AI 適應使用者的自然表達方式（尤其是老年人）而非要求用戶學習 AI 語言。最重要的是：不要用超過數月前的 AI 能力認知來判斷當前該在何處使用 AI，因為錯誤率每 5 個月減半的速度意味著「上季不行的事，本季可能已經可行」。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "Jakob Nielsen"
+        },
+        {
+          "k": "product",
+          "t": "Dots UI",
+          "b": "A React library for morphable particle interfaces 一個 React 函式庫，用於建立可變形的粒子介面效果，適合需要動態視覺呈現的前端開發者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "HyperFrames Studio (Desktop)",
+          "b": "The First Video Editor built for Agents 專為 AI Agent 設計的影片編輯器，讓自動化代理程式能夠執行影片剪輯任務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "iLand",
+          "b": "Turn your Mac's notch into an everyday workspace 將 Mac 螢幕瀏海區域轉變為可用的工作空間，提升螢幕利用效率。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Jarq",
+          "b": "Translate, shorten, fix or rewrite any text near your cursor 在游標附近快速翻譯、縮短、修正或改寫任何文字內容的工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Chain Exchange",
+          "b": "Trade, bridge and move stablecoins across Arc 在 Arc 區塊鏈上進行穩定幣的交易、跨鏈橋接與轉移服務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Pilot5 Legal",
+          "b": "Five AI models challenge every legal answer 使用五個 AI 模型交叉驗證法律問題的答案，提供更可靠的法律諮詢參考。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-10-05",
       "dd": "2026 年 10 月 05 日",
