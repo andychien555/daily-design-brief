@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-07",
-  "date_display": "2026 年 10 月 07 日",
-  "generated_at": "2026-10-07T08:56:00.313270+08:00",
+  "date": "2026-10-08",
+  "date_display": "2026 年 10 月 08 日",
+  "generated_at": "2026-10-08T08:56:01.791983+08:00",
   "top_products": [
     {
-      "title": "iphone-use",
-      "url": "https://www.producthunt.com/products/iphone-use",
-      "published": "2026-10-05T09:24:48-07:00",
-      "author": "郭立",
-      "tagline": "Let AI agents drive a real iPhone, even apps with no API",
-      "post_id": "1270701",
-      "summary_zh": "讓 AI 代理直接操作真實 iPhone 設備，即使應用程式沒有提供 API 也能執行自動化任務。適合需要在 iOS 環境進行自動化測試或操作的開發者。",
-      "image_url": "https://ph-files.imgix.net/b818cc00-fc5f-48b8-98c8-3815bced156d.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d28c108c-8f76-44a0-baf4-833093baf7da.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Featherweight Dictation",
+      "url": "https://www.producthunt.com/products/featherweight-dictation",
+      "published": "2026-10-06T05:12:07-07:00",
+      "author": "Rohit C",
+      "tagline": "Dictation that weighs nothing, for Mac and Windows",
+      "post_id": "1271569",
+      "summary_zh": "適用於 Mac 和 Windows 的輕量級語音輸入工具，提供不佔系統資源的聽寫功能。",
+      "image_url": "https://ph-files.imgix.net/b8b04772-1b97-4a47-88b9-112bab031e98.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/2aed9daa-6660-48a2-882d-99a59748be21.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Rill Browser",
-      "url": "https://www.producthunt.com/products/rill-3",
-      "published": "2026-10-04T23:40:56-07:00",
-      "author": "Zac Zuo",
-      "tagline": "The browser where Claude Code and Codex work beside you",
-      "post_id": "1270095",
-      "summary_zh": "整合 Claude Code 和 Codex 的瀏覽器，讓 AI 助手在瀏覽過程中協助編程工作。專為需要邊瀏覽邊寫程式的開發者設計。",
-      "image_url": "https://ph-files.imgix.net/25e6eab0-3c1c-4a4f-a18a-74d5e6e8b38c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/68a2e13a-55a4-4e98-b581-281ead67bd56.png?auto=format&w=960&h=540&fit=crop"
+      "title": "SunSed",
+      "url": "https://www.producthunt.com/products/sunsed",
+      "published": "2026-10-06T00:48:03-07:00",
+      "author": "Amin Seyedi",
+      "tagline": "The first AI app builder with a language made for AI",
+      "post_id": "1271340",
+      "summary_zh": "首個使用專為 AI 設計的程式語言來構建應用程式的 AI 應用建構工具，簡化開發流程。",
+      "image_url": "https://ph-files.imgix.net/15c45644-6c50-4003-9a85-a1e5eda64c10.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/42add35c-bc31-4298-987e-b083796cb75e.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Customer Service AI for Etsy",
-      "url": "https://www.producthunt.com/products/customer-service-ai-for-etsy",
-      "published": "2026-10-05T14:26:37-07:00",
-      "author": "Adam",
-      "tagline": "Answer Etsy buyer messages in seconds, always professional",
-      "post_id": "1270986",
-      "summary_zh": "針對 Etsy 賣家的 AI 客服工具，能快速回覆買家訊息並維持專業語氣。協助賣家提升客服效率。",
-      "image_url": "https://ph-files.imgix.net/265d8920-3ca3-4656-afc7-ed1cb367d8ce.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/8edbfce3-9d4c-4099-853e-a245856fd1ed.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Aura by Neural",
+      "url": "https://www.producthunt.com/products/aura-by-neural",
+      "published": "2026-10-06T19:05:50-07:00",
+      "author": "Khaled Shadid",
+      "tagline": "Turn requests into interactive interfaces on your screen",
+      "post_id": "1272196",
+      "summary_zh": "將使用者的請求轉換為螢幕上的互動式介面，提供視覺化操作體驗。",
+      "image_url": "https://ph-files.imgix.net/6cb1b9ce-c999-4e77-ab8e-23fa969083bc.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/6622627c-7fcd-413c-abe1-4565b714c85b.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Lecta",
-      "url": "https://www.producthunt.com/products/lecta",
-      "published": "2026-10-04T19:21:59-07:00",
-      "author": "TOMO",
-      "tagline": "Doomscroll your study material with short videos & games",
-      "post_id": "1269944",
-      "summary_zh": "將學習內容轉換成短影片和遊戲形式，讓使用者以滑動瀏覽方式學習。針對偏好碎片化內容的學生族群。",
-      "image_url": "https://ph-files.imgix.net/062238bc-08de-4bd2-9314-721f40323fc3.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/9c9556ea-47df-4481-bcd5-b56ed7cf5b9d.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Reika",
+      "url": "https://www.producthunt.com/products/reika",
+      "published": "2026-10-06T20:36:08-07:00",
+      "author": "Alex",
+      "tagline": "A coding agent CLI designed around small local models first",
+      "post_id": "1272248",
+      "summary_zh": "以命令列介面運作的程式碼代理工具，專為小型本地模型優先設計，適合開發者使用。",
+      "image_url": "https://ph-files.imgix.net/cedeaf9a-c2ed-4f86-bab8-d011f58e1db4.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/65ef85b2-d859-4fc8-86fe-d1082ec418b7.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Review",
-      "url": "https://www.producthunt.com/products/review-2",
-      "published": "2026-10-05T14:01:00-07:00",
-      "author": "Hamed Qaderi",
-      "tagline": "Code review on your own machine, with your own AI",
-      "post_id": "1270972",
-      "summary_zh": "在本地端運行的 AI 程式碼審查工具，使用自己的 AI 模型進行程式碼檢查。適合重視隱私與客製化的開發團隊。",
-      "image_url": "https://ph-files.imgix.net/14368262-306a-4b0a-8910-c81848ba7898.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/3e0ecfde-4964-45d1-b688-0adc6cc0fa0f.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Basedash Mobile",
+      "url": "https://www.producthunt.com/products/basedash",
+      "published": "2026-10-06T09:38:41-07:00",
+      "author": "Max Musing",
+      "tagline": "Ask your data out loud, right from your Home Screen.",
+      "post_id": "1271845",
+      "summary_zh": "可直接從手機主畫面透過語音查詢資料的行動應用，簡化資料存取流程。",
+      "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/45f0661c-e71a-4dda-81b5-bb09ae479445.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Floani",
-      "url": "https://www.producthunt.com/products/floani",
-      "published": "2026-10-04T18:59:25-07:00",
-      "author": "Elber Domingos",
-      "tagline": "Create, animate, and share AI-powered diagrams",
-      "post_id": "1269926",
-      "summary_zh": "AI 驅動的圖表製作工具，可建立、動畫化並分享各類圖解內容。適合需要製作視覺化說明的使用者。",
-      "image_url": "https://ph-files.imgix.net/1b2d0e69-cb02-45c2-a950-ba611831a86d.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/7715fd5e-54a7-4929-8c95-ac06aebeefc0.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Knuff App",
+      "url": "https://www.producthunt.com/products/knuff-app",
+      "published": "2026-10-06T07:32:47-07:00",
+      "author": "Gabrielle Zenati",
+      "tagline": "Family check-in app to know your people are okay",
+      "post_id": "1271707",
+      "summary_zh": "家庭成員安全確認應用，讓使用者能即時掌握家人的平安狀態。",
+      "image_url": "https://ph-files.imgix.net/0dc5657c-2926-49a1-a5f6-8dd5d05db13f.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d6ee475d-a5c1-439c-b192-0a4087608c92.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,61 +77,29 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "1f57-45ba-47d3-9f15-2129a0c645a8",
-      "title": "EP703 | 🏈",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/0b071f57-45ba-47d3-9f15-2129a0c645a8",
-      "published": "2026-10-07",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人分享運動心得與台股破 5 萬點後的部位管理思維，認為應提前規劃若供應鏈由缺貨轉入寬鬆時的避險策略，透過調整持股結構與現金水位來控制風險。\n\n## 1. 個人運動規劃：從網球到脚踏車的長期投入\n- **網球訓練成果顯著：** 練習約 3–4 個月、每週 2–3 堂課，首次實戰發球成功率達 90% 以上，歸功於高頻率練習與實戰磨練。\n- **購入頂級公路車：** 直上世界冠軍波加查同款 Pinarello Dogma F（標記為「Y1RS」），搭配高階變速器，目標避免「買了掛牆上」而設定階段性任務（如 10K→21K→42K 馬拉松）。\n- **運動作為主導、工作配合：** 將運動視為長期目標而非短期減重計畫，希望到四五十歲仍能維持良好體態與精神狀態，以身邊健康活躍的長輩為榜樣。\n\n## 2. 台股創新高後的部位管理策略\n- **指數上看 5 萬點但不認為是終點：** 以台積電（TSMC）未來 1–3 年 EPS 推算，5 萬點應非天花板；但歷史顯示供應鏈狂潮「怎麼上去就怎麼下來」，需提前規劃避險。\n- **不採股債配置、維持股票核心：** 主講人認為年紀未到且不想錯過上漲，故不切換股債配置，而是透過調整持股結構與現金水位來控制風險。\n- **剔除未跟上大盤的弱勢股：** 大盤創新高時若個股未至少在月新高附近，即視為轉弱訊號須檢碼或停損，避免未來回檔時受傷最深。\n\n## 3. 供應鏈循環反轉的避險思路\n- **缺貨概念股 vs. 出貨量概念股：** 主講人規劃配置「因零組件價格下跌而受惠」的公司（如過去抱怨 CPU、記憶體漲價的品牌廠），作為現有缺貨題材的 hedge；雖同為股票資產，但受惠方向相反。\n- **識別受害轉受惠標的：** 可上網搜尋「因缺料、漲價而受害」的新聞，這些公司在供應鏈寬鬆、價格拉平後將因出貨量放大而受惠；反之，現在噴最凶的缺貨股屆時將受害。\n- **不做股債配置改以現金水位調節：** 透過提高 cash position（或降低槓桿）保留彈性，若遇修正可加碼抄底，同時避免流動性風險（部分標的進容易出難）。\n\n## 4. 趨勢判斷與技術面實務\n- **親自下單測試盤面強弱：** 主講人強調「下去點看看」最準確——點關鍵價位或整數關卡，若無人追價或隔日開高乏力，即代表行情未到；隔日沖老手也用此法確認 FOMO 氛圍。\n- **技術指標看均線更難造假：** 相較日 K 易受短期操作影響，月線、季線的斜率與扣抵值更能反映趨勢；但主講人不喜歡「造假」說法，認為多數時候只是拉不動而非刻意出貨。\n- **基本面才是長期方向：** 短期炒作可能讓基本面差的標的先漲，但長期 EPS 成長趨勢仍決定股價趨勢；突破第一根時選基本面強的勝率更高。\n\n## 5. 投資心態與生活觀察\n- **沒有人真的知道明天會怎樣：** 引用《華爾街之狼》台詞——股票會漲、會跌、會橫盤，連華倫·巴菲特都不知道；投資只能判斷「機率稍高」而非絕對，不應幻想有全知主力。\n- **不刻意社交、專注修煉：** 主講人從未刻意攀附人脈或參加商會社團，十年如一日持續深入研究；認為所有問題答案都在自己腦中，不需依賴外部課程或導師。\n- **相對財富觀與謙卑心態：** 一天部位波動可能超過節目年收入，但主講人以「太陽系外太陽只是小恆星」比喻，強調一切相對；業配收入對心態穩定有幫助，但不是核心支撐。\n\n## 結論與後市展望\n主講人認為台股多頭格局未變、5 萬點非終點，但隨著大盤新高應提前思考供應鏈由缺貨轉寬鬆時的避險：剔除未跟上的弱勢股、提高現金水位或降槓桿、並配置「因降價受惠」的標的作為 hedge。強調「戒慎恐懼時多頭走更久」，只要大家未全面 FOMO 就仍健康；但若真遇崩盤，至少保留彈性可加碼而非被套牢。投資本質是每天持續做判斷，能長期持有本身就是實力而非純運氣。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-07"
-    },
-    {
-      "episode_id": "2414469291",
-      "title": "2026/10/7(三)輝達衝6兆市值 估值更便宜?AI越燒越多 錢從哪裡來？【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-10-7-6-ai",
-      "published": "2026-10-07",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為輝達市值逼近 6 兆美元但本益比創十年新低（約 17 倍），反映獲利成長速度遠超股價，因此估值並不貴；高利率雖衝擊中小型股與實體產業，但 AI 科技巨頭因獲利強勁仍具支撐，投資人可用科技型 ETF 搭配現金保留來參與行情並保有加碼彈性。\n\n---\n\n## 1. 美股表現：標普連創新高但內部分化明顯\n- **指數屢創紀錄但上漲面窄：** 標普 500 周二收 7,818 點，今年第 28 次歷史新高（去年 39 次、前年 57 次）；但標普等權指數距高點仍低約 5%，500 家成分股僅三分之一自 9 月中以來上漲。\n- **獲利集中少數巨頭：** 第三季獲利成長前十大企業貢獻 68%，美光占 19%、輝達 15%、Meta 7%；產業層面資訊科技獲利增 64%，能源因美伊戰事增 109%，但金融僅增 1%、非必需消費零成長。\n- **中小型股與實體產業承壓：** 無獲利科技股平均回檔 19%、房地產與公用事業跌 15%、小型股跌 9%；羅素 2000 近期嘗試突破下降趨勢，但高利率對非科技股衝擊仍在。\n\n## 2. 輝達估值矛盾：市值 5.8 兆但本益比創十年新低\n- **市值挑戰 6 兆美元：** 輝達股價創新高，市值 5.8 兆美元，超越英國（3.48 兆）、台灣（3.44 兆）、加拿大（3.43 兆）等國整體股市，將成全球首家市值破 6 兆的企業。\n- **本益比降至 17.2 倍：** 當前本益比從 2023 年 150 倍降至現在約 38 倍，前瞻本益比（2026–27 年）僅 17.2 倍，低於 2020 疫情、2022 烏俄戰爭、2023–2024 關稅戰各時期低點；主因獲利上修速度（27 財年營收增 90%、淨利翻倍，28 財年營收再增 70%）遠超股價漲幅。\n- **FANG 成員表現差異：** 今年美光漲 273%、輝達 29%、蘋果 22%、Meta 12%、Alphabet/Amazon 約 10%，Netflix 跌 27%；輝達在 FANG 中已是穩盤角色，非漲幅最快者。\n\n## 3. AI 資本支出與泡沫警訊：歷史經驗顯示股價領先指標\n- **IT 資本支出處高位但屬落後指標：** 今年第二季美國 IT 資本支出年增 19%，高於 2000 年網路泡沫時的 15%；但歷史顯示股價見頂後資本支出才遞減（2000 年落後 13 個月、1989 日本落後 8 個月、2014 頁岩油落後 5 個月）。\n- **市場集中度創 40 年新高：** 標普 500 前十大企業占指數權重約 40%（2000 年僅 27%），占未來 12 個月獲利預估 37%；但與過去泡沫不同的是，現在獲利成長速度超過股價，估值反降。\n- **科技巨頭持續大舉融資：** AMD 蘇姿丰宣布在台擴大投資 100 億美元並將產能規劃拉長至 3–5 年；SpaceX 計劃再籌資 400 億美元購買輝達晶片（100 億銀行貸款 + 300 億投資級債，殖利率 7–8%），顯示 AI 基建投資仍在加速。\n\n## 4. 高利率的選擇性衝擊：科技股抗壓、實體與小型股承壓\n- **大型科技股因獲利強而估值降：** 高利率未擊垮大型科技股，因其獲利成長（標普 500 第三季平均增 27%）抵銷利率壓力，估值反降；但中小型股、房地產（REIT 跌 10%）、公用事業（跌 15%）受創明顯。\n- **羅素 2000 嘗試反彈：** 小型股指數近日突破 200 日均線與 8 月來下降趨勢，杠杆基金空單處歷史高點；主講人認為若利率不再升高，小型股可能因空頭回補而急彈，但尚未解除高利率衝擊。\n- **通膨外溢風險持續：** 原油雖回落至 98 美元/桶（WTI 87 美元），但全年能源漲幅仍大（熱燃油 +107%、汽油 +86%、布蘭特 +61%）；白糖因歐盟、巴西減產漲 38%，農糧價格仍有壓力，利率預期難全面回落。\n\n## 5. 投資策略建議：科技核心搭配現金保留以換取選擇權\n- **集中科技 ETF + 保留現金：** 主講人建議若擔心 AI 泡沫但又怕錯過行情，可將資金集中於科技或半導體 ETF（如 QQQ、SOXX），保留 10–20% 現金；這樣既能參與 AI 上漲（因科技股是大盤主引擎），又在市場極端回調時有加碼能力。\n- **現金作為「選擇權」：** 類比德鐵誤點策略（買便宜但易誤點的車票，誤點 20 分鐘解除限制即獲彈性），現金價值不只是今年少賺多少，而是未來市場若跌 30–40% 時擁有低接權利；別人滿倉只能看跌，你有子彈加碼。\n- **無法逃離 AI 網絡：** 主講人提醒，即使不買科技股，資金也可能透過企業債、退休基金、銀行貸款間接流入 AI（SpaceX、科技巨頭大舉發債融資建資料中心）；標普前十大占 40% 且全做 AI，投資人實際上已身處 AI 網絡。\n\n## 6. 超微（AMD）與供應鏈動態：蘇姿丰來台宣布擴大投資\n- **AMD 在台再投資 100 億美元：** 蘇姿丰拜會台積電與封測大廠，預估 2027 年 CPU/GPU/AI 產品供應大增；AMD 產能規劃時間尺度從過去 1–2 年（常半年抽單）拉長至 3–5 年，提前鎖定晶圓與封裝產能。\n- **供應鏈仍集中台灣：** 儘管強調分散供應鏈至不同國家，蘇姿丰承認「最終還是要從台灣出貨」，因此密集拜會台灣供應鏈夥伴（台積電、日月光等）。\n\n## 結論與後市展望\n主講人認為當前 AI 行情核心矛盾在於：市值與資本支出均創紀錄，但獲利成長速度更快導致估值反降（輝達本益比創十年低點）。高利率確實衝擊中小型股與實體產業，但大型科技股因財務體質強與獲利爆發而抗壓；投資人無需過度糾結是否 all in AI，因資金已透過債券、基金等管道流入 AI 生態。操作上可採「科技型 ETF + 現金保留」策略，既參與上漲又保有回調時的加碼彈性，將現金視為「選擇權」而非機會成本。風險面需持續觀察資本支出是否見頂（歷史上股價領先 5–13 個月）及通膨是否再升溫；但只要獲利持續超預期，估值偏低將支撐股價，泡沫破裂條件尚未成立。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-07"
-    }
-  ],
+  "podcast_briefs": [],
   "article_briefs": [
     {
-      "title": "Your app's growth has stalled: what now?",
-      "url": "https://www.revenuecat.com/blog/growth/app-growth-stalled",
-      "published": "2026-10-06",
+      "title": "Box Box's first message from Formula One was a legal notice, and its two founders were happy to get it",
+      "url": "https://www.revenuecat.com/blog/growth/ranjith-ramanan-kamal-kumar-box-box-club-launched-podcast-2026",
+      "published": "2026-10-07",
       "author": "RevenueCat",
       "handle": "revenuecat",
       "source": "RevenueCat Blog",
       "label": "訂閱成長",
-      "summary_md": "## 一句話總結\n作者認為成長停滯是所有訂閱 App 的必經之路，關鍵不是追究外部因素或慌亂實驗，而是透過系統性診斷框架找出內部可控的真正瓶頸。\n\n- **成長停滯多數源於內部決策：** 研究顯示僅約 13% 的成長停滯由外部因素驅動，其餘來自內部決策，且多數公司至少會經歷一次重大停滯。作者建議先區分「短期波動」與「真正停滯」——例如若通常週成長 5–10%，當下跌 20% 時才需深入調查；並需考慮季節性，作者的客戶在第八年仍會因應淡季調整預期。\n\n- **四步診斷框架：** 作者提出四個問題：(1) 是波動還是停滯？(2) 是否在你控制範圍內？(3) 成長在哪個環節崩解？(4) 該採取什麼行動？多數人直接跳到第四步，但真正價值在於前三步的系統性審視。Mimo 透過此框架發現 LTV 與 CAC 的連動關係，在一年內將 LTV 提升 65%、付費 CAC 降低 20%。\n\n- **十大常見成長停滯原因：** 作者列出包括產品市場適配不足、訊息定位過廣、過度依賴單一獲客管道、陷入低效優化、團隊各自為政等。Mob 從 120 萬英鎊債務翻身至 280,000 付費訂閱與 1,250 萬美元 ARR，關鍵在於砍掉分心項目（餐車、香料包、副產品）、每週訪談用戶找到真正的 Job to Be Done（「平日晚餐不費腦的可靠選擇」），並收窄定位。\n\n- **早期 vs. 成熟期審計重點：** 早期應確認產品市場適配——至少 40% 用戶會因失去 App 感到非常失望且願意付費；若三天試用取消率遠高於基準（State of Subscription Apps 2026 顯示 55% 發生在第零天），問題可能更深層。成熟期則聚焦管道擴展、價格包裝與留存——Reading.com 測試從 4.99 美元到 19.99 美元的定價，最終選定 12.49 美元，並將網頁端免費試用改為 30 天退款保證，雖轉換率降低但提升用戶意圖強度。\n\n- **殺掉無效管道的決策準則：** 作者建議若某管道 CAC 達目標 4–5 倍，且嘗試過不同格式與角度（非僅調整文案）仍無改善，就應考慮大幅調整或放棄。重新計算管道成本時需納入團隊工時，許多創辦人因媒體花費看似可接受而保留管道，卻忽略團隊時間成本讓真實 CAC 遠高於預期。\n\n- **創辦人自身可能是瓶頸：** Mob 第四課是團隊在 offsite 向創辦人 Ben Lebus 直言「讓我做我的工作」，他退出不必要的 Slack 頻道後團隊加速前進。作者強調審計時需誠實檢視創辦人介入是否反而阻礙團隊效率。\n\n## 對設計／產品的啟示\n作者建議將成長停滯視為系統性診斷機會而非緊急滅火，先透過 North Star 指標拆解獲客、啟動、留存與變現各環節的連動關係（如 Mimo 的 paywall 調整影響方案選擇、進而改變 LTV 與可負擔的 CAC），再評估每個假設是該規模化、修復還是放棄。對設計與產品團隊而言，關鍵在於持續用戶訪談（Mob 每週進行）找到真正的核心價值主張，並誠實面對產品是「維他命」還是「止痛藥」，避免陷入表面優化而忽略根本的產品市場適配問題。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-07"
+      "summary_md": "## 一句話總結\n兩位印度開發者因熱愛 F1 而打造的免費 widget App Box Box，在用戶主動要求付費後才加入訂閱制，一年內靠 TikTok 病毒擴散與車隊轉發達到 25 萬下載，最終連 F2 車手都主動加入董事會並在賽車上貼滿 Logo。\n\n- **從法律警告到品牌認可：** 作者提到 F1 官方第一次接觸是寄法律警告（商標與字型侵權），兩位創辦人反而很高興「代表 F1 注意到我們了」；後來 F2 車手 Juan Manuel Correa 主動聯繫並以策略夥伴身分加入董事會，車手頭盔與賽車都貼上 Box Box Logo，且**完全不是付費贊助**。\n\n- **病毒行銷來自用戶自發內容：** 作者指出下載高峰來自兩波：一位墨西哥粉絲在 TikTok 發影片達百萬觀看，首週帶來近 5,000 下載；iOS 16 鎖屏 widget 上線當天 Box Box 即支援，賓士 F1 官方帳號發起「曬鎖屏」活動時粉絲截圖裡出現 Box Box widget，**該推文後一週內帶來 25 萬下載**；後續 Haas、Aston Martin 也在 TikTok 推薦，再加上 Charles Leclerc 的 vlog 中被粉絲發現使用 Box Box。\n\n- **用戶主動要求付費才加訂閱：** 作者強調團隊一開始完全免費並設 WhatsApp 客服，結果用戶回應「你們做得很好，我想付錢」；創辦人因此訂下規則：**既有功能全部保持免費**，付費層只加入新功能（主題、Apple Watch App、complications）；首次定價 5.99 美元/年（按賽季計），用戶反映太便宜並要求「給你們更多錢的地方」，於是透過 RevenueCat 加入多層級訂閱，較低層用戶仍能獲得部分新功能；定價決策來自季末問卷，**收到 5,000–6,000 份回覆**。\n\n- **設計優先的開發流程：** 作者觀察設計師 Ranjith 與工程師 Kamal 的合作模式：Ranjith 不寫 code 但在推特發 F1 widget 概念圖後找到 Kamal（兩人因共同朋友的桌布相簿認識一年但從未交談）；首版**一個月內完成**，兩人在美國工作電話結束後晚上 11 點到凌晨 3–4 點協作；Ranjith 會刻意**對 Kamal 隱藏未完成設計**，因為 Kamal 太投入、看到半成品就會連夜開發出來。\n\n- **視覺設計驅動的「wow」與「多人效應」：** 作者引述 Ranjith 的設計哲學：追求首次打開的「wow」與「multiplayer effect」——「你看到 App 就成為 UGC」並展示給下一個人；Charlie 認為 TikTok 病毒傳播雖有運氣成分，但前提是**App 視覺夠吸睛才能在影片中被注意到**，這對所有視覺型產品都是教訓。\n\n## 對設計／產品的啟示\n作者建議設計師與工程師搭檔能強迫「設計先於程式碼」，工程師解決美觀設計的技術挑戰比遷就易開發功能更有成就感；對訂閱制產品，用戶主動要求付費是最好信號，但加入付費層時應**保護既有免費用戶權益**、只用新功能建立價值階梯；視覺型產品應設計「可被分享的時刻」（如鎖屏 widget），讓用戶自然成為內容生產者；大規模問卷（5,000+ 份）能有效驗證定價，但問卷設計可適度「灌水」問題以降低用戶警覺。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-08"
     },
     {
-      "title": "Early Apple Retention Messaging benchmarks from 22M messages",
-      "url": "https://www.revenuecat.com/blog/growth/apple-retention-messaging-benchmarks",
-      "published": "2026-10-06",
-      "author": "RevenueCat",
-      "handle": "revenuecat",
-      "source": "RevenueCat Blog",
-      "label": "訂閱成長",
-      "summary_md": "## 一句話總結\nRevenueCat 分析 309 款 App、2,200 萬筆 Apple Retention Messaging 數據，發現中位數挽留率為 17%，但幾乎不影響整體取消訂閱率，且折扣接受率不到 1%。\n\n- **大型 App 優先採用：** 月營收超過 100 萬美元的 App 中有 44% 已試用 Retention Messaging，10 萬至 100 萬美元區間僅 17%，更小型 App 低於 5%——反映這是需要 Apple 核准的早期功能，但大型訂閱業務即使微幅改善也能影響數千訂戶。\n\n- **挽留率中位數 17%，但變異極大：** 作者發現中位數 App 有 17% 看到訊息的用戶在 24 小時內未取消；但前 25% App 超過 27%、前 10% 達 42% 以上，後 25% 則不到 10%——顯示成效因 App 而異，且此指標無法區分「因訊息而留」或「原本就會留」。\n\n- **87% App 提供折扣或方案轉換，但接受率僅 0.5–0.7%：** 作者統計 430 萬次折扣優惠與 130 萬次方案切換提議，分別只有約 29,000 次與 7,000 次被接受（0.68% 與 0.52%）——多數「挽留成功」案例並非接受優惠，而是用戶看到訊息後延遲或重新考慮取消。\n\n- **未發現對整體取消率的明確影響：** 作者比較 64 款 App 啟用前後三個月，34% 使用 Retention Messaging 的 App 取消率下降 10% 以上，但未使用的對照組有 46% 達成同樣降幅；啟用後取消率降幅為 3.6%，對照組為 7.3%——兩組趨勢相似，數據無法證明功能有顯著效果。\n\n- **折扣非唯一策略，應針對取消原因測試：** 作者建議開發者在預設提供折扣前先做實驗，因為低接受率不代表折扣不夠大，價格可能根本不是問題；應根據取消問卷、客服對話與使用數據找出原因，對應測試不同訊息（價格敏感用戶給折扣、需求改變者建議轉方案、可能忽略功能者做提醒）。\n\n- **精準投放比全面折扣重要：** 作者警告若每位開啟取消畫面的用戶都能拿到折扣，部分人會學到「假裝取消就能降價」；RevenueCat 支援排除試用期用戶或已兌換優惠者，但直接在 App Store Connect 設定則無此彈性——建議透過 Retention Messaging Experiments 同時測試四組訊息，追蹤續訂與營收而非只看挽留率。\n\n## 對設計／產品的啟示\n作者指出 Retention Messaging 的早期數據未顯示立即、明確的取消率改善，建議產品與設計團隊別急著把折扣當預設方案。實務上應先透過取消問卷、客服紀錄與行為數據釐清用戶為何離開，再針對不同原因設計對應訊息（例如提醒被忽略的功能、建議更符合需求的方案）；同時設定精準投放規則避免訓練用戶「假裝取消拿折扣」，並以 A/B 測試追蹤續訂與營收——挽留率高不等於真正留住付費用戶。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-07"
-    },
-    {
-      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
-      "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
-      "published": "2026-10-05",
-      "author": "Import AI",
-      "handle": "importai",
-      "source": "Import AI",
-      "label": "AI 週報",
-      "summary_md": "## 一句話總結\n作者認為 AI 發展正進入「多代理協作」（swarm）與「AI 科學家」時代，但需要新的市場機制與監管框架來管理資源分配與生物安全風險。\n\n- **Swarm 擴展的時間優勢與協調稅：** 作者引述 Toby Ord 研究指出，多代理群體雖需消耗約兩倍 token 才能達成相同表現，但因平行運算可將完成時間減半；然而擴展存在「踩腳趾參數」（stepping on toes parameter），10 倍代理數僅帶來 3–5 倍效能提升，類似人類團隊的協調成本遞增現象。\n\n- **美國民意要求政府監管 AI：** 作者提及 CSAIP 民調顯示 61% 美國人（樣本數 2,498）認為企業自律協議「不夠」，54% 選民支持政府設立並執行 AI 規範，包括 53% 川普選民與 61% 賀錦麗選民，反映民意與華盛頓政策立場的不穩定落差。\n\n- **Google DeepMind 為 AI 生成生物序列加入浮水印：** 作者介紹 SynthID Bio 透過調整胺基酸序列或 3D 結構原子座標來嵌入浮水印，實驗室測試顯示浮水印版本的命中率、結合親和力與自然序列多樣性皆與未加浮水印版本相當，作為生物安全防護的一環。\n\n- **SciUniverse 基準測試顯示 AI 已能操作部分自動化實驗室：** 作者說明該基準包含 92 項任務，涵蓋化學、生物、材料科學等領域；Claude Fable 5.1 (xhigh) 以 45.3% 通過率與每任務 $40.61 成本領先，GPT-5 Astra (xhigh) 為 32.5%（$52.37），顯示 AI 系統在自動化科學工作上的進展。\n\n- **DeepMind 提議建立「AI 科學經濟體」：** 作者指出 DeepMind 認為 AI 科學家將受制於物理資源而非構想能力，建議建立包含「構想證明」「事前評估」「經紀交易」「驗證分潤」四機制的市場，讓提出構想與執行實驗者能分工並透過代幣／運算額度交易，以應對科學構想激增與實驗資源稀缺的挑戰。\n\n## 對設計／產品的啟示\n作者建議產品與政策制定者需為 AI 能力的新擴展維度（swarm 協作、自動化科學）做好準備：追蹤多代理協調效率的改善、建立生物安全浮水印等技術標準、設計科學資源的市場化分配機制，以及回應民意對監管的期待，這些將是接下來幾年 AI 產品與治理框架的關鍵考量。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-07"
+      "title": "Behavioral Economics &#38; UX: Design for Irrational Humans",
+      "url": "https://www.uxtigers.com/post/behavioral-economics",
+      "published": "2026-10-07",
+      "author": "Jakob Nielsen",
+      "handle": "jakobnielsen",
+      "source": "UX Tigers",
+      "label": "UX 好文",
+      "summary_md": "## 一句話總結\n作者指出行為經濟學已透過三位諾貝爾獎得主證實人類並非理性決策者，而每個介面都是「選擇架構」，設計者無法選擇不影響使用者決策，只能選擇做得好或壞、誠實或不誠實——而現實數據顯示大多數輕推效果僅約 1.4 個百分點，遠低於學術文獻中的 8.7 個百分點。\n\n---\n\n- **有限理性與 Simon 的剪刀隱喻：** 作者說明人類受限於時間、注意力與計算能力，只能「滿意即可」而非最佳化；Herbert Simon 提出的剪刀隱喻指出設計者永遠無法磨利使用者的認知能力（第二片刀刃），但可以優化任務環境結構（第一片刀刃，也就是你的產品）——這是 HCI 與行為經濟學的共同奠基思想，Simon 是唯一同時獲得諾貝爾經濟學獎與圖靈獎的人。\n\n- **選擇過載的真相與條件：** 作者引用演變研究指出，經典果醬實驗（24 種口味僅 3% 購買，6 種口味 30% 購買）後來被 2010 年統合分析推翻（平均效應幾乎為零），但 2015 年研究釐清過載取決於四個調節因子：選項複雜度、決策費力程度、偏好不確定性與時間壓力——選項數量本身預測力很小，這解釋了 Amazon 能以數億商品成功（透過搜尋、篩選、評論縮小範圍）。\n\n- **損失厭惡的 2:1 法則與框架效應：** 作者指出 Kahneman 與 Tversky 證實人們對損失的痛苦約為等額獲得快樂的兩倍；經典疾病問題中，72% 受試者選擇「拯救 200 人」方案，但僅 22% 選擇邏輯等價的「400 人死亡」方案——這在 40 年後的 Many Labs 研究中仍能乾淨複製，意味著重新設計移除有價值功能時，其他地方需要約 2 倍收益才能讓使用者認為持平。\n\n- **預設值與現狀偏誤的巨大力量：** 作者引用研究指出，歐洲器官捐贈率從德國的 12% 到奧地利的 99.98%，幾乎完全由預設值（選入 vs. 選出）決定；預設值同時拉動努力、背書（預選項被視為推薦）、稟賦（預設成為「我的」後離開感覺像損失）三個槓桿——Johnson 與 Goldstein 計算若美國改為預設選入，每年可多救 4,000 條生命。\n\n- **輕推效果的真實校準與發表偏誤：** 作者引用 DellaVigna 與 Linos 對 126 個 RCT（涵蓋 2,300 萬人）的研究指出，學術論文中輕推平均提升參與率 8.7 個百分點，但完整記錄中僅 1.4 個百分點（約為前者六分之一）；78% 的試驗效果極小（中心值 0.35 個百分點），只有 22% 達到顯著效果（中心值 5.09 個百分點）——作者強調 1.4 個百分點是應用行為科學中最重要的校準數字。\n\n- **AI 時代的新錨點與演化錯配：** 作者觀察到 2026 年後 AI 初稿成為強大錨點，編輯者很少大幅偏離模型的結構、主張和數字；同時指出人類的快速捷思法幫助祖先避開草叢中的獅子，但現在用於處理無限滾動與 40 個定價選項——生物學家稱此為「演化錯配」，Gigerenzer 學派提出「生態理性」：捷思法本身無所謂聰明或愚蠢，只有與環境匹配或不匹配之分。\n\n---\n\n## 對設計／產品的啟示\n作者提供 50 條具體設計指引，核心原則包括：採用先摘要後細節的漸進式揭露、用可辯護基準錨定（並揭露來源）、同時顯示絕對值與相對值避免框架操弄、保留使用者建立的內容以尊重心理所有權、將預設值視為道德責任而非黑暗模式。作者特別強調決策公式「期望值 = 效果大小 × 每次轉換價值 × 觸及人數」，提醒設計者若現實的 0.5 個百分點提升不值得建置成本就不要建置，但涉及選擇重新設計與預設值的介入（前四分位數效果）幾乎在任何地方都值得追究。作者引用 Simon 的思想總結：設計者的工作就是磨利剪刀的第一片刀刃——優化任務環境結構，讓有限理性的真實人類能「足夠好」地完成目標，而非假設他們是完美計算機。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-08"
     }
   ]
 }
