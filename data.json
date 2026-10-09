@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-08",
-  "date_display": "2026 年 10 月 08 日",
-  "generated_at": "2026-10-08T08:56:01.791983+08:00",
+  "date": "2026-10-09",
+  "date_display": "2026 年 10 月 09 日",
+  "generated_at": "2026-10-09T08:56:10.051188+08:00",
   "top_products": [
     {
-      "title": "Featherweight Dictation",
-      "url": "https://www.producthunt.com/products/featherweight-dictation",
-      "published": "2026-10-06T05:12:07-07:00",
-      "author": "Rohit C",
-      "tagline": "Dictation that weighs nothing, for Mac and Windows",
-      "post_id": "1271569",
-      "summary_zh": "適用於 Mac 和 Windows 的輕量級語音輸入工具，提供不佔系統資源的聽寫功能。",
-      "image_url": "https://ph-files.imgix.net/b8b04772-1b97-4a47-88b9-112bab031e98.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/2aed9daa-6660-48a2-882d-99a59748be21.png?auto=format&w=960&h=540&fit=crop"
+      "title": "OpenSEO",
+      "url": "https://www.producthunt.com/products/openseo",
+      "published": "2026-10-06T21:29:30-07:00",
+      "author": "fmerian",
+      "tagline": "The open source Semrush alternative",
+      "post_id": "1272262",
+      "summary_zh": "開源的 SEO 分析工具，提供類似 Semrush 的關鍵字研究與網站優化功能，適合需要 SEO 數據分析的行銷人員與網站管理者。",
+      "image_url": "https://ph-files.imgix.net/2c78fe4a-262c-48b2-a376-365b77bf6eeb.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5b5be751-d20e-4ac8-aa11-e316046df1ab.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "SunSed",
-      "url": "https://www.producthunt.com/products/sunsed",
-      "published": "2026-10-06T00:48:03-07:00",
-      "author": "Amin Seyedi",
-      "tagline": "The first AI app builder with a language made for AI",
-      "post_id": "1271340",
-      "summary_zh": "首個使用專為 AI 設計的程式語言來構建應用程式的 AI 應用建構工具，簡化開發流程。",
-      "image_url": "https://ph-files.imgix.net/15c45644-6c50-4003-9a85-a1e5eda64c10.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/42add35c-bc31-4298-987e-b083796cb75e.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Epilude Narrator",
+      "url": "https://www.producthunt.com/products/epilude",
+      "published": "2026-10-07T14:03:10-07:00",
+      "author": "Gustav Ek",
+      "tagline": "Listen to any article, doc or text on your Mac",
+      "post_id": "1273109",
+      "summary_zh": "Mac 應用程式，可將文章、文件或任何文字內容轉換為語音朗讀，方便使用者以聽覺方式獲取資訊。",
+      "image_url": "https://ph-files.imgix.net/751a9e3b-2021-42a2-b414-0906f34da6d8.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/330e5639-bdb4-44dc-810d-8e77b0e80b4a.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Aura by Neural",
-      "url": "https://www.producthunt.com/products/aura-by-neural",
-      "published": "2026-10-06T19:05:50-07:00",
-      "author": "Khaled Shadid",
-      "tagline": "Turn requests into interactive interfaces on your screen",
-      "post_id": "1272196",
-      "summary_zh": "將使用者的請求轉換為螢幕上的互動式介面，提供視覺化操作體驗。",
-      "image_url": "https://ph-files.imgix.net/6cb1b9ce-c999-4e77-ab8e-23fa969083bc.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/6622627c-7fcd-413c-abe1-4565b714c85b.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Tonefold",
+      "url": "https://www.producthunt.com/products/tonefold",
+      "published": "2026-10-07T21:28:14-07:00",
+      "author": "VKFolio",
+      "tagline": "Describe a song, get every part as editable MIDI",
+      "post_id": "1273345",
+      "summary_zh": "透過文字描述生成音樂，並將每個聲部輸出為可編輯的 MIDI 格式，適合音樂創作者快速製作曲目原型。",
+      "image_url": "https://ph-files.imgix.net/dad64e56-c974-456c-9f90-902a1f80f384.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/09c60977-16f5-49e2-8747-f7ce06fd7f03.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Reika",
-      "url": "https://www.producthunt.com/products/reika",
-      "published": "2026-10-06T20:36:08-07:00",
-      "author": "Alex",
-      "tagline": "A coding agent CLI designed around small local models first",
-      "post_id": "1272248",
-      "summary_zh": "以命令列介面運作的程式碼代理工具，專為小型本地模型優先設計，適合開發者使用。",
-      "image_url": "https://ph-files.imgix.net/cedeaf9a-c2ed-4f86-bab8-d011f58e1db4.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/65ef85b2-d859-4fc8-86fe-d1082ec418b7.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Hallmonitor",
+      "url": "https://www.producthunt.com/products/hallmonitor",
+      "published": "2026-10-07T09:49:17-07:00",
+      "author": "Hitesh Bandhu",
+      "tagline": "See and answer every coding agent from your notch",
+      "post_id": "1272923",
+      "summary_zh": "從 Mac 瀏海區域監控並回應所有程式碼代理的活動，讓開發者即時掌握 AI 編碼助手的運作狀態。",
+      "image_url": "https://ph-files.imgix.net/532f94ac-7916-4306-a29f-e1d8f33a7597.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/ec98f30b-a1c6-4fba-91c0-a88facaa835d.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Basedash Mobile",
-      "url": "https://www.producthunt.com/products/basedash",
-      "published": "2026-10-06T09:38:41-07:00",
-      "author": "Max Musing",
-      "tagline": "Ask your data out loud, right from your Home Screen.",
-      "post_id": "1271845",
-      "summary_zh": "可直接從手機主畫面透過語音查詢資料的行動應用，簡化資料存取流程。",
-      "image_url": "https://ph-files.imgix.net/71904071-f19e-4fc9-b2e1-38d6d3f7c648.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/45f0661c-e71a-4dda-81b5-bb09ae479445.png?auto=format&w=960&h=540&fit=crop"
+      "title": "pmtui",
+      "url": "https://www.producthunt.com/products/pmtui",
+      "published": "2026-10-07T21:13:17-07:00",
+      "author": "Hung Phan",
+      "tagline": "Autopilot for long-running AI sessions in terminal",
+      "post_id": "1273335",
+      "summary_zh": "終端機工具，自動管理長時間運行的 AI 對話任務，減少開發者手動監控與介入的需求。",
+      "image_url": "https://ph-files.imgix.net/bea7edf3-a04b-4acf-9a08-5f46e6d20778.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3bce9518-8918-4700-a24c-dd6a12a71e22.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Knuff App",
-      "url": "https://www.producthunt.com/products/knuff-app",
-      "published": "2026-10-06T07:32:47-07:00",
-      "author": "Gabrielle Zenati",
-      "tagline": "Family check-in app to know your people are okay",
-      "post_id": "1271707",
-      "summary_zh": "家庭成員安全確認應用，讓使用者能即時掌握家人的平安狀態。",
-      "image_url": "https://ph-files.imgix.net/0dc5657c-2926-49a1-a5f6-8dd5d05db13f.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d6ee475d-a5c1-439c-b192-0a4087608c92.png?auto=format&w=960&h=540&fit=crop"
+      "title": "tide",
+      "url": "https://www.producthunt.com/products/tide-simple-self-hostable-video-calls",
+      "published": "2026-10-07T03:31:31-07:00",
+      "author": "Nikitas Filosofof",
+      "tagline": "A Jitsi alternative that does a few things really well",
+      "post_id": "1272541",
+      "summary_zh": "視訊會議工具，定位為 Jitsi 的替代方案，專注於把核心功能做到簡潔實用。",
+      "image_url": "https://ph-files.imgix.net/4edfb915-3097-4015-aaeb-9a6c6db20921.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/50a5cbcc-6406-411e-83ec-a56e36297d94.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -79,38 +79,15 @@
   },
   "podcast_briefs": [
     {
-      "episode_id": "2415038388",
-      "title": "2026/10/8(四)全球政府都缺錢!高利率時代誰來買單?AI時代 企業賺錢、政府缺錢、人民沒錢?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-10-8-ai",
-      "published": "2026-10-08",
-      "channel": "游庭皓的財經皓角",
+      "episode_id": "7401-d681-4276-bba3-efa0d3d3656b",
+      "title": "EP343. SPCX 借錢擴張、前沿模型可取代性、美國期中選舉現狀 | M觀點",
+      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/c2f57401-d681-4276-bba3-efa0d3d3656b",
+      "published": "2026-10-09",
+      "channel": "M觀點",
       "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為全球政府在高利率環境下面臨「借錢越來越貴、能動用資金越來越少」的困境，AI企業大舉發債、中小企業融資成本飆升、各國採取不同應對策略（美國壓低通膨、日本艱難升息、歐洲祭關稅保護），但民眾普遍感受不到經濟復甦，呈現「企業賺錢、政府缺錢、人民沒錢」的K型分化。\n\n## 1. 債市與股市背離：債券市場一片哀嚎\n- **長天期公債殖利率飆升：** 美國30年期公債殖利率衝至5.74%（2002年以來最高）、英國30年期達6.04%（28年新高）、10年期5.5%；法國10年期一度來到4.93%，單日跳升約15個基點。\n- **股市仍在高位但債市定價風險：** 標普500前天創高，但債市已在定價更高通膨、更大財政風險與更緊貨幣政策；市場廣度自Jackson Hole後已開始惡化。\n- **外國買盤回流高殖利率：** 美國10年期公債標售殖利率5.3%創2000年以來最高，但外國買家與間接投資人拿下80.3%（歷史第四高），顯示高利率開始吸引資金。\n\n## 2. AI軍備競賽推升融資成本：中小企業被排擠\n- **投資級債券與垃圾債分化：** 美國投資等級債平均殖利率升至6.5%（2004年以來最高），但信用利差卻比92%歷史時間更便宜；Triple-C級垃圾債發行殖利率飆至17%（2020年5月以來最高）、利差擴大至12個百分點（2022年來最高）。\n- **AI巨頭集體發債搶錢：** Google、微軟、亞馬遜為資料中心與GPU擴大資本支出，從現金流轉向大舉發債與增資；個別決策合理但所有人同時行動時，系統性風險瞬間放大。\n- **中小企業與傳產融資困難：** 資金大量湧向AI巨頭，銀行更願意貸款給大型企業做AI而非中小企業裝修或開咖啡廳，中小企業與垃圾級公司借貸成本飆升且無人願接。\n\n## 3. 美國通膨傳導與政策應對：川普試圖壓低痛感\n- **房貸利率快速回升：** 30年期固定房貸利率最新一周跳升19個基點至7.49%（2023年以來最高），短短9個月從三年最低變三年最高；上週房貸申請量暴跌4.2%，總申請量創去年2月來最低、較今年1月崩50%。\n- **民眾通膨預期飆升：** 紐約聯儲9月調查顯示一年期通膨預期中位數從3.6%跳至3.9%（2023年5月來最高）；民眾預期未來一年汽油漲4.8%、食品5.5%、房租6.8%、大學費用7.5%、醫療費用9.2%。\n- **川普考慮暫停聯邦汽油稅：** 美國汽油價格一年暴增39%至每加侖4.36美元，川普正式發表聲明考慮暫停徵收每加仑18.4美分的聯邦汽油稅，理論最大降幅約4%；美中雙方互降約600億美元商品關稅（玩具、農產品、廚房用品、肉類、海鮮等），90%相關商品以最惠國待遇課稅。\n\n## 4. 運輸成本與能源通膨：第二輪壓力剛開始\n- **海運運費暴增：** 超級油輪VLCC運價達每天133萬美元、單周又漲10%，是一年前的21倍（去年同期約10萬美元）；美國至歐洲航線運價單周暴漲150%至每天57.8萬美元（原5.7萬）。\n- **各國柴油價格差異：** 德國柴油每加侖10.4美元（G20最高）、法國10.03、意大利9.96、英國9.8；美國6.32（約德國六成，加州8.42、德州5.7）；澳洲6.8、中國與日本3.8、俄羅斯3.67。\n- **紅海與伊朗威脅持續：** 紅海與荷莫茲海峽運輸剛恢復、伊朗又加大對商船攻擊力度；原油價格卡在100美元左右、下游傳導速度加快。\n\n## 5. 日本兩難：升息壓力大但經濟承受力弱\n- **日圓再度貶值：** 日本央行三個月內第六次升息至1.25%（1995年以來最高、1990年來最短升息間隔），但日圓從152又貶回157，因美國同步升息、利差未明顯縮小。\n- **貿易逆差持續擴大：** 日本已連續四個月貿易逆差，石油進口暴增59%、進口成本遠超出口收入；今年除3-4月外幾乎全年處於逆差，2026年實質GDP成長預估僅0.8%、2027年0.9%。\n- **內需消費疲弱與通膨夾擊：** 東京電力10月電費調升至每月9300日元（突破2022年烏俄戰爭記錄高點），政府電費補貼9月退場（原補貼910日元）；實質薪資已接近四年負成長、個人消費未回到疫情前水準。\n\n## 6. 歐洲債市危機與中歐關稅戰：法國FROGS拖累全歐\n- **法國公債利差重回死亡循環：** 法德10年期公債利差擴大至140個基點，法國10年期單日跳升15個基點；法國財政赤字超過GDP 5%、政府債務達120%，右派提出2032年削減1400億歐元支出的影子預算僅維持一天行情。\n- **銀行資產面臨流動性風險：** 法國債券跌導致銀行資產跟著跌，歐洲央行因通膨不能立即救市；法國股市已跌回紅海戰事前水準，歐洲成為全球唯一未創高的主要市場。\n- **德法推動對中強硬貿易政策：** 法德正式向歐盟職委會提出新貿易防衛機制，可直接限制外國企業進入歐盟8兆美元市場；中國佔歐盟商品進口四分之一（美國僅14%）；中國車廠今年8月在歐洲新車銷售市占達12%、插電式混合動力車近三分之一（2020年為零），歐盟準備對混合動力車採取關稅管制。\n\n## 7. K型經濟與購買力侵蝕：數據繁榮但民眾無感\n- **三大經濟體同時呈現矛盾：** 美國AI大繁榮、企業獲利創高、標普創歷史新高，但61%受訪者極度擔心醫療負擔、65%認為經濟狀況負面、川普工作就業支持率從52%降至37%；日本股市從疫情低點漲三倍、春鬥連三年加薪超5%，但實質購買力持續衰退。\n- **服務成本壓力大於能源：** 民眾對醫療費、住房、食品通膨的焦慮甚至高於汽油價格；Gallup民調顯示61%受訪者非常擔心醫療服務可取得性與負擔能力，顯示僵固性通膨問題不能完全歸咎於能源。\n- **有買股票與沒買股票的世界：** 重倉科技股的投資人完全不受通膨影響，但一般民眾感受極大購買力侵蝕；主講人形象比喻「跟你無關的繁華，非但不是自豪理由，反而可能是貧困苦難根源」。\n\n## 結論與後市展望\n主講人認為全球進入「政府想解決的問題越來越多、能動用的資金越來越昂貴」的困境，過去20年來最貴的融資成本正在考驗各國政策空間。美國試圖淡化關稅、壓低通膨預期；日本推動利率正常化但受限於貿易逆差與內需疲弱；歐洲則轉向關稅保護主義、可能引發新一輪中歐貿易戰。AI軍備競賽讓科技巨頭集體發債，中小企業融資成本飆至17%也無人接手，系統性風險正在累積。股市雖創高但債市已在定價更大風險，接下來需觀察第四季企業獲利能否持續支撐估值、以及利率因子何時真正影響資產價格——目前呈現「企業賺錢、政府缺錢、人民沒錢」的極端K型分化。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-08"
+      "summary_md": "## 一句話總結\nSpaceX 預計借款 400 億美元購買 GPU、前沿模型面臨企業減用壓力、2026 美國期中選舉共和黨恐失眾議院但參議院仍有機會守住。\n\n## 1. SpaceX 籌資擴張：AI 算力成主戰場\n- **400 億美元融資計畫：** 金融時報報導 SpaceX 將透過 100 億美元銀行貸款與 300 億美元投資級債券（Apollo Global Management 主導）籌資，全數用於購買 NVIDIA GPU。\n- **現有算力規模：** Colossus 1（23 萬顆 H100/H200）與 Colossus 2（55 萬顆 GB200/GB300）合計 1.4 GW；2026 年底目標 2.6 GW，2027 年底保守估 6 GW（主講人打六折於馬斯克喊出的 10 GW）。\n- **明年採購需求：** 從 2.6 GW 升至 6 GW 需增加 3.4 GW（約 110 萬顆 VR200，成本約 600 億美元）；2027 年 AI 部門營收預估 1500 億美元（按每 GW 300 億美元、出租 5 GW 計算）。\n- **金融工程警訊：** 主講人提出「GPU-backed Security (GBS)」類比 2007 年 MBS 債券，開始建立「AI 泡沫觀察指標」（目前 7/20 顆星：AI 新創高估值 3 星、前沿模型成長趨緩 1 星、GPU 租金下滑 1 星、資金槓桿過熱 2 星）。\n\n## 2. 前沿模型可取代性：企業轉用次階模型\n- **減用 Claude Opus 5.5 案例：** 微軟砍三分之一 Anthropic 預算轉 OpenAI/自家模型；Meta 將 Claude Sonnet 程式開發用戶從 6 萬降至 3 萬改用 Llama Muse；美國國防部已完全移除 Anthropic 模型（10 月達 0% 使用率）。\n- **成本驅動替代：** 主講人實測 GPT-4o Extra 10 分鐘燒完 5 小時額度，改用 GPT-4o mini 完成且僅用 10% 額度；Anthropic Haiku 5.5 的 CP 值等同 GPT-4o mini。\n- **適用場景分野：** 主講人認為 90% 任務的 90%（約 81% 工作任務）可用次前沿模型達到相同效果；但在「贏者通吃市場 + 能力與勝負線性相關」領域（如晶片設計）前沿模型仍有價值——舉例最前沿模型 1 個月設計出 100 分晶片可占 90% 市占，次前沿 1.5 個月 95 分僅得 9%。\n- **Grok 策略轉向：** 馬斯克宣布 Grok 將接入 Anthropic Opus 5.5、Midjourney、Suno 等外部模型；Opus 5.5 low effort 成本比 Grok 4.7 便宜一半——主講人認為此舉優先確保 Grok 作為 AI agent 入口成功，待 Grok 4.8 推出後可無痛替換底層模型。\n\n## 3. 2026 美國期中選舉：兩院形勢分析\n- **眾議院幾乎確定翻盤：** 民主黨在全國民調領先 7.9%，即使高估 2–3% 仍贏約 5%；主講人預估民主黨拿 230 席、共和黨 205 席（總 435 席），即使川普發揮僅能縮小至民主黨贏 15 席。\n- **參議院關鍵六州：** 目前共和黨需在密西根、緬因、俄亥俄、德州、愛荷華、阿拉斯加六州至少贏三席才能守住 50 席（副總統 JD Vance 投關鍵票）；主講人認為緬因（Susan Collins 現任優勢）、愛荷華、阿拉斯加共和黨可逆轉，德州、密西根、俄亥俄五五波。\n- **川普執政包袱：** 通膨雖降至 3% 但物價未回落（雞蛋從 4 美元漲至 10 美元後持平，人民期待是降回 3 美元）；關稅政策執行混亂；非法移民執法過於強硬產生負面觀感。\n- **逆轉可能性：** 主講人認為若伊朗戰爭在 10 月底前結束且油價從每加侖 4.3 美元降至 3.5–3.8 美元（機率 <10%）、或股市創新高但效果有限；整體判斷眾議院必掉、參議院保底 50 席（50% 機率守住、50% 機率掉至 47–49 席）。\n\n## 結論與後市展望\n主講人認為 AI 基礎建設狂潮仍在高峰，2027 年 AI agent 使用量將是今年十倍（需求端）但算力供給僅增至 3–4 倍，GPU 租金短期不致崩盤（每 GW 300 億美元可守住）；然而開始警覺金融槓桿過熱，已設立四指標監控泡沫（12 顆星以上將提高現金部位至 20–30%）。期中選舉方面，若兩院皆失川普施政將受限於民主黨眾議院牽制，但彈劾不會成功（參議院需 2/3 多數）；台北市長選舉主講人預估蔣萬安仍有七成勝率，但若沈伯洋僅輸 5–7% 已屬精神勝利。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
+      "first_shown": "2026-10-09"
     }
   ],
-  "article_briefs": [
-    {
-      "title": "Box Box's first message from Formula One was a legal notice, and its two founders were happy to get it",
-      "url": "https://www.revenuecat.com/blog/growth/ranjith-ramanan-kamal-kumar-box-box-club-launched-podcast-2026",
-      "published": "2026-10-07",
-      "author": "RevenueCat",
-      "handle": "revenuecat",
-      "source": "RevenueCat Blog",
-      "label": "訂閱成長",
-      "summary_md": "## 一句話總結\n兩位印度開發者因熱愛 F1 而打造的免費 widget App Box Box，在用戶主動要求付費後才加入訂閱制，一年內靠 TikTok 病毒擴散與車隊轉發達到 25 萬下載，最終連 F2 車手都主動加入董事會並在賽車上貼滿 Logo。\n\n- **從法律警告到品牌認可：** 作者提到 F1 官方第一次接觸是寄法律警告（商標與字型侵權），兩位創辦人反而很高興「代表 F1 注意到我們了」；後來 F2 車手 Juan Manuel Correa 主動聯繫並以策略夥伴身分加入董事會，車手頭盔與賽車都貼上 Box Box Logo，且**完全不是付費贊助**。\n\n- **病毒行銷來自用戶自發內容：** 作者指出下載高峰來自兩波：一位墨西哥粉絲在 TikTok 發影片達百萬觀看，首週帶來近 5,000 下載；iOS 16 鎖屏 widget 上線當天 Box Box 即支援，賓士 F1 官方帳號發起「曬鎖屏」活動時粉絲截圖裡出現 Box Box widget，**該推文後一週內帶來 25 萬下載**；後續 Haas、Aston Martin 也在 TikTok 推薦，再加上 Charles Leclerc 的 vlog 中被粉絲發現使用 Box Box。\n\n- **用戶主動要求付費才加訂閱：** 作者強調團隊一開始完全免費並設 WhatsApp 客服，結果用戶回應「你們做得很好，我想付錢」；創辦人因此訂下規則：**既有功能全部保持免費**，付費層只加入新功能（主題、Apple Watch App、complications）；首次定價 5.99 美元/年（按賽季計），用戶反映太便宜並要求「給你們更多錢的地方」，於是透過 RevenueCat 加入多層級訂閱，較低層用戶仍能獲得部分新功能；定價決策來自季末問卷，**收到 5,000–6,000 份回覆**。\n\n- **設計優先的開發流程：** 作者觀察設計師 Ranjith 與工程師 Kamal 的合作模式：Ranjith 不寫 code 但在推特發 F1 widget 概念圖後找到 Kamal（兩人因共同朋友的桌布相簿認識一年但從未交談）；首版**一個月內完成**，兩人在美國工作電話結束後晚上 11 點到凌晨 3–4 點協作；Ranjith 會刻意**對 Kamal 隱藏未完成設計**，因為 Kamal 太投入、看到半成品就會連夜開發出來。\n\n- **視覺設計驅動的「wow」與「多人效應」：** 作者引述 Ranjith 的設計哲學：追求首次打開的「wow」與「multiplayer effect」——「你看到 App 就成為 UGC」並展示給下一個人；Charlie 認為 TikTok 病毒傳播雖有運氣成分，但前提是**App 視覺夠吸睛才能在影片中被注意到**，這對所有視覺型產品都是教訓。\n\n## 對設計／產品的啟示\n作者建議設計師與工程師搭檔能強迫「設計先於程式碼」，工程師解決美觀設計的技術挑戰比遷就易開發功能更有成就感；對訂閱制產品，用戶主動要求付費是最好信號，但加入付費層時應**保護既有免費用戶權益**、只用新功能建立價值階梯；視覺型產品應設計「可被分享的時刻」（如鎖屏 widget），讓用戶自然成為內容生產者；大規模問卷（5,000+ 份）能有效驗證定價，但問卷設計可適度「灌水」問題以降低用戶警覺。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-08"
-    },
-    {
-      "title": "Behavioral Economics &#38; UX: Design for Irrational Humans",
-      "url": "https://www.uxtigers.com/post/behavioral-economics",
-      "published": "2026-10-07",
-      "author": "Jakob Nielsen",
-      "handle": "jakobnielsen",
-      "source": "UX Tigers",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者指出行為經濟學已透過三位諾貝爾獎得主證實人類並非理性決策者，而每個介面都是「選擇架構」，設計者無法選擇不影響使用者決策，只能選擇做得好或壞、誠實或不誠實——而現實數據顯示大多數輕推效果僅約 1.4 個百分點，遠低於學術文獻中的 8.7 個百分點。\n\n---\n\n- **有限理性與 Simon 的剪刀隱喻：** 作者說明人類受限於時間、注意力與計算能力，只能「滿意即可」而非最佳化；Herbert Simon 提出的剪刀隱喻指出設計者永遠無法磨利使用者的認知能力（第二片刀刃），但可以優化任務環境結構（第一片刀刃，也就是你的產品）——這是 HCI 與行為經濟學的共同奠基思想，Simon 是唯一同時獲得諾貝爾經濟學獎與圖靈獎的人。\n\n- **選擇過載的真相與條件：** 作者引用演變研究指出，經典果醬實驗（24 種口味僅 3% 購買，6 種口味 30% 購買）後來被 2010 年統合分析推翻（平均效應幾乎為零），但 2015 年研究釐清過載取決於四個調節因子：選項複雜度、決策費力程度、偏好不確定性與時間壓力——選項數量本身預測力很小，這解釋了 Amazon 能以數億商品成功（透過搜尋、篩選、評論縮小範圍）。\n\n- **損失厭惡的 2:1 法則與框架效應：** 作者指出 Kahneman 與 Tversky 證實人們對損失的痛苦約為等額獲得快樂的兩倍；經典疾病問題中，72% 受試者選擇「拯救 200 人」方案，但僅 22% 選擇邏輯等價的「400 人死亡」方案——這在 40 年後的 Many Labs 研究中仍能乾淨複製，意味著重新設計移除有價值功能時，其他地方需要約 2 倍收益才能讓使用者認為持平。\n\n- **預設值與現狀偏誤的巨大力量：** 作者引用研究指出，歐洲器官捐贈率從德國的 12% 到奧地利的 99.98%，幾乎完全由預設值（選入 vs. 選出）決定；預設值同時拉動努力、背書（預選項被視為推薦）、稟賦（預設成為「我的」後離開感覺像損失）三個槓桿——Johnson 與 Goldstein 計算若美國改為預設選入，每年可多救 4,000 條生命。\n\n- **輕推效果的真實校準與發表偏誤：** 作者引用 DellaVigna 與 Linos 對 126 個 RCT（涵蓋 2,300 萬人）的研究指出，學術論文中輕推平均提升參與率 8.7 個百分點，但完整記錄中僅 1.4 個百分點（約為前者六分之一）；78% 的試驗效果極小（中心值 0.35 個百分點），只有 22% 達到顯著效果（中心值 5.09 個百分點）——作者強調 1.4 個百分點是應用行為科學中最重要的校準數字。\n\n- **AI 時代的新錨點與演化錯配：** 作者觀察到 2026 年後 AI 初稿成為強大錨點，編輯者很少大幅偏離模型的結構、主張和數字；同時指出人類的快速捷思法幫助祖先避開草叢中的獅子，但現在用於處理無限滾動與 40 個定價選項——生物學家稱此為「演化錯配」，Gigerenzer 學派提出「生態理性」：捷思法本身無所謂聰明或愚蠢，只有與環境匹配或不匹配之分。\n\n---\n\n## 對設計／產品的啟示\n作者提供 50 條具體設計指引，核心原則包括：採用先摘要後細節的漸進式揭露、用可辯護基準錨定（並揭露來源）、同時顯示絕對值與相對值避免框架操弄、保留使用者建立的內容以尊重心理所有權、將預設值視為道德責任而非黑暗模式。作者特別強調決策公式「期望值 = 效果大小 × 每次轉換價值 × 觸及人數」，提醒設計者若現實的 0.5 個百分點提升不值得建置成本就不要建置，但涉及選擇重新設計與預設值的介入（前四分位數效果）幾乎在任何地方都值得追究。作者引用 Simon 的思想總結：設計者的工作就是磨利剪刀的第一片刀刃——優化任務環境結構，讓有限理性的真實人類能「足夠好」地完成目標，而非假設他們是完美計算機。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-08"
-    }
-  ]
+  "article_briefs": []
 }
