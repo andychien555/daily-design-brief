@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-10-11T02:11:59+08:00",
+  "generated_at": "2026-10-11T08:56:44+08:00",
   "days": [
+    {
+      "d": "2026-10-11",
+      "dd": "2026 年 10 月 11 日",
+      "no": 178,
+      "items": [
+        {
+          "k": "product",
+          "t": "Letra",
+          "b": "Copy the text your Mac won’t let you select 讓 Mac 使用者能夠複製系統原本不允許選取的文字內容。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "New Windows Search",
+          "b": "Windows Search now takes action, not just finds files Windows 搜尋功能的升級版本，不僅能找到檔案，還能直接執行操作。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "PocketWebTools for Mac",
+          "b": "Local AI chat, transcription and video tools in one Mac app 整合本地 AI 聊天、語音轉錄和影片工具的 Mac 應用程式，無需雲端連線。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "ej",
+          "b": "An 11MB local model for typed decisions in one pass 僅 11MB 的本地模型，可在單次推理中完成類型化決策判斷。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "AgentDock",
+          "b": "Answer Claude Code & Codex from one Inbox, in any terminal 在任何終端機中統一管理和回應 Claude Code 與 Codex 的收件匣工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "KernelAI",
+          "b": "Private, offline AI for iPhone and Android 適用於 iPhone 和 Android 的離線私密 AI 助手，所有資料在裝置本地處理。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-10-10",
       "dd": "2026 年 10 月 10 日",

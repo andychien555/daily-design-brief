@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-10",
-  "date_display": "2026 年 10 月 10 日",
-  "generated_at": "2026-10-10T08:56:08.606604+08:00",
+  "date": "2026-10-11",
+  "date_display": "2026 年 10 月 11 日",
+  "generated_at": "2026-10-11T08:56:00.812668+08:00",
   "top_products": [
     {
-      "title": "Gemini Agent for Google Cloud",
-      "url": "https://www.producthunt.com/products/google",
-      "published": "2026-10-08T05:31:02-07:00",
-      "author": "Kate Ramakaieva",
-      "tagline": "The work agent that runs on both Gemini and Claude",
-      "post_id": "1273798",
-      "summary_zh": "一個可同時運行於 Gemini 和 Claude 的工作代理，協助使用者在 Google Cloud 上執行任務。",
-      "image_url": "https://ph-files.imgix.net/2c749e22-0d4a-4612-a025-e8ed2ed4b00e.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/59cf59d2-81a6-4fe2-9c92-b9ce17b8bb9c.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "Letra",
+      "url": "https://www.producthunt.com/products/letra-3",
+      "published": "2026-10-09T12:26:30-07:00",
+      "author": "Nikhil Barik",
+      "tagline": "Copy the text your Mac won’t let you select",
+      "post_id": "1275218",
+      "summary_zh": "讓 Mac 使用者能夠複製系統原本不允許選取的文字內容。",
+      "image_url": "https://ph-files.imgix.net/ecc35181-7878-4de1-9f0d-cfe63658d646.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/25abe4a2-bdbb-4ca3-94eb-f1d2c9be0107.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Playground by Google Labs",
-      "url": "https://www.producthunt.com/products/google-labs",
-      "published": "2026-10-07T20:24:04-07:00",
+      "title": "New Windows Search",
+      "url": "https://www.producthunt.com/products/new-windows-search",
+      "published": "2026-10-08T20:50:14-07:00",
       "author": "Justin Jincaid",
-      "tagline": "Create, play, and share your own games with Google AI",
-      "post_id": "1273308",
-      "summary_zh": "使用 Google AI 技術讓使用者創建、遊玩並分享自己設計的遊戲。",
-      "image_url": "https://ph-files.imgix.net/fcbec6fb-5d33-4e45-a16d-cca93261381c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/4a0a2f7c-7eb6-49fa-a3b4-00b60bb3ea20.jpeg?auto=format&w=960&h=540&fit=crop"
+      "tagline": "Windows Search now takes action, not just finds files",
+      "post_id": "1274432",
+      "summary_zh": "Windows 搜尋功能的升級版本，不僅能找到檔案，還能直接執行操作。",
+      "image_url": "https://ph-files.imgix.net/7069d9a3-7937-498e-8ab7-016e2039095b.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/d925ef34-436b-4928-af98-d995f13164d4.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "iwant",
-      "url": "https://www.producthunt.com/products/iwant",
-      "published": "2026-10-08T21:20:47-07:00",
-      "author": "Oskar Kocol",
-      "tagline": "Find available GPUs and host open models in one command",
-      "post_id": "1274448",
-      "summary_zh": "透過單一指令幫助開發者尋找可用的 GPU 資源並部署開源模型。",
-      "image_url": "https://ph-files.imgix.net/e276e01f-6b95-447d-8062-300fe2b6ad9f.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/bffbe35f-6c02-4b11-b6aa-0cdfb93e957d.png?auto=format&w=960&h=540&fit=crop"
+      "title": "PocketWebTools for Mac",
+      "url": "https://www.producthunt.com/products/pocketwebtools",
+      "published": "2026-10-09T00:00:05-07:00",
+      "author": "Shafu",
+      "tagline": "Local AI chat, transcription and video tools in one Mac app",
+      "post_id": "1274581",
+      "summary_zh": "整合本地 AI 聊天、語音轉錄和影片工具的 Mac 應用程式，無需雲端連線。",
+      "image_url": "https://ph-files.imgix.net/f0023cdd-1ee5-46a0-a91b-b5f60f956bcf.gif?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c8d7d108-5b2c-4f28-a221-197bd20a15f3.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Staffcoder",
-      "url": "https://www.producthunt.com/products/staffcoder",
-      "published": "2026-10-08T01:53:59-07:00",
-      "author": "Shashank Sharma",
-      "tagline": "Build like a real engineer",
-      "post_id": "1273554",
-      "summary_zh": "提供開發者像真實工程師一樣構建專案的工具或環境。",
-      "image_url": "https://ph-files.imgix.net/25b8f8f1-8f49-4139-ae9a-91331cc7a5c6.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/a8ca798a-47e2-414f-af7f-3131e6219ed7.png?auto=format&w=960&h=540&fit=crop"
+      "title": "ej",
+      "url": "https://www.producthunt.com/products/ej-jev-but-for-edge-devices",
+      "published": "2026-10-09T11:42:37-07:00",
+      "author": "Saket Bhushan",
+      "tagline": "An 11MB local model for typed decisions in one pass",
+      "post_id": "1275189",
+      "summary_zh": "僅 11MB 的本地模型，可在單次推理中完成類型化決策判斷。",
+      "image_url": "https://ph-files.imgix.net/d969694b-b76e-463f-8259-57e0d67af8c5.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/94e0c659-04b7-4b8e-953d-e3550a22f860.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Odyssey 3",
-      "url": "https://www.producthunt.com/products/odyssey-3",
-      "published": "2026-10-08T09:51:49-07:00",
-      "author": "Rohan Chaubey",
-      "tagline": "A world model that simulates physics in real time",
-      "post_id": "1274026",
-      "summary_zh": "一個能夠即時模擬物理規則的世界模型系統。",
-      "image_url": "https://ph-files.imgix.net/9dd18d81-1127-442e-80a3-b790418ff66c.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/abc95240-4e04-4912-b9cb-5be782ade536.jpeg?auto=format&w=960&h=540&fit=crop"
+      "title": "AgentDock",
+      "url": "https://www.producthunt.com/products/agentdock",
+      "published": "2026-10-09T14:55:39-07:00",
+      "author": "Tihomir Videnov",
+      "tagline": "Answer Claude Code & Codex from one Inbox, in any terminal",
+      "post_id": "1275300",
+      "summary_zh": "在任何終端機中統一管理和回應 Claude Code 與 Codex 的收件匣工具。",
+      "image_url": "https://ph-files.imgix.net/f68ba248-3913-45af-bdbf-745f4e7e0716.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/8082258c-4925-4190-9e3e-c7ad919f0819.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Amazon Alexa Tablets",
-      "url": "https://www.producthunt.com/products/amazon-alexa-tablets",
-      "published": "2026-10-08T08:51:14-07:00",
-      "author": "Zac Zuo",
-      "tagline": "Full Google Play, Alexa+ and a Kindle reading mode",
-      "post_id": "1273960",
-      "summary_zh": "整合完整 Google Play、Alexa+ 功能及 Kindle 閱讀模式的平板裝置。",
-      "image_url": "https://ph-files.imgix.net/c598edc4-53e5-4c4e-85e2-a020ff193716.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d69dcf90-617e-4dee-8e53-7a0ccd0b33a3.png?auto=format&w=960&h=540&fit=crop"
+      "title": "KernelAI",
+      "url": "https://www.producthunt.com/products/kernelai",
+      "published": "2026-10-09T09:58:13-07:00",
+      "author": "Anes Khadiri",
+      "tagline": "Private, offline AI for iPhone and Android",
+      "post_id": "1275112",
+      "summary_zh": "適用於 iPhone 和 Android 的離線私密 AI 助手，所有資料在裝置本地處理。",
+      "image_url": "https://ph-files.imgix.net/c7661655-267d-4c34-a4ce-9e1c5b34df01.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5f4878a3-279c-4029-8144-894f79c29653.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,62 +77,6 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "6664835",
-      "title": "EP704 | 🐘",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/e6664835-0084-491c-acfb-f35535f2c121",
-      "published": "2026-10-10",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人分享參加慢爆Pro年會的感想、自身投資心態轉變（從緊張盯盤到從容持有）、Marvel上修營收展望與光通訊產業前景，以及對生活細節的覺察與享受。\n\n## 1. 慢爆Pro年會觀察：創作者的成長軌跡\n- **Manny的轉變令人驚喜：** 從極度內向、不願露面，到擔任年會主持人並全面放開，主講人認為見證了創作者心態的「起承轉合」，並分享自己也曾經歷類似的不安全感（imposter syndrome）。\n- **商業奇才的合作經驗：** 與Manny合作的其他案子在第一年就獲利，這在「營收優先於獲利」的思維下極為罕見；主講人強調Manny過去在社群上的正向支持（即使不完全認同）讓他印象深刻。\n- **活動規模創紀錄：** 慢爆Pro在TICC舉辦大型年會，撞期Big Bang演唱會仍吸引大量訂閱者，主講人推薦折扣碼MK250並形容慢爆Pro是「訊息量極大的睡前讀物」。\n\n## 2. 投資心態進化：從緊張盯盤到從容等待\n- **不再被短期雜訊影響：** 過去會因盤中波動在群組討論、連夜研究，現在選擇「收盤後再看」；認為只要方向對了，短期數據（如投片量、營收月報）只是noise。\n- **OpenAI營收修正事件的反思：** FT將年化營收從700億美元下修至500億美元引發閃崩，但主講人認為500億仍是驚人成長（從2B到50B極短時間），市場反應過度；強調「讓子弹飞一下」，不要因單一事件砍掉長期部位。\n- **SpaceX持股的淡定：** 儘管IPO後加碼被套，聽眾在留言區哀嚎，但主講人已不在意短期波動，因為「買的方向一定對」且已做好風控（8%–10%部位），最壞情況也能承受。\n- **身邊朋友圈的改變：** 從早期與「每天超緊張、盯盤到睡不好」的人一起，逐漸轉向「比較chill」的投資風格，不再追求每日即時反應。\n\n## 3. Marvel投資人日：光通訊產業的大幅上修\n- **2028與2031營收目標暴增：** 2028年營收從180億美元上修至200億美元；2031年直接給出700億–900億美元（中值800億，約2026年的10倍），遠超市場共識的45億–50億美元。\n- **Interconnect佔營收近五成：** 2031年營收拆分中，光通訊與SerDes/NPO/CPO等連接技術約佔50%，Custom Compute（XPU及周邊）佔37.5%，主講人認為這是「對光通全面作多」。\n- **技術路線並行與加速：** 公司認為NPO與CPO會並行發展（非NPO被CPO取代）；目前800G是主力、1.6T正在ramp、3.2T預計2028年推出（比市場預期2029–2030更快），3.2T將採用電積值技術。\n- **進軍資料中心管理晶片：** Marvel宣布做類似BMC（伺服器管理晶片）的產品，主講人認為不是單純搶市場，而是要提供整合式解決方案（整合運算、儲存、交換機等），儘管BMC市場目前很小，但未來可能成長為關鍵領域。\n\n## 4. 光通訊產業觀察：供應鏈與競爭動態\n- **Broadcom的潛在跟進：** Marvel大幅上修後，主講人認為業界領頭羊Broadcom（近期低調但有多項產品待推出）可能也會「輸人不輸陣」地上修，值得關注其交換機與光通元件的動向。\n- **未來技術路線的投機風險：** 市場已炒作1.6T用到的TFLN材料，甚至3.2T的電積值技術；主講人警告「未來題材」在修正時會跌50%以上（如過去的AOI），提醒不要盲目押注單一技術路線且要注意漲幅（Marvel年初至今已大漲）。\n- **產業加速超乎預期：** 朋友告知3.2T推出時間可能比主講人原先猜測的2029–2030更早（約2028年），顯示產業「瘋狂往高速推進」，但也暗示市場可能提前炒作更遠期的夢。\n\n## 5. 生活哲學：解構日常、享受當下\n- **跑步的新發現：** 從一開始聽音樂跑步，到後來「裸裝」（不帶手機、耳機，只帶鑰匙與悠遊卡）出門跑步，進入類似冥想的狀態，朋友形容為「一種修煉」；主講人非常享受這種專注感。\n- **微小動作的覺察：** 拆吸管包裝、插入咖啡，走路時感受腳跟落地到腳趾蹬地的每個環節，刻意去感受身體肌肉出力；認為這些「理所當然的小事」被解構後，讓一天變得更長、更充實、更快樂。\n- **對社會的正向看法：** 儘管朋友建議不要在網路分享孩子照片或動態（怕遇到怪咖），主講人因未遇過負面經驗而維持樂觀；但也提到如果真遇到「很怪小在後面貼著脖子呼吸的人」，可能會選擇隱身。\n\n## 6. 網路互動與人際觀察\n- **不再搜尋自己的名字：** 早期會上網搜尋評論，99%讚美無感但1%攻擊會放大，導致心情變差；現在選擇不看，認為「格局偏低」且會發現自己「被誤解或被過度吹捧」時都很尷尬。\n- **記得給予正向回饋：** 主講人提到Manny在早期社群上總是給予正向評價（即使不完全認同），這種「雪中送炭」讓他印象深刻；強調自己也會確保「認真生活、認真工作的人」知道他們在做很棒的事。\n- **識人的簡單標準：** 認為「在7-11排隊到櫃檯前才翻錢包」或「對服務生大小聲」的人是白痴；用這類行為判斷比MBTI更有預測性。\n\n## 結論與後市展望\n主講人認為Marvel大幅上修營收（2031年目標800億美元）代表對光通訊與AI連接技術的全面看多，但提醒投資人注意「未來題材」（如3.2T電積值）的炒作風險與修正幅度。心態上，他強調長期方向正確比短期數據重要，不應因OpenAI營收下修（700億→500億）等雜訊頻繁調整部位；隨著年齡增長與經驗累積，投資風格從「每天緊張盯盤」轉為「從容等待開牌」。生活面則鼓勵聽眾解構日常小事、享受當下，並對他人保持善意與正向回饋。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-10"
-    }
-  ],
-  "article_briefs": [
-    {
-      "title": "🐴 Prototyping in Code: A Designer's Workflow with Claude Code",
-      "url": "https://designwithai.substack.com/p/prototyping-in-code-a-designers-workflow",
-      "published": "2026-10-10",
-      "author": "Design with AI",
-      "handle": "designwithai",
-      "source": "Substack",
-      "label": "AI 設計",
-      "summary_md": "## 一句話總結\n作者示範了設計師如何用 Claude Code 等 AI 編碼工具從原型開發到提交 PR 的完整工作流程，讓設計師能在團隊協作中獨立探索複雜設計。\n\n## 重點摘要\n\n- **填補工作流程空白：** 作者認為越來越多設計師使用 Claude Code 和 AI 編碼工具來探索和迭代設計（尤其當 Figma 原型過於複雜或耗時時），但如何將這些工具整合進團隊工作流程——包括與工程師協作、獲取產品經理和利害關係人回饋、迭代設計並最終交付可供工程團隊參考的成果——仍是挑戰。\n\n- **完整案例研究架構：** 作者透過實際案例逐步演示從初始提示詞和設計迭代，到與產品經理和工程師溝通、整合利害關係人回饋，最終提交 Pull Request 的完整流程，且這套方法同樣適用於 Cursor、Copilot 等其他 AI 編碼工具。\n\n- **涵蓋關鍵開發技能：** 透過跟隨案例學習，設計師能掌握基本開發概念與實務操作、如何在工程師支援下取得簡化的程式碼庫進行設計探索、如何理解、複製和執行程式碼、如何建立 Git 分支探索設計選項、如何修復 bug、提交和推送變更、如何與利害關係人分享工作並收集回饋、如何修訂設計並展示變更，以及如何為最終設計開啟 Pull Request。\n\n## 對設計／產品的啟示\n作者建議設計師學習使用 AI 編碼工具不僅是為了產出設計原型，更重要的是將其整合進真實的團隊協作流程中。透過掌握 Git 分支管理、程式碼庫操作、PR 提交等開發基礎，設計師能更有效地與工程團隊協作，在不增加工程負擔的情況下獨立探索複雜的互動設計，並將設計成果轉化為可直接參考的技術文件，提升整體產品開發效率。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-10"
-    },
-    {
-      "title": "The New Siri’s Biggest Strength Is Not Intelligence",
-      "url": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-10-10",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者認為，一個實用的 AI 助理不只需要高度智慧，更需要能存取相關的個人情境資訊、有能力運用這些資訊，以及幫助使用者理解其限制的體驗設計。\n\n- **個人情境與 AI 能力缺一不可：** 作者透過比較舊版 Siri、新版 Siri AI 與 ChatGPT 執行相同任務（尋找照片、查詢訊息、草擬訊息）發現，舊版 Siri 有個人資料存取但缺乏生成式 AI 能力，ChatGPT 則相反，只有新版 Siri AI 同時具備兩者，才能有效完成任務。\n\n- **存取個人情境可大幅降低使用者負擔：** 當作者問「我弟 Emmett 推薦了紐約哪些餐廳？」時，Siri AI 能直接從簡訊中找出三家早餐店；但若資訊在預設未連接的 Signal 應用中，系統就會漏掉。作者強調，AI 代理必須明確告知搜尋了哪些來源、說明相關缺口，而非僅回答「找不到」讓使用者誤以為資訊不存在。\n\n- **AI 能力決定能否將情境轉化為有用結果：** 當作者要求「顯示上週末紐約的照片」，舊版 Siri 顯示網路圖片、ChatGPT 提供新聞圖片連結，只有 Siri AI 正確找出個人旅行照片。在草擬訊息任務中，新版 Siri AI 能準確準備餐廳清單給正確收件人，而舊版 Siri 選錯聯絡人且內容只是重述請求。作者指出，即使 AI 通常判斷正確，確認步驟仍有價值，尤其當錯誤執行成本高時（如傳訊息給錯誤對象）。\n\n- **情境必須在整個任務流程中保持一致：** 作者要求「從 Emmett 的地址到 Dimes 餐廳的 Google Maps 路線」時，Siri AI 詢問確認起點是 Emmett 地址，但最終開啟的 Google Maps 卻顯示從使用者目前位置（北卡達勒姆）出發，且目的地是 Dimes Square 社區而非 Dimes 餐廳。作者強調，在一個步驟中確認的細節必須延續到最終動作中；設計多步驟代理工作流程時，應評估整個任務，包括目標應用程式中顯示的內容。\n\n- **介面設計需幫助使用者建立準確的心智模型：** 作者引用先前 NN/g 研究指出，常用使用者往往只依賴少數簡單任務，可能不會發現新功能。建議範例請求能幫助使用者探索新能力，但前提是助理真能搜尋那些資料；若聊天記錄在 Signal 而非 Messages 中，「詢問朋友的餐廳推薦」就會誤導使用者。此外，Siri AI 在草擬訊息時顯示「搜尋網站」卻未解釋原因，這種不符使用者預期的步驟會引發疑慮而非建立信心——當來源的相關性不明確時，應解釋並顯示答案來自何處。\n\n## 對設計／產品的啟示\n作者建議，設計 AI 助理時應先考慮使用者會自然提出什麼問題，再建構支援這些請求所需的存取權、檢索機制與互動設計。連接更多資料來源只有在能幫助 AI 代理找到相關資訊時才有用；必須讓限制可見，並提供修正錯誤的方式。當請求模糊或有多種解讀可能導致不同行動時，應在執行前詢問釐清。進度標籤雖能顯示活動，但透明度不等於可解釋性——當某個步驟與使用者的心智模型不符時，應主動解釋其如何服務請求。一個有能力的對話應能帶來有用的結果，包括當任務需在另一個應用程式中完成時。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-10"
-    },
-    {
-      "title": "Context Libraries: How AI Power Users Manage Context Engineering",
-      "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-10-10",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者研究發現，Claude 重度使用者花在管理「情境資料庫」（context library）的心力比寫提示詞還多，但多數人的資料庫組織混亂、檔案過時或找不到，顯示 AI 系統本身未提供足夠的情境管理支援。\n\n- **情境資料庫需持續維護：** 作者觀察到使用者常一次寫好情境檔案就用數月，但內容早已不符現況；例如某位參與者的每日任務摘要自動化漸漸失去效用，卻從未更新指令。作者建議定期讓 AI 比對近期會議紀錄等「環境情境」來稽核並更新舊檔案。\n\n- **外部連結容易失效成為痛點：** 多位參與者依賴 MCP 或 API 串接外部資料庫（Notion、HubSpot），但連線常過期失效，必須手動重連；有人甚至考慮另建一個專門維護連線的 Agent，顯示「系統衰退」（system decay）問題嚴重削弱採用 AI 的省時初衷。\n\n- **使用者幾乎不直接編輯檔案，而是讓 AI 代勞：** 作者發現參與者即使開著 markdown 檔案，仍會請 Claude 執行修改，因為「指定意圖、讓 AI 執行」比自己動手更快也更一致；甚至會要求 AI 一次性更新多個相關檔案，並透過後續輸出品質來判斷改動是否成功。\n\n- **資料庫結構影響可尋性，但多數人組織混亂：** 許多參與者在訪談時找不到自己的重要情境檔案，甚至發現不知道存在的全域設定檔；作者指出最精密的案例採「索引卡」（_CLAUDE.md_）分層架構，並限制 Agent 只能「先上下移動再左右移動」以最小化載入範圍。\n\n- **過多情境會降低 AI 表現並造成誤用：** 作者強調即使模型可接受數百萬 token，載入無關情境仍會拖累效能；參與者曾遇到播客設計指南被套用到書籍追蹤 App、或分不清工作是誰做的（因環境情境來源混亂）。作者建議將情境檔案保持簡短（數百行內）並依專案範圍區隔。\n\n- **平台未提供管理指引，使用者只能自行摸索：** 作者批評 AI 系統本身幾乎不教使用者如何建立與管理情境資料庫，參與者多從 X、Reddit 或 Anthropic 開發者文件自學；Claude 自家的雲端儲存功能不受歡迎且令人困惑，使用者多改用 Google Drive 或本機資料夾。\n\n## 對設計／產品的啟示\n作者建議 AI 產品團隊應將情境管理納入核心功能設計，而非丟給使用者自理：提供稽核、版本控制、連線健康監控等內建工具，並主動引導使用者建立清晰的資料庫結構（如索引卡檔案）。對設計師與產品經理而言，這項研究揭示「情境工程」是 AI 代理真正可用性的瓶頸——平台必須降低管理門檻，否則即使是專家使用者也會陷入混亂、錯過價值或浪費時間除錯連線。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-10"
-    },
-    {
-      "title": "UX Roundup: Erik the Red | AI Thematic Analysis | Nano Banana 2.1 | Scrolling | Fast Asymptote in AI Skills | Average Users | Wishlists | Usability Testing Without Findings | Naming Consistency",
-      "url": "https://www.uxtigers.com/post/ux-roundup-20261009",
-      "published": "2026-10-09",
-      "author": "Jakob Nielsen",
-      "handle": "jakobnielsen",
-      "source": "UX Tigers",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者透過多項研究與實測指出，AI 在使用者研究、影片製作等領域已追平或超越人類表現，但使用者會在極短時間內「定型」其使用習慣，因此產品設計必須在最初幾次互動中就精心引導。\n\n---\n\n- **AI 編碼能力達人類水準：** MeasuringU 重測發現 GPT-5.6 在分析開放式使用者意見時，與人類研究員的一致性（kappa=0.75）已達「實質一致」標準，且 AI 自身多次執行的一致性高達 0.95；更重要的是，AI 產出的主題分類更細緻（平均 12 個 vs. 人類 7 個）且描述更明確（如「視覺設計過時」vs.「設計問題」），可能更有助於產品團隊實際修正問題。\n\n- **使用者在 5 次對話內就「定型」提示詞習慣：** Cornell 與 Loyola 大學分析 14 萬筆 ChatGPT 對話紀錄，發現使用者在約 5 次互動後就固定使用 2–4 種個人化的提示詞模板，且之後幾乎不再探索新寫法；早期嘗試的表達方式會被重複使用 5–50 倍，而早期提示詞多樣性每增加 0.01，使用者留存期就延長 4–6%——這與過去 GUI 研究中「使用者會在數週至數月後達到技能高原」形成鮮明對比，AI 時代的習慣固化速度快得多。\n\n- **影片生成 AI 成本與品質差異顯著：** 作者用 Seedance 2.5 製作 6 分鐘影片《Erik the Red 發現格陵蘭》花費約 300 美元，而用阿里巴巴 Wan 3.0 做同樣內容只需約 1/6 成本；Seedance 在海戰與打鬥場景表現出色，但在發音準確性（如無法正確唸 \"fjord\"）與角色聲音控制上仍有瑕疵，作者認為 AI 影片目前仍難以超過 6 分鐘並維持觀眾興趣。\n\n- **分離相關資訊造成記憶負荷：** 作者強調，當使用者需要比較的資訊（如原始文字與 AI 修改後的版本、問題與答案）在介面中距離太遠、需要反覆捲動時，會造成「scrollnesia」（捲動健忘症）——使用者必須靠工作記憶彌補設計缺陷；解決方式是在寬螢幕上並排顯示、在手機上提供一鍵切換，讓設計本身承載脈絡，使用者才能專注判斷。\n\n- **「平均使用者」根本不存在：** 作者引用 1950 年代美國空軍的經典研究：量測 4,063 名飛行員後發現，沒有任何一人在 10 項關鍵身體尺寸上都落在平均範圍（中間 30%）內——為「平均飛行員」設計的駕駛艙誰都不合用；同理，針對「平均使用者」設計會忽略所有真實使用者的特殊需求，正確做法是設計能涵蓋極端情境的彈性介面。\n\n- **零發現的可用性測試代表測試方法有問題：** 作者直言，若可用性測試完全沒發現問題，不代表設計完美，而是測試流程出錯——可能任務太簡單、參與者其實是團隊成員、主持人給了提示，或測試者只想確認假設而非找出錯誤；應該以「預期會找到問題」的心態重新執行測試。\n\n## 對設計／產品的啟示\n作者建議將使用者前 1–5 次使用 AI 的體驗視為「最有價值的設計不動產」，因為這段時間決定了使用者未來一年的使用模式——應在引導範例中展示至少三種結構不同的提示詞風格（簡短指令、角色設定、詳細限制），並透過持續可見的提示改寫工具、格式選擇器等「辨識勝於回憶」機制，避免使用者過早固化在低效的互動模式中。在使用者研究方面，AI 已可勝任初步主題分類，但仍需人類驗證前三大主題的每條意見，並追蹤「fixfluence」（有多少發現真正促成產品改善）作為研究價值的終極指標。介面設計上，應保持術語一致（同一概念用同一名稱）、讓拒絕選項與接受選項同樣有尊嚴、並確保取消訂閱與註冊一樣容易——這些都是尊重使用者、建立長期信任的基本原則。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-10"
-    }
-  ]
+  "podcast_briefs": [],
+  "article_briefs": []
 }
