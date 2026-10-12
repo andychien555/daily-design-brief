@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-10-12T02:34:56+08:00",
+  "generated_at": "2026-10-12T08:56:13+08:00",
   "days": [
+    {
+      "d": "2026-10-12",
+      "dd": "2026 年 10 月 12 日",
+      "no": 179,
+      "items": [
+        {
+          "k": "product",
+          "t": "Gboard Kurukuru Version",
+          "b": "Your fingers stay put. The keys come around 一款實驗性鍵盤輸入方式，讓按鍵旋轉到手指位置而非移動手指。適合想嘗試新型輸入互動的使用者。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Farol",
+          "b": "The macOS terminal that shows which coding agent needs you 專為 macOS 設計的終端機工具，可顯示哪個 coding agent 需要使用者介入操作。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "FocusWrite",
+          "b": "A local-first writing app with focus modes. 本地優先的寫作應用程式，提供專注模式協助使用者減少干擾進行寫作。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Agibot",
+          "b": "The always-on personal AI agent for your Mac. $0 forever 常駐於 Mac 的個人 AI 助理，提供永久免費使用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "EdgeVolume",
+          "b": "Control your Mac’s volume from your trackpad edge 讓使用者直接在 Mac 觸控板邊緣滑動即可調整系統音量的工具。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "NotchPit",
+          "b": "Your Mac's notch, rearranged into a control center 將 Mac 瀏海區域重新設計為控制中心，提供快速存取系統功能的介面。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-10-11",
       "dd": "2026 年 10 月 11 日",
