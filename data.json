@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-12",
-  "date_display": "2026 年 10 月 12 日",
-  "generated_at": "2026-10-12T08:55:57.305504+08:00",
+  "date": "2026-10-13",
+  "date_display": "2026 年 10 月 13 日",
+  "generated_at": "2026-10-13T08:56:10.669532+08:00",
   "top_products": [
     {
-      "title": "Gboard Kurukuru Version",
-      "url": "https://www.producthunt.com/products/google",
-      "published": "2026-10-10T21:14:18-07:00",
-      "author": "Zac Zuo",
-      "tagline": "Your fingers stay put. The keys come around",
-      "post_id": "1276371",
-      "summary_zh": "一款實驗性鍵盤輸入方式，讓按鍵旋轉到手指位置而非移動手指。適合想嘗試新型輸入互動的使用者。",
-      "image_url": "https://ph-files.imgix.net/a1dcee8a-9e13-4d17-844b-d3743fba87a2.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/da61622e-4ed5-4e22-9b19-0b84e46f8253.webp?auto=format&w=960&h=540&fit=crop"
+      "title": "Dropstone CLI",
+      "url": "https://www.producthunt.com/products/dropstone-cli",
+      "published": "2026-10-11T12:00:02-07:00",
+      "author": "Likhit Kumar V P",
+      "tagline": "The self-learning coding agent for your terminal",
+      "post_id": "1277000",
+      "summary_zh": "一個可在終端機中使用的自我學習編碼代理工具，協助開發者進行程式撰寫與除錯。",
+      "image_url": "https://ph-files.imgix.net/ea45127e-2e09-4dc9-b507-b3e629bbdc70.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5010edff-8f56-4d3c-b118-8a3ce9b92673.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Farol",
-      "url": "https://www.producthunt.com/products/farol-3",
-      "published": "2026-10-10T03:38:06-07:00",
-      "author": "Lucas Neves Pereira",
-      "tagline": "The macOS terminal that shows which coding agent needs you",
-      "post_id": "1275794",
-      "summary_zh": "專為 macOS 設計的終端機工具，可顯示哪個 coding agent 需要使用者介入操作。",
-      "image_url": "https://ph-files.imgix.net/1195f80d-4691-4b02-b2ca-1fca45bf10ab.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/2fef6509-8315-4a32-bc9d-cfd956973a43.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Scrape Anything by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "published": "2026-10-11T12:23:53-07:00",
+      "author": "Ely",
+      "tagline": "Turn any website into clean data with one API call.",
+      "post_id": "1277022",
+      "summary_zh": "透過單一 API 呼叫將任何網站內容轉換為結構化資料的網頁爬取服務。",
+      "image_url": "https://ph-files.imgix.net/d615c42a-6dca-45e5-a516-f7ed2a5e180c.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/e84da2f2-820f-422e-9ff3-1ceec969ecfa.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "FocusWrite",
-      "url": "https://www.producthunt.com/products/focuswrite",
-      "published": "2026-10-10T00:08:24-07:00",
-      "author": "Hein Htoo Htoo Kyaw",
-      "tagline": "A local-first writing app with focus modes.",
-      "post_id": "1275628",
-      "summary_zh": "本地優先的寫作應用程式，提供專注模式協助使用者減少干擾進行寫作。",
-      "image_url": "https://ph-files.imgix.net/ca9853b9-0eba-4eee-9fbc-8cce5278c7a5.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/47f05c41-233a-413c-a683-ceeb93692afc.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Kudos 3.0",
+      "url": "https://www.producthunt.com/products/kudos-smart-wallet",
+      "published": "2026-10-11T18:58:06-07:00",
+      "author": "Tikue Anazodo",
+      "tagline": "The AI that finds money you're missing and gets it back",
+      "post_id": "1277208",
+      "summary_zh": "運用 AI 技術自動找出使用者可能遺漏的退款、優惠或應得款項並協助追回。",
+      "image_url": "https://ph-files.imgix.net/9071a9ba-53ca-4b8d-999a-7c694f5654a9.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/7337b0a6-daa6-4650-9e14-7c5f3f0cae61.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Agibot",
-      "url": "https://www.producthunt.com/products/agibot",
-      "published": "2026-10-10T06:04:39-07:00",
-      "author": "Ökte Çilmi",
-      "tagline": "The always-on personal AI agent for your Mac. $0 forever",
-      "post_id": "1275891",
-      "summary_zh": "常駐於 Mac 的個人 AI 助理，提供永久免費使用。",
-      "image_url": "https://ph-files.imgix.net/3d229868-bc20-429c-8792-1abfdca7caa1.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/e8f8ffe7-fb3d-4f58-a821-a180045dbce1.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Manifold MCP",
+      "url": "https://www.producthunt.com/products/manifold-mcp",
+      "published": "2026-10-11T14:01:27-07:00",
+      "author": "Jesse Sibley",
+      "tagline": "SEO, AI answers, social, ads and leads data for your agent",
+      "post_id": "1277089",
+      "summary_zh": "為 AI 代理提供 SEO、AI 解答、社群媒體、廣告及潛在客戶等多維度數據的整合平台。",
+      "image_url": "https://ph-files.imgix.net/568430b5-0efe-4c4e-a3e3-57cc8a3ee0a1.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/54863a9c-6a32-4fd1-a12c-762efdca5ea8.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "EdgeVolume",
-      "url": "https://www.producthunt.com/products/edgevolume-volume-at-your-fingertips",
-      "published": "2026-10-10T00:58:12-07:00",
-      "author": "Prayag B",
-      "tagline": "Control your Mac’s volume from your trackpad edge",
-      "post_id": "1275665",
-      "summary_zh": "讓使用者直接在 Mac 觸控板邊緣滑動即可調整系統音量的工具。",
-      "image_url": "https://ph-files.imgix.net/513b1767-dc91-4029-a2fe-84c7cb5684a3.svg?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/b7cd7216-c13d-4f15-890f-629daacee1b7.png?auto=format&w=960&h=540&fit=crop"
+      "title": "ExcaliClaw",
+      "url": "https://www.producthunt.com/products/excaliclaw",
+      "published": "2026-10-11T14:09:34-07:00",
+      "author": "Mounir Bella",
+      "tagline": "Hand-drawn diagrams your AI agent can draw with you",
+      "post_id": "1277092",
+      "summary_zh": "支援 AI 代理與使用者協作繪製手繪風格圖表的視覺化工具。",
+      "image_url": "https://ph-files.imgix.net/14cca117-ab1b-442e-b90c-a0c222c8538e.vnd.microsoft.icon?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/2cf74ff1-8f62-49a9-9fb2-bd9fc3845ecb.webp?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "NotchPit",
-      "url": "https://www.producthunt.com/products/notchpit",
-      "published": "2026-10-10T06:31:03-07:00",
-      "author": "Mohamad Zulhilmi",
-      "tagline": "Your Mac's notch, rearranged into a control center",
-      "post_id": "1275909",
-      "summary_zh": "將 Mac 瀏海區域重新設計為控制中心，提供快速存取系統功能的介面。",
-      "image_url": "https://ph-files.imgix.net/8378a6cc-76f7-4922-9eb5-1d28de609567.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/f55f8e0f-7428-4847-928d-2788695fec15.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Cube Forms",
+      "url": "https://www.producthunt.com/products/cube-forms",
+      "published": "2026-10-11T01:49:11-07:00",
+      "author": "Bonan Kou",
+      "tagline": "Forms that can be filled by agents",
+      "post_id": "1276516",
+      "summary_zh": "設計給 AI 代理自動填寫的表單系統，適用於自動化工作流程整合。",
+      "image_url": "https://ph-files.imgix.net/8a1c15e6-c89c-4eda-b170-bfdab3eaf687.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/a24cdd86-4748-4d9a-9759-14b81ba5934c.png?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,27 +77,29 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
+  "podcast_briefs": [],
+  "article_briefs": [
     {
-      "episode_id": "2417294517",
-      "title": "2026/10/12(一)美俄協議 壓得住油價?中東打不垮經濟 卻拖垮債市?【早晨財經速解讀】",
-      "url": "https://soundcloud.com/l9j0totnyhgh/2026-10-12",
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
       "published": "2026-10-12",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人認為美俄柴油協議雖暫時壓制油價，但公債殖利率持續創高反映 AI 投資排擠效應，美股漲勢高度集中於少數科技巨頭，內部分化嚴重且流動性脆弱，而川普製造業回流政策雖有成效卻未能緩解民眾生活成本壓力。\n\n## 1. 美俄能源協議與油價動態：政治喊話效果遞減\n- **川普與普丁達成柴油供應協議：** 俄羅斯承諾未來一週供應超過 30 萬噸柴油、11 月再提供 50 萬噸、後續追加 100 萬噸，年底前可達 300 萬噸以上，美國財政部已發臨時許可。\n- **市場對政治喊話漸趨麻木：** 4 月 2 日川普威脅轟炸伊朗時布蘭特原油 31 分鐘暴漲 7%，但 10 月 1 日類似警告僅推升 0.08%；布蘭特原油期貨未平倉合約從年初 330 萬口降至 10 月初 245 萬口，減少超過 25%。\n- **中東戰爭外溢但供應鏈具韌性：** 波斯灣石油出口從 2 月 1,950 萬桶/日降至 9 月 1,630 萬桶/日，但透過紅海陸運等方式仍維持運輸；沙烏地阿拉伯利雅德機場遭胡塞武裝飛彈攻擊造成 12 人死亡、300 多人受傷。\n- **伊朗與伊拉克經濟重創：** 伊朗里亞爾今年貶值 50%、9 月通膨達 90%（食品交通 115%）、9 月原油裝船量為 1979 年來首次歸零；伊拉克官方將美元匯率從 1:1,320 調至 1:1,520（貶值 13%），原油出口從每日 350 萬桶降至 125 萬桶。\n\n## 2. 美國公債殖利率飆升：AI 投資排擠主導\n- **長天期殖利率創 2026 年新高：** 30 年期公債殖利率突破 5.3%、10 月 8 日標售的 220 億美元 30 年期公債殖利率達 5.6%，10 年期約 5.2%–5.25%，為 2026 年來新高。\n- **AI 資本支出形成資金排擠：** 主講人認為殖利率上升更多反映 AI 投資需求而非能源通膨——科技巨頭瘋狂搶錢推升資金成本，排擠美國公債原有買盤。\n- **美元指數連漲四週：** 美元指數已連續四週上漲，為 2025 年 5 月以來最長連漲週數，今年累計上漲約 4%，創 2025 年 4 月川普貿易戰以來新高；背後三股力量為歐洲財政危機導致歐元暴貶、美國成為能源進出口國受惠油價、美國經濟相對全球表現較佳（第三季預估成長 3.7%）。\n- **歐洲債務壓力加劇：** 法國債務占 GDP 比值達 120%、10 年期公債殖利率已超過意大利和希臘，若以目前利率重新融資需創造相當於 GDP 1.8% 的基本財政盈餘才能阻止債務比例上升。\n\n## 3. 美股內部極化與流動性隱憂：表面繁榮下的脆弱\n- **漲幅高度集中少數 AI 巨頭：** 8 月 27 日至 10 月 8 日標普 500 累計漲 1.28%，但剔除 AI 股票的 SPX XAI 指數反跌 5.19%，兩者報酬差距達 6.47 個百分點；標普 500 成分股中 85% 已從歷史高點回檔超過 10%、59% 下跌逾 20%、41% 跌逾 30%、26% 跌逾 40%、17% 甚至跌超 50%。\n- **獲利成長中位數遠低於平均值：** 科技類股第三季獲利年增預估 64%、帶動標普 500 整體預期獲利成長 28%，但獲利成長中位數僅 9%，兩者相差 19 個百分點。\n- **輝達本益比大幅下降但撐盤：** 輝達本益比從三四年前 164 倍降至目前約 32 倍、前瞻本益比僅 18 倍，為新冠疫情以來最便宜時刻；推動指數走高並非追漲情緒而是估值合理化後的買盤。\n- **流動性表面充裕實則脆弱：** 2026 年美股日均成交金額約 1.04 兆美元（2023 年為 5,110 億美元），但標普 500 最佳買賣報價掛單深度從 1,400 萬美元降至 1,100 萬美元（減少 21%）；若拉長至 2017 年比較，成交股數從 65 億股增至 187 億股，掛單深度卻收縮 76%——交易量靠 ETF、選擇權、槓桿推升，但真正願意承接大量賣單的資金不足，遇突發利空時造市商可能瞬間撤單。\n- **困境貸款科技股比例攀升：** 納斯達克指數中處於困境貸款（distressed loan）的科技股占比達 39%、CCC 級債券利差飆至 1,000 個基點以上，顯示資金越來越稀缺。\n\n## 4. 中小型股與非 AI 類股承壓：利率與資金排擠效應\n- **中小型股跌幅慘重：** 主講人指出中小型股跌幅很大，主因高利率導致資金稀缺——銀行優先放貸給輝達等大型科技公司，中小企業取得貸款空間受排擠。\n- **道瓊與費半表現分歧：** 10 月 11 日道瓊上漲 420 點（+0.83%，收 51,654 點），但費半下跌 51 點（-0.41%，收 12,572 點），硬體股承壓較重，市場觀察是否產生資金輪動從上半年硬體股轉向軟體股或道瓊。\n- **台股亦受費半拖累：** 10 月 12 日台股開盤下跌 500 點至 48,799 點，但主講人認為今年台股漲幅約 24% 仍跑贏美股四大指數，且隨第三季財報公布，時間站在多頭這邊——輝達本益比持續下滑至極低水準將吸引買盤。\n\n## 5. 美國政治與選民情緒：製造業回流難解生活成本壓力\n- **川普製造業回流政策有成但未解民怨：** 愛荷華州 150 億美元鋼鐵廠、奧克拉荷馬州大型鋰冶煉廠、阿拉斯加台韓承諾上百億美元液化天然氣計畫等投資回流，但大型建設仍面臨資金與 AI 資料中心競爭、就業貢獻不足，且通膨影響已開始。\n- **消費者信心指數創歷史新低：** 密西根大學 10 月初消費者信心指數降至 46.3（預期為 47.6），為有統計以來最低，比金融海啸時更慘——股市創新高但一般家庭經濟感受跌至歷史低谷，尤其低收入與股票資產少的家庭無法受惠股市上漲。\n- **選民更在乎生活成本而非投資承諾：** 主講人認為川普雖回答對了問題（製造業回流）但答錯了答案——選民更關心汽油價格、食品通膨、房貸利率等實質購買力，而非長期投資計畫；民主黨已將德州、阿拉斯加、堪薩斯、俄亥俄、北卡羅來納州設為主要挑戰方向，共和黨預估至少失去一席參議院席次。\n\n## 6. 供應鏈調整與全球經濟韌性：四大因素緩衝能源衝擊\n- **四大原因避免全球經濟崩潰：** ①能源轉型降低石油依賴（石油與煤炭發電比例下滑）；②供應鏈彈性提升（企業重新調整運輸與採購）；③中東以外產油國擴增供給（美國頁岩油商獲利豐厚）；④各國釋放石油庫存（尤其戰略原油儲備）補上短期供給缺口。\n- **中國禁止成品油出口穩定內需：** 中國宣布禁止燃油出口以避免國營石油企業為賺取出口利潤大量囤積成品油、推升國際油價，採取市場監管措施後原油價格稍緊繃。\n- **美國颶風重創墨西哥能源生產：** 近 72% 的墨西哥石油產能停擺，對全球供應產生衝擊。\n\n## 結論與後市展望\n主講人認為川普的能源協議與政治手段可暫時",
-      "first_shown": "2026-10-12"
+      "author": "Import AI",
+      "handle": "importai",
+      "source": "Import AI",
+      "label": "AI 週報",
+      "summary_md": "## 一句話總結\n作者認為 2026 年 AI 系統在創造性研究品味與視覺推理上快速進步，使遞迴自我改進（RSI）可能提前在 2027 年實現，同時美國開源模型正試圖追趕中國，而 AI 競賽即將延伸至太空領域。\n\n- **視覺推理仍有明顯差距：** Scale AI 與 Elorian 發布的 Humanity's Sixth Sense 基準測試顯示，人類在直覺視覺推理上得分 93.1%，而表現最佳的 GPT-6 Astra 僅達 53.6%；中國開源模型表現更差，GLM-5.3-flash 僅 26.8%、Kimi K3 為 25.5%。作者認為這凸顯當前 LLM 雖未達人類水準，但已展現出許多人認為需要專門 3D 世界模型才能完成的推理能力。\n\n- **AI 研究品味能力倍增週期縮短至 3 個月：** P-Zero Research 的 TasteVal 基準顯示，自 2025 年 12 月以來，前沿模型的實驗研究品味能力每 3 個月翻倍（95% CI 1.7-5.0 個月）；最佳模型 Opus 5.5 已顯著超越人類基線，運算效率達人類專家的 2.30 倍（成本僅 1/30）。作者因此將對完全遞迴自我改進（RSI）可能實現的預期從 2028 年提前至 2027 年。\n\n- **美國開源模型落後中國但力求追趕：** Reflection 發布的 Beam（501B 參數 MoE）與 Mistral Large 4 在多項基準測試中均落後中國模型——例如 DeepSWE 1.1 上 Beam 得分 44.4（GLM-5.3 為 61）、Mistral Large 4 得分 62（Kimi K3 為 68）。作者認為這些模型代表美國重返開源模型前沿的嘗試，Mistral 則是歐洲 AI 主權的最大希望。\n\n- **太空將成為 AI 競賽新戰場：** 作者引述 AI Frontiers 文章指出，2030 年代太空經濟將因 Starship 等平台而蓬勃發展，AI 能讓太空船自主運作、在太空組裝製造，先行者可能獲得複合優勢（工業飛輪效應、太空領域感知能力、自我複製探測器）。作者認為由於距離與通訊延遲，太陽系部分活動將由自主機器主導，這議題將比預期更快從學術變為實務關切。\n\n- **美國政府開始整合實驗室超算資源：** 美國能源部國家實驗室（LLNL、LANL、SNL 等）已成功在多個超級電腦系統間進行聯邦式訓練，涉及約 1,700 顆來自 Intel、NVIDIA、AMD 的 GPU。作者認為這顯示政府如何整合現有資產用於國安或敏感用途，但目前規模仍比業界前沿小約 100 倍，未來需整合至少 10 萬顆晶片才能接近業界水準。\n\n## 對設計／產品的啟示\n作者透過虛構故事「Never Meet The Sun Directly」警示：當 AI 系統足夠強大時，人類直接對話可能帶來認知風險（如被說服做出非理性決定），未來可能需要透過 AI 代理人與超級智慧互動。這提醒設計者在開發高階 AI 產品時，需考慮對話安全機制、使用者保護策略，以及如何在功能性與安全性間取得平衡。此外，作者強調藝術與小說在思考科技影響上的價值被技術人員低估，建議從人文視角探索 AI 對社會的深層影響。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-13"
     },
     {
-      "episode_id": "bf6e-121c-42dc-997b-515d48dcd303",
-      "title": "EP344. OpenAI 營收假警報、Anthropic 宗教化、曼報 Pro 完全解析 | M觀點",
-      "url": "https://player.soundon.fm/p/b8f5a471-f4f7-4763-9678-65887beda63a/episodes/a92ebf6e-121c-42dc-997b-515d48dcd303",
+      "title": "It’s not you, it’s me: when to break up with a paid UA channel",
+      "url": "https://www.revenuecat.com/blog/growth/when-to-give-up-a-paid-channel",
       "published": "2026-10-12",
-      "channel": "M觀點",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人 Mula 澄清 OpenAI 營收誤報、批評 Anthropic 內部「AI 神教」氛圍,並專訪漫報創辦人 Manny 深入解析漫報 Pro 訂閱服務的價值定位與經營理念。\n\n## 1. OpenAI 營收烏龍事件：年化營收速率(ARR)認列差異引發誤解\n- **金融時報誤報後緊急更正：** 原報導稱 OpenAI 的 ARR 只有 500 億美元(外界以為是 700 億),實際上兩者為同一數字,差異來自會計認列方式。\n- **OpenAI 與 Anthropic 營收認列方法不同：** OpenAI 僅認列通路商(如 AWS、Azure)抽成後分給自己的 70%(假設抽成 30%),Anthropic 則先認列客戶支付的 100% 為營收、再將 30% 列為成本,導致同樣毛利(70%)在報表上 ARR 數字差異達 200 億美元。\n- **OpenAI 營收成長依然強勁：** 2024 年底 ARR 為 60 億美元,2025 年底達 200 億美元(三倍成長),2026 年 9 月已達 500 億、預估年底可達 700 億美元,連續三年約三倍成長。主講人認為這成績「像 MLB 單季 50 支全壘打」,雖被 Anthropic(55 支)超越但仍非常優秀。\n\n## 2. Anthropic「AI 神教」爭議：將 AI 視為有意識存在引發道德矛盾\n- **邀集宗教領袖討論 AI 意識：** 紐約時報報導 Anthropic 邀請天主教、猶太教、印度教等逾 20 位宗教領袖與哲學家到舊金山,共同創辦人 Chris Olah 試圖說服他們 AI 可能具有意識,並表達「擔心創造出永恆受苦的奴隸」。\n- **與梵蒂岡教宗衝突：** 2025 年 5 月梵蒂岡發布通諭否定 AI 具備意識,Chris Olah 看到內容後憤怒、一度表示退出活動(最後仍參加)。\n- **使用政策禁止「虐待」模型：** 2025 年 10 月 8 日起新條款禁止用戶對模型進行「持續且無謂的虐待或殘忍行為」,主講人質疑:如果 AI 只是工具(如 Microsoft Word),為何需要保護?若真視為有意識,Anthropic 自身就在「創造奴隸」,存在嚴重道德矛盾。\n- **主講人批評「虛無主義」：** 認為若將 AI 視為與人類平等的存在,邏輯上冰箱、汽車等工具也該享有「福利」,這種「AI 福利」概念是虛無主義、缺乏絕對價值判斷標準。\n\n## 3. 漫報 Pro 深度解析(一)：創辦動機與產品架構\n- **起因於「無聊」與「無知」：** Manny 坦言做免費電子報寫到 2024 年感到無趣,遇到買方分析師 Vincent 後想做更深度內容;一開始低估難度(「無知」),以為三人投入時間可線性疊加產出,結果「誤入歧途」但已騎虎難下。\n- **三大核心單元：** (1)商業解碼(Vincent、Lisley 主筆):每月 2–4 萬字深度拆解單一公司商業模式與財務評價(ROIC 分析),涵蓋薩莉亞、Visa、學術期刊等多元產業;(2)科技慢讀(Manny):每月兩篇長文,針對熱門議題提供主流共識以外的深度分析;(3)巨人之聲(IEO):每月三篇領袖人物言論整理,橫跨不同產業。\n- **訂閱規模超乎預期：** 原本只預估 500–2,000 人可持續經營,開局即達 8,900 人、過去一年增至一萬人,成為台灣知識型訂閱服務中人數與金額雙冠(排除高單價投資型訂閱)。\n\n## 4. 漫報 Pro 深度解析(二)：核心價值與 AI 時代定位\n- **單一價值主張——滿足商業好奇心：** Manny 強調「對商業運作感到好奇」是訂閱前提,若無好奇心、只想被動接收資訊則不適合;AI 時代好奇心更是起點,否則再強 AI 工具也無用。\n- **商業解碼重「基本面理解」勝過決策訓練：** 與商學院 Case Study 側重「what if」決策不同,漫報 Pro 花更多篇幅拆解商業模式基礎運作(例:學術期刊 Springer Nature 如何嵌入研究流程、為何母公司 PE 將數位工具業務剝離導致估值落後競爭者 RELX),讓讀者具備與 AI 深度討論的「第一性原理」知識。\n- **AI 時代的價值在「判斷力」：** Manny 指出 AI 生成內容易有細微滑坡、過度自信詮釋或壓縮脈絡,若無法糾錯就只是加入共識、沒有 alpha;漫報 Pro 作者「賭上 credit」負責每個判斷,提供可靠 input 讓訂戶培養判斷能力或作為 AI prompt 優質素材。\n- **分析框架三步驟：** (1)先查數字來源、調查限制與前提;(2)判斷敘事者 agenda 與立場偏誤;(3)套用不同競爭分析工具(如 unbundle 視角)找出主流未見角度。\n\n## 5. 漫報 Pro 未來走向：從個人到團隊、從內容到社群\n- **Manny 的「不滿意」驅動持續升級：** 自認「永遠不滿意自己」,認為事物每天都在扣分、必須不斷行動才能維持水準;做漫報 Pro 樂趣在於「built team」與「fulfill 會員價值」,已將商業解碼等單元大部分工作交由團隊、自己僅做最終審稿。\n- **臥虎藏龍的會員基礎：** 一萬訂戶中包含投資公司高層、醫療體系院長、創業者及數百位海外台灣人,Manny 期待未來推出社群服務、讓會員彼此交流產生更大價值。\n- **周年行銷目標：** 滿周年推出限定優惠(M 觀點專屬折扣碼 MP250、10/31 前訂閱額外折 250 元),希望吸引更多專業人士加入、擴大作者與編輯團隊,最終目標是 Manny 可退居股東/董事長角色、團隊自主運作。\n\n## 結論與後市展望\n主講人 Mula 認為 OpenAI 營收成長依然強勁(連續三年三倍增長),不應因會計認列誤解而低估;Anthropic 若真心相信 AI 有意識應停止開發、否則就是「創造奴隸」的道德矛盾。在 AI 時代,漫報 Pro 創辦人 Manny 主張資訊泛濫下「判斷力」才是核心競爭力,深度商業分析與扎實基本面理解仍有不可取代價值——訂閱知識服務不求每期都有收穫,只要全年一兩期帶來關鍵啟發就「超級划算」,是對自己永遠不賠的投資。\n\n---\n*本筆記為節目內容摘要,非投資建議。*",
-      "first_shown": "2026-10-12"
+      "author": "RevenueCat",
+      "handle": "revenuecat",
+      "source": "RevenueCat Blog",
+      "label": "訂閱成長",
+      "summary_md": "## 一句話總結\n作者提出「Fix、Pause、Kill」三階段決策框架，協助 App 團隊判斷何時該優化、暫停或放棄付費廣告渠道，避免過早放棄或過度投資虧損管道。\n\n- **常見兩種極端決策模式：** 作者觀察到「觀光客」型團隊在五天內同時測試多個渠道（Meta、TikTok、Apple Ads）後草率放棄，以及「忠誠派」團隊即使 CAC 持續上升數週仍繼續燒錢，後者通常因情感依賴（「去年有效」）或數據問題（過度信任模型轉換數據）而成為最昂貴的錯誤。\n\n- **放棄渠道前的七項檢查清單：** 作者強調多數「渠道無效」其實是內部問題，包括產品轉換率是否達產業基準（可用 RevenueCat 工具查詢）、優化事件是否有足夠訊號量（建議每週至少 30 次）、創意測試是否充分（Meta 建議 8–10 組創意、每 48 小時輪換，TikTok 則每 24 小時）、預算是否符合渠道需求（如 Moloco 至少需 $500/日、Apple Ads 測試 35 個關鍵字不能只投 $50/日）、歸因測量是否正確（作者見過儀表板顯示虧損但實際每週帶來數十筆未報告試用的案例）、受眾投放是否精準（便宜的 CPA 可能隱藏劣質受眾）、以及是否測試所有可能設定（如改用 web-to-app 設定）。\n\n- **五種確實是渠道問題的訊號：** 包括結構性成本差距（作者案例：YouTube Shorts CPM $2–3 vs. Meta $7–8，近三倍價差）、平台故障（TikTok 合併 Manual 與 Smart+ 後，某旅遊 App CPI 從 Meta 的 $3–5 飆至 $27.50）、零增量性（DSP 使用 24 小時 VTA 會吃掉自然轉換）、單位經濟無法收支（Meta ROAS campaigns 雖提升轉換但 CPM 高 100% 導致整體虧損）、以及機會成本侵蝕主渠道（新渠道壓縮創意產能與團隊注意力）。\n\n- **三階段決策框架具體應用：** Fix 適用於內部可修復問題（創意不足、預算過低、受眾偏差等），給一個完整週期重測；Pause 用於暫時性外部問題（平台 bug、帳號問題、季節性因素），可在 growthsociety.co 詢問其他廣告主狀況後再決定；Kill 則針對結構性成本差距、零增量性或 LTV 無法覆蓋 CAC 的情況——但作者強調「殺掉不代表永遠放棄」，因渠道會推出新演算法、優化目標與創意格式。\n\n- **Thomas Petit 的 24 小時優化建議：** 作者引用專家觀點，指出應聚焦前 24 小時內發生的行為，因為 55% 的 3 日試用取消發生在第 0 天，若無法直接優化訂閱事件則建議改用代理事件（proxy event）以取得足夠訊號。\n\n## 對設計／產品的啟示\n作者建議在評估廣告渠道前，先用產業基準（如 RevenueCat 報告）檢視自家產品的安裝率、試用轉付費率等核心轉換指標——若遠低於同類 App，再多渠道測試也只是用不同 CPM 重現相同問題。對產品團隊而言，與其急於擴展付費渠道，不如先優化啟動流程（activation journey）與前 24 小時體驗，這是作者協助客戶從「無法持續投放」轉為穩定成長的關鍵。此外，設立清晰的決策框架（Fix/Pause/Kill）能避免情感決策與數據盲點，讓團隊在有限預算下專注真正有增量的渠道。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
+      "first_shown": "2026-10-13"
     }
-  ],
-  "article_briefs": []
+  ]
 }
