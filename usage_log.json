@@ -5636,10 +5636,10 @@
     ]
   },
   "2026-10-14": {
-    "input_tokens": 17876,
-    "output_tokens": 4334,
-    "audio_seconds": 1970.8,
-    "cost_usd": 0.140536,
+    "input_tokens": 38763,
+    "output_tokens": 6810,
+    "audio_seconds": 4968.3,
+    "cost_usd": 0.273643,
     "calls": [
       {
         "label": "producthunt",
@@ -5668,6 +5668,20 @@
         "output_tokens": 2411,
         "audio_seconds": 0.0,
         "cost_usd": 0.070287
+      },
+      {
+        "label": "podcast-whisper",
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "audio_seconds": 2997.5,
+        "cost_usd": 0.033306
+      },
+      {
+        "label": "podcast-summary",
+        "input_tokens": 20887,
+        "output_tokens": 2476,
+        "audio_seconds": 0.0,
+        "cost_usd": 0.099801
       }
     ]
   }
