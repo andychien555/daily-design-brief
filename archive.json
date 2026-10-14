@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-10-14",
+    "date_display": "2026 年 10 月 14 日",
+    "generated_at": "2026-10-14T08:56:05.899841+08:00",
+    "total": 7,
+    "sources": [
+      "UX Tigers"
+    ],
+    "headline": "作者認為縮圖（thumbnail）之所以有效，是因為人類視覺系統能在十分之一秒內掌握圖片要旨，但縮圖必須做到「與鄰居不同」與「忠實預覽目的地」才能發揮作用，否則會淪為無用的雙胞胎或欺騙性的誘餌。",
+    "no": 181
+  },
+  {
     "date": "2026-10-13",
     "date_display": "2026 年 10 月 13 日",
     "generated_at": "2026-10-13T08:56:10.669532+08:00",
@@ -1055,17 +1066,5 @@
     ],
     "headline": "Kimi-K3 在 Frontend Code Arena 拿下第一，超越 Claude Fable 5，排名從 #18 躍升至 #1，在品牌行銷、參考設計、數據分析等 7 個領域中有 6 個領域排名第一。",
     "no": 92
-  },
-  {
-    "date": "2026-07-16",
-    "date_display": "2026 年 07 月 16 日",
-    "generated_at": "2026-07-16T08:56:07.845702+08:00",
-    "total": 8,
-    "sources": [
-      "Design",
-      "UX Design"
-    ],
-    "headline": "推出 improve-ui 技能工具，能讀取專案的設計系統文件（DESIGN.md、CSS、共用元件等），自動檢查 UI 是否違反自身設計規範並產生修正計畫。靈感來自 shadcn 的 improve skill。",
-    "no": 91
   }
 ]
