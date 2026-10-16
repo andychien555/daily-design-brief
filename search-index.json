@@ -1,6 +1,61 @@
 {
-  "generated_at": "2026-10-16T01:57:30+08:00",
+  "generated_at": "2026-10-16T08:58:10+08:00",
   "days": [
+    {
+      "d": "2026-10-16",
+      "dd": "2026 年 10 月 16 日",
+      "no": 183,
+      "items": [
+        {
+          "k": "podcast",
+          "t": "EP345. AI 基建股大跌中、Meta 衝到最前沿、SPCX 電信商之夢 | M觀點",
+          "b": "1. AI 基礎建設股暴跌：多重利空疊加 跌幅驚人： 週一至週三美光（MU）跌 11%、Credo 跌 17%、Lumentum 跌 18%，整體 AI Infra 股平均跌 15%，若加上週四開盤估計達 18%。 博通 CEO「賭博論」： Hock Tan 公開表示許多 AI 投資人在賭博，動搖市場信心；隨後馬斯克評論中國記憶體產能將「卷爛」市場，進一步打壓美光等記憶體股。 CoreWeave 債券危機： NeoCloud 廠商 CoreWeave 無擔保公司債在二級市場利率飆升至 15%（遠高於垃圾債平均 9%），顯示市場對算力租賃業者信心下降、借貸意願緊縮。 CPI 超預期與 Anthropic 季增放緩： 9 月 CPI 與核心 CPI 均高於預期（MoM 0.3%）；Anthropic 第三季營收 168 億美元雖 QoQ 成長 45%，但遠低於第二季的 142%，市場不滿。 2. CoreWeave 利率事件的深層意義 資金成本暴增壓抑擴張： 15% 借貸成本意味 NeoCloud 業者難以低成本籌資購買 GPU、光通訊等設備，直接打擊 AI Infra 需求成長。 槓桿比例過高： CoreWeave Debt-to-Equity 達 7（每 1 元股東資本配 7 元負債），遠超業界（如 Lambda 為 2、Nebius 為 0.8），顯示財務風險極高。 市場信心關鍵： 若未來幾個月 OpenAI、Anthropic 營收持續成長，金主信心回升則利率可能下降；反之將持續打壓 AI Infra 股價。主講人認為本波修正「合理」，股價跌 20–30% 屬正常範圍。 3. Meta 推出 Muse Wonder/Wonderful：擠進最前沿但 CP 值欠佳 性能達最前沿水準： Muse Wonder（MAX 推理）在 AAI 得分 52 分，與 GPT-4o-1 並列、僅次於 Claude 3.5 Sonnet 等 53 分模型；Muse Wonderful 達 56 分（僅次於 Opus 3.5 的 58 分）。 成本過高限制普及： Muse Wonder 每任務成本 4.5 美元，是 GPT-4o-1（0.7 美元）的 6 倍以上；Muse Wonderful 僅限 Meta 內部開發工具 Muse Code 使用，無 API 供外部調用。 戰略意義大於市場影響： 主講人認為這兩個模型主要用於強化 Meta 自家 AI Agent 與智能眼鏡產品，對外部開發者吸引力有限，不會像先前 Llama Spark 引發市場驚艷。 4. SpaceX 進軍美國電信市場：收購 800MHz 頻譜布局小型基地台 頻譜組合完整： 10/8 收購 800MHz 低頻頻譜（穿透力強、適合室內），搭配先前 2GHz 頻段，可同時支援衛星直連與地面基地台服務。 小型基地台策略： 不建大型塔台（覆蓋 1–5 公里），改採小型基地台（覆蓋半徑 200 公尺）部署在 Starlink 用戶住家或 Cybertruck 車頂，降低資本支出並加速布建。 目標用戶與估值： 主講人估計 SpaceX 頻寬足以服務 2,000–3,000 萬用戶（約美國三大電信商 Verizon、AT&T、T-Mobile 各 10%），該業務估值約 1,000 億美元，遠低於其 AI 算力業務（估值 1 兆美元）。 商業模式創新： 可能與 Starlink 用戶合作出租陽台/屋頂裝設小型基地台並分潤，預計 2027–2028 年正式開台。 5. 主講人投資動態與工具應用 持股調整： 已清倉 Nebius 轉向 SpaceX 與 Meta 算力租賃押注；10/6 提高現金部位至約 20%，本週 AI Infra 跌幅中「少虧一點」；若 AI Infra 平均跌 20% 會小幅加碼、跌 30% 則大幅加碼。 AI Agent 實驗： 在 Grabot 平台建立 7–8 個專屬 AI Agent（剪片、新聞摘要、Email 提醒等），甚至開設「龍與地下城 DM」進行 TRPG 遊戲（每回合消耗 2–3% token 用量）；剪片測試中 Grabot 表現優於 Claude Code。 模型使用偏好： 最聰明任務用 Opus 3.5；日常工作首選 GPT-4o-1（CP 值最高但速度稍慢）；AI Agent 平台首推 Grabot；Gemini 2.0 Flash 明顯優於 1.5 Pro 但仍輸 GPT-4o-1。 結論與後市展望 主講人認為本波 AI Infra 修正「比過去幾次都合理」，因 CoreWeave 債券利率暴增揭示資金緊縮真實壓力，預期平均跌幅可能達 20–30%；但長期仍看好 AI 產業，會在跌深處分批加碼。Meta 模型雖達最前沿但無法撼動市場格局；SpaceX 電信業務雖具潛力但相對 AI 算力仍屬「小巫見大巫」。投資人應理性看待 AI Infra 高估值中的「賭博成分」，並關注後續 OpenAI、Anthropic 營收數據能否重建市場信心。 本筆記為節目內容摘要，非投資建議。",
+          "m": "M觀點"
+        },
+        {
+          "k": "article",
+          "t": "5 Models for combining subscription apps with physical products",
+          "b": "一句話總結 作者整理了訂閱制 App 結合實體產品的五種模式，強調「公平性」是關鍵——顧客必須能在不額外付費的情況下使用已購買的核心功能，否則實體加值策略會適得其反。 五種模式覆蓋不同起點： App 優先（品牌周邊、輔助商品、實體為核心服務）與硬體優先（硬體搭配訂閱、會員制硬體）兩大路徑。作者以 Willow 植物感測器為例——硬體已提供完整價值，訂閱僅提供數據追蹤等加值功能，因此不會引起反感。 實體產品可大幅拉高 LTV： RevenueCat 數據顯示 63.5% App 僅提供訂閱，中位數每付費者年 LTV 僅 23 美元；作者的 Willow 案例中，三組感測器售價 101 美元、訂閱 34 美元／年，實體營收是訂閱的三倍。Peloton 硬體毛利僅 13.4%、訂閱達 73.6%；Skylight 數位相框訂閱雖僅占營收 10–20%，卻貢獻約一半利潤。 公平性決定成敗案例： BMW 加熱座椅訂閱制 15 個月後取消，因顧客認為已購車款應包含該功能；Snoo 智慧搖籃新增 20 美元／月訂閱，原購買者保有免費功能，但二手買家需付費，導致轉售價值崩跌與負評；Oura Ring 2021 年將免費功能改為付費遭批評，五年後因持續交付 14 項新功能與 2 項整合才重建信任。 Web 營收爆發降低實體門檻： 2025 年 41% 頂級 App 已透過 Web 產生營收，且 Apple 規定實體商品必須在 App 外販售（無抽成），使實體電商整合變得更可行；但作者提醒電商營運成本高、毛利低、庫存與退貨風險大，須審慎評估。 定價須低於「厭惡線」： Skylight 將年費從 39 美元漲至 79 美元，訂閱率與留存幾乎不受影響；但顧客研究顯示 99 美元會落入「不值得」區間，因此保守停在 79 美元。作者強調高價須搭配高期待，實體產品溢價更容易引發「被二次收費」的不滿。 對設計／產品的啟示 作者建議先問五個問題：超級用戶是否已主動要求周邊（模式 1）、有無實體物能增強數位體驗（模式 2）、訂閱服務能否承受物流延誤（模式 3）、硬體本體是否永久可用（模式 4）、能否負擔免費提供硬體（模式 5）。核心原則是從顧客視角定義「什麼該付費、什麼不該」——如果實體產品已交付承諾價值，訂閱應是明確的加值服務（如數據追蹤、進階功能）；若核心功能需持續付費才能使用，必須在購買時就清楚說明。對設計師而言，實體與數位整合不只是行銷噱頭，而是 LTV 優化策略，但須平衡營收最大化與顧客信任——有時「留一點錢在桌上」換來的長期留存與口碑，比短期榨取更有價值。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "RevenueCat"
+        },
+        {
+          "k": "product",
+          "t": "Navige",
+          "b": "Cut AI agent costs and control runaway spending 協助企業監控和控制 AI agent 的運行成本，避免預算超支。適合需要大規模部署 AI 代理的組織使用。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "CinemaLut",
+          "b": "Any frame's color, as a LUT for yours. 從任何影像畫面提取色彩資訊並生成 LUT 檔案，讓使用者能將喜愛的影片色調應用到自己的作品中。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Ubuntu 26.10 (Stonking Stingray)",
+          "b": "GNOME 51, Rust coreutils, and a refreshed Linux desktop Ubuntu 最新版本，搭載 GNOME 51 桌面環境、採用 Rust 重寫的核心工具，並優化了 Linux 桌面體驗。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "NestJS Observe",
+          "b": "Zero-config observability built for NestJS 專為 NestJS 框架設計的可觀測性工具，無需額外配置即可監控應用程式運行狀態。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "AI Sandboxes by Buddy",
+          "b": "Isolated cloud machines for your AI coding agents 提供隔離的雲端環境讓 AI 編程代理安全執行程式碼，避免對主系統造成影響。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Chatway MCP",
+          "b": "Let ChatGPT & Claude answer customer support tickets via MCP 透過 MCP 協定讓 ChatGPT 和 Claude 直接處理客戶支援工單，實現客服自動化。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-10-15",
       "dd": "2026 年 10 月 15 日",
