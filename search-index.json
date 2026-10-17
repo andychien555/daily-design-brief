@@ -1,6 +1,61 @@
 {
-  "generated_at": "2026-10-17T01:46:58+08:00",
+  "generated_at": "2026-10-17T08:57:10+08:00",
   "days": [
+    {
+      "d": "2026-10-17",
+      "dd": "2026 年 10 月 17 日",
+      "no": 184,
+      "items": [
+        {
+          "k": "article",
+          "t": "UX Maps: Glossary",
+          "b": "UX 地圖的核心定義： 作者認為 UX 地圖是「體驗、流程或系統的視覺化呈現，幫助團隊建立共同理解」，實務工作者在專案中用來整合研究、對齊利害關係人、發現服務缺口與規劃未來工作。 時間軸類地圖（Chronological Map）： 作者指出有三種主要的時間軸地圖——體驗地圖（Experience Map）、服務藍圖（Service Blueprint）與旅程地圖（Journey Map）——都用於呈現使用者隨時間的體驗，但旅程地圖聚焦特定企業或產品，體驗地圖則關注通用人類行為。 認知與概念視覺化工具： 作者列舉認知地圖（Cognitive Map）可採多種形式（清單、流程圖、概念圖、心智圖或親和圖），其中概念圖用節點與標示邊線表示概念關係，心智圖則以樹狀結構呈現主題與子主題。 策略規劃類地圖： 作者區分三類路線圖（Roadmap）——產品路線圖涵蓋所有部門未來待解決問題，UX 路線圖（或稱 Field Roadmap）只聚焦 UX 團隊負責的主題，專業路線圖（Specialty Roadmap）更細緻到單一 UX 領域如使用者研究。 關係與組織視覺化： 作者說明關係地圖（Relationship Map）用於描繪組織內關鍵團隊、人員與資源的連結與協助方式，利害關係人地圖（Stakeholder Map）則評估各利害關係人對專案的權力、興趣與態度（常用 Mendelow 矩陣），技能地圖（Skill Map）用於盤點 UX 團隊的強弱項。 流程與互動視覺化： 作者提到使用者流程（User Flow）呈現完成任務的典型或理想步驟（可用線框流程圖 Wireflow 或流程圖表達），流程地圖（Process Map）聚焦特定使用者或商業流程的細節，故事板（Storyboard）則用連續圖片敘述事件時序。 對設計／產品的啟示 作者建議實務工作者將此詞彙表作為選擇地圖工具的參考指南，因為許多地圖外觀相似、名稱互通，容易混淆；明確區分各工具的用途（如旅程地圖 vs. 體驗地圖、產品路線圖 vs. UX 路線圖）可幫助團隊在專案不同階段選用最適合目標的視覺化方法，提升溝通效率與決策品質。作者亦提供相關範本與延伸文章連結，方便讀者深入學習各方法的實作細節。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "NN/g Nielsen Norman Group"
+        },
+        {
+          "k": "article",
+          "t": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+          "b": "一句話總結 作者研究發現，AI 生成的合成受訪者（synthetic users）在回答開放式問卷時，雖然得出與 604 位真人相同的主要結論，但答案的多樣性遠低於真人，出現「模式崩塌」（mode collapse）現象。 研究設計： 作者使用 Synthetic Users 平台生成 120 位合成受訪者，代表全球科技與設計專業人士，並讓他們回答與先前真人調查相同的開放式問題：「哪個專業領域最能描述 UX 工作？」兩組資料都用關鍵字編碼分析。 主要結論一致但比例更極端： 84% 的合成受訪者使用 UX 相關術語，而真人約 70%；這個 14 個百分點的差異雖有統計顯著性，但不影響核心結論——UX 仍是主流術語。值得注意的是，真人樣本中 67% 為 UX 專業人士，合成樣本僅 20%，但合成受訪者使用 UX 術語的比例反而更高。 模式崩塌現象明顯： 真人使用超過 50 種不同標籤（如「consumer-behavior research」、「journey management」等），但合成受訪者只產生約 12 種標籤，完全缺少罕見或專業術語（如「digital management」或「business analysis」）。作者指出這是典型的模式崩塌——生成模型只重現最常見答案，遺失真實人群的長尾分布。 職位影響存在但差異被低估： 在合成資料中，45% 的客戶洞察專業人士使用「customer」一詞，而 0% 的 UX 專業人士使用；職位確實影響用詞。但合成的產品經理有 93% 使用 UX 相關術語，真人產品經理只有 44%，顯示合成受訪者過度向主流標籤靠攏，低估了不同群體間的實際差異。 平台控制限制： 作者發現 Synthetic Users 平台會自動將問題轉為訪談格式，有時改寫問題措辭（如加入「behaviors」），這些變動可能影響回答，但研究者無法控制。這凸顯合成用戶平台的基本限制：問題呈現方式可能成為混淆變數。 對設計／產品的啟示 作者強調，合成用戶研究仍非真正的用戶研究，因為沒有實際用戶被研究。合成受訪者可用於產生假設或檢驗大方向趨勢，但當研究需要捕捉罕見觀點、次群體差異、或自然變異（特別是開放式問題的長尾回答）時，必須使用真人參與者。即使合成資料得出看似合理、甚至與真人研究一致的結論，也不代表它能可靠呈現真實人群的完整多樣性。設計與產品團隊應將合成受訪者視為起點而非證據，避免因模式崩塌而遺漏重要的用戶洞察。 本筆記為文章重點摘要，完整內容請見原文。",
+          "m": "NN/g Nielsen Norman Group"
+        },
+        {
+          "k": "product",
+          "t": "Parallax",
+          "b": "Every coding agent you run, in one place. 集中管理所有程式碼代理（coding agent）的執行平台，讓開發者在單一介面統一操作與監控。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Dottr",
+          "b": "Agent that drafts contracts, flags risks + gets them signed AI 代理工具，協助草擬合約、標示風險並完成簽署流程，適合需要處理法律文件的團隊。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Harness by Autonomous",
+          "b": "Every coding agent, every machine, one command center. 統一指揮中心，整合所有程式碼代理與機器資源，提供集中化的開發管理介面。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Tetriz Harness",
+          "b": "Turn what your team learns into everyone’s agent setup 將團隊成員的學習經驗轉化為可共享的 agent 設定，促進知識與工作流程標準化。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "DOYT",
+          "b": "The Dynamic Island to-do app you don't have to open 利用 iPhone Dynamic Island 顯示待辦事項，無需開啟 App 即可快速查看與管理任務。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Grablo Spot",
+          "b": "Free AI NVR that finds any person or vehicle in seconds 免費 AI 網路錄影系統（NVR），能在數秒內搜尋並定位錄影中的特定人物或車輛。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-10-16",
       "dd": "2026 年 10 月 16 日",
