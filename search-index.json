@@ -1,6 +1,49 @@
 {
-  "generated_at": "2026-10-18T00:48:41+08:00",
+  "generated_at": "2026-10-18T08:56:09+08:00",
   "days": [
+    {
+      "d": "2026-10-18",
+      "dd": "2026 年 10 月 18 日",
+      "no": 185,
+      "items": [
+        {
+          "k": "product",
+          "t": "Emochi",
+          "b": "Voice journal to understand yourself through art and science 透過語音日記記錄情緒與想法,結合藝術與科學方法幫助使用者理解自己的內在狀態。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Draper",
+          "b": "Validate, plan, and launch a business, one step at a time. 協助創業者逐步驗證商業想法、規劃策略並啟動事業的工具平台。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Salience",
+          "b": "See every request to your website and how it responds. 提供網站請求與回應的完整可視化監控,讓開發者追蹤每個 HTTP 請求的細節。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Step 5 Preview",
+          "b": "600B open weights, trained for long-running agents 擁有 600B 參數的開源權重模型,專為長時間運行的 AI agent 應用場景訓練。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "GPU Terminal by Context.dev",
+          "b": "Compare GPU rental prices across cloud providers 比較各大雲端服務商的 GPU 租用價格,幫助開發者找到最具成本效益的運算資源。",
+          "m": "Product Hunt"
+        },
+        {
+          "k": "product",
+          "t": "Tesla Roadster",
+          "b": "The hypercar that flies Tesla 推出的超級跑車,具備飛行能力的電動超跑。",
+          "m": "Product Hunt"
+        }
+      ]
+    },
     {
       "d": "2026-10-17",
       "dd": "2026 年 10 月 17 日",

@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-17",
-  "date_display": "2026 年 10 月 17 日",
-  "generated_at": "2026-10-17T08:55:59.307103+08:00",
+  "date": "2026-10-18",
+  "date_display": "2026 年 10 月 18 日",
+  "generated_at": "2026-10-18T08:55:55.502747+08:00",
   "top_products": [
     {
-      "title": "Parallax",
-      "url": "https://www.producthunt.com/products/parallax-5",
-      "published": "2026-10-15T12:25:02-07:00",
-      "author": "Loc Tran",
-      "tagline": "Every coding agent you run, in one place.",
-      "post_id": "1281822",
-      "summary_zh": "集中管理所有程式碼代理（coding agent）的執行平台，讓開發者在單一介面統一操作與監控。",
-      "image_url": "https://ph-files.imgix.net/08f05d37-acd0-4443-b9c8-4f88a2e4a7cd.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/91d1e35d-72ee-4a62-83e8-92fcf4d33a55.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Emochi",
+      "url": "https://www.producthunt.com/products/emochi-2",
+      "published": "2026-10-16T00:43:37-07:00",
+      "author": "Nick Zieber",
+      "tagline": "Voice journal to understand yourself through art and science",
+      "post_id": "1282248",
+      "summary_zh": "透過語音日記記錄情緒與想法,結合藝術與科學方法幫助使用者理解自己的內在狀態。",
+      "image_url": "https://ph-files.imgix.net/9a76b94d-5022-4931-ac22-2e629f56fecd.gif?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/5affd85e-0b75-4a80-8dca-664fa98185ac.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Dottr",
-      "url": "https://www.producthunt.com/products/dottr",
-      "published": "2026-10-14T19:37:55-07:00",
-      "author": "Kevin William David",
-      "tagline": "Agent that drafts contracts, flags risks + gets them signed",
-      "post_id": "1280874",
-      "summary_zh": "AI 代理工具，協助草擬合約、標示風險並完成簽署流程，適合需要處理法律文件的團隊。",
-      "image_url": "https://ph-files.imgix.net/9a147bda-4b76-4580-9d9a-1abc06bb758f.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/6f7127b2-3a87-4b55-a7bf-8f2cf9fdbef6.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Draper",
+      "url": "https://www.producthunt.com/products/draper",
+      "published": "2026-10-15T21:41:40-07:00",
+      "author": "Dexter Todd",
+      "tagline": "Validate, plan, and launch a business, one step at a time.",
+      "post_id": "1282082",
+      "summary_zh": "協助創業者逐步驗證商業想法、規劃策略並啟動事業的工具平台。",
+      "image_url": "https://ph-files.imgix.net/82d12dea-a060-4c42-bc30-aaea2426e55d.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/72248e8f-69af-4dc2-a916-bf2b2f9fe0e6.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Harness by Autonomous",
-      "url": "https://www.producthunt.com/products/harness-by-autonomous",
-      "published": "2026-10-15T06:27:08-07:00",
-      "author": "Hiten Shah",
-      "tagline": "Every coding agent, every machine, one command center.",
-      "post_id": "1281483",
-      "summary_zh": "統一指揮中心，整合所有程式碼代理與機器資源，提供集中化的開發管理介面。",
-      "image_url": "https://ph-files.imgix.net/8dd4ace8-4774-4e1c-9f3d-9ce6674a82db.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/529d55db-7a43-4dec-bfa2-defd01c6605b.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Salience",
+      "url": "https://www.producthunt.com/products/salience",
+      "published": "2026-10-16T20:46:40-07:00",
+      "author": "Carl Hendy",
+      "tagline": "See every request to your website and how it responds.",
+      "post_id": "1283097",
+      "summary_zh": "提供網站請求與回應的完整可視化監控,讓開發者追蹤每個 HTTP 請求的細節。",
+      "image_url": "https://ph-files.imgix.net/9042a8e1-9fc2-4114-bb2f-3936890b6eea.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/c953c5cd-a82c-4274-bbf7-e3372f4e0c43.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Tetriz Harness",
-      "url": "https://www.producthunt.com/products/tetriz-harness",
-      "published": "2026-10-15T04:55:43-07:00",
-      "author": "Prasanna R",
-      "tagline": "Turn what your team learns into everyone’s agent setup",
-      "post_id": "1281396",
-      "summary_zh": "將團隊成員的學習經驗轉化為可共享的 agent 設定，促進知識與工作流程標準化。",
-      "image_url": "https://ph-files.imgix.net/6b9e56ad-3102-4091-a7cd-23c4a9053331.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/9d6976f4-d87c-4e71-9497-dfe3a276514e.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Step 5 Preview",
+      "url": "https://www.producthunt.com/products/step-3-5-flash",
+      "published": "2026-10-16T08:06:14-07:00",
+      "author": "Zac Zuo",
+      "tagline": "600B open weights, trained for long-running agents",
+      "post_id": "1282623",
+      "summary_zh": "擁有 600B 參數的開源權重模型,專為長時間運行的 AI agent 應用場景訓練。",
+      "image_url": "https://ph-files.imgix.net/87e367fb-62a8-4a12-a2b5-512820906ff7.svg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/81671235-175d-491a-8dd1-a768c2690a0b.jpeg?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "DOYT",
-      "url": "https://www.producthunt.com/products/doyt",
-      "published": "2026-10-15T00:10:19-07:00",
-      "author": "Roa Lee",
-      "tagline": "The Dynamic Island to-do app you don't have to open",
-      "post_id": "1281075",
-      "summary_zh": "利用 iPhone Dynamic Island 顯示待辦事項，無需開啟 App 即可快速查看與管理任務。",
-      "image_url": "https://ph-files.imgix.net/2b119297-c725-4aa2-9f0d-93c83374ec96.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/688eaf86-3e62-455c-826e-95391cfc5c77.png?auto=format&w=960&h=540&fit=crop"
+      "title": "GPU Terminal by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "published": "2026-10-16T18:32:08-07:00",
+      "author": "Ely",
+      "tagline": "Compare GPU rental prices across cloud providers",
+      "post_id": "1283017",
+      "summary_zh": "比較各大雲端服務商的 GPU 租用價格,幫助開發者找到最具成本效益的運算資源。",
+      "image_url": "https://ph-files.imgix.net/67d3c38f-e5ee-4be9-97b1-8eda63e24a80.png?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/e990aafa-d516-4377-9d00-8b724a034226.png?auto=format&w=960&h=540&fit=crop"
     },
     {
-      "title": "Grablo Spot",
-      "url": "https://www.producthunt.com/products/grablo-spot",
-      "published": "2026-10-15T04:36:40-07:00",
-      "author": "YoungMin Kim",
-      "tagline": "Free AI NVR that finds any person or vehicle in seconds",
-      "post_id": "1281375",
-      "summary_zh": "免費 AI 網路錄影系統（NVR），能在數秒內搜尋並定位錄影中的特定人物或車輛。",
-      "image_url": "https://ph-files.imgix.net/42076fbd-cafe-4cdf-bf91-f96ca2585e49.png?auto=format&w=160&h=160&fit=crop",
-      "hero_url": "https://ph-files.imgix.net/d7afeed7-7263-4283-947c-d3a17afd3347.png?auto=format&w=960&h=540&fit=crop"
+      "title": "Tesla Roadster",
+      "url": "https://www.producthunt.com/products/tesla-roadster",
+      "published": "2026-10-15T19:49:42-07:00",
+      "author": "Zac Zuo",
+      "tagline": "The hypercar that flies",
+      "post_id": "1282035",
+      "summary_zh": "Tesla 推出的超級跑車,具備飛行能力的電動超跑。",
+      "image_url": "https://ph-files.imgix.net/106cfeac-850f-4567-ac42-0a51998ee2f1.jpeg?auto=format&w=160&h=160&fit=crop",
+      "hero_url": "https://ph-files.imgix.net/3a39a1e4-01b0-4cf2-91e5-fb00f25133b2.jpeg?auto=format&w=960&h=540&fit=crop"
     }
   ],
   "criteria": {
@@ -77,50 +77,6 @@
       "top_n": 6
     }
   },
-  "podcast_briefs": [
-    {
-      "episode_id": "2420852640",
-      "title": "【完整版專訪】賴清德總統談台灣經濟",
-      "url": "https://soundcloud.com/l9j0totnyhgh/hjdin5eecdh2",
-      "published": "2026-10-17",
-      "channel": "游庭皓的財經皓角",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n賴清德總統闡述「AI 新時代建設」為核心的經濟政策，強調在推動 AI、半導體等戰略產業的同時，透過中小微企業轉型、社會福利擴大、能源多元化等措施，力求產業均衡發展與縮小貧富差距。\n\n## 1. AI 政策與產業布局：前瞻但兼顧社會永續\n- **AI 基本法七大原則：** 包括社會永續發展、人類自主、隱私權保護、治安、公開透明、公平無歧視、可問責；政府作為「負責任推動者」。\n- **AI 新時代建設目標：** 2040 年前培育 50 萬 AI 應用人才、打造算力與 AI 主權中心、穩定電力供應、台灣均衡發展；聚焦矽光子、量子運算、機器人三大核心技術。\n- **百萬中小微企業導入 AI：** 2040 年前協助至少 100 萬家中小微企業升級轉型，打造一兆元產值軟體平台生態系，目標躋身全球前五大 AI 應用國家。\n- **大帶小產業鏈整合：** 台積電與日月光在高雄楠梓成立封測產業鏈，讓中小企業現場測試並融入供應鏈；避免「大者恆大、小者恆小」的產業兩極化。\n\n## 2. 縮小貧富差距：加薪、減稅、增福利、少負擔\n- **基本工資連 11 年調升：** 從馬政府交接時 20,008 元提高至現行 30,900 元；軍公教十年加薪五次，含專業津貼與主管加給約 20%；刑警與軍人危險津貼再調高。\n- **稅負負擔率低於國際：** 台灣約 13%，相對美國 19%、日本 20%、歐洲多國 35%–45%；40%–50% 民眾免繳所得稅，所得前 1% 繳納 40% 所得稅，落實「取有餘補不足」。\n- **0 到 18 歲成長津貼：** 每月 5,000 元，全球首創；另有 0 到 6 歲國家一起養（第一胎 5,000 元、第二胎 6,000 元、第三胎 7,000 元）、高中職公私立免學費、私立大專年補助 35,000 元（低收再加 20,000 元、中低收再加 15,000 元）。\n- **長照 3.0 佈建：** 全台超過 15,000 個據點、逾 10 萬名服務員；目標維持中產階級規模、避免 K 型經濟惡化。\n\n## 3. 中小微企業扶持：1,000 億基金與 13 項國家戰略產業\n- **中小微企業升級轉型發展條例：** 提出 1,000 億基金協助 171 萬家中小微企業（約 900 萬就業人口）升級轉型；涵蓋資金協助、人才培育、金融支持、稅負減免、國際市場開拓與單一窗口。\n- **13 項國家戰略產業：** 包括五大信賴產業（半導體、AI、軍工、安控、次世代通訊）、三大核心技術（矽光子、量子運算、機器人）、五大產業（稀有礦物、醫療生技、基礎建設與都更、文化創意、觀光）。\n- **地方創生與社會企業：** 鼓勵年輕人返鄉利用地方歷史文化、觀光或產業資源發展在地產業與社會企業。\n\n## 4. 對美關稅談判：化危機為產業東拓契機\n- **台美貿易順差擴大：** 今年外銷預估約 9,000 億美元，對美順差超過去年提出對等關稅時的水準；政府以「雙方互惠」立場談判，不採拖延策略。\n- **15% 關稅不疊加：** 與日本、韓國條件拉平，相較過往台灣對美貿易條件反而有優勢；雖美國聯邦法院撤銷對等關稅法律基礎，台灣仍等待 301 調查等法律程序跑完後爭取原談判條件。\n- **台美產業結合歷史時機：** 主講人認為台灣產業發展應「東拓」跨太平洋與美國深度結合；美方看到台灣實力與政策可行性，形成「台灣投資美國國家隊、美國投資台灣國家隊」雙向布局（含科技與國防工業）。\n\n## 5. 能源政策：穩定供電、再生能源、核電程序重啟\n- **電力供應盤點至 2035 年：** 已將經濟成長、AI 算力中心、尖端運算需求全數納入；預估每日發電 42–45 GW，備轉容量率 10%–20%（約 4.4 GW），1 GW 算力中心價值約 1 兆台幣。\n- **再生能源目標：** 目前約 13%，目標 2035 年提升至 30% 以上；主要電力仍為天然氣（40%+）與燃煤等石化能源。\n- **核電重啟三原則：** 核安無虞、核廢有解、社會有共識；主講人態度為「不排除任何能源、不因短期利益犧牲環境永續」；台電已依立法院通過法律啟動重啟程序，交由專業評估。\n- **油電不漲政策：** 延續蔡政府作法，政府補貼中油與台電以穩定物價；主講人認為雖有「寄帳」問題，但從總體經濟與全民受惠角度「利大於弊」。\n\n## 6. 央行政策與金融風險管理：尊重獨立性、強化亞洲資產管理中心\n- **利率維持不動原因：** 央行說明 CPI 多維持 1.7%–1.9%，僅上月 2.73%，預期明年 2% 以下；油電補貼雖壓低通膨，但整體物價仍穩定；若升息將連動匯率升值、房貸利率、企業投資成本、民眾消費支出，需整體考量。\n- **第二戶信用管制放鬆：** 主講人強調「央行具獨立性，總統對其政策無指揮權」，僅事後聽取說明並認同其合理性。\n- **亞洲資產管理中心推動：** 金管會目標「兩年有感、四年有變、六年有成」，先「留資」再「引資」，創造台灣投資動能；台灣金融狀況與韓國不同，未開放多倍槓桿 ETF。\n\n## 7. 勞動與移民政策：移工擴大開放、外籍人才延攬、失聯移工管理\n- **移工政策持續開放：** 除製造業外，已開放農業、服務業、12 歲以下家庭照護；企業為員工月加薪 2,000 元可增一移工名額（上限不超過公司員工一半）。\n- **外籍白領延攬：** 《外國專業人才延攬及任用辦法》去年 12 月再放寬，碩士以上畢業可留台兩年找工作、五年內世界前 200 大學校畢業生可來台找工作兩年、數位遊牧民可來台工作；考慮給予定居許可，未來朝「新經濟移民法」方向（依產業需求給予居留證，國籍問題社會仍需討論）。\n- **失聯移工管理：** 約 90 萬移工中失聯約 9 萬人；行政院已提出不間斷協尋計畫，提供生命安全與自由保障協助，並建立聯繫管道（細節不便公開）。\n\n## 結論與後市展望\n主講人賴清德總統對 AI 與台灣經濟前景持樂觀態度，認為人工智慧時代「才剛開始」，比照蒸汽機引發工業革命，台灣應確保未來 30–50 年競爭優勢。政府將持續推動「13 項國家戰略產業 + 171 萬家中小微企業升級 + 地方創生」三層次產業布局，並透過加薪減稅、擴大社福、穩定物價與電力供應等措施，力求「大中小產業均衡發展、避免 K 型經濟惡化」。對於股市點位不做預測，但強調「責任是把經濟做好，股市自然水漲船高」；預估明年經濟成長率將延續今年 11.05% 後的良好表現。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-17"
-    },
-    {
-      "episode_id": "e52b-b0b9-47d2-980b-baf1857cd604",
-      "title": "EP706 | 👑",
-      "url": "https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/b815e52b-b0b9-47d2-980b-baf1857cd604",
-      "published": "2026-10-17",
-      "channel": "股癌 Gooaye",
-      "transcript_source": "Podcast 音檔 · Whisper",
-      "summary_md": "## 一句話總結\n主講人因特斯拉 Roadster 飛天展示震撼而加碼訂車至 Frost 版本（總價約 750 萬定金），但市場面臨多頭後段訊號——台、美股硬體類股走弱、資金轉向軟體，提醒聽眾控管槓桿、保留現金因應潛在回調。\n\n---\n\n## 1. 特斯拉 Roadster 發布會：史上最震撼產品展示\n- **垂直倒掛、空中翻轉、火箭推進：** Roadster 在現場軌道演示垂直攀升至 90 度甚至倒掛，利用高壓風扇產生約 2G 下壓力；隨後噴射起跳、空中翻正並著陸，主講人稱震撼程度不亞於 SpaceX 火箭回收。\n- **Frost 版本與 Rocket 版本差異：** Frost 版（對外銷售）具尾噴功能，0–100 km/h 加速約 0.8 秒；Rocket 版（邀請制）配備兩組高壓氣瓶可持續噴射，但非真正飛行車而是「跳跳車」。\n- **訂單升級與價格預估：** 主講人將原 Performance 版升級為 Frost 版，累計定金 750 萬新台幣；估計 Frost 版總價 1,700–2,000 萬、Performance 版 1,200–1,400 萬，預計 2028 年美國開始生產、台灣約 2030 年交車。\n- **技術應用場景：** 認為尾噴加速有實用性，但地面噴射起跳功能僅為技術展示（類似火星崎嶇地形應用），不會成為常規道路功能。\n\n---\n\n## 2. 台股與美股盤面警訊：多頭進入中後段\n- **週四大跌後資減僅 50 億：** 加權指數週四重挫、台積電跌破 5% 支撐，但當日資減僅 50 億（主講人原預期 150–200 億），認為市場尚未清洗完畢、後續恐再下殺。\n- **強勢股快速減少：** 週五反彈力道不足，能維持多頭型態的股票越來越少（類比「糖豆人地板掉落」），中大資金已感受無處可去。\n- **台積電財報無法止跌：** 台積電法說會內容正向（CC 魏董事長表示生意盡可能承接），但股價仍無法反彈，顯示利多出盡；主講人認為若無新利多（如地緣政治緩和），盤面恐持續疲弱。\n- **韓國股市破底、記憶體供應鏈走弱：** 韓國股市（50% 市值為記憶體）準備破底，供應鏈相關硬體股壓力大；主講人已減持動能型硬體部位，保留六七成資金觀望。\n\n---\n\n## 3. 美股操作策略：軟體優先、硬體謹慎\n- **創新高股票優先加碼：** 主講人個人美股未創新高（因重壓 Broadcom 等硬體），但 NASDAQ 有新高；認為週五大跌後若軟體股率先反彈，將轉向軟體布局（硬體→平台→軟體三部曲）。\n- **Broadcom 持倉邏輯：** 儘管聯發科搶市佔，但 Broadcom 仍有光通訊、AI 加速器等多元業務；以明後年 EPS 回推不算貴，類比當年 NVIDIA 盤整期，主講人未大量加碼但維持部位。\n- **記憶體已出清、Neo-Cloud 風險高：** 美光以外記憶體股早已停損；CoreWeave 與 Navius 等 Neo-Cloud 公司發債利率極高（垃圾債等級），雖不至於倒閉（產能小、易被巨頭收購），但股價崩跌風險大，主講人不推薦。\n- **避免滿倉抄底：** 前低（NASDAQ 約 27,250 點及往下 3–5%）為潛在抄底區，但需分批進場、保留戰略縱深，避免單次滿倉槓桿導致斷頭。\n\n---\n\n## 4. 市場傳聞與風險因素\n- **CoreWeave 高收益債引疑慮：** 市場討論其可持續性，主講人認為最糟情況是被併購（不會爆炸），但股價仍可能暴跌。\n- **對沖基金爆倉傳聞：** 7 月 Leopold Aschenbrenner 爆倉 2.0 版本流傳，另有 Vara AI 基金傳出問題；主講人認為回調時各種故事會被拿來合理化跌勢，真正原因需觀察後續反彈力道。\n- **外資持續賣超台股：** 外資今年一路賣超但台股越賣越高，主講人不特別關注外資動向；認為大幅賣超後往往出現短期低點，但不保證反彈時點。\n\n---\n\n## 5. 個人理財問答摘錄\n- **繼承房產處理建議：** 建議將老房抵押貸款作為新房頭款（保留兩房），而非直接出售；夫妻出資比例建議男方略多但不過度計較，避免關係緊張。\n- **指數抄底時機：** 不設「超跌區」硬性標準，因便宜後仍可能再跌 20–30%；建議分批進場、以大盤指數（如 NASDAQ）優先於主題 ETF（如 SOX），避免高槓桿單壓。\n- **感情經營：** 若反覆爭吵同一問題，需思考是否為核心價值衝突；主講人分享自身經驗（老婆易吃醋），經時間磨合後找到平衡，建議評估整體契合度而非單一問題。\n\n---\n\n## 結論與後市展望\n主講人判斷台、美股已進入多頭中後段，強勢股快速減少、硬體類股（尤其記憶體供應鏈）承壓，資金轉向軟體股。建議投資人降低槓桿、保留現金因應潛在回調（NASDAQ 前低附近為觀察點），優先布局創新高的軟體股；硬體股若超跌且基本面熟悉可分批承接，但需設停損。個人操作維持六七成部位在市場、減持動能標的，等待下一波明確訊號再加碼。特斯拉 Roadster 雖震撼但屬長期投資（2028–2030 年交車），短期聚焦市場風控。\n\n---\n*本筆記為節目內容摘要，非投資建議。*",
-      "first_shown": "2026-10-17"
-    }
-  ],
-  "article_briefs": [
-    {
-      "title": "UX Maps: Glossary",
-      "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-10-17",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者整理了 UX 領域中 30 多種不同「地圖」（map）的定義與用途，幫助實務工作者在專案中選用正確的視覺化工具，避免混淆相似但用途不同的方法。\n\n---\n\n- **UX 地圖的核心定義：** 作者認為 UX 地圖是「體驗、流程或系統的視覺化呈現，幫助團隊建立共同理解」，實務工作者在專案中用來整合研究、對齊利害關係人、發現服務缺口與規劃未來工作。\n\n- **時間軸類地圖（Chronological Map）：** 作者指出有三種主要的時間軸地圖——體驗地圖（Experience Map）、服務藍圖（Service Blueprint）與旅程地圖（Journey Map）——都用於呈現使用者隨時間的體驗，但旅程地圖聚焦特定企業或產品，體驗地圖則關注通用人類行為。\n\n- **認知與概念視覺化工具：** 作者列舉認知地圖（Cognitive Map）可採多種形式（清單、流程圖、概念圖、心智圖或親和圖），其中概念圖用節點與標示邊線表示概念關係，心智圖則以樹狀結構呈現主題與子主題。\n\n- **策略規劃類地圖：** 作者區分三類路線圖（Roadmap）——產品路線圖涵蓋所有部門未來待解決問題，UX 路線圖（或稱 Field Roadmap）只聚焦 UX 團隊負責的主題，專業路線圖（Specialty Roadmap）更細緻到單一 UX 領域如使用者研究。\n\n- **關係與組織視覺化：** 作者說明關係地圖（Relationship Map）用於描繪組織內關鍵團隊、人員與資源的連結與協助方式，利害關係人地圖（Stakeholder Map）則評估各利害關係人對專案的權力、興趣與態度（常用 Mendelow 矩陣），技能地圖（Skill Map）用於盤點 UX 團隊的強弱項。\n\n- **流程與互動視覺化：** 作者提到使用者流程（User Flow）呈現完成任務的典型或理想步驟（可用線框流程圖 Wireflow 或流程圖表達），流程地圖（Process Map）聚焦特定使用者或商業流程的細節，故事板（Storyboard）則用連續圖片敘述事件時序。\n\n## 對設計／產品的啟示\n作者建議實務工作者將此詞彙表作為選擇地圖工具的參考指南，因為許多地圖外觀相似、名稱互通，容易混淆；明確區分各工具的用途（如旅程地圖 vs. 體驗地圖、產品路線圖 vs. UX 路線圖）可幫助團隊在專案不同階段選用最適合目標的視覺化方法，提升溝通效率與決策品質。作者亦提供相關範本與延伸文章連結，方便讀者深入學習各方法的實作細節。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-17"
-    },
-    {
-      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
-      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "published": "2026-10-17",
-      "author": "NN/g Nielsen Norman Group",
-      "handle": "nngroup",
-      "source": "NN/g",
-      "label": "UX 好文",
-      "summary_md": "## 一句話總結\n作者研究發現，AI 生成的合成受訪者（synthetic users）在回答開放式問卷時，雖然得出與 604 位真人相同的主要結論，但答案的多樣性遠低於真人，出現「模式崩塌」（mode collapse）現象。\n\n- **研究設計：** 作者使用 Synthetic Users 平台生成 120 位合成受訪者，代表全球科技與設計專業人士，並讓他們回答與先前真人調查相同的開放式問題：「哪個專業領域最能描述 UX 工作？」兩組資料都用關鍵字編碼分析。\n\n- **主要結論一致但比例更極端：** 84% 的合成受訪者使用 UX 相關術語，而真人約 70%；這個 14 個百分點的差異雖有統計顯著性，但不影響核心結論——UX 仍是主流術語。值得注意的是，真人樣本中 67% 為 UX 專業人士，合成樣本僅 20%，但合成受訪者使用 UX 術語的比例反而更高。\n\n- **模式崩塌現象明顯：** 真人使用超過 50 種不同標籤（如「consumer-behavior research」、「journey management」等），但合成受訪者只產生約 12 種標籤，完全缺少罕見或專業術語（如「digital management」或「business analysis」）。作者指出這是典型的模式崩塌——生成模型只重現最常見答案，遺失真實人群的長尾分布。\n\n- **職位影響存在但差異被低估：** 在合成資料中，45% 的客戶洞察專業人士使用「customer」一詞，而 0% 的 UX 專業人士使用；職位確實影響用詞。但合成的產品經理有 93% 使用 UX 相關術語，真人產品經理只有 44%，顯示合成受訪者過度向主流標籤靠攏，低估了不同群體間的實際差異。\n\n- **平台控制限制：** 作者發現 Synthetic Users 平台會自動將問題轉為訪談格式，有時改寫問題措辭（如加入「behaviors」），這些變動可能影響回答，但研究者無法控制。這凸顯合成用戶平台的基本限制：問題呈現方式可能成為混淆變數。\n\n## 對設計／產品的啟示\n作者強調，合成用戶研究仍非真正的用戶研究，因為沒有實際用戶被研究。合成受訪者可用於產生假設或檢驗大方向趨勢，但當研究需要捕捉罕見觀點、次群體差異、或自然變異（特別是開放式問題的長尾回答）時，必須使用真人參與者。即使合成資料得出看似合理、甚至與真人研究一致的結論，也不代表它能可靠呈現真實人群的完整多樣性。設計與產品團隊應將合成受訪者視為起點而非證據，避免因模式崩塌而遺漏重要的用戶洞察。\n\n---\n*本筆記為文章重點摘要，完整內容請見原文。*",
-      "first_shown": "2026-10-17"
-    }
-  ]
+  "podcast_briefs": [],
+  "article_briefs": []
 }
